@@ -6,6 +6,7 @@
 #05 25.11.2010: updated by mkyral (for version 3.0)
 #06 20.03.2011: updated by mkyral (branch_3.0)
 #07 24.04.2011: updated by mkyral (branch_3.0 - 3.0b1)
+#08 01.05.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -422,7 +423,7 @@ PARTIALPASTE_DARKFRAMEAUTOSELECT;Automatický výběr tmavých snímků
 PARTIALPASTE_DARKFRAMEFILE;Soubor tmavého snímku
 PARTIALPASTE_DEFRINGE;Odstranění lemu
 PARTIALPASTE_DETAILGROUP;Nastavení detailu
-PARTIALPASTE_DIALOGLABEL;Nastavení profilu částečného vložení
+PARTIALPASTE_DIALOGLABEL;Částečné vložení profilu zpracování
 PARTIALPASTE_DIRPYRDENOISE;Redukce šumu
 PARTIALPASTE_DIRPYREQUALIZER;Kontrast dle detailu úrovní
 PARTIALPASTE_DISTORTION;Korekce zkreslení

@@ -27,8 +27,14 @@ then
   echo "         You have to do it manually."
   [ -f "$new_rt_file" ] && rm $new_rt_file
 else
+  new_date=$(date '+%d.%m.%Y')
+  new_name=${TRANSLATOR_NAME}
+
   # Copy translation history
-  grep '^#' $orig_rt_file > $new_rt_file
+  grep '^#' $orig_rt_file |grep -v '${new_date}:' > $new_rt_file
+  old_ver=$(tail -n 1 $new_rt_file | sed 's/#\([0-9]*\) .*$/\1/')
+  ((new_ver = old_ver + 1))
+  printf "#%02d %s: updated by %s\n" $new_ver "$new_date" "$new_name" >>$new_rt_file
 fi
 
 # initialization
@@ -49,6 +55,11 @@ write_key()
 
 while read -r LINE
 do
+  if [ $(echo "$LINE" | grep -c '^msgctxt') -gt 0 ]
+  then
+    continue
+  fi
+
   if [ $(echo "$LINE" | grep -c '^#:') -gt 0 ]
   then
     if [ $in_msgid -gt 0 ]; then in_msgid=0; fi

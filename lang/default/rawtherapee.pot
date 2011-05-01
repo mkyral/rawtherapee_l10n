@@ -1,5 +1,5 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# RawTherapee.
+# Copyright (C) 2004-2011, Gábor Horváth
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-01 11:09+0200\n"
+"POT-Creation-Date: 2011-05-01 12:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,12 +45,12 @@ msgstr ""
 msgid "Auto start"
 msgstr ""
 
-#: CURVEEDITOR_CURVE
-msgid "Curve"
-msgstr ""
-
 #: CURVEEDITOR_CURVES
 msgid "Curves"
+msgstr ""
+
+#: CURVEEDITOR_CURVE
+msgid "Curve"
 msgstr ""
 
 #: CURVEEDITOR_CUSTOM,ICMPANEL_INPUTCUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
@@ -161,12 +161,12 @@ msgstr ""
 msgid "Shutter"
 msgstr ""
 
-#: EXIFPANEL_ADDEDIT
-msgid "Add/Edit"
-msgstr ""
-
 #: EXIFPANEL_ADDEDITHINT
 msgid "Add new tag or edit tag"
+msgstr ""
+
+#: EXIFPANEL_ADDEDIT
+msgid "Add/Edit"
 msgstr ""
 
 #: EXIFPANEL_ADDTAGDLG_ENTERVALUE
@@ -245,16 +245,16 @@ msgstr ""
 msgid "Type path to browse (<b>Ctrl-o</b> set focus,<b>Ctrl-Enter</b> to browse in File Browser);\nPath shortcuts: <b>~</b> - user's home directory, <b>!</b> - user's pictures directory"
 msgstr ""
 
-#: FILEBROWSER_CACHE
-msgid "Cache"
-msgstr ""
-
 #: FILEBROWSER_CACHECLEARFROMFULL
 msgid "Clear from cache - full"
 msgstr ""
 
 #: FILEBROWSER_CACHECLEARFROMPARTIAL
 msgid "Clear from cache - partial"
+msgstr ""
+
+#: FILEBROWSER_CACHE
+msgid "Cache"
 msgstr ""
 
 #: FILEBROWSER_CLEARPROFILE
@@ -277,28 +277,28 @@ msgstr ""
 msgid "File delete confirmation"
 msgstr ""
 
-#: FILEBROWSER_DELETEDLGMSG
-msgid "Are you sure you want to delete the selected %1 files?"
-msgstr ""
-
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
 msgid "Are you sure you want to delete the selected %1 files INCLUDING a batch processed version?"
 msgstr ""
 
-#: FILEBROWSER_EMPTYTRASH
-msgid "Empty Trash"
+#: FILEBROWSER_DELETEDLGMSG
+msgid "Are you sure you want to delete the selected %1 files?"
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASHHINT
 msgid "Permanently delete the files of the trash"
 msgstr ""
 
-#: FILEBROWSER_EXIFFILTERAPPLY
-msgid "Apply"
+#: FILEBROWSER_EMPTYTRASH
+msgid "Empty Trash"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
 msgid "Switch on/off exif filter of the file browser"
+msgstr ""
+
+#: FILEBROWSER_EXIFFILTERAPPLY
+msgid "Apply"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERSETTINGSHINT
@@ -809,12 +809,12 @@ msgstr ""
 msgid "'L' Curve"
 msgstr ""
 
-#: HISTORY_MSG_2
-msgid "Profile Loaded"
-msgstr ""
-
 #: HISTORY_MSG_20,PARTIALPASTE_SHARPENING,TP_SHARPENING_LABEL
 msgid "Sharpening"
+msgstr ""
+
+#: HISTORY_MSG_2
+msgid "Profile Loaded"
 msgstr ""
 
 #: HISTORY_MSG_21
@@ -1165,12 +1165,12 @@ msgstr ""
 msgid "Set to"
 msgstr ""
 
-#: HISTORY_SNAPSHOT
-msgid "Snapshot"
-msgstr ""
-
 #: HISTORY_SNAPSHOTS
 msgid "Snapshots"
+msgstr ""
+
+#: HISTORY_SNAPSHOT
+msgid "Snapshot"
 msgstr ""
 
 #: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
@@ -1221,104 +1221,104 @@ msgstr ""
 msgid "Detail view"
 msgstr ""
 
-#: IPTCPANEL_AUTHOR
-msgid "Author"
-msgstr ""
-
 #: IPTCPANEL_AUTHORHINT
 msgid "Name of the creator of the object, e.g. writer, photographer or graphic artist (By-line)."
-msgstr ""
-
-#: IPTCPANEL_AUTHORSPOSITION
-msgid "Author's position"
 msgstr ""
 
 #: IPTCPANEL_AUTHORSPOSITIONHINT
 msgid "Title of the creator or creators of the object (By-line Title)."
 msgstr ""
 
-#: IPTCPANEL_CAPTION
-msgid "Caption"
+#: IPTCPANEL_AUTHORSPOSITION
+msgid "Author's position"
+msgstr ""
+
+#: IPTCPANEL_AUTHOR
+msgid "Author"
 msgstr ""
 
 #: IPTCPANEL_CAPTIONHINT
 msgid "A textual description of the data (Caption - Abstract)."
 msgstr ""
 
-#: IPTCPANEL_CAPTIONWRITER
-msgid "Caption Writer"
-msgstr ""
-
 #: IPTCPANEL_CAPTIONWRITERHINT
 msgid "The name of the person involved in the writing, editing or correcting the image or caption/abstract (Writer - Editor)."
 msgstr ""
 
-#: IPTCPANEL_CATEGORY
-msgid "Category"
+#: IPTCPANEL_CAPTIONWRITER
+msgid "Caption Writer"
+msgstr ""
+
+#: IPTCPANEL_CAPTION
+msgid "Caption"
 msgstr ""
 
 #: IPTCPANEL_CATEGORYHINT
 msgid "Identifies the subject of the image in the opinion of the provider (Category)."
 msgstr ""
 
-#: IPTCPANEL_CITY
-msgid "City"
+#: IPTCPANEL_CATEGORY
+msgid "Category"
 msgstr ""
 
 #: IPTCPANEL_CITYHINT
 msgid "City of image origin (City)."
 msgstr ""
 
-#: IPTCPANEL_COPYHINT
-msgid "Copy IPTC settings to clipboard"
+#: IPTCPANEL_CITY
+msgid "City"
 msgstr ""
 
-#: IPTCPANEL_COPYRIGHT
-msgid "Copyright"
+#: IPTCPANEL_COPYHINT
+msgid "Copy IPTC settings to clipboard"
 msgstr ""
 
 #: IPTCPANEL_COPYRIGHTHINT
 msgid "Any necessary copyright notice (Copyright Notice)."
 msgstr ""
 
-#: IPTCPANEL_COUNTRY
-msgid "Country"
+#: IPTCPANEL_COPYRIGHT
+msgid "Copyright"
 msgstr ""
 
 #: IPTCPANEL_COUNTRYHINT
 msgid "The name of the country/primary location where the image was created (Country - Primary Location Name)."
 msgstr ""
 
-#: IPTCPANEL_CREDIT
-msgid "Credit"
+#: IPTCPANEL_COUNTRY
+msgid "Country"
 msgstr ""
 
 #: IPTCPANEL_CREDITHINT
 msgid "Identifies the provider of the image, not necessarily the owner/creator (Credit)."
 msgstr ""
 
-#: IPTCPANEL_DATECREATED
-msgid "Date Created"
+#: IPTCPANEL_CREDIT
+msgid "Credit"
 msgstr ""
 
 #: IPTCPANEL_DATECREATEDHINT
 msgid "The date the intellectual content of the image was created; Format: JJJJMMTT (Date Created)."
 msgstr ""
 
-#: IPTCPANEL_EMBEDDED
-msgid "Embedded"
+#: IPTCPANEL_DATECREATED
+msgid "Date Created"
 msgstr ""
 
 #: IPTCPANEL_EMBEDDEDHINT
 msgid "Reset to IPTC data embedded in the image file"
 msgstr ""
 
-#: IPTCPANEL_HEADLINE
-msgid "Headline"
+#: IPTCPANEL_EMBEDDED
+msgid "Embedded"
 msgstr ""
 
 #: IPTCPANEL_HEADLINEHINT
 msgid "A publishable entry providing a synopsis of the contents of the image (Headline)."
+msgstr ""
+
+#: IPTCPANEL_HEADLINE
+msgid "Headline"
 msgstr ""
 
 #: IPTCPANEL_INSTRUCTIONSHINT
@@ -1421,28 +1421,28 @@ msgstr ""
 msgid "Exit fullscreen"
 msgstr ""
 
-#: MAIN_FRAME_BATCHQUEUE
-msgid "Batch Queue "
-msgstr ""
-
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
 msgid " Batch Queue  <b>Ctrl-F3</b> "
 msgstr ""
 
-#: MAIN_FRAME_EDITOR
-msgid "Editor "
+#: MAIN_FRAME_BATCHQUEUE
+msgid "Batch Queue "
 msgstr ""
 
 #: MAIN_FRAME_EDITOR_TOOLTIP
 msgid " Editor  <b>Ctrl-F4</b> "
 msgstr ""
 
-#: MAIN_FRAME_FILEBROWSER
-msgid "File Browser "
+#: MAIN_FRAME_EDITOR
+msgid "Editor "
 msgstr ""
 
 #: MAIN_FRAME_FILEBROWSER_TOOLTIP
 msgid " File Browser  <b>Ctrl-F2</b> "
+msgstr ""
+
+#: MAIN_FRAME_FILEBROWSER
+msgid "File Browser "
 msgstr ""
 
 #: MAIN_FRAME_PLACES
@@ -1465,12 +1465,12 @@ msgstr ""
 msgid "File saving error"
 msgstr ""
 
-#: MAIN_MSG_CANNOTSTARTEDITOR
-msgid "Can not start editor."
-msgstr ""
-
 #: MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY
 msgid "Please set the correct path in the \"Preferences\" dialog."
+msgstr ""
+
+#: MAIN_MSG_CANNOTSTARTEDITOR
+msgid "Can not start editor."
 msgstr ""
 
 #: MAIN_MSG_ERRORDURINGIMAGESAVING
@@ -1505,12 +1505,12 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
-#: MAIN_TAB_COLOR
-msgid "Color"
-msgstr ""
-
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "<b>Alt-c</b>"
+msgstr ""
+
+#: MAIN_TAB_COLOR
+msgid "Color"
 msgstr ""
 
 #: MAIN_TAB_DETAIL_TOOLTIP
@@ -1557,12 +1557,12 @@ msgstr ""
 msgid "<b>Alt-m</b>"
 msgstr ""
 
-#: MAIN_TAB_RAW
-msgid "RAW"
-msgstr ""
-
 #: MAIN_TAB_RAW_TOOLTIP
 msgid "<b>Alt-r</b>"
+msgstr ""
+
+#: MAIN_TAB_RAW
+msgid "RAW"
 msgstr ""
 
 #: MAIN_TAB_TAGGING
@@ -1793,12 +1793,12 @@ msgstr ""
 msgid "Highlight recovery amount"
 msgstr ""
 
-#: PARTIALPASTE_HLRECOVERY
-msgid "Highlight recovery"
-msgstr ""
-
 #: PARTIALPASTE_HLRECOVERYTHRESHOLD,TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
 msgid "Highlight recovery threshold"
+msgstr ""
+
+#: PARTIALPASTE_HLRECOVERY
+msgid "Highlight recovery"
 msgstr ""
 
 #: PARTIALPASTE_CHANNELMIXER
@@ -2005,16 +2005,16 @@ msgstr ""
 msgid "templates"
 msgstr ""
 
-#: PREFERENCES_DATEFORMAT
-msgid "Date Format"
-msgstr ""
-
 #: PREFERENCES_DATEFORMATFRAME
 msgid "Date Format "
 msgstr ""
 
 #: PREFERENCES_DATEFORMATHINT
 msgid "<i>You can use the following formatting strings:</i>\n<b>%y</b><i> : year</i>\n<b>%m</b><i> : month</i>\n<b>%d</b><i> : day</i>\n<i>\nFor example, the hungarian date format is:</i>\n<b>%y/%m/%d</b>"
+msgstr ""
+
+#: PREFERENCES_DATEFORMAT
+msgid "Date Format"
 msgstr ""
 
 #: PREFERENCES_DEFAULTLANG
@@ -2157,16 +2157,16 @@ msgstr ""
 msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ...\n\nThese formatting strings refer to the different parts of the photo's pathname.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
 msgstr ""
 
-#: PREFERENCES_OUTDIR
-msgid "Output Directory"
-msgstr ""
-
 #: PREFERENCES_OUTDIRTEMPLATEHINT
 msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname, or some attributes of the photo.\n\n%r will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in trash bin, %r will be replaced by 'x'.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
 msgstr ""
 
 #: PREFERENCES_OUTDIRTEMPLATE
 msgid "Use Template"
+msgstr ""
+
+#: PREFERENCES_OUTDIR
+msgid "Output Directory"
 msgstr ""
 
 #: PREFERENCES_OVERLAY_FILENAMES
@@ -2177,12 +2177,12 @@ msgstr ""
 msgid "Overwrite existing output files"
 msgstr ""
 
-#: PREFERENCES_PARSEDEXTADD
-msgid "Add Extension"
-msgstr ""
-
 #: PREFERENCES_PARSEDEXTADDHINT
 msgid "Type an extension and press this button to append list"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTADD
+msgid "Add Extension"
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTDELHINT
@@ -2265,12 +2265,12 @@ msgstr ""
 msgid "Threshold for clipped shadows"
 msgstr ""
 
-#: PREFERENCES_SINGLETAB
-msgid "Single tab mode"
-msgstr ""
-
 #: PREFERENCES_SINGLETABVERTAB
 msgid "Single tab mode, vertical tabs"
+msgstr ""
+
+#: PREFERENCES_SINGLETAB
+msgid "Single tab mode"
 msgstr ""
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
@@ -2409,12 +2409,12 @@ msgstr ""
 msgid "Line Denoise..."
 msgstr ""
 
-#: PROGRESSBAR_LOADING
-msgid "Loading Image..."
-msgstr ""
-
 #: PROGRESSBAR_LOADINGTHUMBS
 msgid "Loading thumbnails..."
+msgstr ""
+
+#: PROGRESSBAR_LOADING
+msgid "Loading Image..."
 msgstr ""
 
 #: PROGRESSBAR_LOADJPEG
@@ -2485,12 +2485,12 @@ msgstr ""
 msgid "Put to the head of the processing queue"
 msgstr ""
 
-#: SAVEDLG_PUTTOQUEUE
-msgid "Put into processing queue"
-msgstr ""
-
 #: SAVEDLG_PUTTOQUEUETAIL
 msgid "Put to the end of the processing queue"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUE
+msgid "Put into processing queue"
 msgstr ""
 
 #: SAVEDLG_SAVEIMMEDIATELY
@@ -2658,6 +2658,7 @@ msgid "Guide Type:"
 msgstr ""
 
 #: TP_CROP_H
+msgctxt "TP_CROP_H"
 msgid "H"
 msgstr ""
 
@@ -2721,12 +2722,12 @@ msgstr ""
 msgid "Neutral"
 msgstr ""
 
-#: TP_DISTORTION_AUTO
-msgid "Auto distortion correction"
-msgstr ""
-
 #: TP_DISTORTION_AUTO_TIP
 msgid "(Exprimental) Correct lens distortion automatically for some cameras (M4/3, some compact DC, etc.)"
+msgstr ""
+
+#: TP_DISTORTION_AUTO
+msgid "Auto distortion correction"
 msgstr ""
 
 #: TP_DISTORTION_LABEL
@@ -2802,6 +2803,7 @@ msgid "Method: "
 msgstr ""
 
 #: TP_HSVEQUALIZER_HUE
+msgctxt "TP_HSVEQUALIZER_HUE"
 msgid "H"
 msgstr ""
 
@@ -2913,16 +2915,16 @@ msgstr ""
 msgid "Applies to:"
 msgstr ""
 
-#: TP_RESIZE_BICUBIC
-msgid "Bicubic"
-msgstr ""
-
 #: TP_RESIZE_BICUBICSF
 msgid "Bicubic (Softer)"
 msgstr ""
 
 #: TP_RESIZE_BICUBICSH
 msgid "Bicubic (Sharper)"
+msgstr ""
+
+#: TP_RESIZE_BICUBIC
+msgid "Bicubic"
 msgstr ""
 
 #: TP_RESIZE_BILINEAR
@@ -3033,16 +3035,16 @@ msgstr ""
 msgid "Unsharp Mask"
 msgstr ""
 
-#: TP_VIGNETTING_CENTER
-msgid "Center"
-msgstr ""
-
 #: TP_VIGNETTING_CENTER_X
 msgid "Center X"
 msgstr ""
 
 #: TP_VIGNETTING_CENTER_Y
 msgid "Center Y"
+msgstr ""
+
+#: TP_VIGNETTING_CENTER
+msgid "Center"
 msgstr ""
 
 #: TP_VIGNETTING_STRENGTH

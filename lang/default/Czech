@@ -6,6 +6,7 @@
 #05 25.11.2010: updated by mkyral (for version 3.0)
 #06 06.03.2011: updated by mkyral (default branch)
 #07 20.03.2011: updated by mkyral (default branch)
+#08 01.05.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -23,6 +24,7 @@ CURVEEDITOR_HIGHLIGHTS;Světla
 CURVEEDITOR_LIGHTS;Světlé
 CURVEEDITOR_LINEAR;Lineární
 CURVEEDITOR_LOADDLGLABEL;Načíst křivku...
+CURVEEDITOR_MINMAXCPOINTS;Min/Max kontrolní body
 CURVEEDITOR_NURBS;Deformační klec
 CURVEEDITOR_PARAMETRIC;Parametrická
 CURVEEDITOR_SAVEDLGLABEL;Uložit křivku...
@@ -61,7 +63,7 @@ FILEBROWSER_ARRANGEMENTHINT;Přepnout mezi vertikálním/horizontálním zarovn�
 FILEBROWSER_AUTODARKFRAME;Auto tmavé snímky
 FILEBROWSER_AUTOFLATFIELD;Auto Flat-Field
 FILEBROWSER_BROWSEPATHBUTTONHINT;Klikněte pro výběr cesty
-FILEBROWSER_BROWSEPATHHINT;Vložte cestu pro procházení (<b>Ctrl-o</b> zaměření,<b>Ctrl-Enter</b> pro procházení v prohlížeči souborů)
+FILEBROWSER_BROWSEPATHHINT;Vložte cestu pro procházení (<b>Ctrl-o</b> zaměření,<b>Ctrl-Enter</b> pro procházení v prohlížeči souborů);\nZkratky pro cesty: <b>~</b> - domácí složka uživatele, <b>!</b> - složka s obrázky uživatele
 FILEBROWSER_CACHE;Cache
 FILEBROWSER_CACHECLEARFROMFULL;Vymazat z cache - úplně
 FILEBROWSER_CACHECLEARFROMPARTIAL;Vymazat z cache - částečně
@@ -453,7 +455,7 @@ PARTIALPASTE_DARKFRAMEAUTOSELECT;Automatický výběr tmavých snímků
 PARTIALPASTE_DARKFRAMEFILE;Soubor tmavého snímku
 PARTIALPASTE_DEFRINGE;Odstranění lemu
 PARTIALPASTE_DETAILGROUP;Nastavení detailů
-PARTIALPASTE_DIALOGLABEL;Nastavení profilu částečného vložení
+PARTIALPASTE_DIALOGLABEL;Částečné vložení profilu zpracování
 PARTIALPASTE_DIRPYRDENOISE;Redukce šumu
 PARTIALPASTE_DIRPYREQUALIZER;Kontrast dle detailu úrovní
 PARTIALPASTE_DISTORTION;Korekce zkreslení
@@ -471,7 +473,6 @@ PARTIALPASTE_HLRECOVERYTHRESHOLD;Práh obnovení světel
 PARTIALPASTE_HSVEQUALIZER;HSV korekce
 PARTIALPASTE_CHANNELMIXER;Míchání kanálů
 PARTIALPASTE_ICMSETTINGS;Nastavení ICM
-PARTIALPASTE_IMPULSEDENOISE;Redukce impulzního šumu
 PARTIALPASTE_IMPULSEDENOISE;Redukce impulzního šumu
 PARTIALPASTE_IPTCINFO;IPTC info
 PARTIALPASTE_LABCURVE;Úprava LAB křivek
@@ -527,6 +528,7 @@ PREFERENCES_DARKFRAMESHOTS;snímků
 PREFERENCES_DARKFRAMETEMPLATES;šablon
 PREFERENCES_DARKFRAME;Tmavý snímek
 PREFERENCES_DATEFORMAT;Formát data
+PREFERENCES_DATEFORMATFRAME;Formát data 
 PREFERENCES_DATEFORMATHINT;<i>Lze použít následující formátovací řetězce:</i>\n<b>%y</b><i> : rok (year)</i>\n<b>%m</b><i> : měsíc (month)</i>\n<b>%d</b><i> : den (day)</i>\n<i>\nNapříklad český formát data:</i>\n<b>%d. %m. %y</b>
 PREFERENCES_DEFAULTLANG;Výchozí jazyk
 PREFERENCES_DEFAULTTHEME;Výchozí vzhled
@@ -760,12 +762,12 @@ TP_HLREC_COLOR;Propagace barev
 TP_HLREC_LABEL;Rekonstrukce světel
 TP_HLREC_LUMINANCE;Obnovení jasů
 TP_HLREC_METHOD;Metoda:
-TP_HSVEQUALIZER_HUE;Odstín
+TP_HSVEQUALIZER_HUE;H
 TP_HSVEQUALIZER_CHANNEL;HSV kanál
 TP_HSVEQUALIZER_LABEL;HSV korekce
 TP_HSVEQUALIZER_NEUTRAL;Neutrální
-TP_HSVEQUALIZER_SAT;Sytost
-TP_HSVEQUALIZER_VAL;Hodnota
+TP_HSVEQUALIZER_SAT;S
+TP_HSVEQUALIZER_VAL;V
 TP_HSVEQUALIZER1;Červená
 TP_HSVEQUALIZER2;Žlutá
 TP_HSVEQUALIZER3;Limetková

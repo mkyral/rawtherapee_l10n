@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-03-20 22:07+0100\n"
-"PO-Revision-Date: 2011-03-20 21:37+0100\n"
+"POT-Creation-Date: 2011-05-01 12:30+0200\n"
+"PO-Revision-Date: 2011-05-01 12:39+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -42,13 +42,13 @@ msgstr "Dávkové zpracování"
 msgid "Auto start"
 msgstr "Automatický start"
 
-#: CURVEEDITOR_CURVE
-msgid "Curve"
-msgstr "Křivka"
-
 #: CURVEEDITOR_CURVES
 msgid "Curves"
 msgstr "Křivky"
+
+#: CURVEEDITOR_CURVE
+msgid "Curve"
+msgstr "Křivka"
 
 #: CURVEEDITOR_CUSTOM,ICMPANEL_INPUTCUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
 msgid "Custom"
@@ -81,6 +81,10 @@ msgstr "Lineární"
 #: CURVEEDITOR_LOADDLGLABEL
 msgid "Load Curve..."
 msgstr "Načíst křivku..."
+
+#: CURVEEDITOR_MINMAXCPOINTS
+msgid "Minima/Maxima control points"
+msgstr "Min/Max kontrolní body"
 
 #: CURVEEDITOR_NURBS
 msgid "Control cage"
@@ -154,13 +158,13 @@ msgstr "Povolit filtr metadat"
 msgid "Shutter"
 msgstr "Rychlost závěrky"
 
-#: EXIFPANEL_ADDEDIT
-msgid "Add/Edit"
-msgstr "Přidat/Změnit"
-
 #: EXIFPANEL_ADDEDITHINT
 msgid "Add new tag or edit tag"
 msgstr "Přidat/Opravit štítek"
+
+#: EXIFPANEL_ADDEDIT
+msgid "Add/Edit"
+msgstr "Přidat/Změnit"
 
 #: EXIFPANEL_ADDTAGDLG_ENTERVALUE
 msgid "Enter value"
@@ -237,14 +241,14 @@ msgstr "Klikněte pro výběr cesty"
 #: FILEBROWSER_BROWSEPATHHINT
 msgid ""
 "Type path to browse (<b>Ctrl-o</b> set focus,<b>Ctrl-Enter</b> to browse in "
-"File Browser)"
+"File Browser);\n"
+"Path shortcuts: <b>~</b> - user's home directory, <b>!</b> - user's pictures "
+"directory"
 msgstr ""
 "Vložte cestu pro procházení (<b>Ctrl-o</b> zaměření,<b>Ctrl-Enter</b> pro "
-"procházení v prohlížeči souborů)"
-
-#: FILEBROWSER_CACHE
-msgid "Cache"
-msgstr "Cache"
+"procházení v prohlížeči souborů);\n"
+"Zkratky pro cesty: <b>~</b> - domácí složka uživatele, <b>!</b> - složka s "
+"obrázky uživatele"
 
 #: FILEBROWSER_CACHECLEARFROMFULL
 msgid "Clear from cache - full"
@@ -253,6 +257,10 @@ msgstr "Vymazat z cache - úplně"
 #: FILEBROWSER_CACHECLEARFROMPARTIAL
 msgid "Clear from cache - partial"
 msgstr "Vymazat z cache - částečně"
+
+#: FILEBROWSER_CACHE
+msgid "Cache"
+msgstr "Cache"
 
 #: FILEBROWSER_CLEARPROFILE
 msgid "Clear profile"
@@ -274,10 +282,6 @@ msgstr "Tmavý snímek"
 msgid "File delete confirmation"
 msgstr "Potvrzení smazání souboru"
 
-#: FILEBROWSER_DELETEDLGMSG
-msgid "Are you sure you want to delete the selected %1 files?"
-msgstr "Jste si jisti, že chcete vymazat %1 vybraných souborů?"
-
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
 msgid ""
 "Are you sure you want to delete the selected %1 files INCLUDING a batch "
@@ -286,21 +290,25 @@ msgstr ""
 "Jste si jisti, že chcete vymazat %1 vybraných souborů VČETNĚ verzí dávkového "
 "zpracování?"
 
-#: FILEBROWSER_EMPTYTRASH
-msgid "Empty Trash"
-msgstr "Vysypat koš"
+#: FILEBROWSER_DELETEDLGMSG
+msgid "Are you sure you want to delete the selected %1 files?"
+msgstr "Jste si jisti, že chcete vymazat %1 vybraných souborů?"
 
 #: FILEBROWSER_EMPTYTRASHHINT
 msgid "Permanently delete the files of the trash"
 msgstr "Trvalé smazání souborů z koše"
 
-#: FILEBROWSER_EXIFFILTERAPPLY
-msgid "Apply"
-msgstr "Použít"
+#: FILEBROWSER_EMPTYTRASH
+msgid "Empty Trash"
+msgstr "Vysypat koš"
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
 msgid "Switch on/off exif filter of the file browser"
 msgstr "Zapne/Vypne filtrování dle exif v prohlížeči souborů"
+
+#: FILEBROWSER_EXIFFILTERAPPLY
+msgid "Apply"
+msgstr "Použít"
 
 #: FILEBROWSER_EXIFFILTERSETTINGSHINT
 msgid "Change settings of the exif filter"
@@ -810,13 +818,13 @@ msgstr "Jas Komprese stínů"
 msgid "'L' Curve"
 msgstr "'L' křivka"
 
-#: HISTORY_MSG_2
-msgid "Profile Loaded"
-msgstr "Profil načten"
-
 #: HISTORY_MSG_20,PARTIALPASTE_SHARPENING,TP_SHARPENING_LABEL
 msgid "Sharpening"
 msgstr "Doostření"
+
+#: HISTORY_MSG_2
+msgid "Profile Loaded"
+msgstr "Profil načten"
 
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
@@ -1090,7 +1098,7 @@ msgstr "Vlnkové koeficienty"
 msgid "Wavelet equalizer"
 msgstr "Vlnková korekce"
 
-#: HISTORY_MSG_87,PARTIALPASTE_IMPULSEDENOISE,PARTIALPASTE_IMPULSEDENOISE
+#: HISTORY_MSG_87,PARTIALPASTE_IMPULSEDENOISE
 msgid "Impulse noise reduction"
 msgstr "Redukce impulzního šumu"
 
@@ -1126,7 +1134,7 @@ msgstr "Kontrast dle detailu úrovní - hodnota"
 msgid "Contrast by detail levels"
 msgstr "Kontrast dle detailu úrovní"
 
-#: HISTORY_MSG_95,PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION,TP_HSVEQUALIZER_SAT,TP_LABCURVE_SATURATION
+#: HISTORY_MSG_95,PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION,TP_LABCURVE_SATURATION
 msgid "Saturation"
 msgstr "Sytost"
 
@@ -1166,13 +1174,13 @@ msgstr "Přidat nový snímek"
 msgid "Set to"
 msgstr "Nastavit na"
 
-#: HISTORY_SNAPSHOT
-msgid "Snapshot"
-msgstr "Snímek"
-
 #: HISTORY_SNAPSHOTS
 msgid "Snapshots"
 msgstr "Snímky"
+
+#: HISTORY_SNAPSHOT
+msgid "Snapshot"
+msgstr "Snímek"
 
 #: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
 msgid "ICC Profile Files"
@@ -1222,35 +1230,27 @@ msgstr "Pracovní barevný prostor"
 msgid "Detail view"
 msgstr "Detailní pohled"
 
-#: IPTCPANEL_AUTHOR
-msgid "Author"
-msgstr "Autor"
-
 #: IPTCPANEL_AUTHORHINT
 msgid ""
 "Name of the creator of the object, e.g. writer, photographer or graphic "
 "artist (By-line)."
 msgstr "Jméno autora, například spisovatele, fotografa nebo grafika (By-line)."
 
-#: IPTCPANEL_AUTHORSPOSITION
-msgid "Author's position"
-msgstr "Autorova pozice"
-
 #: IPTCPANEL_AUTHORSPOSITIONHINT
 msgid "Title of the creator or creators of the object (By-line Title)."
 msgstr "Titul/pozice autora nebo autorů obrázku (By-line Title)."
 
-#: IPTCPANEL_CAPTION
-msgid "Caption"
-msgstr "Popis"
+#: IPTCPANEL_AUTHORSPOSITION
+msgid "Author's position"
+msgstr "Autorova pozice"
+
+#: IPTCPANEL_AUTHOR
+msgid "Author"
+msgstr "Autor"
 
 #: IPTCPANEL_CAPTIONHINT
 msgid "A textual description of the data (Caption - Abstract)."
 msgstr "Textový popis dat (Popis - Shrnutí)"
-
-#: IPTCPANEL_CAPTIONWRITER
-msgid "Caption Writer"
-msgstr "Popisovač"
 
 #: IPTCPANEL_CAPTIONWRITERHINT
 msgid ""
@@ -1260,9 +1260,13 @@ msgstr ""
 "Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
 "(Autor - Editor)"
 
-#: IPTCPANEL_CATEGORY
-msgid "Category"
-msgstr "Kategorie"
+#: IPTCPANEL_CAPTIONWRITER
+msgid "Caption Writer"
+msgstr "Popisovač"
+
+#: IPTCPANEL_CAPTION
+msgid "Caption"
+msgstr "Popis"
 
 #: IPTCPANEL_CATEGORYHINT
 msgid ""
@@ -1270,29 +1274,29 @@ msgid ""
 "(Category)."
 msgstr "Obsah obrázku dle názoru dodavatele (Kategorie)."
 
-#: IPTCPANEL_CITY
-msgid "City"
-msgstr "Město"
+#: IPTCPANEL_CATEGORY
+msgid "Category"
+msgstr "Kategorie"
 
 #: IPTCPANEL_CITYHINT
 msgid "City of image origin (City)."
 msgstr "Místo vzniku obrázku (Město)."
 
+#: IPTCPANEL_CITY
+msgid "City"
+msgstr "Město"
+
 #: IPTCPANEL_COPYHINT
 msgid "Copy IPTC settings to clipboard"
 msgstr "Zkopíruj IPTC nastavení do schránky"
-
-#: IPTCPANEL_COPYRIGHT
-msgid "Copyright"
-msgstr "Copyright"
 
 #: IPTCPANEL_COPYRIGHTHINT
 msgid "Any necessary copyright notice (Copyright Notice)."
 msgstr "Autorská práva (Copyright Notice)."
 
-#: IPTCPANEL_COUNTRY
-msgid "Country"
-msgstr "Země"
+#: IPTCPANEL_COPYRIGHT
+msgid "Copyright"
+msgstr "Copyright"
 
 #: IPTCPANEL_COUNTRYHINT
 msgid ""
@@ -1300,9 +1304,9 @@ msgid ""
 "(Country - Primary Location Name)."
 msgstr "Jméno země/lokace kde byl obrázek vytvořen (Země - Lokace)."
 
-#: IPTCPANEL_CREDIT
-msgid "Credit"
-msgstr "Zásluhy"
+#: IPTCPANEL_COUNTRY
+msgid "Country"
+msgstr "Země"
 
 #: IPTCPANEL_CREDITHINT
 msgid ""
@@ -1310,9 +1314,9 @@ msgid ""
 "(Credit)."
 msgstr "Dodavatel obrázku, ne nutně vlastník/autor (Credit)."
 
-#: IPTCPANEL_DATECREATED
-msgid "Date Created"
-msgstr "Datum vytvoření"
+#: IPTCPANEL_CREDIT
+msgid "Credit"
+msgstr "Zásluhy"
 
 #: IPTCPANEL_DATECREATEDHINT
 msgid ""
@@ -1320,23 +1324,27 @@ msgid ""
 "(Date Created)."
 msgstr "Kdy byl obrázek vytvořen; Formát: RRRRMMDD (Datum vytvoření)."
 
-#: IPTCPANEL_EMBEDDED
-msgid "Embedded"
-msgstr "Uložené"
+#: IPTCPANEL_DATECREATED
+msgid "Date Created"
+msgstr "Datum vytvoření"
 
 #: IPTCPANEL_EMBEDDEDHINT
 msgid "Reset to IPTC data embedded in the image file"
 msgstr "Obnov IPTC data z obrázku"
 
-#: IPTCPANEL_HEADLINE
-msgid "Headline"
-msgstr "Nadpis"
+#: IPTCPANEL_EMBEDDED
+msgid "Embedded"
+msgstr "Uložené"
 
 #: IPTCPANEL_HEADLINEHINT
 msgid ""
 "A publishable entry providing a synopsis of the contents of the image "
 "(Headline)."
 msgstr "Uveřejnitelný krátký popis obrázku (Nadpis)."
+
+#: IPTCPANEL_HEADLINE
+msgid "Headline"
+msgstr "Nadpis"
 
 #: IPTCPANEL_INSTRUCTIONSHINT
 msgid ""
@@ -1444,29 +1452,29 @@ msgstr "Zobrazit/skrýt všechny postraní panely <b>m</b>"
 msgid "Exit fullscreen"
 msgstr "Ukončit mód celé obrazovky"
 
-#: MAIN_FRAME_BATCHQUEUE
-msgid "Batch Queue "
-msgstr "Fronta"
-
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
 msgid " Batch Queue  <b>Ctrl-F3</b> "
 msgstr " Fronta zpracování  <b>Ctrl-F3</b> "
 
-#: MAIN_FRAME_EDITOR
-msgid "Editor "
-msgstr "Editor"
+#: MAIN_FRAME_BATCHQUEUE
+msgid "Batch Queue "
+msgstr "Fronta"
 
 #: MAIN_FRAME_EDITOR_TOOLTIP
 msgid " Editor  <b>Ctrl-F4</b> "
 msgstr " Editor  <b>Ctrl-F4</b> "
 
-#: MAIN_FRAME_FILEBROWSER
-msgid "File Browser "
-msgstr "Prohlížeč souborů "
+#: MAIN_FRAME_EDITOR
+msgid "Editor "
+msgstr "Editor"
 
 #: MAIN_FRAME_FILEBROWSER_TOOLTIP
 msgid " File Browser  <b>Ctrl-F2</b> "
 msgstr " Prohlížeč souborů  <b>Ctrl-F2</b> "
+
+#: MAIN_FRAME_FILEBROWSER
+msgid "File Browser "
+msgstr "Prohlížeč souborů "
 
 #: MAIN_FRAME_PLACES
 msgid "Places "
@@ -1488,13 +1496,13 @@ msgstr "Nepodařilo se načíst obrázek"
 msgid "File saving error"
 msgstr "Chyba při ukládání souboru."
 
-#: MAIN_MSG_CANNOTSTARTEDITOR
-msgid "Can not start editor."
-msgstr "Editor nelze spustit."
-
 #: MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY
 msgid "Please set the correct path in the \"Preferences\" dialog."
 msgstr "Nastavte prosím správnou cestu v okně \"Volby\". "
+
+#: MAIN_MSG_CANNOTSTARTEDITOR
+msgid "Can not start editor."
+msgstr "Editor nelze spustit."
 
 #: MAIN_MSG_ERRORDURINGIMAGESAVING
 msgid "Error during image saving"
@@ -1530,13 +1538,13 @@ msgstr "Chcete jej přepsat?"
 msgid "Basic"
 msgstr "Základní"
 
-#: MAIN_TAB_COLOR
-msgid "Color"
-msgstr "Barvy"
-
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "<b>Alt-c</b>"
 msgstr "<b>Alt-c</b>"
+
+#: MAIN_TAB_COLOR
+msgid "Color"
+msgstr "Barvy"
 
 #: MAIN_TAB_DETAIL_TOOLTIP
 msgid "<b>Alt-d</b>"
@@ -1582,13 +1590,13 @@ msgstr "Metadata"
 msgid "<b>Alt-m</b>"
 msgstr "<b>Alt-m</b>"
 
-#: MAIN_TAB_RAW
-msgid "RAW"
-msgstr "RAW"
-
 #: MAIN_TAB_RAW_TOOLTIP
 msgid "<b>Alt-r</b>"
 msgstr "<b>Alt-r</b>"
+
+#: MAIN_TAB_RAW
+msgid "RAW"
+msgstr "RAW"
 
 #: MAIN_TAB_TAGGING
 msgid "Tagging"
@@ -1780,7 +1788,7 @@ msgstr "Nastavení detailů"
 
 #: PARTIALPASTE_DIALOGLABEL
 msgid "Partial paste processing profile"
-msgstr "Nastavení profilu částečného vložení"
+msgstr "Částečné vložení profilu zpracování"
 
 #: PARTIALPASTE_DISTORTION
 msgid "Distortion correction"
@@ -1818,13 +1826,13 @@ msgstr "Rekonstrukce světel "
 msgid "Highlight recovery amount"
 msgstr "Míra obnovení světel"
 
-#: PARTIALPASTE_HLRECOVERY
-msgid "Highlight recovery"
-msgstr "Obnovení světel"
-
 #: PARTIALPASTE_HLRECOVERYTHRESHOLD,TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
 msgid "Highlight recovery threshold"
 msgstr "Práh obnovení světel"
+
+#: PARTIALPASTE_HLRECOVERY
+msgid "Highlight recovery"
+msgstr "Obnovení světel"
 
 #: PARTIALPASTE_CHANNELMIXER
 msgid "Channel mixer"
@@ -2030,9 +2038,9 @@ msgstr "snímků"
 msgid "templates"
 msgstr "šablon"
 
-#: PREFERENCES_DATEFORMAT
-msgid "Date Format"
-msgstr "Formát data"
+#: PREFERENCES_DATEFORMATFRAME
+msgid "Date Format "
+msgstr "Formát data "
 
 #: PREFERENCES_DATEFORMATHINT
 msgid ""
@@ -2051,6 +2059,10 @@ msgstr ""
 "<i>\n"
 "Například český formát data:</i>\n"
 "<b>%d. %m. %y</b>"
+
+#: PREFERENCES_DATEFORMAT
+msgid "Date Format"
+msgstr "Formát data"
 
 #: PREFERENCES_DEFAULTLANG
 msgid "Default language"
@@ -2250,10 +2262,6 @@ msgstr ""
 "converted/2010-10-31</i>\", napište:\n"
 "<b>%p2/converted/%d1/%f</b>"
 
-#: PREFERENCES_OUTDIR
-msgid "Output Directory"
-msgstr "Výstupní složka"
-
 #: PREFERENCES_OUTDIRTEMPLATEHINT
 msgid ""
 "You can use the following formatting strings:\n"
@@ -2330,6 +2338,10 @@ msgstr ""
 msgid "Use Template"
 msgstr "Použít šablonu"
 
+#: PREFERENCES_OUTDIR
+msgid "Output Directory"
+msgstr "Výstupní složka"
+
 #: PREFERENCES_OVERLAY_FILENAMES
 msgid "Overlay filenames on thumbnails"
 msgstr "Přepsat jména souborů v náhledech"
@@ -2338,13 +2350,13 @@ msgstr "Přepsat jména souborů v náhledech"
 msgid "Overwrite existing output files"
 msgstr "Přepsat existující soubory"
 
-#: PREFERENCES_PARSEDEXTADD
-msgid "Add Extension"
-msgstr "Přidej příponu"
-
 #: PREFERENCES_PARSEDEXTADDHINT
 msgid "Type an extension and press this button to append list"
 msgstr "Vložte příponu a stiskněte toto tlačítko pro přidání do seznamu"
+
+#: PREFERENCES_PARSEDEXTADD
+msgid "Add Extension"
+msgstr "Přidej příponu"
 
 #: PREFERENCES_PARSEDEXTDELHINT
 msgid "Delete selected extension from the list"
@@ -2426,13 +2438,13 @@ msgstr "Zobrazovat pouze soubory RAW"
 msgid "Threshold for clipped shadows"
 msgstr "Práh oříznutých stínů"
 
-#: PREFERENCES_SINGLETAB
-msgid "Single tab mode"
-msgstr "Mód jedné karty"
-
 #: PREFERENCES_SINGLETABVERTAB
 msgid "Single tab mode, vertical tabs"
 msgstr "Mód jedné karty, svislé karty"
+
+#: PREFERENCES_SINGLETAB
+msgid "Single tab mode"
+msgstr "Mód jedné karty"
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
 msgid "Batch queue done"
@@ -2575,13 +2587,13 @@ msgstr "Vyrovnání zelené..."
 msgid "Line Denoise..."
 msgstr "Linkové odšumění..."
 
-#: PROGRESSBAR_LOADING
-msgid "Loading Image..."
-msgstr "Načítání obrázku..."
-
 #: PROGRESSBAR_LOADINGTHUMBS
 msgid "Loading thumbnails..."
 msgstr "Načítání náhledů..."
+
+#: PROGRESSBAR_LOADING
+msgid "Loading Image..."
+msgstr "Načítání obrázku..."
 
 #: PROGRESSBAR_LOADJPEG
 msgid "Loading JPEG file..."
@@ -2651,13 +2663,13 @@ msgstr "Soubory PNG"
 msgid "Put to the head of the processing queue"
 msgstr "Vložit na začátek fronty"
 
-#: SAVEDLG_PUTTOQUEUE
-msgid "Put into processing queue"
-msgstr "Vložit soubor do fronty"
-
 #: SAVEDLG_PUTTOQUEUETAIL
 msgid "Put to the end of the processing queue"
 msgstr "Vložit na konec fronty"
+
+#: SAVEDLG_PUTTOQUEUE
+msgid "Put into processing queue"
+msgstr "Vložit soubor do fronty"
 
 #: SAVEDLG_SAVEIMMEDIATELY
 msgid "Save immediately"
@@ -2824,6 +2836,7 @@ msgid "Guide Type:"
 msgstr "Druh vodítek:"
 
 #: TP_CROP_H
+msgctxt "TP_CROP_H"
 msgid "H"
 msgstr "V"
 
@@ -2887,10 +2900,6 @@ msgstr "Nejjemnější"
 msgid "Neutral"
 msgstr "Neutrální"
 
-#: TP_DISTORTION_AUTO
-msgid "Auto distortion correction"
-msgstr "Automatická korekce zkreslení"
-
 #: TP_DISTORTION_AUTO_TIP
 msgid ""
 "(Exprimental) Correct lens distortion automatically for some cameras (M4/3, "
@@ -2898,6 +2907,10 @@ msgid ""
 msgstr ""
 "(Experimentální) Automatická korekce zkreslení objektivu pro některé "
 "fotoaparáty (M4/3, některé kompakty a jiné)."
+
+#: TP_DISTORTION_AUTO
+msgid "Auto distortion correction"
+msgstr "Automatická korekce zkreslení"
 
 #: TP_DISTORTION_LABEL
 msgid "Distortion"
@@ -2972,16 +2985,21 @@ msgid "Method: "
 msgstr "Metoda:"
 
 #: TP_HSVEQUALIZER_HUE
-msgid "Hue"
-msgstr "Odstín"
+msgctxt "TP_HSVEQUALIZER_HUE"
+msgid "H"
+msgstr "H"
 
 #: TP_HSVEQUALIZER_CHANNEL
 msgid "HSV Channel"
 msgstr "HSV kanál"
 
+#: TP_HSVEQUALIZER_SAT
+msgid "S"
+msgstr "S"
+
 #: TP_HSVEQUALIZER_VAL
-msgid "Value"
-msgstr "Hodnota"
+msgid "V"
+msgstr "V"
 
 #: TP_HSVEQUALIZER2
 msgid "Yellow"
@@ -3079,10 +3097,6 @@ msgstr "Demozajkování"
 msgid "Applies to:"
 msgstr "Aplikovat na:"
 
-#: TP_RESIZE_BICUBIC
-msgid "Bicubic"
-msgstr "Bikubická"
-
 #: TP_RESIZE_BICUBICSF
 msgid "Bicubic (Softer)"
 msgstr "Bikubická (Měkčí)"
@@ -3090,6 +3104,10 @@ msgstr "Bikubická (Měkčí)"
 #: TP_RESIZE_BICUBICSH
 msgid "Bicubic (Sharper)"
 msgstr "Bikubická (Ostřejší)"
+
+#: TP_RESIZE_BICUBIC
+msgid "Bicubic"
+msgstr "Bikubická"
 
 #: TP_RESIZE_BILINEAR
 msgid "Bilinear"
@@ -3199,10 +3217,6 @@ msgstr "RL Dekonvoluce"
 msgid "Unsharp Mask"
 msgstr "Maskování rozostření"
 
-#: TP_VIGNETTING_CENTER
-msgid "Center"
-msgstr "Střed"
-
 #: TP_VIGNETTING_CENTER_X
 msgid "Center X"
 msgstr "Střed X"
@@ -3210,6 +3224,10 @@ msgstr "Střed X"
 #: TP_VIGNETTING_CENTER_Y
 msgid "Center Y"
 msgstr "Střed Y"
+
+#: TP_VIGNETTING_CENTER
+msgid "Center"
+msgstr "Střed"
 
 #: TP_VIGNETTING_STRENGTH
 msgid "Strength"
@@ -3282,6 +3300,12 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Hue"
+#~ msgstr "Odstín"
+
+#~ msgid "Value"
+#~ msgstr "Hodnota"
 
 #~ msgid "Lab curve"
 #~ msgstr "Lab křivka"
