@@ -1,0 +1,3119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
+"POT-Creation-Date: 2011-05-01 11:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ABOUT_TAB_BUILD
+msgid "Version"
+msgstr ""
+
+#: ABOUT_TAB_CREDITS
+msgid "Credits"
+msgstr ""
+
+#: ABOUT_TAB_LICENSE
+msgid "License"
+msgstr ""
+
+#: ABOUT_TAB_SPLASH
+msgid "Splash"
+msgstr ""
+
+#: ADJUSTER_RESET_TO_DEFAULT
+msgid "Reset to default"
+msgstr ""
+
+#: BATCH_PROCESSING
+msgid "Batch processing"
+msgstr ""
+
+#: BATCHQUEUE_AUTOSTART
+msgid "Auto start"
+msgstr ""
+
+#: CURVEEDITOR_CURVE
+msgid "Curve"
+msgstr ""
+
+#: CURVEEDITOR_CURVES
+msgid "Curves"
+msgstr ""
+
+#: CURVEEDITOR_CUSTOM,ICMPANEL_INPUTCUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
+msgid "Custom"
+msgstr ""
+
+#: CURVEEDITOR_DARKS
+msgid "Darks"
+msgstr ""
+
+#: CURVEEDITOR_FILEDLGFILTERANY,ICMPANEL_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
+msgid "Any files"
+msgstr ""
+
+#: CURVEEDITOR_FILEDLGFILTERCURVE
+msgid "Curve files"
+msgstr ""
+
+#: CURVEEDITOR_HIGHLIGHTS,TP_SHADOWSHLIGHTS_HIGHLIGHTS
+msgid "Highlights"
+msgstr ""
+
+#: CURVEEDITOR_LIGHTS
+msgid "Lights"
+msgstr ""
+
+#: CURVEEDITOR_LINEAR
+msgid "Linear"
+msgstr ""
+
+#: CURVEEDITOR_LOADDLGLABEL
+msgid "Load Curve..."
+msgstr ""
+
+#: CURVEEDITOR_MINMAXCPOINTS
+msgid "Minima/Maxima control points"
+msgstr ""
+
+#: CURVEEDITOR_NURBS
+msgid "Control cage"
+msgstr ""
+
+#: CURVEEDITOR_PARAMETRIC
+msgid "Parametric"
+msgstr ""
+
+#: CURVEEDITOR_SAVEDLGLABEL
+msgid "Save Curve..."
+msgstr ""
+
+#: CURVEEDITOR_SHADOWS,TP_SHADOWSHLIGHTS_SHADOWS
+msgid "Shadows"
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPLINEAR
+msgid "Reset curve to linear"
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPLOAD
+msgid "Load a curve from file"
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPSAVE
+msgid "Save current curve"
+msgstr ""
+
+#: CURVEEDITOR_TYPE
+msgid "Type:"
+msgstr ""
+
+#: EDITWINDOW_TITLE
+msgid "Image Edit"
+msgstr ""
+
+#: EXIFFILTER_APERTURE
+msgid "Aperture"
+msgstr ""
+
+#: EXIFFILTER_CAMERA,TP_WBALANCE_CAMERA
+msgid "Camera"
+msgstr ""
+
+#: EXIFFILTER_DIALOGLABEL,FILEBROWSER_EXIFFILTERLABEL
+msgid "Exif Filter"
+msgstr ""
+
+#: EXIFFILTER_FILETYPE
+msgid "File Type"
+msgstr ""
+
+#: EXIFFILTER_FOCALLEN
+msgid "Focal Length"
+msgstr ""
+
+#: EXIFFILTER_ISO,QINFO_ISO
+msgid "ISO"
+msgstr ""
+
+#: EXIFFILTER_LENS,QINFO_LENS
+msgid "Lens"
+msgstr ""
+
+#: EXIFFILTER_METADATAFILTER
+msgid "Enable Metadata Filters"
+msgstr ""
+
+#: EXIFFILTER_SHUTTER
+msgid "Shutter"
+msgstr ""
+
+#: EXIFPANEL_ADDEDIT
+msgid "Add/Edit"
+msgstr ""
+
+#: EXIFPANEL_ADDEDITHINT
+msgid "Add new tag or edit tag"
+msgstr ""
+
+#: EXIFPANEL_ADDTAGDLG_ENTERVALUE
+msgid "Enter value"
+msgstr ""
+
+#: EXIFPANEL_ADDTAGDLG_SELECTTAG
+msgid "Select tag"
+msgstr ""
+
+#: EXIFPANEL_ADDTAGDLG_TITLE
+msgid "Add/Edit Tag"
+msgstr ""
+
+#: EXIFPANEL_KEEPHINT
+msgid "Keep the selected tags when writing output file"
+msgstr ""
+
+#: EXIFPANEL_KEEP
+msgid "Keep"
+msgstr ""
+
+#: EXIFPANEL_REMOVE,FILEBROWSER_POPUPREMOVESUBMENU
+msgid "Remove"
+msgstr ""
+
+#: EXIFPANEL_REMOVEHINT
+msgid "Remove the selected tags when writing output file"
+msgstr ""
+
+#: EXIFPANEL_RESETALLHINT
+msgid "Reset all tags to their original values"
+msgstr ""
+
+#: EXIFPANEL_RESETALL
+msgid "Reset All"
+msgstr ""
+
+#: EXIFPANEL_RESETHINT
+msgid "Reset the selected tags to their original values"
+msgstr ""
+
+#: EXIFPANEL_RESET,IPTCPANEL_RESET
+msgid "Reset"
+msgstr ""
+
+#: EXIFPANEL_SUBDIRECTORY
+msgid "Subdirectory"
+msgstr ""
+
+#: FILEBROWSER_ADDDELTEMPLATE
+msgid "Add/Del templates..."
+msgstr ""
+
+#: FILEBROWSER_APPLYPROFILE
+msgid "Apply profile"
+msgstr ""
+
+#: FILEBROWSER_ARRANGEMENTHINT
+msgid "Change between vertical/horizontal alignment of thumbnails"
+msgstr ""
+
+#: FILEBROWSER_AUTODARKFRAME
+msgid "Auto dark frame"
+msgstr ""
+
+#: FILEBROWSER_AUTOFLATFIELD
+msgid "Auto flat field"
+msgstr ""
+
+#: FILEBROWSER_BROWSEPATHBUTTONHINT
+msgid "Click to browse to the chosen path"
+msgstr ""
+
+#: FILEBROWSER_BROWSEPATHHINT
+msgid "Type path to browse (<b>Ctrl-o</b> set focus,<b>Ctrl-Enter</b> to browse in File Browser);\nPath shortcuts: <b>~</b> - user's home directory, <b>!</b> - user's pictures directory"
+msgstr ""
+
+#: FILEBROWSER_CACHE
+msgid "Cache"
+msgstr ""
+
+#: FILEBROWSER_CACHECLEARFROMFULL
+msgid "Clear from cache - full"
+msgstr ""
+
+#: FILEBROWSER_CACHECLEARFROMPARTIAL
+msgid "Clear from cache - partial"
+msgstr ""
+
+#: FILEBROWSER_CLEARPROFILE
+msgid "Clear profile"
+msgstr ""
+
+#: FILEBROWSER_COPYPROFILE
+msgid "Copy profile"
+msgstr ""
+
+#: FILEBROWSER_CURRENT_NAME
+msgid "Current name:"
+msgstr ""
+
+#: FILEBROWSER_DARKFRAME,PREFERENCES_DARKFRAME
+msgid "Dark frame"
+msgstr ""
+
+#: FILEBROWSER_DELETEDLGLABEL
+msgid "File delete confirmation"
+msgstr ""
+
+#: FILEBROWSER_DELETEDLGMSG
+msgid "Are you sure you want to delete the selected %1 files?"
+msgstr ""
+
+#: FILEBROWSER_DELETEDLGMSGINCLPROC
+msgid "Are you sure you want to delete the selected %1 files INCLUDING a batch processed version?"
+msgstr ""
+
+#: FILEBROWSER_EMPTYTRASH
+msgid "Empty Trash"
+msgstr ""
+
+#: FILEBROWSER_EMPTYTRASHHINT
+msgid "Permanently delete the files of the trash"
+msgstr ""
+
+#: FILEBROWSER_EXIFFILTERAPPLY
+msgid "Apply"
+msgstr ""
+
+#: FILEBROWSER_EXIFFILTERAPPLYHINT
+msgid "Switch on/off exif filter of the file browser"
+msgstr ""
+
+#: FILEBROWSER_EXIFFILTERSETTINGSHINT
+msgid "Change settings of the exif filter"
+msgstr ""
+
+#: FILEBROWSER_EXIFFILTERSETTINGS
+msgid "Setup"
+msgstr ""
+
+#: FILEBROWSER_FLATFIELD
+msgid "Flat field"
+msgstr ""
+
+#: FILEBROWSER_MOVETODARKFDIR
+msgid "Move to dark frames directory"
+msgstr ""
+
+#: FILEBROWSER_MOVETOFLATFIELDDIR
+msgid "Move to flat fields directory"
+msgstr ""
+
+#: FILEBROWSER_NEW_NAME
+msgid "New name:"
+msgstr ""
+
+#: FILEBROWSER_PARTIALPASTEPROFILE
+msgid "Partial paste"
+msgstr ""
+
+#: FILEBROWSER_PASTEPROFILE
+msgid "Paste profile"
+msgstr ""
+
+#: FILEBROWSER_POPUPCANCELJOB
+msgid "Cancel job"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOPYTO
+msgid "Copy to..."
+msgstr ""
+
+#: FILEBROWSER_POPUPMOVEEND
+msgid "Move to end of queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPMOVEHEAD
+msgid "Move to head of queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPMOVETO
+msgid "Move to..."
+msgstr ""
+
+#: FILEBROWSER_POPUPOPEN
+msgid "Open"
+msgstr ""
+
+#: FILEBROWSER_POPUPPROCESS
+msgid "Put to processing queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK1
+msgid "Rank 1"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK2
+msgid "Rank 2"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK3
+msgid "Rank 3"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK4
+msgid "Rank 4"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK5
+msgid "Rank 5"
+msgstr ""
+
+#: FILEBROWSER_POPUPREMOVEINCLPROC
+msgid "Remove from filesystem & batch result"
+msgstr ""
+
+#: FILEBROWSER_POPUPREMOVE
+msgid "Remove from filesystem"
+msgstr ""
+
+#: FILEBROWSER_POPUPRENAME
+msgid "Rename"
+msgstr ""
+
+#: FILEBROWSER_POPUPSELECTALL
+msgid "Select all"
+msgstr ""
+
+#: FILEBROWSER_POPUPTRASH
+msgid "Move to trash"
+msgstr ""
+
+#: FILEBROWSER_POPUPUNRANK
+msgid "Unrank"
+msgstr ""
+
+#: FILEBROWSER_POPUPUNTRASH
+msgid "Remove from trash"
+msgstr ""
+
+#: FILEBROWSER_PROCESSINGSETTINGSHINT
+msgid "Set the file format and output directory"
+msgstr ""
+
+#: FILEBROWSER_PROCESSINGSETTINGS
+msgid "Settings"
+msgstr ""
+
+#: FILEBROWSER_RENAMEDLGLABEL
+msgid "Rename file"
+msgstr ""
+
+#: FILEBROWSER_RENAMEDLGMSG
+msgid "Rename file \"%1\" to:"
+msgstr ""
+
+#: FILEBROWSER_SELECTDARKFRAME
+msgid "Select dark frame..."
+msgstr ""
+
+#: FILEBROWSER_SELECTFLATFIELD
+msgid "Select flat field..."
+msgstr ""
+
+#: FILEBROWSER_SHOWDIRHINT
+msgid "Show all images of the directory <b>D</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWEXIFINFO
+msgid "Show EXIF info <b>i</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWQUEUEHINT
+msgid "Show content of the processing queue"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK1HINT
+msgid "Show images ranked as 1 star <b>1</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK2HINT
+msgid "Show images ranked as 2 star <b>2</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK3HINT
+msgid "Show images ranked as 3 star <b>3</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK4HINT
+msgid "Show images ranked as 4 star <b>4</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK5HINT
+msgid "Show images ranked as 5 star <b>5</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWTRASHHINT
+msgid "Show content of the trash <b>T</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWUNRANKHINT
+msgid "Show unranked images  <b>`</b>"
+msgstr ""
+
+#: FILEBROWSER_STARTPROCESSINGHINT
+msgid "Start processing/saving of images in the queue"
+msgstr ""
+
+#: FILEBROWSER_STARTPROCESSING
+msgid "Start processing"
+msgstr ""
+
+#: FILEBROWSER_STOPPROCESSINGHINT
+msgid "Stop processing of images"
+msgstr ""
+
+#: FILEBROWSER_STOPPROCESSING
+msgid "Stop processing"
+msgstr ""
+
+#: FILEBROWSER_THUMBSIZE
+msgid "Thumb. size"
+msgstr ""
+
+#: FILEBROWSER_TOOLTIP_STOPPROCESSING
+msgid "Start processing automatically when a new job arrives"
+msgstr ""
+
+#: FILEBROWSER_USETEMPLATE
+msgid "Use template:"
+msgstr ""
+
+#: FILEBROWSER_ZOOMINHINT
+msgid "Increase thumbnail size <b>+</b>"
+msgstr ""
+
+#: FILEBROWSER_ZOOMOUTHINT
+msgid "Decrease thumbnail size <b>-</b>"
+msgstr ""
+
+#: GENERAL_ABOUT
+msgid "About"
+msgstr ""
+
+#: GENERAL_AFTER
+msgid "After"
+msgstr ""
+
+#: GENERAL_BEFORE
+msgid "Before"
+msgstr ""
+
+#: GENERAL_CANCEL
+msgid "Cancel"
+msgstr ""
+
+#: GENERAL_DISABLED
+msgid "Disabled"
+msgstr ""
+
+#: GENERAL_DISABLE
+msgid "Disable"
+msgstr ""
+
+#: GENERAL_ENABLED
+msgid "Enabled"
+msgstr ""
+
+#: GENERAL_ENABLE
+msgid "Enable"
+msgstr ""
+
+#: GENERAL_FILE
+msgid "File"
+msgstr ""
+
+#: GENERAL_HIGH_QUALITY
+msgid "High Quality"
+msgstr ""
+
+#: GENERAL_LANDSCAPE
+msgid "Landscape"
+msgstr ""
+
+#: GENERAL_LOAD
+msgid "Load"
+msgstr ""
+
+#: GENERAL_NA
+msgid "n/a"
+msgstr ""
+
+#: GENERAL_NONE,TP_CROP_GTNONE
+msgid "None"
+msgstr ""
+
+#: GENERAL_NO
+msgid "No"
+msgstr ""
+
+#: GENERAL_OK
+msgid "OK"
+msgstr ""
+
+#: GENERAL_PORTRAIT
+msgid "Portrait"
+msgstr ""
+
+#: GENERAL_SAVE
+msgid "Save"
+msgstr ""
+
+#: GENERAL_UNCHANGED
+msgid "(Unchanged)"
+msgstr ""
+
+#: GENERAL_YES
+msgid "Yes"
+msgstr ""
+
+#: HISTOGRAM_BUTTON_B
+msgid "B"
+msgstr ""
+
+#: HISTOGRAM_BUTTON_G
+msgid "G"
+msgstr ""
+
+#: HISTOGRAM_BUTTON_L
+msgid "L"
+msgstr ""
+
+#: HISTOGRAM_BUTTON_R
+msgid "R"
+msgstr ""
+
+#: HISTOGRAM_LABEL
+msgid "Histogram"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_B
+msgid "Show/Hide BLUE histogram"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_G
+msgid "Show/Hide GREEN histogram"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_L
+msgid "Show/Hide CIELAB Luminance histogram"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_R
+msgid "Show/Hide RED histogram"
+msgstr ""
+
+#: HISTORY_CUSTOMCURVE
+msgid "Custom Curve"
+msgstr ""
+
+#: HISTORY_DELSNAPSHOT,MAIN_FRAME_PLACES_DEL
+msgid "Del"
+msgstr ""
+
+#: HISTORY_FROMCLIPBOARD
+msgid "From clipboard"
+msgstr ""
+
+#: HISTORY_CHANGED
+msgid "Changed"
+msgstr ""
+
+#: HISTORY_LABEL
+msgid "History"
+msgstr ""
+
+#: HISTORY_MSG_1
+msgid "Photo Loaded"
+msgstr ""
+
+#: HISTORY_MSG_10
+msgid "Shadow Compression"
+msgstr ""
+
+#: HISTORY_MSG_100
+msgid "RGB saturation"
+msgstr ""
+
+#: HISTORY_MSG_101
+msgid "HSV EQ -- Hue"
+msgstr ""
+
+#: HISTORY_MSG_102
+msgid "HSV EQ -- Saturation"
+msgstr ""
+
+#: HISTORY_MSG_103
+msgid "HSV EQ -- Value"
+msgstr ""
+
+#: HISTORY_MSG_104,PARTIALPASTE_HSVEQUALIZER,TP_HSVEQUALIZER_LABEL
+msgid "HSV Equalizer"
+msgstr ""
+
+#: HISTORY_MSG_105
+msgid "Defringing"
+msgstr ""
+
+#: HISTORY_MSG_106
+msgid "Defringing Radius"
+msgstr ""
+
+#: HISTORY_MSG_107
+msgid "Defringing Threshold"
+msgstr ""
+
+#: HISTORY_MSG_108
+msgid "Highlight Compr. Threshold"
+msgstr ""
+
+#: HISTORY_MSG_109
+msgid "Resize bounding box"
+msgstr ""
+
+#: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR
+msgid "Tone Curve"
+msgstr ""
+
+#: HISTORY_MSG_110
+msgid "Resizing applies to  "
+msgstr ""
+
+#: HISTORY_MSG_111,HISTORY_MSG_34
+msgid "Avoid Color Clipping"
+msgstr ""
+
+#: HISTORY_MSG_112,HISTORY_MSG_35
+msgid "Saturation Limiter"
+msgstr ""
+
+#: HISTORY_MSG_113,HISTORY_MSG_36
+msgid "Saturation Limit"
+msgstr ""
+
+#: HISTORY_MSG_114
+msgid "DCB Iterations"
+msgstr ""
+
+#: HISTORY_MSG_115
+msgid "False color iterations"
+msgstr ""
+
+#: HISTORY_MSG_116
+msgid "Enhanced DCB"
+msgstr ""
+
+#: HISTORY_MSG_117
+msgid "Red CA correction"
+msgstr ""
+
+#: HISTORY_MSG_118
+msgid "Blue CA correction"
+msgstr ""
+
+#: HISTORY_MSG_119
+msgid "Line denoise"
+msgstr ""
+
+#: HISTORY_MSG_12
+msgid "Auto Exposure"
+msgstr ""
+
+#: HISTORY_MSG_120
+msgid "Green equil. threshold"
+msgstr ""
+
+#: HISTORY_MSG_121
+msgid "Auto CA"
+msgstr ""
+
+#: HISTORY_MSG_122
+msgid "Auto Dark Frame"
+msgstr ""
+
+#: HISTORY_MSG_123,PARTIALPASTE_DARKFRAMEFILE
+msgid "Dark Frame File"
+msgstr ""
+
+#: HISTORY_MSG_124
+msgid "Linear exp. correction"
+msgstr ""
+
+#: HISTORY_MSG_125
+msgid "Expo. correction preserving HL"
+msgstr ""
+
+#: HISTORY_MSG_126
+msgid "Flat Field File"
+msgstr ""
+
+#: HISTORY_MSG_127
+msgid "Flat Field Auto Select"
+msgstr ""
+
+#: HISTORY_MSG_128
+msgid "Flat Field Blur Radius"
+msgstr ""
+
+#: HISTORY_MSG_129
+msgid "Flat Field Blur Type"
+msgstr ""
+
+#: HISTORY_MSG_13
+msgid "Exposure Clipping"
+msgstr ""
+
+#: HISTORY_MSG_14
+msgid "Luminance Brightness"
+msgstr ""
+
+#: HISTORY_MSG_15
+msgid "Luminance Contrast"
+msgstr ""
+
+#: HISTORY_MSG_16
+msgid "Luminance Black"
+msgstr ""
+
+#: HISTORY_MSG_17
+msgid "Luminance Highlight Compr."
+msgstr ""
+
+#: HISTORY_MSG_18
+msgid "Luminance Shadow Compr."
+msgstr ""
+
+#: HISTORY_MSG_19
+msgid "'L' Curve"
+msgstr ""
+
+#: HISTORY_MSG_2
+msgid "Profile Loaded"
+msgstr ""
+
+#: HISTORY_MSG_20,PARTIALPASTE_SHARPENING,TP_SHARPENING_LABEL
+msgid "Sharpening"
+msgstr ""
+
+#: HISTORY_MSG_21
+msgid "Sharpening Radius"
+msgstr ""
+
+#: HISTORY_MSG_22
+msgid "Sharpening Amount"
+msgstr ""
+
+#: HISTORY_MSG_23
+msgid "Sharpening Threshold"
+msgstr ""
+
+#: HISTORY_MSG_24
+msgid "Sharpen Only Edges"
+msgstr ""
+
+#: HISTORY_MSG_25
+msgid "Sharpening Edge Detection Radius"
+msgstr ""
+
+#: HISTORY_MSG_26
+msgid "Sharpening Edge Tolerance"
+msgstr ""
+
+#: HISTORY_MSG_27
+msgid "Sharpening Halo Control"
+msgstr ""
+
+#: HISTORY_MSG_28
+msgid "Halo Control Amount"
+msgstr ""
+
+#: HISTORY_MSG_29
+msgid "Sharpening Method"
+msgstr ""
+
+#: HISTORY_MSG_3,HISTORY_MSG_82
+msgid "Profile Changed"
+msgstr ""
+
+#: HISTORY_MSG_30
+msgid "Deconvolution Radius"
+msgstr ""
+
+#: HISTORY_MSG_31
+msgid "Deconvolution Amount"
+msgstr ""
+
+#: HISTORY_MSG_32
+msgid "Deconvolution Damping"
+msgstr ""
+
+#: HISTORY_MSG_33
+msgid "Deconvolution Iterations"
+msgstr ""
+
+#: HISTORY_MSG_37,TP_COLORBOOST_LABEL
+msgid "Color Boost"
+msgstr ""
+
+#: HISTORY_MSG_38
+msgid "White Balance Method"
+msgstr ""
+
+#: HISTORY_MSG_39
+msgid "Color Temperature"
+msgstr ""
+
+#: HISTORY_MSG_4
+msgid "History Browsing"
+msgstr ""
+
+#: HISTORY_MSG_40
+msgid "White Balance Tint"
+msgstr ""
+
+#: HISTORY_MSG_41
+msgid "Color Shift \"A\""
+msgstr ""
+
+#: HISTORY_MSG_42
+msgid "Color Shift \"B\""
+msgstr ""
+
+#: HISTORY_MSG_43
+msgid "Luminance Denoising"
+msgstr ""
+
+#: HISTORY_MSG_44
+msgid "Lum. Denoising Radius"
+msgstr ""
+
+#: HISTORY_MSG_45
+msgid "Lum. Denoising Edge Tolerance"
+msgstr ""
+
+#: HISTORY_MSG_46
+msgid "Color Denoising"
+msgstr ""
+
+#: HISTORY_MSG_47
+msgid "Color Denoising Radius"
+msgstr ""
+
+#: HISTORY_MSG_48
+msgid "Color Denoising Edge Tolerance"
+msgstr ""
+
+#: HISTORY_MSG_49
+msgid "Edge Sensitive Color Denoising"
+msgstr ""
+
+#: HISTORY_MSG_5,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
+msgid "Brightness"
+msgstr ""
+
+#: HISTORY_MSG_50
+msgid "Shadow/Highlight tool"
+msgstr ""
+
+#: HISTORY_MSG_51
+msgid "Highlight boost"
+msgstr ""
+
+#: HISTORY_MSG_52
+msgid "Shadow Boost"
+msgstr ""
+
+#: HISTORY_MSG_53
+msgid "Highlight Tonal Width"
+msgstr ""
+
+#: HISTORY_MSG_54
+msgid "Shadow Tonal Width"
+msgstr ""
+
+#: HISTORY_MSG_55,TP_SHADOWSHLIGHTS_LOCALCONTR
+msgid "Local Contrast"
+msgstr ""
+
+#: HISTORY_MSG_56
+msgid "Shadow/Highlight Radius"
+msgstr ""
+
+#: HISTORY_MSG_57
+msgid "Coarse Rotation"
+msgstr ""
+
+#: HISTORY_MSG_58
+msgid "Horizontal Flipping"
+msgstr ""
+
+#: HISTORY_MSG_59
+msgid "Vertical Flipping"
+msgstr ""
+
+#: HISTORY_MSG_6,TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST
+msgid "Contrast"
+msgstr ""
+
+#: HISTORY_MSG_60,PARTIALPASTE_ROTATION
+msgid "Rotation"
+msgstr ""
+
+#: HISTORY_MSG_61,TP_LENSGEOM_FILL
+msgid "Auto Fill"
+msgstr ""
+
+#: HISTORY_MSG_62
+msgid "Lens Distortion Correction"
+msgstr ""
+
+#: HISTORY_MSG_63
+msgid "Snapshot Selected"
+msgstr ""
+
+#: HISTORY_MSG_64
+msgid "Crop Photo"
+msgstr ""
+
+#: HISTORY_MSG_65,TP_CACORRECTION_LABEL
+msgid "C/A Correction"
+msgstr ""
+
+#: HISTORY_MSG_66
+msgid "Highlight Recovery"
+msgstr ""
+
+#: HISTORY_MSG_67
+msgid "Highlight Recovery Amount"
+msgstr ""
+
+#: HISTORY_MSG_68
+msgid "Highlight Recovery Method"
+msgstr ""
+
+#: HISTORY_MSG_69
+msgid "Working Color Space"
+msgstr ""
+
+#: HISTORY_MSG_7,TP_EXPOSURE_BLACKLEVEL
+msgid "Black"
+msgstr ""
+
+#: HISTORY_MSG_70
+msgid "Output Color Space"
+msgstr ""
+
+#: HISTORY_MSG_71
+msgid "Input Color Space"
+msgstr ""
+
+#: HISTORY_MSG_72,TP_VIGNETTING_LABEL
+msgid "Vignetting Correction"
+msgstr ""
+
+#: HISTORY_MSG_73,TP_CHMIXER_LABEL
+msgid "Channel Mixer"
+msgstr ""
+
+#: HISTORY_MSG_74
+msgid "Resize Scale"
+msgstr ""
+
+#: HISTORY_MSG_75
+msgid "Resize Method"
+msgstr ""
+
+#: HISTORY_MSG_76
+msgid "Exif Metadata"
+msgstr ""
+
+#: HISTORY_MSG_77
+msgid "IPTC Metadata"
+msgstr ""
+
+#: HISTORY_MSG_78
+msgid "Data specified for resize"
+msgstr ""
+
+#: HISTORY_MSG_79
+msgid "Resize width"
+msgstr ""
+
+#: HISTORY_MSG_8
+msgid "Exposure Compensation"
+msgstr ""
+
+#: HISTORY_MSG_80
+msgid "Resize height"
+msgstr ""
+
+#: HISTORY_MSG_81
+msgid "Resize enabled"
+msgstr ""
+
+#: HISTORY_MSG_83
+msgid "High quality shadows/highlights"
+msgstr ""
+
+#: HISTORY_MSG_84
+msgid "Perspective correction"
+msgstr ""
+
+#: HISTORY_MSG_85
+msgid "Wavelet coefficients"
+msgstr ""
+
+#: HISTORY_MSG_86,PARTIALPASTE_WAVELETEQUALIZER,TP_EQUALIZER_LABEL
+msgid "Wavelet equalizer"
+msgstr ""
+
+#: HISTORY_MSG_87,PARTIALPASTE_IMPULSEDENOISE
+msgid "Impulse noise reduction"
+msgstr ""
+
+#: HISTORY_MSG_88
+msgid "Impulse NR threshold"
+msgstr ""
+
+#: HISTORY_MSG_89,PARTIALPASTE_DIRPYRDENOISE,TP_DIRPYRDENOISE_LABEL
+msgid "Noise reduction"
+msgstr ""
+
+#: HISTORY_MSG_9
+msgid "Highlight Compression"
+msgstr ""
+
+#: HISTORY_MSG_90
+msgid "NR - luminance"
+msgstr ""
+
+#: HISTORY_MSG_91
+msgid "NR - chrominance"
+msgstr ""
+
+#: HISTORY_MSG_92
+msgid "NR - gamma"
+msgstr ""
+
+#: HISTORY_MSG_93
+msgid "Contrast by detail levels value"
+msgstr ""
+
+#: HISTORY_MSG_94,PARTIALPASTE_DIRPYREQUALIZER,TP_DIRPYREQUALIZER_LABEL
+msgid "Contrast by detail levels"
+msgstr ""
+
+#: HISTORY_MSG_95,PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION,TP_LABCURVE_SATURATION
+msgid "Saturation"
+msgstr ""
+
+#: HISTORY_MSG_96
+msgid "'a' curve"
+msgstr ""
+
+#: HISTORY_MSG_97
+msgid "'b' curve"
+msgstr ""
+
+#: HISTORY_MSG_98
+msgid "Demosaicing method"
+msgstr ""
+
+#: HISTORY_MSG_99
+msgid "Hot/dead pixel filtering"
+msgstr ""
+
+#: HISTORY_NEWSNAPSHOTAS
+msgid "As..."
+msgstr ""
+
+#: HISTORY_NEWSNAPSHOT,MAIN_FRAME_PLACES_ADD
+msgid "Add"
+msgstr ""
+
+#: HISTORY_NEWSSDIALOGLABEL
+msgid "Label of the snapshot:"
+msgstr ""
+
+#: HISTORY_NEWSSDIALOGTITLE
+msgid "Add new snapshot"
+msgstr ""
+
+#: HISTORY_SETTO
+msgid "Set to"
+msgstr ""
+
+#: HISTORY_SNAPSHOT
+msgid "Snapshot"
+msgstr ""
+
+#: HISTORY_SNAPSHOTS
+msgid "Snapshots"
+msgstr ""
+
+#: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
+msgid "ICC Profile Files"
+msgstr ""
+
+#: ICMPANEL_GAMMABEFOREINPUT,TP_ICM_GAMMABEFOREINPUT
+msgid "Profile applies Gamma"
+msgstr ""
+
+#: ICMPANEL_INPUTCAMERA,TP_ICM_INPUTCAMERA
+msgid "Camera default"
+msgstr ""
+
+#: ICMPANEL_INPUTDLGLABEL,TP_ICM_INPUTDLGLABEL
+msgid "Select Input ICC Profile..."
+msgstr ""
+
+#: ICMPANEL_INPUTEMBEDDED,TP_ICM_INPUTEMBEDDED
+msgid "Use Embedded, if possible"
+msgstr ""
+
+#: ICMPANEL_INPUTPROFILE,TP_ICM_INPUTPROFILE
+msgid "Input Profile"
+msgstr ""
+
+#: ICMPANEL_NOICM,TP_ICM_NOICM
+msgid "No ICM: sRGB output"
+msgstr ""
+
+#: ICMPANEL_OUTPUTDLGLABEL,TP_ICM_OUTPUTDLGLABEL
+msgid "Select Output ICC Profile..."
+msgstr ""
+
+#: ICMPANEL_OUTPUTPROFILE,TP_ICM_OUTPUTPROFILE
+msgid "Output Profile"
+msgstr ""
+
+#: ICMPANEL_SAVEREFERENCE,TP_ICM_SAVEREFERENCE
+msgid "Save reference image for profiling"
+msgstr ""
+
+#: ICMPANEL_WORKINGPROFILE,TP_ICM_WORKINGPROFILE
+msgid "Working Profile"
+msgstr ""
+
+#: IMAGEAREA_DETAILVIEW
+msgid "Detail view"
+msgstr ""
+
+#: IPTCPANEL_AUTHOR
+msgid "Author"
+msgstr ""
+
+#: IPTCPANEL_AUTHORHINT
+msgid "Name of the creator of the object, e.g. writer, photographer or graphic artist (By-line)."
+msgstr ""
+
+#: IPTCPANEL_AUTHORSPOSITION
+msgid "Author's position"
+msgstr ""
+
+#: IPTCPANEL_AUTHORSPOSITIONHINT
+msgid "Title of the creator or creators of the object (By-line Title)."
+msgstr ""
+
+#: IPTCPANEL_CAPTION
+msgid "Caption"
+msgstr ""
+
+#: IPTCPANEL_CAPTIONHINT
+msgid "A textual description of the data (Caption - Abstract)."
+msgstr ""
+
+#: IPTCPANEL_CAPTIONWRITER
+msgid "Caption Writer"
+msgstr ""
+
+#: IPTCPANEL_CAPTIONWRITERHINT
+msgid "The name of the person involved in the writing, editing or correcting the image or caption/abstract (Writer - Editor)."
+msgstr ""
+
+#: IPTCPANEL_CATEGORY
+msgid "Category"
+msgstr ""
+
+#: IPTCPANEL_CATEGORYHINT
+msgid "Identifies the subject of the image in the opinion of the provider (Category)."
+msgstr ""
+
+#: IPTCPANEL_CITY
+msgid "City"
+msgstr ""
+
+#: IPTCPANEL_CITYHINT
+msgid "City of image origin (City)."
+msgstr ""
+
+#: IPTCPANEL_COPYHINT
+msgid "Copy IPTC settings to clipboard"
+msgstr ""
+
+#: IPTCPANEL_COPYRIGHT
+msgid "Copyright"
+msgstr ""
+
+#: IPTCPANEL_COPYRIGHTHINT
+msgid "Any necessary copyright notice (Copyright Notice)."
+msgstr ""
+
+#: IPTCPANEL_COUNTRY
+msgid "Country"
+msgstr ""
+
+#: IPTCPANEL_COUNTRYHINT
+msgid "The name of the country/primary location where the image was created (Country - Primary Location Name)."
+msgstr ""
+
+#: IPTCPANEL_CREDIT
+msgid "Credit"
+msgstr ""
+
+#: IPTCPANEL_CREDITHINT
+msgid "Identifies the provider of the image, not necessarily the owner/creator (Credit)."
+msgstr ""
+
+#: IPTCPANEL_DATECREATED
+msgid "Date Created"
+msgstr ""
+
+#: IPTCPANEL_DATECREATEDHINT
+msgid "The date the intellectual content of the image was created; Format: JJJJMMTT (Date Created)."
+msgstr ""
+
+#: IPTCPANEL_EMBEDDED
+msgid "Embedded"
+msgstr ""
+
+#: IPTCPANEL_EMBEDDEDHINT
+msgid "Reset to IPTC data embedded in the image file"
+msgstr ""
+
+#: IPTCPANEL_HEADLINE
+msgid "Headline"
+msgstr ""
+
+#: IPTCPANEL_HEADLINEHINT
+msgid "A publishable entry providing a synopsis of the contents of the image (Headline)."
+msgstr ""
+
+#: IPTCPANEL_INSTRUCTIONSHINT
+msgid "Other editorial instructions concerning the use of the image (Special Instructions)."
+msgstr ""
+
+#: IPTCPANEL_INSTRUCTIONS
+msgid "Instructions"
+msgstr ""
+
+#: IPTCPANEL_KEYWORDSHINT
+msgid "Used to indicate specific information retrieval words (Keywords)."
+msgstr ""
+
+#: IPTCPANEL_KEYWORDS
+msgid "Keywords"
+msgstr ""
+
+#: IPTCPANEL_PASTEHINT
+msgid "Paste IPTC settings from clipboard"
+msgstr ""
+
+#: IPTCPANEL_PROVINCEHINT
+msgid "The Province/State where the image originates (Province-State)."
+msgstr ""
+
+#: IPTCPANEL_PROVINCE
+msgid "Province"
+msgstr ""
+
+#: IPTCPANEL_RESETHINT
+msgid "Reset to profile default"
+msgstr ""
+
+#: IPTCPANEL_SOURCEHINT
+msgid "The original owner of the intellectual content of the image (Source)."
+msgstr ""
+
+#: IPTCPANEL_SOURCE
+msgid "Source"
+msgstr ""
+
+#: IPTCPANEL_SUPPCATEGORIESHINT
+msgid "Further refines the subject of the image (Supplemental Categories)."
+msgstr ""
+
+#: IPTCPANEL_SUPPCATEGORIES
+msgid "Suppl. Categories"
+msgstr ""
+
+#: IPTCPANEL_TITLEHINT
+msgid "A shorthand reference for the image (Object Name)."
+msgstr ""
+
+#: IPTCPANEL_TITLE
+msgid "Title"
+msgstr ""
+
+#: IPTCPANEL_TRANSREFERENCEHINT
+msgid "A code representing the location of original transmission (Original Transmission Reference)."
+msgstr ""
+
+#: IPTCPANEL_TRANSREFERENCE
+msgid "Trans. Reference"
+msgstr ""
+
+#: MAIN_BUTTON_EXIT
+msgid "Exit"
+msgstr ""
+
+#: MAIN_BUTTON_FULLSCREEN
+msgid "Fullscreen"
+msgstr ""
+
+#: MAIN_BUTTON_PREFERENCES
+msgid "Preferences"
+msgstr ""
+
+#: MAIN_BUTTON_PUTTOQUEUE_TOOLTIP
+msgid "Add current image to processing queue <b>Ctrl+Q</b>"
+msgstr ""
+
+#: MAIN_BUTTON_QUEUE
+msgid "Put to queue"
+msgstr ""
+
+#: MAIN_BUTTON_SAVE_TOOLTIP
+msgid "Save current image <b>Ctrl+S</b>"
+msgstr ""
+
+#: MAIN_BUTTON_SENDTOEDITOR_TOOLTIP
+msgid "Edit current image in external editor <b>Ctrl+E</b>"
+msgstr ""
+
+#: MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP
+msgid "Show/hide all side panels <b>m</b>"
+msgstr ""
+
+#: MAIN_BUTTON_UNFULLSCREEN
+msgid "Exit fullscreen"
+msgstr ""
+
+#: MAIN_FRAME_BATCHQUEUE
+msgid "Batch Queue "
+msgstr ""
+
+#: MAIN_FRAME_BATCHQUEUE_TOOLTIP
+msgid " Batch Queue  <b>Ctrl-F3</b> "
+msgstr ""
+
+#: MAIN_FRAME_EDITOR
+msgid "Editor "
+msgstr ""
+
+#: MAIN_FRAME_EDITOR_TOOLTIP
+msgid " Editor  <b>Ctrl-F4</b> "
+msgstr ""
+
+#: MAIN_FRAME_FILEBROWSER
+msgid "File Browser "
+msgstr ""
+
+#: MAIN_FRAME_FILEBROWSER_TOOLTIP
+msgid " File Browser  <b>Ctrl-F2</b> "
+msgstr ""
+
+#: MAIN_FRAME_PLACES
+msgid "Places "
+msgstr ""
+
+#: MAIN_FRAME_RECENT
+msgid "Recent Folders "
+msgstr ""
+
+#: MAIN_MSG_ALREADYEXISTS
+msgid "File already exists."
+msgstr ""
+
+#: MAIN_MSG_CANNOTLOAD
+msgid "Cannot load image"
+msgstr ""
+
+#: MAIN_MSG_CANNOTSAVE
+msgid "File saving error"
+msgstr ""
+
+#: MAIN_MSG_CANNOTSTARTEDITOR
+msgid "Can not start editor."
+msgstr ""
+
+#: MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY
+msgid "Please set the correct path in the \"Preferences\" dialog."
+msgstr ""
+
+#: MAIN_MSG_ERRORDURINGIMAGESAVING
+msgid "Error during image saving"
+msgstr ""
+
+#: MAIN_MSG_EXITJOBSINQUEUEINFO
+msgid "Unprocessed images in the queue will be lost on exit."
+msgstr ""
+
+#: MAIN_MSG_EXITJOBSINQUEUEQUEST
+msgid "Are you sure you want to exit? There are unprocessed images waiting in the queue."
+msgstr ""
+
+#: MAIN_MSG_JOBSINQUEUE
+msgid "job(s) in the queue"
+msgstr ""
+
+#: MAIN_MSG_NAVIGATOR
+msgid "Navigator"
+msgstr ""
+
+#: MAIN_MSG_PLACES
+msgid "Places"
+msgstr ""
+
+#: MAIN_MSG_QOVERWRITE
+msgid "Do you want to overwrite it?"
+msgstr ""
+
+#: MAIN_TAB_BASIC
+msgid "Basic"
+msgstr ""
+
+#: MAIN_TAB_COLOR
+msgid "Color"
+msgstr ""
+
+#: MAIN_TAB_COLOR_TOOLTIP
+msgid "<b>Alt-c</b>"
+msgstr ""
+
+#: MAIN_TAB_DETAIL_TOOLTIP
+msgid "<b>Alt-d</b>"
+msgstr ""
+
+#: MAIN_TAB_DETAIL,ZOOMBAR_DETAIL
+msgid "Detail"
+msgstr ""
+
+#: MAIN_TAB_DEVELOP
+msgid "Develop"
+msgstr ""
+
+#: MAIN_TAB_EXIF
+msgid "Exif"
+msgstr ""
+
+#: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSCORR_LABEL,TP_EXPOSURE_LABEL
+msgid "Exposure"
+msgstr ""
+
+#: MAIN_TAB_EXPOSURE_TOOLTIP
+msgid "<b>Alt-e</b>"
+msgstr ""
+
+#: MAIN_TAB_FILTER
+msgid "Filter"
+msgstr ""
+
+#: MAIN_TAB_ICM,TP_ICM_LABEL
+msgid "ICM"
+msgstr ""
+
+#: MAIN_TAB_IPTC
+msgid "IPTC"
+msgstr ""
+
+#: MAIN_TAB_METADATA,PREFERENCES_METADATA
+msgid "Metadata"
+msgstr ""
+
+#: MAIN_TAB_METADATA_TOOLTIP
+msgid "<b>Alt-m</b>"
+msgstr ""
+
+#: MAIN_TAB_RAW
+msgid "RAW"
+msgstr ""
+
+#: MAIN_TAB_RAW_TOOLTIP
+msgid "<b>Alt-r</b>"
+msgstr ""
+
+#: MAIN_TAB_TAGGING
+msgid "Tagging"
+msgstr ""
+
+#: MAIN_TAB_TRANSFORM_TOOLTIP
+msgid "<b>Alt-t</b>"
+msgstr ""
+
+#: MAIN_TAB_TRANSFORM
+msgid "Transform"
+msgstr ""
+
+#: MAIN_TOGGLE_BEFORE_AFTER
+msgid "B|A"
+msgstr ""
+
+#: MAIN_TOOLTIP_HIDEFP
+msgid "Show/hide the bottom panel (directory and file browser) <b>F</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_HIDEHP
+msgid "Show/hide the left panel (including the history) <b>l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_INDCLIPPEDH
+msgid "Clipped highlight indication (Key <)"
+msgstr ""
+
+#: MAIN_TOOLTIP_INDCLIPPEDS
+msgid "Clipped shadow indication (Key >)"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREFERENCES
+msgid "Set preferences"
+msgstr ""
+
+#: MAIN_TOOLTIP_QINFO
+msgid "Quick info on the image <b>I</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_SAVEAS
+msgid "Save image to a selected folder"
+msgstr ""
+
+#: MAIN_TOOLTIP_SAVE
+msgid "Save image to the default folder"
+msgstr ""
+
+#: MAIN_TOOLTIP_SHOWHIDELP1
+msgid "Show/hide the left panel <b>l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_SHOWHIDERP1
+msgid "Show/hide the right panel <b>Alt-l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_SHOWHIDETP1
+msgid "Show/hide the top panel <b>Shift-l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_TOGGLE
+msgid "Toggle before/after view <b>B</b>"
+msgstr ""
+
+#: NAVIGATOR_B_NA,NAVIGATOR_LAB_B_NA
+msgid "B = n/a"
+msgstr ""
+
+#: NAVIGATOR_B_VALUE,NAVIGATOR_LAB_B_VALUE
+msgid "B = %1"
+msgstr ""
+
+#: NAVIGATOR_G_NA
+msgid "G = n/a"
+msgstr ""
+
+#: NAVIGATOR_G_VALUE
+msgid "G = %1"
+msgstr ""
+
+#: NAVIGATOR_H_NA
+msgid "H = n/a"
+msgstr ""
+
+#: NAVIGATOR_H_VALUE
+msgid "H = %1"
+msgstr ""
+
+#: NAVIGATOR_LAB_A_NA
+msgid "A = n/a"
+msgstr ""
+
+#: NAVIGATOR_LAB_A_VALUE
+msgid "A = %1"
+msgstr ""
+
+#: NAVIGATOR_LAB_L_NA
+msgid "L = n/a"
+msgstr ""
+
+#: NAVIGATOR_LAB_L_VALUE
+msgid "L = %1"
+msgstr ""
+
+#: NAVIGATOR_R_NA
+msgid "R = n/a"
+msgstr ""
+
+#: NAVIGATOR_R_VALUE
+msgid "R = %1"
+msgstr ""
+
+#: NAVIGATOR_S_NA
+msgid "S = n/a"
+msgstr ""
+
+#: NAVIGATOR_S_VALUE
+msgid "S = %1"
+msgstr ""
+
+#: NAVIGATOR_V_NA
+msgid "V = n/a"
+msgstr ""
+
+#: NAVIGATOR_V_VALUE
+msgid "V = %1"
+msgstr ""
+
+#: NAVIGATOR_XY_NA
+msgid "x = n/a, y = n/a"
+msgstr ""
+
+#: PARTIALPASTE_BASICGROUP
+msgid "Basic settings"
+msgstr ""
+
+#: PARTIALPASTE_CACORRECTION
+msgid "C/A correction"
+msgstr ""
+
+#: PARTIALPASTE_COARSETRANS
+msgid "90 deg rotation / flipping"
+msgstr ""
+
+#: PARTIALPASTE_COLORBOOST
+msgid "Color boost"
+msgstr ""
+
+#: PARTIALPASTE_COLORDENOISE
+msgid "Color denoise"
+msgstr ""
+
+#: PARTIALPASTE_COLORGROUP
+msgid "Color related settings"
+msgstr ""
+
+#: PARTIALPASTE_COLORMIXER
+msgid "Color mixer"
+msgstr ""
+
+#: PARTIALPASTE_COLORSHIFT
+msgid "Color shift"
+msgstr ""
+
+#: PARTIALPASTE_COMMONTRANSFORMPARAMS
+msgid "Auto fill"
+msgstr ""
+
+#: PARTIALPASTE_COMPOSITIONGROUP
+msgid "Composition settings"
+msgstr ""
+
+#: PARTIALPASTE_CROP,TP_CROP_LABEL
+msgid "Crop"
+msgstr ""
+
+#: PARTIALPASTE_DARKFRAMEAUTOSELECT
+msgid "Dark Frame Auto Select"
+msgstr ""
+
+#: PARTIALPASTE_DEFRINGE,TP_DEFRINGE_LABEL
+msgid "Defringe"
+msgstr ""
+
+#: PARTIALPASTE_DETAILGROUP
+msgid "Detail settings"
+msgstr ""
+
+#: PARTIALPASTE_DIALOGLABEL
+msgid "Partial paste processing profile"
+msgstr ""
+
+#: PARTIALPASTE_DISTORTION
+msgid "Distortion correction"
+msgstr ""
+
+#: PARTIALPASTE_EVERYTHING
+msgid "Everything"
+msgstr ""
+
+#: PARTIALPASTE_EXIFCHANGES
+msgid "Changes to exif data"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDAUTOSELECT
+msgid "FF Auto Select"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDBLURRADIUS
+msgid "FF Blur Radius"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDBLURTYPE
+msgid "FF Blur Type"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDFILE
+msgid "Flat field (FF) File"
+msgstr ""
+
+#: PARTIALPASTE_HLRECONSTRUCTION
+msgid "Highlight reconstruction"
+msgstr ""
+
+#: PARTIALPASTE_HLRECOVERYAMOUNT,TP_EXPOSURE_COMPRHIGHLIGHTS
+msgid "Highlight recovery amount"
+msgstr ""
+
+#: PARTIALPASTE_HLRECOVERY
+msgid "Highlight recovery"
+msgstr ""
+
+#: PARTIALPASTE_HLRECOVERYTHRESHOLD,TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
+msgid "Highlight recovery threshold"
+msgstr ""
+
+#: PARTIALPASTE_CHANNELMIXER
+msgid "Channel mixer"
+msgstr ""
+
+#: PARTIALPASTE_ICMSETTINGS
+msgid "ICM settings"
+msgstr ""
+
+#: PARTIALPASTE_IPTCINFO
+msgid "IPTC info"
+msgstr ""
+
+#: PARTIALPASTE_LABCURVE
+msgid "Lab adjustments"
+msgstr ""
+
+#: PARTIALPASTE_LENSGROUP
+msgid "Lens related settings"
+msgstr ""
+
+#: PARTIALPASTE_LUMADENOISE
+msgid "Luminance noise reduction"
+msgstr ""
+
+#: PARTIALPASTE_LUMINANCEGROUP
+msgid "Luminance related settings"
+msgstr ""
+
+#: PARTIALPASTE_METAICMGROUP
+msgid "Metadata/ICM settings"
+msgstr ""
+
+#: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
+msgid "Perspective"
+msgstr ""
+
+#: PARTIALPASTE_PREPROCESS_GREENEQUIL,TP_PREPROCESS_GREENEQUIL
+msgid "Green equilibration"
+msgstr ""
+
+#: PARTIALPASTE_PREPROCESS_HOTDEADPIXFILT,TP_PREPROCESS_HOTDEADPIXFILT
+msgid "Apply hot/dead pixel filter"
+msgstr ""
+
+#: PARTIALPASTE_PREPROCESS_LINEDENOISE,TP_PREPROCESS_LINEDENOISE
+msgid "Line noise filter"
+msgstr ""
+
+#: PARTIALPASTE_RAWCACORR_AUTO
+msgid "CA auto correction"
+msgstr ""
+
+#: PARTIALPASTE_RAWCACORR_CABLUE
+msgid "CA Blue"
+msgstr ""
+
+#: PARTIALPASTE_RAWCACORR_CARED
+msgid "CA Red"
+msgstr ""
+
+#: PARTIALPASTE_RAW_DCBENHANCE,TP_RAW_DCBENHANCE
+msgid "Apply DCB enhancement step"
+msgstr ""
+
+#: PARTIALPASTE_RAW_DCBITERATIONS,TP_RAW_DCBITERATIONS
+msgid "Number of DCB iterations"
+msgstr ""
+
+#: PARTIALPASTE_RAW_DMETHOD
+msgid "Demosaic Method"
+msgstr ""
+
+#: PARTIALPASTE_RAWEXPOS_LINEAR
+msgid "Exposure linear corr. factor"
+msgstr ""
+
+#: PARTIALPASTE_RAWEXPOS_PRESER
+msgid "Exposure HL preserving corr. (EV)"
+msgstr ""
+
+#: PARTIALPASTE_RAW_FALSECOLOR
+msgid "Demosaic False color suppression steps"
+msgstr ""
+
+#: PARTIALPASTE_RAWGROUP
+msgid "Raw settings"
+msgstr ""
+
+#: PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
+msgid "Resize"
+msgstr ""
+
+#: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
+msgid "Shadows/Highlights"
+msgstr ""
+
+#: PARTIALPASTE_VIGNETTING
+msgid "Vignetting correction"
+msgstr ""
+
+#: PARTIALPASTE_WHITEBALANCE
+msgid "White balance "
+msgstr ""
+
+#: POPUPBUTTON_SELECTOPTIONHINT
+msgid "RMB to change option"
+msgstr ""
+
+#: PREFERENCES_ADD
+msgid "ADD"
+msgstr ""
+
+#: PREFERENCES_APPLNEXTSTARTUP
+msgid "restart required"
+msgstr ""
+
+#: PREFERENCES_AUTOMONPROFILE
+msgid "Automatically use operating systems main monitors profile"
+msgstr ""
+
+#: PREFERENCES_BATCH_PROCESSING
+msgid "Batch Processing"
+msgstr ""
+
+#: PREFERENCES_BEHAVIOR
+msgid "Behavior"
+msgstr ""
+
+#: PREFERENCES_BLINKCLIPPED
+msgid "Blink clipped areas"
+msgstr ""
+
+#: PREFERENCES_CACHECLEARALL
+msgid "Clear All"
+msgstr ""
+
+#: PREFERENCES_CACHECLEARPROFILES
+msgid "Clear Profiles"
+msgstr ""
+
+#: PREFERENCES_CACHECLEARTHUMBS
+msgid "Clear Thumbnails"
+msgstr ""
+
+#: PREFERENCES_CACHEFORMAT1
+msgid "Proprietary (faster and better quality)"
+msgstr ""
+
+#: PREFERENCES_CACHEFORMAT2
+msgid "JPEG (smaller disk footprint)"
+msgstr ""
+
+#: PREFERENCES_CACHEMAXENTRIES
+msgid "Maximal Number of Cache Entries"
+msgstr ""
+
+#: PREFERENCES_CACHEOPTS
+msgid "Cache Options"
+msgstr ""
+
+#: PREFERENCES_CACHESTRAT
+msgid "Cache Strategy"
+msgstr ""
+
+#: PREFERENCES_CACHESTRAT1
+msgid "Prefer Speed to Low Memory Consumption"
+msgstr ""
+
+#: PREFERENCES_CACHESTRAT2
+msgid "Prefer Low Memory Consumption to Speed"
+msgstr ""
+
+#: PREFERENCES_CACHETHUMBFORM
+msgid "Cache Thumbnail Format"
+msgstr ""
+
+#: PREFERENCES_CACHETHUMBHEIGHT
+msgid "Maximal Thumbnail Height"
+msgstr ""
+
+#: PREFERENCES_CLIPPINGIND
+msgid "Clipping indication"
+msgstr ""
+
+#: PREFERENCES_CMETRICINTENT
+msgid "Colorimetric Intent"
+msgstr ""
+
+#: PREFERENCES_CUTOVERLAYBRUSH
+msgid "Crop mask color/transparency"
+msgstr ""
+
+#: PREFERENCES_DARKFRAMEFOUND,PREFERENCES_FLATFIELDFOUND
+msgid "Found"
+msgstr ""
+
+#: PREFERENCES_DARKFRAMESHOTS,PREFERENCES_FLATFIELDSHOTS
+msgid "shots"
+msgstr ""
+
+#: PREFERENCES_DARKFRAMETEMPLATES,PREFERENCES_FLATFIELDTEMPLATES
+msgid "templates"
+msgstr ""
+
+#: PREFERENCES_DATEFORMAT
+msgid "Date Format"
+msgstr ""
+
+#: PREFERENCES_DATEFORMATFRAME
+msgid "Date Format "
+msgstr ""
+
+#: PREFERENCES_DATEFORMATHINT
+msgid "<i>You can use the following formatting strings:</i>\n<b>%y</b><i> : year</i>\n<b>%m</b><i> : month</i>\n<b>%d</b><i> : day</i>\n<i>\nFor example, the hungarian date format is:</i>\n<b>%y/%m/%d</b>"
+msgstr ""
+
+#: PREFERENCES_DEFAULTLANG
+msgid "Default language"
+msgstr ""
+
+#: PREFERENCES_DEFAULTTHEME
+msgid "Default theme"
+msgstr ""
+
+#: PREFERENCES_DEMOSAICINGALGO
+msgid "Demosaicing Algorithm"
+msgstr ""
+
+#: PREFERENCES_DIRDARKFRAMES
+msgid "Dark frames directory"
+msgstr ""
+
+#: PREFERENCES_DIRHOME
+msgid "Home directory"
+msgstr ""
+
+#: PREFERENCES_DIRLAST
+msgid "Last visited directory"
+msgstr ""
+
+#: PREFERENCES_DIROTHER
+msgid "Other"
+msgstr ""
+
+#: PREFERENCES_DIRSELECTDLG
+msgid "Select Image Directory at Startup..."
+msgstr ""
+
+#: PREFERENCES_DIRSOFTWARE
+msgid "Installation directory"
+msgstr ""
+
+#: PREFERENCES_EDITORCMDLINE
+msgid "Other command line"
+msgstr ""
+
+#: PREFERENCES_EDITORLAYOUT
+msgid "Editor Layout"
+msgstr ""
+
+#: PREFERENCES_EXTERNALEDITOR
+msgid "External editor"
+msgstr ""
+
+#: PREFERENCES_FBROWSEROPTS
+msgid "File Browser Options"
+msgstr ""
+
+#: PREFERENCES_FILEFORMAT,SAVEDLG_FILEFORMAT
+msgid "File format"
+msgstr ""
+
+#: PREFERENCES_FLATFIELDSDIR
+msgid "Flat Fields directory"
+msgstr ""
+
+#: PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
+msgid "Flat Field"
+msgstr ""
+
+#: PREFERENCES_FORIMAGE
+msgid "For image files"
+msgstr ""
+
+#: PREFERENCES_FORRAW
+msgid "For RAW files"
+msgstr ""
+
+#: PREFERENCES_GIMPPATH
+msgid "GIMP installation directory"
+msgstr ""
+
+#: PREFERENCES_GTKTHEME
+msgid "GTK default"
+msgstr ""
+
+#: PREFERENCES_HINT
+msgid "Hint"
+msgstr ""
+
+#: PREFERENCES_HLTHRESHOLD
+msgid "Threshold for clipped highlights"
+msgstr ""
+
+#: PREFERENCES_ICCDIR
+msgid "Directory of ICC profiles"
+msgstr ""
+
+#: PREFERENCES_IMPROCPARAMS
+msgid "Default image processing parameters"
+msgstr ""
+
+#: PREFERENCES_INTENT_ABSOLUTE
+msgid "Absolute Colorimetric"
+msgstr ""
+
+#: PREFERENCES_INTENT_PERCEPTUAL
+msgid "Perceptual"
+msgstr ""
+
+#: PREFERENCES_INTENT_RELATIVE
+msgid "Relative Colorimetric"
+msgstr ""
+
+#: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
+msgid "Show RAW internal thumbnail if unedited"
+msgstr ""
+
+#: PREFERENCES_LIVETHUMBNAILS
+msgid "Live Thumbnails (slower)"
+msgstr ""
+
+#: PREFERENCES_MONITORICC
+msgid "Monitor Profile"
+msgstr ""
+
+#: PREFERENCES_MULTITABDUALMON
+msgid "Multiple tabs mode, if available on second monitor"
+msgstr ""
+
+#: PREFERENCES_MULTITAB
+msgid "Multiple tabs mode"
+msgstr ""
+
+#: PREFERENCES_OUTDIRFOLDERHINT
+msgid "Put the saved images to the selected folder"
+msgstr ""
+
+#: PREFERENCES_OUTDIRFOLDER
+msgid "Save to folder"
+msgstr ""
+
+#: PREFERENCES_OUTDIRHINT
+msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ...\n\nThese formatting strings refer to the different parts of the photo's pathname.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
+msgstr ""
+
+#: PREFERENCES_OUTDIR
+msgid "Output Directory"
+msgstr ""
+
+#: PREFERENCES_OUTDIRTEMPLATEHINT
+msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname, or some attributes of the photo.\n\n%r will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in trash bin, %r will be replaced by 'x'.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
+msgstr ""
+
+#: PREFERENCES_OUTDIRTEMPLATE
+msgid "Use Template"
+msgstr ""
+
+#: PREFERENCES_OVERLAY_FILENAMES
+msgid "Overlay filenames on thumbnails"
+msgstr ""
+
+#: PREFERENCES_OVERWRITEOUTPUTFILE
+msgid "Overwrite existing output files"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTADD
+msgid "Add Extension"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTADDHINT
+msgid "Type an extension and press this button to append list"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTDELHINT
+msgid "Delete selected extension from the list"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXT
+msgid "Parsed Extensions"
+msgstr ""
+
+#: PREFERENCES_PROFILEHANDLING
+msgid "Processing Profile Handling"
+msgstr ""
+
+#: PREFERENCES_PROFILELOADPR
+msgid "Profile Loading Priority"
+msgstr ""
+
+#: PREFERENCES_PROFILEPRCACHE
+msgid "Profile in cache"
+msgstr ""
+
+#: PREFERENCES_PROFILEPRFILE
+msgid "Profile next to the input file"
+msgstr ""
+
+#: PREFERENCES_PROFILESAVECACHE
+msgid "Save processing parameters to the cache"
+msgstr ""
+
+#: PREFERENCES_PROFILESAVEINPUT
+msgid "Save processing parameters next to the input file"
+msgstr ""
+
+#: PREFERENCES_PROPERTY
+msgid "Property"
+msgstr ""
+
+#: PREFERENCES_PSPATH
+msgid "Adobe Photoshop installation directory"
+msgstr ""
+
+#: PREFERENCES_SELECTFONT
+msgid "Select font"
+msgstr ""
+
+#: PREFERENCES_SELECTICCDIRDLG
+msgid "Select ICC Profile Directory..."
+msgstr ""
+
+#: PREFERENCES_SELECTLANG
+msgid "Select language"
+msgstr ""
+
+#: PREFERENCES_SELECTMONITORPROFDLG
+msgid "Select ICC Profile of the Display..."
+msgstr ""
+
+#: PREFERENCES_SELECTTHEME
+msgid "Select theme"
+msgstr ""
+
+#: PREFERENCES_SET
+msgid "SET"
+msgstr ""
+
+#: PREFERENCES_SHOWBASICEXIF
+msgid "Show basic Exif info"
+msgstr ""
+
+#: PREFERENCES_SHOWDATETIME
+msgid "Show date and time"
+msgstr ""
+
+#: PREFERENCES_SHOWONLYRAW
+msgid "Show only RAW files"
+msgstr ""
+
+#: PREFERENCES_SHTHRESHOLD
+msgid "Threshold for clipped shadows"
+msgstr ""
+
+#: PREFERENCES_SINGLETAB
+msgid "Single tab mode"
+msgstr ""
+
+#: PREFERENCES_SINGLETABVERTAB
+msgid "Single tab mode, vertical tabs"
+msgstr ""
+
+#: PREFERENCES_SND_BATCHQUEUEDONE
+msgid "Batch queue done"
+msgstr ""
+
+#: PREFERENCES_SND_HELP
+msgid "Either enter filepath or nothing (for no sound). On Windows use \"SystemDefault\", \"SystemAsterisk\" etc. for system sounds."
+msgstr ""
+
+#: PREFERENCES_SND_LNGEDITPROCDONE
+msgid "Editor processing done"
+msgstr ""
+
+#: PREFERENCES_SND_TRESHOLDSECS
+msgid "after secs"
+msgstr ""
+
+#: PREFERENCES_STARTUPIMDIR
+msgid "Image directory at startup"
+msgstr ""
+
+#: PREFERENCES_TAB_BROWSER
+msgid "File Browser"
+msgstr ""
+
+#: PREFERENCES_TAB_COLORMGR
+msgid "Color Management"
+msgstr ""
+
+#: PREFERENCES_TAB_GENERAL
+msgid "General"
+msgstr ""
+
+#: PREFERENCES_TAB_IMPROC
+msgid "Image Processing"
+msgstr ""
+
+#: PREFERENCES_TAB_OUTPUT
+msgid "Output Options"
+msgstr ""
+
+#: PREFERENCES_TAB_SOUND
+msgid "Sounds"
+msgstr ""
+
+#: PREFERENCES_THUMBSIZE
+msgid "Thumbnail Size"
+msgstr ""
+
+#: PREFERENCES_TUNNELMETADATA
+msgid "Copy IPTC/XMP unchanged to output file (when tagging with other program)"
+msgstr ""
+
+#: PREFERENCES_USESYSTEMTHEME
+msgid " Use System Theme"
+msgstr ""
+
+#: PREFERENCES_WORKFLOW
+msgid "Workflow"
+msgstr ""
+
+#: PROFILEPANEL_FILEDLGFILTERPP
+msgid "Postprocessing profiles"
+msgstr ""
+
+#: PROFILEPANEL_LABEL
+msgid "Postprocessing Profiles"
+msgstr ""
+
+#: PROFILEPANEL_LOADDLGLABEL
+msgid "Load Postprocessing Parameters..."
+msgstr ""
+
+#: PROFILEPANEL_PFILE
+msgid "From file"
+msgstr ""
+
+#: PROFILEPANEL_PLASTPHOTO
+msgid "Last Photo"
+msgstr ""
+
+#: PROFILEPANEL_PLASTSAVED
+msgid "Last Saved"
+msgstr ""
+
+#: PROFILEPANEL_PROFILE
+msgid "Profile"
+msgstr ""
+
+#: PROFILEPANEL_SAVEDLGLABEL
+msgid "Save Postprocessing Parameters..."
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPCOPY
+msgid "Copy current profile to clipboard"
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPLOAD
+msgid "Load a profile from file"
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPPASTE
+msgid " Paste profile from clipboard"
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPSAVE
+msgid "Save current profile"
+msgstr ""
+
+#: PROGRESSBAR_BADPIXELS
+msgid "Bad pixels..."
+msgstr ""
+
+#: PROGRESSBAR_CACORRECTION
+msgid "CA correction..."
+msgstr ""
+
+#: PROGRESSBAR_DARKFRAME
+msgid "Darkframe... "
+msgstr ""
+
+#: PROGRESSBAR_DECODING
+msgid "Decoding raw file..."
+msgstr ""
+
+#: PROGRESSBAR_DEMOSAICING
+msgid "Demosaicing..."
+msgstr ""
+
+#: PROGRESSBAR_GREENEQUIL
+msgid "Green equilibrate..."
+msgstr ""
+
+#: PROGRESSBAR_LINEDENOISE
+msgid "Line Denoise..."
+msgstr ""
+
+#: PROGRESSBAR_LOADING
+msgid "Loading Image..."
+msgstr ""
+
+#: PROGRESSBAR_LOADINGTHUMBS
+msgid "Loading thumbnails..."
+msgstr ""
+
+#: PROGRESSBAR_LOADJPEG
+msgid "Loading JPEG file..."
+msgstr ""
+
+#: PROGRESSBAR_LOADPNG
+msgid "Loading PNG file..."
+msgstr ""
+
+#: PROGRESSBAR_LOADTIFF
+msgid "Loading TIFF file..."
+msgstr ""
+
+#: PROGRESSBAR_PROCESSING
+msgid "Processing Image..."
+msgstr ""
+
+#: PROGRESSBAR_READY
+msgid "Ready."
+msgstr ""
+
+#: PROGRESSBAR_SAVEJPEG
+msgid "Saving JPEG file..."
+msgstr ""
+
+#: PROGRESSBAR_SAVEPNG
+msgid "Saving PNG file..."
+msgstr ""
+
+#: PROGRESSBAR_SAVETIFF
+msgid "Saving TIFF file..."
+msgstr ""
+
+#: PROGRESSDLG_PROFILECHANGEDINBROWSER
+msgid "Profile changed in browser"
+msgstr ""
+
+#: QINFO_FOCALLENGTH
+msgid "Focal length"
+msgstr ""
+
+#: QINFO_NOEXIF
+msgid "Exif data not available."
+msgstr ""
+
+#: SAVEDLG_AUTOSUFFIX
+msgid "Automatically add a suffix if the file already exists"
+msgstr ""
+
+#: SAVEDLG_JPEGQUAL
+msgid "JPEG Quality"
+msgstr ""
+
+#: SAVEDLG_JPGFILTER
+msgid "JPEG files"
+msgstr ""
+
+#: SAVEDLG_PNGCOMPR
+msgid "PNG Compression"
+msgstr ""
+
+#: SAVEDLG_PNGFILTER
+msgid "PNG files"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUEHEAD
+msgid "Put to the head of the processing queue"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUE
+msgid "Put into processing queue"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUETAIL
+msgid "Put to the end of the processing queue"
+msgstr ""
+
+#: SAVEDLG_SAVEIMMEDIATELY
+msgid "Save immediately"
+msgstr ""
+
+#: SAVEDLG_SAVESPP
+msgid "Save processing parameters with image"
+msgstr ""
+
+#: SAVEDLG_TIFFFILTER
+msgid "TIFF files"
+msgstr ""
+
+#: SAVEDLG_TIFFUNCOMPRESSED
+msgid "Uncompressed TIFF"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_CROP
+msgid "Crop selection <b>C</b>"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_HAND
+msgid "Hand tool <b>H</b>"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_STRAIGHTEN
+msgid "Straight line selection <b>S</b>"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_WB
+msgid "Spot white balance <b>W</b>"
+msgstr ""
+
+#: TP_CACORRECTION_BLUE,TP_HSVEQUALIZER6,TP_CHMIXER_BLUE,TP_RAWCACORR_CABLUE
+msgid "Blue"
+msgstr ""
+
+#: TP_CACORRECTION_RED,TP_HSVEQUALIZER1,TP_CHMIXER_RED,TP_RAWCACORR_CARED
+msgid "Red"
+msgstr ""
+
+#: TP_COARSETRAF_DEGREE
+msgid "degree:"
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_HFLIP
+msgid "Flip horizontally"
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_ROTLEFT
+msgid "Rotate left <b>[</b>"
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_ROTRIGHT
+msgid "Rotate right <b>]</b>"
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_VFLIP
+msgid "Flip vertically"
+msgstr ""
+
+#: TP_COLORBOOST_ACHANNEL
+msgid "Channel \"a\""
+msgstr ""
+
+#: TP_COLORBOOST_AMOUNT,TP_DETAIL_AMOUNT,TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
+msgid "Amount"
+msgstr ""
+
+#: TP_COLORBOOST_AVOIDCOLORCLIP,TP_LABCURVE_AVOIDCOLORCLIP
+msgid "Avoid color clipping"
+msgstr ""
+
+#: TP_COLORBOOST_BCHANNEL
+msgid "Channel \"b\""
+msgstr ""
+
+#: TP_COLORBOOST_ENABLESATLIMITER,TP_LABCURVE_ENABLESATLIMITER
+msgid "Enable saturation limiter"
+msgstr ""
+
+#: TP_COLORBOOST_CHAB
+msgid "a & b"
+msgstr ""
+
+#: TP_COLORBOOST_CHANNEL
+msgid "Channel"
+msgstr ""
+
+#: TP_COLORBOOST_CHSEPARATE
+msgid "separate"
+msgstr ""
+
+#: TP_COLORBOOST_SATLIMIT,TP_LABCURVE_SATLIMIT
+msgid "Saturation limit"
+msgstr ""
+
+#: TP_COLORDENOISE_EDGESENSITIVE
+msgid "Edge Sensitive"
+msgstr ""
+
+#: TP_COLORDENOISE_EDGETOLERANCE,TP_LUMADENOISE_EDGETOLERANCE
+msgid "Edge Tolerance"
+msgstr ""
+
+#: TP_COLORDENOISE_LABEL
+msgid "Color Noise Reduction"
+msgstr ""
+
+#: TP_COLORDENOISE_RADIUS,TP_DEFRINGE_RADIUS,TP_LUMADENOISE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
+msgid "Radius"
+msgstr ""
+
+#: TP_COLORSHIFT_BLUEYELLOW
+msgid "Blue-Yellow"
+msgstr ""
+
+#: TP_COLORSHIFT_GREENMAGENTA
+msgid "Green-Magenta"
+msgstr ""
+
+#: TP_COLORSHIFT_LABEL
+msgid "Color Shift"
+msgstr ""
+
+#: TP_CROP_DPI
+msgid "DPI="
+msgstr ""
+
+#: TP_CROP_FIXRATIO
+msgid "Fix Ratio:"
+msgstr ""
+
+#: TP_CROP_GTDIAGONALS
+msgid "Rule of diagonals"
+msgstr ""
+
+#: TP_CROP_GTGRID
+msgid "Grid"
+msgstr ""
+
+#: TP_CROP_GTHARMMEANS1
+msgid "Harmonic means 1"
+msgstr ""
+
+#: TP_CROP_GTHARMMEANS2
+msgid "Harmonic means 2"
+msgstr ""
+
+#: TP_CROP_GTHARMMEANS3
+msgid "Harmonic means 3"
+msgstr ""
+
+#: TP_CROP_GTHARMMEANS4
+msgid "Harmonic means 4"
+msgstr ""
+
+#: TP_CROP_GTRULETHIRDS
+msgid "Rule of thirds"
+msgstr ""
+
+#: TP_CROP_GUIDETYPE
+msgid "Guide Type:"
+msgstr ""
+
+#: TP_CROP_H
+msgid "H"
+msgstr ""
+
+#: TP_CROP_SELECTCROP
+msgid "    Select Crop"
+msgstr ""
+
+#: TP_CROP_W
+msgid "W"
+msgstr ""
+
+#: TP_CROP_X
+msgid "x"
+msgstr ""
+
+#: TP_CROP_Y
+msgid "y"
+msgstr ""
+
+#: TP_DARKFRAME_AUTOSELECT,TP_FLATFIELD_AUTOSELECT
+msgid "Auto selection"
+msgstr ""
+
+#: TP_DARKFRAME_LABEL
+msgid "Dark Frame"
+msgstr ""
+
+#: TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
+msgid "Threshold"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_GAMMA
+msgid "Gamma"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMA
+msgid "Chrominance"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LUMA
+msgid "Luminance"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMACOARSEST
+msgid "Coarsest"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMACONTRAST_MINUS,TP_EQUALIZER_CONTRAST_MINUS
+msgid "Contrast-"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMACONTRAST_PLUS,TP_EQUALIZER_CONTRAST_PLUS
+msgid "Contrast+"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMAFINEST
+msgid "Finest"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL
+msgid "Neutral"
+msgstr ""
+
+#: TP_DISTORTION_AUTO
+msgid "Auto distortion correction"
+msgstr ""
+
+#: TP_DISTORTION_AUTO_TIP
+msgid "(Exprimental) Correct lens distortion automatically for some cameras (M4/3, some compact DC, etc.)"
+msgstr ""
+
+#: TP_DISTORTION_LABEL
+msgid "Distortion"
+msgstr ""
+
+#: TP_EQUALIZER_FINEST
+msgid "finest"
+msgstr ""
+
+#: TP_EQUALIZER_LARGEST
+msgid "coarsest"
+msgstr ""
+
+#: TP_EXPOSURE_AUTOLEVELS
+msgid "Auto Levels"
+msgstr ""
+
+#: TP_EXPOSURE_CLIP
+msgid "Clip"
+msgstr ""
+
+#: TP_EXPOSURE_COMPRSHADOWS
+msgid "Shadow recovery"
+msgstr ""
+
+#: TP_EXPOSURE_EXPCOMP
+msgid "Exp. Comp."
+msgstr ""
+
+#: TP_FLATFIELD_BLURRADIUS
+msgid "Blur Radius"
+msgstr ""
+
+#: TP_FLATFIELD_BLURTYPE
+msgid "Blur Type"
+msgstr ""
+
+#: TP_FLATFIELD_BT_AREA
+msgid "Area"
+msgstr ""
+
+#: TP_FLATFIELD_BT_HORIZONTAL,TP_PERSPECTIVE_HORIZONTAL
+msgid "Horizontal"
+msgstr ""
+
+#: TP_FLATFIELD_BT_VERTHORIZ
+msgid "Vert. + Horiz."
+msgstr ""
+
+#: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL
+msgid "Vertical"
+msgstr ""
+
+#: TP_HLREC_CIELAB
+msgid "CIELab Blending"
+msgstr ""
+
+#: TP_HLREC_COLOR
+msgid "Color Propagation"
+msgstr ""
+
+#: TP_HLREC_LABEL
+msgid "Highlight Reconstruction"
+msgstr ""
+
+#: TP_HLREC_LUMINANCE
+msgid "Luminance Recovery"
+msgstr ""
+
+#: TP_HLREC_METHOD,TP_RESIZE_METHOD
+msgid "Method: "
+msgstr ""
+
+#: TP_HSVEQUALIZER_HUE
+msgid "H"
+msgstr ""
+
+#: TP_HSVEQUALIZER_CHANNEL
+msgid "HSV Channel"
+msgstr ""
+
+#: TP_HSVEQUALIZER_SAT
+msgid "S"
+msgstr ""
+
+#: TP_HSVEQUALIZER_VAL
+msgid "V"
+msgstr ""
+
+#: TP_HSVEQUALIZER2
+msgid "Yellow"
+msgstr ""
+
+#: TP_HSVEQUALIZER3
+msgid "Lime"
+msgstr ""
+
+#: TP_HSVEQUALIZER4,TP_CHMIXER_GREEN
+msgid "Green"
+msgstr ""
+
+#: TP_HSVEQUALIZER5
+msgid "Aqua"
+msgstr ""
+
+#: TP_HSVEQUALIZER7
+msgid "Purple"
+msgstr ""
+
+#: TP_HSVEQUALIZER8
+msgid "Magenta"
+msgstr ""
+
+#: TP_CHROMATABERR_LABEL
+msgid "Chromatic Aberration"
+msgstr ""
+
+#: TP_ICM_INPUTNONE
+msgid "No profile"
+msgstr ""
+
+#: TP_IMPULSEDENOISE_LABEL
+msgid "Impulse Noise Reduction"
+msgstr ""
+
+#: TP_IMPULSEDENOISE_THRESH
+msgid "Impulse NR Threshold"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR
+msgid "Luminance Curve"
+msgstr ""
+
+#: TP_LABCURVE_LABEL
+msgid "Lab Adjustments"
+msgstr ""
+
+#: TP_LENSGEOM_AUTOCROP
+msgid "Auto Crop"
+msgstr ""
+
+#: TP_LENSGEOM_LABEL
+msgid "Lens / Geometry"
+msgstr ""
+
+#: TP_LUMADENOISE_LABEL
+msgid "Luminance Noise Reduction"
+msgstr ""
+
+#: TP_PREPROCESS_LABEL
+msgid "Preprocessing"
+msgstr ""
+
+#: TP_PREPROCESS_NO_FOUND
+msgid "None found"
+msgstr ""
+
+#: TP_RAWCACORR_AUTO
+msgid "Auto correction"
+msgstr ""
+
+#: TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
+msgid "Method"
+msgstr ""
+
+#: TP_RAWEXPOS_LINEAR
+msgid "Linear corr. factor"
+msgstr ""
+
+#: TP_RAWEXPOS_PRESER
+msgid "HL preserving corr. (EV)"
+msgstr ""
+
+#: TP_RAW_FALSECOLOR
+msgid "False color suppression steps"
+msgstr ""
+
+#: TP_RAW_LABEL
+msgid "Demosaicing"
+msgstr ""
+
+#: TP_RESIZE_APPLIESTO
+msgid "Applies to:"
+msgstr ""
+
+#: TP_RESIZE_BICUBIC
+msgid "Bicubic"
+msgstr ""
+
+#: TP_RESIZE_BICUBICSF
+msgid "Bicubic (Softer)"
+msgstr ""
+
+#: TP_RESIZE_BICUBICSH
+msgid "Bicubic (Sharper)"
+msgstr ""
+
+#: TP_RESIZE_BILINEAR
+msgid "Bilinear"
+msgstr ""
+
+#: TP_RESIZE_CROPPEDAREA
+msgid "Cropped area"
+msgstr ""
+
+#: TP_RESIZE_DOWNSCALEB
+msgid "Downscale (Better)"
+msgstr ""
+
+#: TP_RESIZE_DOWNSCALEF
+msgid "Downscale (Faster)"
+msgstr ""
+
+#: TP_RESIZE_FITBOX
+msgid "Bounding box"
+msgstr ""
+
+#: TP_RESIZE_FULLIMAGE
+msgid "Full image"
+msgstr ""
+
+#: TP_RESIZE_FULLSIZE
+msgid "Full Image Size:"
+msgstr ""
+
+#: TP_RESIZE_HEIGHT
+msgid "Height"
+msgstr ""
+
+#: TP_RESIZE_H
+msgid "H:"
+msgstr ""
+
+#: TP_RESIZE_LANCZOS
+msgid "Lanczos"
+msgstr ""
+
+#: TP_RESIZE_NEAREST
+msgid "Nearest"
+msgstr ""
+
+#: TP_RESIZE_SCALE,ZOOMBAR_SCALE
+msgid "Scale"
+msgstr ""
+
+#: TP_RESIZE_SPECIFY
+msgid "Specify:"
+msgstr ""
+
+#: TP_RESIZE_WIDTH
+msgid "Width"
+msgstr ""
+
+#: TP_RESIZE_W
+msgid "W:"
+msgstr ""
+
+#: TP_ROTATE_DEGREE
+msgid "Degree"
+msgstr ""
+
+#: TP_ROTATE_LABEL
+msgid "Rotate"
+msgstr ""
+
+#: TP_ROTATE_SELECTLINE
+msgid "    Select Straight Line"
+msgstr ""
+
+#: TP_SHADOWSHLIGHTS_HLTONALW
+msgid "Tonal Width for Highlights"
+msgstr ""
+
+#: TP_SHADOWSHLIGHTS_SHTONALW
+msgid "Tonal Width for Shadows"
+msgstr ""
+
+#: TP_SHARPENING_EDTOLERANCE
+msgid "Edge tolerance"
+msgstr ""
+
+#: TP_SHARPENING_HALOCONTROL
+msgid "Halo control"
+msgstr ""
+
+#: TP_SHARPENING_ONLYEDGES
+msgid "Sharpen only edges"
+msgstr ""
+
+#: TP_SHARPENING_RLD_DAMPING
+msgid "Damping"
+msgstr ""
+
+#: TP_SHARPENING_RLD_ITERATIONS
+msgid "Iterations"
+msgstr ""
+
+#: TP_SHARPENING_RLD
+msgid "RL Deconvolution"
+msgstr ""
+
+#: TP_SHARPENING_USM
+msgid "Unsharp Mask"
+msgstr ""
+
+#: TP_VIGNETTING_CENTER
+msgid "Center"
+msgstr ""
+
+#: TP_VIGNETTING_CENTER_X
+msgid "Center X"
+msgstr ""
+
+#: TP_VIGNETTING_CENTER_Y
+msgid "Center Y"
+msgstr ""
+
+#: TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr ""
+
+#: TP_WBALANCE_AUTO
+msgid "Auto"
+msgstr ""
+
+#: TP_WBALANCE_GREEN
+msgid "Tint"
+msgstr ""
+
+#: TP_WBALANCE_LABEL
+msgid "White Balance"
+msgstr ""
+
+#: TP_WBALANCE_SIZE
+msgid "Size:"
+msgstr ""
+
+#: TP_WBALANCE_SPOTWB
+msgid "Spot WB"
+msgstr ""
+
+#: TP_WBALANCE_TEMPERATURE
+msgid "Temperature"
+msgstr ""
+
+#: ZOOMBAR_HUGE
+msgid "Huge"
+msgstr ""
+
+#: ZOOMBAR_LARGE
+msgid "Large"
+msgstr ""
+
+#: ZOOMBAR_NORMAL
+msgid "Normal"
+msgstr ""
+
+#: ZOOMBAR_PREVIEW
+msgid "Preview"
+msgstr ""
+
+#: ZOOMBAR_SMALL
+msgid "Small"
+msgstr ""
+
+#: ZOOMPANEL_NEWCROPWINDOW
+msgid "Open (new) detail window"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMFITSCREEN
+msgid "Fit to screen <b>F</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMIN
+msgid "Zoom In <b>+</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMOUT
+msgid "Zoom Out <b>-</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOM100
+msgid "Zoom to 100% <b>1</b>"
+msgstr ""
+
+#: ZOOMPANEL_100
+msgid "(100%)"
+msgstr ""
+
