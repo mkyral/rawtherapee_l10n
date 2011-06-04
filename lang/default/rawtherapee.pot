@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-01 12:30+0200\n"
+"POT-Creation-Date: 2011-05-18 19:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,12 +105,20 @@ msgstr ""
 msgid "Shadows"
 msgstr ""
 
+#: CURVEEDITOR_TOOLTIPCOPY
+msgid "Copy current curve to clipboard"
+msgstr ""
+
 #: CURVEEDITOR_TOOLTIPLINEAR
 msgid "Reset curve to linear"
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPLOAD
 msgid "Load a curve from file"
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPPASTE
+msgid "Paste curve from clipboard"
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPSAVE
@@ -601,6 +609,10 @@ msgstr ""
 msgid "L"
 msgstr ""
 
+#: HISTOGRAM_BUTTON_RAW
+msgid "Raw"
+msgstr ""
+
 #: HISTOGRAM_BUTTON_R
 msgid "R"
 msgstr ""
@@ -619,6 +631,10 @@ msgstr ""
 
 #: HISTOGRAM_TOOLTIP_L
 msgid "Show/Hide CIELAB Luminance histogram"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_RAW
+msgid "Show/Hide RAW histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_R
@@ -1529,7 +1545,7 @@ msgstr ""
 msgid "Exif"
 msgstr ""
 
-#: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSCORR_LABEL,TP_EXPOSURE_LABEL
+#: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
 msgid "Exposure"
 msgstr ""
 
@@ -1874,11 +1890,11 @@ msgid "Demosaic Method"
 msgstr ""
 
 #: PARTIALPASTE_RAWEXPOS_LINEAR
-msgid "Exposure linear corr. factor"
+msgid "Raw white point linear corr. factor"
 msgstr ""
 
 #: PARTIALPASTE_RAWEXPOS_PRESER
-msgid "Exposure HL preserving corr. (EV)"
+msgid "Raw white point HL preserving corr. (EV)"
 msgstr ""
 
 #: PARTIALPASTE_RAW_FALSECOLOR
@@ -2617,10 +2633,6 @@ msgstr ""
 msgid "Color Shift"
 msgstr ""
 
-#: TP_CROP_DPI
-msgid "DPI="
-msgstr ""
-
 #: TP_CROP_FIXRATIO
 msgid "Fix Ratio:"
 msgstr ""
@@ -2660,6 +2672,10 @@ msgstr ""
 #: TP_CROP_H
 msgctxt "TP_CROP_H"
 msgid "H"
+msgstr ""
+
+#: TP_CROP_PPI
+msgid "PPI="
 msgstr ""
 
 #: TP_CROP_SELECTCROP
@@ -2742,6 +2758,10 @@ msgstr ""
 msgid "coarsest"
 msgstr ""
 
+#: TP_EXPOSCORR_LABEL
+msgid "Raw white point"
+msgstr ""
+
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
 msgstr ""
@@ -2780,6 +2800,22 @@ msgstr ""
 
 #: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL
 msgid "Vertical"
+msgstr ""
+
+#: TP_GAMMA_CURV
+msgid "gamma"
+msgstr ""
+
+#: TP_GAMMA_FREE
+msgid "Free gamma"
+msgstr ""
+
+#: TP_GAMMA_OUTPUT
+msgid "Output gamma"
+msgstr ""
+
+#: TP_GAMMA_SLOP
+msgid "slope (linear)"
 msgstr ""
 
 #: TP_HLREC_CIELAB

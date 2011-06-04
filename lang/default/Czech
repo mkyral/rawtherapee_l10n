@@ -7,6 +7,7 @@
 #06 06.03.2011: updated by mkyral (default branch)
 #07 20.03.2011: updated by mkyral (default branch)
 #08 01.05.2011: updated by mkyral
+#09 18.05.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -29,8 +30,10 @@ CURVEEDITOR_NURBS;Deformační klec
 CURVEEDITOR_PARAMETRIC;Parametrická
 CURVEEDITOR_SAVEDLGLABEL;Uložit křivku...
 CURVEEDITOR_SHADOWS;Stíny
+CURVEEDITOR_TOOLTIPCOPY;Uložit aktuální křivku do schránky
 CURVEEDITOR_TOOLTIPLINEAR;Vrátit se k lineární křivce
 CURVEEDITOR_TOOLTIPLOAD;Načíst křivku ze souboru
+CURVEEDITOR_TOOLTIPPASTE;Vložit křivku ze schránky
 CURVEEDITOR_TOOLTIPSAVE;Uložit současnou křivku
 CURVEEDITOR_TYPE;Typ:
 EDITWINDOW_TITLE;Editace obrázku
@@ -155,11 +158,13 @@ GENERAL_YES;Ano
 HISTOGRAM_BUTTON_B;B
 HISTOGRAM_BUTTON_G;G
 HISTOGRAM_BUTTON_L;L
+HISTOGRAM_BUTTON_RAW;Raw
 HISTOGRAM_BUTTON_R;R
 HISTOGRAM_LABEL;Histogram
 HISTOGRAM_TOOLTIP_B;Skrýt /zobrazit histogram pro MODROU barvu
 HISTOGRAM_TOOLTIP_G;Skrýt /zobrazit histogram pro ZELENOU barvu
 HISTOGRAM_TOOLTIP_L;Skrýt /zobrazit CIELAB histogram jasu
+HISTOGRAM_TOOLTIP_RAW;Skrýt /zobrazit RAW histogram
 HISTOGRAM_TOOLTIP_R;Skrýt /zobrazit histogram pro ČERVENOU barvu
 HISTORY_CUSTOMCURVE;Vlastní křivka
 HISTORY_DELSNAPSHOT;Odstranit snímek
@@ -490,8 +495,8 @@ PARTIALPASTE_RAWCACORR_CARED;Chromatická aberace - červená
 PARTIALPASTE_RAW_DCBENHANCE;Aplikovat kroky rozšiřeného DCB
 PARTIALPASTE_RAW_DCBITERATIONS;Počet kroků DCB
 PARTIALPASTE_RAW_DMETHOD;Metoda demozajkování
-PARTIALPASTE_RAWEXPOS_LINEAR;Faktor lineární korekce expozice
-PARTIALPASTE_RAWEXPOS_PRESER;Korekce zachování jasů (EV) expozice
+PARTIALPASTE_RAWEXPOS_LINEAR;Faktor lineární korekce Raw bílého bodu
+PARTIALPASTE_RAWEXPOS_PRESER;Korekce zach. Raw bílého bodu (EV)
 PARTIALPASTE_RAW_FALSECOLOR;Kroky potlačení falešných barev demozajkování
 PARTIALPASTE_RAWGROUP;Nastavení Raw
 PARTIALPASTE_RESIZE;Změna velikosti
@@ -692,7 +697,6 @@ TP_COLORDENOISE_RADIUS;Poloměr
 TP_COLORSHIFT_BLUEYELLOW;Modrá-Žlutá
 TP_COLORSHIFT_GREENMAGENTA;Modrá-Purpurová
 TP_COLORSHIFT_LABEL;Barevný posun
-TP_CROP_DPI;DPI=
 TP_CROP_FIXRATIO;Poměr stran:
 TP_CROP_GTDIAGONALS;Pravidlo diagonál
 TP_CROP_GTGRID;Mřížka
@@ -705,6 +709,7 @@ TP_CROP_GTRULETHIRDS;Pravidlo třetin
 TP_CROP_GUIDETYPE;Druh vodítek:
 TP_CROP_H;V
 TP_CROP_LABEL;Ořez
+TP_CROP_PPI;PPI=
 TP_CROP_SELECTCROP;    Vyznačit výřez
 TP_CROP_W;Š
 TP_CROP_X;x
@@ -736,7 +741,7 @@ TP_EQUALIZER_FINEST;Nejjemnější
 TP_EQUALIZER_LABEL;Vlnková korekce
 TP_EQUALIZER_LARGEST;Nejhrubší
 TP_EQUALIZER_NEUTRAL;Neutrální
-TP_EXPOSCORR_LABEL;Expozice
+TP_EXPOSCORR_LABEL;Raw bílý bod
 TP_EXPOSURE_AUTOLEVELS;Úrovně automaticky
 TP_EXPOSURE_BLACKLEVEL;Černá
 TP_EXPOSURE_BRIGHTNESS;Jasnost
@@ -750,13 +755,17 @@ TP_EXPOSURE_EXPCOMP;Expoziční korekce
 TP_EXPOSURE_LABEL;Expozice
 TP_EXPOSURE_SATURATION;Sytost
 TP_FLATFIELD_AUTOSELECT;Automatický výběr
-TP_FLATFIELD_BLURRADIUS;Polomoměr rozostření
+TP_FLATFIELD_BLURRADIUS;Poloměr rozostření
 TP_FLATFIELD_BLURTYPE;Typ rozostření
 TP_FLATFIELD_BT_AREA;Oblast
 TP_FLATFIELD_BT_HORIZONTAL;Vodorovně
 TP_FLATFIELD_BT_VERTHORIZ;Vod. a Svisle
 TP_FLATFIELD_BT_VERTICAL;Svisle
 TP_FLATFIELD_LABEL;Flat-Field
+TP_GAMMA_CURV;gama
+TP_GAMMA_FREE;Volná gama
+TP_GAMMA_OUTPUT;Výstupní gama
+TP_GAMMA_SLOP;sklon (lineární)
 TP_HLREC_CIELAB;Mísení CIELab
 TP_HLREC_COLOR;Propagace barev
 TP_HLREC_LABEL;Rekonstrukce světel

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-01 12:30+0200\n"
-"PO-Revision-Date: 2011-05-01 12:39+0200\n"
+"POT-Creation-Date: 2011-05-18 19:01+0200\n"
+"PO-Revision-Date: 2011-05-18 20:49+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -102,6 +102,10 @@ msgstr "Uložit křivku..."
 msgid "Shadows"
 msgstr "Stíny"
 
+#: CURVEEDITOR_TOOLTIPCOPY
+msgid "Copy current curve to clipboard"
+msgstr "Uložit aktuální křivku do schránky"
+
 #: CURVEEDITOR_TOOLTIPLINEAR
 msgid "Reset curve to linear"
 msgstr "Vrátit se k lineární křivce"
@@ -109,6 +113,10 @@ msgstr "Vrátit se k lineární křivce"
 #: CURVEEDITOR_TOOLTIPLOAD
 msgid "Load a curve from file"
 msgstr "Načíst křivku ze souboru"
+
+#: CURVEEDITOR_TOOLTIPPASTE
+msgid "Paste curve from clipboard"
+msgstr "Vložit křivku ze schránky"
 
 #: CURVEEDITOR_TOOLTIPSAVE
 msgid "Save current curve"
@@ -610,6 +618,10 @@ msgstr "G"
 msgid "L"
 msgstr "L"
 
+#: HISTOGRAM_BUTTON_RAW
+msgid "Raw"
+msgstr "Raw"
+
 #: HISTOGRAM_BUTTON_R
 msgid "R"
 msgstr "R"
@@ -629,6 +641,10 @@ msgstr "Skrýt /zobrazit histogram pro ZELENOU barvu"
 #: HISTOGRAM_TOOLTIP_L
 msgid "Show/Hide CIELAB Luminance histogram"
 msgstr "Skrýt /zobrazit CIELAB histogram jasu"
+
+#: HISTOGRAM_TOOLTIP_RAW
+msgid "Show/Hide RAW histogram"
+msgstr "Skrýt /zobrazit RAW histogram"
 
 #: HISTOGRAM_TOOLTIP_R
 msgid "Show/Hide RED histogram"
@@ -1562,7 +1578,7 @@ msgstr "Vyvolání"
 msgid "Exif"
 msgstr "Exif"
 
-#: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSCORR_LABEL,TP_EXPOSURE_LABEL
+#: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
 msgid "Exposure"
 msgstr "Expozice"
 
@@ -1907,12 +1923,12 @@ msgid "Demosaic Method"
 msgstr "Metoda demozajkování"
 
 #: PARTIALPASTE_RAWEXPOS_LINEAR
-msgid "Exposure linear corr. factor"
-msgstr "Faktor lineární korekce expozice"
+msgid "Raw white point linear corr. factor"
+msgstr "Faktor lineární korekce Raw bílého bodu"
 
 #: PARTIALPASTE_RAWEXPOS_PRESER
-msgid "Exposure HL preserving corr. (EV)"
-msgstr "Korekce zachování jasů (EV) expozice"
+msgid "Raw white point HL preserving corr. (EV)"
+msgstr "Korekce zach. Raw bílého bodu (EV)"
 
 #: PARTIALPASTE_RAW_FALSECOLOR
 msgid "Demosaic False color suppression steps"
@@ -2795,10 +2811,6 @@ msgstr "Modrá-Purpurová"
 msgid "Color Shift"
 msgstr "Barevný posun"
 
-#: TP_CROP_DPI
-msgid "DPI="
-msgstr "DPI="
-
 #: TP_CROP_FIXRATIO
 msgid "Fix Ratio:"
 msgstr "Poměr stran:"
@@ -2839,6 +2851,10 @@ msgstr "Druh vodítek:"
 msgctxt "TP_CROP_H"
 msgid "H"
 msgstr "V"
+
+#: TP_CROP_PPI
+msgid "PPI="
+msgstr "PPI="
 
 #: TP_CROP_SELECTCROP
 msgid "    Select Crop"
@@ -2924,6 +2940,10 @@ msgstr "Nejjemnější"
 msgid "coarsest"
 msgstr "Nejhrubší"
 
+#: TP_EXPOSCORR_LABEL
+msgid "Raw white point"
+msgstr "Raw bílý bod"
+
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
 msgstr "Úrovně automaticky"
@@ -2942,7 +2962,7 @@ msgstr "Expoziční korekce"
 
 #: TP_FLATFIELD_BLURRADIUS
 msgid "Blur Radius"
-msgstr "Polomoměr rozostření"
+msgstr "Poloměr rozostření"
 
 #: TP_FLATFIELD_BLURTYPE
 msgid "Blur Type"
@@ -2963,6 +2983,22 @@ msgstr "Vod. a Svisle"
 #: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL
 msgid "Vertical"
 msgstr "Svisle"
+
+#: TP_GAMMA_CURV
+msgid "gamma"
+msgstr "gama"
+
+#: TP_GAMMA_FREE
+msgid "Free gamma"
+msgstr "Volná gama"
+
+#: TP_GAMMA_OUTPUT
+msgid "Output gamma"
+msgstr "Výstupní gama"
+
+#: TP_GAMMA_SLOP
+msgid "slope (linear)"
+msgstr "sklon (lineární)"
 
 #: TP_HLREC_CIELAB
 msgid "CIELab Blending"
@@ -3300,6 +3336,12 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Exposure HL preserving corr. (EV)"
+#~ msgstr "Korekce zachování jasů (EV) expozice"
+
+#~ msgid "DPI="
+#~ msgstr "DPI="
 
 #~ msgid "Hue"
 #~ msgstr "Odstín"
