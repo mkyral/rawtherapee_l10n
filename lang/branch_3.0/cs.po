@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-18 19:01+0200\n"
-"PO-Revision-Date: 2011-05-01 12:39+0200\n"
+"POT-Creation-Date: 2011-06-12 08:38+0200\n"
+"PO-Revision-Date: 2011-06-12 13:09+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -856,7 +856,7 @@ msgstr "Redukce barevného šumu s ohledem na okraje"
 
 #: HISTORY_MSG_5,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
 msgid "Brightness"
-msgstr "Jasnost"
+msgstr "Jas"
 
 #: HISTORY_MSG_50
 msgid "Shadow/Highlight tool"
@@ -1786,10 +1786,6 @@ msgstr "Korekce vinětace"
 msgid "White balance"
 msgstr "Nastavení bílé"
 
-#: POPUPBUTTON_SELECTOPTIONHINT
-msgid "RMB to change option"
-msgstr "Pravé tl. myši pro změnu nastavení"
-
 #: PREFERENCES_ADD
 msgid "ADD"
 msgstr "Přidat"
@@ -2209,6 +2205,10 @@ msgstr "Mód jedné karty, svislé karty"
 #: PREFERENCES_SINGLETAB
 msgid "Single tab mode"
 msgstr "Mód jedné karty"
+
+#: PREFERENCES_SLIMUI
+msgid "Slim interface"
+msgstr "Štíhlé rozhraní"
 
 #: PREFERENCES_STARTUPIMDIR
 msgid "Image directory at startup"
@@ -3000,6 +3000,9 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "RMB to change option"
+#~ msgstr "Pravé tl. myši pro změnu nastavení"
 
 #~ msgid "Hue"
 #~ msgstr "Odstín"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-18 19:01+0200\n"
+"POT-Creation-Date: 2011-06-12 08:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1765,10 +1765,6 @@ msgstr ""
 msgid "White balance"
 msgstr ""
 
-#: POPUPBUTTON_SELECTOPTIONHINT
-msgid "RMB to change option"
-msgstr ""
-
 #: PREFERENCES_ADD
 msgid "ADD"
 msgstr ""
@@ -2115,6 +2111,10 @@ msgstr ""
 
 #: PREFERENCES_SINGLETAB
 msgid "Single tab mode"
+msgstr ""
+
+#: PREFERENCES_SLIMUI
+msgid "Slim interface"
 msgstr ""
 
 #: PREFERENCES_STARTUPIMDIR

@@ -217,6 +217,11 @@ HISTORY_MSG_133;Gamma
 HISTORY_MSG_134;Gamma Position
 HISTORY_MSG_135;Gamma Free
 HISTORY_MSG_136;Gamma Slope
+HISTORY_MSG_137;Black level green 1
+HISTORY_MSG_138;Black level red
+HISTORY_MSG_139;Black level blue
+HISTORY_MSG_140;Black level green 2
+HISTORY_MSG_141;Black level green together
 HISTORY_MSG_14;Luminance Brightness
 HISTORY_MSG_15;Luminance Contrast
 HISTORY_MSG_16;Luminance Black
@@ -518,7 +523,6 @@ PARTIALPASTE_SHARPENING;Sharpening
 PARTIALPASTE_VIGNETTING;Vignetting correction
 PARTIALPASTE_WAVELETEQUALIZER;Wavelet equalizer
 PARTIALPASTE_WHITEBALANCE;White balance 
-POPUPBUTTON_SELECTOPTIONHINT;RMB to change option
 PREFERENCES_ADD;ADD
 PREFERENCES_APPLNEXTSTARTUP;restart required
 PREFERENCES_AUTOMONPROFILE;Automatically use operating systems main monitors profile
@@ -574,6 +578,7 @@ PREFERENCES_FORRAW;For RAW files
 PREFERENCES_GIMPPATH;GIMP installation directory
 PREFERENCES_GTKTHEME;GTK default
 PREFERENCES_HINT;Hint
+PREFERENCES_HISTOGRAMPOSITIONLEFT;Histogram in left pane
 PREFERENCES_HLTHRESHOLD;Threshold for clipped highlights
 PREFERENCES_ICCDIR;Directory of ICC profiles
 PREFERENCES_IMPROCPARAMS;Default image processing parameters
@@ -616,9 +621,11 @@ PREFERENCES_SET;SET
 PREFERENCES_SHOWBASICEXIF;Show basic Exif info
 PREFERENCES_SHOWDATETIME;Show date and time
 PREFERENCES_SHOWONLYRAW;Show only RAW files
+PREFERENCES_SHOWPROFILESELECTOR;Show profile selector
 PREFERENCES_SHTHRESHOLD;Threshold for clipped shadows
 PREFERENCES_SINGLETAB;Single tab mode
 PREFERENCES_SINGLETABVERTAB;Single tab mode, vertical tabs
+PREFERENCES_SLIMUI;Slim interface
 PREFERENCES_SND_BATCHQUEUEDONE;Batch queue done
 PREFERENCES_SND_HELP;Either enter filepath or nothing (for no sound). On Windows use "SystemDefault", "SystemAsterisk" etc. for system sounds.
 PREFERENCES_SND_LNGEDITPROCDONE;Editor processing done
@@ -633,7 +640,7 @@ PREFERENCES_TAB_SOUND;Sounds
 PREFERENCES_THUMBSIZE;Thumbnail Size
 PREFERENCES_TUNNELMETADATA;Copy IPTC/XMP unchanged to output file (when tagging with other program)
 PREFERENCES_USESYSTEMTHEME; Use System Theme
-PREFERENCES_WORKFLOW;Workflow
+PREFERENCES_WORKFLOW;Layout
 PROFILEPANEL_FILEDLGFILTERANY;Any files
 PROFILEPANEL_FILEDLGFILTERPP;Postprocessing profiles
 PROFILEPANEL_LABEL;Postprocessing Profiles
@@ -761,7 +768,7 @@ TP_EQUALIZER_FINEST;finest
 TP_EQUALIZER_LABEL;Wavelet equalizer
 TP_EQUALIZER_LARGEST;coarsest
 TP_EQUALIZER_NEUTRAL;Neutral
-TP_EXPOSCORR_LABEL;Raw white point
+TP_EXPOSCORR_LABEL;Raw white-black point
 TP_EXPOSURE_AUTOLEVELS;Auto Levels
 TP_EXPOSURE_BLACKLEVEL;Black
 TP_EXPOSURE_BRIGHTNESS;Brightness
@@ -848,8 +855,14 @@ TP_PREPROCESS_NO_FOUND;None found
 TP_RAWCACORR_AUTO;Auto correction
 TP_RAWCACORR_CABLUE;Blue
 TP_RAWCACORR_CARED;Red
-TP_RAWEXPOS_LINEAR;Linear corr. factor
-TP_RAWEXPOS_PRESER;HL preserving corr. (EV)
+TP_RAWEXPOS_LINEAR;White Point: Linear corr. factor
+TP_RAWEXPOS_PRESER;White Point: HL preserving corr.(EV)
+TP_RAWEXPOS_BLACKZERO;Black Level: Green 1 (leader)
+TP_RAWEXPOS_BLACKONE;Black Level: Red
+TP_RAWEXPOS_BLACKTWO;Black Level: Blue
+TP_RAWEXPOS_BLACKTHREE;Black Level: Green 2
+TP_RAWEXPOS_TWOGREEN;Two greens together
+TP_EXPO_AFTER; After interpolation (before RGB conversion)
 TP_RAW_DCBENHANCE;Apply DCB enhancement step
 TP_RAW_DCBITERATIONS;Number of DCB iterations
 TP_RAW_DMETHOD;Method

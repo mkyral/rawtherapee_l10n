@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-06-04 17:32+0200\n"
-"PO-Revision-Date: 2011-06-04 20:31+0200\n"
+"POT-Creation-Date: 2011-06-12 08:38+0200\n"
+"PO-Revision-Date: 2011-06-12 13:09+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -890,9 +890,29 @@ msgstr "Volná gama"
 msgid "Gamma Slope"
 msgstr "Sklon gamy"
 
+#: HISTORY_MSG_137
+msgid "Black level green 1"
+msgstr "Úroveň černé: Zelená 1"
+
+#: HISTORY_MSG_138
+msgid "Black level red"
+msgstr "Úroveň černé: Červená"
+
+#: HISTORY_MSG_139
+msgid "Black level blue"
+msgstr "Úroveň černé: Modrá"
+
 #: HISTORY_MSG_14
 msgid "Luminance Brightness"
 msgstr "Zářivost jasu"
+
+#: HISTORY_MSG_140
+msgid "Black level green 2"
+msgstr "Úroveň černé: Zelená 2"
+
+#: HISTORY_MSG_141
+msgid "Black level green together"
+msgstr "Úroveň černé: Zelené zároveň"
 
 #: HISTORY_MSG_15
 msgid "Luminance Contrast"
@@ -1036,7 +1056,7 @@ msgstr "Redukce barevného šumu s ohledem na okraje"
 
 #: HISTORY_MSG_5,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
 msgid "Brightness"
-msgstr "Jasnost"
+msgstr "Jas"
 
 #: HISTORY_MSG_50
 msgid "Shadow/Highlight tool"
@@ -2034,10 +2054,6 @@ msgstr "Korekce vinětace"
 msgid "White balance "
 msgstr "Nastavení bílé"
 
-#: POPUPBUTTON_SELECTOPTIONHINT
-msgid "RMB to change option"
-msgstr "Pravé tl. myši pro změnu nastavení"
-
 #: PREFERENCES_ADD
 msgid "ADD"
 msgstr "Přidat"
@@ -2128,11 +2144,10 @@ msgid ""
 msgstr ""
 "Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil "
 "pro obrázek.\n"
-"Obdrží následující parametry pro generování na pravidlech založeném .pp3 "
-"profilu:\n"
+"Bude spuštěn s následujícími parametry,  které umožní vygenerování vhodného "
+" .pp3 profilu:\n"
 "[Cesta RAW/JPG] [Výchozí cesta profilu] [Clona] [Expozice v sekundách] "
-"[Ohnisková "
-"vzdálenost v mm] [ISO] [Objektivy] [Fotoaparát]"
+"[Ohnisková vzdálenost v mm] [ISO] [Objektiv] [Fotoaparát]"
 
 #: PREFERENCES_CUSTPROFBUILDPATH
 msgid "Executable path"
@@ -2267,6 +2282,10 @@ msgstr "GTK výchozí"
 #: PREFERENCES_HINT
 msgid "Hint"
 msgstr "Nápověda"
+
+#: PREFERENCES_HISTOGRAMPOSITIONLEFT
+msgid "Histogram in left pane"
+msgstr "Histogram v levém panelu"
 
 #: PREFERENCES_HLTHRESHOLD
 msgid "Threshold for clipped highlights"
@@ -2554,6 +2573,10 @@ msgstr "Zobrazovat datum a čas"
 msgid "Show only RAW files"
 msgstr "Zobrazovat pouze soubory RAW"
 
+#: PREFERENCES_SHOWPROFILESELECTOR
+msgid "Show profile selector"
+msgstr "Zobrazit výbět profilu"
+
 #: PREFERENCES_SHTHRESHOLD
 msgid "Threshold for clipped shadows"
 msgstr "Práh oříznutých stínů"
@@ -2565,6 +2588,10 @@ msgstr "Mód jedné karty, svislé karty"
 #: PREFERENCES_SINGLETAB
 msgid "Single tab mode"
 msgstr "Mód jedné karty"
+
+#: PREFERENCES_SLIMUI
+msgid "Slim interface"
+msgstr "Štíhlé rozhraní"
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
 msgid "Batch queue done"
@@ -2628,8 +2655,8 @@ msgid " Use System Theme"
 msgstr " Použít systémový motiv"
 
 #: PREFERENCES_WORKFLOW
-msgid "Workflow"
-msgstr "Způsob práce"
+msgid "Layout"
+msgstr "Rozvržení"
 
 #: PROFILEPANEL_FILEDLGFILTERPP
 msgid "Postprocessing profiles"
@@ -3040,9 +3067,13 @@ msgstr "Nejjemnější"
 msgid "coarsest"
 msgstr "Nejhrubší"
 
+#: TP_EXPO_AFTER
+msgid " After interpolation (before RGB conversion)"
+msgstr " Po interpolaci (před RGB konverzí)"
+
 #: TP_EXPOSCORR_LABEL
-msgid "Raw white point"
-msgstr "Raw bílý bod"
+msgid "Raw white-black point"
+msgstr "Raw bílý-černý bod"
 
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
@@ -3217,13 +3248,33 @@ msgstr "Aplikovat automatickou korekci chromatické aberace"
 msgid "Method"
 msgstr "Metoda"
 
+#: TP_RAWEXPOS_BLACKONE
+msgid "Black Level: Red"
+msgstr "Úroveň černé: Červená"
+
+#: TP_RAWEXPOS_BLACKTHREE
+msgid "Black Level: Green 2"
+msgstr "Úroveň černé: Zelená 2"
+
+#: TP_RAWEXPOS_BLACKTWO
+msgid "Black Level: Blue"
+msgstr "Úroveň černé: Modrá"
+
+#: TP_RAWEXPOS_BLACKZERO
+msgid "Black Level: Green 1 (leader)"
+msgstr "Úroveň černé: Zelená 1 (řídící)"
+
 #: TP_RAWEXPOS_LINEAR
-msgid "Linear corr. factor"
-msgstr "Lineární kor. faktor"
+msgid "White Point: Linear corr. factor"
+msgstr "Bílý bod: Faktor lineární korekce"
 
 #: TP_RAWEXPOS_PRESER
-msgid "HL preserving corr. (EV)"
-msgstr "Korekce zach. jasů (EV)"
+msgid "White Point: HL preserving corr.(EV)"
+msgstr "Bílý bod: Kor. zachování světel (EV)"
+
+#: TP_RAWEXPOS_TWOGREEN
+msgid "Two greens together"
+msgstr "Obě zelené zároveň"
 
 #: TP_RAW_FALSECOLOR
 msgid "False color suppression steps"
@@ -3440,6 +3491,18 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "RMB to change option"
+#~ msgstr "Pravé tl. myši pro změnu nastavení"
+
+#~ msgid "Workflow"
+#~ msgstr "Způsob práce"
+
+#~ msgid "Linear corr. factor"
+#~ msgstr "Lineární kor. faktor"
+
+#~ msgid "HL preserving corr. (EV)"
+#~ msgstr "Korekce zach. jasů (EV)"
 
 #~ msgid "Exposure HL preserving corr. (EV)"
 #~ msgstr "Korekce zachování jasů (EV) expozice"

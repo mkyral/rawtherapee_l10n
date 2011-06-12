@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-06-04 17:32+0200\n"
+"POT-Creation-Date: 2011-06-12 08:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -881,8 +881,28 @@ msgstr ""
 msgid "Gamma Slope"
 msgstr ""
 
+#: HISTORY_MSG_137
+msgid "Black level green 1"
+msgstr ""
+
+#: HISTORY_MSG_138
+msgid "Black level red"
+msgstr ""
+
+#: HISTORY_MSG_139
+msgid "Black level blue"
+msgstr ""
+
 #: HISTORY_MSG_14
 msgid "Luminance Brightness"
+msgstr ""
+
+#: HISTORY_MSG_140
+msgid "Black level green 2"
+msgstr ""
+
+#: HISTORY_MSG_141
+msgid "Black level green together"
 msgstr ""
 
 #: HISTORY_MSG_15
@@ -2001,10 +2021,6 @@ msgstr ""
 msgid "White balance "
 msgstr ""
 
-#: POPUPBUTTON_SELECTOPTIONHINT
-msgid "RMB to change option"
-msgstr ""
-
 #: PREFERENCES_ADD
 msgid "ADD"
 msgstr ""
@@ -2209,6 +2225,10 @@ msgstr ""
 msgid "Hint"
 msgstr ""
 
+#: PREFERENCES_HISTOGRAMPOSITIONLEFT
+msgid "Histogram in left pane"
+msgstr ""
+
 #: PREFERENCES_HLTHRESHOLD
 msgid "Threshold for clipped highlights"
 msgstr ""
@@ -2369,6 +2389,10 @@ msgstr ""
 msgid "Show only RAW files"
 msgstr ""
 
+#: PREFERENCES_SHOWPROFILESELECTOR
+msgid "Show profile selector"
+msgstr ""
+
 #: PREFERENCES_SHTHRESHOLD
 msgid "Threshold for clipped shadows"
 msgstr ""
@@ -2379,6 +2403,10 @@ msgstr ""
 
 #: PREFERENCES_SINGLETAB
 msgid "Single tab mode"
+msgstr ""
+
+#: PREFERENCES_SLIMUI
+msgid "Slim interface"
 msgstr ""
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
@@ -2438,7 +2466,7 @@ msgid " Use System Theme"
 msgstr ""
 
 #: PREFERENCES_WORKFLOW
-msgid "Workflow"
+msgid "Layout"
 msgstr ""
 
 #: PROFILEPANEL_FILEDLGFILTERPP
@@ -2846,8 +2874,12 @@ msgstr ""
 msgid "coarsest"
 msgstr ""
 
+#: TP_EXPO_AFTER
+msgid " After interpolation (before RGB conversion)"
+msgstr ""
+
 #: TP_EXPOSCORR_LABEL
-msgid "Raw white point"
+msgid "Raw white-black point"
 msgstr ""
 
 #: TP_EXPOSURE_AUTOLEVELS
@@ -3023,12 +3055,32 @@ msgstr ""
 msgid "Method"
 msgstr ""
 
+#: TP_RAWEXPOS_BLACKONE
+msgid "Black Level: Red"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACKTHREE
+msgid "Black Level: Green 2"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACKTWO
+msgid "Black Level: Blue"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACKZERO
+msgid "Black Level: Green 1 (leader)"
+msgstr ""
+
 #: TP_RAWEXPOS_LINEAR
-msgid "Linear corr. factor"
+msgid "White Point: Linear corr. factor"
 msgstr ""
 
 #: TP_RAWEXPOS_PRESER
-msgid "HL preserving corr. (EV)"
+msgid "White Point: HL preserving corr.(EV)"
+msgstr ""
+
+#: TP_RAWEXPOS_TWOGREEN
+msgid "Two greens together"
 msgstr ""
 
 #: TP_RAW_FALSECOLOR

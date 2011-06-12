@@ -7,6 +7,7 @@
 #06 20.03.2011: updated by mkyral (branch_3.0)
 #07 24.04.2011: updated by mkyral (branch_3.0 - 3.0b1)
 #08 01.05.2011: updated by mkyral
+#09 12.06.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -221,7 +222,7 @@ HISTORY_MSG_46;Redukce barevného šumu
 HISTORY_MSG_47;Poloměr redukce barevného šumu
 HISTORY_MSG_48;Okrajová toleranve v redukci barevného šumu
 HISTORY_MSG_49;Redukce barevného šumu s ohledem na okraje
-HISTORY_MSG_5;Jasnost
+HISTORY_MSG_5;Jas
 HISTORY_MSG_50;Nástroj Stíny/světla
 HISTORY_MSG_51;Zvýraznění světel
 HISTORY_MSG_52;Zvýraznění stínů
@@ -465,7 +466,6 @@ PARTIALPASTE_SHARPENING;Doostření
 PARTIALPASTE_VIGNETTING;Korekce vinětace
 PARTIALPASTE_WAVELETEQUALIZER;Vlnková korekce
 PARTIALPASTE_WHITEBALANCE;Nastavení bílé
-POPUPBUTTON_SELECTOPTIONHINT;Pravé tl. myši pro změnu nastavení
 PREFERENCES_ADD;Přidat
 PREFERENCES_APPLNEXTSTARTUP;vyžaduje restart aplikace
 PREFERENCES_BATCH_PROCESSING;Dávkové zpracování
@@ -555,6 +555,7 @@ PREFERENCES_SHOWONLYRAW;Zobrazovat pouze soubory RAW
 PREFERENCES_SHTHRESHOLD;Práh oříznutých stínů
 PREFERENCES_SINGLETAB;Mód jedné karty
 PREFERENCES_SINGLETABVERTAB;Mód jedné karty, svislé karty
+PREFERENCES_SLIMUI;Štíhlé rozhraní
 PREFERENCES_STARTUPIMDIR;Složka obrázků při spuštění
 PREFERENCES_TAB_BROWSER;Prohlížeč souborů
 PREFERENCES_TAB_COLORMGR;Správa barev
@@ -685,7 +686,7 @@ TP_EQUALIZER_NEUTRAL;Neutrální
 TP_EXPOSCORR_LABEL;Expozice
 TP_EXPOSURE_AUTOLEVELS;Úrovně automaticky
 TP_EXPOSURE_BLACKLEVEL;Černá
-TP_EXPOSURE_BRIGHTNESS;Jasnost
+TP_EXPOSURE_BRIGHTNESS;Jas
 TP_EXPOSURE_CLIP;Oříznutí
 TP_EXPOSURE_COMPRHIGHLIGHTS;Míra obnovení světel
 TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD;Práh obnovení světel
@@ -737,7 +738,7 @@ TP_ICM_WORKINGPROFILE;Pracovní barevný prostor
 TP_IMPULSEDENOISE_LABEL;Redukce impulzního šumu
 TP_IMPULSEDENOISE_THRESH;Práh
 TP_LABCURVE_AVOIDCOLORCLIP;Zabránit oříznutí barvy
-TP_LABCURVE_BRIGHTNESS;Jasnost
+TP_LABCURVE_BRIGHTNESS;Jas
 TP_LABCURVE_CONTRAST;Kontrast
 TP_LABCURVE_CURVEEDITOR;Křivka jasů
 TP_LABCURVE_ENABLESATLIMITER;Omezovat sytost
