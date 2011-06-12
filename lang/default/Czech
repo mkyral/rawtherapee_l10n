@@ -8,6 +8,7 @@
 #07 20.03.2011: updated by mkyral (default branch)
 #08 01.05.2011: updated by mkyral
 #09 18.05.2011: updated by mkyral
+#10 04.06.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -35,7 +36,7 @@ CURVEEDITOR_TOOLTIPLINEAR;Vrátit se k lineární křivce
 CURVEEDITOR_TOOLTIPLOAD;Načíst křivku ze souboru
 CURVEEDITOR_TOOLTIPPASTE;Vložit křivku ze schránky
 CURVEEDITOR_TOOLTIPSAVE;Uložit současnou křivku
-CURVEEDITOR_TYPE;Typ:
+CURVEEDITOR_TYPE;Typ
 EDITWINDOW_TITLE;Editace obrázku
 EXIFFILTER_APERTURE;Clona
 EXIFFILTER_CAMERA;Aparát
@@ -91,17 +92,24 @@ FILEBROWSER_NEW_NAME;Nové jméno:
 FILEBROWSER_PARTIALPASTEPROFILE;Vložit částečně
 FILEBROWSER_PASTEPROFILE;Vložit profil
 FILEBROWSER_POPUPCANCELJOB;Zrušit úlohu
+FILEBROWSER_POPUPCOLORLABEL;Barevný štítek
+FILEBROWSER_POPUPCOLORLABEL0;Štítek: Žádný
+FILEBROWSER_POPUPCOLORLABEL1;Štítek: Červený 
+FILEBROWSER_POPUPCOLORLABEL2;Štítek: Žlutý
+FILEBROWSER_POPUPCOLORLABEL3;Štítek: Zelený
+FILEBROWSER_POPUPCOLORLABEL4;Štítek: Modrý
+FILEBROWSER_POPUPCOLORLABEL5;Štítek: Růžový
 FILEBROWSER_POPUPCOPYTO;Kopírovat do...
 FILEBROWSER_POPUPMOVEEND;Přesunout na konec fronty
 FILEBROWSER_POPUPMOVEHEAD;Přesunout na začátek fronty
 FILEBROWSER_POPUPMOVETO;Přesunout do...
 FILEBROWSER_POPUPOPEN;Otevřít
 FILEBROWSER_POPUPPROCESS;Vložit do fronty
-FILEBROWSER_POPUPRANK1;Hodnotit 1
-FILEBROWSER_POPUPRANK2;Hodnotit 2
-FILEBROWSER_POPUPRANK3;Hodnotit 3
-FILEBROWSER_POPUPRANK4;Hodnotit 4
-FILEBROWSER_POPUPRANK5;Hodnotit 5
+FILEBROWSER_POPUPRANK1;Hodnocení 1 *
+FILEBROWSER_POPUPRANK2;Hodnocení 2 **
+FILEBROWSER_POPUPRANK3;Hodnocení 3 ***
+FILEBROWSER_POPUPRANK4;Hodnocení 4 ****
+FILEBROWSER_POPUPRANK5;Hodnocení 5 *****
 FILEBROWSER_POPUPREMOVEINCLPROC;Odstranit ze souborového systému a výsledků zpracování
 FILEBROWSER_POPUPREMOVE;Odstranit ze souborového systému
 FILEBROWSER_POPUPREMOVESUBMENU;Smazat
@@ -116,7 +124,12 @@ FILEBROWSER_RENAMEDLGLABEL;Přejmenování souboru
 FILEBROWSER_RENAMEDLGMSG;Přejmenovat soubor "%1" na:
 FILEBROWSER_SELECTDARKFRAME;Výběr tmavého snímku...
 FILEBROWSER_SELECTFLATFIELD;Výběr Flat-Field...
-FILEBROWSER_SHOWDIRHINT;Ukázat všechny obrázky ve složce <b>D</b>
+FILEBROWSER_SHOWCOLORLABEL1HINT;Ukázat obrázky s červeným štítkem <b>Alt-1</b>
+FILEBROWSER_SHOWCOLORLABEL2HINT;Ukázat obrázky se žlutým štítkem <b>Alt-2</b>
+FILEBROWSER_SHOWCOLORLABEL3HINT;Ukázat obrázky se zeleným štítkem <b>Alt-3</b>
+FILEBROWSER_SHOWCOLORLABEL4HINT;Ukázat obrázky s modrým štítkem <b>Alt-4</b>
+FILEBROWSER_SHOWCOLORLABEL5HINT;Ukázat obrázky s růžovým štítkem <b>Alt-5</b>
+FILEBROWSER_SHOWDIRHINT;Ukázat všechny obrázky ve složce (zrušit všechny filtry) <b>D</b>
 FILEBROWSER_SHOWEXIFINFO;Zobrazit EXIF informace <b>i</b>
 FILEBROWSER_SHOWQUEUEHINT;Ukázat obsah fronty zpracování
 FILEBROWSER_SHOWRANK1HINT;Ukázat obrázky hodnocené 1 hvězdičkou <b>1</b>
@@ -125,6 +138,7 @@ FILEBROWSER_SHOWRANK3HINT;Ukázat obrázky hodnocené 3 hvězdičkama <b>3</b>
 FILEBROWSER_SHOWRANK4HINT;Ukázat obrázky hodnocené 4 hvězdičkama <b>4</b>
 FILEBROWSER_SHOWRANK5HINT;Ukázat obrázky hodnocené 5 hvězdičkama <b>5</b>
 FILEBROWSER_SHOWTRASHHINT;Ukázat obsah koše <b>T</b>
+FILEBROWSER_SHOWUNCOLORHINT;Ukázat obrázky bez barevného štítku <b>Alt-`</b>
 FILEBROWSER_SHOWUNRANKHINT;Ukázat nehodnocené obrázky  <b>`</b>
 FILEBROWSER_STARTPROCESSINGHINT;Spustit zpracování nebo ukládání obrázků ve frontě
 FILEBROWSER_STARTPROCESSING;Spustit zpracování
@@ -206,6 +220,13 @@ HISTORY_MSG_127;Flat-Field Automatický výběr
 HISTORY_MSG_128;Flat-Field Poloměr rozostření
 HISTORY_MSG_129;Flat-Field Typ rozostření
 HISTORY_MSG_13;Oříznutí exozice
+HISTORY_MSG_130;Automatická oprava zkreslení objektivu
+HISTORY_MSG_131;Redukce jasového šumu
+HISTORY_MSG_132;Redukce chromatického šumu
+HISTORY_MSG_133;Gama
+HISTORY_MSG_134;Pozice gamy
+HISTORY_MSG_135;Volná gama
+HISTORY_MSG_136;Sklon gamy
 HISTORY_MSG_14;Zářivost jasu
 HISTORY_MSG_15;Jas Kontrast
 HISTORY_MSG_16;Jas Černá
@@ -527,6 +548,9 @@ PREFERENCES_CACHETHUMBFORM;Formát náhledů v cache
 PREFERENCES_CACHETHUMBHEIGHT;Maximální výška náhledu
 PREFERENCES_CLIPPINGIND;Indikace oříznutí
 PREFERENCES_CMETRICINTENT;Kolorimetrická metoda
+PREFERENCES_CUSTPROFBUILDHINT;Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil pro obrázek.\nObdrží následující parametry pro generování na pravidlech založeném .pp3 profilu:\n[Cesta RAW/JPG] [Výchozí cesta profilu] [Clona] [Expozice v sekundách] [Ohnisková vzdálenost v mm] [ISO] [Objektivy] [Fotoaparát]
+PREFERENCES_CUSTPROFBUILDPATH;Cesta k programu
+PREFERENCES_CUSTPROFBUILD;Vlastní generátor profilu obrázku
 PREFERENCES_CUTOVERLAYBRUSH;Barva masky ořezu/průhlednosti
 PREFERENCES_DARKFRAMEFOUND;Nalezeno
 PREFERENCES_DARKFRAMESHOTS;snímků
@@ -766,6 +790,7 @@ TP_GAMMA_CURV;gama
 TP_GAMMA_FREE;Volná gama
 TP_GAMMA_OUTPUT;Výstupní gama
 TP_GAMMA_SLOP;sklon (lineární)
+TP_HLREC_BLEND;Mísení
 TP_HLREC_CIELAB;Mísení CIELab
 TP_HLREC_COLOR;Propagace barev
 TP_HLREC_LABEL;Rekonstrukce světel

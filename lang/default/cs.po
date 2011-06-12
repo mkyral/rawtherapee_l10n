@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-18 19:01+0200\n"
-"PO-Revision-Date: 2011-05-18 20:49+0200\n"
+"POT-Creation-Date: 2011-06-04 17:32+0200\n"
+"PO-Revision-Date: 2011-06-04 20:31+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -124,7 +124,7 @@ msgstr "Uložit současnou křivku"
 
 #: CURVEEDITOR_TYPE
 msgid "Type:"
-msgstr "Typ:"
+msgstr "Typ"
 
 #: EDITWINDOW_TITLE
 msgid "Image Edit"
@@ -354,6 +354,34 @@ msgstr "Vložit profil"
 msgid "Cancel job"
 msgstr "Zrušit úlohu"
 
+#: FILEBROWSER_POPUPCOLORLABEL
+msgid "Color label"
+msgstr "Barevný štítek"
+
+#: FILEBROWSER_POPUPCOLORLABEL0
+msgid "Label: None"
+msgstr "Štítek: Žádný"
+
+#: FILEBROWSER_POPUPCOLORLABEL1
+msgid "Label: Red"
+msgstr "Štítek: Červený "
+
+#: FILEBROWSER_POPUPCOLORLABEL2
+msgid "Label: Yellow"
+msgstr "Štítek: Žlutý"
+
+#: FILEBROWSER_POPUPCOLORLABEL3
+msgid "Label: Green"
+msgstr "Štítek: Zelený"
+
+#: FILEBROWSER_POPUPCOLORLABEL4
+msgid "Label: Blue"
+msgstr "Štítek: Modrý"
+
+#: FILEBROWSER_POPUPCOLORLABEL5
+msgid "Label: Purple"
+msgstr "Štítek: Růžový"
+
 #: FILEBROWSER_POPUPCOPYTO
 msgid "Copy to..."
 msgstr "Kopírovat do..."
@@ -379,24 +407,24 @@ msgid "Put to processing queue"
 msgstr "Vložit do fronty"
 
 #: FILEBROWSER_POPUPRANK1
-msgid "Rank 1"
-msgstr "Hodnotit 1"
+msgid "Rank 1 *"
+msgstr "Hodnocení 1 *"
 
 #: FILEBROWSER_POPUPRANK2
-msgid "Rank 2"
-msgstr "Hodnotit 2"
+msgid "Rank 2 **"
+msgstr "Hodnocení 2 **"
 
 #: FILEBROWSER_POPUPRANK3
-msgid "Rank 3"
-msgstr "Hodnotit 3"
+msgid "Rank 3 ***"
+msgstr "Hodnocení 3 ***"
 
 #: FILEBROWSER_POPUPRANK4
-msgid "Rank 4"
-msgstr "Hodnotit 4"
+msgid "Rank 4 ****"
+msgstr "Hodnocení 4 ****"
 
 #: FILEBROWSER_POPUPRANK5
-msgid "Rank 5"
-msgstr "Hodnotit 5"
+msgid "Rank 5 *****"
+msgstr "Hodnocení 5 *****"
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
 msgid "Remove from filesystem & batch result"
@@ -450,9 +478,29 @@ msgstr "Výběr tmavého snímku..."
 msgid "Select flat field..."
 msgstr "Výběr Flat-Field..."
 
+#: FILEBROWSER_SHOWCOLORLABEL1HINT
+msgid "Show images labeled Red <b>Alt-1</b>"
+msgstr "Ukázat obrázky s červeným štítkem <b>Alt-1</b>"
+
+#: FILEBROWSER_SHOWCOLORLABEL2HINT
+msgid "Show images labeled Yelow <b>Alt-2</b>"
+msgstr "Ukázat obrázky se žlutým štítkem <b>Alt-2</b>"
+
+#: FILEBROWSER_SHOWCOLORLABEL3HINT
+msgid "Show images labeled Green <b>Alt-3</b>"
+msgstr "Ukázat obrázky se zeleným štítkem <b>Alt-3</b>"
+
+#: FILEBROWSER_SHOWCOLORLABEL4HINT
+msgid "Show images labeled Blue <b>Alt-4</b>"
+msgstr "Ukázat obrázky s modrým štítkem <b>Alt-4</b>"
+
+#: FILEBROWSER_SHOWCOLORLABEL5HINT
+msgid "Show images labeled Purple <b>Alt-5</b>"
+msgstr "Ukázat obrázky s růžovým štítkem <b>Alt-5</b>"
+
 #: FILEBROWSER_SHOWDIRHINT
-msgid "Show all images of the directory <b>D</b>"
-msgstr "Ukázat všechny obrázky ve složce <b>D</b>"
+msgid "Show all images in the directory (clear all filters) <b>D</b>"
+msgstr "Ukázat všechny obrázky ve složce (zrušit všechny filtry) <b>D</b>"
 
 #: FILEBROWSER_SHOWEXIFINFO
 msgid "Show EXIF info <b>i</b>"
@@ -485,6 +533,10 @@ msgstr "Ukázat obrázky hodnocené 5 hvězdičkama <b>5</b>"
 #: FILEBROWSER_SHOWTRASHHINT
 msgid "Show content of the trash <b>T</b>"
 msgstr "Ukázat obsah koše <b>T</b>"
+
+#: FILEBROWSER_SHOWUNCOLORHINT
+msgid "Show images without Color label <b>Alt-`</b>"
+msgstr "Ukázat obrázky bez barevného štítku <b>Alt-`</b>"
 
 #: FILEBROWSER_SHOWUNRANKHINT
 msgid "Show unranked images  <b>`</b>"
@@ -809,6 +861,34 @@ msgstr "Flat-Field Typ rozostření"
 #: HISTORY_MSG_13
 msgid "Exposure Clipping"
 msgstr "Oříznutí exozice"
+
+#: HISTORY_MSG_130
+msgid "Auto Distorion"
+msgstr "Automatická oprava zkreslení objektivu"
+
+#: HISTORY_MSG_131
+msgid "Noise Reduction Luma"
+msgstr "Redukce jasového šumu"
+
+#: HISTORY_MSG_132
+msgid "Noise Reduction Chroma"
+msgstr "Redukce chromatického šumu"
+
+#: HISTORY_MSG_133,TP_DIRPYRDENOISE_GAMMA
+msgid "Gamma"
+msgstr "Gama"
+
+#: HISTORY_MSG_134
+msgid "Gamma Position"
+msgstr "Pozice gamy"
+
+#: HISTORY_MSG_135
+msgid "Gamma Free"
+msgstr "Volná gama"
+
+#: HISTORY_MSG_136
+msgid "Gamma Slope"
+msgstr "Sklon gamy"
 
 #: HISTORY_MSG_14
 msgid "Luminance Brightness"
@@ -2038,6 +2118,30 @@ msgstr "Indikace oříznutí"
 msgid "Colorimetric Intent"
 msgstr "Kolorimetrická metoda"
 
+#: PREFERENCES_CUSTPROFBUILDHINT
+msgid ""
+"Executable (or script) file called when a new initial profile should be "
+"generated an image.\n"
+"Receives command line params to allow a rules based .pp3 generation:\n"
+"[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal "
+"length in mm] [ISO] [Lens] [Camera]"
+msgstr ""
+"Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil "
+"pro obrázek.\n"
+"Obdrží následující parametry pro generování na pravidlech založeném .pp3 "
+"profilu:\n"
+"[Cesta RAW/JPG] [Výchozí cesta profilu] [Clona] [Expozice v sekundách] "
+"[Ohnisková "
+"vzdálenost v mm] [ISO] [Objektivy] [Fotoaparát]"
+
+#: PREFERENCES_CUSTPROFBUILDPATH
+msgid "Executable path"
+msgstr "Cesta k programu"
+
+#: PREFERENCES_CUSTPROFBUILD
+msgid "Custom image profile builder"
+msgstr "Vlastní generátor profilu obrázku"
+
 #: PREFERENCES_CUTOVERLAYBRUSH
 msgid "Crop mask color/transparency"
 msgstr "Barva masky ořezu/průhlednosti"
@@ -2884,10 +2988,6 @@ msgstr "Tmavý snímek"
 msgid "Threshold"
 msgstr "Práh"
 
-#: TP_DIRPYRDENOISE_GAMMA
-msgid "Gamma"
-msgstr "Gama"
-
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr "Barevnost"
@@ -2999,6 +3099,10 @@ msgstr "Výstupní gama"
 #: TP_GAMMA_SLOP
 msgid "slope (linear)"
 msgstr "sklon (lineární)"
+
+#: TP_HLREC_BLEND
+msgid "Blend"
+msgstr "Mísení"
 
 #: TP_HLREC_CIELAB
 msgid "CIELab Blending"

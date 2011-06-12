@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-05-18 19:01+0200\n"
+"POT-Creation-Date: 2011-06-04 17:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -345,6 +345,34 @@ msgstr ""
 msgid "Cancel job"
 msgstr ""
 
+#: FILEBROWSER_POPUPCOLORLABEL
+msgid "Color label"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL0
+msgid "Label: None"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL1
+msgid "Label: Red"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL2
+msgid "Label: Yellow"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL3
+msgid "Label: Green"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL4
+msgid "Label: Blue"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL5
+msgid "Label: Purple"
+msgstr ""
+
 #: FILEBROWSER_POPUPCOPYTO
 msgid "Copy to..."
 msgstr ""
@@ -370,23 +398,23 @@ msgid "Put to processing queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK1
-msgid "Rank 1"
+msgid "Rank 1 *"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK2
-msgid "Rank 2"
+msgid "Rank 2 **"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK3
-msgid "Rank 3"
+msgid "Rank 3 ***"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK4
-msgid "Rank 4"
+msgid "Rank 4 ****"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK5
-msgid "Rank 5"
+msgid "Rank 5 *****"
 msgstr ""
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
@@ -441,8 +469,28 @@ msgstr ""
 msgid "Select flat field..."
 msgstr ""
 
+#: FILEBROWSER_SHOWCOLORLABEL1HINT
+msgid "Show images labeled Red <b>Alt-1</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL2HINT
+msgid "Show images labeled Yelow <b>Alt-2</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL3HINT
+msgid "Show images labeled Green <b>Alt-3</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL4HINT
+msgid "Show images labeled Blue <b>Alt-4</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL5HINT
+msgid "Show images labeled Purple <b>Alt-5</b>"
+msgstr ""
+
 #: FILEBROWSER_SHOWDIRHINT
-msgid "Show all images of the directory <b>D</b>"
+msgid "Show all images in the directory (clear all filters) <b>D</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEXIFINFO
@@ -475,6 +523,10 @@ msgstr ""
 
 #: FILEBROWSER_SHOWTRASHHINT
 msgid "Show content of the trash <b>T</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWUNCOLORHINT
+msgid "Show images without Color label <b>Alt-`</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWUNRANKHINT
@@ -799,6 +851,34 @@ msgstr ""
 
 #: HISTORY_MSG_13
 msgid "Exposure Clipping"
+msgstr ""
+
+#: HISTORY_MSG_130
+msgid "Auto Distorion"
+msgstr ""
+
+#: HISTORY_MSG_131
+msgid "Noise Reduction Luma"
+msgstr ""
+
+#: HISTORY_MSG_132
+msgid "Noise Reduction Chroma"
+msgstr ""
+
+#: HISTORY_MSG_133,TP_DIRPYRDENOISE_GAMMA
+msgid "Gamma"
+msgstr ""
+
+#: HISTORY_MSG_134
+msgid "Gamma Position"
+msgstr ""
+
+#: HISTORY_MSG_135
+msgid "Gamma Free"
+msgstr ""
+
+#: HISTORY_MSG_136
+msgid "Gamma Slope"
 msgstr ""
 
 #: HISTORY_MSG_14
@@ -2005,6 +2085,18 @@ msgstr ""
 msgid "Colorimetric Intent"
 msgstr ""
 
+#: PREFERENCES_CUSTPROFBUILDHINT
+msgid "Executable (or script) file called when a new initial profile should be generated an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILDPATH
+msgid "Executable path"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILD
+msgid "Custom image profile builder"
+msgstr ""
+
 #: PREFERENCES_CUTOVERLAYBRUSH
 msgid "Crop mask color/transparency"
 msgstr ""
@@ -2706,10 +2798,6 @@ msgstr ""
 msgid "Threshold"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_GAMMA
-msgid "Gamma"
-msgstr ""
-
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr ""
@@ -2816,6 +2904,10 @@ msgstr ""
 
 #: TP_GAMMA_SLOP
 msgid "slope (linear)"
+msgstr ""
+
+#: TP_HLREC_BLEND
+msgid "Blend"
 msgstr ""
 
 #: TP_HLREC_CIELAB

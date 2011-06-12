@@ -31,7 +31,7 @@ else
   new_name=${TRANSLATOR_NAME}
 
   # Copy translation history
-  grep '^#' $orig_rt_file |grep -v '${new_date}:' > $new_rt_file
+  grep '^#' $orig_rt_file |grep -v "${new_date}:" > $new_rt_file
   old_ver=$(tail -n 1 $new_rt_file | sed -e 's/#\([0-9]*\) .*$/\1/' -e 's/^0//')
   ((new_ver = old_ver + 1))
   printf "#%02d %s: updated by %s\n" $new_ver "$new_date" "$new_name" >>$new_rt_file
