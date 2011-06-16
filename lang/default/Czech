@@ -10,6 +10,7 @@
 #09 18.05.2011: updated by mkyral
 #10 04.06.2011: updated by mkyral
 #11 12.06.2011: updated by mkyral
+#12 16.06.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -182,7 +183,7 @@ HISTOGRAM_TOOLTIP_L;Skrýt /zobrazit CIELAB histogram jasu
 HISTOGRAM_TOOLTIP_RAW;Skrýt /zobrazit RAW histogram
 HISTOGRAM_TOOLTIP_R;Skrýt /zobrazit histogram pro ČERVENOU barvu
 HISTORY_CUSTOMCURVE;Vlastní křivka
-HISTORY_DELSNAPSHOT;Odstranit snímek
+HISTORY_DELSNAPSHOT;Odstranit
 HISTORY_FROMCLIPBOARD;Ze schránky
 HISTORY_CHANGED;Změněno
 HISTORY_LABEL;Historie
@@ -406,7 +407,7 @@ MAIN_FRAME_EDITOR_TOOLTIP; Editor  <b>Ctrl-F4</b>
 MAIN_FRAME_FILEBROWSER;Prohlížeč souborů 
 MAIN_FRAME_FILEBROWSER_TOOLTIP; Prohlížeč souborů  <b>Ctrl-F2</b> 
 MAIN_FRAME_PLACES_ADD;Přidat
-MAIN_FRAME_PLACES_DEL;Odstranit snímek
+MAIN_FRAME_PLACES_DEL;Odstranit
 MAIN_FRAME_PLACES;Místa
 MAIN_FRAME_RECENT;Poslední složky 
 MAIN_MSG_ALREADYEXISTS;Soubor již existuje.
