@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-06-12 08:38+0200\n"
+"POT-Creation-Date: 2011-07-03 08:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,6 +229,10 @@ msgstr ""
 msgid "Add/Del templates..."
 msgstr ""
 
+#: FILEBROWSER_APPLYPROFILE_PARTIAL
+msgid "Apply profile (partial)"
+msgstr ""
+
 #: FILEBROWSER_APPLYPROFILE
 msgid "Apply profile"
 msgstr ""
@@ -250,7 +254,7 @@ msgid "Click to browse to the chosen path"
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHHINT
-msgid "Type path to browse (<b>Ctrl-o</b> set focus,<b>Ctrl-Enter</b> to browse in File Browser);\nPath shortcuts: <b>~</b> - user's home directory, <b>!</b> - user's pictures directory"
+msgid "Type path to browse\n<b>Ctrl-o</b> set focus\n<b>Enter</b>, <b>Ctrl-Enter</b> (in File Browser) to browse;\nPath shortcuts:\n  <b>~</b> - user's home directory\n  <b>!</b> - user's pictures directory"
 msgstr ""
 
 #: FILEBROWSER_CACHECLEARFROMFULL
@@ -286,7 +290,7 @@ msgid "File delete confirmation"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
-msgid "Are you sure you want to delete the selected %1 files INCLUDING a batch processed version?"
+msgid "Are you sure you want to delete the selected %1 files INCLUDING a Queue processed version?"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGMSG
@@ -377,6 +381,10 @@ msgstr ""
 msgid "Copy to..."
 msgstr ""
 
+#: FILEBROWSER_POPUPFILEOPERATIONS
+msgid "File Operations"
+msgstr ""
+
 #: FILEBROWSER_POPUPMOVEEND
 msgid "Move to end of queue"
 msgstr ""
@@ -393,8 +401,16 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: FILEBROWSER_POPUPPROCESS
-msgid "Put to processing queue"
+#: FILEBROWSER_POPUPPROCESS,MAIN_BUTTON_QUEUE
+msgid "Put to Queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPPROFILEOPERATIONS
+msgid "Profile Operations"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK
+msgid "Rank"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK1
@@ -418,11 +434,11 @@ msgid "Rank 5 *****"
 msgstr ""
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
-msgid "Remove from filesystem & batch result"
+msgid "Delete (with output from queue)"
 msgstr ""
 
 #: FILEBROWSER_POPUPREMOVE
-msgid "Remove from filesystem"
+msgid "Delete"
 msgstr ""
 
 #: FILEBROWSER_POPUPRENAME
@@ -451,6 +467,18 @@ msgstr ""
 
 #: FILEBROWSER_PROCESSINGSETTINGS
 msgid "Settings"
+msgstr ""
+
+#: FILEBROWSER_QUERYBUTTONHINT
+msgid "Clear the Find query"
+msgstr ""
+
+#: FILEBROWSER_QUERYHINT
+msgid "Type a part of filename to search by \n<b>Ctrl-f</b> set focus (in File Browser);\n<b>Enter</b> to find"
+msgstr ""
+
+#: FILEBROWSER_QUERYLABEL
+msgid " Find:"
 msgstr ""
 
 #: FILEBROWSER_RENAMEDLGLABEL
@@ -490,7 +518,15 @@ msgid "Show images labeled Purple <b>Alt-5</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWDIRHINT
-msgid "Show all images in the directory (clear all filters) <b>D</b>"
+msgid "Clear all filters <b>D</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWEDITEDHINT
+msgid "Show edited images <b>7</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWEDITEDNOTHINT
+msgid "Show not edited images <b>6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEXIFINFO
@@ -519,6 +555,14 @@ msgstr ""
 
 #: FILEBROWSER_SHOWRANK5HINT
 msgid "Show images ranked as 5 star <b>5</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRECENTLYSAVEDHINT
+msgid "Show images recently saved  <b>Alt-7</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT
+msgid "Show images not recently saved <b>Alt-6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWTRASHHINT
@@ -1514,11 +1558,7 @@ msgid "Preferences"
 msgstr ""
 
 #: MAIN_BUTTON_PUTTOQUEUE_TOOLTIP
-msgid "Add current image to processing queue <b>Ctrl+Q</b>"
-msgstr ""
-
-#: MAIN_BUTTON_QUEUE
-msgid "Put to queue"
+msgid "Put current image to processing queue <b>Ctrl+Q</b>"
 msgstr ""
 
 #: MAIN_BUTTON_SAVE_TOOLTIP
@@ -1538,11 +1578,11 @@ msgid "Exit fullscreen"
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
-msgid " Batch Queue  <b>Ctrl-F3</b> "
+msgid " Processing Queue  <b>Ctrl-F3</b> "
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE
-msgid "Batch Queue "
+msgid "Queue "
 msgstr ""
 
 #: MAIN_FRAME_EDITOR_TOOLTIP
@@ -2193,6 +2233,10 @@ msgstr ""
 msgid "File Browser Options"
 msgstr ""
 
+#: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
+msgid "Single row file browser toolbar (de-select for low res display)"
+msgstr ""
+
 #: PREFERENCES_FILEFORMAT,SAVEDLG_FILEFORMAT
 msgid "File format"
 msgstr ""
@@ -2259,6 +2303,26 @@ msgstr ""
 
 #: PREFERENCES_LIVETHUMBNAILS
 msgid "Live Thumbnails (slower)"
+msgstr ""
+
+#: PREFERENCES_MENUGROUPFILEOPERATIONS
+msgid "Group File Operations"
+msgstr ""
+
+#: PREFERENCES_MENUGROUPLABEL
+msgid "Group Labeling"
+msgstr ""
+
+#: PREFERENCES_MENUGROUPPROFILEOPERATIONS
+msgid "Group Profile Operations"
+msgstr ""
+
+#: PREFERENCES_MENUGROUPRANK
+msgid "Group Ranking"
+msgstr ""
+
+#: PREFERENCES_MENUOPTIONS
+msgid "Menu Options"
 msgstr ""
 
 #: PREFERENCES_MONITORICC
@@ -2410,7 +2474,7 @@ msgid "Slim interface"
 msgstr ""
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
-msgid "Batch queue done"
+msgid "Queue processing done"
 msgstr ""
 
 #: PREFERENCES_SND_HELP
@@ -2859,7 +2923,7 @@ msgid "(Exprimental) Correct lens distortion automatically for some cameras (M4/
 msgstr ""
 
 #: TP_DISTORTION_AUTO
-msgid "Auto distortion correction"
+msgid "    Auto distortion correction"
 msgstr ""
 
 #: TP_DISTORTION_LABEL
@@ -3028,7 +3092,7 @@ msgid "Lab Adjustments"
 msgstr ""
 
 #: TP_LENSGEOM_AUTOCROP
-msgid "Auto Crop"
+msgid "    Auto Crop"
 msgstr ""
 
 #: TP_LENSGEOM_LABEL
@@ -3057,6 +3121,10 @@ msgstr ""
 
 #: TP_RAWEXPOS_BLACKONE
 msgid "Black Level: Red"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACKS
+msgid "Black Levels"
 msgstr ""
 
 #: TP_RAWEXPOS_BLACKTHREE

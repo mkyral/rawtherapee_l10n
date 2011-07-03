@@ -54,11 +54,15 @@ EXIFPANEL_RESETHINT;Reset the selected tags to their original values
 EXIFPANEL_SUBDIRECTORY;Subdirectory
 FILEBROWSER_ADDDELTEMPLATE;Add/Del templates...
 FILEBROWSER_APPLYPROFILE;Apply profile
+FILEBROWSER_APPLYPROFILE_PARTIAL;Apply profile (partial)
 FILEBROWSER_ARRANGEMENTHINT;Change between vertical/horizontal alignment of thumbnails
 FILEBROWSER_AUTODARKFRAME;Auto dark frame
 FILEBROWSER_AUTOFLATFIELD;Auto flat field
 FILEBROWSER_BROWSEPATHBUTTONHINT;Click to browse to the chosen path
-FILEBROWSER_BROWSEPATHHINT;Type path to browse (<b>Ctrl-o</b> set focus,<b>Ctrl-Enter</b> to browse in File Browser);\nPath shortcuts: <b>~</b> - user's home directory, <b>!</b> - user's pictures directory
+FILEBROWSER_BROWSEPATHHINT;Type path to browse\n<b>Ctrl-o</b> set focus\n<b>Enter</b>, <b>Ctrl-Enter</b> (in File Browser) to browse;\nPath shortcuts:\n  <b>~</b> - user's home directory\n  <b>!</b> - user's pictures directory
+FILEBROWSER_QUERYBUTTONHINT;Clear the Find query
+FILEBROWSER_QUERYHINT;Type a part of filename to search by \n<b>Ctrl-f</b> set focus (in File Browser);\n<b>Enter</b> to find
+FILEBROWSER_QUERYLABEL; Find:
 FILEBROWSER_CACHE;Cache
 FILEBROWSER_CACHECLEARFROMFULL;Clear from cache - full
 FILEBROWSER_CACHECLEARFROMPARTIAL;Clear from cache - partial
@@ -68,7 +72,7 @@ FILEBROWSER_CURRENT_NAME;Current name:
 FILEBROWSER_DARKFRAME;Dark frame
 FILEBROWSER_DELETEDLGLABEL;File delete confirmation
 FILEBROWSER_DELETEDLGMSG;Are you sure you want to delete the selected %1 files?
-FILEBROWSER_DELETEDLGMSGINCLPROC;Are you sure you want to delete the selected %1 files INCLUDING a batch processed version?
+FILEBROWSER_DELETEDLGMSGINCLPROC;Are you sure you want to delete the selected %1 files INCLUDING a Queue processed version?
 FILEBROWSER_EMPTYTRASH;Empty Trash
 FILEBROWSER_EMPTYTRASHHINT;Permanently delete the files of the trash
 FILEBROWSER_EXIFFILTERAPPLY;Apply
@@ -91,18 +95,21 @@ FILEBROWSER_POPUPCOLORLABEL3;Label: Green
 FILEBROWSER_POPUPCOLORLABEL4;Label: Blue
 FILEBROWSER_POPUPCOLORLABEL5;Label: Purple
 FILEBROWSER_POPUPCOPYTO;Copy to...
+FILEBROWSER_POPUPFILEOPERATIONS;File Operations
 FILEBROWSER_POPUPMOVEEND;Move to end of queue
 FILEBROWSER_POPUPMOVEHEAD;Move to head of queue
 FILEBROWSER_POPUPMOVETO;Move to...
 FILEBROWSER_POPUPOPEN;Open
-FILEBROWSER_POPUPPROCESS;Put to processing queue
+FILEBROWSER_POPUPPROCESS;Put to Queue
+FILEBROWSER_POPUPPROFILEOPERATIONS;Profile Operations
+FILEBROWSER_POPUPRANK;Rank
 FILEBROWSER_POPUPRANK1;Rank 1 *
 FILEBROWSER_POPUPRANK2;Rank 2 **
 FILEBROWSER_POPUPRANK3;Rank 3 ***
 FILEBROWSER_POPUPRANK4;Rank 4 ****
 FILEBROWSER_POPUPRANK5;Rank 5 *****
-FILEBROWSER_POPUPREMOVE;Remove from filesystem
-FILEBROWSER_POPUPREMOVEINCLPROC;Remove from filesystem & batch result
+FILEBROWSER_POPUPREMOVE;Delete
+FILEBROWSER_POPUPREMOVEINCLPROC;Delete (with output from queue)
 FILEBROWSER_POPUPREMOVESUBMENU;Remove
 FILEBROWSER_POPUPRENAME;Rename
 FILEBROWSER_POPUPSELECTALL;Select all
@@ -120,7 +127,9 @@ FILEBROWSER_SHOWCOLORLABEL2HINT;Show images labeled Yelow <b>Alt-2</b>
 FILEBROWSER_SHOWCOLORLABEL3HINT;Show images labeled Green <b>Alt-3</b>
 FILEBROWSER_SHOWCOLORLABEL4HINT;Show images labeled Blue <b>Alt-4</b>
 FILEBROWSER_SHOWCOLORLABEL5HINT;Show images labeled Purple <b>Alt-5</b>
-FILEBROWSER_SHOWDIRHINT;Show all images in the directory (clear all filters) <b>D</b>
+FILEBROWSER_SHOWDIRHINT;Clear all filters <b>D</b>
+FILEBROWSER_SHOWEDITEDHINT;Show edited images <b>7</b>
+FILEBROWSER_SHOWEDITEDNOTHINT;Show not edited images <b>6</b>
 FILEBROWSER_SHOWEXIFINFO;Show EXIF info <b>i</b>
 FILEBROWSER_SHOWQUEUEHINT;Show content of the processing queue
 FILEBROWSER_SHOWRANK1HINT;Show images ranked as 1 star <b>1</b>
@@ -128,6 +137,8 @@ FILEBROWSER_SHOWRANK2HINT;Show images ranked as 2 star <b>2</b>
 FILEBROWSER_SHOWRANK3HINT;Show images ranked as 3 star <b>3</b>
 FILEBROWSER_SHOWRANK4HINT;Show images ranked as 4 star <b>4</b>
 FILEBROWSER_SHOWRANK5HINT;Show images ranked as 5 star <b>5</b>
+FILEBROWSER_SHOWRECENTLYSAVEDHINT;Show images recently saved  <b>Alt-7</b>
+FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT;Show images not recently saved <b>Alt-6</b>
 FILEBROWSER_SHOWTRASHHINT;Show content of the trash <b>T</b>
 FILEBROWSER_SHOWUNCOLORHINT;Show images without Color label <b>Alt-`</b>
 FILEBROWSER_SHOWUNRANKHINT;Show unranked images  <b>`</b>
@@ -383,14 +394,14 @@ IPTCPANEL_TRANSREFERENCEHINT;A code representing the location of original transm
 MAIN_BUTTON_EXIT;Exit
 MAIN_BUTTON_FULLSCREEN;Fullscreen
 MAIN_BUTTON_PREFERENCES;Preferences
-MAIN_BUTTON_PUTTOQUEUE_TOOLTIP;Add current image to processing queue <b>Ctrl+Q</b>
-MAIN_BUTTON_QUEUE;Put to queue
+MAIN_BUTTON_PUTTOQUEUE_TOOLTIP;Put current image to processing queue <b>Ctrl+Q</b>
+MAIN_BUTTON_QUEUE;Put to Queue
 MAIN_BUTTON_SAVE_TOOLTIP;Save current image <b>Ctrl+S</b>
 MAIN_BUTTON_SENDTOEDITOR_TOOLTIP;Edit current image in external editor <b>Ctrl+E</b>
 MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP;Show/hide all side panels <b>m</b>
 MAIN_BUTTON_UNFULLSCREEN;Exit fullscreen
-MAIN_FRAME_BATCHQUEUE;Batch Queue 
-MAIN_FRAME_BATCHQUEUE_TOOLTIP; Batch Queue  <b>Ctrl-F3</b> 
+MAIN_FRAME_BATCHQUEUE;Queue 
+MAIN_FRAME_BATCHQUEUE_TOOLTIP; Processing Queue  <b>Ctrl-F3</b> 
 MAIN_FRAME_EDITOR;Editor 
 MAIN_FRAME_EDITOR_TOOLTIP; Editor  <b>Ctrl-F4</b> 
 MAIN_FRAME_FILEBROWSER;File Browser 
@@ -567,6 +578,7 @@ PREFERENCES_EDITORCMDLINE;Other command line
 PREFERENCES_EDITORLAYOUT;Editor Layout
 PREFERENCES_EXTERNALEDITOR;External editor
 PREFERENCES_FBROWSEROPTS;File Browser Options
+PREFERENCES_FILEBROWSERTOOLBARSINGLEROW;Single row file browser toolbar (de-select for low res display)
 PREFERENCES_FILEFORMAT;File format
 PREFERENCES_FLATFIELD;Flat Field
 PREFERENCES_FLATFIELDFOUND;Found
@@ -588,6 +600,11 @@ PREFERENCES_INTENT_RELATIVE;Relative Colorimetric
 PREFERENCES_INTENT_SATURATION;Saturation
 PREFERENCES_INTERNALTHUMBIFUNTOUCHED;Show RAW internal thumbnail if unedited
 PREFERENCES_LIVETHUMBNAILS;Live Thumbnails (slower)
+PREFERENCES_MENUOPTIONS;Menu Options
+PREFERENCES_MENUGROUPRANK;Group Ranking
+PREFERENCES_MENUGROUPLABEL;Group Labeling
+PREFERENCES_MENUGROUPFILEOPERATIONS;Group File Operations
+PREFERENCES_MENUGROUPPROFILEOPERATIONS;Group Profile Operations
 PREFERENCES_METADATA;Metadata
 PREFERENCES_MONITORICC;Monitor Profile
 PREFERENCES_MULTITAB;Multiple tabs mode
@@ -626,7 +643,7 @@ PREFERENCES_SHTHRESHOLD;Threshold for clipped shadows
 PREFERENCES_SINGLETAB;Single tab mode
 PREFERENCES_SINGLETABVERTAB;Single tab mode, vertical tabs
 PREFERENCES_SLIMUI;Slim interface
-PREFERENCES_SND_BATCHQUEUEDONE;Batch queue done
+PREFERENCES_SND_BATCHQUEUEDONE;Queue processing done
 PREFERENCES_SND_HELP;Either enter filepath or nothing (for no sound). On Windows use "SystemDefault", "SystemAsterisk" etc. for system sounds.
 PREFERENCES_SND_LNGEDITPROCDONE;Editor processing done
 PREFERENCES_SND_TRESHOLDSECS;after secs
@@ -759,7 +776,7 @@ TP_DIRPYREQUALIZER_LUMAFINEST;Finest
 TP_DIRPYREQUALIZER_LUMANEUTRAL;Neutral
 TP_DIRPYREQUALIZER_THRESHOLD;Threshold
 TP_DISTORTION_AMOUNT;Amount
-TP_DISTORTION_AUTO;Auto distortion correction
+TP_DISTORTION_AUTO;    Auto distortion correction
 TP_DISTORTION_AUTO_TIP;(Exprimental) Correct lens distortion automatically for some cameras (M4/3, some compact DC, etc.)
 TP_DISTORTION_LABEL;Distortion
 TP_EQUALIZER_CONTRAST_MINUS;Contrast-
@@ -838,7 +855,7 @@ TP_LABCURVE_ENABLESATLIMITER;Enable saturation limiter
 TP_LABCURVE_LABEL;Lab Adjustments
 TP_LABCURVE_SATLIMIT;Saturation limit
 TP_LABCURVE_SATURATION;Saturation
-TP_LENSGEOM_AUTOCROP;Auto Crop
+TP_LENSGEOM_AUTOCROP;    Auto Crop
 TP_LENSGEOM_FILL;Auto Fill
 TP_LENSGEOM_LABEL;Lens / Geometry
 TP_LUMADENOISE_EDGETOLERANCE;Edge Tolerance
@@ -857,6 +874,7 @@ TP_RAWCACORR_CABLUE;Blue
 TP_RAWCACORR_CARED;Red
 TP_RAWEXPOS_LINEAR;White Point: Linear corr. factor
 TP_RAWEXPOS_PRESER;White Point: HL preserving corr.(EV)
+TP_RAWEXPOS_BLACKS;Black Levels
 TP_RAWEXPOS_BLACKZERO;Black Level: Green 1 (leader)
 TP_RAWEXPOS_BLACKONE;Black Level: Red
 TP_RAWEXPOS_BLACKTWO;Black Level: Blue

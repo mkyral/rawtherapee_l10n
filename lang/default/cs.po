@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-06-12 08:38+0200\n"
-"PO-Revision-Date: 2011-06-15 19:45+0200\n"
+"POT-Creation-Date: 2011-07-03 08:36+0200\n"
+"PO-Revision-Date: 2011-07-03 09:17+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -226,6 +226,10 @@ msgstr "Podadresář"
 msgid "Add/Del templates..."
 msgstr "Přidat/Smazat šablony..."
 
+#: FILEBROWSER_APPLYPROFILE_PARTIAL
+msgid "Apply profile (partial)"
+msgstr "Aplikovat profil (částečně)"
+
 #: FILEBROWSER_APPLYPROFILE
 msgid "Apply profile"
 msgstr "Aplikovat profil"
@@ -248,15 +252,19 @@ msgstr "Klikněte pro výběr cesty"
 
 #: FILEBROWSER_BROWSEPATHHINT
 msgid ""
-"Type path to browse (<b>Ctrl-o</b> set focus,<b>Ctrl-Enter</b> to browse in "
-"File Browser);\n"
-"Path shortcuts: <b>~</b> - user's home directory, <b>!</b> - user's pictures "
-"directory"
+"Type path to browse\n"
+"<b>Ctrl-o</b> set focus\n"
+"<b>Enter</b>, <b>Ctrl-Enter</b> (in File Browser) to browse;\n"
+"Path shortcuts:\n"
+"  <b>~</b> - user's home directory\n"
+"  <b>!</b> - user's pictures directory"
 msgstr ""
-"Vložte cestu pro procházení (<b>Ctrl-o</b> zaměření,<b>Ctrl-Enter</b> pro "
-"procházení v prohlížeči souborů);\n"
-"Zkratky pro cesty: <b>~</b> - domácí složka uživatele, <b>!</b> - složka s "
-"obrázky uživatele"
+"Vložte cestu pro procházení\n"
+"<b>Ctrl-o</b> zaměření\n"
+"<b>Enter</b>, <b>Ctrl-Enter</b> (v prohlížeči souborů) pro procházení ;\n"
+"Zkratky pro cesty:\n"
+" <b>~</b> - domácí složka uživatele\n"
+" <b>!</b> - složka s obrázky uživatele"
 
 #: FILEBROWSER_CACHECLEARFROMFULL
 msgid "Clear from cache - full"
@@ -292,10 +300,11 @@ msgstr "Potvrzení smazání souboru"
 
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
 msgid ""
-"Are you sure you want to delete the selected %1 files INCLUDING a batch "
+"Are you sure you want to delete the selected %1 files INCLUDING a Queue "
 "processed version?"
 msgstr ""
-"Jste si jisti, že chcete vymazat %1 vybraných souborů VČETNĚ verzí dávkového "
+"Jste si jisti, že chcete vymazat %1 vybraných souborů VČETNĚ výstupů "
+"dávkového "
 "zpracování?"
 
 #: FILEBROWSER_DELETEDLGMSG
@@ -386,6 +395,10 @@ msgstr "Štítek: Růžový"
 msgid "Copy to..."
 msgstr "Kopírovat do..."
 
+#: FILEBROWSER_POPUPFILEOPERATIONS
+msgid "File Operations"
+msgstr "Souborové operace"
+
 #: FILEBROWSER_POPUPMOVEEND
 msgid "Move to end of queue"
 msgstr "Přesunout na konec fronty"
@@ -402,9 +415,17 @@ msgstr "Přesunout do..."
 msgid "Open"
 msgstr "Otevřít"
 
-#: FILEBROWSER_POPUPPROCESS
-msgid "Put to processing queue"
+#: FILEBROWSER_POPUPPROCESS,MAIN_BUTTON_QUEUE
+msgid "Put to Queue"
 msgstr "Vložit do fronty"
+
+#: FILEBROWSER_POPUPPROFILEOPERATIONS
+msgid "Profile Operations"
+msgstr "Operace s profiy"
+
+#: FILEBROWSER_POPUPRANK
+msgid "Rank"
+msgstr "Hodnocení"
 
 #: FILEBROWSER_POPUPRANK1
 msgid "Rank 1 *"
@@ -427,12 +448,12 @@ msgid "Rank 5 *****"
 msgstr "Hodnocení 5 *****"
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
-msgid "Remove from filesystem & batch result"
-msgstr "Odstranit ze souborového systému a výsledků zpracování"
+msgid "Delete (with output from queue)"
+msgstr "Smazat (včetně výstupů z fronty)"
 
 #: FILEBROWSER_POPUPREMOVE
-msgid "Remove from filesystem"
-msgstr "Odstranit ze souborového systému"
+msgid "Delete"
+msgstr "Smazat"
 
 #: FILEBROWSER_POPUPRENAME
 msgid "Rename"
@@ -461,6 +482,24 @@ msgstr "Nastavení formátu souboru a výstupní složky"
 #: FILEBROWSER_PROCESSINGSETTINGS
 msgid "Settings"
 msgstr "Nastavení"
+
+#: FILEBROWSER_QUERYBUTTONHINT
+msgid "Clear the Find query"
+msgstr "Smaže vyhledávací dotaz"
+
+#: FILEBROWSER_QUERYHINT
+msgid ""
+"Type a part of filename to search by \n"
+"<b>Ctrl-f</b> set focus (in File Browser);\n"
+"<b>Enter</b> to find"
+msgstr ""
+"Napiště část jména souboru a použijte \n"
+"<b>Ctrl-f</b> k zaměření (v Prohlížeči souborů);\n"
+"<b>Enter</b> k nalezení"
+
+#: FILEBROWSER_QUERYLABEL
+msgid " Find:"
+msgstr " Najít:"
 
 #: FILEBROWSER_RENAMEDLGLABEL
 msgid "Rename file"
@@ -499,8 +538,16 @@ msgid "Show images labeled Purple <b>Alt-5</b>"
 msgstr "Ukázat obrázky s růžovým štítkem <b>Alt-5</b>"
 
 #: FILEBROWSER_SHOWDIRHINT
-msgid "Show all images in the directory (clear all filters) <b>D</b>"
-msgstr "Ukázat všechny obrázky ve složce (zrušit všechny filtry) <b>D</b>"
+msgid "Clear all filters <b>D</b>"
+msgstr "Smazat všechny filtry <b>D</b>"
+
+#: FILEBROWSER_SHOWEDITEDHINT
+msgid "Show edited images <b>7</b>"
+msgstr "Ukázat upravené obrázky  <b>7</b>"
+
+#: FILEBROWSER_SHOWEDITEDNOTHINT
+msgid "Show not edited images <b>6</b>"
+msgstr "Ukázat neupravené obrázky  <b>6</b>"
 
 #: FILEBROWSER_SHOWEXIFINFO
 msgid "Show EXIF info <b>i</b>"
@@ -529,6 +576,14 @@ msgstr "Ukázat obrázky hodnocené 4 hvězdičkama <b>4</b>"
 #: FILEBROWSER_SHOWRANK5HINT
 msgid "Show images ranked as 5 star <b>5</b>"
 msgstr "Ukázat obrázky hodnocené 5 hvězdičkama <b>5</b>"
+
+#: FILEBROWSER_SHOWRECENTLYSAVEDHINT
+msgid "Show images recently saved  <b>Alt-7</b>"
+msgstr "Ukázat naposledy uložené obrázky <b>Alt-7</b>"
+
+#: FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT
+msgid "Show images not recently saved <b>Alt-6</b>"
+msgstr "Ukázat naposledy neuzožené obrázky<b>Alt-6</b>"
 
 #: FILEBROWSER_SHOWTRASHHINT
 msgid "Show content of the trash <b>T</b>"
@@ -1545,12 +1600,8 @@ msgid "Preferences"
 msgstr "Volby"
 
 #: MAIN_BUTTON_PUTTOQUEUE_TOOLTIP
-msgid "Add current image to processing queue <b>Ctrl+Q</b>"
-msgstr "Vložit současný obrázek do fronty <b>Ctrl+Q</b>"
-
-#: MAIN_BUTTON_QUEUE
-msgid "Put to queue"
-msgstr "Vložit do fronty"
+msgid "Put current image to processing queue <b>Ctrl+Q</b>"
+msgstr "Vložit současný obrázek do fronty zpracování <b>Ctrl+Q</b>"
 
 #: MAIN_BUTTON_SAVE_TOOLTIP
 msgid "Save current image <b>Ctrl+S</b>"
@@ -1569,12 +1620,12 @@ msgid "Exit fullscreen"
 msgstr "Ukončit mód celé obrazovky"
 
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
-msgid " Batch Queue  <b>Ctrl-F3</b> "
+msgid " Processing Queue  <b>Ctrl-F3</b> "
 msgstr " Fronta zpracování  <b>Ctrl-F3</b> "
 
 #: MAIN_FRAME_BATCHQUEUE
-msgid "Batch Queue "
-msgstr "Fronta"
+msgid "Queue "
+msgstr "Fronta "
 
 #: MAIN_FRAME_EDITOR_TOOLTIP
 msgid " Editor  <b>Ctrl-F4</b> "
@@ -2144,8 +2195,8 @@ msgid ""
 msgstr ""
 "Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil "
 "pro obrázek.\n"
-"Bude spuštěn s následujícími parametry,  které umožní vygenerování vhodného "
-" .pp3 profilu:\n"
+"Bude spuštěn s následujícími parametry,  které umožní vygenerování "
+"vhodného  .pp3 profilu:\n"
 "[Cesta RAW/JPG] [Výchozí cesta profilu] [Clona] [Expozice v sekundách] "
 "[Ohnisková vzdálenost v mm] [ISO] [Objektiv] [Fotoaparát]"
 
@@ -2251,6 +2302,12 @@ msgstr "Externí editor"
 msgid "File Browser Options"
 msgstr "Volby prohlížeče souborů"
 
+#: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
+msgid "Single row file browser toolbar (de-select for low res display)"
+msgstr ""
+"Jednořádková lišta nástrojů v prohlížeči souborů (vypněte na nízkých "
+"rozlišeních)"
+
 #: PREFERENCES_FILEFORMAT,SAVEDLG_FILEFORMAT
 msgid "File format"
 msgstr "Formát souboru"
@@ -2318,6 +2375,26 @@ msgstr "Ukázat interní náhledy RAW nezpracovaných snímků"
 #: PREFERENCES_LIVETHUMBNAILS
 msgid "Live Thumbnails (slower)"
 msgstr "Živé náhledy (pomalejší)"
+
+#: PREFERENCES_MENUGROUPFILEOPERATIONS
+msgid "Group File Operations"
+msgstr "Seskupit souborové operace"
+
+#: PREFERENCES_MENUGROUPLABEL
+msgid "Group Labeling"
+msgstr "Seskupit značení"
+
+#: PREFERENCES_MENUGROUPPROFILEOPERATIONS
+msgid "Group Profile Operations"
+msgstr "Seskupit operace s profily"
+
+#: PREFERENCES_MENUGROUPRANK
+msgid "Group Ranking"
+msgstr "Seskupit hodnocení"
+
+#: PREFERENCES_MENUOPTIONS
+msgid "Menu Options"
+msgstr "Vlastnosti nabídky"
 
 #: PREFERENCES_MONITORICC
 msgid "Monitor Profile"
@@ -2594,7 +2671,7 @@ msgid "Slim interface"
 msgstr "Štíhlé rozhraní"
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
-msgid "Batch queue done"
+msgid "Queue processing done"
 msgstr "Zpracování fronty dokončeno"
 
 #: PREFERENCES_SND_HELP
@@ -3052,8 +3129,8 @@ msgstr ""
 "fotoaparáty (M4/3, některé kompakty a jiné)."
 
 #: TP_DISTORTION_AUTO
-msgid "Auto distortion correction"
-msgstr "Automatická korekce zkreslení"
+msgid "    Auto distortion correction"
+msgstr "    Automatická korekce zkreslení objektivu"
 
 #: TP_DISTORTION_LABEL
 msgid "Distortion"
@@ -3221,8 +3298,8 @@ msgid "Lab Adjustments"
 msgstr "Úprava LAB křivek"
 
 #: TP_LENSGEOM_AUTOCROP
-msgid "Auto Crop"
-msgstr "Automatický ořez"
+msgid "    Auto Crop"
+msgstr "    Automatický ořez"
 
 #: TP_LENSGEOM_LABEL
 msgid "Lens / Geometry"
@@ -3251,6 +3328,10 @@ msgstr "Metoda"
 #: TP_RAWEXPOS_BLACKONE
 msgid "Black Level: Red"
 msgstr "Úroveň černé: Červená"
+
+#: TP_RAWEXPOS_BLACKS
+msgid "Black Levels"
+msgstr "Úrovně černé"
 
 #: TP_RAWEXPOS_BLACKTHREE
 msgid "Black Level: Green 2"
@@ -3491,6 +3572,21 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Put to processing queue"
+#~ msgstr "Vložit do fronty"
+
+#~ msgid "Remove from filesystem & batch result"
+#~ msgstr "Odstranit ze souborového systému a výsledků zpracování"
+
+#~ msgid "Remove from filesystem"
+#~ msgstr "Odstranit ze souborového systému"
+
+#~ msgid "Show all images in the directory (clear all filters) <b>D</b>"
+#~ msgstr "Ukázat všechny obrázky ve složce (zrušit všechny filtry) <b>D</b>"
+
+#~ msgid "Batch queue done"
+#~ msgstr "Zpracování fronty dokončeno"
 
 #~ msgid "RMB to change option"
 #~ msgstr "Pravé tl. myši pro změnu nastavení"
