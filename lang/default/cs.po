@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-07-03 08:36+0200\n"
-"PO-Revision-Date: 2011-07-03 09:17+0200\n"
+"POT-Creation-Date: 2011-07-08 13:14+0200\n"
+"PO-Revision-Date: 2011-07-08 13:36+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -304,8 +304,7 @@ msgid ""
 "processed version?"
 msgstr ""
 "Jste si jisti, že chcete vymazat %1 vybraných souborů VČETNĚ výstupů "
-"dávkového "
-"zpracování?"
+"dávkového zpracování?"
 
 #: FILEBROWSER_DELETEDLGMSG
 msgid "Are you sure you want to delete the selected %1 files?"
@@ -969,6 +968,38 @@ msgstr "Úroveň černé: Zelená 2"
 msgid "Black level green together"
 msgstr "Úroveň černé: Zelené zároveň"
 
+#: HISTORY_MSG_142
+msgid "Clarity -passes"
+msgstr "Ostrost - průchody"
+
+#: HISTORY_MSG_143
+msgid "Clarity -gradient strength"
+msgstr "Ostrost - síla gradientu"
+
+#: HISTORY_MSG_144
+msgid "Microcontrast - strength"
+msgstr "Mikrokontrast - síla"
+
+#: HISTORY_MSG_145
+msgid "Microcontrast - uniformity"
+msgstr "Mikrokontrast - jednolitost"
+
+#: HISTORY_MSG_146
+msgid "Clarity Sharpening - enabled"
+msgstr "Ostrost/doostření - povoleno"
+
+#: HISTORY_MSG_147
+msgid "Clarity - luminance only"
+msgstr "Ostrost - pouze jas"
+
+#: HISTORY_MSG_148
+msgid "Clarity Microcontrast - enabled"
+msgstr "Ostrost Mikrokontrast - povoleno"
+
+#: HISTORY_MSG_149
+msgid "Clarity Microcontrast matrix"
+msgstr "Ostrost Mikrokontrast matice"
+
 #: HISTORY_MSG_15
 msgid "Luminance Contrast"
 msgstr "Jas Kontrast"
@@ -989,13 +1020,13 @@ msgstr "Jas Komprese stínů"
 msgid "'L' Curve"
 msgstr "'L' křivka"
 
-#: HISTORY_MSG_20,PARTIALPASTE_SHARPENING,TP_SHARPENING_LABEL
-msgid "Sharpening"
-msgstr "Doostření"
-
 #: HISTORY_MSG_2
 msgid "Profile Loaded"
 msgstr "Profil načten"
+
+#: HISTORY_MSG_20,TP_SHARPENING_LABEL
+msgid "Sharpening"
+msgstr "Doostření"
 
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
@@ -1985,6 +2016,10 @@ msgstr "FF Typ rozostření"
 msgid "Flat field (FF) File"
 msgstr "Flat-Field (FF) Soubor"
 
+#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_SHARPEN
+msgid "Gradient Sharpening (border)"
+msgstr "Gradient ostření (okraj)"
+
 #: PARTIALPASTE_HLRECONSTRUCTION
 msgid "Highlight reconstruction"
 msgstr "Rekonstrukce světel "
@@ -2033,6 +2068,10 @@ msgstr "Nastavení jasu"
 msgid "Metadata/ICM settings"
 msgstr "Nastavení metadat a ICM"
 
+#: PARTIALPASTE_MICROCONTRAST
+msgid "Microcontrast"
+msgstr "Mikrokontrast"
+
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
 msgid "Perspective"
 msgstr "Perspektiva"
@@ -2073,6 +2112,10 @@ msgstr "Počet kroků DCB"
 msgid "Demosaic Method"
 msgstr "Metoda demozajkování"
 
+#: PARTIALPASTE_RAWEXPOS_BLACK
+msgid "Black Level"
+msgstr "Úrovně černé"
+
 #: PARTIALPASTE_RAWEXPOS_LINEAR
 msgid "Raw white point linear corr. factor"
 msgstr "Faktor lineární korekce Raw bílého bodu"
@@ -2096,6 +2139,10 @@ msgstr "Změna velikosti"
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
 msgstr "Stíny/Světla"
+
+#: PARTIALPASTE_SHARPENING
+msgid "Sharpening (USM/RL)"
+msgstr "Doostření (USM/RL)"
 
 #: PARTIALPASTE_VIGNETTING
 msgid "Vignetting correction"
@@ -2935,6 +2982,30 @@ msgstr "Modrá"
 msgid "Red"
 msgstr "Červená"
 
+#: TP_CLARITY_LABEL
+msgid "Clarity and Sharpening"
+msgstr "Ostrost a doostření"
+
+#: TP_CLARITY_MATRIX
+msgid "Matrix 3x3 instead of 5x5"
+msgstr "Matice 3x3 místo 5x5"
+
+#: TP_CLARITY_MICRO
+msgid "Microcontrast (texture)"
+msgstr "Mikrokontrast (textura)"
+
+#: TP_CLARITY_PASSES
+msgid "Gradient passes"
+msgstr "Průchody gradientu"
+
+#: TP_CLARITY_STRENGTH
+msgid "Gradient strength"
+msgstr "Síla gradientu"
+
+#: TP_CLARITY_THREE
+msgid "Luminance only"
+msgstr "Pouze jas"
+
 #: TP_COARSETRAF_DEGREE
 msgid "degree:"
 msgstr "Stupeň:"
@@ -3309,6 +3380,14 @@ msgstr "Objektiv / Geometrie"
 msgid "Luminance Noise Reduction"
 msgstr "Redukce šumu v jasech"
 
+#: TP_MLMICRO_STRENGTH,TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr "Síla"
+
+#: TP_MLMICRO_UNIFORMITY
+msgid "Uniformity"
+msgstr "Jednolitost"
+
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
 msgstr "Předzpracování"
@@ -3500,10 +3579,6 @@ msgstr "Střed Y"
 #: TP_VIGNETTING_CENTER
 msgid "Center"
 msgstr "Střed"
-
-#: TP_VIGNETTING_STRENGTH
-msgid "Strength"
-msgstr "Síla"
 
 #: TP_WBALANCE_AUTO
 msgid "Auto"

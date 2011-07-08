@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-07-03 08:36+0200\n"
+"POT-Creation-Date: 2011-07-08 13:14+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -949,6 +949,38 @@ msgstr ""
 msgid "Black level green together"
 msgstr ""
 
+#: HISTORY_MSG_142
+msgid "Clarity -passes"
+msgstr ""
+
+#: HISTORY_MSG_143
+msgid "Clarity -gradient strength"
+msgstr ""
+
+#: HISTORY_MSG_144
+msgid "Microcontrast - strength"
+msgstr ""
+
+#: HISTORY_MSG_145
+msgid "Microcontrast - uniformity"
+msgstr ""
+
+#: HISTORY_MSG_146
+msgid "Clarity Sharpening - enabled"
+msgstr ""
+
+#: HISTORY_MSG_147
+msgid "Clarity - luminance only"
+msgstr ""
+
+#: HISTORY_MSG_148
+msgid "Clarity Microcontrast - enabled"
+msgstr ""
+
+#: HISTORY_MSG_149
+msgid "Clarity Microcontrast matrix"
+msgstr ""
+
 #: HISTORY_MSG_15
 msgid "Luminance Contrast"
 msgstr ""
@@ -969,12 +1001,12 @@ msgstr ""
 msgid "'L' Curve"
 msgstr ""
 
-#: HISTORY_MSG_20,PARTIALPASTE_SHARPENING,TP_SHARPENING_LABEL
-msgid "Sharpening"
-msgstr ""
-
 #: HISTORY_MSG_2
 msgid "Profile Loaded"
+msgstr ""
+
+#: HISTORY_MSG_20,TP_SHARPENING_LABEL
+msgid "Sharpening"
 msgstr ""
 
 #: HISTORY_MSG_21
@@ -1941,6 +1973,10 @@ msgstr ""
 msgid "Flat field (FF) File"
 msgstr ""
 
+#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_SHARPEN
+msgid "Gradient Sharpening (border)"
+msgstr ""
+
 #: PARTIALPASTE_HLRECONSTRUCTION
 msgid "Highlight reconstruction"
 msgstr ""
@@ -1989,6 +2025,10 @@ msgstr ""
 msgid "Metadata/ICM settings"
 msgstr ""
 
+#: PARTIALPASTE_MICROCONTRAST
+msgid "Microcontrast"
+msgstr ""
+
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
 msgid "Perspective"
 msgstr ""
@@ -2029,6 +2069,10 @@ msgstr ""
 msgid "Demosaic Method"
 msgstr ""
 
+#: PARTIALPASTE_RAWEXPOS_BLACK
+msgid "Black Level"
+msgstr ""
+
 #: PARTIALPASTE_RAWEXPOS_LINEAR
 msgid "Raw white point linear corr. factor"
 msgstr ""
@@ -2051,6 +2095,10 @@ msgstr ""
 
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
+msgstr ""
+
+#: PARTIALPASTE_SHARPENING
+msgid "Sharpening (USM/RL)"
 msgstr ""
 
 #: PARTIALPASTE_VIGNETTING
@@ -2733,6 +2781,30 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
+#: TP_CLARITY_LABEL
+msgid "Clarity and Sharpening"
+msgstr ""
+
+#: TP_CLARITY_MATRIX
+msgid "Matrix 3x3 instead of 5x5"
+msgstr ""
+
+#: TP_CLARITY_MICRO
+msgid "Microcontrast (texture)"
+msgstr ""
+
+#: TP_CLARITY_PASSES
+msgid "Gradient passes"
+msgstr ""
+
+#: TP_CLARITY_STRENGTH
+msgid "Gradient strength"
+msgstr ""
+
+#: TP_CLARITY_THREE
+msgid "Luminance only"
+msgstr ""
+
 #: TP_COARSETRAF_DEGREE
 msgid "degree:"
 msgstr ""
@@ -3103,6 +3175,14 @@ msgstr ""
 msgid "Luminance Noise Reduction"
 msgstr ""
 
+#: TP_MLMICRO_STRENGTH,TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr ""
+
+#: TP_MLMICRO_UNIFORMITY
+msgid "Uniformity"
+msgstr ""
+
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
 msgstr ""
@@ -3293,10 +3373,6 @@ msgstr ""
 
 #: TP_VIGNETTING_CENTER
 msgid "Center"
-msgstr ""
-
-#: TP_VIGNETTING_STRENGTH
-msgid "Strength"
 msgstr ""
 
 #: TP_WBALANCE_AUTO
