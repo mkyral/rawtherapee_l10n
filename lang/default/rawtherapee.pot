@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-07-08 13:14+0200\n"
+"POT-Creation-Date: 2011-09-04 10:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -303,6 +303,10 @@ msgstr ""
 
 #: FILEBROWSER_EMPTYTRASH
 msgid "Empty Trash"
+msgstr ""
+
+#: FILEBROWSER_EXEC_CPB
+msgid "Run custom profile builder"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
@@ -693,6 +697,10 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
+#: HISTOGRAM_BUTTON_BAR
+msgid "RGB"
+msgstr ""
+
 #: HISTOGRAM_BUTTON_B
 msgid "B"
 msgstr ""
@@ -715,6 +723,10 @@ msgstr ""
 
 #: HISTOGRAM_LABEL
 msgid "Histogram"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_BAR
+msgid "Show/Hide RBG indicator bar\nClick right mouse button on image preview to freeze/unfreeze"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_B
@@ -950,39 +962,43 @@ msgid "Black level green together"
 msgstr ""
 
 #: HISTORY_MSG_142
-msgid "Clarity -passes"
+msgid "Edges sharpening - iterations"
 msgstr ""
 
 #: HISTORY_MSG_143
-msgid "Clarity -gradient strength"
+msgid "Edges sharpening - quantity"
 msgstr ""
 
 #: HISTORY_MSG_144
-msgid "Microcontrast - strength"
+msgid "Microcontrast - quantity"
 msgstr ""
 
 #: HISTORY_MSG_145
 msgid "Microcontrast - uniformity"
 msgstr ""
 
-#: HISTORY_MSG_146
-msgid "Clarity Sharpening - enabled"
+#: HISTORY_MSG_146,TP_CLARITY_SHARPEN
+msgid "Edges Sharpening"
 msgstr ""
 
 #: HISTORY_MSG_147
-msgid "Clarity - luminance only"
+msgid "Edges sharpening - luminance only"
 msgstr ""
 
-#: HISTORY_MSG_148
-msgid "Clarity Microcontrast - enabled"
+#: HISTORY_MSG_148,PARTIALPASTE_MICROCONTRAST,TP_CLARITY_MICRO
+msgid "Microcontrast"
 msgstr ""
 
 #: HISTORY_MSG_149
-msgid "Clarity Microcontrast matrix"
+msgid "Microcontrast - 3x3 matrix"
 msgstr ""
 
 #: HISTORY_MSG_15
 msgid "Luminance Contrast"
+msgstr ""
+
+#: HISTORY_MSG_150
+msgid "Post demosaic artifact/noise reduction"
 msgstr ""
 
 #: HISTORY_MSG_16
@@ -1373,7 +1389,7 @@ msgstr ""
 msgid "Profile applies Gamma"
 msgstr ""
 
-#: ICMPANEL_INPUTCAMERA,TP_ICM_INPUTCAMERA
+#: ICMPANEL_INPUTCAMERA
 msgid "Camera default"
 msgstr ""
 
@@ -1659,6 +1675,10 @@ msgstr ""
 
 #: MAIN_MSG_CANNOTSTARTEDITOR
 msgid "Can not start editor."
+msgstr ""
+
+#: MAIN_MSG_EMPTYFILENAME
+msgid "Filename unspecified!"
 msgstr ""
 
 #: MAIN_MSG_ERRORDURINGIMAGESAVING
@@ -1973,8 +1993,8 @@ msgstr ""
 msgid "Flat field (FF) File"
 msgstr ""
 
-#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_SHARPEN
-msgid "Gradient Sharpening (border)"
+#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_LABEL
+msgid "Local Sharpening"
 msgstr ""
 
 #: PARTIALPASTE_HLRECONSTRUCTION
@@ -2025,10 +2045,6 @@ msgstr ""
 msgid "Metadata/ICM settings"
 msgstr ""
 
-#: PARTIALPASTE_MICROCONTRAST
-msgid "Microcontrast"
-msgstr ""
-
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
 msgid "Perspective"
 msgstr ""
@@ -2043,6 +2059,10 @@ msgstr ""
 
 #: PARTIALPASTE_PREPROCESS_LINEDENOISE,TP_PREPROCESS_LINEDENOISE
 msgid "Line noise filter"
+msgstr ""
+
+#: PARTIALPASTE_RAW_ALLENHANCE,TP_RAW_ALLENHANCE
+msgid "Apply post demosaic artifact/noise reduction"
 msgstr ""
 
 #: PARTIALPASTE_RAWCACORR_AUTO
@@ -2190,7 +2210,7 @@ msgid "Colorimetric Intent"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-msgid "Executable (or script) file called when a new initial profile should be generated an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]"
+msgid "Executable (or script) file called when a new initial profile should be generated for an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDPATH
@@ -2318,7 +2338,7 @@ msgid "Hint"
 msgstr ""
 
 #: PREFERENCES_HISTOGRAMPOSITIONLEFT
-msgid "Histogram in left pane"
+msgid "Histogram in left panel"
 msgstr ""
 
 #: PREFERENCES_HLTHRESHOLD
@@ -2347,6 +2367,10 @@ msgstr ""
 
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
 msgid "Show RAW internal thumbnail if unedited"
+msgstr ""
+
+#: PREFERENCES_LANGAUTODETECT
+msgid "Use OS language setting"
 msgstr ""
 
 #: PREFERENCES_LIVETHUMBNAILS
@@ -2415,6 +2439,14 @@ msgstr ""
 
 #: PREFERENCES_OVERWRITEOUTPUTFILE
 msgid "Overwrite existing output files"
+msgstr ""
+
+#: PREFERENCES_PANFACTORFRAME
+msgid "Panning acceleration"
+msgstr ""
+
+#: PREFERENCES_PANFACTORLABEL
+msgid "Factor"
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTADDHINT
@@ -2535,6 +2567,10 @@ msgstr ""
 
 #: PREFERENCES_SND_TRESHOLDSECS
 msgid "after secs"
+msgstr ""
+
+#: PREFERENCES_SQUAREDETAILWINDOW
+msgid "Square detail window (faster)"
 msgstr ""
 
 #: PREFERENCES_STARTUPIMDIR
@@ -2781,24 +2817,16 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
-#: TP_CLARITY_LABEL
-msgid "Clarity and Sharpening"
-msgstr ""
-
 #: TP_CLARITY_MATRIX
-msgid "Matrix 3x3 instead of 5x5"
+msgid "3x3 matrix instead of 5x5"
 msgstr ""
 
-#: TP_CLARITY_MICRO
-msgid "Microcontrast (texture)"
+#: TP_CLARITY_PASSES,TP_SHARPENING_RLD_ITERATIONS
+msgid "Iterations"
 msgstr ""
 
-#: TP_CLARITY_PASSES
-msgid "Gradient passes"
-msgstr ""
-
-#: TP_CLARITY_STRENGTH
-msgid "Gradient strength"
+#: TP_CLARITY_STRENGTH,TP_MLMICRO_STRENGTH
+msgid "Quantity"
 msgstr ""
 
 #: TP_CLARITY_THREE
@@ -3143,6 +3171,18 @@ msgstr ""
 msgid "Chromatic Aberration"
 msgstr ""
 
+#: TP_ICM_BLENDCMSMATRIX
+msgid "Blend highlights with matrix"
+msgstr ""
+
+#: TP_ICM_INPUTCAMERAICC
+msgid "Camera standard or ICC"
+msgstr ""
+
+#: TP_ICM_INPUTCAMERA
+msgid "Camera standard"
+msgstr ""
+
 #: TP_ICM_INPUTNONE
 msgid "No profile"
 msgstr ""
@@ -3173,10 +3213,6 @@ msgstr ""
 
 #: TP_LUMADENOISE_LABEL
 msgid "Luminance Noise Reduction"
-msgstr ""
-
-#: TP_MLMICRO_STRENGTH,TP_VIGNETTING_STRENGTH
-msgid "Strength"
 msgstr ""
 
 #: TP_MLMICRO_UNIFORMITY
@@ -3351,10 +3387,6 @@ msgstr ""
 msgid "Damping"
 msgstr ""
 
-#: TP_SHARPENING_RLD_ITERATIONS
-msgid "Iterations"
-msgstr ""
-
 #: TP_SHARPENING_RLD
 msgid "RL Deconvolution"
 msgstr ""
@@ -3373,6 +3405,10 @@ msgstr ""
 
 #: TP_VIGNETTING_CENTER
 msgid "Center"
+msgstr ""
+
+#: TP_VIGNETTING_STRENGTH
+msgid "Strength"
 msgstr ""
 
 #: TP_WBALANCE_AUTO

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-07-08 13:14+0200\n"
-"PO-Revision-Date: 2011-07-08 13:36+0200\n"
+"POT-Creation-Date: 2011-09-04 10:57+0200\n"
+"PO-Revision-Date: 2011-09-04 12:13+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -317,6 +317,10 @@ msgstr "Trvalé smazání souborů z koše"
 #: FILEBROWSER_EMPTYTRASH
 msgid "Empty Trash"
 msgstr "Vysypat koš"
+
+#: FILEBROWSER_EXEC_CPB
+msgid "Run custom profile builder"
+msgstr "Spustit vlastní generátor profilu"
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
 msgid "Switch on/off exif filter of the file browser"
@@ -712,6 +716,10 @@ msgstr "(Beze změny)"
 msgid "Yes"
 msgstr "Ano"
 
+#: HISTOGRAM_BUTTON_BAR
+msgid "RGB"
+msgstr "RGB"
+
 #: HISTOGRAM_BUTTON_B
 msgid "B"
 msgstr "B"
@@ -735,6 +743,14 @@ msgstr "R"
 #: HISTOGRAM_LABEL
 msgid "Histogram"
 msgstr "Histogram"
+
+#: HISTOGRAM_TOOLTIP_BAR
+msgid ""
+"Show/Hide RBG indicator bar\n"
+"Click right mouse button on image preview to freeze/unfreeze"
+msgstr ""
+"Skrýt/zobrazit řádek RGB indikátoru\n"
+"Klikněte pravým tlačítkem myši na náhled pro zmrazení/uvolnění"
 
 #: HISTOGRAM_TOOLTIP_B
 msgid "Show/Hide BLUE histogram"
@@ -969,40 +985,44 @@ msgid "Black level green together"
 msgstr "Úroveň černé: Zelené zároveň"
 
 #: HISTORY_MSG_142
-msgid "Clarity -passes"
-msgstr "Ostrost - průchody"
+msgid "Edges sharpening - iterations"
+msgstr "Doostření hran - počet opakování"
 
 #: HISTORY_MSG_143
-msgid "Clarity -gradient strength"
-msgstr "Ostrost - síla gradientu"
+msgid "Edges sharpening - quantity"
+msgstr "Doostření hran - kvalita"
 
 #: HISTORY_MSG_144
-msgid "Microcontrast - strength"
-msgstr "Mikrokontrast - síla"
+msgid "Microcontrast - quantity"
+msgstr "Mikrokontrast - kvantita"
 
 #: HISTORY_MSG_145
 msgid "Microcontrast - uniformity"
 msgstr "Mikrokontrast - jednolitost"
 
-#: HISTORY_MSG_146
-msgid "Clarity Sharpening - enabled"
-msgstr "Ostrost/doostření - povoleno"
+#: HISTORY_MSG_146,TP_CLARITY_SHARPEN
+msgid "Edges Sharpening"
+msgstr "Doostření hran"
 
 #: HISTORY_MSG_147
-msgid "Clarity - luminance only"
-msgstr "Ostrost - pouze jas"
+msgid "Edges sharpening - luminance only"
+msgstr "Doostření hran - pouze jas"
 
-#: HISTORY_MSG_148
-msgid "Clarity Microcontrast - enabled"
-msgstr "Ostrost Mikrokontrast - povoleno"
+#: HISTORY_MSG_148,PARTIALPASTE_MICROCONTRAST,TP_CLARITY_MICRO
+msgid "Microcontrast"
+msgstr "Mikrokontrast"
 
 #: HISTORY_MSG_149
-msgid "Clarity Microcontrast matrix"
-msgstr "Ostrost Mikrokontrast matice"
+msgid "Microcontrast - 3x3 matrix"
+msgstr "Mikrokontrast - matice 3x3"
 
 #: HISTORY_MSG_15
 msgid "Luminance Contrast"
 msgstr "Jas Kontrast"
+
+#: HISTORY_MSG_150
+msgid "Post demosaic artifact/noise reduction"
+msgstr "Redukce artefaktů/šumu po demozajkování"
 
 #: HISTORY_MSG_16
 msgid "Luminance Black"
@@ -1392,7 +1412,7 @@ msgstr "Soubory ICC profilů"
 msgid "Profile applies Gamma"
 msgstr "Profil provádí Gama korekci"
 
-#: ICMPANEL_INPUTCAMERA,TP_ICM_INPUTCAMERA
+#: ICMPANEL_INPUTCAMERA
 msgid "Camera default"
 msgstr "Výchozí profil fotoaparátu"
 
@@ -1701,6 +1721,10 @@ msgstr "Nastavte prosím správnou cestu v okně \"Volby\". "
 #: MAIN_MSG_CANNOTSTARTEDITOR
 msgid "Can not start editor."
 msgstr "Editor nelze spustit."
+
+#: MAIN_MSG_EMPTYFILENAME
+msgid "Filename unspecified!"
+msgstr "Název souboru nebyl zadán!"
 
 #: MAIN_MSG_ERRORDURINGIMAGESAVING
 msgid "Error during image saving"
@@ -2016,9 +2040,9 @@ msgstr "FF Typ rozostření"
 msgid "Flat field (FF) File"
 msgstr "Flat-Field (FF) Soubor"
 
-#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_SHARPEN
-msgid "Gradient Sharpening (border)"
-msgstr "Gradient ostření (okraj)"
+#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_LABEL
+msgid "Local Sharpening"
+msgstr "Lokální doostření"
 
 #: PARTIALPASTE_HLRECONSTRUCTION
 msgid "Highlight reconstruction"
@@ -2068,10 +2092,6 @@ msgstr "Nastavení jasu"
 msgid "Metadata/ICM settings"
 msgstr "Nastavení metadat a ICM"
 
-#: PARTIALPASTE_MICROCONTRAST
-msgid "Microcontrast"
-msgstr "Mikrokontrast"
-
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
 msgid "Perspective"
 msgstr "Perspektiva"
@@ -2087,6 +2107,10 @@ msgstr "Aplikovat filtr na vypálené/mrtvé body"
 #: PARTIALPASTE_PREPROCESS_LINEDENOISE,TP_PREPROCESS_LINEDENOISE
 msgid "Line noise filter"
 msgstr "Filtrovat linkové rušení"
+
+#: PARTIALPASTE_RAW_ALLENHANCE,TP_RAW_ALLENHANCE
+msgid "Apply post demosaic artifact/noise reduction"
+msgstr "Aplikovat redukci artefaktů/šumu po demozajkování"
 
 #: PARTIALPASTE_RAWCACORR_AUTO
 msgid "CA auto correction"
@@ -2235,7 +2259,7 @@ msgstr "Kolorimetrická metoda"
 #: PREFERENCES_CUSTPROFBUILDHINT
 msgid ""
 "Executable (or script) file called when a new initial profile should be "
-"generated an image.\n"
+"generated for an image.\n"
 "Receives command line params to allow a rules based .pp3 generation:\n"
 "[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal "
 "length in mm] [ISO] [Lens] [Camera]"
@@ -2388,7 +2412,7 @@ msgid "Hint"
 msgstr "Nápověda"
 
 #: PREFERENCES_HISTOGRAMPOSITIONLEFT
-msgid "Histogram in left pane"
+msgid "Histogram in left panel"
 msgstr "Histogram v levém panelu"
 
 #: PREFERENCES_HLTHRESHOLD
@@ -2418,6 +2442,10 @@ msgstr "Relativní kolorimetrie"
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
 msgid "Show RAW internal thumbnail if unedited"
 msgstr "Ukázat interní náhledy RAW nezpracovaných snímků"
+
+#: PREFERENCES_LANGAUTODETECT
+msgid "Use OS language setting"
+msgstr "Použít jazykové nastavení OS"
 
 #: PREFERENCES_LIVETHUMBNAILS
 msgid "Live Thumbnails (slower)"
@@ -2613,6 +2641,14 @@ msgstr "Přepsat jména souborů v náhledech"
 msgid "Overwrite existing output files"
 msgstr "Přepsat existující soubory"
 
+#: PREFERENCES_PANFACTORFRAME
+msgid "Panning acceleration"
+msgstr "Akcelerace panningu"
+
+#: PREFERENCES_PANFACTORLABEL
+msgid "Factor"
+msgstr "Násobitel"
+
 #: PREFERENCES_PARSEDEXTADDHINT
 msgid "Type an extension and press this button to append list"
 msgstr "Vložte příponu a stiskněte toto tlačítko pro přidání do seznamu"
@@ -2736,6 +2772,10 @@ msgstr "Zpracování v editoru dokončeno"
 #: PREFERENCES_SND_TRESHOLDSECS
 msgid "after secs"
 msgstr "po sekundách"
+
+#: PREFERENCES_SQUAREDETAILWINDOW
+msgid "Square detail window (faster)"
+msgstr "Čtvercové okno detailu (rychlejší)"
 
 #: PREFERENCES_STARTUPIMDIR
 msgid "Image directory at startup"
@@ -2982,25 +3022,17 @@ msgstr "Modrá"
 msgid "Red"
 msgstr "Červená"
 
-#: TP_CLARITY_LABEL
-msgid "Clarity and Sharpening"
-msgstr "Ostrost a doostření"
-
 #: TP_CLARITY_MATRIX
-msgid "Matrix 3x3 instead of 5x5"
-msgstr "Matice 3x3 místo 5x5"
+msgid "3x3 matrix instead of 5x5"
+msgstr "Matice 3x3 namísto 5x5"
 
-#: TP_CLARITY_MICRO
-msgid "Microcontrast (texture)"
-msgstr "Mikrokontrast (textura)"
+#: TP_CLARITY_PASSES,TP_SHARPENING_RLD_ITERATIONS
+msgid "Iterations"
+msgstr "Počet opakování"
 
-#: TP_CLARITY_PASSES
-msgid "Gradient passes"
-msgstr "Průchody gradientu"
-
-#: TP_CLARITY_STRENGTH
-msgid "Gradient strength"
-msgstr "Síla gradientu"
+#: TP_CLARITY_STRENGTH,TP_MLMICRO_STRENGTH
+msgid "Quantity"
+msgstr "Kvantita"
 
 #: TP_CLARITY_THREE
 msgid "Luminance only"
@@ -3348,6 +3380,18 @@ msgstr "Purpurová"
 msgid "Chromatic Aberration"
 msgstr "Chromatická Aberace"
 
+#: TP_ICM_BLENDCMSMATRIX
+msgid "Blend highlights with matrix"
+msgstr "Smísit světla a matici"
+
+#: TP_ICM_INPUTCAMERAICC
+msgid "Camera standard or ICC"
+msgstr "Standard fotoaparátu nebo ICC"
+
+#: TP_ICM_INPUTCAMERA
+msgid "Camera standard"
+msgstr "Standard fotoaparátu"
+
 #: TP_ICM_INPUTNONE
 msgid "No profile"
 msgstr "Bez profilu"
@@ -3379,10 +3423,6 @@ msgstr "Objektiv / Geometrie"
 #: TP_LUMADENOISE_LABEL
 msgid "Luminance Noise Reduction"
 msgstr "Redukce šumu v jasech"
-
-#: TP_MLMICRO_STRENGTH,TP_VIGNETTING_STRENGTH
-msgid "Strength"
-msgstr "Síla"
 
 #: TP_MLMICRO_UNIFORMITY
 msgid "Uniformity"
@@ -3556,10 +3596,6 @@ msgstr "Doostřit pouze okraje"
 msgid "Damping"
 msgstr "Útlum"
 
-#: TP_SHARPENING_RLD_ITERATIONS
-msgid "Iterations"
-msgstr "Počet opakování"
-
 #: TP_SHARPENING_RLD
 msgid "RL Deconvolution"
 msgstr "RL Dekonvoluce"
@@ -3579,6 +3615,10 @@ msgstr "Střed Y"
 #: TP_VIGNETTING_CENTER
 msgid "Center"
 msgstr "Střed"
+
+#: TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr "Síla"
 
 #: TP_WBALANCE_AUTO
 msgid "Auto"
@@ -3647,6 +3687,36 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Clarity -passes"
+#~ msgstr "Ostrost - průchody"
+
+#~ msgid "Clarity -gradient strength"
+#~ msgstr "Ostrost - síla gradientu"
+
+#~ msgid "Microcontrast - strength"
+#~ msgstr "Mikrokontrast - síla"
+
+#~ msgid "Clarity Sharpening - enabled"
+#~ msgstr "Ostrost/doostření - povoleno"
+
+#~ msgid "Clarity Microcontrast - enabled"
+#~ msgstr "Ostrost Mikrokontrast - povoleno"
+
+#~ msgid "Gradient Sharpening (border)"
+#~ msgstr "Gradient ostření (okraj)"
+
+#~ msgid "Clarity and Sharpening"
+#~ msgstr "Ostrost a doostření"
+
+#~ msgid "Microcontrast (texture)"
+#~ msgstr "Mikrokontrast (textura)"
+
+#~ msgid "Gradient passes"
+#~ msgstr "Průchody gradientu"
+
+#~ msgid "Gradient strength"
+#~ msgstr "Síla gradientu"
 
 #~ msgid "Put to processing queue"
 #~ msgstr "Vložit do fronty"

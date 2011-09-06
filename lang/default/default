@@ -75,6 +75,7 @@ FILEBROWSER_DELETEDLGMSG;Are you sure you want to delete the selected %1 files?
 FILEBROWSER_DELETEDLGMSGINCLPROC;Are you sure you want to delete the selected %1 files INCLUDING a Queue processed version?
 FILEBROWSER_EMPTYTRASH;Empty Trash
 FILEBROWSER_EMPTYTRASHHINT;Permanently delete the files of the trash
+FILEBROWSER_EXEC_CPB;Run custom profile builder
 FILEBROWSER_EXIFFILTERAPPLY;Apply
 FILEBROWSER_EXIFFILTERAPPLYHINT;Switch on/off exif filter of the file browser
 FILEBROWSER_EXIFFILTERLABEL;Exif Filter
@@ -176,12 +177,14 @@ HISTOGRAM_BUTTON_G;G
 HISTOGRAM_BUTTON_L;L
 HISTOGRAM_BUTTON_R;R
 HISTOGRAM_BUTTON_RAW;Raw
+HISTOGRAM_BUTTON_BAR;RGB
 HISTOGRAM_LABEL;Histogram
 HISTOGRAM_TOOLTIP_B;Show/Hide BLUE histogram
 HISTOGRAM_TOOLTIP_G;Show/Hide GREEN histogram
 HISTOGRAM_TOOLTIP_L;Show/Hide CIELAB Luminance histogram
 HISTOGRAM_TOOLTIP_R;Show/Hide RED histogram
 HISTOGRAM_TOOLTIP_RAW;Show/Hide RAW histogram
+HISTOGRAM_TOOLTIP_BAR;Show/Hide RBG indicator bar\nClick right mouse button on image preview to freeze/unfreeze
 HISTORY_CHANGED;Changed
 HISTORY_CUSTOMCURVE;Custom Curve
 HISTORY_DELSNAPSHOT;Del
@@ -328,14 +331,15 @@ HISTORY_MSG_97;'b' curve
 HISTORY_MSG_98;Demosaicing method
 HISTORY_MSG_99;Hot/dead pixel filtering
 HISTORY_MSG_9;Highlight Compression
-HISTORY_MSG_142;Clarity -passes
-HISTORY_MSG_143;Clarity -gradient strength
-HISTORY_MSG_147;Clarity - luminance only
-HISTORY_MSG_144;Microcontrast - strength
+HISTORY_MSG_142;Edges sharpening - iterations
+HISTORY_MSG_143;Edges sharpening - quantity
+HISTORY_MSG_147;Edges sharpening - luminance only
+HISTORY_MSG_144;Microcontrast - quantity
 HISTORY_MSG_145;Microcontrast - uniformity
-HISTORY_MSG_146;Clarity Sharpening - enabled
-HISTORY_MSG_148;Clarity Microcontrast - enabled
-HISTORY_MSG_149;Clarity Microcontrast matrix
+HISTORY_MSG_146;Edges Sharpening
+HISTORY_MSG_148;Microcontrast
+HISTORY_MSG_149;Microcontrast - 3x3 matrix
+HISTORY_MSG_150;Post demosaic artifact/noise reduction
 HISTORY_NEWSNAPSHOT;Add
 HISTORY_NEWSNAPSHOTAS;As...
 HISTORY_NEWSSDIALOGLABEL;Label of the snapshot:
@@ -423,6 +427,7 @@ MAIN_MSG_CANNOTLOAD;Cannot load image
 MAIN_MSG_CANNOTSAVE;File saving error
 MAIN_MSG_CANNOTSTARTEDITOR;Can not start editor.
 MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY;Please set the correct path in the "Preferences" dialog.
+MAIN_MSG_EMPTYFILENAME;Filename unspecified!
 MAIN_MSG_ERRORDURINGIMAGESAVING;Error during image saving
 MAIN_MSG_EXITJOBSINQUEUEINFO;Unprocessed images in the queue will be lost on exit.
 MAIN_MSG_EXITJOBSINQUEUEQUEST;Are you sure you want to exit? There are unprocessed images waiting in the queue.
@@ -508,7 +513,7 @@ PARTIALPASTE_FLATFIELDAUTOSELECT;FF Auto Select
 PARTIALPASTE_FLATFIELDBLURRADIUS;FF Blur Radius
 PARTIALPASTE_FLATFIELDBLURTYPE;FF Blur Type
 PARTIALPASTE_FLATFIELDFILE;Flat field (FF) File
-PARTIALPASTE_GRADIENTSHARPEN;Gradient Sharpening (border)
+PARTIALPASTE_GRADIENTSHARPEN;Local Sharpening
 PARTIALPASTE_HLRECONSTRUCTION;Highlight reconstruction
 PARTIALPASTE_HLRECOVERY;Highlight recovery
 PARTIALPASTE_HLRECOVERYAMOUNT;Highlight recovery amount
@@ -535,6 +540,7 @@ PARTIALPASTE_RAWEXPOS_BLACK;Black Level
 PARTIALPASTE_RAWEXPOS_PRESER;Raw white point HL preserving corr. (EV)
 PARTIALPASTE_RAWGROUP;Raw settings
 PARTIALPASTE_RAW_DCBENHANCE;Apply DCB enhancement step
+PARTIALPASTE_RAW_ALLENHANCE;Apply post demosaic artifact/noise reduction
 PARTIALPASTE_RAW_DCBITERATIONS;Number of DCB iterations
 PARTIALPASTE_RAW_DMETHOD;Demosaic Method
 PARTIALPASTE_RAW_FALSECOLOR;Demosaic False color suppression steps
@@ -566,7 +572,7 @@ PREFERENCES_CACHETHUMBHEIGHT;Maximal Thumbnail Height
 PREFERENCES_CLIPPINGIND;Clipping indication
 PREFERENCES_CMETRICINTENT;Colorimetric Intent
 PREFERENCES_CUSTPROFBUILD;Custom image profile builder
-PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial profile should be generated an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]
+PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial profile should be generated for an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]
 PREFERENCES_CUSTPROFBUILDPATH;Executable path
 PREFERENCES_CUTOVERLAYBRUSH;Crop mask color/transparency
 PREFERENCES_DARKFRAME;Dark frame
@@ -601,7 +607,7 @@ PREFERENCES_FORRAW;For RAW files
 PREFERENCES_GIMPPATH;GIMP installation directory
 PREFERENCES_GTKTHEME;GTK default
 PREFERENCES_HINT;Hint
-PREFERENCES_HISTOGRAMPOSITIONLEFT;Histogram in left pane
+PREFERENCES_HISTOGRAMPOSITIONLEFT;Histogram in left panel
 PREFERENCES_HLTHRESHOLD;Threshold for clipped highlights
 PREFERENCES_ICCDIR;Directory of ICC profiles
 PREFERENCES_IMPROCPARAMS;Default image processing parameters
@@ -610,6 +616,7 @@ PREFERENCES_INTENT_PERCEPTUAL;Perceptual
 PREFERENCES_INTENT_RELATIVE;Relative Colorimetric
 PREFERENCES_INTENT_SATURATION;Saturation
 PREFERENCES_INTERNALTHUMBIFUNTOUCHED;Show RAW internal thumbnail if unedited
+PREFERENCES_LANGAUTODETECT;Use OS language setting
 PREFERENCES_LIVETHUMBNAILS;Live Thumbnails (slower)
 PREFERENCES_MENUOPTIONS;Menu Options
 PREFERENCES_MENUGROUPRANK;Group Ranking
@@ -628,6 +635,8 @@ PREFERENCES_OUTDIRTEMPLATE;Use Template
 PREFERENCES_OUTDIRTEMPLATEHINT;You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname, or some attributes of the photo.\n\n%r will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in trash bin, %r will be replaced by 'x'.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named "<i>converted</i>" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named "<i>/home/tom/photos/converted/2010-10-31</i>", write:\n<b>%p2/converted/%d1/%f</b>
 PREFERENCES_OVERLAY_FILENAMES;Overlay filenames on thumbnails
 PREFERENCES_OVERWRITEOUTPUTFILE;Overwrite existing output files
+PREFERENCES_PANFACTORFRAME;Panning acceleration
+PREFERENCES_PANFACTORLABEL;Factor
 PREFERENCES_PARSEDEXT;Parsed Extensions
 PREFERENCES_PARSEDEXTADD;Add Extension
 PREFERENCES_PARSEDEXTADDHINT;Type an extension and press this button to append list
@@ -658,6 +667,7 @@ PREFERENCES_SND_BATCHQUEUEDONE;Queue processing done
 PREFERENCES_SND_HELP;Either enter filepath or nothing (for no sound). On Windows use "SystemDefault", "SystemAsterisk" etc. for system sounds.
 PREFERENCES_SND_LNGEDITPROCDONE;Editor processing done
 PREFERENCES_SND_TRESHOLDSECS;after secs
+PREFERENCES_SQUAREDETAILWINDOW;Square detail window (faster)
 PREFERENCES_STARTUPIMDIR;Image directory at startup
 PREFERENCES_TAB_BROWSER;File Browser
 PREFERENCES_TAB_COLORMGR;Color Management
@@ -730,14 +740,14 @@ TP_CHMIXER_GREEN;Green
 TP_CHMIXER_LABEL;Channel Mixer
 TP_CHMIXER_RED;Red
 TP_CHROMATABERR_LABEL;Chromatic Aberration
-TP_CLARITY_LABEL;Clarity and Sharpening
-TP_CLARITY_SHARPEN;Gradient Sharpening (border)
-TP_CLARITY_STRENGTH;Gradient strength
-TP_CLARITY_PASSES;Gradient passes
-TP_CLARITY_MICRO;Microcontrast (texture)
+TP_CLARITY_LABEL;Local Sharpening
+TP_CLARITY_SHARPEN;Edges Sharpening
+TP_CLARITY_STRENGTH;Quantity
+TP_CLARITY_PASSES;Iterations
+TP_CLARITY_MICRO;Microcontrast
 TP_CLARITY_THREE;Luminance only
-TP_CLARITY_MATRIX;Matrix 3x3 instead of 5x5
-TP_MLMICRO_STRENGTH;Strength
+TP_CLARITY_MATRIX;3x3 matrix instead of 5x5
+TP_MLMICRO_STRENGTH;Quantity
 TP_MLMICRO_UNIFORMITY;Uniformity
 TP_COARSETRAF_DEGREE;degree:
 TP_COARSETRAF_TOOLTIP_HFLIP;Flip horizontally
@@ -850,10 +860,12 @@ TP_HSVEQUALIZER_LABEL;HSV Equalizer
 TP_HSVEQUALIZER_NEUTRAL;Neutral
 TP_HSVEQUALIZER_SAT;S
 TP_HSVEQUALIZER_VAL;V
+TP_ICM_BLENDCMSMATRIX;Blend highlights with matrix
 TP_ICM_FILEDLGFILTERANY;Any files
 TP_ICM_FILEDLGFILTERICM;ICC Profile Files
 TP_ICM_GAMMABEFOREINPUT;Profile applies Gamma
-TP_ICM_INPUTCAMERA;Camera default
+TP_ICM_INPUTCAMERA;Camera standard
+TP_ICM_INPUTCAMERAICC;Camera standard or ICC
 TP_ICM_INPUTCUSTOM;Custom
 TP_ICM_INPUTDLGLABEL;Select Input ICC Profile...
 TP_ICM_INPUTEMBEDDED;Use Embedded, if possible
@@ -906,6 +918,7 @@ TP_RAW_DCBITERATIONS;Number of DCB iterations
 TP_RAW_DMETHOD;Method
 TP_RAW_FALSECOLOR;False color suppression steps
 TP_RAW_LABEL;Demosaicing
+TP_RAW_ALLENHANCE;Apply post demosaic artifact/noise reduction
 TP_RESIZE_APPLIESTO;Applies to:
 TP_RESIZE_BICUBIC;Bicubic
 TP_RESIZE_BICUBICSF;Bicubic (Softer)

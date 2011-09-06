@@ -13,6 +13,8 @@
 #12 16.06.2011: updated by mkyral
 #13 03.07.2011: updated by mkyral
 #14 08.07.2011: updated by mkyral
+#15 04.09.2011: updated by mkyral
+#16 06.09.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -85,6 +87,7 @@ FILEBROWSER_DELETEDLGMSGINCLPROC;Jste si jisti, že chcete vymazat %1 vybraných
 FILEBROWSER_DELETEDLGMSG;Jste si jisti, že chcete vymazat %1 vybraných souborů?
 FILEBROWSER_EMPTYTRASHHINT;Trvalé smazání souborů z koše
 FILEBROWSER_EMPTYTRASH;Vysypat koš
+FILEBROWSER_EXEC_CPB;Spustit vlastní generátor profilu
 FILEBROWSER_EXIFFILTERAPPLYHINT;Zapne/Vypne filtrování dle exif v prohlížeči souborů
 FILEBROWSER_EXIFFILTERAPPLY;Použít
 FILEBROWSER_EXIFFILTERLABEL;Filtrovat dle Exif
@@ -184,12 +187,14 @@ GENERAL_PORTRAIT;Na výšku
 GENERAL_SAVE;Uložit
 GENERAL_UNCHANGED;(Beze změny)
 GENERAL_YES;Ano
+HISTOGRAM_BUTTON_BAR;RGB
 HISTOGRAM_BUTTON_B;B
 HISTOGRAM_BUTTON_G;G
 HISTOGRAM_BUTTON_L;L
 HISTOGRAM_BUTTON_RAW;Raw
 HISTOGRAM_BUTTON_R;R
 HISTOGRAM_LABEL;Histogram
+HISTOGRAM_TOOLTIP_BAR;Skrýt/zobrazit řádek RGB indikátoru\nKlikněte pravým tlačítkem myši na náhled pro zmrazení/uvolnění
 HISTOGRAM_TOOLTIP_B;Skrýt /zobrazit histogram pro MODROU barvu
 HISTOGRAM_TOOLTIP_G;Skrýt /zobrazit histogram pro ZELENOU barvu
 HISTOGRAM_TOOLTIP_L;Skrýt /zobrazit CIELAB histogram jasu
@@ -248,15 +253,16 @@ HISTORY_MSG_139;Úroveň černé: Modrá
 HISTORY_MSG_14;Zářivost jasu
 HISTORY_MSG_140;Úroveň černé: Zelená 2
 HISTORY_MSG_141;Úroveň černé: Zelené zároveň
-HISTORY_MSG_142;Ostrost - průchody
-HISTORY_MSG_143;Ostrost - síla gradientu
-HISTORY_MSG_144;Mikrokontrast - síla
+HISTORY_MSG_142;Doostření hran - počet opakování
+HISTORY_MSG_143;Doostření hran - kvalita
+HISTORY_MSG_144;Mikrokontrast - kvantita
 HISTORY_MSG_145;Mikrokontrast - jednolitost
-HISTORY_MSG_146;Ostrost/doostření - povoleno
-HISTORY_MSG_147;Ostrost - pouze jas
-HISTORY_MSG_148;Ostrost Mikrokontrast - povoleno
-HISTORY_MSG_149;Ostrost Mikrokontrast matice
+HISTORY_MSG_146;Doostření hran
+HISTORY_MSG_147;Doostření hran - pouze jas
+HISTORY_MSG_148;Mikrokontrast
+HISTORY_MSG_149;Mikrokontrast - matice 3x3
 HISTORY_MSG_15;Jas Kontrast
+HISTORY_MSG_150;Redukce artefaktů/šumu po demozajkování
 HISTORY_MSG_16;Jas Černá
 HISTORY_MSG_17;Jas Komprese světel
 HISTORY_MSG_18;Jas Komprese stínů
@@ -436,6 +442,7 @@ MAIN_MSG_CANNOTLOAD;Nepodařilo se načíst obrázek
 MAIN_MSG_CANNOTSAVE;Chyba při ukládání souboru.
 MAIN_MSG_CANNOTSTARTEDITOR;Editor nelze spustit.
 MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY;Nastavte prosím správnou cestu v okně "Volby". 
+MAIN_MSG_EMPTYFILENAME;Název souboru nebyl zadán!
 MAIN_MSG_ERRORDURINGIMAGESAVING;Chyba při ukládání obrázku
 MAIN_MSG_EXITJOBSINQUEUEINFO;Nezpracované obrázky ve frontě budou při ukončení ztraceny.
 MAIN_MSG_EXITJOBSINQUEUEQUEST;Opravdu chcete skončit? Ve frontě čekají nezpracované obrázky.
@@ -520,7 +527,7 @@ PARTIALPASTE_FLATFIELDAUTOSELECT;FF Automatický výběr
 PARTIALPASTE_FLATFIELDBLURRADIUS;FF Poloměr rozostření
 PARTIALPASTE_FLATFIELDBLURTYPE;FF Typ rozostření
 PARTIALPASTE_FLATFIELDFILE;Flat-Field (FF) Soubor
-PARTIALPASTE_GRADIENTSHARPEN;Gradient ostření (okraj)
+PARTIALPASTE_GRADIENTSHARPEN;Lokální doostření
 PARTIALPASTE_HLRECONSTRUCTION;Rekonstrukce světel 
 PARTIALPASTE_HLRECOVERYAMOUNT;Míra obnovení světel
 PARTIALPASTE_HLRECOVERY;Obnovení světel
@@ -540,6 +547,7 @@ PARTIALPASTE_PERSPECTIVE;Perspektiva
 PARTIALPASTE_PREPROCESS_GREENEQUIL;Vyrovnání zelené
 PARTIALPASTE_PREPROCESS_HOTDEADPIXFILT;Aplikovat filtr na vypálené/mrtvé body
 PARTIALPASTE_PREPROCESS_LINEDENOISE;Filtrovat linkové rušení
+PARTIALPASTE_RAW_ALLENHANCE;Aplikovat redukci artefaktů/šumu po demozajkování
 PARTIALPASTE_RAWCACORR_AUTO;Automatická korekce CA
 PARTIALPASTE_RAWCACORR_CABLUE;Chromatická aberace - modrá
 PARTIALPASTE_RAWCACORR_CARED;Chromatická aberace - červená
@@ -623,6 +631,7 @@ PREFERENCES_INTENT_PERCEPTUAL;Vnímání
 PREFERENCES_INTENT_RELATIVE;Relativní kolorimetrie
 PREFERENCES_INTENT_SATURATION;Sytost
 PREFERENCES_INTERNALTHUMBIFUNTOUCHED;Ukázat interní náhledy RAW nezpracovaných snímků
+PREFERENCES_LANGAUTODETECT;Použít jazykové nastavení OS
 PREFERENCES_LIVETHUMBNAILS;Živé náhledy (pomalejší)
 PREFERENCES_MENUGROUPFILEOPERATIONS;Seskupit souborové operace
 PREFERENCES_MENUGROUPLABEL;Seskupit značení
@@ -641,6 +650,8 @@ PREFERENCES_OUTDIRTEMPLATE;Použít šablonu
 PREFERENCES_OUTDIR;Výstupní složka
 PREFERENCES_OVERLAY_FILENAMES;Přepsat jména souborů v náhledech
 PREFERENCES_OVERWRITEOUTPUTFILE;Přepsat existující soubory
+PREFERENCES_PANFACTORFRAME;Akcelerace panningu
+PREFERENCES_PANFACTORLABEL;Násobitel
 PREFERENCES_PARSEDEXTADDHINT;Vložte příponu a stiskněte toto tlačítko pro přidání do seznamu
 PREFERENCES_PARSEDEXTADD;Přidej příponu
 PREFERENCES_PARSEDEXTDELHINT;Vymazat označenou příponu ze seznamu
@@ -671,6 +682,7 @@ PREFERENCES_SND_BATCHQUEUEDONE;Zpracování fronty dokončeno
 PREFERENCES_SND_HELP;Vložte cestu k souboru nebo ponechte prázdné (bez zvuku). Ve Windows zadejte "SystemDefault", "SystemAsterisk", atd. pro použití systémových zvuků.
 PREFERENCES_SND_LNGEDITPROCDONE;Zpracování v editoru dokončeno
 PREFERENCES_SND_TRESHOLDSECS;po sekundách
+PREFERENCES_SQUAREDETAILWINDOW;Čtvercové okno detailu (rychlejší)
 PREFERENCES_STARTUPIMDIR;Složka obrázků při spuštění
 PREFERENCES_TAB_BROWSER;Prohlížeč souborů
 PREFERENCES_TAB_COLORMGR;Správa barev
@@ -738,12 +750,12 @@ TOOLBAR_TOOLTIP_WB;Bodové vyvážení bílé <b>W</b>
 TP_CACORRECTION_BLUE;Modrá
 TP_CACORRECTION_LABEL;Úprava chromatické vady
 TP_CACORRECTION_RED;Červená
-TP_CLARITY_LABEL;Ostrost a doostření
-TP_CLARITY_MATRIX;Matice 3x3 místo 5x5
-TP_CLARITY_MICRO;Mikrokontrast (textura)
-TP_CLARITY_PASSES;Průchody gradientu
-TP_CLARITY_SHARPEN;Gradient ostření (okraj)
-TP_CLARITY_STRENGTH;Síla gradientu
+TP_CLARITY_LABEL;Lokální doostření
+TP_CLARITY_MATRIX;Matice 3x3 namísto 5x5
+TP_CLARITY_MICRO;Mikrokontrast
+TP_CLARITY_PASSES;Počet opakování
+TP_CLARITY_SHARPEN;Doostření hran
+TP_CLARITY_STRENGTH;Kvantita
 TP_CLARITY_THREE;Pouze jas
 TP_COARSETRAF_DEGREE;Stupeň:
 TP_COARSETRAF_TOOLTIP_HFLIP;Překlopit horizontálně
@@ -862,10 +874,12 @@ TP_CHMIXER_GREEN;Zelená
 TP_CHMIXER_LABEL;Míchání kanálů
 TP_CHMIXER_RED;Červená
 TP_CHROMATABERR_LABEL;Chromatická Aberace
+TP_ICM_BLENDCMSMATRIX;Smísit světla a matici
 TP_ICM_FILEDLGFILTERANY;Jakékoliv soubory
 TP_ICM_FILEDLGFILTERICM;Soubory ICC profilů
 TP_ICM_GAMMABEFOREINPUT;Profil provádí Gama korekci
-TP_ICM_INPUTCAMERA;Výchozí profil fotoaparátu
+TP_ICM_INPUTCAMERAICC;Standard fotoaparátu nebo ICC
+TP_ICM_INPUTCAMERA;Standard fotoaparátu
 TP_ICM_INPUTCUSTOM;Vlastní
 TP_ICM_INPUTDLGLABEL;Vybrat vstupní ICC profil...
 TP_ICM_INPUTEMBEDDED;Použít vložený profil, pokud je k dispozici
@@ -893,7 +907,7 @@ TP_LENSGEOM_LABEL;Objektiv / Geometrie
 TP_LUMADENOISE_EDGETOLERANCE;Tolerance okrajům
 TP_LUMADENOISE_LABEL;Redukce šumu v jasech
 TP_LUMADENOISE_RADIUS;Poloměr
-TP_MLMICRO_STRENGTH;Síla
+TP_MLMICRO_STRENGTH;Kvantita
 TP_MLMICRO_UNIFORMITY;Jednolitost
 TP_PERSPECTIVE_HORIZONTAL;Vodorovně
 TP_PERSPECTIVE_LABEL;Perspektiva
@@ -903,6 +917,7 @@ TP_PREPROCESS_HOTDEADPIXFILT;Aplikovat filtr na vypálené/mrtvé body
 TP_PREPROCESS_LABEL;Předzpracování
 TP_PREPROCESS_LINEDENOISE;Filtrovat linkové rušení
 TP_PREPROCESS_NO_FOUND;Nic nenalezeno
+TP_RAW_ALLENHANCE;Aplikovat redukci artefaktů/šumu po demozajkování
 TP_RAWCACORR_AUTO;Aplikovat automatickou korekci chromatické aberace
 TP_RAWCACORR_CABLUE;Modrá
 TP_RAWCACORR_CARED;Červená
