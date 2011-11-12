@@ -513,7 +513,7 @@ PARTIALPASTE_FLATFIELDAUTOSELECT;FF Auto Select
 PARTIALPASTE_FLATFIELDBLURRADIUS;FF Blur Radius
 PARTIALPASTE_FLATFIELDBLURTYPE;FF Blur Type
 PARTIALPASTE_FLATFIELDFILE;Flat field (FF) File
-PARTIALPASTE_GRADIENTSHARPEN;Local Sharpening
+PARTIALPASTE_SHARPENEDGE;Edges
 PARTIALPASTE_HLRECONSTRUCTION;Highlight reconstruction
 PARTIALPASTE_HLRECOVERY;Highlight recovery
 PARTIALPASTE_HLRECOVERYAMOUNT;Highlight recovery amount
@@ -527,7 +527,7 @@ PARTIALPASTE_LENSGROUP;Lens related settings
 PARTIALPASTE_LUMADENOISE;Luminance noise reduction
 PARTIALPASTE_LUMINANCEGROUP;Luminance related settings
 PARTIALPASTE_METAICMGROUP;Metadata/ICM settings
-PARTIALPASTE_MICROCONTRAST;Microcontrast
+PARTIALPASTE_SHARPENMICRO;Microcontrast
 PARTIALPASTE_PERSPECTIVE;Perspective
 PARTIALPASTE_PREPROCESS_GREENEQUIL;Green equilibration
 PARTIALPASTE_PREPROCESS_HOTDEADPIXFILT;Apply hot/dead pixel filter
@@ -635,7 +635,7 @@ PREFERENCES_OUTDIRTEMPLATE;Use Template
 PREFERENCES_OUTDIRTEMPLATEHINT;You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname, or some attributes of the photo.\n\n%r will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in trash bin, %r will be replaced by 'x'.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named "<i>converted</i>" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named "<i>/home/tom/photos/converted/2010-10-31</i>", write:\n<b>%p2/converted/%d1/%f</b>
 PREFERENCES_OVERLAY_FILENAMES;Overlay filenames on thumbnails
 PREFERENCES_OVERWRITEOUTPUTFILE;Overwrite existing output files
-PREFERENCES_PANFACTORFRAME;Panning acceleration
+PREFERENCES_PANFACTORFRAME;Pan rate amplification
 PREFERENCES_PANFACTORLABEL;Factor
 PREFERENCES_PARSEDEXT;Parsed Extensions
 PREFERENCES_PARSEDEXTADD;Add Extension
@@ -735,20 +735,19 @@ TOOLBAR_TOOLTIP_WB;Spot white balance <b>W</b>
 TP_CACORRECTION_BLUE;Blue
 TP_CACORRECTION_LABEL;C/A Correction
 TP_CACORRECTION_RED;Red
-TP_CHMIXER_BLUE;Blue
-TP_CHMIXER_GREEN;Green
+TP_CHMIXER_BLUE;Blue channel
+TP_CHMIXER_GREEN;Green channel
 TP_CHMIXER_LABEL;Channel Mixer
-TP_CHMIXER_RED;Red
+TP_CHMIXER_RED;Red channel
 TP_CHROMATABERR_LABEL;Chromatic Aberration
-TP_CLARITY_LABEL;Local Sharpening
-TP_CLARITY_SHARPEN;Edges Sharpening
-TP_CLARITY_STRENGTH;Quantity
-TP_CLARITY_PASSES;Iterations
-TP_CLARITY_MICRO;Microcontrast
-TP_CLARITY_THREE;Luminance only
-TP_CLARITY_MATRIX;3x3 matrix instead of 5x5
-TP_MLMICRO_STRENGTH;Quantity
-TP_MLMICRO_UNIFORMITY;Uniformity
+TP_SHARPENEDGE_AMOUNT;Quantity
+TP_SHARPENEDGE_LABEL;Edges
+TP_SHARPENEDGE_PASSES;Iterations
+TP_SHARPENEDGE_THREE;Luminance only
+TP_SHARPENMICRO_AMOUNT;Quantity
+TP_SHARPENMICRO_LABEL;Microcontrast
+TP_SHARPENMICRO_MATRIX;3×3 matrix instead of 5×5
+TP_SHARPENMICRO_UNIFORMITY;Uniformity
 TP_COARSETRAF_DEGREE;degree:
 TP_COARSETRAF_TOOLTIP_HFLIP;Flip horizontally
 TP_COARSETRAF_TOOLTIP_ROTLEFT;Rotate left <b>[</b>

@@ -7,12 +7,12 @@ PO_LANG=cs
 
 cd lang
 
-for BRANCH in $(find . -mindepth 1 -type d -printf "%P\n")
+for BRANCH in $(find . -mindepth 1 -type d -printf "%P\n" |grep -v branch_3.0)
 do
   echo "==== Refreshing branch $BRANCH ===="
 
   cd "$BRANCH"
-  [ -f "$GET_FILE" ] && rm "$GET_FILE" 
+  [ -f "$GET_FILE" ] && rm "$GET_FILE"
   [ -f "${GET_FILE}.dos" ] && rm "${GET_FILE}.dos"
   [ -f "${PO_LANG}.po.orig" ] && rm "${PO_LANG}.po.orig"
   mv "${PO_LANG}.po" "${PO_LANG}.po.orig"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-09-04 10:57+0200\n"
-"PO-Revision-Date: 2011-09-04 12:13+0200\n"
+"POT-Creation-Date: 2011-09-06 20:47+0200\n"
+"PO-Revision-Date: 2011-09-06 20:53+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1000,7 +1000,7 @@ msgstr "Mikrokontrast - kvantita"
 msgid "Microcontrast - uniformity"
 msgstr "Mikrokontrast - jednolitost"
 
-#: HISTORY_MSG_146,TP_CLARITY_SHARPEN
+#: HISTORY_MSG_146
 msgid "Edges Sharpening"
 msgstr "Doostření hran"
 
@@ -1008,7 +1008,7 @@ msgstr "Doostření hran"
 msgid "Edges sharpening - luminance only"
 msgstr "Doostření hran - pouze jas"
 
-#: HISTORY_MSG_148,PARTIALPASTE_MICROCONTRAST,TP_CLARITY_MICRO
+#: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO,TP_SHARPENMICRO_LABEL
 msgid "Microcontrast"
 msgstr "Mikrokontrast"
 
@@ -2040,10 +2040,6 @@ msgstr "FF Typ rozostření"
 msgid "Flat field (FF) File"
 msgstr "Flat-Field (FF) Soubor"
 
-#: PARTIALPASTE_GRADIENTSHARPEN,TP_CLARITY_LABEL
-msgid "Local Sharpening"
-msgstr "Lokální doostření"
-
 #: PARTIALPASTE_HLRECONSTRUCTION
 msgid "Highlight reconstruction"
 msgstr "Rekonstrukce světel "
@@ -2163,6 +2159,10 @@ msgstr "Změna velikosti"
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
 msgstr "Stíny/Světla"
+
+#: PARTIALPASTE_SHARPENEDGE,TP_SHARPENEDGE_LABEL
+msgid "Edges"
+msgstr "Hrany"
 
 #: PARTIALPASTE_SHARPENING
 msgid "Sharpening (USM/RL)"
@@ -2642,8 +2642,8 @@ msgid "Overwrite existing output files"
 msgstr "Přepsat existující soubory"
 
 #: PREFERENCES_PANFACTORFRAME
-msgid "Panning acceleration"
-msgstr "Akcelerace panningu"
+msgid "Pan rate amplification"
+msgstr ""
 
 #: PREFERENCES_PANFACTORLABEL
 msgid "Factor"
@@ -3014,29 +3014,13 @@ msgstr "Vyznačení roviny <b>S</b>"
 msgid "Spot white balance <b>W</b>"
 msgstr "Bodové vyvážení bílé <b>W</b>"
 
-#: TP_CACORRECTION_BLUE,TP_HSVEQUALIZER6,TP_CHMIXER_BLUE,TP_RAWCACORR_CABLUE
+#: TP_CACORRECTION_BLUE,TP_HSVEQUALIZER6,TP_RAWCACORR_CABLUE
 msgid "Blue"
 msgstr "Modrá"
 
-#: TP_CACORRECTION_RED,TP_HSVEQUALIZER1,TP_CHMIXER_RED,TP_RAWCACORR_CARED
+#: TP_CACORRECTION_RED,TP_HSVEQUALIZER1,TP_RAWCACORR_CARED
 msgid "Red"
 msgstr "Červená"
-
-#: TP_CLARITY_MATRIX
-msgid "3x3 matrix instead of 5x5"
-msgstr "Matice 3x3 namísto 5x5"
-
-#: TP_CLARITY_PASSES,TP_SHARPENING_RLD_ITERATIONS
-msgid "Iterations"
-msgstr "Počet opakování"
-
-#: TP_CLARITY_STRENGTH,TP_MLMICRO_STRENGTH
-msgid "Quantity"
-msgstr "Kvantita"
-
-#: TP_CLARITY_THREE
-msgid "Luminance only"
-msgstr "Pouze jas"
 
 #: TP_COARSETRAF_DEGREE
 msgid "degree:"
@@ -3360,7 +3344,7 @@ msgstr "Žlutá"
 msgid "Lime"
 msgstr "Limetková"
 
-#: TP_HSVEQUALIZER4,TP_CHMIXER_GREEN
+#: TP_HSVEQUALIZER4
 msgid "Green"
 msgstr "Zelená"
 
@@ -3375,6 +3359,18 @@ msgstr "Růžová"
 #: TP_HSVEQUALIZER8
 msgid "Magenta"
 msgstr "Purpurová"
+
+#: TP_CHMIXER_BLUE
+msgid "Blue channel"
+msgstr "Modrý kanál"
+
+#: TP_CHMIXER_GREEN
+msgid "Green channel"
+msgstr "Zelený kanál"
+
+#: TP_CHMIXER_RED
+msgid "Red channel"
+msgstr "Červený kanál"
 
 #: TP_CHROMATABERR_LABEL
 msgid "Chromatic Aberration"
@@ -3423,10 +3419,6 @@ msgstr "Objektiv / Geometrie"
 #: TP_LUMADENOISE_LABEL
 msgid "Luminance Noise Reduction"
 msgstr "Redukce šumu v jasech"
-
-#: TP_MLMICRO_UNIFORMITY
-msgid "Uniformity"
-msgstr "Jednolitost"
 
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
@@ -3580,6 +3572,18 @@ msgstr "Tonální rozsah světel"
 msgid "Tonal Width for Shadows"
 msgstr "Tonální rozsah stínů"
 
+#: TP_SHARPENEDGE_AMOUNT,TP_SHARPENMICRO_AMOUNT
+msgid "Quantity"
+msgstr "Kvantita"
+
+#: TP_SHARPENEDGE_PASSES,TP_SHARPENING_RLD_ITERATIONS
+msgid "Iterations"
+msgstr "Počet opakování"
+
+#: TP_SHARPENEDGE_THREE
+msgid "Luminance only"
+msgstr "Pouze jas"
+
 #: TP_SHARPENING_EDTOLERANCE
 msgid "Edge tolerance"
 msgstr "Tolerance okrajů"
@@ -3603,6 +3607,14 @@ msgstr "RL Dekonvoluce"
 #: TP_SHARPENING_USM
 msgid "Unsharp Mask"
 msgstr "Maskování rozostření"
+
+#: TP_SHARPENMICRO_MATRIX
+msgid "3×3 matrix instead of 5×5"
+msgstr "Matice 3x3 namísto 5x5"
+
+#: TP_SHARPENMICRO_UNIFORMITY
+msgid "Uniformity"
+msgstr "Jednolitost"
 
 #: TP_VIGNETTING_CENTER_X
 msgid "Center X"
@@ -3687,6 +3699,12 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Local Sharpening"
+#~ msgstr "Lokální doostření"
+
+#~ msgid "Panning acceleration"
+#~ msgstr "Akcelerace panningu"
 
 #~ msgid "Clarity -passes"
 #~ msgstr "Ostrost - průchody"
