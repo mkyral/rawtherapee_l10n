@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-09-06 20:47+0200\n"
-"PO-Revision-Date: 2011-09-06 20:53+0200\n"
+"POT-Creation-Date: 2011-11-12 09:52+0100\n"
+"PO-Revision-Date: 2011-11-12 11:23+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1024,6 +1024,34 @@ msgstr "Jas Kontrast"
 msgid "Post demosaic artifact/noise reduction"
 msgstr "Redukce artefaktů/šumu po demozajkování"
 
+#: HISTORY_MSG_151,PARTIALPASTE_VIBRANCE,TP_VIBRANCE_LABEL
+msgid "Vibrance"
+msgstr "Živost"
+
+#: HISTORY_MSG_152
+msgid "Vibrance - Pastel tones"
+msgstr "Živost - pastelové tóny"
+
+#: HISTORY_MSG_153
+msgid "Vibrance - Saturated tones"
+msgstr "Živost - saturované tóny"
+
+#: HISTORY_MSG_154
+msgid "Vibrance - Protect skin tones"
+msgstr "Živost - zachovat tóny pleti"
+
+#: HISTORY_MSG_155
+msgid "Vibrance - Avoid color drift"
+msgstr "Živost - Vyvarovat se posunu barev"
+
+#: HISTORY_MSG_156
+msgid "Vibrance - Link pastel and saturated tones"
+msgstr "Živost - propojit pastelové a saturované tóny"
+
+#: HISTORY_MSG_157
+msgid "Vibrance - Pastel/Saturated threshold"
+msgstr "Živost - práh mezi pastelovými a saturovanými tóny"
+
 #: HISTORY_MSG_16
 msgid "Luminance Black"
 msgstr "Jas Černá"
@@ -1408,7 +1436,7 @@ msgstr "Snímek"
 msgid "ICC Profile Files"
 msgstr "Soubory ICC profilů"
 
-#: ICMPANEL_GAMMABEFOREINPUT,TP_ICM_GAMMABEFOREINPUT
+#: ICMPANEL_GAMMABEFOREINPUT
 msgid "Profile applies Gamma"
 msgstr "Profil provádí Gama korekci"
 
@@ -1796,7 +1824,7 @@ msgstr "<b>Alt-e</b>"
 msgid "Filter"
 msgstr "Filtr"
 
-#: MAIN_TAB_ICM,TP_ICM_LABEL
+#: MAIN_TAB_ICM
 msgid "ICM"
 msgstr "ICM"
 
@@ -1835,6 +1863,26 @@ msgstr "Transformace"
 #: MAIN_TOGGLE_BEFORE_AFTER
 msgid "B|A"
 msgstr "Před|Po"
+
+#: MAIN_TOOLTIP_BEFOREAFTERLOCK
+msgid ""
+"<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n"
+"\n"
+"<b>Lock</b>: keep the <b>Before</b> view unchanged - \n"
+"useful to evaluate the cumulative effect of multiple tools.\n"
+"Additionally, comparison can be made to any state in the History\n"
+"\n"
+"<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view 1 "
+"step behind, showing image before the effect of the currently used tool"
+msgstr ""
+"<b>Zamknout</b> / <b>Odemknout</b> pohled <b>Před</b>\n"
+"\n"
+"<b>Zamknout</b>: ponechá pohled <b>Před</b> nezměněn - \n"
+"užitečné pro posouzení výsledného efektu po použití více nástrojů.\n"
+"Navíc může být porovnání provedeno proti kterémukoli stavu v historii.\n"
+"\n"
+"<b>Odemknout</b>: pohled <b>Před</b> bude následovat pohled <b>Poté</b>, vždy "
+"jen o jeden krok zpět - zobrazí efekt právě použitého nástroje."
 
 #: MAIN_TOOLTIP_HIDEFP
 msgid "Show/hide the bottom panel (directory and file browser) <b>F</b>"
@@ -1881,8 +1929,8 @@ msgid "Show/hide the top panel <b>Shift-l</b>"
 msgstr "Zobrazit/skrýt horní panel <b>Shift-l</b>"
 
 #: MAIN_TOOLTIP_TOGGLE
-msgid "Toggle before/after view <b>B</b>"
-msgstr "Přepnout Před a Po <b>B</b>"
+msgid "Toggle <b>before</b>/<b>after</b> view <b>B</b>"
+msgstr "Přepnout pohled Před a Po <b>B</b>"
 
 #: NAVIGATOR_B_NA,NAVIGATOR_LAB_B_NA
 msgid "B = n/a"
@@ -2059,6 +2107,10 @@ msgstr "Obnovení světel"
 #: PARTIALPASTE_CHANNELMIXER
 msgid "Channel mixer"
 msgstr "Míchání kanálů"
+
+#: PARTIALPASTE_ICMGAMMA,TP_GAMMA_OUTPUT
+msgid "Output gamma"
+msgstr "Výstupní gama"
 
 #: PARTIALPASTE_ICMSETTINGS
 msgid "ICM settings"
@@ -2643,7 +2695,7 @@ msgstr "Přepsat existující soubory"
 
 #: PREFERENCES_PANFACTORFRAME
 msgid "Pan rate amplification"
-msgstr ""
+msgstr "Zrychlení posunu výřezu"
 
 #: PREFERENCES_PANFACTORLABEL
 msgid "Factor"
@@ -2785,7 +2837,7 @@ msgstr "Složka obrázků při spuštění"
 msgid "File Browser"
 msgstr "Prohlížeč souborů"
 
-#: PREFERENCES_TAB_COLORMGR
+#: PREFERENCES_TAB_COLORMGR,TP_ICM_LABEL
 msgid "Color Management"
 msgstr "Správa barev"
 
@@ -2808,6 +2860,18 @@ msgstr "Zvuky"
 #: PREFERENCES_THUMBSIZE
 msgid "Thumbnail Size"
 msgstr "Velikost náhledu"
+
+#: PREFERENCES_TP_LABEL
+msgid "Tool panel:"
+msgstr "Panel nástrojů:"
+
+#: PREFERENCES_TP_USEICONORTEXT
+msgid "Use tab icons instead of text"
+msgstr "V záhlaví karty zobrazit ikonu namísto textu"
+
+#: PREFERENCES_TP_VSCROLLBAR
+msgid "Hide vertical scrollbar"
+msgstr "Skrýt svislou posuvnou lištu"
 
 #: PREFERENCES_TUNNELMETADATA
 msgid ""
@@ -2999,7 +3063,7 @@ msgid "Uncompressed TIFF"
 msgstr "Nekomprimovaný TIFF"
 
 #: TOOLBAR_TOOLTIP_CROP
-msgid "Crop selection <b>C</b>"
+msgid "<b>Crop</b> selection <b>C</b>"
 msgstr "Vyznačení výřezu <b>C</b>"
 
 #: TOOLBAR_TOOLTIP_HAND
@@ -3007,8 +3071,17 @@ msgid "Hand tool <b>H</b>"
 msgstr "Nástroj ruka <b>N</b>"
 
 #: TOOLBAR_TOOLTIP_STRAIGHTEN
-msgid "Straight line selection <b>S</b>"
-msgstr "Vyznačení roviny <b>S</b>"
+msgid ""
+"<b>Straighten</b> / <b>fine rotation</b>  <b>S</b> \n"
+"\n"
+"Indicate the vertical or horizontal by drawing a guide line over the image "
+"preview. Angle of rotation will be shown next to the guide line. Center of "
+"rotation is the geometrical center of the image."
+msgstr ""
+"Vyznačení <b>roviny</b> / <b>rotace</b>  <b>S</b> \n"
+"\n"
+"Zobrazení míry rotace pomocí vodící linky na náhledu snímky. Úhel rotace "
+"je zobrazen vedle vodící linky. Střed rotace je geometrický střed snímku."
 
 #: TOOLBAR_TOOLTIP_WB
 msgid "Spot white balance <b>W</b>"
@@ -3061,10 +3134,6 @@ msgstr "Kanál \"b\""
 #: TP_COLORBOOST_ENABLESATLIMITER,TP_LABCURVE_ENABLESATLIMITER
 msgid "Enable saturation limiter"
 msgstr "Omezovat sytost"
-
-#: TP_COLORBOOST_CHAB
-msgid "a & b"
-msgstr "a & b"
 
 #: TP_COLORBOOST_CHANNEL
 msgid "Channel"
@@ -3287,10 +3356,6 @@ msgstr "gama"
 msgid "Free gamma"
 msgstr "Volná gama"
 
-#: TP_GAMMA_OUTPUT
-msgid "Output gamma"
-msgstr "Výstupní gama"
-
 #: TP_GAMMA_SLOP
 msgid "slope (linear)"
 msgstr "sklon (lineární)"
@@ -3376,17 +3441,46 @@ msgstr "Červený kanál"
 msgid "Chromatic Aberration"
 msgstr "Chromatická Aberace"
 
+#: TP_ICM_BLENDCMSMATRIX_TOOLTIP
+msgid "Enable to recover blown highlights when using LUT based ICC profiles"
+msgstr ""
+"Povolit obnovení vypálených jasů při použití ICC profilů založených na LUT"
+
 #: TP_ICM_BLENDCMSMATRIX
 msgid "Blend highlights with matrix"
 msgstr "Smísit světla a matici"
+
+#: TP_ICM_INPUTCAMERAICC_TOOLTIP
+msgid ""
+"Use RawTherapees default ICC color profile. More precise than simple matrix, "
+"but only available for some cameras."
+msgstr ""
+"Použít výchozí ICC barevný profil RawTherapee. Více přesné než jednoduchá "
+"matice, ale dostupné jen pro některé fotoaparáty."
 
 #: TP_ICM_INPUTCAMERAICC
 msgid "Camera standard or ICC"
 msgstr "Standard fotoaparátu nebo ICC"
 
+#: TP_ICM_INPUTCAMERA_TOOLTIP
+msgid "Use simple default color matrix by DCRAW or embedded in DNG"
+msgstr "Použít jednoduchou výchozí matici barev DCRAW nebo vloženou v DNG"
+
 #: TP_ICM_INPUTCAMERA
 msgid "Camera standard"
 msgstr "Standard fotoaparátu"
+
+#: TP_ICM_INPUTCUSTOM_TOOLTIP
+msgid "Select your own ICC color profile file for the camera"
+msgstr "Vyberte vlastní ICC profil pro fotoaparát"
+
+#: TP_ICM_INPUTEMBEDDED_TOOLTIP
+msgid "Use color profile embedded in non RAW files"
+msgstr "Použít barevný profil vložený do jiných než RAW souborů"
+
+#: TP_ICM_INPUTNONE_TOOLTIP
+msgid "Use no color profile at all. Use only in special cases."
+msgstr "Nepoužívat barevný profil. Pouze ve speciálních případech."
 
 #: TP_ICM_INPUTNONE
 msgid "No profile"
@@ -3500,14 +3594,6 @@ msgstr "Bilineární"
 msgid "Cropped area"
 msgstr "Ořez"
 
-#: TP_RESIZE_DOWNSCALEB
-msgid "Downscale (Better)"
-msgstr "Downscale (Lepší)"
-
-#: TP_RESIZE_DOWNSCALEF
-msgid "Downscale (Faster)"
-msgstr "Downscale (Rychlejší)"
-
 #: TP_RESIZE_FITBOX
 msgid "Bounding box"
 msgstr "Výřez"
@@ -3616,6 +3702,30 @@ msgstr "Matice 3x3 namísto 5x5"
 msgid "Uniformity"
 msgstr "Jednolitost"
 
+#: TP_VIBRANCE_AVOIDCOLORSHIFT
+msgid "Avoid color shift"
+msgstr "Zabránit posunu barev"
+
+#: TP_VIBRANCE_PASTELS
+msgid "Pastel tones"
+msgstr "Pastelové tóny"
+
+#: TP_VIBRANCE_PASTSATTOG
+msgid "Link pastel and saturated tones"
+msgstr "Propojit pastelové a saturované tóny"
+
+#: TP_VIBRANCE_PROTECTSKINS
+msgid "Protect skin tones"
+msgstr "Zachovat tóny pleti"
+
+#: TP_VIBRANCE_PSTHRESHOLD
+msgid "Pastel/Saturated tone threshold"
+msgstr "Práh mezi pastelovými a saturovanými tóny"
+
+#: TP_VIBRANCE_SATURATED
+msgid "Saturated tones"
+msgstr "Saturované tóny"
+
 #: TP_VIGNETTING_CENTER_X
 msgid "Center X"
 msgstr "Střed X"
@@ -3699,6 +3809,18 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Straight line selection <b>S</b>"
+#~ msgstr "Vyznačení roviny <b>S</b>"
+
+#~ msgid "a & b"
+#~ msgstr "a & b"
+
+#~ msgid "Downscale (Better)"
+#~ msgstr "Downscale (Lepší)"
+
+#~ msgid "Downscale (Faster)"
+#~ msgstr "Downscale (Rychlejší)"
 
 #~ msgid "Local Sharpening"
 #~ msgstr "Lokální doostření"

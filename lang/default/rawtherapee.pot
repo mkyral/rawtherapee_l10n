@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-09-06 20:47+0200\n"
+"POT-Creation-Date: 2011-11-12 09:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1001,6 +1001,34 @@ msgstr ""
 msgid "Post demosaic artifact/noise reduction"
 msgstr ""
 
+#: HISTORY_MSG_151,PARTIALPASTE_VIBRANCE,TP_VIBRANCE_LABEL
+msgid "Vibrance"
+msgstr ""
+
+#: HISTORY_MSG_152
+msgid "Vibrance - Pastel tones"
+msgstr ""
+
+#: HISTORY_MSG_153
+msgid "Vibrance - Saturated tones"
+msgstr ""
+
+#: HISTORY_MSG_154
+msgid "Vibrance - Protect skin tones"
+msgstr ""
+
+#: HISTORY_MSG_155
+msgid "Vibrance - Avoid color drift"
+msgstr ""
+
+#: HISTORY_MSG_156
+msgid "Vibrance - Link pastel and saturated tones"
+msgstr ""
+
+#: HISTORY_MSG_157
+msgid "Vibrance - Pastel/Saturated threshold"
+msgstr ""
+
 #: HISTORY_MSG_16
 msgid "Luminance Black"
 msgstr ""
@@ -1385,7 +1413,7 @@ msgstr ""
 msgid "ICC Profile Files"
 msgstr ""
 
-#: ICMPANEL_GAMMABEFOREINPUT,TP_ICM_GAMMABEFOREINPUT
+#: ICMPANEL_GAMMABEFOREINPUT
 msgid "Profile applies Gamma"
 msgstr ""
 
@@ -1749,7 +1777,7 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: MAIN_TAB_ICM,TP_ICM_LABEL
+#: MAIN_TAB_ICM
 msgid "ICM"
 msgstr ""
 
@@ -1787,6 +1815,10 @@ msgstr ""
 
 #: MAIN_TOGGLE_BEFORE_AFTER
 msgid "B|A"
+msgstr ""
+
+#: MAIN_TOOLTIP_BEFOREAFTERLOCK
+msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged - \nuseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparison can be made to any state in the History\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view 1 step behind, showing image before the effect of the currently used tool"
 msgstr ""
 
 #: MAIN_TOOLTIP_HIDEFP
@@ -1834,7 +1866,7 @@ msgid "Show/hide the top panel <b>Shift-l</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_TOGGLE
-msgid "Toggle before/after view <b>B</b>"
+msgid "Toggle <b>before</b>/<b>after</b> view <b>B</b>"
 msgstr ""
 
 #: NAVIGATOR_B_NA,NAVIGATOR_LAB_B_NA
@@ -2011,6 +2043,10 @@ msgstr ""
 
 #: PARTIALPASTE_CHANNELMIXER
 msgid "Channel mixer"
+msgstr ""
+
+#: PARTIALPASTE_ICMGAMMA,TP_GAMMA_OUTPUT
+msgid "Output gamma"
 msgstr ""
 
 #: PARTIALPASTE_ICMSETTINGS
@@ -2581,7 +2617,7 @@ msgstr ""
 msgid "File Browser"
 msgstr ""
 
-#: PREFERENCES_TAB_COLORMGR
+#: PREFERENCES_TAB_COLORMGR,TP_ICM_LABEL
 msgid "Color Management"
 msgstr ""
 
@@ -2603,6 +2639,18 @@ msgstr ""
 
 #: PREFERENCES_THUMBSIZE
 msgid "Thumbnail Size"
+msgstr ""
+
+#: PREFERENCES_TP_LABEL
+msgid "Tool panel:"
+msgstr ""
+
+#: PREFERENCES_TP_USEICONORTEXT
+msgid "Use tab icons instead of text"
+msgstr ""
+
+#: PREFERENCES_TP_VSCROLLBAR
+msgid "Hide vertical scrollbar"
 msgstr ""
 
 #: PREFERENCES_TUNNELMETADATA
@@ -2794,7 +2842,7 @@ msgid "Uncompressed TIFF"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_CROP
-msgid "Crop selection <b>C</b>"
+msgid "<b>Crop</b> selection <b>C</b>"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_HAND
@@ -2802,7 +2850,7 @@ msgid "Hand tool <b>H</b>"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_STRAIGHTEN
-msgid "Straight line selection <b>S</b>"
+msgid "<b>Straighten</b> / <b>fine rotation</b>  <b>S</b> \n\nIndicate the vertical or horizontal by drawing a guide line over the image preview. Angle of rotation will be shown next to the guide line. Center of rotation is the geometrical center of the image."
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_WB
@@ -2855,10 +2903,6 @@ msgstr ""
 
 #: TP_COLORBOOST_ENABLESATLIMITER,TP_LABCURVE_ENABLESATLIMITER
 msgid "Enable saturation limiter"
-msgstr ""
-
-#: TP_COLORBOOST_CHAB
-msgid "a & b"
 msgstr ""
 
 #: TP_COLORBOOST_CHANNEL
@@ -3078,10 +3122,6 @@ msgstr ""
 msgid "Free gamma"
 msgstr ""
 
-#: TP_GAMMA_OUTPUT
-msgid "Output gamma"
-msgstr ""
-
 #: TP_GAMMA_SLOP
 msgid "slope (linear)"
 msgstr ""
@@ -3167,16 +3207,40 @@ msgstr ""
 msgid "Chromatic Aberration"
 msgstr ""
 
+#: TP_ICM_BLENDCMSMATRIX_TOOLTIP
+msgid "Enable to recover blown highlights when using LUT based ICC profiles"
+msgstr ""
+
 #: TP_ICM_BLENDCMSMATRIX
 msgid "Blend highlights with matrix"
+msgstr ""
+
+#: TP_ICM_INPUTCAMERAICC_TOOLTIP
+msgid "Use RawTherapees default ICC color profile. More precise than simple matrix, but only available for some cameras."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERAICC
 msgid "Camera standard or ICC"
 msgstr ""
 
+#: TP_ICM_INPUTCAMERA_TOOLTIP
+msgid "Use simple default color matrix by DCRAW or embedded in DNG"
+msgstr ""
+
 #: TP_ICM_INPUTCAMERA
 msgid "Camera standard"
+msgstr ""
+
+#: TP_ICM_INPUTCUSTOM_TOOLTIP
+msgid "Select your own ICC color profile file for the camera"
+msgstr ""
+
+#: TP_ICM_INPUTEMBEDDED_TOOLTIP
+msgid "Use color profile embedded in non RAW files"
+msgstr ""
+
+#: TP_ICM_INPUTNONE_TOOLTIP
+msgid "Use no color profile at all. Use only in special cases."
 msgstr ""
 
 #: TP_ICM_INPUTNONE
@@ -3291,14 +3355,6 @@ msgstr ""
 msgid "Cropped area"
 msgstr ""
 
-#: TP_RESIZE_DOWNSCALEB
-msgid "Downscale (Better)"
-msgstr ""
-
-#: TP_RESIZE_DOWNSCALEF
-msgid "Downscale (Faster)"
-msgstr ""
-
 #: TP_RESIZE_FITBOX
 msgid "Bounding box"
 msgstr ""
@@ -3405,6 +3461,30 @@ msgstr ""
 
 #: TP_SHARPENMICRO_UNIFORMITY
 msgid "Uniformity"
+msgstr ""
+
+#: TP_VIBRANCE_AVOIDCOLORSHIFT
+msgid "Avoid color shift"
+msgstr ""
+
+#: TP_VIBRANCE_PASTELS
+msgid "Pastel tones"
+msgstr ""
+
+#: TP_VIBRANCE_PASTSATTOG
+msgid "Link pastel and saturated tones"
+msgstr ""
+
+#: TP_VIBRANCE_PROTECTSKINS
+msgid "Protect skin tones"
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD
+msgid "Pastel/Saturated tone threshold"
+msgstr ""
+
+#: TP_VIBRANCE_SATURATED
+msgid "Saturated tones"
 msgstr ""
 
 #: TP_VIGNETTING_CENTER_X

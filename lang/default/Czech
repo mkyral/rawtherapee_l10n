@@ -15,6 +15,7 @@
 #14 08.07.2011: updated by mkyral
 #15 04.09.2011: updated by mkyral
 #16 06.09.2011: updated by mkyral
+#17 12.11.2011: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -263,6 +264,13 @@ HISTORY_MSG_148;Mikrokontrast
 HISTORY_MSG_149;Mikrokontrast - matice 3x3
 HISTORY_MSG_15;Jas Kontrast
 HISTORY_MSG_150;Redukce artefaktů/šumu po demozajkování
+HISTORY_MSG_151;Živost
+HISTORY_MSG_152;Živost - pastelové tóny
+HISTORY_MSG_153;Živost - saturované tóny
+HISTORY_MSG_154;Živost - zachovat tóny pleti
+HISTORY_MSG_155;Živost - Vyvarovat se posunu barev
+HISTORY_MSG_156;Živost - propojit pastelové a saturované tóny
+HISTORY_MSG_157;Živost - práh mezi pastelovými a saturovanými tóny
 HISTORY_MSG_16;Jas Černá
 HISTORY_MSG_17;Jas Komprese světel
 HISTORY_MSG_18;Jas Komprese stínů
@@ -470,6 +478,7 @@ MAIN_TAB_TAGGING;Štítky
 MAIN_TAB_TRANSFORM_TOOLTIP;<b>Alt-t</b>
 MAIN_TAB_TRANSFORM;Transformace
 MAIN_TOGGLE_BEFORE_AFTER;Před|Po
+MAIN_TOOLTIP_BEFOREAFTERLOCK;<b>Zamknout</b> / <b>Odemknout</b> pohled <b>Před</b>\n\n<b>Zamknout</b>: ponechá pohled <b>Před</b> nezměněn - \nužitečné pro posouzení výsledného efektu po použití více nástrojů.\nNavíc může být porovnání provedeno proti kterémukoli stavu v historii.\n\n<b>Odemknout</b>: pohled <b>Před</b> bude následovat pohled <b>Poté</b>, vždy jen o jeden krok zpět - zobrazí efekt právě použitého nástroje.
 MAIN_TOOLTIP_HIDEFP;Zobrazit či schovat dolní panel (složky a prohlížeč souborů <b>F</b>)
 MAIN_TOOLTIP_HIDEHP;Zobrazit či schovat levý panel (obsahující historii <b>H</b>)
 MAIN_TOOLTIP_INDCLIPPEDH;Zvýraznit oříznuté světla (Klávesa <)
@@ -481,7 +490,7 @@ MAIN_TOOLTIP_SAVE;Uložit obrázek do výchozí složky
 MAIN_TOOLTIP_SHOWHIDELP1;Zobrazit/skrýt levý panel <b>l</b>
 MAIN_TOOLTIP_SHOWHIDERP1;Zobrazit/skrýt pravý panel <b>Alt-l</b>
 MAIN_TOOLTIP_SHOWHIDETP1;Zobrazit/skrýt horní panel <b>Shift-l</b>
-MAIN_TOOLTIP_TOGGLE;Přepnout Před a Po <b>B</b>
+MAIN_TOOLTIP_TOGGLE;Přepnout pohled Před a Po <b>B</b>
 NAVIGATOR_B_NA;B = n/a
 NAVIGATOR_B_VALUE;B = %1
 NAVIGATOR_G_NA;G = n/a
@@ -533,6 +542,7 @@ PARTIALPASTE_HLRECOVERY;Obnovení světel
 PARTIALPASTE_HLRECOVERYTHRESHOLD;Práh obnovení světel
 PARTIALPASTE_HSVEQUALIZER;HSV korekce
 PARTIALPASTE_CHANNELMIXER;Míchání kanálů
+PARTIALPASTE_ICMGAMMA;Výstupní gama
 PARTIALPASTE_ICMSETTINGS;Nastavení ICM
 PARTIALPASTE_IMPULSEDENOISE;Redukce impulzního šumu
 PARTIALPASTE_IPTCINFO;IPTC info
@@ -563,6 +573,7 @@ PARTIALPASTE_SHADOWSHIGHLIGHTS;Stíny/Světla
 PARTIALPASTE_SHARPENEDGE;Hrany
 PARTIALPASTE_SHARPENING;Doostření (USM/RL)
 PARTIALPASTE_SHARPENMICRO;Mikrokontrast
+PARTIALPASTE_VIBRANCE;Živost
 PARTIALPASTE_VIGNETTING;Korekce vinětace
 PARTIALPASTE_WAVELETEQUALIZER;Vlnková korekce
 PARTIALPASTE_WHITEBALANCE;Nastavení bílé
@@ -650,6 +661,7 @@ PREFERENCES_OUTDIRTEMPLATE;Použít šablonu
 PREFERENCES_OUTDIR;Výstupní složka
 PREFERENCES_OVERLAY_FILENAMES;Přepsat jména souborů v náhledech
 PREFERENCES_OVERWRITEOUTPUTFILE;Přepsat existující soubory
+PREFERENCES_PANFACTORFRAME;Zrychlení posunu výřezu
 PREFERENCES_PANFACTORLABEL;Násobitel
 PREFERENCES_PARSEDEXTADDHINT;Vložte příponu a stiskněte toto tlačítko pro přidání do seznamu
 PREFERENCES_PARSEDEXTADD;Přidej příponu
@@ -690,6 +702,9 @@ PREFERENCES_TAB_IMPROC;Zpracování obrázku
 PREFERENCES_TAB_OUTPUT;Volby výstupu
 PREFERENCES_TAB_SOUND;Zvuky
 PREFERENCES_THUMBSIZE;Velikost náhledu
+PREFERENCES_TP_LABEL;Panel nástrojů:
+PREFERENCES_TP_USEICONORTEXT;V záhlaví karty zobrazit ikonu namísto textu
+PREFERENCES_TP_VSCROLLBAR;Skrýt svislou posuvnou lištu
 PREFERENCES_TUNNELMETADATA;Přenést nezměněná IPTC/XMP metadata do výstupního souboru
 PREFERENCES_USESYSTEMTHEME; Použít systémový motiv
 PREFERENCES_WORKFLOW;Rozvržení
@@ -744,7 +759,7 @@ SAVEDLG_TIFFFILTER;Soubory TIFF
 SAVEDLG_TIFFUNCOMPRESSED;Nekomprimovaný TIFF
 TOOLBAR_TOOLTIP_CROP;Vyznačení výřezu <b>C</b>
 TOOLBAR_TOOLTIP_HAND;Nástroj ruka <b>N</b>
-TOOLBAR_TOOLTIP_STRAIGHTEN;Vyznačení roviny <b>S</b>
+TOOLBAR_TOOLTIP_STRAIGHTEN;Vyznačení <b>roviny</b> / <b>rotace</b>  <b>S</b> \n\nZobrazení míry rotace pomocí vodící linky na náhledu snímky. Úhel rotace je zobrazen vedle vodící linky. Střed rotace je geometrický střed snímku.
 TOOLBAR_TOOLTIP_WB;Bodové vyvážení bílé <b>W</b>
 TP_CACORRECTION_BLUE;Modrá
 TP_CACORRECTION_LABEL;Úprava chromatické vady
@@ -759,7 +774,6 @@ TP_COLORBOOST_AMOUNT;Míra
 TP_COLORBOOST_AVOIDCOLORCLIP;Zabránit oříznutí barvy
 TP_COLORBOOST_BCHANNEL;Kanál "b"
 TP_COLORBOOST_ENABLESATLIMITER;Omezovat sytost
-TP_COLORBOOST_CHAB;a & b
 TP_COLORBOOST_CHANNEL;Kanál
 TP_COLORBOOST_CHSEPARATE;zvlášť
 TP_COLORBOOST_LABEL;Sytost barev
@@ -867,17 +881,22 @@ TP_CHMIXER_LABEL;Míchání kanálů
 TP_CHMIXER_RED;Červený kanál
 TP_CHROMATABERR_LABEL;Chromatická Aberace
 TP_ICM_BLENDCMSMATRIX;Smísit světla a matici
+TP_ICM_BLENDCMSMATRIX_TOOLTIP;Povolit obnovení vypálených jasů při použití ICC profilů založených na LUT
 TP_ICM_FILEDLGFILTERANY;Jakékoliv soubory
 TP_ICM_FILEDLGFILTERICM;Soubory ICC profilů
-TP_ICM_GAMMABEFOREINPUT;Profil provádí Gama korekci
 TP_ICM_INPUTCAMERAICC;Standard fotoaparátu nebo ICC
+TP_ICM_INPUTCAMERAICC_TOOLTIP;Použít výchozí ICC barevný profil RawTherapee. Více přesné než jednoduchá matice, ale dostupné jen pro některé fotoaparáty.
 TP_ICM_INPUTCAMERA;Standard fotoaparátu
+TP_ICM_INPUTCAMERA_TOOLTIP;Použít jednoduchou výchozí matici barev DCRAW nebo vloženou v DNG
+TP_ICM_INPUTCUSTOM_TOOLTIP;Vyberte vlastní ICC profil pro fotoaparát
 TP_ICM_INPUTCUSTOM;Vlastní
 TP_ICM_INPUTDLGLABEL;Vybrat vstupní ICC profil...
 TP_ICM_INPUTEMBEDDED;Použít vložený profil, pokud je k dispozici
+TP_ICM_INPUTEMBEDDED_TOOLTIP;Použít barevný profil vložený do jiných než RAW souborů
 TP_ICM_INPUTNONE;Bez profilu
+TP_ICM_INPUTNONE_TOOLTIP;Nepoužívat barevný profil. Pouze ve speciálních případech.
 TP_ICM_INPUTPROFILE;Vstupní profil
-TP_ICM_LABEL;ICM
+TP_ICM_LABEL;Správa barev
 TP_ICM_NOICM;Bez správy barev: sRGB výstup
 TP_ICM_OUTPUTDLGLABEL;Vybrat výstupní ICC profil...
 TP_ICM_OUTPUTPROFILE;Výstupní barevný prostor
@@ -930,8 +949,6 @@ TP_RESIZE_BICUBICSF;Bikubická (Měkčí)
 TP_RESIZE_BICUBICSH;Bikubická (Ostřejší)
 TP_RESIZE_BILINEAR;Bilineární
 TP_RESIZE_CROPPEDAREA;Ořez
-TP_RESIZE_DOWNSCALEB;Downscale (Lepší)
-TP_RESIZE_DOWNSCALEF;Downscale (Rychlejší)
 TP_RESIZE_FITBOX;Výřez
 TP_RESIZE_FULLIMAGE;Celý obrázek
 TP_RESIZE_FULLSIZE;Plná velikost obrázku:
@@ -978,6 +995,13 @@ TP_SHARPENMICRO_AMOUNT;Kvantita
 TP_SHARPENMICRO_LABEL;Mikrokontrast
 TP_SHARPENMICRO_MATRIX;Matice 3x3 namísto 5x5
 TP_SHARPENMICRO_UNIFORMITY;Jednolitost
+TP_VIBRANCE_AVOIDCOLORSHIFT;Zabránit posunu barev
+TP_VIBRANCE_LABEL;Živost
+TP_VIBRANCE_PASTELS;Pastelové tóny
+TP_VIBRANCE_PASTSATTOG;Propojit pastelové a saturované tóny
+TP_VIBRANCE_PROTECTSKINS;Zachovat tóny pleti
+TP_VIBRANCE_PSTHRESHOLD;Práh mezi pastelovými a saturovanými tóny
+TP_VIBRANCE_SATURATED;Saturované tóny
 TP_VIGNETTING_AMOUNT;Míra
 TP_VIGNETTING_CENTER;Střed
 TP_VIGNETTING_CENTER_X;Střed X
