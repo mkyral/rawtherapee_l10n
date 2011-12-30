@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-11-12 09:52+0100\n"
-"PO-Revision-Date: 2011-11-12 11:23+0100\n"
+"POT-Creation-Date: 2011-12-29 18:27+0100\n"
+"PO-Revision-Date: 2011-12-29 19:27+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -141,6 +141,10 @@ msgstr "Aparát"
 #: EXIFFILTER_DIALOGLABEL,FILEBROWSER_EXIFFILTERLABEL
 msgid "Exif Filter"
 msgstr "Filtrovat dle Exif"
+
+#: EXIFFILTER_EXPOSURECOMPENSATION
+msgid "Exposure Compensation (EV)"
+msgstr "Kompenzace expozice (EV)"
 
 #: EXIFFILTER_FILETYPE
 msgid "File Type"
@@ -732,7 +736,7 @@ msgstr "G"
 msgid "L"
 msgstr "L"
 
-#: HISTOGRAM_BUTTON_RAW
+#: HISTOGRAM_BUTTON_RAW,MAIN_TAB_RAW
 msgid "Raw"
 msgstr "Raw"
 
@@ -765,8 +769,8 @@ msgid "Show/Hide CIELAB Luminance histogram"
 msgstr "Skrýt /zobrazit CIELAB histogram jasu"
 
 #: HISTOGRAM_TOOLTIP_RAW
-msgid "Show/Hide RAW histogram"
-msgstr "Skrýt /zobrazit RAW histogram"
+msgid "Show/Hide raw histogram"
+msgstr "Skrýt /zobrazit raw histogram"
 
 #: HISTOGRAM_TOOLTIP_R
 msgid "Show/Hide RED histogram"
@@ -862,11 +866,11 @@ msgstr "Omezení saturace"
 
 #: HISTORY_MSG_114
 msgid "DCB Iterations"
-msgstr "Iterace DCB"
+msgstr "Průchody DCB"
 
 #: HISTORY_MSG_115
 msgid "False color iterations"
-msgstr "Iterace chybných barev"
+msgstr "Průchody chybných barev"
 
 #: HISTORY_MSG_116
 msgid "Enhanced DCB"
@@ -986,7 +990,7 @@ msgstr "Úroveň černé: Zelené zároveň"
 
 #: HISTORY_MSG_142
 msgid "Edges sharpening - iterations"
-msgstr "Doostření hran - počet opakování"
+msgstr "Doostření hran - počet průchodů"
 
 #: HISTORY_MSG_143
 msgid "Edges sharpening - quantity"
@@ -1052,9 +1056,45 @@ msgstr "Živost - propojit pastelové a saturované tóny"
 msgid "Vibrance - Pastel/Saturated threshold"
 msgstr "Živost - práh mezi pastelovými a saturovanými tóny"
 
+#: HISTORY_MSG_158,TP_EPD_STRENGTH,TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr "Síla"
+
+#: HISTORY_MSG_159,TP_EPD_EDGESTOPPING
+msgid "Edge stopping"
+msgstr "Zarážka hran"
+
 #: HISTORY_MSG_16
 msgid "Luminance Black"
 msgstr "Jas Černá"
+
+#: HISTORY_MSG_160,TP_EPD_SCALE,TP_RESIZE_SCALE,ZOOMBAR_SCALE
+msgid "Scale"
+msgstr "Měřítko"
+
+#: HISTORY_MSG_161,TP_EPD_REWEIGHTINGITERATES
+msgid "Reweighting iterates"
+msgstr "Počet průchodů převážení"
+
+#: HISTORY_MSG_162,PARTIALPASTE_EPD,TP_EPD_LABEL
+msgid "Tone Mapping"
+msgstr "Mapování tónů"
+
+#: HISTORY_MSG_163
+msgid "RGB Curves - R"
+msgstr "RGB křivky - R"
+
+#: HISTORY_MSG_164
+msgid "RGB Curves - G"
+msgstr "RGB křivky - G"
+
+#: HISTORY_MSG_165
+msgid "RGB Curves - B"
+msgstr "RGB křivky - B"
+
+#: HISTORY_MSG_166
+msgid "Neutral levels"
+msgstr "Neutrální úrovně"
 
 #: HISTORY_MSG_17
 msgid "Luminance Highlight Compr."
@@ -1130,7 +1170,7 @@ msgstr "Útlum dekonvoluce"
 
 #: HISTORY_MSG_33
 msgid "Deconvolution Iterations"
-msgstr "Počet opakování dekonvoluce"
+msgstr "Počet průchodů dekonvoluce"
 
 #: HISTORY_MSG_37,TP_COLORBOOST_LABEL
 msgid "Color Boost"
@@ -1322,7 +1362,7 @@ msgstr "Změna rozměrů šířka"
 
 #: HISTORY_MSG_8
 msgid "Exposure Compensation"
-msgstr "Expoziční korekce"
+msgstr "Kompenzace expozice"
 
 #: HISTORY_MSG_80
 msgid "Resize height"
@@ -1844,10 +1884,6 @@ msgstr "<b>Alt-m</b>"
 msgid "<b>Alt-r</b>"
 msgstr "<b>Alt-r</b>"
 
-#: MAIN_TAB_RAW
-msgid "RAW"
-msgstr "RAW"
-
 #: MAIN_TAB_TAGGING
 msgid "Tagging"
 msgstr "Štítky"
@@ -1881,8 +1917,8 @@ msgstr ""
 "užitečné pro posouzení výsledného efektu po použití více nástrojů.\n"
 "Navíc může být porovnání provedeno proti kterémukoli stavu v historii.\n"
 "\n"
-"<b>Odemknout</b>: pohled <b>Před</b> bude následovat pohled <b>Poté</b>, vždy "
-"jen o jeden krok zpět - zobrazí efekt právě použitého nástroje."
+"<b>Odemknout</b>: pohled <b>Před</b> bude následovat pohled <b>Poté</b>, "
+"vždy jen o jeden krok zpět - zobrazí efekt právě použitého nástroje."
 
 #: MAIN_TOOLTIP_HIDEFP
 msgid "Show/hide the bottom panel (directory and file browser) <b>F</b>"
@@ -1903,6 +1939,30 @@ msgstr "Zvýraznit oříznuté stíny (Klávesa >)"
 #: MAIN_TOOLTIP_PREFERENCES
 msgid "Set preferences"
 msgstr "Změnit volby"
+
+#: MAIN_TOOLTIP_PREVIEWB
+msgid "Preview <b>Blue channel</b>"
+msgstr "Náhled <b>modrého kanálu</b>"
+
+#: MAIN_TOOLTIP_PREVIEWFOCUSMASK
+msgid "Preview <b>Focus Mask</b>"
+msgstr "Náhled <b>Masky zaostření</b>"
+
+#: MAIN_TOOLTIP_PREVIEWG
+msgid "Preview <b>Green channel</b>"
+msgstr "Náhled <b>zeleného kanálu</b>"
+
+#: MAIN_TOOLTIP_PREVIEWL
+msgid ""
+"Preview <b>Luminosity</b>\n"
+"0.299*R + 0.587*G + 0.114*B"
+msgstr ""
+"Náhled <b>světlosti</b>\n"
+"0.299*R + 0.587*G + 0.114*B"
+
+#: MAIN_TOOLTIP_PREVIEWR
+msgid "Preview <b>Red channel</b>"
+msgstr "Náhled <b>červeného kanálu</b>"
 
 #: MAIN_TOOLTIP_QINFO
 msgid "Quick info on the image <b>I</b>"
@@ -1927,6 +1987,10 @@ msgstr "Zobrazit/skrýt pravý panel <b>Alt-l</b>"
 #: MAIN_TOOLTIP_SHOWHIDETP1
 msgid "Show/hide the top panel <b>Shift-l</b>"
 msgstr "Zobrazit/skrýt horní panel <b>Shift-l</b>"
+
+#: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
+msgid "Threshold"
+msgstr "Práh"
 
 #: MAIN_TOOLTIP_TOGGLE
 msgid "Toggle <b>before</b>/<b>after</b> view <b>B</b>"
@@ -2178,7 +2242,7 @@ msgstr "Aplikovat kroky rozšiřeného DCB"
 
 #: PARTIALPASTE_RAW_DCBITERATIONS,TP_RAW_DCBITERATIONS
 msgid "Number of DCB iterations"
-msgstr "Počet kroků DCB"
+msgstr "Počet průchodů DCB"
 
 #: PARTIALPASTE_RAW_DMETHOD
 msgid "Demosaic Method"
@@ -2207,6 +2271,10 @@ msgstr "Nastavení Raw"
 #: PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
 msgid "Resize"
 msgstr "Změna velikosti"
+
+#: PARTIALPASTE_RGBCURVES
+msgid "RGB curves"
+msgstr "RGB křivky"
 
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
@@ -2422,8 +2490,8 @@ msgid "External editor"
 msgstr "Externí editor"
 
 #: PREFERENCES_FBROWSEROPTS
-msgid "File Browser Options"
-msgstr "Volby prohlížeče souborů"
+msgid "File Browser / Thumbnail Options"
+msgstr "Volby prohlížeče souborů / náhledů"
 
 #: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
 msgid "Single row file browser toolbar (de-select for low res display)"
@@ -2448,8 +2516,8 @@ msgid "For image files"
 msgstr "Pro obrázkové soubory"
 
 #: PREFERENCES_FORRAW
-msgid "For RAW files"
-msgstr "Pro RAW soubory"
+msgid "For raw files"
+msgstr "Pro raw soubory"
 
 #: PREFERENCES_GIMPPATH
 msgid "GIMP installation directory"
@@ -2492,8 +2560,8 @@ msgid "Relative Colorimetric"
 msgstr "Relativní kolorimetrie"
 
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
-msgid "Show RAW internal thumbnail if unedited"
-msgstr "Ukázat interní náhledy RAW nezpracovaných snímků"
+msgid "Show raw internal thumbnail if unedited"
+msgstr "Ukázat interní raw náhledy u needitovaných snímků"
 
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use OS language setting"
@@ -2781,9 +2849,13 @@ msgstr "Zobrazovat základní EXIF informace"
 msgid "Show date and time"
 msgstr "Zobrazovat datum a čas"
 
+#: PREFERENCES_SHOWEXPOSURECOMPENSATION
+msgid "Append exposure compensation"
+msgstr "Přidat kompenzaci expozice"
+
 #: PREFERENCES_SHOWONLYRAW
-msgid "Show only RAW files"
-msgstr "Zobrazovat pouze soubory RAW"
+msgid "Show only raw files"
+msgstr "Zobrazovat pouze soubory raw"
 
 #: PREFERENCES_SHOWPROFILESELECTOR
 msgid "Show profile selector"
@@ -3080,8 +3152,8 @@ msgid ""
 msgstr ""
 "Vyznačení <b>roviny</b> / <b>rotace</b>  <b>S</b> \n"
 "\n"
-"Zobrazení míry rotace pomocí vodící linky na náhledu snímky. Úhel rotace "
-"je zobrazen vedle vodící linky. Střed rotace je geometrický střed snímku."
+"Zobrazení míry rotace pomocí vodící linky na náhledu snímky. Úhel rotace je "
+"zobrazen vedle vodící linky. Střed rotace je geometrický střed snímku."
 
 #: TOOLBAR_TOOLTIP_WB
 msgid "Spot white balance <b>W</b>"
@@ -3244,10 +3316,6 @@ msgstr "Automatický výběr"
 msgid "Dark Frame"
 msgstr "Tmavý snímek"
 
-#: TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
-msgid "Threshold"
-msgstr "Práh"
-
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr "Barevnost"
@@ -3272,7 +3340,7 @@ msgstr "Kontrast+"
 msgid "Finest"
 msgstr "Nejjemnější"
 
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_NEUTRAL
 msgid "Neutral"
 msgstr "Neutrální"
 
@@ -3308,9 +3376,21 @@ msgstr " Po interpolaci (před RGB konverzí)"
 msgid "Raw white-black point"
 msgstr "Raw bílý-černý bod"
 
+#: TP_EXPOSURE_AUTOLEVELS_TIP
+msgid ""
+"Toggle execution of Auto Levels to automatically set parameter values based "
+"on image analysis  "
+msgstr ""
+"Přepne provedení automatických úrovní na automatickou sadu hodnot parametrů "
+"založených na analýze obrázku  "
+
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
 msgstr "Úrovně automaticky"
+
+#: TP_EXPOSURE_CLIP_TIP
+msgid "The fraction of pixels to be clipped in auto levels operation"
+msgstr "Podíl klipujících bodů v automatických operacích úrovní"
 
 #: TP_EXPOSURE_CLIP
 msgid "Clip"
@@ -3475,8 +3555,8 @@ msgid "Select your own ICC color profile file for the camera"
 msgstr "Vyberte vlastní ICC profil pro fotoaparát"
 
 #: TP_ICM_INPUTEMBEDDED_TOOLTIP
-msgid "Use color profile embedded in non RAW files"
-msgstr "Použít barevný profil vložený do jiných než RAW souborů"
+msgid "Use color profile embedded in non-raw files"
+msgstr "Použít barevný profil vložený do ne-RAW souborů"
 
 #: TP_ICM_INPUTNONE_TOOLTIP
 msgid "Use no color profile at all. Use only in special cases."
@@ -3513,6 +3593,10 @@ msgstr "Objektiv / Geometrie"
 #: TP_LUMADENOISE_LABEL
 msgid "Luminance Noise Reduction"
 msgstr "Redukce šumu v jasech"
+
+#: TP_NEUTRAL_TIP
+msgid "Reset exposure controls to neutral values"
+msgstr "Vrátí nastavení expozice na neutrální hodnoty"
 
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
@@ -3622,10 +3706,6 @@ msgstr "Lanczos"
 msgid "Nearest"
 msgstr "Nejbližší"
 
-#: TP_RESIZE_SCALE,ZOOMBAR_SCALE
-msgid "Scale"
-msgstr "Měřítko"
-
 #: TP_RESIZE_SPECIFY
 msgid "Specify:"
 msgstr "Zvolte:"
@@ -3637,6 +3717,10 @@ msgstr "Šířka"
 #: TP_RESIZE_W
 msgid "W:"
 msgstr "Š:"
+
+#: TP_RGBCURVES_LABEL
+msgid "RGB Curves"
+msgstr "RGB křivky"
 
 #: TP_ROTATE_DEGREE
 msgid "Degree"
@@ -3664,7 +3748,7 @@ msgstr "Kvantita"
 
 #: TP_SHARPENEDGE_PASSES,TP_SHARPENING_RLD_ITERATIONS
 msgid "Iterations"
-msgstr "Počet opakování"
+msgstr "Počet průchodů"
 
 #: TP_SHARPENEDGE_THREE
 msgid "Luminance only"
@@ -3738,25 +3822,145 @@ msgstr "Střed Y"
 msgid "Center"
 msgstr "Střed"
 
-#: TP_VIGNETTING_STRENGTH
-msgid "Strength"
-msgstr "Síla"
-
 #: TP_WBALANCE_AUTO
 msgid "Auto"
 msgstr "Automaticky"
+
+#: TP_WBALANCE_CLOUDY
+msgid "Cloudy"
+msgstr "Zataženo"
+
+#: TP_WBALANCE_DAYLIGHT
+msgid "Daylight (sunny)"
+msgstr "Denní světlo (slunečno)"
+
+#: TP_WBALANCE_FLASH_HEADER
+msgid "Flash"
+msgstr "Blesk"
+
+#: TP_WBALANCE_FLASH55
+msgid "Leica"
+msgstr "Leica"
+
+#: TP_WBALANCE_FLASH60
+msgid "Standard, Canon, Pentax, Olympus"
+msgstr "Standard, Canon, Pentax, Olympus"
+
+#: TP_WBALANCE_FLASH65
+msgid "Nikon, Panasonic, Sony, Minolta"
+msgstr "Nikon, Panasonic, Sony, Minolta"
+
+#: TP_WBALANCE_FLUO_HEADER
+msgid "Fluorescent"
+msgstr "Fluorescenční"
+
+#: TP_WBALANCE_FLUO1
+msgid "F1 - Daylight"
+msgstr "F1 - Denní světlo"
+
+#: TP_WBALANCE_FLUO10
+msgid "F10 - Philips TL85"
+msgstr "F10 - Philips TL85"
+
+#: TP_WBALANCE_FLUO11
+msgid "F11 - Philips TL84"
+msgstr "F11 - Philips TL84"
+
+#: TP_WBALANCE_FLUO12
+msgid "F12 - Philips TL83"
+msgstr "F12 - Philips TL83"
+
+#: TP_WBALANCE_FLUO2
+msgid "F2 - Cool white"
+msgstr "F2 - Studená bílá"
+
+#: TP_WBALANCE_FLUO3
+msgid "F3 - White"
+msgstr "F3 - Bílá"
+
+#: TP_WBALANCE_FLUO4
+msgid "F4 - Warm white"
+msgstr "F4 - Teplá bílá"
+
+#: TP_WBALANCE_FLUO5
+msgid "F5 - Daylight"
+msgstr "F5 - Denní světlo"
+
+#: TP_WBALANCE_FLUO6
+msgid "F6 - Lite white"
+msgstr "F6 - Lehká bílá"
+
+#: TP_WBALANCE_FLUO7
+msgid "F7 - D65 Daylight simulator"
+msgstr "F7 - D65 Simulace denního světla"
+
+#: TP_WBALANCE_FLUO8
+msgid "F8 - D50 / Sylvania F40 Design"
+msgstr "F8 - D50 / Sylvania F40 Design"
+
+#: TP_WBALANCE_FLUO9
+msgid "F9 - Cool white deluxe"
+msgstr "F9 - Studená bílá deluxe"
 
 #: TP_WBALANCE_GREEN
 msgid "Tint"
 msgstr "Odstín"
 
+#: TP_WBALANCE_GTI
+msgid "GTI"
+msgstr "GTI"
+
+#: TP_WBALANCE_HMI
+msgid "HMI"
+msgstr "HMI"
+
+#: TP_WBALANCE_JUDGEIII
+msgid "JudgeIII"
+msgstr "JudgeIII"
+
 #: TP_WBALANCE_LABEL
 msgid "White Balance"
 msgstr "Vyvážení bílé"
 
+#: TP_WBALANCE_LAMP_HEADER
+msgid "Lamp"
+msgstr "Žárovka"
+
+#: TP_WBALANCE_LED_CRS
+msgid "CRS SP12 WWMR16"
+msgstr "CRS SP12 WWMR16"
+
+#: TP_WBALANCE_LED_HEADER
+msgid "LED"
+msgstr "LED"
+
+#: TP_WBALANCE_LED_LSI
+msgid "LSI Lumelex 2040"
+msgstr "LSI Lumelex 2040"
+
+#: TP_WBALANCE_SHADE
+msgid "Shade"
+msgstr "Odstín"
+
 #: TP_WBALANCE_SIZE
 msgid "Size:"
 msgstr "Rozměr:"
+
+#: TP_WBALANCE_SOLUX35
+msgid "Solux 3500K"
+msgstr "Solux 3500K"
+
+#: TP_WBALANCE_SOLUX41
+msgid "Solux 4100K"
+msgstr "Solux 4100K"
+
+#: TP_WBALANCE_SOLUX47_NG
+msgid "Solux 4700K (Nat. Gallery)"
+msgstr "Solux 4700K (Nat. Gallery)"
+
+#: TP_WBALANCE_SOLUX47
+msgid "Solux 4700K (vendor)"
+msgstr "Solux 4700K (vendor)"
 
 #: TP_WBALANCE_SPOTWB
 msgid "Spot WB"
@@ -3765,6 +3969,10 @@ msgstr "Bodové vyvážení"
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"
 msgstr "Teplota"
+
+#: TP_WBALANCE_TUNGSTEN
+msgid "Tungsten"
+msgstr "Wolfram"
 
 #: ZOOMBAR_HUGE
 msgid "Huge"
@@ -3809,6 +4017,12 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "RAW"
+#~ msgstr "RAW"
+
+#~ msgid "For RAW files"
+#~ msgstr "Pro RAW soubory"
 
 #~ msgid "Straight line selection <b>S</b>"
 #~ msgstr "Vyznačení roviny <b>S</b>"

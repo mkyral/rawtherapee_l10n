@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-11-12 09:52+0100\n"
+"POT-Creation-Date: 2011-12-29 18:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,6 +143,10 @@ msgstr ""
 
 #: EXIFFILTER_DIALOGLABEL,FILEBROWSER_EXIFFILTERLABEL
 msgid "Exif Filter"
+msgstr ""
+
+#: EXIFFILTER_EXPOSURECOMPENSATION
+msgid "Exposure Compensation (EV)"
 msgstr ""
 
 #: EXIFFILTER_FILETYPE
@@ -713,7 +717,7 @@ msgstr ""
 msgid "L"
 msgstr ""
 
-#: HISTOGRAM_BUTTON_RAW
+#: HISTOGRAM_BUTTON_RAW,MAIN_TAB_RAW
 msgid "Raw"
 msgstr ""
 
@@ -742,7 +746,7 @@ msgid "Show/Hide CIELAB Luminance histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_RAW
-msgid "Show/Hide RAW histogram"
+msgid "Show/Hide raw histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_R
@@ -1029,8 +1033,44 @@ msgstr ""
 msgid "Vibrance - Pastel/Saturated threshold"
 msgstr ""
 
+#: HISTORY_MSG_158,TP_EPD_STRENGTH,TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr ""
+
+#: HISTORY_MSG_159,TP_EPD_EDGESTOPPING
+msgid "Edge stopping"
+msgstr ""
+
 #: HISTORY_MSG_16
 msgid "Luminance Black"
+msgstr ""
+
+#: HISTORY_MSG_160,TP_EPD_SCALE,TP_RESIZE_SCALE,ZOOMBAR_SCALE
+msgid "Scale"
+msgstr ""
+
+#: HISTORY_MSG_161,TP_EPD_REWEIGHTINGITERATES
+msgid "Reweighting iterates"
+msgstr ""
+
+#: HISTORY_MSG_162,PARTIALPASTE_EPD,TP_EPD_LABEL
+msgid "Tone Mapping"
+msgstr ""
+
+#: HISTORY_MSG_163
+msgid "RGB Curves - R"
+msgstr ""
+
+#: HISTORY_MSG_164
+msgid "RGB Curves - G"
+msgstr ""
+
+#: HISTORY_MSG_165
+msgid "RGB Curves - B"
+msgstr ""
+
+#: HISTORY_MSG_166
+msgid "Neutral levels"
 msgstr ""
 
 #: HISTORY_MSG_17
@@ -1797,10 +1837,6 @@ msgstr ""
 msgid "<b>Alt-r</b>"
 msgstr ""
 
-#: MAIN_TAB_RAW
-msgid "RAW"
-msgstr ""
-
 #: MAIN_TAB_TAGGING
 msgid "Tagging"
 msgstr ""
@@ -1841,6 +1877,26 @@ msgstr ""
 msgid "Set preferences"
 msgstr ""
 
+#: MAIN_TOOLTIP_PREVIEWB
+msgid "Preview <b>Blue channel</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWFOCUSMASK
+msgid "Preview <b>Focus Mask</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWG
+msgid "Preview <b>Green channel</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWL
+msgid "Preview <b>Luminosity</b>\n0.299*R + 0.587*G + 0.114*B"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWR
+msgid "Preview <b>Red channel</b>"
+msgstr ""
+
 #: MAIN_TOOLTIP_QINFO
 msgid "Quick info on the image <b>I</b>"
 msgstr ""
@@ -1863,6 +1919,10 @@ msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDETP1
 msgid "Show/hide the top panel <b>Shift-l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
+msgid "Threshold"
 msgstr ""
 
 #: MAIN_TOOLTIP_TOGGLE
@@ -2145,6 +2205,10 @@ msgstr ""
 msgid "Resize"
 msgstr ""
 
+#: PARTIALPASTE_RGBCURVES
+msgid "RGB curves"
+msgstr ""
+
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
 msgstr ""
@@ -2334,7 +2398,7 @@ msgid "External editor"
 msgstr ""
 
 #: PREFERENCES_FBROWSEROPTS
-msgid "File Browser Options"
+msgid "File Browser / Thumbnail Options"
 msgstr ""
 
 #: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
@@ -2358,7 +2422,7 @@ msgid "For image files"
 msgstr ""
 
 #: PREFERENCES_FORRAW
-msgid "For RAW files"
+msgid "For raw files"
 msgstr ""
 
 #: PREFERENCES_GIMPPATH
@@ -2402,7 +2466,7 @@ msgid "Relative Colorimetric"
 msgstr ""
 
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
-msgid "Show RAW internal thumbnail if unedited"
+msgid "Show raw internal thumbnail if unedited"
 msgstr ""
 
 #: PREFERENCES_LANGAUTODETECT
@@ -2565,8 +2629,12 @@ msgstr ""
 msgid "Show date and time"
 msgstr ""
 
+#: PREFERENCES_SHOWEXPOSURECOMPENSATION
+msgid "Append exposure compensation"
+msgstr ""
+
 #: PREFERENCES_SHOWONLYRAW
-msgid "Show only RAW files"
+msgid "Show only raw files"
 msgstr ""
 
 #: PREFERENCES_SHOWPROFILESELECTOR
@@ -3014,10 +3082,6 @@ msgstr ""
 msgid "Dark Frame"
 msgstr ""
 
-#: TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
-msgid "Threshold"
-msgstr ""
-
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr ""
@@ -3042,7 +3106,7 @@ msgstr ""
 msgid "Finest"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_NEUTRAL
 msgid "Neutral"
 msgstr ""
 
@@ -3074,8 +3138,16 @@ msgstr ""
 msgid "Raw white-black point"
 msgstr ""
 
+#: TP_EXPOSURE_AUTOLEVELS_TIP
+msgid "Toggle execution of Auto Levels to automatically set parameter values based on image analysis  "
+msgstr ""
+
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
+msgstr ""
+
+#: TP_EXPOSURE_CLIP_TIP
+msgid "The fraction of pixels to be clipped in auto levels operation"
 msgstr ""
 
 #: TP_EXPOSURE_CLIP
@@ -3236,7 +3308,7 @@ msgid "Select your own ICC color profile file for the camera"
 msgstr ""
 
 #: TP_ICM_INPUTEMBEDDED_TOOLTIP
-msgid "Use color profile embedded in non RAW files"
+msgid "Use color profile embedded in non-raw files"
 msgstr ""
 
 #: TP_ICM_INPUTNONE_TOOLTIP
@@ -3273,6 +3345,10 @@ msgstr ""
 
 #: TP_LUMADENOISE_LABEL
 msgid "Luminance Noise Reduction"
+msgstr ""
+
+#: TP_NEUTRAL_TIP
+msgid "Reset exposure controls to neutral values"
 msgstr ""
 
 #: TP_PREPROCESS_LABEL
@@ -3383,10 +3459,6 @@ msgstr ""
 msgid "Nearest"
 msgstr ""
 
-#: TP_RESIZE_SCALE,ZOOMBAR_SCALE
-msgid "Scale"
-msgstr ""
-
 #: TP_RESIZE_SPECIFY
 msgid "Specify:"
 msgstr ""
@@ -3397,6 +3469,10 @@ msgstr ""
 
 #: TP_RESIZE_W
 msgid "W:"
+msgstr ""
+
+#: TP_RGBCURVES_LABEL
+msgid "RGB Curves"
 msgstr ""
 
 #: TP_ROTATE_DEGREE
@@ -3499,24 +3575,144 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: TP_VIGNETTING_STRENGTH
-msgid "Strength"
-msgstr ""
-
 #: TP_WBALANCE_AUTO
 msgid "Auto"
+msgstr ""
+
+#: TP_WBALANCE_CLOUDY
+msgid "Cloudy"
+msgstr ""
+
+#: TP_WBALANCE_DAYLIGHT
+msgid "Daylight (sunny)"
+msgstr ""
+
+#: TP_WBALANCE_FLASH_HEADER
+msgid "Flash"
+msgstr ""
+
+#: TP_WBALANCE_FLASH55
+msgid "Leica"
+msgstr ""
+
+#: TP_WBALANCE_FLASH60
+msgid "Standard, Canon, Pentax, Olympus"
+msgstr ""
+
+#: TP_WBALANCE_FLASH65
+msgid "Nikon, Panasonic, Sony, Minolta"
+msgstr ""
+
+#: TP_WBALANCE_FLUO_HEADER
+msgid "Fluorescent"
+msgstr ""
+
+#: TP_WBALANCE_FLUO1
+msgid "F1 - Daylight"
+msgstr ""
+
+#: TP_WBALANCE_FLUO10
+msgid "F10 - Philips TL85"
+msgstr ""
+
+#: TP_WBALANCE_FLUO11
+msgid "F11 - Philips TL84"
+msgstr ""
+
+#: TP_WBALANCE_FLUO12
+msgid "F12 - Philips TL83"
+msgstr ""
+
+#: TP_WBALANCE_FLUO2
+msgid "F2 - Cool white"
+msgstr ""
+
+#: TP_WBALANCE_FLUO3
+msgid "F3 - White"
+msgstr ""
+
+#: TP_WBALANCE_FLUO4
+msgid "F4 - Warm white"
+msgstr ""
+
+#: TP_WBALANCE_FLUO5
+msgid "F5 - Daylight"
+msgstr ""
+
+#: TP_WBALANCE_FLUO6
+msgid "F6 - Lite white"
+msgstr ""
+
+#: TP_WBALANCE_FLUO7
+msgid "F7 - D65 Daylight simulator"
+msgstr ""
+
+#: TP_WBALANCE_FLUO8
+msgid "F8 - D50 / Sylvania F40 Design"
+msgstr ""
+
+#: TP_WBALANCE_FLUO9
+msgid "F9 - Cool white deluxe"
 msgstr ""
 
 #: TP_WBALANCE_GREEN
 msgid "Tint"
 msgstr ""
 
+#: TP_WBALANCE_GTI
+msgid "GTI"
+msgstr ""
+
+#: TP_WBALANCE_HMI
+msgid "HMI"
+msgstr ""
+
+#: TP_WBALANCE_JUDGEIII
+msgid "JudgeIII"
+msgstr ""
+
 #: TP_WBALANCE_LABEL
 msgid "White Balance"
 msgstr ""
 
+#: TP_WBALANCE_LAMP_HEADER
+msgid "Lamp"
+msgstr ""
+
+#: TP_WBALANCE_LED_CRS
+msgid "CRS SP12 WWMR16"
+msgstr ""
+
+#: TP_WBALANCE_LED_HEADER
+msgid "LED"
+msgstr ""
+
+#: TP_WBALANCE_LED_LSI
+msgid "LSI Lumelex 2040"
+msgstr ""
+
+#: TP_WBALANCE_SHADE
+msgid "Shade"
+msgstr ""
+
 #: TP_WBALANCE_SIZE
 msgid "Size:"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX35
+msgid "Solux 3500K"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX41
+msgid "Solux 4100K"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX47_NG
+msgid "Solux 4700K (Nat. Gallery)"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX47
+msgid "Solux 4700K (vendor)"
 msgstr ""
 
 #: TP_WBALANCE_SPOTWB
@@ -3525,6 +3721,10 @@ msgstr ""
 
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"
+msgstr ""
+
+#: TP_WBALANCE_TUNGSTEN
+msgid "Tungsten"
 msgstr ""
 
 #: ZOOMBAR_HUGE
