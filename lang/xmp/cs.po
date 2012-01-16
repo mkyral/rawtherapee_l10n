@@ -1,17 +1,17 @@
-# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011.
+# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
 "POT-Creation-Date: 2011-12-30 12:41+0100\n"
-"PO-Revision-Date: 2011-12-29 19:27+0100\n"
+"PO-Revision-Date: 2012-01-10 08:17+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf8\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ABOUT_TAB_BUILD
@@ -286,6 +286,10 @@ msgstr "Cache"
 msgid "Clear profile"
 msgstr "Vymazat profil"
 
+#: FILEBROWSER_COPYIPTC
+msgid "Copy IPTC metadata"
+msgstr "Kopírovat IPTC metadata"
+
 #: FILEBROWSER_COPYPROFILE
 msgid "Copy profile"
 msgstr "Kopírovat profil"
@@ -358,9 +362,17 @@ msgstr "Přesunout do složky Flat-Field"
 msgid "New name:"
 msgstr "Nové jméno:"
 
+#: FILEBROWSER_PARTIALPASTEIPTC
+msgid "Partial paste IPTC"
+msgstr "Částečně vložit IPCT"
+
 #: FILEBROWSER_PARTIALPASTEPROFILE
 msgid "Partial paste"
 msgstr "Vložit částečně"
+
+#: FILEBROWSER_PASTEIPTC
+msgid "Paste IPTC metadata"
+msgstr "Vložit IPTC metadata"
 
 #: FILEBROWSER_PASTEPROFILE
 msgid "Paste profile"
@@ -405,6 +417,10 @@ msgstr "Kopírovat do..."
 #: FILEBROWSER_POPUPFILEOPERATIONS
 msgid "File Operations"
 msgstr "Souborové operace"
+
+#: FILEBROWSER_POPUPIPTCOPERATIONS
+msgid "IPTC metadata"
+msgstr "IPTC metadata"
 
 #: FILEBROWSER_POPUPMOVEEND
 msgid "Move to end of queue"
@@ -515,6 +531,10 @@ msgstr "Přejmenování souboru"
 #: FILEBROWSER_RENAMEDLGMSG
 msgid "Rename file \"%1\" to:"
 msgstr "Přejmenovat soubor \"%1\" na:"
+
+#: FILEBROWSER_RESYNCIPTC
+msgid "Reset IPTC metadata"
+msgstr "Smazat IPTC metadata"
 
 #: FILEBROWSER_SELECTDARKFRAME
 msgid "Select dark frame..."
@@ -1080,22 +1100,6 @@ msgstr "Počet průchodů převážení"
 msgid "Tone Mapping"
 msgstr "Mapování tónů"
 
-#: HISTORY_MSG_163
-msgid "RGB Curves - R"
-msgstr "RGB křivky - R"
-
-#: HISTORY_MSG_164
-msgid "RGB Curves - G"
-msgstr "RGB křivky - G"
-
-#: HISTORY_MSG_165
-msgid "RGB Curves - B"
-msgstr "RGB křivky - B"
-
-#: HISTORY_MSG_166
-msgid "Neutral levels"
-msgstr "Neutrální úrovně"
-
 #: HISTORY_MSG_17
 msgid "Luminance Highlight Compr."
 msgstr "Jas Komprese světel"
@@ -1520,191 +1524,804 @@ msgstr "Pracovní barevný prostor"
 msgid "Detail view"
 msgstr "Detailní pohled"
 
-#: IPTCPANEL_AUTHORHINT
+#: IPTC_ARTWORKCREATOR_HINT
 msgid ""
-"Name of the creator of the object, e.g. writer, photographer or graphic "
-"artist (By-line)."
-msgstr "Jméno autora, například spisovatele, fotografa nebo grafika (By-line)."
+"Contains the name of the artist who has created artwork or an object in the "
+"image. In cases where the artist could or should not be identified the name "
+"of a company or organisation may be appropriate."
+msgstr ""
+"Obsahuje jméno umělce jenž vytvořil umělecké dílo nebo objekt na snímku. V "
+"případě, že umělec nemůže být nebo by neměl být identifikován je dostatečné "
+"jméno společnosti nebo organizace."
 
-#: IPTCPANEL_AUTHORSPOSITIONHINT
-msgid "Title of the creator or creators of the object (By-line Title)."
-msgstr "Titul/pozice autora nebo autorů obrázku (By-line Title)."
+#: IPTC_ARTWORKCREATOR
+msgid "Artwork creator"
+msgstr "Umělecké dílo"
 
-#: IPTCPANEL_AUTHORSPOSITION
-msgid "Author's position"
-msgstr "Autorova pozice"
+#: IPTC_ARTWORKDATE_HINT
+msgid ""
+"Designates the date and optionally the time the artwork or object in the "
+"image was created. This relates to artwork or objects with associated "
+"intellectual property rights"
+msgstr ""
+"Určuje datum a volitelně i čas, kdy bylo dílo nebo objekt na snímku vytvořen. "
+"Toto se vztahuje k dílu nebo objektu s připojenými právy intelektuálního "
+"vlastnictví"
 
-#: IPTCPANEL_AUTHOR
+#: IPTC_ARTWORKDATE
+msgid "Artwork creation date"
+msgstr "Datum uměleckého díla"
+
+#: IPTC_ARTWORKNUMBER_HINT
+msgid ""
+"The inventory number issued by the organisation or body holding and "
+"registering the artwork or object in the image."
+msgstr ""
+"Inventární číslo vydané organizací nebo držitelem díla a registrace díla nebo "
+"objektu na snímku."
+
+#: IPTC_ARTWORKNUMBER
+msgid "Source Inventory Number"
+msgstr "Inventární číslo zdroje"
+
+#: IPTC_ARTWORKRIGHTS_HINT
+msgid ""
+"Contains any necessary copyright notice for claiming the intellectual "
+"property for artwork or an object in the image and should identify the "
+"current owner of the copyright of this work with associated intellectual "
+"property rights"
+msgstr ""
+"Obsahuje všechna nezbytná upozornění autorského práva k nároku na "
+"intelektuální vlastnictví "
+"díla nebo objektu na fotografii a měl by identifikovat vlastníka copyrightu "
+"tohoto díla s přidruženými právy intelektuálního vlastnictví"
+
+#: IPTC_ARTWORKRIGHTS
+msgid "Artwork copyrights"
+msgstr "Copyright díla"
+
+#: IPTC_ARTWORKSOURCE_HINT
+msgid ""
+"The organisation or body holding and registering the artwork or object in "
+"the image for inventory purposes."
+msgstr ""
+"Organizace nebo držitel díla a registrace díla nebo objektu na snímku pro "
+"inventarizační účely."
+
+#: IPTC_ARTWORKSOURCE
+msgid "Artwork source"
+msgstr "Zdroj díla"
+
+#: IPTC_ARTWORKTITLE_HINT
+msgid ""
+"The verbal and human readable name of the artwork or object in this image"
+msgstr "Slovní a lidsky čitelné jméno díla nebo objektu na snímku"
+
+#: IPTC_ARTWORKTITLE
+msgid "Artwork title"
+msgstr "Titul díla"
+
+#: IPTC_AUTHOR_HINT
+msgid ""
+"Contains the name of the photographer, but in cases where the photographer "
+"should not be identified the name of a company or organisation may be "
+"appropriate. IIM 2:80 By line"
+msgstr ""
+"Obsahuje jméno fotografa. V případě, že jméno fotografa nemá být zveřejněno "
+"je dostatečné uvést jméno společnosti nebo organizace. Podtitulek IIM 2:80"
+
+#: IPTC_AUTHOR_POS_HINT
+msgid "The job title of the photographer IIM 2:85 By line title"
+msgstr "Fotografův titulek zakázky. Podtitulek IIM 2:85"
+
+#: IPTC_AUTHOR_POS
+msgid "Creator's job title"
+msgstr "Autorský titulek zakázky"
+
+#: IPTC_AUTHOR
 msgid "Author"
 msgstr "Autor"
 
-#: IPTCPANEL_CAPTIONHINT
-msgid "A textual description of the data (Caption - Abstract)."
-msgstr "Textový popis dat (Popis - Shrnutí)"
+#: IPTC_CATEGORY_HINT
+msgid "Category IIM 2:15 (deprecated)"
+msgstr "Kategorie IIM 2:15 (zavrženo)"
 
-#: IPTCPANEL_CAPTIONWRITERHINT
-msgid ""
-"The name of the person involved in the writing, editing or correcting the "
-"image or caption/abstract (Writer - Editor)."
-msgstr ""
-"Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
-"(Autor - Editor)"
-
-#: IPTCPANEL_CAPTIONWRITER
-msgid "Caption Writer"
-msgstr "Popisovač"
-
-#: IPTCPANEL_CAPTION
-msgid "Caption"
-msgstr "Popis"
-
-#: IPTCPANEL_CATEGORYHINT
-msgid ""
-"Identifies the subject of the image in the opinion of the provider "
-"(Category)."
-msgstr "Obsah obrázku dle názoru dodavatele (Kategorie)."
-
-#: IPTCPANEL_CATEGORY
+#: IPTC_CATEGORY
 msgid "Category"
 msgstr "Kategorie"
 
-#: IPTCPANEL_CITYHINT
-msgid "City of image origin (City)."
-msgstr "Místo vzniku obrázku (Město)."
+#: IPTC_CITY_HINT
+msgid "Name of the city of the location shown in the image. IIM 2:90"
+msgstr "Jméno města na snímku zobrazeného místa. IIM 2:90"
 
-#: IPTCPANEL_CITY
+#: IPTC_CITY
 msgid "City"
 msgstr "Město"
 
-#: IPTCPANEL_COPYHINT
-msgid "Copy IPTC settings to clipboard"
-msgstr "Zkopíruj IPTC nastavení do schránky"
-
-#: IPTCPANEL_COPYRIGHTHINT
-msgid "Any necessary copyright notice (Copyright Notice)."
-msgstr "Autorská práva (Copyright Notice)."
-
-#: IPTCPANEL_COPYRIGHT
-msgid "Copyright"
-msgstr "Copyright"
-
-#: IPTCPANEL_COUNTRYHINT
+#: IPTC_COUNTRYCODE_HINT
 msgid ""
-"The name of the country/primary location where the image was created "
-"(Country - Primary Location Name)."
-msgstr "Jméno země/lokace kde byl obrázek vytvořen (Země - Lokace)."
+"The code should be taken from ISO 3166 two or three letter code. The full "
+"name of a country should go to the 'Country' element IIM 2:100"
+msgstr ""
+"Měl by být použit dvou a tří písmenný kód dle ISO 3166. Plné jméno země by "
+"mělo být v položce 'Země' IIM 2:100"
 
-#: IPTCPANEL_COUNTRY
+#: IPTC_COUNTRYCODE
+msgid "Country Code"
+msgstr "Kód země"
+
+#: IPTC_COUNTRY_HINT
+msgid "Full name of the country of the location shown in the image. IIM 2:101"
+msgstr "Celé jméno země na snímku zobrazeného místa . IIM 2:101"
+
+#: IPTC_COUNTRY
 msgid "Country"
 msgstr "Země"
 
-#: IPTCPANEL_CREDITHINT
+#: IPTC_CREATEDCITY_HINT,IPTC_CREATEDCOUNTRYCODE_HINT,IPTC_CREATEDCOUNTRY_HINT,IPTC_CREATEDREGION_HINT,IPTC_CREATEDSTATE_HINT,IPTC_CREATEDSUBLOC_HINT
 msgid ""
-"Identifies the provider of the image, not necessarily the owner/creator "
-"(Credit)."
-msgstr "Dodavatel obrázku, ne nutně vlastník/autor (Credit)."
+"The location the content of the item was created: details about a location "
+"where this image was created"
+msgstr ""
+"Místo, kde byl vytvořen obsah položky: detaily o místě, kde snímek vznikl"
 
-#: IPTCPANEL_CREDIT
-msgid "Credit"
-msgstr "Zásluhy"
+#: IPTC_CREATEDCITY
+msgid "Created City"
+msgstr "Město vzniku"
 
-#: IPTCPANEL_DATECREATEDHINT
+#: IPTC_CREATEDCOUNTRYCODE
+msgid "Created Country code"
+msgstr "Kód země vzniku"
+
+#: IPTC_CREATEDCOUNTRY
+msgid "Created Country"
+msgstr "Země vzniku"
+
+#: IPTC_CREATEDREGION
+msgid "Created World region"
+msgstr "Region světa vzniku"
+
+#: IPTC_CREATEDSTATE
+msgid "Created State/Province"
+msgstr "Stát/provincie vzniku"
+
+#: IPTC_CREATEDSUBLOC
+msgid "Created Sublocation"
+msgstr "Podoblast místa vzniku"
+
+#: IPTC_CREATORADDRESS_HINT
+msgid "The address for the person that created this image"
+msgstr "Adresa osoby která vytvořila tento snímek"
+
+#: IPTC_CREATORADDRESS
+msgid "Creator address"
+msgstr "Adresa autora"
+
+#: IPTC_CREATORCITY_HINT
+msgid "The city for the address of the person that created this image"
+msgstr "Město adresy osoby která vytvořila tento snímek"
+
+#: IPTC_CREATORCITY
+msgid "Creator city"
+msgstr "Město autora"
+
+#: IPTC_CREATORCOUNTRY_HINT
+msgid "The country name for the address of the person that created this image"
+msgstr "Jméno Země adresy osoby která vytvořila tento snímek"
+
+#: IPTC_CREATORCOUNTRY
+msgid "Creator country"
+msgstr "Země autora"
+
+#: IPTC_CREATOREMAIL_HINT
+msgid "The work Email address(es) for the person that created this image"
+msgstr "Pracovní email osoby vytvořila tento snímek"
+
+#: IPTC_CREATOREMAIL
+msgid "Creator's email(s)"
+msgstr "Email(y) autora"
+
+#: IPTC_CREATORPCODE_HINT
+msgid "The postal code for the address of the person that created this image"
+msgstr "Kód pošty adresy osoby která vytvořila tento snímek"
+
+#: IPTC_CREATORPCODE
+msgid "Creator postal code"
+msgstr "Kód pošty autora"
+
+#: IPTC_CREATORPHONE_HINT
 msgid ""
-"The date the intellectual content of the image was created; Format: JJJJMMTT "
-"(Date Created)."
-msgstr "Kdy byl obrázek vytvořen; Formát: RRRRMMDD (Datum vytvoření)."
+"The work Phone number(s) for the person that created this image, using the "
+"international format"
+msgstr ""
+"Pracovní telefonní číslo nebo čísla (v mezinárodním formátu) osoby která "
+"vytvořila tento snímek"
 
-#: IPTCPANEL_DATECREATED
-msgid "Date Created"
-msgstr "Datum vytvoření"
+#: IPTC_CREATORPHONE
+msgid "Creator Phone num."
+msgstr "Tel. číslo autora"
 
-#: IPTCPANEL_EMBEDDEDHINT
-msgid "Reset to IPTC data embedded in the image file"
-msgstr "Obnov IPTC data z obrázku"
-
-#: IPTCPANEL_EMBEDDED
-msgid "Embedded"
-msgstr "Uložené"
-
-#: IPTCPANEL_HEADLINEHINT
+#: IPTC_CREATORSTATE_HINT
 msgid ""
-"A publishable entry providing a synopsis of the contents of the image "
-"(Headline)."
-msgstr "Uveřejnitelný krátký popis obrázku (Nadpis)."
+"The state or province for the address of the person that created this image"
+msgstr "Stát nebo provincie adresy osoby která vytvořila tento snímek"
 
-#: IPTCPANEL_HEADLINE
+#: IPTC_CREATORSTATE
+msgid "Creator State/Province"
+msgstr "Stát/Provincie autora"
+
+#: IPTC_CREATORURL_HINT
+msgid ""
+"The work Web URL(s) for the person that created this image, such as http://"
+"www.domain.com/"
+msgstr ""
+"Pracovní Web adresa/adresy osoby která vytvořila tento snímek. Například "
+"http://www.domena.com"
+
+#: IPTC_CREATORURL
+msgid "Creator Web URL"
+msgstr "Web adresa autora"
+
+#: IPTC_CREDIT_HINT
+msgid ""
+"The credit to person(s) and/or organisation(s) required by the supplier of "
+"the image to be used when published IIM 2:110"
+msgstr ""
+"Dodavatelem požadované zásluhy osob nebo organizací které mají být použity "
+"při zveřejnění snímku IIM 2:110"
+
+#: IPTC_CREDIT
+msgid "Credit Line"
+msgstr "Řádek zásluh"
+
+#: IPTC_DATE_HINT
+msgid "The Date the image was taken IIM 2:55"
+msgstr "Datum vzniku snímku IIM 2:55"
+
+#: IPTC_DATE
+msgid "Date created"
+msgstr "Datum vzniku"
+
+#: IPTC_DESCRIPTION_HINT
+msgid ""
+"A 'caption' describing the who, what, and why of what is happening in this "
+"image, this might include names of people, and/or their role in the action "
+"that is taking place within the image. IIM 2:120 Caption/Abstract"
+msgstr ""
+"Titulek popisující kdo, co a kdy se stalo na tomto snímku. Toto může "
+"obsahovat jména lidí a nebo jejich rolí při činnosti která je na daném snímku."
+" IIM 2:120 Titulek/abstrakt"
+
+#: IPTC_DESCRIPTION
+msgid "Description"
+msgstr "Popis"
+
+#: IPTC_EVENT_HINT
+msgid "The name or description of the event where this image was taken"
+msgstr "Jméno nebo popis události na které byl snímek pořízen"
+
+#: IPTC_EVENT
+msgid "Event"
+msgstr "Událost"
+
+#: IPTC_GENRE_HINT
+msgid ""
+"Describe the nature of the image in terms of its intellectual or "
+"journalistic characteristics, such as daybook, or feature (examples at: "
+"http://www.newscodes.org/) IIM 2:04"
+msgstr ""
+"Popisuje podstatu snímku na základě duševních a novinářských charakteristik, "
+"jako například deník nebo funkce (příklady na: http://www.newscodes.org/) IIM "
+"2:04"
+
+#: IPTC_GENRE
+msgid "Intellectual Genre"
+msgstr "Duševní žánr"
+
+#: IPTC_HEADLINE_HINT
+msgid "A brief synopsis of the caption."
+msgstr "Krátké shrnutí titulku"
+
+#: IPTC_HEADLINE
 msgid "Headline"
 msgstr "Nadpis"
 
-#: IPTCPANEL_INSTRUCTIONSHINT
-msgid ""
-"Other editorial instructions concerning the use of the image (Special "
-"Instructions)."
-msgstr "Další instrukce vztahující se k obrázku (Speciální instrukce)."
+#: IPTC_IMAGECREATOR_HINT
+msgid "Creator or creators of the image"
+msgstr "Autor nebo autoři snímku"
 
-#: IPTCPANEL_INSTRUCTIONS
+#: IPTC_IMAGECREATOR
+msgid "Image Creator"
+msgstr "Autor snímku"
+
+#: IPTC_IMAGEGUID_HINT
+msgid "Globally unique identifier for this digital image"
+msgstr "Globální unikátní identifikátor tohoto digitálního snímku"
+
+#: IPTC_IMAGEGUID
+msgid "Image GUID"
+msgstr "GUID snímku"
+
+#: IPTC_IMAGEMAXHEIGHT_HINT
+msgid ""
+"The maximum available height in pixels of the original photo from which this "
+"photo has been derived by downsizing."
+msgstr ""
+"Maximální dostupná výška v pixelech originální fotografie ze které byla tato "
+"fotografie zmenšena."
+
+#: IPTC_IMAGEMAXHEIGHT
+msgid "Max height"
+msgstr "Maximální výška"
+
+#: IPTC_IMAGEMAXWIDTH_HINT
+msgid ""
+"The maximum available width in pixels of the original photo from which this "
+"photo has been derived by downsizing."
+msgstr ""
+"Maximální dostupná šířka v pixelech originální fotografie ze které byla tato "
+"fotografie zmenšena."
+
+#: IPTC_IMAGEMAXWIDTH
+msgid "Max width"
+msgstr "Maximální šířka"
+
+#: IPTC_IMAGESUPPLIERGUID_HINT
+msgid "Optional identifier assigned by the Image Supplier to the image"
+msgstr "Volitelný identifikátor snímku přiřazený dodavatelem snímku"
+
+#: IPTC_IMAGESUPPLIERGUID
+msgid "Image supplier GUID"
+msgstr "GUID dodavatele snímku"
+
+#: IPTC_IMAGESUPPLIER_HINT
+msgid ""
+"The identifier for the most recent supplier of this image - note that this "
+"might not be the creator or owner of the image"
+msgstr ""
+"Identifikátor nejnovějšího dodavatele tohoto snímku. Všimněte si, že toto "
+"nemusí být autor nebo vlastník snímku."
+
+#: IPTC_IMAGESUPPLIER
+msgid "Image supplier"
+msgstr "Dodavatel snímku"
+
+#: IPTC_INSTRUCTIONS_HINT
+msgid ""
+"Information about embargoes, or other restrictions not covered by the Rights "
+"Usage IIM 2:40"
+msgstr ""
+"Informace o embargách nebo jiných omezeních neobsažených v právech použití "
+"IIM 2:40"
+
+#: IPTC_INSTRUCTIONS
 msgid "Instructions"
 msgstr "Instrukce"
 
-#: IPTCPANEL_KEYWORDSHINT
-msgid "Used to indicate specific information retrieval words (Keywords)."
-msgstr "Jednoslovná hesla popisující obrázek (Klíčová slova)."
+#: IPTC_JOBID_HINT
+msgid ""
+"A number or identifier needed for workflow control or tracking IIM 2:103"
+msgstr ""
+"Číslo nebo identifikátor potřebný pro proces zpracování nebo pro sledování "
+"IIM 2:103"
 
-#: IPTCPANEL_KEYWORDS
+#: IPTC_JOBID
+msgid "Job Id"
+msgstr "Číslo zakázky"
+
+#: IPTC_KEYWORDS_HINT
+msgid ""
+"Keywords to express the subject of the image. Any number of keywords, terms "
+"or phrases used to express the subject matter in the image. IIM 2:25"
+msgstr ""
+"Klíčová slova popisující objekt na fotografii. Libovolné množství slov, "
+"termínů nebo frází vyjadřujících podstatu objektu na snímku. IIM 2:25"
+
+#: IPTC_KEYWORDS
 msgid "Keywords"
 msgstr "Klíčová slova"
+
+#: IPTC_LICENSOR_HINT
+msgid ""
+"A person or company that should be contacted to obtain a licence for using "
+"the item or who has licensed the item"
+msgstr ""
+"Osoba nebo společnost který by měla být kontaktována pro obdržení licence pro "
+"užití nebo má předmět licencován"
+
+#: IPTC_LICENSOR
+msgid "Licensor"
+msgstr "Udělovatel licence"
+
+#: IPTC_LOCATIONCITY_HINT
+msgid "Details about the City which is shown in this image"
+msgstr "Informace o městě které je zachyceno na snímku"
+
+#: IPTC_LOCATIONCITY
+msgid "Location City"
+msgstr "Město místa"
+
+#: IPTC_LOCATIONCOUNTRYCODE_HINT
+msgid "Enter the 2 or 3 letter ISO 3166 Country Code of the Country"
+msgstr "Vložte dvou nebo tří písmenný kód místa dle ISO 3166"
+
+#: IPTC_LOCATIONCOUNTRYCODE
+msgid "Location Country code"
+msgstr "Kód země místa"
+
+#: IPTC_LOCATIONCOUNTRY_HINT
+msgid "Details about the Country which is shown in this image"
+msgstr "Informace o zemi zachycené na snímku"
+
+#: IPTC_LOCATIONCOUNTRY
+msgid "Location Country"
+msgstr "Země místa"
+
+#: IPTC_LOCATIONREGION_HINT
+msgid ""
+"The name of a world region of a location. This element is at the first (top "
+"I) level of a top-down geographical hierarchy."
+msgstr ""
+"Jméno regionu světa místa. Tento element je první (číslo jedna) úroveň "
+"sestupné geografické hierarchie."
+
+#: IPTC_LOCATIONREGION
+msgid "Location World region"
+msgstr "Region světa místa"
+
+#: IPTC_LOCATIONSTATE_HINT
+msgid "Details about the State/Province which is shown in this image"
+msgstr "Informace o státu nebo provincii zachycené na tomto snímku"
+
+#: IPTC_LOCATIONSTATE
+msgid "Location State/Province"
+msgstr "Stát/provincie místa"
+
+#: IPTC_LOCATIONSUBLOC_HINT
+msgid ""
+"Name of a sublocation. This sublocation name could either be the name of a "
+"sublocation to a city or the name of a well known location or (natural) "
+"monument outside a city. In the sense of a sublocation to a city this "
+"element is at the fifth level of a top-down geographical hierarchy."
+msgstr ""
+"Jméno místní oblasti. Toto může být buď jméno městské oblasti nebo dobře "
+"známého místa nebo (přírodní) monument mimo město. Pokud se jedná o městskou "
+"oblast je tento element pátá úroveň sestupné geografické hierarchie."
+
+#: IPTC_LOCATIONSUBLOC
+msgid "Location Sublocation"
+msgstr "Podoblast místa"
+
+#: IPTC_MINORDISCLOSURE_HINT
+msgid ""
+"The age of the youngest model pictured in this image, at the time that this "
+"image was made."
+msgstr "Věk nejmladšího modelu zachyceného na snímku v době vzniku snímku."
+
+#: IPTC_MINORDISCLOSURE
+msgid "Minor Model Age Disclosure"
+msgstr "Zveřejněný věk nezletilého modelu"
+
+#: IPTC_MODELAGE_HINT
+msgid "The age of the human model(s) at the time this image was made"
+msgstr "Věk lidských modelů v době pořízení tohoto snímku"
+
+#: IPTC_MODELAGE
+msgid "Model(s) Age"
+msgstr "Věk modelů"
+
+#: IPTC_MODELINFO_HINT
+msgid ""
+"Information like ethnicity or other details about the model(s) in this image"
+msgstr "Informace jako etnikum a ostatní detaily o modelech na tomto snímku"
+
+#: IPTC_MODELINFO
+msgid "Model information"
+msgstr "Informace o modelech"
+
+#: IPTC_MODELRELID_HINT
+msgid "Identifier associated with each Model Release"
+msgstr "Identifikátor spojený ke každému souhlasu modelu se zveřejněním"
+
+#: IPTC_MODELRELID
+msgid "Model Release ID"
+msgstr "Číslo souhlasu modelu"
+
+#: IPTC_MODELRELSTATUS_HINT
+msgid ""
+"The availability and scope of model releases authorising usage of the "
+"likenesses of persons appearing in the photograph."
+msgstr ""
+"Dostupnost a rozsah souhlasu modelů s použitím portrétu osob vyskytující se "
+"na snímku."
+
+#: IPTC_MODELRELSTATUS
+msgid "Model Release Status"
+msgstr "Stav souhlasu modelu"
+
+#: IPTC_ORGANIZATION_HINT
+msgid ""
+"Enter an identifier for the controlled vocabulary, then a colon, and finally "
+"the code from the vocabulary assigned to the organisation shown in this "
+"image (e.g. nasdaq:companyA)"
+msgstr ""
+"Vložte identifikátor řízeného slovníku následovaný čárkou a slovníkovým kódem "
+"organizace zobrazené na fotografii. (například: nasdaq:companyA)"
+
+#: IPTC_ORGANIZATION
+msgid "Code of Organization"
+msgstr "Kód organizace"
+
+#: IPTCPANEL_COPYHINT
+msgid "Copy IPTC settings to clipboard"
+msgstr "Zkopírovat IPTC nastavení do schránky"
+
+#: IPTCPANEL_FILEDLGFILTERXMP
+msgid "IPTC template files (xmp)"
+msgstr "IPTC soubory šablon (xmp)"
+
+#: IPTCPANEL_LOADDLGLABEL
+msgid "Load IPTC settings"
+msgstr "Nahrát IPCT nastavení"
+
+#: IPTCPANEL_OPENHINT
+msgid "Load IPTC settings from file"
+msgstr "Nahrát IPTC nastavení ze souboru"
 
 #: IPTCPANEL_PASTEHINT
 msgid "Paste IPTC settings from clipboard"
 msgstr "Vložit IPTC nastavení ze schránky"
 
-#: IPTCPANEL_PROVINCEHINT
-msgid "The Province/State where the image originates (Province-State)."
-msgstr "Kraj/stát kde byl obrázek vytvořen (Kraj-Stát)."
-
-#: IPTCPANEL_PROVINCE
-msgid "Province"
-msgstr "Kraj "
-
 #: IPTCPANEL_RESETHINT
-msgid "Reset to profile default"
-msgstr "Obnovit výchozí profil"
+msgid "Reset to previous IPTC"
+msgstr "Vrátit se k předchozímu IPCT"
 
-#: IPTCPANEL_SOURCEHINT
-msgid "The original owner of the intellectual content of the image (Source)."
-msgstr "Původní vlastník intelektuálního obsahu obrázku (Zdroj)."
+#: IPTCPANEL_SAVEDLGLABEL
+msgid "Save IPTC settings"
+msgstr "Uložit IPCT nastavení"
 
-#: IPTCPANEL_SOURCE
+#: IPTCPANEL_SAVEHINT
+msgid "Save IPTC settings to file"
+msgstr "Uložit IPCT nastavení do souboru"
+
+#: IPTC_PERSON_HINT
+msgid "Name of a person shown in the image"
+msgstr "Jméno osoby zobrazené na snímku"
+
+#: IPTC_PERSON
+msgid "Person shown"
+msgstr "Zobrazená osoba"
+
+#: IPTC_PLUSVERSION_HINT
+msgid ""
+"The version number of the PLUS standards in place at the time of the "
+"transaction"
+msgstr "Číslo verze PLUS standardů platných v době transakce"
+
+#: IPTC_PLUSVERSION
+msgid "PLUS Version"
+msgstr "Verze PLUS"
+
+#: IPTC_PROPERTYRELID_HINT
+msgid "Optional identifier associated with each Property Release"
+msgstr "Volitelný identifikátor vázaný ke každému souhlasu vlastnictví"
+
+#: IPTC_PROPERTYRELID
+msgid "Property Release Id"
+msgstr "Číslo souhlasu vlastnictví"
+
+#: IPTC_PROPERTYRELSTATUS_HINT
+msgid ""
+"The availability and scope of property releases authorising usage of the "
+"properties appearing in the photograph."
+msgstr ""
+"Dostupnost a rozsah souhlasu vlastnictví s použitím rekvizit vyskytujících se "
+"na snímku."
+
+#: IPTC_PROPERTYRELSTATUS
+msgid "Property Release Status"
+msgstr "Stav souhlasu vlastnictví"
+
+#: IPTC_REGISTRYID_HINT
+msgid ""
+"A unique identifier created by a registry and applied by the creator of the "
+"digital image. This value shall not be changed after being applied."
+msgstr ""
+"Unikátní číslo vytvořené registrem a přiřazené autorem digitálního snímku. "
+"jeho hodnota by už neměla být po přiřazení změněna."
+
+#: IPTC_REGISTRYID
+msgid "Registry Image Id"
+msgstr "Registrační číslo snímku"
+
+#: IPTC_REGISTRYORG_HINT
+msgid ""
+"An identifier for the registry which issued the corresponding Registry Image "
+"Id"
+msgstr ""
+"Identifikátor registru který vydal odpovídající registrační číslo snímku."
+
+#: IPTC_REGISTRYORG
+msgid "Registry Organisation Id"
+msgstr "Identifikátor registrační organizace"
+
+#: IPTC_RIGHTSCERTIFICATE_HINT
+msgid "A web URL for a rights management certificate"
+msgstr "Web adresa osvědčení správy vlastnických práv"
+
+#: IPTC_RIGHTSCERTIFICATE
+msgid "Rights certificate URL"
+msgstr "Web adresa osvědčení vlastnických práva"
+
+#: IPTC_RIGHTS_HINT
+msgid ""
+"Contains any necessary copyright notice for claiming the intellectual "
+"property for this photograph and should identify the current owner of the "
+"copyright for the photograph IIM 2:116 Copyright Notice"
+msgstr ""
+"Obsahuje všechny nezbytné upozornění autorského práva nárokující "
+"intelektuální vlastnictví "
+"této fotografie a měl by identifikovat vlastníka autorských práv tohoto díla "
+"IIM 2:116 Upozornění Autorského práva"
+
+#: IPTC_RIGHTSMARKED_HINT
+msgid ""
+"If True indicates that this is a rights-managed resource. When False, "
+"indicates that this is a public-domain resource."
+msgstr ""
+"Zatržení znamená, že se jedná o zdroj spravovaný vlastnickými právy. V "
+"opačném případě je zdroj public-domain."
+
+#: IPTC_RIGHTSMARKED
+msgid "Rights managed"
+msgstr "Správa vlastnických práv"
+
+#: IPTC_RIGHTSOWNER_HINT
+msgid "The owner or owners of the copyright in the licensed image"
+msgstr "Vlastník nebo vlastníci autorských práv na licencovaném snímku"
+
+#: IPTC_RIGHTSOWNER
+msgid "Copyright Owner"
+msgstr "Vlastník autorských práv"
+
+#: IPTC_RIGHTSSTATEMENT_HINT
+msgid ""
+"A web URL for a statement of the ownership and usage rights for this resource"
+msgstr ""
+"Internetová adresa prohlášení vlastnictví a práv použití pro tento zdroj"
+
+#: IPTC_RIGHTSSTATEMENT
+msgid "Rights web statement"
+msgstr "Adresa prohlášení autorských práv"
+
+#: IPTC_RIGHTSSTATUS_HINT
+msgid "Copyright status of the image:Protected,Public Domain,Unknown"
+msgstr "Stav autorských práv snímku: Chráněný, Public domain, Neznámý"
+
+#: IPTC_RIGHTSSTATUS
+msgid "Copyright status"
+msgstr "Stav autorských práv"
+
+#: IPTC_RIGHTS
+msgid "Copyright Notice"
+msgstr "Upozornění Autorského práva"
+
+#: IPTC_SCENE_HINT
+msgid ""
+"Describes the scene of a photo content. Specifies one ore more terms from "
+"the IPTC 'Scene-NewsCodes' (http://www.newscodes.org/). Each Scene is "
+"represented as a string of 6 digits in an unordered list."
+msgstr ""
+
+#: IPTC_SCENE
+msgid "Scene code"
+msgstr "Kód scény"
+
+#: IPTC_SOURCE_HINT
+msgid ""
+"Identifies the original owner of the copyright for the intellectual content "
+"of the image. This could be an agency, a member of an agency or an "
+"individual. Source could be different from Creator and from the entities in "
+"the CopyrightNotice. IIM 2:115"
+msgstr ""
+
+#: IPTC_SOURCE
 msgid "Source"
 msgstr "Zdroj"
 
-#: IPTCPANEL_SUPPCATEGORIESHINT
-msgid "Further refines the subject of the image (Supplemental Categories)."
-msgstr "Upřesňující popis obsahu obrázku (Dodatečné kategorie)."
+#: IPTC_STATE_HINT
+msgid ""
+"Name of the subregion of a country of the location shown in the image. IIM "
+"2:95"
+msgstr ""
 
-#: IPTCPANEL_SUPPCATEGORIES
-msgid "Suppl. Categories"
-msgstr "Dodat. kategorie"
+#: IPTC_STATE
+msgid "Province/State"
+msgstr "Provincie/Stát"
 
-#: IPTCPANEL_TITLEHINT
-msgid "A shorthand reference for the image (Object Name)."
+#: IPTC_SUBJECT_HINT
+msgid ""
+"Specifies one or more Subjects from the IPTC 'Subject-NewsCodes' (http://www."
+"newscodes.org/) taxonomy to categorise the image. Each Subject is "
+"represented as a string of 8 digits in an unordered list."
+msgstr ""
+
+#: IPTC_SUBJECT
+msgid "Subject Code"
+msgstr "Kód subjektu"
+
+#: IPTC_SUBLOCATION_HINT
+msgid ""
+"Exact name of the sublocation shown in the image. This sublocation name "
+"could either be the name of a sublocation to a city or the name of a well "
+"known location or (natural) monument outside a city. IIM 2:92"
+msgstr ""
+"Jméno místní oblasti zobrazené na snímku. Toto může být buď jméno městské "
+"oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. IIM 2:92"
+
+#: IPTC_SUBLOCATION
+msgid "Sublocation"
+msgstr "Podoblast"
+
+#: IPTC_SUPPLCATEGORIES_HINT
+msgid "Supplemental Category IIM 2:20 (deprecated)"
+msgstr "Dodatková kategorie IIM 2:20 (zavrženo)"
+
+#: IPTC_SUPPLCATEGORIES
+msgid "Supplemental Categories"
+msgstr "Dodatková kategorie"
+
+#: IPTC_TITLE_HINT
+#, fuzzy
+msgid ""
+"A shorthand reference for the digital image; this may be the file name. IIM "
+"2:05 Object Name"
 msgstr "Zkrácený popis obrázku (Jméno obrázku)."
 
-#: IPTCPANEL_TITLE
+#: IPTC_TITLE
 msgid "Title"
 msgstr "Titulek"
 
-#: IPTCPANEL_TRANSREFERENCEHINT
-msgid ""
-"A code representing the location of original transmission (Original "
-"Transmission Reference)."
+#: IPTC_URGENCY_HINT
+msgid "Urgency IIM  2:09 (deprecated)"
 msgstr ""
-"Kód místa, odkud byl převzat originální obrázek (Original Transmission "
-"Reference)."
 
-#: IPTCPANEL_TRANSREFERENCE
-msgid "Trans. Reference"
-msgstr "Trans. Reference"
+#: IPTC_URGENCY
+msgid "Urgency"
+msgstr ""
+
+#: IPTC_USAGETERMS_HINT
+msgid "Instructions on how this image can legally be used"
+msgstr ""
+
+#: IPTC_USAGETERMS
+msgid "Usage terms"
+msgstr "Podmínky použití"
+
+#: IPTC_VOCABULARY_HINT
+msgid ""
+"Term to describe the content of the image by a value from a Controlled "
+"Vocabulary: an identifier for the controlled vocabulary, then a colon, and "
+"finally the code from the vocabulary assigned to the term"
+msgstr ""
+
+#: IPTC_VOCABULARY
+msgid "Controlled Vocabulary Term"
+msgstr ""
+
+#: IPTC_WRITER_HINT
+#, fuzzy
+msgid ""
+"The name of the person involved in writing, editing or correcting the "
+"description of the image IIM 2:122"
+msgstr ""
+"Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
+"(Autor - Editor)"
+
+#: IPTC_WRITER
+#, fuzzy
+msgid "Description Writer"
+msgstr "Popisovač"
 
 #: MAIN_BUTTON_EXIT
 msgid "Exit"
@@ -1848,6 +2465,10 @@ msgstr "Detaily"
 msgid "Develop"
 msgstr "Vyvolání"
 
+#: MAIN_TAB_EXIF_TOOLTIP
+msgid "<b>Alt-x</b>"
+msgstr "<b>Alt-x</b>"
+
 #: MAIN_TAB_EXIF
 msgid "Exif"
 msgstr "Exif"
@@ -1940,30 +2561,6 @@ msgstr "Zvýraznit oříznuté stíny (Klávesa >)"
 msgid "Set preferences"
 msgstr "Změnit volby"
 
-#: MAIN_TOOLTIP_PREVIEWB
-msgid "Preview <b>Blue channel</b>"
-msgstr "Náhled <b>modrého kanálu</b>"
-
-#: MAIN_TOOLTIP_PREVIEWFOCUSMASK
-msgid "Preview <b>Focus Mask</b>"
-msgstr "Náhled <b>Masky zaostření</b>"
-
-#: MAIN_TOOLTIP_PREVIEWG
-msgid "Preview <b>Green channel</b>"
-msgstr "Náhled <b>zeleného kanálu</b>"
-
-#: MAIN_TOOLTIP_PREVIEWL
-msgid ""
-"Preview <b>Luminosity</b>\n"
-"0.299*R + 0.587*G + 0.114*B"
-msgstr ""
-"Náhled <b>světlosti</b>\n"
-"0.299*R + 0.587*G + 0.114*B"
-
-#: MAIN_TOOLTIP_PREVIEWR
-msgid "Preview <b>Red channel</b>"
-msgstr "Náhled <b>červeného kanálu</b>"
-
 #: MAIN_TOOLTIP_QINFO
 msgid "Quick info on the image <b>I</b>"
 msgstr "Stručné informace o obrázku <b>I</b>"
@@ -1987,10 +2584,6 @@ msgstr "Zobrazit/skrýt pravý panel <b>Alt-l</b>"
 #: MAIN_TOOLTIP_SHOWHIDETP1
 msgid "Show/hide the top panel <b>Shift-l</b>"
 msgstr "Zobrazit/skrýt horní panel <b>Shift-l</b>"
-
-#: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
-msgid "Threshold"
-msgstr "Práh"
 
 #: MAIN_TOOLTIP_TOGGLE
 msgid "Toggle <b>before</b>/<b>after</b> view <b>B</b>"
@@ -2119,6 +2712,14 @@ msgstr "Odstranění lemu"
 #: PARTIALPASTE_DETAILGROUP
 msgid "Detail settings"
 msgstr "Nastavení detailů"
+
+#: PARTIALPASTE_DIALOGIPTCLABEL
+msgid "Partial paste IPTC metadata"
+msgstr "Částečně vložit IPCT metadata"
+
+#: PARTIALPASTE_DIALOGIPTCSELECT
+msgid "Select IPTC properties"
+msgstr "Vybrat IPCT vlastnosti"
 
 #: PARTIALPASTE_DIALOGLABEL
 msgid "Partial paste processing profile"
@@ -2271,10 +2872,6 @@ msgstr "Nastavení Raw"
 #: PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
 msgid "Resize"
 msgstr "Změna velikosti"
-
-#: PARTIALPASTE_RGBCURVES
-msgid "RGB curves"
-msgstr "RGB křivky"
 
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
@@ -2444,6 +3041,10 @@ msgstr "Formát data"
 #: PREFERENCES_DEFAULTLANG
 msgid "Default language"
 msgstr "Výchozí jazyk"
+
+#: PREFERENCES_DEFAULT_METADATA
+msgid "Default IPTC metadata"
+msgstr "Výchozí IPTC metadata"
 
 #: PREFERENCES_DEFAULTTHEME
 msgid "Default theme"
@@ -2753,6 +3354,10 @@ msgstr "Použít šablonu"
 msgid "Output Directory"
 msgstr "Výstupní složka"
 
+#: PREFERENCES_OUTPUTMETADATA
+msgid "Write metadata to developed images"
+msgstr "Zapsat metadata do vyvolaných snímků"
+
 #: PREFERENCES_OVERLAY_FILENAMES
 msgid "Overlay filenames on thumbnails"
 msgstr "Přepsat jména souborů v náhledech"
@@ -2804,10 +3409,6 @@ msgstr "Profil uložený se zdrojovým souborem"
 #: PREFERENCES_PROFILESAVECACHE
 msgid "Save processing parameters to the cache"
 msgstr "Ukládat parametry zpracování do cache"
-
-#: PREFERENCES_PROFILESAVEINPUT
-msgid "Save processing parameters next to the input file"
-msgstr "Ukládat parametry zpracování se zdrojovým souborem"
 
 #: PREFERENCES_PROPERTY
 msgid "Property"
@@ -2945,11 +3546,6 @@ msgstr "V záhlaví karty zobrazit ikonu namísto textu"
 msgid "Hide vertical scrollbar"
 msgstr "Skrýt svislou posuvnou lištu"
 
-#: PREFERENCES_TUNNELMETADATA
-msgid ""
-"Copy IPTC/XMP unchanged to output file (when tagging with other program)"
-msgstr "Přenést nezměněná IPTC/XMP metadata do výstupního souboru"
-
 #: PREFERENCES_USESYSTEMTHEME
 msgid " Use System Theme"
 msgstr " Použít systémový motiv"
@@ -2958,9 +3554,33 @@ msgstr " Použít systémový motiv"
 msgid "Layout"
 msgstr "Rozvržení"
 
+#: PREFERENCES_XMP_INSIDE_DNG
+msgid "Save XMP metadata and processing params inside DNG (no sidecar file)"
+msgstr ""
+"Uložit XMP metadata a parametry zpracování do DNG (bez postranního souboru)"
+
+#: PREFERENCES_XMP_INSIDE_JPG
+msgid "Save XMP metadata and processing params inside JPG (no sidecar file)"
+msgstr ""
+"Uložit XMP metadata a parametry zpracování do JPG (bez postranního souboru)"
+
+#: PREFERENCES_XMP_INSIDE_PNG
+msgid "Save XMP metadata and processing params inside PNG (no sidecar file)"
+msgstr ""
+"Uložit XMP metadata a parametry zpracování do PNG (bez postranního souboru)"
+
+#: PREFERENCES_XMP_INSIDE_TIFF
+msgid "Save XMP metadata and processing params inside TIFF (no sidecar file)"
+msgstr ""
+"Uložit XMP metadata a parametry zpracování do TIFF (bez postranního souboru)"
+
 #: PROFILEPANEL_FILEDLGFILTERPP
 msgid "Postprocessing profiles"
 msgstr "Profily zpracování"
+
+#: PROFILEPANEL_FILEDLGFILTERPP3
+msgid "Old postprocessing profiles(pp3)"
+msgstr "Staré profily zpracování (pp3)"
 
 #: PROFILEPANEL_LABEL
 msgid "Postprocessing Profiles"
@@ -3121,10 +3741,6 @@ msgstr "Vložit soubor do fronty"
 #: SAVEDLG_SAVEIMMEDIATELY
 msgid "Save immediately"
 msgstr "Okamžitě uložit"
-
-#: SAVEDLG_SAVESPP
-msgid "Save processing parameters with image"
-msgstr "Uschovat parametry zpracování s obrázkem"
 
 #: SAVEDLG_TIFFFILTER
 msgid "TIFF files"
@@ -3316,6 +3932,10 @@ msgstr "Automatický výběr"
 msgid "Dark Frame"
 msgstr "Tmavý snímek"
 
+#: TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
+msgid "Threshold"
+msgstr "Práh"
+
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr "Barevnost"
@@ -3340,7 +3960,7 @@ msgstr "Kontrast+"
 msgid "Finest"
 msgstr "Nejjemnější"
 
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_NEUTRAL
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL
 msgid "Neutral"
 msgstr "Neutrální"
 
@@ -3376,21 +3996,9 @@ msgstr " Po interpolaci (před RGB konverzí)"
 msgid "Raw white-black point"
 msgstr "Raw bílý-černý bod"
 
-#: TP_EXPOSURE_AUTOLEVELS_TIP
-msgid ""
-"Toggle execution of Auto Levels to automatically set parameter values based "
-"on image analysis  "
-msgstr ""
-"Přepne provedení automatických úrovní na automatickou sadu hodnot parametrů "
-"založených na analýze obrázku  "
-
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
 msgstr "Úrovně automaticky"
-
-#: TP_EXPOSURE_CLIP_TIP
-msgid "The fraction of pixels to be clipped in auto levels operation"
-msgstr "Podíl klipujících bodů v automatických operacích úrovní"
 
 #: TP_EXPOSURE_CLIP
 msgid "Clip"
@@ -3594,10 +4202,6 @@ msgstr "Objektiv / Geometrie"
 msgid "Luminance Noise Reduction"
 msgstr "Redukce šumu v jasech"
 
-#: TP_NEUTRAL_TIP
-msgid "Reset exposure controls to neutral values"
-msgstr "Vrátí nastavení expozice na neutrální hodnoty"
-
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
 msgstr "Předzpracování"
@@ -3718,10 +4322,6 @@ msgstr "Šířka"
 msgid "W:"
 msgstr "Š:"
 
-#: TP_RGBCURVES_LABEL
-msgid "RGB Curves"
-msgstr "RGB křivky"
-
 #: TP_ROTATE_DEGREE
 msgid "Degree"
 msgstr "Stupně"
@@ -3826,141 +4426,17 @@ msgstr "Střed"
 msgid "Auto"
 msgstr "Automaticky"
 
-#: TP_WBALANCE_CLOUDY
-msgid "Cloudy"
-msgstr "Zataženo"
-
-#: TP_WBALANCE_DAYLIGHT
-msgid "Daylight (sunny)"
-msgstr "Denní světlo (slunečno)"
-
-#: TP_WBALANCE_FLASH_HEADER
-msgid "Flash"
-msgstr "Blesk"
-
-#: TP_WBALANCE_FLASH55
-msgid "Leica"
-msgstr "Leica"
-
-#: TP_WBALANCE_FLASH60
-msgid "Standard, Canon, Pentax, Olympus"
-msgstr "Standard, Canon, Pentax, Olympus"
-
-#: TP_WBALANCE_FLASH65
-msgid "Nikon, Panasonic, Sony, Minolta"
-msgstr "Nikon, Panasonic, Sony, Minolta"
-
-#: TP_WBALANCE_FLUO_HEADER
-msgid "Fluorescent"
-msgstr "Fluorescenční"
-
-#: TP_WBALANCE_FLUO1
-msgid "F1 - Daylight"
-msgstr "F1 - Denní světlo"
-
-#: TP_WBALANCE_FLUO10
-msgid "F10 - Philips TL85"
-msgstr "F10 - Philips TL85"
-
-#: TP_WBALANCE_FLUO11
-msgid "F11 - Philips TL84"
-msgstr "F11 - Philips TL84"
-
-#: TP_WBALANCE_FLUO12
-msgid "F12 - Philips TL83"
-msgstr "F12 - Philips TL83"
-
-#: TP_WBALANCE_FLUO2
-msgid "F2 - Cool white"
-msgstr "F2 - Studená bílá"
-
-#: TP_WBALANCE_FLUO3
-msgid "F3 - White"
-msgstr "F3 - Bílá"
-
-#: TP_WBALANCE_FLUO4
-msgid "F4 - Warm white"
-msgstr "F4 - Teplá bílá"
-
-#: TP_WBALANCE_FLUO5
-msgid "F5 - Daylight"
-msgstr "F5 - Denní světlo"
-
-#: TP_WBALANCE_FLUO6
-msgid "F6 - Lite white"
-msgstr "F6 - Lehká bílá"
-
-#: TP_WBALANCE_FLUO7
-msgid "F7 - D65 Daylight simulator"
-msgstr "F7 - D65 Simulace denního světla"
-
-#: TP_WBALANCE_FLUO8
-msgid "F8 - D50 / Sylvania F40 Design"
-msgstr "F8 - D50 / Sylvania F40 Design"
-
-#: TP_WBALANCE_FLUO9
-msgid "F9 - Cool white deluxe"
-msgstr "F9 - Studená bílá deluxe"
-
 #: TP_WBALANCE_GREEN
 msgid "Tint"
-msgstr "Odstín"
-
-#: TP_WBALANCE_GTI
-msgid "GTI"
-msgstr "GTI"
-
-#: TP_WBALANCE_HMI
-msgid "HMI"
-msgstr "HMI"
-
-#: TP_WBALANCE_JUDGEIII
-msgid "JudgeIII"
-msgstr "JudgeIII"
+msgstr "Stín"
 
 #: TP_WBALANCE_LABEL
 msgid "White Balance"
 msgstr "Vyvážení bílé"
 
-#: TP_WBALANCE_LAMP_HEADER
-msgid "Lamp"
-msgstr "Žárovka"
-
-#: TP_WBALANCE_LED_CRS
-msgid "CRS SP12 WWMR16"
-msgstr "CRS SP12 WWMR16"
-
-#: TP_WBALANCE_LED_HEADER
-msgid "LED"
-msgstr "LED"
-
-#: TP_WBALANCE_LED_LSI
-msgid "LSI Lumelex 2040"
-msgstr "LSI Lumelex 2040"
-
-#: TP_WBALANCE_SHADE
-msgid "Shade"
-msgstr "Odstín"
-
 #: TP_WBALANCE_SIZE
 msgid "Size:"
 msgstr "Rozměr:"
-
-#: TP_WBALANCE_SOLUX35
-msgid "Solux 3500K"
-msgstr "Solux 3500K"
-
-#: TP_WBALANCE_SOLUX41
-msgid "Solux 4100K"
-msgstr "Solux 4100K"
-
-#: TP_WBALANCE_SOLUX47_NG
-msgid "Solux 4700K (Nat. Gallery)"
-msgstr "Solux 4700K (Nat. Gallery)"
-
-#: TP_WBALANCE_SOLUX47
-msgid "Solux 4700K (vendor)"
-msgstr "Solux 4700K (vendor)"
 
 #: TP_WBALANCE_SPOTWB
 msgid "Spot WB"
@@ -3969,10 +4445,6 @@ msgstr "Bodové vyvážení"
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"
 msgstr "Teplota"
-
-#: TP_WBALANCE_TUNGSTEN
-msgid "Tungsten"
-msgstr "Wolfram"
 
 #: ZOOMBAR_HUGE
 msgid "Huge"
@@ -4017,6 +4489,248 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "RGB Curves - R"
+#~ msgstr "RGB křivky - R"
+
+#~ msgid "RGB Curves - G"
+#~ msgstr "RGB křivky - G"
+
+#~ msgid "RGB Curves - B"
+#~ msgstr "RGB křivky - B"
+
+#~ msgid "Neutral levels"
+#~ msgstr "Neutrální úrovně"
+
+#~ msgid ""
+#~ "Name of the creator of the object, e.g. writer, photographer or graphic "
+#~ "artist (By-line)."
+#~ msgstr ""
+#~ "Jméno autora, například spisovatele, fotografa nebo grafika (By-line)."
+
+#~ msgid "Title of the creator or creators of the object (By-line Title)."
+#~ msgstr "Titul/pozice autora nebo autorů obrázku (By-line Title)."
+
+#~ msgid "Author's position"
+#~ msgstr "Autorova pozice"
+
+#~ msgid "A textual description of the data (Caption - Abstract)."
+#~ msgstr "Textový popis dat (Popis - Shrnutí)"
+
+#~ msgid "Caption"
+#~ msgstr "Popis"
+
+#~ msgid ""
+#~ "Identifies the subject of the image in the opinion of the provider "
+#~ "(Category)."
+#~ msgstr "Obsah obrázku dle názoru dodavatele (Kategorie)."
+
+#~ msgid "City of image origin (City)."
+#~ msgstr "Místo vzniku obrázku (Město)."
+
+#~ msgid "Any necessary copyright notice (Copyright Notice)."
+#~ msgstr "Autorská práva (Copyright Notice)."
+
+#~ msgid ""
+#~ "The name of the country/primary location where the image was created "
+#~ "(Country - Primary Location Name)."
+#~ msgstr "Jméno země/lokace kde byl obrázek vytvořen (Země - Lokace)."
+
+#~ msgid ""
+#~ "Identifies the provider of the image, not necessarily the owner/creator "
+#~ "(Credit)."
+#~ msgstr "Dodavatel obrázku, ne nutně vlastník/autor (Credit)."
+
+#~ msgid ""
+#~ "The date the intellectual content of the image was created; Format: "
+#~ "JJJJMMTT (Date Created)."
+#~ msgstr "Kdy byl obrázek vytvořen; Formát: RRRRMMDD (Datum vytvoření)."
+
+#~ msgid "Reset to IPTC data embedded in the image file"
+#~ msgstr "Obnov IPTC data z obrázku"
+
+#~ msgid "Embedded"
+#~ msgstr "Uložené"
+
+#~ msgid ""
+#~ "A publishable entry providing a synopsis of the contents of the image "
+#~ "(Headline)."
+#~ msgstr "Uveřejnitelný krátký popis obrázku (Nadpis)."
+
+#~ msgid ""
+#~ "Other editorial instructions concerning the use of the image (Special "
+#~ "Instructions)."
+#~ msgstr "Další instrukce vztahující se k obrázku (Speciální instrukce)."
+
+#~ msgid "Used to indicate specific information retrieval words (Keywords)."
+#~ msgstr "Jednoslovná hesla popisující obrázek (Klíčová slova)."
+
+#~ msgid "The Province/State where the image originates (Province-State)."
+#~ msgstr "Kraj/stát kde byl obrázek vytvořen (Kraj-Stát)."
+
+#~ msgid "Reset to profile default"
+#~ msgstr "Obnovit výchozí profil"
+
+#~ msgid ""
+#~ "The original owner of the intellectual content of the image (Source)."
+#~ msgstr "Původní vlastník intelektuálního obsahu obrázku (Zdroj)."
+
+#~ msgid "Further refines the subject of the image (Supplemental Categories)."
+#~ msgstr "Upřesňující popis obsahu obrázku (Dodatečné kategorie)."
+
+#~ msgid ""
+#~ "A code representing the location of original transmission (Original "
+#~ "Transmission Reference)."
+#~ msgstr ""
+#~ "Kód místa, odkud byl převzat originální obrázek (Original Transmission "
+#~ "Reference)."
+
+#~ msgid "Trans. Reference"
+#~ msgstr "Trans. Reference"
+
+#~ msgid "Preview <b>Blue channel</b>"
+#~ msgstr "Náhled <b>modrého kanálu</b>"
+
+#~ msgid "Preview <b>Focus Mask</b>"
+#~ msgstr "Náhled <b>Masky zaostření</b>"
+
+#~ msgid "Preview <b>Green channel</b>"
+#~ msgstr "Náhled <b>zeleného kanálu</b>"
+
+#~ msgid ""
+#~ "Preview <b>Luminosity</b>\n"
+#~ "0.299*R + 0.587*G + 0.114*B"
+#~ msgstr ""
+#~ "Náhled <b>světlosti</b>\n"
+#~ "0.299*R + 0.587*G + 0.114*B"
+
+#~ msgid "Preview <b>Red channel</b>"
+#~ msgstr "Náhled <b>červeného kanálu</b>"
+
+#~ msgid "RGB curves"
+#~ msgstr "RGB křivky"
+
+#~ msgid "Save processing parameters next to the input file"
+#~ msgstr "Ukládat parametry zpracování se zdrojovým souborem"
+
+#~ msgid ""
+#~ "Copy IPTC/XMP unchanged to output file (when tagging with other program)"
+#~ msgstr "Přenést nezměněná IPTC/XMP metadata do výstupního souboru"
+
+#~ msgid "Save processing parameters with image"
+#~ msgstr "Uschovat parametry zpracování s obrázkem"
+
+#~ msgid ""
+#~ "Toggle execution of Auto Levels to automatically set parameter values "
+#~ "based on image analysis  "
+#~ msgstr ""
+#~ "Přepne provedení automatických úrovní na automatickou sadu hodnot "
+#~ "parametrů založených na analýze obrázku  "
+
+#~ msgid "The fraction of pixels to be clipped in auto levels operation"
+#~ msgstr "Podíl klipujících bodů v automatických operacích úrovní"
+
+#~ msgid "Reset exposure controls to neutral values"
+#~ msgstr "Vrátí nastavení expozice na neutrální hodnoty"
+
+#~ msgid "RGB Curves"
+#~ msgstr "RGB křivky"
+
+#~ msgid "Cloudy"
+#~ msgstr "Zataženo"
+
+#~ msgid "Daylight (sunny)"
+#~ msgstr "Denní světlo (slunečno)"
+
+#~ msgid "Flash"
+#~ msgstr "Blesk"
+
+#~ msgid "Leica"
+#~ msgstr "Leica"
+
+#~ msgid "Standard, Canon, Pentax, Olympus"
+#~ msgstr "Standard, Canon, Pentax, Olympus"
+
+#~ msgid "Nikon, Panasonic, Sony, Minolta"
+#~ msgstr "Nikon, Panasonic, Sony, Minolta"
+
+#~ msgid "Fluorescent"
+#~ msgstr "Fluorescenční"
+
+#~ msgid "F1 - Daylight"
+#~ msgstr "F1 - Denní světlo"
+
+#~ msgid "F10 - Philips TL85"
+#~ msgstr "F10 - Philips TL85"
+
+#~ msgid "F11 - Philips TL84"
+#~ msgstr "F11 - Philips TL84"
+
+#~ msgid "F12 - Philips TL83"
+#~ msgstr "F12 - Philips TL83"
+
+#~ msgid "F2 - Cool white"
+#~ msgstr "F2 - Studená bílá"
+
+#~ msgid "F3 - White"
+#~ msgstr "F3 - Bílá"
+
+#~ msgid "F4 - Warm white"
+#~ msgstr "F4 - Teplá bílá"
+
+#~ msgid "F5 - Daylight"
+#~ msgstr "F5 - Denní světlo"
+
+#~ msgid "F6 - Lite white"
+#~ msgstr "F6 - Lehká bílá"
+
+#~ msgid "F7 - D65 Daylight simulator"
+#~ msgstr "F7 - D65 Simulace denního světla"
+
+#~ msgid "F8 - D50 / Sylvania F40 Design"
+#~ msgstr "F8 - D50 / Sylvania F40 Design"
+
+#~ msgid "F9 - Cool white deluxe"
+#~ msgstr "F9 - Studená bílá deluxe"
+
+#~ msgid "GTI"
+#~ msgstr "GTI"
+
+#~ msgid "HMI"
+#~ msgstr "HMI"
+
+#~ msgid "JudgeIII"
+#~ msgstr "JudgeIII"
+
+#~ msgid "Lamp"
+#~ msgstr "Žárovka"
+
+#~ msgid "CRS SP12 WWMR16"
+#~ msgstr "CRS SP12 WWMR16"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "LSI Lumelex 2040"
+#~ msgstr "LSI Lumelex 2040"
+
+#~ msgid "Shade"
+#~ msgstr "Odstín"
+
+#~ msgid "Solux 3500K"
+#~ msgstr "Solux 3500K"
+
+#~ msgid "Solux 4100K"
+#~ msgstr "Solux 4100K"
+
+#~ msgid "Solux 4700K (Nat. Gallery)"
+#~ msgstr "Solux 4700K (Nat. Gallery)"
+
+#~ msgid "Solux 4700K (vendor)"
+#~ msgstr "Solux 4700K (vendor)"
+
+#~ msgid "Tungsten"
+#~ msgstr "Wolfram"
 
 #~ msgid "RAW"
 #~ msgstr "RAW"

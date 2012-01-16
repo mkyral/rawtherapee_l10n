@@ -23,4 +23,5 @@ do
   msgmerge "${PO_LANG}.po.orig" rawtherapee.pot >${PO_LANG}.po
   cd - >/dev/null
   echo
+  rm -f "${GET_FILE}.dos" "${PO_LANG}.po.orig"
 done

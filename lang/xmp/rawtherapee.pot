@@ -277,6 +277,10 @@ msgstr ""
 msgid "Clear profile"
 msgstr ""
 
+#: FILEBROWSER_COPYIPTC
+msgid "Copy IPTC metadata"
+msgstr ""
+
 #: FILEBROWSER_COPYPROFILE
 msgid "Copy profile"
 msgstr ""
@@ -345,8 +349,16 @@ msgstr ""
 msgid "New name:"
 msgstr ""
 
+#: FILEBROWSER_PARTIALPASTEIPTC
+msgid "Partial paste IPTC"
+msgstr ""
+
 #: FILEBROWSER_PARTIALPASTEPROFILE
 msgid "Partial paste"
+msgstr ""
+
+#: FILEBROWSER_PASTEIPTC
+msgid "Paste IPTC metadata"
 msgstr ""
 
 #: FILEBROWSER_PASTEPROFILE
@@ -391,6 +403,10 @@ msgstr ""
 
 #: FILEBROWSER_POPUPFILEOPERATIONS
 msgid "File Operations"
+msgstr ""
+
+#: FILEBROWSER_POPUPIPTCOPERATIONS
+msgid "IPTC metadata"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVEEND
@@ -495,6 +511,10 @@ msgstr ""
 
 #: FILEBROWSER_RENAMEDLGMSG
 msgid "Rename file \"%1\" to:"
+msgstr ""
+
+#: FILEBROWSER_RESYNCIPTC
+msgid "Reset IPTC metadata"
 msgstr ""
 
 #: FILEBROWSER_SELECTDARKFRAME
@@ -1057,22 +1077,6 @@ msgstr ""
 msgid "Tone Mapping"
 msgstr ""
 
-#: HISTORY_MSG_163
-msgid "RGB Curves - R"
-msgstr ""
-
-#: HISTORY_MSG_164
-msgid "RGB Curves - G"
-msgstr ""
-
-#: HISTORY_MSG_165
-msgid "RGB Curves - B"
-msgstr ""
-
-#: HISTORY_MSG_166
-msgid "Neutral levels"
-msgstr ""
-
 #: HISTORY_MSG_17
 msgid "Luminance Highlight Compr."
 msgstr ""
@@ -1497,168 +1501,632 @@ msgstr ""
 msgid "Detail view"
 msgstr ""
 
-#: IPTCPANEL_AUTHORHINT
-msgid "Name of the creator of the object, e.g. writer, photographer or graphic artist (By-line)."
+#: IPTC_ARTWORKCREATOR_HINT
+msgid "Contains the name of the artist who has created artwork or an object in the image. In cases where the artist could or should not be identified the name of a company or organisation may be appropriate."
 msgstr ""
 
-#: IPTCPANEL_AUTHORSPOSITIONHINT
-msgid "Title of the creator or creators of the object (By-line Title)."
+#: IPTC_ARTWORKCREATOR
+msgid "Artwork creator"
 msgstr ""
 
-#: IPTCPANEL_AUTHORSPOSITION
-msgid "Author's position"
+#: IPTC_ARTWORKDATE_HINT
+msgid "Designates the date and optionally the time the artwork or object in the image was created. This relates to artwork or objects with associated intellectual property rights"
 msgstr ""
 
-#: IPTCPANEL_AUTHOR
+#: IPTC_ARTWORKDATE
+msgid "Artwork creation date"
+msgstr ""
+
+#: IPTC_ARTWORKNUMBER_HINT
+msgid "The inventory number issued by the organisation or body holding and registering the artwork or object in the image."
+msgstr ""
+
+#: IPTC_ARTWORKNUMBER
+msgid "Source Inventory Number"
+msgstr ""
+
+#: IPTC_ARTWORKRIGHTS_HINT
+msgid "Contains any necessary copyright notice for claiming the intellectual property for artwork or an object in the image and should identify the current owner of the copyright of this work with associated intellectual property rights"
+msgstr ""
+
+#: IPTC_ARTWORKRIGHTS
+msgid "Artwork copyrights"
+msgstr ""
+
+#: IPTC_ARTWORKSOURCE_HINT
+msgid "The organisation or body holding and registering the artwork or object in the image for inventory purposes."
+msgstr ""
+
+#: IPTC_ARTWORKSOURCE
+msgid "Artwork source"
+msgstr ""
+
+#: IPTC_ARTWORKTITLE_HINT
+msgid "The verbal and human readable name of the artwork or object in this image"
+msgstr ""
+
+#: IPTC_ARTWORKTITLE
+msgid "Artwork title"
+msgstr ""
+
+#: IPTC_AUTHOR_HINT
+msgid "Contains the name of the photographer, but in cases where the photographer should not be identified the name of a company or organisation may be appropriate. IIM 2:80 By line"
+msgstr ""
+
+#: IPTC_AUTHOR_POS_HINT
+msgid "The job title of the photographer IIM 2:85 By line title"
+msgstr ""
+
+#: IPTC_AUTHOR_POS
+msgid "Creator's job title"
+msgstr ""
+
+#: IPTC_AUTHOR
 msgid "Author"
 msgstr ""
 
-#: IPTCPANEL_CAPTIONHINT
-msgid "A textual description of the data (Caption - Abstract)."
+#: IPTC_CATEGORY_HINT
+msgid "Category IIM 2:15 (deprecated)"
 msgstr ""
 
-#: IPTCPANEL_CAPTIONWRITERHINT
-msgid "The name of the person involved in the writing, editing or correcting the image or caption/abstract (Writer - Editor)."
-msgstr ""
-
-#: IPTCPANEL_CAPTIONWRITER
-msgid "Caption Writer"
-msgstr ""
-
-#: IPTCPANEL_CAPTION
-msgid "Caption"
-msgstr ""
-
-#: IPTCPANEL_CATEGORYHINT
-msgid "Identifies the subject of the image in the opinion of the provider (Category)."
-msgstr ""
-
-#: IPTCPANEL_CATEGORY
+#: IPTC_CATEGORY
 msgid "Category"
 msgstr ""
 
-#: IPTCPANEL_CITYHINT
-msgid "City of image origin (City)."
+#: IPTC_CITY_HINT
+msgid "Name of the city of the location shown in the image. IIM 2:90"
 msgstr ""
 
-#: IPTCPANEL_CITY
+#: IPTC_CITY
 msgid "City"
+msgstr ""
+
+#: IPTC_COUNTRYCODE_HINT
+msgid "The code should be taken from ISO 3166 two or three letter code. The full name of a country should go to the 'Country' element IIM 2:100"
+msgstr ""
+
+#: IPTC_COUNTRYCODE
+msgid "Country Code"
+msgstr ""
+
+#: IPTC_COUNTRY_HINT
+msgid "Full name of the country of the location shown in the image. IIM 2:101"
+msgstr ""
+
+#: IPTC_COUNTRY
+msgid "Country"
+msgstr ""
+
+#: IPTC_CREATEDCITY_HINT,IPTC_CREATEDCOUNTRYCODE_HINT,IPTC_CREATEDCOUNTRY_HINT,IPTC_CREATEDREGION_HINT,IPTC_CREATEDSTATE_HINT,IPTC_CREATEDSUBLOC_HINT
+msgid "The location the content of the item was created: details about a location where this image was created"
+msgstr ""
+
+#: IPTC_CREATEDCITY
+msgid "Created City"
+msgstr ""
+
+#: IPTC_CREATEDCOUNTRYCODE
+msgid "Created Country code"
+msgstr ""
+
+#: IPTC_CREATEDCOUNTRY
+msgid "Created Country"
+msgstr ""
+
+#: IPTC_CREATEDREGION
+msgid "Created World region"
+msgstr ""
+
+#: IPTC_CREATEDSTATE
+msgid "Created State/Province"
+msgstr ""
+
+#: IPTC_CREATEDSUBLOC
+msgid "Created Sublocation"
+msgstr ""
+
+#: IPTC_CREATORADDRESS_HINT
+msgid "The address for the person that created this image"
+msgstr ""
+
+#: IPTC_CREATORADDRESS
+msgid "Creator address"
+msgstr ""
+
+#: IPTC_CREATORCITY_HINT
+msgid "The city for the address of the person that created this image"
+msgstr ""
+
+#: IPTC_CREATORCITY
+msgid "Creator city"
+msgstr ""
+
+#: IPTC_CREATORCOUNTRY_HINT
+msgid "The country name for the address of the person that created this image"
+msgstr ""
+
+#: IPTC_CREATORCOUNTRY
+msgid "Creator country"
+msgstr ""
+
+#: IPTC_CREATOREMAIL_HINT
+msgid "The work Email address(es) for the person that created this image"
+msgstr ""
+
+#: IPTC_CREATOREMAIL
+msgid "Creator's email(s)"
+msgstr ""
+
+#: IPTC_CREATORPCODE_HINT
+msgid "The postal code for the address of the person that created this image"
+msgstr ""
+
+#: IPTC_CREATORPCODE
+msgid "Creator postal code"
+msgstr ""
+
+#: IPTC_CREATORPHONE_HINT
+msgid "The work Phone number(s) for the person that created this image, using the international format"
+msgstr ""
+
+#: IPTC_CREATORPHONE
+msgid "Creator Phone num."
+msgstr ""
+
+#: IPTC_CREATORSTATE_HINT
+msgid "The state or province for the address of the person that created this image"
+msgstr ""
+
+#: IPTC_CREATORSTATE
+msgid "Creator State/Province"
+msgstr ""
+
+#: IPTC_CREATORURL_HINT
+msgid "The work Web URL(s) for the person that created this image, such as http://www.domain.com/"
+msgstr ""
+
+#: IPTC_CREATORURL
+msgid "Creator Web URL"
+msgstr ""
+
+#: IPTC_CREDIT_HINT
+msgid "The credit to person(s) and/or organisation(s) required by the supplier of the image to be used when published IIM 2:110"
+msgstr ""
+
+#: IPTC_CREDIT
+msgid "Credit Line"
+msgstr ""
+
+#: IPTC_DATE_HINT
+msgid "The Date the image was taken IIM 2:55"
+msgstr ""
+
+#: IPTC_DATE
+msgid "Date created"
+msgstr ""
+
+#: IPTC_DESCRIPTION_HINT
+msgid "A 'caption' describing the who, what, and why of what is happening in this image, this might include names of people, and/or their role in the action that is taking place within the image. IIM 2:120 Caption/Abstract"
+msgstr ""
+
+#: IPTC_DESCRIPTION
+msgid "Description"
+msgstr ""
+
+#: IPTC_EVENT_HINT
+msgid "The name or description of the event where this image was taken"
+msgstr ""
+
+#: IPTC_EVENT
+msgid "Event"
+msgstr ""
+
+#: IPTC_GENRE_HINT
+msgid "Describe the nature of the image in terms of its intellectual or journalistic characteristics, such as daybook, or feature (examples at: http://www.newscodes.org/) IIM 2:04"
+msgstr ""
+
+#: IPTC_GENRE
+msgid "Intellectual Genre"
+msgstr ""
+
+#: IPTC_HEADLINE_HINT
+msgid "A brief synopsis of the caption."
+msgstr ""
+
+#: IPTC_HEADLINE
+msgid "Headline"
+msgstr ""
+
+#: IPTC_IMAGECREATOR_HINT
+msgid "Creator or creators of the image"
+msgstr ""
+
+#: IPTC_IMAGECREATOR
+msgid "Image Creator"
+msgstr ""
+
+#: IPTC_IMAGEGUID_HINT
+msgid "Globally unique identifier for this digital image"
+msgstr ""
+
+#: IPTC_IMAGEGUID
+msgid "Image GUID"
+msgstr ""
+
+#: IPTC_IMAGEMAXHEIGHT_HINT
+msgid "The maximum available height in pixels of the original photo from which this photo has been derived by downsizing."
+msgstr ""
+
+#: IPTC_IMAGEMAXHEIGHT
+msgid "Max height"
+msgstr ""
+
+#: IPTC_IMAGEMAXWIDTH_HINT
+msgid "The maximum available width in pixels of the original photo from which this photo has been derived by downsizing."
+msgstr ""
+
+#: IPTC_IMAGEMAXWIDTH
+msgid "Max width"
+msgstr ""
+
+#: IPTC_IMAGESUPPLIERGUID_HINT
+msgid "Optional identifier assigned by the Image Supplier to the image"
+msgstr ""
+
+#: IPTC_IMAGESUPPLIERGUID
+msgid "Image supplier GUID"
+msgstr ""
+
+#: IPTC_IMAGESUPPLIER_HINT
+msgid "The identifier for the most recent supplier of this image - note that this might not be the creator or owner of the image"
+msgstr ""
+
+#: IPTC_IMAGESUPPLIER
+msgid "Image supplier"
+msgstr ""
+
+#: IPTC_INSTRUCTIONS_HINT
+msgid "Information about embargoes, or other restrictions not covered by the Rights Usage IIM 2:40"
+msgstr ""
+
+#: IPTC_INSTRUCTIONS
+msgid "Instructions"
+msgstr ""
+
+#: IPTC_JOBID_HINT
+msgid "A number or identifier needed for workflow control or tracking IIM 2:103"
+msgstr ""
+
+#: IPTC_JOBID
+msgid "Job Id"
+msgstr ""
+
+#: IPTC_KEYWORDS_HINT
+msgid "Keywords to express the subject of the image. Any number of keywords, terms or phrases used to express the subject matter in the image. IIM 2:25"
+msgstr ""
+
+#: IPTC_KEYWORDS
+msgid "Keywords"
+msgstr ""
+
+#: IPTC_LICENSOR_HINT
+msgid "A person or company that should be contacted to obtain a licence for using the item or who has licensed the item"
+msgstr ""
+
+#: IPTC_LICENSOR
+msgid "Licensor"
+msgstr ""
+
+#: IPTC_LOCATIONCITY_HINT
+msgid "Details about the City which is shown in this image"
+msgstr ""
+
+#: IPTC_LOCATIONCITY
+msgid "Location City"
+msgstr ""
+
+#: IPTC_LOCATIONCOUNTRYCODE_HINT
+msgid "Enter the 2 or 3 letter ISO 3166 Country Code of the Country"
+msgstr ""
+
+#: IPTC_LOCATIONCOUNTRYCODE
+msgid "Location Country code"
+msgstr ""
+
+#: IPTC_LOCATIONCOUNTRY_HINT
+msgid "Details about the Country which is shown in this image"
+msgstr ""
+
+#: IPTC_LOCATIONCOUNTRY
+msgid "Location Country"
+msgstr ""
+
+#: IPTC_LOCATIONREGION_HINT
+msgid "The name of a world region of a location. This element is at the first (top I) level of a top-down geographical hierarchy."
+msgstr ""
+
+#: IPTC_LOCATIONREGION
+msgid "Location World region"
+msgstr ""
+
+#: IPTC_LOCATIONSTATE_HINT
+msgid "Details about the State/Province which is shown in this image"
+msgstr ""
+
+#: IPTC_LOCATIONSTATE
+msgid "Location State/Province"
+msgstr ""
+
+#: IPTC_LOCATIONSUBLOC_HINT
+msgid "Name of a sublocation. This sublocation name could either be the name of a sublocation to a city or the name of a well known location or (natural) monument outside a city. In the sense of a sublocation to a city this element is at the fifth level of a top-down geographical hierarchy."
+msgstr ""
+
+#: IPTC_LOCATIONSUBLOC
+msgid "Location Sublocation"
+msgstr ""
+
+#: IPTC_MINORDISCLOSURE_HINT
+msgid "The age of the youngest model pictured in this image, at the time that this image was made."
+msgstr ""
+
+#: IPTC_MINORDISCLOSURE
+msgid "Minor Model Age Disclosure"
+msgstr ""
+
+#: IPTC_MODELAGE_HINT
+msgid "The age of the human model(s) at the time this image was made"
+msgstr ""
+
+#: IPTC_MODELAGE
+msgid "Model(s) Age"
+msgstr ""
+
+#: IPTC_MODELINFO_HINT
+msgid "Information like ethnicity or other details about the model(s) in this image"
+msgstr ""
+
+#: IPTC_MODELINFO
+msgid "Model information"
+msgstr ""
+
+#: IPTC_MODELRELID_HINT
+msgid "Identifier associated with each Model Release"
+msgstr ""
+
+#: IPTC_MODELRELID
+msgid "Model Release ID"
+msgstr ""
+
+#: IPTC_MODELRELSTATUS_HINT
+msgid "The availability and scope of model releases authorising usage of the likenesses of persons appearing in the photograph."
+msgstr ""
+
+#: IPTC_MODELRELSTATUS
+msgid "Model Release Status"
+msgstr ""
+
+#: IPTC_ORGANIZATION_HINT
+msgid "Enter an identifier for the controlled vocabulary, then a colon, and finally the code from the vocabulary assigned to the organisation shown in this image (e.g. nasdaq:companyA)"
+msgstr ""
+
+#: IPTC_ORGANIZATION
+msgid "Code of Organization"
 msgstr ""
 
 #: IPTCPANEL_COPYHINT
 msgid "Copy IPTC settings to clipboard"
 msgstr ""
 
-#: IPTCPANEL_COPYRIGHTHINT
-msgid "Any necessary copyright notice (Copyright Notice)."
+#: IPTCPANEL_FILEDLGFILTERXMP
+msgid "IPTC template files (xmp)"
 msgstr ""
 
-#: IPTCPANEL_COPYRIGHT
-msgid "Copyright"
+#: IPTCPANEL_LOADDLGLABEL
+msgid "Load IPTC settings"
 msgstr ""
 
-#: IPTCPANEL_COUNTRYHINT
-msgid "The name of the country/primary location where the image was created (Country - Primary Location Name)."
-msgstr ""
-
-#: IPTCPANEL_COUNTRY
-msgid "Country"
-msgstr ""
-
-#: IPTCPANEL_CREDITHINT
-msgid "Identifies the provider of the image, not necessarily the owner/creator (Credit)."
-msgstr ""
-
-#: IPTCPANEL_CREDIT
-msgid "Credit"
-msgstr ""
-
-#: IPTCPANEL_DATECREATEDHINT
-msgid "The date the intellectual content of the image was created; Format: JJJJMMTT (Date Created)."
-msgstr ""
-
-#: IPTCPANEL_DATECREATED
-msgid "Date Created"
-msgstr ""
-
-#: IPTCPANEL_EMBEDDEDHINT
-msgid "Reset to IPTC data embedded in the image file"
-msgstr ""
-
-#: IPTCPANEL_EMBEDDED
-msgid "Embedded"
-msgstr ""
-
-#: IPTCPANEL_HEADLINEHINT
-msgid "A publishable entry providing a synopsis of the contents of the image (Headline)."
-msgstr ""
-
-#: IPTCPANEL_HEADLINE
-msgid "Headline"
-msgstr ""
-
-#: IPTCPANEL_INSTRUCTIONSHINT
-msgid "Other editorial instructions concerning the use of the image (Special Instructions)."
-msgstr ""
-
-#: IPTCPANEL_INSTRUCTIONS
-msgid "Instructions"
-msgstr ""
-
-#: IPTCPANEL_KEYWORDSHINT
-msgid "Used to indicate specific information retrieval words (Keywords)."
-msgstr ""
-
-#: IPTCPANEL_KEYWORDS
-msgid "Keywords"
+#: IPTCPANEL_OPENHINT
+msgid "Load IPTC settings from file"
 msgstr ""
 
 #: IPTCPANEL_PASTEHINT
 msgid "Paste IPTC settings from clipboard"
 msgstr ""
 
-#: IPTCPANEL_PROVINCEHINT
-msgid "The Province/State where the image originates (Province-State)."
-msgstr ""
-
-#: IPTCPANEL_PROVINCE
-msgid "Province"
-msgstr ""
-
 #: IPTCPANEL_RESETHINT
-msgid "Reset to profile default"
+msgid "Reset to previous IPTC"
 msgstr ""
 
-#: IPTCPANEL_SOURCEHINT
-msgid "The original owner of the intellectual content of the image (Source)."
+#: IPTCPANEL_SAVEDLGLABEL
+msgid "Save IPTC settings"
 msgstr ""
 
-#: IPTCPANEL_SOURCE
+#: IPTCPANEL_SAVEHINT
+msgid "Save IPTC settings to file"
+msgstr ""
+
+#: IPTC_PERSON_HINT
+msgid "Name of a person shown in the image"
+msgstr ""
+
+#: IPTC_PERSON
+msgid "Person shown"
+msgstr ""
+
+#: IPTC_PLUSVERSION_HINT
+msgid "The version number of the PLUS standards in place at the time of the transaction"
+msgstr ""
+
+#: IPTC_PLUSVERSION
+msgid "PLUS Version"
+msgstr ""
+
+#: IPTC_PROPERTYRELID_HINT
+msgid "Optional identifier associated with each Property Release"
+msgstr ""
+
+#: IPTC_PROPERTYRELID
+msgid "Property Release Id"
+msgstr ""
+
+#: IPTC_PROPERTYRELSTATUS_HINT
+msgid "The availability and scope of property releases authorising usage of the properties appearing in the photograph."
+msgstr ""
+
+#: IPTC_PROPERTYRELSTATUS
+msgid "Property Release Status"
+msgstr ""
+
+#: IPTC_REGISTRYID_HINT
+msgid "A unique identifier created by a registry and applied by the creator of the digital image. This value shall not be changed after being applied."
+msgstr ""
+
+#: IPTC_REGISTRYID
+msgid "Registry Image Id"
+msgstr ""
+
+#: IPTC_REGISTRYORG_HINT
+msgid "An identifier for the registry which issued the corresponding Registry Image Id"
+msgstr ""
+
+#: IPTC_REGISTRYORG
+msgid "Registry Organisation Id"
+msgstr ""
+
+#: IPTC_RIGHTSCERTIFICATE_HINT
+msgid "A web URL for a rights management certificate"
+msgstr ""
+
+#: IPTC_RIGHTSCERTIFICATE
+msgid "Rights certificate URL"
+msgstr ""
+
+#: IPTC_RIGHTS_HINT
+msgid "Contains any necessary copyright notice for claiming the intellectual property for this photograph and should identify the current owner of the copyright for the photograph IIM 2:116 Copyright Notice"
+msgstr ""
+
+#: IPTC_RIGHTSMARKED_HINT
+msgid "If True indicates that this is a rights-managed resource. When False, indicates that this is a public-domain resource."
+msgstr ""
+
+#: IPTC_RIGHTSMARKED
+msgid "Rights managed"
+msgstr ""
+
+#: IPTC_RIGHTSOWNER_HINT
+msgid "The owner or owners of the copyright in the licensed image"
+msgstr ""
+
+#: IPTC_RIGHTSOWNER
+msgid "Copyright Owner"
+msgstr ""
+
+#: IPTC_RIGHTSSTATEMENT_HINT
+msgid "A web URL for a statement of the ownership and usage rights for this resource"
+msgstr ""
+
+#: IPTC_RIGHTSSTATEMENT
+msgid "Rights web statement"
+msgstr ""
+
+#: IPTC_RIGHTSSTATUS_HINT
+msgid "Copyright status of the image:Protected,Public Domain,Unknown"
+msgstr ""
+
+#: IPTC_RIGHTSSTATUS
+msgid "Copyright status"
+msgstr ""
+
+#: IPTC_RIGHTS
+msgid "Copyright Notice"
+msgstr ""
+
+#: IPTC_SCENE_HINT
+msgid "Describes the scene of a photo content. Specifies one ore more terms from the IPTC 'Scene-NewsCodes' (http://www.newscodes.org/). Each Scene is represented as a string of 6 digits in an unordered list."
+msgstr ""
+
+#: IPTC_SCENE
+msgid "Scene code"
+msgstr ""
+
+#: IPTC_SOURCE_HINT
+msgid "Identifies the original owner of the copyright for the intellectual content of the image. This could be an agency, a member of an agency or an individual. Source could be different from Creator and from the entities in the CopyrightNotice. IIM 2:115"
+msgstr ""
+
+#: IPTC_SOURCE
 msgid "Source"
 msgstr ""
 
-#: IPTCPANEL_SUPPCATEGORIESHINT
-msgid "Further refines the subject of the image (Supplemental Categories)."
+#: IPTC_STATE_HINT
+msgid "Name of the subregion of a country of the location shown in the image. IIM 2:95"
 msgstr ""
 
-#: IPTCPANEL_SUPPCATEGORIES
-msgid "Suppl. Categories"
+#: IPTC_STATE
+msgid "Province/State"
 msgstr ""
 
-#: IPTCPANEL_TITLEHINT
-msgid "A shorthand reference for the image (Object Name)."
+#: IPTC_SUBJECT_HINT
+msgid "Specifies one or more Subjects from the IPTC 'Subject-NewsCodes' (http://www.newscodes.org/) taxonomy to categorise the image. Each Subject is represented as a string of 8 digits in an unordered list."
 msgstr ""
 
-#: IPTCPANEL_TITLE
+#: IPTC_SUBJECT
+msgid "Subject Code"
+msgstr ""
+
+#: IPTC_SUBLOCATION_HINT
+msgid "Exact name of the sublocation shown in the image. This sublocation name could either be the name of a sublocation to a city or the name of a well known location or (natural) monument outside a city. IIM 2:92"
+msgstr ""
+
+#: IPTC_SUBLOCATION
+msgid "Sublocation"
+msgstr ""
+
+#: IPTC_SUPPLCATEGORIES_HINT
+msgid "Supplemental Category IIM 2:20 (deprecated)"
+msgstr ""
+
+#: IPTC_SUPPLCATEGORIES
+msgid "Supplemental Categories"
+msgstr ""
+
+#: IPTC_TITLE_HINT
+msgid "A shorthand reference for the digital image; this may be the file name. IIM 2:05 Object Name"
+msgstr ""
+
+#: IPTC_TITLE
 msgid "Title"
 msgstr ""
 
-#: IPTCPANEL_TRANSREFERENCEHINT
-msgid "A code representing the location of original transmission (Original Transmission Reference)."
+#: IPTC_URGENCY_HINT
+msgid "Urgency IIM  2:09 (deprecated)"
 msgstr ""
 
-#: IPTCPANEL_TRANSREFERENCE
-msgid "Trans. Reference"
+#: IPTC_URGENCY
+msgid "Urgency"
+msgstr ""
+
+#: IPTC_USAGETERMS_HINT
+msgid "Instructions on how this image can legally be used"
+msgstr ""
+
+#: IPTC_USAGETERMS
+msgid "Usage terms"
+msgstr ""
+
+#: IPTC_VOCABULARY_HINT
+msgid "Term to describe the content of the image by a value from a Controlled Vocabulary: an identifier for the controlled vocabulary, then a colon, and finally the code from the vocabulary assigned to the term"
+msgstr ""
+
+#: IPTC_VOCABULARY
+msgid "Controlled Vocabulary Term"
+msgstr ""
+
+#: IPTC_WRITER_HINT
+msgid "The name of the person involved in writing, editing or correcting the description of the image IIM 2:122"
+msgstr ""
+
+#: IPTC_WRITER
+msgid "Description Writer"
 msgstr ""
 
 #: MAIN_BUTTON_EXIT
@@ -1801,6 +2269,10 @@ msgstr ""
 msgid "Develop"
 msgstr ""
 
+#: MAIN_TAB_EXIF_TOOLTIP
+msgid "<b>Alt-x</b>"
+msgstr ""
+
 #: MAIN_TAB_EXIF
 msgid "Exif"
 msgstr ""
@@ -1877,26 +2349,6 @@ msgstr ""
 msgid "Set preferences"
 msgstr ""
 
-#: MAIN_TOOLTIP_PREVIEWB
-msgid "Preview <b>Blue channel</b>"
-msgstr ""
-
-#: MAIN_TOOLTIP_PREVIEWFOCUSMASK
-msgid "Preview <b>Focus Mask</b>"
-msgstr ""
-
-#: MAIN_TOOLTIP_PREVIEWG
-msgid "Preview <b>Green channel</b>"
-msgstr ""
-
-#: MAIN_TOOLTIP_PREVIEWL
-msgid "Preview <b>Luminosity</b>\n0.299*R + 0.587*G + 0.114*B"
-msgstr ""
-
-#: MAIN_TOOLTIP_PREVIEWR
-msgid "Preview <b>Red channel</b>"
-msgstr ""
-
 #: MAIN_TOOLTIP_QINFO
 msgid "Quick info on the image <b>I</b>"
 msgstr ""
@@ -1919,10 +2371,6 @@ msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDETP1
 msgid "Show/hide the top panel <b>Shift-l</b>"
-msgstr ""
-
-#: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
-msgid "Threshold"
 msgstr ""
 
 #: MAIN_TOOLTIP_TOGGLE
@@ -2051,6 +2499,14 @@ msgstr ""
 
 #: PARTIALPASTE_DETAILGROUP
 msgid "Detail settings"
+msgstr ""
+
+#: PARTIALPASTE_DIALOGIPTCLABEL
+msgid "Partial paste IPTC metadata"
+msgstr ""
+
+#: PARTIALPASTE_DIALOGIPTCSELECT
+msgid "Select IPTC properties"
 msgstr ""
 
 #: PARTIALPASTE_DIALOGLABEL
@@ -2205,10 +2661,6 @@ msgstr ""
 msgid "Resize"
 msgstr ""
 
-#: PARTIALPASTE_RGBCURVES
-msgid "RGB curves"
-msgstr ""
-
 #: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/Highlights"
 msgstr ""
@@ -2351,6 +2803,10 @@ msgstr ""
 
 #: PREFERENCES_DEFAULTLANG
 msgid "Default language"
+msgstr ""
+
+#: PREFERENCES_DEFAULT_METADATA
+msgid "Default IPTC metadata"
 msgstr ""
 
 #: PREFERENCES_DEFAULTTHEME
@@ -2533,6 +2989,10 @@ msgstr ""
 msgid "Output Directory"
 msgstr ""
 
+#: PREFERENCES_OUTPUTMETADATA
+msgid "Write metadata to developed images"
+msgstr ""
+
 #: PREFERENCES_OVERLAY_FILENAMES
 msgid "Overlay filenames on thumbnails"
 msgstr ""
@@ -2583,10 +3043,6 @@ msgstr ""
 
 #: PREFERENCES_PROFILESAVECACHE
 msgid "Save processing parameters to the cache"
-msgstr ""
-
-#: PREFERENCES_PROFILESAVEINPUT
-msgid "Save processing parameters next to the input file"
 msgstr ""
 
 #: PREFERENCES_PROPERTY
@@ -2721,10 +3177,6 @@ msgstr ""
 msgid "Hide vertical scrollbar"
 msgstr ""
 
-#: PREFERENCES_TUNNELMETADATA
-msgid "Copy IPTC/XMP unchanged to output file (when tagging with other program)"
-msgstr ""
-
 #: PREFERENCES_USESYSTEMTHEME
 msgid " Use System Theme"
 msgstr ""
@@ -2733,8 +3185,28 @@ msgstr ""
 msgid "Layout"
 msgstr ""
 
+#: PREFERENCES_XMP_INSIDE_DNG
+msgid "Save XMP metadata and processing params inside DNG (no sidecar file)"
+msgstr ""
+
+#: PREFERENCES_XMP_INSIDE_JPG
+msgid "Save XMP metadata and processing params inside JPG (no sidecar file)"
+msgstr ""
+
+#: PREFERENCES_XMP_INSIDE_PNG
+msgid "Save XMP metadata and processing params inside PNG (no sidecar file)"
+msgstr ""
+
+#: PREFERENCES_XMP_INSIDE_TIFF
+msgid "Save XMP metadata and processing params inside TIFF (no sidecar file)"
+msgstr ""
+
 #: PROFILEPANEL_FILEDLGFILTERPP
 msgid "Postprocessing profiles"
+msgstr ""
+
+#: PROFILEPANEL_FILEDLGFILTERPP3
+msgid "Old postprocessing profiles(pp3)"
 msgstr ""
 
 #: PROFILEPANEL_LABEL
@@ -2895,10 +3367,6 @@ msgstr ""
 
 #: SAVEDLG_SAVEIMMEDIATELY
 msgid "Save immediately"
-msgstr ""
-
-#: SAVEDLG_SAVESPP
-msgid "Save processing parameters with image"
 msgstr ""
 
 #: SAVEDLG_TIFFFILTER
@@ -3082,6 +3550,10 @@ msgstr ""
 msgid "Dark Frame"
 msgstr ""
 
+#: TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
+msgid "Threshold"
+msgstr ""
+
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr ""
@@ -3106,7 +3578,7 @@ msgstr ""
 msgid "Finest"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_NEUTRAL
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL
 msgid "Neutral"
 msgstr ""
 
@@ -3138,16 +3610,8 @@ msgstr ""
 msgid "Raw white-black point"
 msgstr ""
 
-#: TP_EXPOSURE_AUTOLEVELS_TIP
-msgid "Toggle execution of Auto Levels to automatically set parameter values based on image analysis  "
-msgstr ""
-
 #: TP_EXPOSURE_AUTOLEVELS
 msgid "Auto Levels"
-msgstr ""
-
-#: TP_EXPOSURE_CLIP_TIP
-msgid "The fraction of pixels to be clipped in auto levels operation"
 msgstr ""
 
 #: TP_EXPOSURE_CLIP
@@ -3347,10 +3811,6 @@ msgstr ""
 msgid "Luminance Noise Reduction"
 msgstr ""
 
-#: TP_NEUTRAL_TIP
-msgid "Reset exposure controls to neutral values"
-msgstr ""
-
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
 msgstr ""
@@ -3471,10 +3931,6 @@ msgstr ""
 msgid "W:"
 msgstr ""
 
-#: TP_RGBCURVES_LABEL
-msgid "RGB Curves"
-msgstr ""
-
 #: TP_ROTATE_DEGREE
 msgid "Degree"
 msgstr ""
@@ -3579,140 +4035,16 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: TP_WBALANCE_CLOUDY
-msgid "Cloudy"
-msgstr ""
-
-#: TP_WBALANCE_DAYLIGHT
-msgid "Daylight (sunny)"
-msgstr ""
-
-#: TP_WBALANCE_FLASH_HEADER
-msgid "Flash"
-msgstr ""
-
-#: TP_WBALANCE_FLASH55
-msgid "Leica"
-msgstr ""
-
-#: TP_WBALANCE_FLASH60
-msgid "Standard, Canon, Pentax, Olympus"
-msgstr ""
-
-#: TP_WBALANCE_FLASH65
-msgid "Nikon, Panasonic, Sony, Minolta"
-msgstr ""
-
-#: TP_WBALANCE_FLUO_HEADER
-msgid "Fluorescent"
-msgstr ""
-
-#: TP_WBALANCE_FLUO1
-msgid "F1 - Daylight"
-msgstr ""
-
-#: TP_WBALANCE_FLUO10
-msgid "F10 - Philips TL85"
-msgstr ""
-
-#: TP_WBALANCE_FLUO11
-msgid "F11 - Philips TL84"
-msgstr ""
-
-#: TP_WBALANCE_FLUO12
-msgid "F12 - Philips TL83"
-msgstr ""
-
-#: TP_WBALANCE_FLUO2
-msgid "F2 - Cool white"
-msgstr ""
-
-#: TP_WBALANCE_FLUO3
-msgid "F3 - White"
-msgstr ""
-
-#: TP_WBALANCE_FLUO4
-msgid "F4 - Warm white"
-msgstr ""
-
-#: TP_WBALANCE_FLUO5
-msgid "F5 - Daylight"
-msgstr ""
-
-#: TP_WBALANCE_FLUO6
-msgid "F6 - Lite white"
-msgstr ""
-
-#: TP_WBALANCE_FLUO7
-msgid "F7 - D65 Daylight simulator"
-msgstr ""
-
-#: TP_WBALANCE_FLUO8
-msgid "F8 - D50 / Sylvania F40 Design"
-msgstr ""
-
-#: TP_WBALANCE_FLUO9
-msgid "F9 - Cool white deluxe"
-msgstr ""
-
 #: TP_WBALANCE_GREEN
 msgid "Tint"
-msgstr ""
-
-#: TP_WBALANCE_GTI
-msgid "GTI"
-msgstr ""
-
-#: TP_WBALANCE_HMI
-msgid "HMI"
-msgstr ""
-
-#: TP_WBALANCE_JUDGEIII
-msgid "JudgeIII"
 msgstr ""
 
 #: TP_WBALANCE_LABEL
 msgid "White Balance"
 msgstr ""
 
-#: TP_WBALANCE_LAMP_HEADER
-msgid "Lamp"
-msgstr ""
-
-#: TP_WBALANCE_LED_CRS
-msgid "CRS SP12 WWMR16"
-msgstr ""
-
-#: TP_WBALANCE_LED_HEADER
-msgid "LED"
-msgstr ""
-
-#: TP_WBALANCE_LED_LSI
-msgid "LSI Lumelex 2040"
-msgstr ""
-
-#: TP_WBALANCE_SHADE
-msgid "Shade"
-msgstr ""
-
 #: TP_WBALANCE_SIZE
 msgid "Size:"
-msgstr ""
-
-#: TP_WBALANCE_SOLUX35
-msgid "Solux 3500K"
-msgstr ""
-
-#: TP_WBALANCE_SOLUX41
-msgid "Solux 4100K"
-msgstr ""
-
-#: TP_WBALANCE_SOLUX47_NG
-msgid "Solux 4700K (Nat. Gallery)"
-msgstr ""
-
-#: TP_WBALANCE_SOLUX47
-msgid "Solux 4700K (vendor)"
 msgstr ""
 
 #: TP_WBALANCE_SPOTWB
@@ -3721,10 +4053,6 @@ msgstr ""
 
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"
-msgstr ""
-
-#: TP_WBALANCE_TUNGSTEN
-msgid "Tungsten"
 msgstr ""
 
 #: ZOOMBAR_HUGE
