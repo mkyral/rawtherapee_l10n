@@ -17,6 +17,7 @@
 #16 06.09.2011: updated by mkyral
 #17 12.11.2011: updated by mkyral
 #18 29.12.2011: updated by mkyral
+#19 22.02.2012: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -495,11 +496,11 @@ MAIN_TOOLTIP_HIDEHP;Zobrazit či schovat levý panel (obsahující historii <b>H
 MAIN_TOOLTIP_INDCLIPPEDH;Zvýraznit oříznuté světla (Klávesa <)
 MAIN_TOOLTIP_INDCLIPPEDS;Zvýraznit oříznuté stíny (Klávesa >)
 MAIN_TOOLTIP_PREFERENCES;Změnit volby
-MAIN_TOOLTIP_PREVIEWB;Náhled <b>modrého kanálu</b>
-MAIN_TOOLTIP_PREVIEWFOCUSMASK;Náhled <b>Masky zaostření</b>
-MAIN_TOOLTIP_PREVIEWG;Náhled <b>zeleného kanálu</b>
-MAIN_TOOLTIP_PREVIEWL;Náhled <b>světlosti</b>\n0.299*R + 0.587*G + 0.114*B
-MAIN_TOOLTIP_PREVIEWR;Náhled <b>červeného kanálu</b>
+MAIN_TOOLTIP_PREVIEWB;Náhled <b>modrého kanálu</b>\n<b>-b</b>
+MAIN_TOOLTIP_PREVIEWFOCUSMASK;Náhled <b>Masky zaostření</b> <i>(beta)</i> <b>Shift-F</b>\n\nVíce přesné u snímků s nízkou hloubkou ostrosti, nízkým šumem a na vyšších úrovních zvětšení\n\nPro zlepšení přesnosti detekce u zašuměných snímků použijte menší zvětšení  (10-30%)\n\nPokud je maska zaostření zapnuta je náhled generován pomaleji. 
+MAIN_TOOLTIP_PREVIEWG;Náhled <b>zeleného kanálu</b>\n<b>-g</b>
+MAIN_TOOLTIP_PREVIEWL;Náhled <b>světlosti</b>\n0.299*R + 0.587*G + 0.114*B\n<b>-v</b>
+MAIN_TOOLTIP_PREVIEWR;Náhled <b>červeného kanálu</b>\n<b>-r</b>
 MAIN_TOOLTIP_QINFO;Stručné informace o obrázku <b>I</b>
 MAIN_TOOLTIP_SAVEAS;Uložit obrázek do vybrané složky
 MAIN_TOOLTIP_SAVE;Uložit obrázek do výchozí složky
@@ -507,7 +508,7 @@ MAIN_TOOLTIP_SHOWHIDELP1;Zobrazit/skrýt levý panel <b>l</b>
 MAIN_TOOLTIP_SHOWHIDERP1;Zobrazit/skrýt pravý panel <b>Alt-l</b>
 MAIN_TOOLTIP_SHOWHIDETP1;Zobrazit/skrýt horní panel <b>Shift-l</b>
 MAIN_TOOLTIP_THRESHOLD;Práh
-MAIN_TOOLTIP_TOGGLE;Přepnout pohled Před a Po <b>B</b>
+MAIN_TOOLTIP_TOGGLE;Přepnout pohled <b>Před</b> a <b>Po</b> <b>Shift-B</b>
 NAVIGATOR_B_NA;B = n/a
 NAVIGATOR_B_VALUE;B = %1
 NAVIGATOR_G_NA;G = n/a
@@ -894,14 +895,6 @@ TP_HSVEQUALIZER_LABEL;HSV korekce
 TP_HSVEQUALIZER_NEUTRAL;Neutrální
 TP_HSVEQUALIZER_SAT;S
 TP_HSVEQUALIZER_VAL;V
-TP_HSVEQUALIZER1;Červená
-TP_HSVEQUALIZER2;Žlutá
-TP_HSVEQUALIZER3;Limetková
-TP_HSVEQUALIZER4;Zelená
-TP_HSVEQUALIZER5;Azurová
-TP_HSVEQUALIZER6;Modrá
-TP_HSVEQUALIZER7;Růžová
-TP_HSVEQUALIZER8;Purpurová
 TP_CHMIXER_BLUE;Modrý kanál
 TP_CHMIXER_GREEN;Zelený kanál
 TP_CHMIXER_LABEL;Míchání kanálů
@@ -991,7 +984,11 @@ TP_RESIZE_SCALE;Měřítko
 TP_RESIZE_SPECIFY;Zvolte:
 TP_RESIZE_WIDTH;Šířka
 TP_RESIZE_W;Š:
+TP_RGBCURVES_BLUE;B
+TP_RGBCURVES_GREEN;G
+TP_RGBCURVES_CHANNEL;Kanál
 TP_RGBCURVES_LABEL;RGB křivky
+TP_RGBCURVES_RED;R
 TP_ROTATE_DEGREE;Stupně
 TP_ROTATE_LABEL;Otočení
 TP_ROTATE_SELECTLINE;    Vyznačit rovinu

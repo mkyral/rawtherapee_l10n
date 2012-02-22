@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-12-30 12:41+0100\n"
-"PO-Revision-Date: 2012-01-10 08:17+0100\n"
+"POT-Creation-Date: 2012-01-16 19:12+0100\n"
+"PO-Revision-Date: 2012-01-18 06:30+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1544,9 +1544,9 @@ msgid ""
 "image was created. This relates to artwork or objects with associated "
 "intellectual property rights"
 msgstr ""
-"Určuje datum a volitelně i čas, kdy bylo dílo nebo objekt na snímku vytvořen. "
-"Toto se vztahuje k dílu nebo objektu s připojenými právy intelektuálního "
-"vlastnictví"
+"Určuje datum a volitelně i čas, kdy bylo dílo nebo objekt na snímku "
+"vytvořen. Toto se vztahuje k dílu nebo objektu s připojenými právy "
+"intelektuálního vlastnictví"
 
 #: IPTC_ARTWORKDATE
 msgid "Artwork creation date"
@@ -1557,8 +1557,8 @@ msgid ""
 "The inventory number issued by the organisation or body holding and "
 "registering the artwork or object in the image."
 msgstr ""
-"Inventární číslo vydané organizací nebo držitelem díla a registrace díla nebo "
-"objektu na snímku."
+"Inventární číslo vydané organizací nebo držitelem díla a registrace díla "
+"nebo objektu na snímku."
 
 #: IPTC_ARTWORKNUMBER
 msgid "Source Inventory Number"
@@ -1572,9 +1572,9 @@ msgid ""
 "property rights"
 msgstr ""
 "Obsahuje všechna nezbytná upozornění autorského práva k nároku na "
-"intelektuální vlastnictví "
-"díla nebo objektu na fotografii a měl by identifikovat vlastníka copyrightu "
-"tohoto díla s přidruženými právy intelektuálního vlastnictví"
+"intelektuální vlastnictví díla nebo objektu na fotografii a měl by "
+"identifikovat vlastníka copyrightu tohoto díla s přidruženými právy "
+"intelektuálního vlastnictví"
 
 #: IPTC_ARTWORKRIGHTS
 msgid "Artwork copyrights"
@@ -1789,8 +1789,8 @@ msgid ""
 "that is taking place within the image. IIM 2:120 Caption/Abstract"
 msgstr ""
 "Titulek popisující kdo, co a kdy se stalo na tomto snímku. Toto může "
-"obsahovat jména lidí a nebo jejich rolí při činnosti která je na daném snímku."
-" IIM 2:120 Titulek/abstrakt"
+"obsahovat jména lidí a nebo jejich rolí při činnosti která je na daném "
+"snímku. IIM 2:120 Titulek/abstrakt"
 
 #: IPTC_DESCRIPTION
 msgid "Description"
@@ -1810,9 +1810,10 @@ msgid ""
 "journalistic characteristics, such as daybook, or feature (examples at: "
 "http://www.newscodes.org/) IIM 2:04"
 msgstr ""
-"Popisuje podstatu snímku na základě duševních a novinářských charakteristik, "
-"jako například deník nebo funkce (příklady na: http://www.newscodes.org/) IIM "
-"2:04"
+"Popisuje podstatu snímku na základě intelektuálních a novinářských "
+"charakteristik, "
+"jako například deník nebo funkce (příklady na: http://www.newscodes.org/) "
+"IIM 2:04"
 
 #: IPTC_GENRE
 msgid "Intellectual Genre"
@@ -1926,8 +1927,8 @@ msgid ""
 "A person or company that should be contacted to obtain a licence for using "
 "the item or who has licensed the item"
 msgstr ""
-"Osoba nebo společnost který by měla být kontaktována pro obdržení licence pro "
-"užití nebo má předmět licencován"
+"Osoba nebo společnost který by měla být kontaktována pro obdržení licence "
+"pro užití nebo má předmět licencován"
 
 #: IPTC_LICENSOR
 msgid "Licensor"
@@ -2045,8 +2046,8 @@ msgid ""
 "the code from the vocabulary assigned to the organisation shown in this "
 "image (e.g. nasdaq:companyA)"
 msgstr ""
-"Vložte identifikátor řízeného slovníku následovaný čárkou a slovníkovým kódem "
-"organizace zobrazené na fotografii. (například: nasdaq:companyA)"
+"Vložte identifikátor řízeného slovníku následovaný čárkou a slovníkovým "
+"kódem organizace zobrazené na fotografii. (například: nasdaq:companyA)"
 
 #: IPTC_ORGANIZATION
 msgid "Code of Organization"
@@ -2115,8 +2116,8 @@ msgid ""
 "The availability and scope of property releases authorising usage of the "
 "properties appearing in the photograph."
 msgstr ""
-"Dostupnost a rozsah souhlasu vlastnictví s použitím rekvizit vyskytujících se "
-"na snímku."
+"Dostupnost a rozsah souhlasu vlastnictví s použitím rekvizit vyskytujících "
+"se na snímku."
 
 #: IPTC_PROPERTYRELSTATUS
 msgid "Property Release Status"
@@ -2160,9 +2161,8 @@ msgid ""
 "copyright for the photograph IIM 2:116 Copyright Notice"
 msgstr ""
 "Obsahuje všechny nezbytné upozornění autorského práva nárokující "
-"intelektuální vlastnictví "
-"této fotografie a měl by identifikovat vlastníka autorských práv tohoto díla "
-"IIM 2:116 Upozornění Autorského práva"
+"intelektuální vlastnictví této fotografie a měl by identifikovat vlastníka "
+"autorských práv tohoto díla IIM 2:116 Upozornění Autorského práva"
 
 #: IPTC_RIGHTSMARKED_HINT
 msgid ""
@@ -2212,6 +2212,9 @@ msgid ""
 "the IPTC 'Scene-NewsCodes' (http://www.newscodes.org/). Each Scene is "
 "represented as a string of 6 digits in an unordered list."
 msgstr ""
+"Popisuje obsah fotografované scény. Specifikuje jeden nebo více označení dle "
+"IPTC 'Scene-NewsCodes' (http://www.newscodes.org/). Každá scéna je "
+"reprezentována řetězcem šesti číslic neuspořádaného seznamu."
 
 #: IPTC_SCENE
 msgid "Scene code"
@@ -2224,6 +2227,10 @@ msgid ""
 "individual. Source could be different from Creator and from the entities in "
 "the CopyrightNotice. IIM 2:115"
 msgstr ""
+"Identifikuje původního vlastníka autorských práv intelektuálního "
+"intelektuálního obsahu snímku.  Může se jednat o agenturu, člena agentury "
+"nebo jedince. Zdroj se nemusí shodovat s autorem a osobami /společnostmi v "
+"Upozornění autorského práva (CopyrightNotice). IIM 2:115"
 
 #: IPTC_SOURCE
 msgid "Source"
@@ -2233,7 +2240,7 @@ msgstr "Zdroj"
 msgid ""
 "Name of the subregion of a country of the location shown in the image. IIM "
 "2:95"
-msgstr ""
+msgstr "Jméno podoblasti země na snímku zobrazeného místa. IIM 2:95"
 
 #: IPTC_STATE
 msgid "Province/State"
@@ -2245,6 +2252,9 @@ msgid ""
 "newscodes.org/) taxonomy to categorise the image. Each Subject is "
 "represented as a string of 8 digits in an unordered list."
 msgstr ""
+"Specifikuje jeden nebo více subjektů dle IPTC 'Subject-NewsCodes' (http://www."
+"newscodes.org/) systematického řazení snímku. Každý subjekt je reprezentován "
+"osmimístným číslem v neuspořádaném seznamu."
 
 #: IPTC_SUBJECT
 msgid "Subject Code"
@@ -2257,7 +2267,8 @@ msgid ""
 "known location or (natural) monument outside a city. IIM 2:92"
 msgstr ""
 "Jméno místní oblasti zobrazené na snímku. Toto může být buď jméno městské "
-"oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. IIM 2:92"
+"oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. IIM "
+"2:92"
 
 #: IPTC_SUBLOCATION
 msgid "Sublocation"
@@ -2272,11 +2283,12 @@ msgid "Supplemental Categories"
 msgstr "Dodatková kategorie"
 
 #: IPTC_TITLE_HINT
-#, fuzzy
 msgid ""
 "A shorthand reference for the digital image; this may be the file name. IIM "
 "2:05 Object Name"
-msgstr "Zkrácený popis obrázku (Jméno obrázku)."
+msgstr ""
+"Zkrácená reference digitálního snímku. Může se jednat o název souboru. IIM "
+"2:05 Object Name"
 
 #: IPTC_TITLE
 msgid "Title"
@@ -2284,15 +2296,15 @@ msgstr "Titulek"
 
 #: IPTC_URGENCY_HINT
 msgid "Urgency IIM  2:09 (deprecated)"
-msgstr ""
+msgstr "Naléhavost IIM 2:09 (zavrženo)"
 
 #: IPTC_URGENCY
 msgid "Urgency"
-msgstr ""
+msgstr "Naléhavost"
 
 #: IPTC_USAGETERMS_HINT
 msgid "Instructions on how this image can legally be used"
-msgstr ""
+msgstr "Informace o legálním použití snímku"
 
 #: IPTC_USAGETERMS
 msgid "Usage terms"
@@ -2304,22 +2316,22 @@ msgid ""
 "Vocabulary: an identifier for the controlled vocabulary, then a colon, and "
 "finally the code from the vocabulary assigned to the term"
 msgstr ""
+"Termín popisující obsah snímků hodnotou řízeného slovníku: identifikátor "
+"řízeného slovníku a čárka následovaná kódem ze slovníku přiřazenému danému "
+"termínu."
 
 #: IPTC_VOCABULARY
 msgid "Controlled Vocabulary Term"
-msgstr ""
+msgstr "Řízený slovník termínů"
 
 #: IPTC_WRITER_HINT
-#, fuzzy
 msgid ""
 "The name of the person involved in writing, editing or correcting the "
 "description of the image IIM 2:122"
 msgstr ""
-"Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
-"(Autor - Editor)"
+"Jméno osoby, která vložila, změnila nebo opravila  popis snímku IIM 2:122"
 
 #: IPTC_WRITER
-#, fuzzy
 msgid "Description Writer"
 msgstr "Popisovač"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2011-12-30 12:41+0100\n"
+"POT-Creation-Date: 2012-01-16 19:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -705,11 +705,11 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
-#: HISTOGRAM_BUTTON_B
+#: HISTOGRAM_BUTTON_B,TP_RGBCURVES_BLUE
 msgid "B"
 msgstr ""
 
-#: HISTOGRAM_BUTTON_G
+#: HISTOGRAM_BUTTON_G,TP_RGBCURVES_GREEN
 msgid "G"
 msgstr ""
 
@@ -721,7 +721,7 @@ msgstr ""
 msgid "Raw"
 msgstr ""
 
-#: HISTOGRAM_BUTTON_R
+#: HISTOGRAM_BUTTON_R,TP_RGBCURVES_RED
 msgid "R"
 msgstr ""
 
@@ -1878,23 +1878,23 @@ msgid "Set preferences"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWB
-msgid "Preview <b>Blue channel</b>"
+msgid "Preview <b>Blue channel</b>\n<b>-b</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWFOCUSMASK
-msgid "Preview <b>Focus Mask</b>"
+msgid "Preview <b>Focus Mask</b> <i>(beta)</i> <b>Shift-F</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom 10-30%\n\nPreview is rendered slower with Focus Mask turned on. "
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWG
-msgid "Preview <b>Green channel</b>"
+msgid "Preview <b>Green channel</b>\n<b>-g</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWL
-msgid "Preview <b>Luminosity</b>\n0.299*R + 0.587*G + 0.114*B"
+msgid "Preview <b>Luminosity</b>\n0.299*R + 0.587*G + 0.114*B\n<b>-v</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWR
-msgid "Preview <b>Red channel</b>"
+msgid "Preview <b>Red channel</b>\n<b>-r</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_QINFO
@@ -1926,7 +1926,7 @@ msgid "Threshold"
 msgstr ""
 
 #: MAIN_TOOLTIP_TOGGLE
-msgid "Toggle <b>before</b>/<b>after</b> view <b>B</b>"
+msgid "Toggle <b>before</b>/<b>after</b> view <b>Shift-B</b>"
 msgstr ""
 
 #: NAVIGATOR_B_NA,NAVIGATOR_LAB_B_NA
@@ -2925,11 +2925,11 @@ msgstr ""
 msgid "Spot white balance <b>W</b>"
 msgstr ""
 
-#: TP_CACORRECTION_BLUE,TP_HSVEQUALIZER6,TP_RAWCACORR_CABLUE
+#: TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
 msgid "Blue"
 msgstr ""
 
-#: TP_CACORRECTION_RED,TP_HSVEQUALIZER1,TP_RAWCACORR_CARED
+#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED
 msgid "Red"
 msgstr ""
 
@@ -2973,7 +2973,7 @@ msgstr ""
 msgid "Enable saturation limiter"
 msgstr ""
 
-#: TP_COLORBOOST_CHANNEL
+#: TP_COLORBOOST_CHANNEL,TP_RGBCURVES_CHANNEL
 msgid "Channel"
 msgstr ""
 
@@ -3237,30 +3237,6 @@ msgstr ""
 
 #: TP_HSVEQUALIZER_VAL
 msgid "V"
-msgstr ""
-
-#: TP_HSVEQUALIZER2
-msgid "Yellow"
-msgstr ""
-
-#: TP_HSVEQUALIZER3
-msgid "Lime"
-msgstr ""
-
-#: TP_HSVEQUALIZER4
-msgid "Green"
-msgstr ""
-
-#: TP_HSVEQUALIZER5
-msgid "Aqua"
-msgstr ""
-
-#: TP_HSVEQUALIZER7
-msgid "Purple"
-msgstr ""
-
-#: TP_HSVEQUALIZER8
-msgid "Magenta"
 msgstr ""
 
 #: TP_CHMIXER_BLUE
