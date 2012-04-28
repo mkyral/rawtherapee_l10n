@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-01-16 19:12+0100\n"
-"PO-Revision-Date: 2012-01-16 19:23+0100\n"
+"POT-Creation-Date: 2012-02-22 20:45+0100\n"
+"PO-Revision-Date: 2012-02-22 20:56+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -25,6 +25,10 @@ msgstr "Zásluhy"
 #: ABOUT_TAB_LICENSE
 msgid "License"
 msgstr "Licence"
+
+#: ABOUT_TAB_RELEASENOTES
+msgid "Release Notes"
+msgstr "Poznámky k vydání"
 
 #: ABOUT_TAB_SPLASH
 msgid "Splash"
@@ -226,6 +230,125 @@ msgstr "Obnovit"
 msgid "Subdirectory"
 msgstr "Podadresář"
 
+#: EXPORT_BYPASS_ALL
+msgid "Select / Unselect All"
+msgstr "Vybrat/ zrušit výběr všeho"
+
+#: EXPORT_BYPASS_COLORDENOISE
+msgid "Bypass Color denoise"
+msgstr "Přeskočit odstranění barevného šumu"
+
+#: EXPORT_BYPASS_DEFRINGE
+msgid "Bypass Defringe"
+msgstr "Přeskočit odstranění lemu"
+
+#: EXPORT_BYPASS_DIRPYRDENOISE
+msgid "Bypass Noise Reduction"
+msgstr "Přeskočit redukci šumu"
+
+#: EXPORT_BYPASS_DIRPYREQUALIZER
+msgid "Bypass Contrast by detail levels"
+msgstr "Přeskočit kontrast dle detailu úrovní"
+
+#: EXPORT_BYPASS_LUMADENOISE
+msgid "Bypass Luma denoise"
+msgstr "Přeskočit redukci jasového šumu"
+
+#: EXPORT_BYPASS_RAW_ALL_ENHANCE
+msgid "Bypass Post demosaic artifact/noise reduction"
+msgstr "Přeskočit redukce artefaktů a šumu po demozajkování"
+
+#: EXPORT_BYPASS_RAW_CA
+#, fuzzy
+msgid "Bypass [raw] Chromatic Aberration correction"
+msgstr "Chromatická Aberace"
+
+#: EXPORT_BYPASS_RAW_CCSTEPS
+#, fuzzy
+msgid "Bypass [raw] False color suppression"
+msgstr "Počet kroků při potlačování chybných barev"
+
+#: EXPORT_BYPASS_RAW_DCB_ENHANCE
+#, fuzzy
+msgid "Bypass [raw] DCB enhancement steps"
+msgstr "Aplikovat kroky rozšiřeného DCB"
+
+#: EXPORT_BYPASS_RAW_DCB_ITERATIONS
+#, fuzzy
+msgid "Bypass [raw] DCB iterations"
+msgstr "Průchody DCB"
+
+#: EXPORT_BYPASS_RAW_DF
+#, fuzzy
+msgid "Bypass [raw] Dark Frame"
+msgstr "Tmavý snímek"
+
+#: EXPORT_BYPASS_RAW_FF
+#, fuzzy
+msgid "Bypass [raw] Flat Field"
+msgstr "Flat-Field"
+
+#: EXPORT_BYPASS_RAW_GREENTHRESH
+#, fuzzy
+msgid "Bypass [raw] Green equilibration"
+msgstr "Vyrovnání zelené"
+
+#: EXPORT_BYPASS_RAW_LINENOISE
+#, fuzzy
+msgid "Bypass [raw] Line noise filter"
+msgstr "Filtrovat linkové rušení"
+
+#: EXPORT_BYPASS_SHARPENEDGE
+msgid "Bypass Edge sharpening"
+msgstr "Přeskočit doostření hran"
+
+#: EXPORT_BYPASS_SHARPENING
+msgid "Bypass Sharpening"
+msgstr "Přeskočit doostření"
+
+#: EXPORT_BYPASS_SHARPENMICRO
+msgid "Bypass Microcontrast  "
+msgstr "Přeskočit mikrokontrast "
+
+#: EXPORT_BYPASS_SH_HQ
+#, fuzzy
+msgid "Bypass Shadow/Highlights (high quality)"
+msgstr "Poloměr světel a stínů"
+
+#: EXPORT_FASTEXPORTOPTIONS
+msgid "<b>Fast Export Options</b>"
+msgstr "<b>Volby rychlého exportu</b>"
+
+#: EXPORT_INSTRUCTIONS
+msgid ""
+"Fast Export options provide overrides to bypass time and resource consuming "
+"development settings and to run queue processing using the fast export "
+"settings instead. This method is recommended for quicker generation of lower "
+"resolution images when speed is a priority or when resized output is desired "
+"for one or many images without making modifications to their saved "
+"development parameters."
+msgstr ""
+
+#: EXPORT_MAXHEIGHT
+msgid "Maximum Height: "
+msgstr "Maximální výška: "
+
+#: EXPORT_MAXWIDTH
+msgid "Maximum Width:  "
+msgstr "Maximální šířka: "
+
+#: EXPORT_PUTTOQUEUEFAST
+msgid "  Put to Queue for Fast Export"
+msgstr " Vloží do fronty pro rychlý export"
+
+#: EXPORT_RAW_DMETHOD
+msgid "Demosaic method"
+msgstr "Metoda demozajkování"
+
+#: EXPORT_RESIZEMETHOD
+msgid "Resize method"
+msgstr "Metoda změny rozměru"
+
 #: FILEBROWSER_ADDDELTEMPLATE
 msgid "Add/Del templates..."
 msgstr "Přidat/Smazat šablony..."
@@ -421,6 +544,10 @@ msgstr "Přesunout do..."
 #: FILEBROWSER_POPUPOPEN
 msgid "Open"
 msgstr "Otevřít"
+
+#: FILEBROWSER_POPUPPROCESSFAST
+msgid "Put to Queue (Fast export)"
+msgstr "Vložit do fronty (Rychlý export)"
 
 #: FILEBROWSER_POPUPPROCESS,MAIN_BUTTON_QUEUE
 msgid "Put to Queue"
@@ -1845,12 +1972,16 @@ msgid "Detail"
 msgstr "Detaily"
 
 #: MAIN_TAB_DEVELOP
-msgid "Develop"
+msgid " Develop "
 msgstr "Vyvolání"
 
 #: MAIN_TAB_EXIF
 msgid "Exif"
 msgstr "Exif"
+
+#: MAIN_TAB_EXPORT
+msgid " Export "
+msgstr "Export"
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
 msgid "Exposure"
@@ -1861,7 +1992,7 @@ msgid "<b>Alt-e</b>"
 msgstr "<b>Alt-e</b>"
 
 #: MAIN_TAB_FILTER
-msgid "Filter"
+msgid " Filter "
 msgstr "Filtr"
 
 #: MAIN_TAB_ICM
@@ -3287,6 +3418,10 @@ msgstr "Poměr stran:"
 msgid "Rule of diagonals"
 msgstr "Pravidlo diagonál"
 
+#: TP_CROP_GTEPASSPORT
+msgid "Biometric Passport"
+msgstr "Biometrický pas"
+
 #: TP_CROP_GTGRID
 msgid "Grid"
 msgstr "Mřížka"
@@ -3540,19 +3675,21 @@ msgstr "Smísit světla a matici"
 
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
 msgid ""
-"Use RawTherapees default ICC color profile. More precise than simple matrix, "
-"but only available for some cameras."
+"Use RawTherapee's camera-specific ICC input profile that is more precise "
+"than a simpler matrix. Available for some cameras, these profiles are stored "
+"in /iccprofiles/input directory and are automatically retrieved based on "
+"file name matching the exact model name of the camera."
 msgstr ""
-"Použít výchozí ICC barevný profil RawTherapee. Více přesné než jednoduchá "
-"matice, ale dostupné jen pro některé fotoaparáty."
 
 #: TP_ICM_INPUTCAMERAICC
-msgid "Camera standard or ICC"
-msgstr "Standard fotoaparátu nebo ICC"
+msgid "Auto-matched camera-specific ICC"
+msgstr ""
 
 #: TP_ICM_INPUTCAMERA_TOOLTIP
-msgid "Use simple default color matrix by DCRAW or embedded in DNG"
-msgstr "Použít jednoduchou výchozí matici barev DCRAW nebo vloženou v DNG"
+msgid ""
+"Use simple color matrix by DCRAW, enhanced RawTherapee version (whichever is "
+"available based on camera model) or embedded in DNG."
+msgstr ""
 
 #: TP_ICM_INPUTCAMERA
 msgid "Camera standard"
@@ -3567,8 +3704,10 @@ msgid "Use color profile embedded in non-raw files"
 msgstr "Použít barevný profil vložený do ne-RAW souborů"
 
 #: TP_ICM_INPUTNONE_TOOLTIP
-msgid "Use no color profile at all. Use only in special cases."
-msgstr "Nepoužívat barevný profil. Pouze ve speciálních případech."
+msgid "Use no input color profile at all. Use only in special cases."
+msgstr ""
+"Nikdy nepoužívat vstupní barevný profil. Použijte pouze ve speciálních "
+"případech."
 
 #: TP_ICM_INPUTNONE
 msgid "No profile"
@@ -4025,6 +4164,19 @@ msgstr "Zvětšit na 100% <b>1</b>"
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid ""
+#~ "Use RawTherapees default ICC color profile. More precise than simple "
+#~ "matrix, but only available for some cameras."
+#~ msgstr ""
+#~ "Použít výchozí ICC barevný profil RawTherapee. Více přesné než jednoduchá "
+#~ "matice, ale dostupné jen pro některé fotoaparáty."
+
+#~ msgid "Camera standard or ICC"
+#~ msgstr "Standard fotoaparátu nebo ICC"
+
+#~ msgid "Use simple default color matrix by DCRAW or embedded in DNG"
+#~ msgstr "Použít jednoduchou výchozí matici barev DCRAW nebo vloženou v DNG"
 
 #~ msgid "Preview <b>Focus Mask</b>"
 #~ msgstr "Náhled <b>Masky zaostření</b>"

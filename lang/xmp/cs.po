@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-01-16 19:12+0100\n"
+"POT-Creation-Date: 2012-02-22 20:45+0100\n"
 "PO-Revision-Date: 2012-01-18 06:30+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -1602,16 +1602,21 @@ msgid "Artwork title"
 msgstr "Titul díla"
 
 #: IPTC_AUTHOR_HINT
+#, fuzzy
 msgid ""
 "Contains the name of the photographer, but in cases where the photographer "
 "should not be identified the name of a company or organisation may be "
-"appropriate. IIM 2:80 By line"
+"appropriate. \n"
+"IIM 2:80 By line"
 msgstr ""
 "Obsahuje jméno fotografa. V případě, že jméno fotografa nemá být zveřejněno "
 "je dostatečné uvést jméno společnosti nebo organizace. Podtitulek IIM 2:80"
 
 #: IPTC_AUTHOR_POS_HINT
-msgid "The job title of the photographer IIM 2:85 By line title"
+#, fuzzy
+msgid ""
+"The job title of the photographer \n"
+"IIM 2:85 By line title"
 msgstr "Fotografův titulek zakázky. Podtitulek IIM 2:85"
 
 #: IPTC_AUTHOR_POS
@@ -1623,15 +1628,21 @@ msgid "Author"
 msgstr "Autor"
 
 #: IPTC_CATEGORY_HINT
-msgid "Category IIM 2:15 (deprecated)"
+#, fuzzy
+msgid ""
+"Category \n"
+"IIM 2:15 (deprecated)"
 msgstr "Kategorie IIM 2:15 (zavrženo)"
 
 #: IPTC_CATEGORY
 msgid "Category"
 msgstr "Kategorie"
 
-#: IPTC_CITY_HINT
-msgid "Name of the city of the location shown in the image. IIM 2:90"
+#: IPTC_CITY_HINT,IPTC_LOCATIONCITY_HINT
+#, fuzzy
+msgid ""
+"Name of the city of the location shown in the image. \n"
+"IIM 2:90"
 msgstr "Jméno města na snímku zobrazeného místa. IIM 2:90"
 
 #: IPTC_CITY
@@ -1639,9 +1650,11 @@ msgid "City"
 msgstr "Město"
 
 #: IPTC_COUNTRYCODE_HINT
+#, fuzzy
 msgid ""
 "The code should be taken from ISO 3166 two or three letter code. The full "
-"name of a country should go to the 'Country' element IIM 2:100"
+"name of a country should go to the 'Country' element \n"
+"IIM 2:100"
 msgstr ""
 "Měl by být použit dvou a tří písmenný kód dle ISO 3166. Plné jméno země by "
 "mělo být v položce 'Země' IIM 2:100"
@@ -1651,7 +1664,10 @@ msgid "Country Code"
 msgstr "Kód země"
 
 #: IPTC_COUNTRY_HINT
-msgid "Full name of the country of the location shown in the image. IIM 2:101"
+#, fuzzy
+msgid ""
+"Full name of the country of the location shown in the image. \n"
+"IIM 2:101"
 msgstr "Celé jméno země na snímku zobrazeného místa . IIM 2:101"
 
 #: IPTC_COUNTRY
@@ -1763,9 +1779,11 @@ msgid "Creator Web URL"
 msgstr "Web adresa autora"
 
 #: IPTC_CREDIT_HINT
+#, fuzzy
 msgid ""
 "The credit to person(s) and/or organisation(s) required by the supplier of "
-"the image to be used when published IIM 2:110"
+"the image to be used when published \n"
+"IIM 2:110"
 msgstr ""
 "Dodavatelem požadované zásluhy osob nebo organizací které mají být použity "
 "při zveřejnění snímku IIM 2:110"
@@ -1775,7 +1793,10 @@ msgid "Credit Line"
 msgstr "Řádek zásluh"
 
 #: IPTC_DATE_HINT
-msgid "The Date the image was taken IIM 2:55"
+#, fuzzy
+msgid ""
+"The Date the image was taken \n"
+"IIM 2:55"
 msgstr "Datum vzniku snímku IIM 2:55"
 
 #: IPTC_DATE
@@ -1783,10 +1804,12 @@ msgid "Date created"
 msgstr "Datum vzniku"
 
 #: IPTC_DESCRIPTION_HINT
+#, fuzzy
 msgid ""
 "A 'caption' describing the who, what, and why of what is happening in this "
 "image, this might include names of people, and/or their role in the action "
-"that is taking place within the image. IIM 2:120 Caption/Abstract"
+"that is taking place within the image. \n"
+"IIM 2:120 Caption/Abstract"
 msgstr ""
 "Titulek popisující kdo, co a kdy se stalo na tomto snímku. Toto může "
 "obsahovat jména lidí a nebo jejich rolí při činnosti která je na daném "
@@ -1795,6 +1818,37 @@ msgstr ""
 #: IPTC_DESCRIPTION
 msgid "Description"
 msgstr "Popis"
+
+#: IPTC_DIGITALSOURCETYPE_HINT
+msgid ""
+"Select one of the values for identifying the source type of the digital "
+"image from the controlled vocabulary.\n"
+"\n"
+" - Original digital capture of a real life scene\n"
+"The digital image is the original and only instance and was taken by a "
+"digital camera\n"
+"\n"
+" - Digitised from a negative on film\n"
+"The digital image was digitised from a negative on film on any other "
+"transparent medium\n"
+"\n"
+" - Digitised from a positive on film\n"
+"The digital image was digitised from a positive on a transparency or any "
+"other transparent medium\n"
+"\n"
+" - Digitised from a print on non-transparent medium\n"
+"The digital image was digitised from an image printed on a non-transparent "
+"medium\n"
+"\n"
+" - Created by software\n"
+"Should be used for all kinds of computer generated images (CGI), such as "
+"images composited from several different photos and/or graphic elements, or "
+"images created entirely in the computer."
+msgstr ""
+
+#: IPTC_DIGITALSOURCETYPE
+msgid "Digital Source Type"
+msgstr ""
 
 #: IPTC_EVENT_HINT
 msgid "The name or description of the event where this image was taken"
@@ -1805,23 +1859,87 @@ msgid "Event"
 msgstr "Událost"
 
 #: IPTC_GENRE_HINT
+#, fuzzy
 msgid ""
 "Describe the nature of the image in terms of its intellectual or "
 "journalistic characteristics, such as daybook, or feature (examples at: "
-"http://www.newscodes.org/) IIM 2:04"
+"http://www.newscodes.org/) \n"
+"IIM 2:04"
 msgstr ""
 "Popisuje podstatu snímku na základě intelektuálních a novinářských "
-"charakteristik, "
-"jako například deník nebo funkce (příklady na: http://www.newscodes.org/) "
-"IIM 2:04"
+"charakteristik, jako například deník nebo funkce (příklady na: http://www."
+"newscodes.org/) IIM 2:04"
 
 #: IPTC_GENRE
 msgid "Intellectual Genre"
 msgstr "Duševní žánr"
 
+#: IPTC_GROUPNAME_ABOUTMODELS
+#, fuzzy
+msgid "<b>About Models</b>"
+msgstr "<b>Alt-d</b>"
+
+#: IPTC_GROUPNAME_ARTWORKOROBJECT
+#, fuzzy
+msgid "<b>Artwork or Object in the image</b>"
+msgstr "Autor nebo autoři snímku"
+
+#: IPTC_GROUPNAME_CLASSIFICATION
+msgid "<b>Classification</b>"
+msgstr ""
+
+#: IPTC_GROUPNAME_CREATORINFO
+#, fuzzy
+msgid "<b>Creator information</b>"
+msgstr "Informace o modelech"
+
+#: IPTC_GROUPNAME_DESCRIPTION
+#, fuzzy
+msgid "<b>Description of the image</b>"
+msgstr "Stručné informace o obrázku <b>I</b>"
+
+#: IPTC_GROUPNAME_FEATUREDORGANISATION
+#, fuzzy
+msgid "<b>Featured Organisation</b>"
+msgstr "Identifikátor registrační organizace"
+
+#: IPTC_GROUPNAME_LOCATIONCREATED
+msgid "<b>Location Created at</b>"
+msgstr ""
+
+#: IPTC_GROUPNAME_LOCATIONSHOWNCORE
+msgid "<b>Location Shown (core, legacy)</b>"
+msgstr ""
+
+#: IPTC_GROUPNAME_LOCATIONSHOWNEXT
+msgid "<b>Location Shown (XMP extension)</b>"
+msgstr ""
+
+#: IPTC_GROUPNAME_READONLYINFORMATION
+#, fuzzy
+msgid "<b>Read-only information</b>"
+msgstr "Informace o modelech"
+
+#: IPTC_GROUPNAME_REFERENCEADMINISTRATION
+msgid "<b>Reference/Administration information</b>"
+msgstr ""
+
+#: IPTC_GROUPNAME_RELEASEINFO
+#, fuzzy
+msgid "<b>Release information</b>"
+msgstr "Informace o modelech"
+
+#: IPTC_GROUPNAME_RIGHTSINFO
+msgid "<b>Rights information</b>"
+msgstr ""
+
 #: IPTC_HEADLINE_HINT
-msgid "A brief synopsis of the caption."
-msgstr "Krátké shrnutí titulku"
+#, fuzzy
+msgid ""
+"A brief synopsis of the caption. A publishable entry providing a synopsis of "
+"the contents of the news object. Headline is not the same as Title.\n"
+"IIM 2:105 Headline"
+msgstr "Uveřejnitelný krátký popis obrázku (Nadpis)."
 
 #: IPTC_HEADLINE
 msgid "Headline"
@@ -1888,9 +2006,11 @@ msgid "Image supplier"
 msgstr "Dodavatel snímku"
 
 #: IPTC_INSTRUCTIONS_HINT
+#, fuzzy
 msgid ""
 "Information about embargoes, or other restrictions not covered by the Rights "
-"Usage IIM 2:40"
+"Usage \n"
+"IIM 2:40"
 msgstr ""
 "Informace o embargách nebo jiných omezeních neobsažených v právech použití "
 "IIM 2:40"
@@ -1900,8 +2020,10 @@ msgid "Instructions"
 msgstr "Instrukce"
 
 #: IPTC_JOBID_HINT
+#, fuzzy
 msgid ""
-"A number or identifier needed for workflow control or tracking IIM 2:103"
+"A number or identifier needed for workflow control or tracking \n"
+"IIM 2:103"
 msgstr ""
 "Číslo nebo identifikátor potřebný pro proces zpracování nebo pro sledování "
 "IIM 2:103"
@@ -1911,9 +2033,11 @@ msgid "Job Id"
 msgstr "Číslo zakázky"
 
 #: IPTC_KEYWORDS_HINT
+#, fuzzy
 msgid ""
 "Keywords to express the subject of the image. Any number of keywords, terms "
-"or phrases used to express the subject matter in the image. IIM 2:25"
+"or phrases used to express the subject matter in the image. \n"
+"IIM 2:25"
 msgstr ""
 "Klíčová slova popisující objekt na fotografii. Libovolné množství slov, "
 "termínů nebo frází vyjadřujících podstatu objektu na snímku. IIM 2:25"
@@ -1934,25 +2058,32 @@ msgstr ""
 msgid "Licensor"
 msgstr "Udělovatel licence"
 
-#: IPTC_LOCATIONCITY_HINT
-msgid "Details about the City which is shown in this image"
-msgstr "Informace o městě které je zachyceno na snímku"
-
 #: IPTC_LOCATIONCITY
 msgid "Location City"
 msgstr "Město místa"
 
 #: IPTC_LOCATIONCOUNTRYCODE_HINT
-msgid "Enter the 2 or 3 letter ISO 3166 Country Code of the Country"
-msgstr "Vložte dvou nebo tří písmenný kód místa dle ISO 3166"
+#, fuzzy
+msgid ""
+"Enter the 2 or 3 letter ISO 3166 Country Code of the Country.\n"
+"The full name of a country should go to the \"Country\" element.\n"
+"IIM 2:100 Country/Primary Location Code"
+msgstr ""
+"Měl by být použit dvou a tří písmenný kód dle ISO 3166. Plné jméno země by "
+"mělo být v položce 'Země' IIM 2:100"
 
 #: IPTC_LOCATIONCOUNTRYCODE
 msgid "Location Country code"
 msgstr "Kód země místa"
 
 #: IPTC_LOCATIONCOUNTRY_HINT
-msgid "Details about the Country which is shown in this image"
-msgstr "Informace o zemi zachycené na snímku"
+msgid ""
+"Full name of the country of the location shown in the image.\n"
+"This element is at the top/first level of a top-down geographical hierarchy. "
+"The full name should be expressed as a verbal name and not as a code, a code "
+"should go to the element \"CountryCode\" \n"
+"IIM 2:101"
+msgstr ""
 
 #: IPTC_LOCATIONCOUNTRY
 msgid "Location Country"
@@ -1970,20 +2101,26 @@ msgstr ""
 msgid "Location World region"
 msgstr "Region světa místa"
 
-#: IPTC_LOCATIONSTATE_HINT
-msgid "Details about the State/Province which is shown in this image"
-msgstr "Informace o státu nebo provincii zachycené na tomto snímku"
+#: IPTC_LOCATIONSTATE_HINT,IPTC_STATE_HINT
+#, fuzzy
+msgid ""
+"Name of the subregion of a country of the location shown in the image. \n"
+"IIM 2:95"
+msgstr "Jméno podoblasti země na snímku zobrazeného místa. IIM 2:95"
 
 #: IPTC_LOCATIONSTATE
 msgid "Location State/Province"
 msgstr "Stát/provincie místa"
 
 #: IPTC_LOCATIONSUBLOC_HINT
+#, fuzzy
 msgid ""
-"Name of a sublocation. This sublocation name could either be the name of a "
-"sublocation to a city or the name of a well known location or (natural) "
-"monument outside a city. In the sense of a sublocation to a city this "
-"element is at the fifth level of a top-down geographical hierarchy."
+"Name of a sublocation shown in the image. This sublocation name could either "
+"be the name of a sublocation to a city or the name of a well known location "
+"or (natural) monument outside a city. In the sense of a sublocation to a "
+"city this element is at the fifth level of a top-down geographical "
+"hierarchy.\n"
+"IIM 2:92 Sublocation (Iptc4xmpExt:Sublocation)"
 msgstr ""
 "Jméno místní oblasti. Toto může být buď jméno městské oblasti nebo dobře "
 "známého místa nebo (přírodní) monument mimo město. Pokud se jedná o městskou "
@@ -2040,7 +2177,7 @@ msgstr ""
 msgid "Model Release Status"
 msgstr "Stav souhlasu modelu"
 
-#: IPTC_ORGANIZATION_HINT
+#: IPTC_ORGANISATIONCODE_HINT
 msgid ""
 "Enter an identifier for the controlled vocabulary, then a colon, and finally "
 "the code from the vocabulary assigned to the organisation shown in this "
@@ -2049,9 +2186,21 @@ msgstr ""
 "Vložte identifikátor řízeného slovníku následovaný čárkou a slovníkovým "
 "kódem organizace zobrazené na fotografii. (například: nasdaq:companyA)"
 
-#: IPTC_ORGANIZATION
-msgid "Code of Organization"
-msgstr "Kód organizace"
+#: IPTC_ORGANISATIONCODE
+#, fuzzy
+msgid "Organisation Code"
+msgstr "Identifikátor registrační organizace"
+
+#: IPTC_ORGANISATIONNAME_HINT
+msgid ""
+"Enter the full name of the organisation or company which is featured in the "
+"image"
+msgstr ""
+
+#: IPTC_ORGANISATIONNAME
+#, fuzzy
+msgid "Organisation Name"
+msgstr "Identifikátor registrační organizace"
 
 #: IPTCPANEL_COPYHINT
 msgid "Copy IPTC settings to clipboard"
@@ -2086,8 +2235,10 @@ msgid "Save IPTC settings to file"
 msgstr "Uložit IPCT nastavení do souboru"
 
 #: IPTC_PERSON_HINT
-msgid "Name of a person shown in the image"
-msgstr "Jméno osoby zobrazené na snímku"
+msgid ""
+"Name of a person shown in the image. Semicolons or commas can be used to "
+"separate multiple values"
+msgstr ""
 
 #: IPTC_PERSON
 msgid "Person shown"
@@ -2155,10 +2306,12 @@ msgid "Rights certificate URL"
 msgstr "Web adresa osvědčení vlastnických práva"
 
 #: IPTC_RIGHTS_HINT
+#, fuzzy
 msgid ""
 "Contains any necessary copyright notice for claiming the intellectual "
 "property for this photograph and should identify the current owner of the "
-"copyright for the photograph IIM 2:116 Copyright Notice"
+"copyright for the photograph \n"
+"IIM 2:116 Copyright Notice"
 msgstr ""
 "Obsahuje všechny nezbytné upozornění autorského práva nárokující "
 "intelektuální vlastnictví této fotografie a měl by identifikovat vlastníka "
@@ -2166,11 +2319,13 @@ msgstr ""
 
 #: IPTC_RIGHTSMARKED_HINT
 msgid ""
-"If True indicates that this is a rights-managed resource. When False, "
-"indicates that this is a public-domain resource."
+"[XMP] Copyright status of the image:\n"
+" Copyrighted\n"
+" Public Domain\n"
+" Unknown\n"
+" It is recommented to also indicate the same information in the Copyright "
+"Status field"
 msgstr ""
-"Zatržení znamená, že se jedná o zdroj spravovaný vlastnickými právy. V "
-"opačném případě je zdroj public-domain."
 
 #: IPTC_RIGHTSMARKED
 msgid "Rights managed"
@@ -2191,12 +2346,19 @@ msgstr ""
 "Internetová adresa prohlášení vlastnictví a práv použití pro tento zdroj"
 
 #: IPTC_RIGHTSSTATEMENT
-msgid "Rights web statement"
+#, fuzzy
+msgid "Rights statement URL"
 msgstr "Adresa prohlášení autorských práv"
 
 #: IPTC_RIGHTSSTATUS_HINT
-msgid "Copyright status of the image:Protected,Public Domain,Unknown"
-msgstr "Stav autorských práv snímku: Chráněný, Public domain, Neznámý"
+msgid ""
+"[PLUS] Copyright status of the image:\n"
+" Protected\n"
+" Public Domain\n"
+" Unknown\n"
+" It is recommented to also indicate the same information in the Rights "
+"Makred field"
+msgstr ""
 
 #: IPTC_RIGHTSSTATUS
 msgid "Copyright status"
@@ -2221,11 +2383,14 @@ msgid "Scene code"
 msgstr "Kód scény"
 
 #: IPTC_SOURCE_HINT
+#, fuzzy
 msgid ""
 "Identifies the original owner of the copyright for the intellectual content "
 "of the image. This could be an agency, a member of an agency or an "
-"individual. Source could be different from Creator and from the entities in "
-"the CopyrightNotice. IIM 2:115"
+"individual. To aid in later searches, it is suggested to separate any "
+"slashes \"/\" with a blank space: \" / \". Source could be different from "
+"Creator and from the entities in the CopyrightNotice. \n"
+"IIM 2:115"
 msgstr ""
 "Identifikuje původního vlastníka autorských práv intelektuálního "
 "intelektuálního obsahu snímku.  Může se jednat o agenturu, člena agentury "
@@ -2235,12 +2400,6 @@ msgstr ""
 #: IPTC_SOURCE
 msgid "Source"
 msgstr "Zdroj"
-
-#: IPTC_STATE_HINT
-msgid ""
-"Name of the subregion of a country of the location shown in the image. IIM "
-"2:95"
-msgstr "Jméno podoblasti země na snímku zobrazeného místa. IIM 2:95"
 
 #: IPTC_STATE
 msgid "Province/State"
@@ -2252,30 +2411,37 @@ msgid ""
 "newscodes.org/) taxonomy to categorise the image. Each Subject is "
 "represented as a string of 8 digits in an unordered list."
 msgstr ""
-"Specifikuje jeden nebo více subjektů dle IPTC 'Subject-NewsCodes' (http://www."
-"newscodes.org/) systematického řazení snímku. Každý subjekt je reprezentován "
-"osmimístným číslem v neuspořádaném seznamu."
+"Specifikuje jeden nebo více subjektů dle IPTC 'Subject-NewsCodes' (http://"
+"www.newscodes.org/) systematického řazení snímku. Každý subjekt je "
+"reprezentován osmimístným číslem v neuspořádaném seznamu."
 
 #: IPTC_SUBJECT
 msgid "Subject Code"
 msgstr "Kód subjektu"
 
 #: IPTC_SUBLOCATION_HINT
+#, fuzzy
 msgid ""
-"Exact name of the sublocation shown in the image. This sublocation name "
-"could either be the name of a sublocation to a city or the name of a well "
-"known location or (natural) monument outside a city. IIM 2:92"
+"Name of a sublocation shown in the image. This sublocation name could either "
+"be the name of a sublocation to a city or the name of a well known location "
+"or (natural) monument outside a city. In the sense of a sublocation to a "
+"city this element is at the fifth level of a top-down geographical "
+"hierarchy.\n"
+"IIM 2:92 Sublocation (Iptc4xmpCore:Location)"
 msgstr ""
-"Jméno místní oblasti zobrazené na snímku. Toto může být buď jméno městské "
-"oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. IIM "
-"2:92"
+"Jméno místní oblasti. Toto může být buď jméno městské oblasti nebo dobře "
+"známého místa nebo (přírodní) monument mimo město. Pokud se jedná o městskou "
+"oblast je tento element pátá úroveň sestupné geografické hierarchie."
 
 #: IPTC_SUBLOCATION
 msgid "Sublocation"
 msgstr "Podoblast"
 
 #: IPTC_SUPPLCATEGORIES_HINT
-msgid "Supplemental Category IIM 2:20 (deprecated)"
+#, fuzzy
+msgid ""
+"Supplemental Category \n"
+"IIM 2:20 (deprecated)"
 msgstr "Dodatková kategorie IIM 2:20 (zavrženo)"
 
 #: IPTC_SUPPLCATEGORIES
@@ -2283,9 +2449,12 @@ msgid "Supplemental Categories"
 msgstr "Dodatková kategorie"
 
 #: IPTC_TITLE_HINT
+#, fuzzy
 msgid ""
-"A shorthand reference for the digital image; this may be the file name. IIM "
-"2:05 Object Name"
+"Title holds a short verbal and human readable name, a shorthand reference "
+"for the digital image; this may be the file name.\n"
+"Title is not the same as Headline.\n"
+"IIM 2:05 Object Name"
 msgstr ""
 "Zkrácená reference digitálního snímku. Může se jednat o název souboru. IIM "
 "2:05 Object Name"
@@ -2295,7 +2464,10 @@ msgid "Title"
 msgstr "Titulek"
 
 #: IPTC_URGENCY_HINT
-msgid "Urgency IIM  2:09 (deprecated)"
+#, fuzzy
+msgid ""
+"Urgency \n"
+"IIM  2:09 (deprecated)"
 msgstr "Naléhavost IIM 2:09 (zavrženo)"
 
 #: IPTC_URGENCY
@@ -2325,9 +2497,11 @@ msgid "Controlled Vocabulary Term"
 msgstr "Řízený slovník termínů"
 
 #: IPTC_WRITER_HINT
+#, fuzzy
 msgid ""
 "The name of the person involved in writing, editing or correcting the "
-"description of the image IIM 2:122"
+"description of the image \n"
+"IIM 2:122"
 msgstr ""
 "Jméno osoby, která vložila, změnila nebo opravila  popis snímku IIM 2:122"
 
@@ -4502,6 +4676,46 @@ msgstr "Zvětšit na 100% <b>1</b>"
 msgid "(100%)"
 msgstr "(100%)"
 
+#~ msgid "A brief synopsis of the caption."
+#~ msgstr "Krátké shrnutí titulku"
+
+#~ msgid "Details about the City which is shown in this image"
+#~ msgstr "Informace o městě které je zachyceno na snímku"
+
+#~ msgid "Enter the 2 or 3 letter ISO 3166 Country Code of the Country"
+#~ msgstr "Vložte dvou nebo tří písmenný kód místa dle ISO 3166"
+
+#~ msgid "Details about the Country which is shown in this image"
+#~ msgstr "Informace o zemi zachycené na snímku"
+
+#~ msgid "Details about the State/Province which is shown in this image"
+#~ msgstr "Informace o státu nebo provincii zachycené na tomto snímku"
+
+#~ msgid "Code of Organization"
+#~ msgstr "Kód organizace"
+
+#~ msgid "Name of a person shown in the image"
+#~ msgstr "Jméno osoby zobrazené na snímku"
+
+#~ msgid ""
+#~ "If True indicates that this is a rights-managed resource. When False, "
+#~ "indicates that this is a public-domain resource."
+#~ msgstr ""
+#~ "Zatržení znamená, že se jedná o zdroj spravovaný vlastnickými právy. V "
+#~ "opačném případě je zdroj public-domain."
+
+#~ msgid "Copyright status of the image:Protected,Public Domain,Unknown"
+#~ msgstr "Stav autorských práv snímku: Chráněný, Public domain, Neznámý"
+
+#~ msgid ""
+#~ "Exact name of the sublocation shown in the image. This sublocation name "
+#~ "could either be the name of a sublocation to a city or the name of a well "
+#~ "known location or (natural) monument outside a city. IIM 2:92"
+#~ msgstr ""
+#~ "Jméno místní oblasti zobrazené na snímku. Toto může být buď jméno městské "
+#~ "oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. IIM "
+#~ "2:92"
+
 #~ msgid "RGB Curves - R"
 #~ msgstr "RGB křivky - R"
 
@@ -4563,11 +4777,6 @@ msgstr "(100%)"
 
 #~ msgid "Embedded"
 #~ msgstr "Uložené"
-
-#~ msgid ""
-#~ "A publishable entry providing a synopsis of the contents of the image "
-#~ "(Headline)."
-#~ msgstr "Uveřejnitelný krátký popis obrázku (Nadpis)."
 
 #~ msgid ""
 #~ "Other editorial instructions concerning the use of the image (Special "

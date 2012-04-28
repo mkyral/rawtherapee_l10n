@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-01-16 19:12+0100\n"
+"POT-Creation-Date: 2012-02-22 20:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,10 @@ msgstr ""
 
 #: ABOUT_TAB_LICENSE
 msgid "License"
+msgstr ""
+
+#: ABOUT_TAB_RELEASENOTES
+msgid "Release Notes"
 msgstr ""
 
 #: ABOUT_TAB_SPLASH
@@ -229,6 +233,110 @@ msgstr ""
 msgid "Subdirectory"
 msgstr ""
 
+#: EXPORT_BYPASS_ALL
+msgid "Select / Unselect All"
+msgstr ""
+
+#: EXPORT_BYPASS_COLORDENOISE
+msgid "Bypass Color denoise"
+msgstr ""
+
+#: EXPORT_BYPASS_DEFRINGE
+msgid "Bypass Defringe"
+msgstr ""
+
+#: EXPORT_BYPASS_DIRPYRDENOISE
+msgid "Bypass Noise Reduction"
+msgstr ""
+
+#: EXPORT_BYPASS_DIRPYREQUALIZER
+msgid "Bypass Contrast by detail levels"
+msgstr ""
+
+#: EXPORT_BYPASS_LUMADENOISE
+msgid "Bypass Luma denoise"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_ALL_ENHANCE
+msgid "Bypass Post demosaic artifact/noise reduction"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_CA
+msgid "Bypass [raw] Chromatic Aberration correction"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_CCSTEPS
+msgid "Bypass [raw] False color suppression"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_DCB_ENHANCE
+msgid "Bypass [raw] DCB enhancement steps"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_DCB_ITERATIONS
+msgid "Bypass [raw] DCB iterations"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_DF
+msgid "Bypass [raw] Dark Frame"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_FF
+msgid "Bypass [raw] Flat Field"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_GREENTHRESH
+msgid "Bypass [raw] Green equilibration"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_LINENOISE
+msgid "Bypass [raw] Line noise filter"
+msgstr ""
+
+#: EXPORT_BYPASS_SHARPENEDGE
+msgid "Bypass Edge sharpening"
+msgstr ""
+
+#: EXPORT_BYPASS_SHARPENING
+msgid "Bypass Sharpening"
+msgstr ""
+
+#: EXPORT_BYPASS_SHARPENMICRO
+msgid "Bypass Microcontrast  "
+msgstr ""
+
+#: EXPORT_BYPASS_SH_HQ
+msgid "Bypass Shadow/Highlights (high quality)"
+msgstr ""
+
+#: EXPORT_FASTEXPORTOPTIONS
+msgid "<b>Fast Export Options</b>"
+msgstr ""
+
+#: EXPORT_INSTRUCTIONS
+msgid "Fast Export options provide overrides to bypass time and resource consuming development settings and to run queue processing using the fast export settings instead. This method is recommended for quicker generation of lower resolution images when speed is a priority or when resized output is desired for one or many images without making modifications to their saved development parameters."
+msgstr ""
+
+#: EXPORT_MAXHEIGHT
+msgid "Maximum Height: "
+msgstr ""
+
+#: EXPORT_MAXWIDTH
+msgid "Maximum Width:  "
+msgstr ""
+
+#: EXPORT_PUTTOQUEUEFAST
+msgid "  Put to Queue for Fast Export"
+msgstr ""
+
+#: EXPORT_RAW_DMETHOD
+msgid "Demosaic method"
+msgstr ""
+
+#: EXPORT_RESIZEMETHOD
+msgid "Resize method"
+msgstr ""
+
 #: FILEBROWSER_ADDDELTEMPLATE
 msgid "Add/Del templates..."
 msgstr ""
@@ -407,6 +515,10 @@ msgstr ""
 
 #: FILEBROWSER_POPUPOPEN
 msgid "Open"
+msgstr ""
+
+#: FILEBROWSER_POPUPPROCESSFAST
+msgid "Put to Queue (Fast export)"
 msgstr ""
 
 #: FILEBROWSER_POPUPPROCESS,MAIN_BUTTON_QUEUE
@@ -1798,11 +1910,15 @@ msgid "Detail"
 msgstr ""
 
 #: MAIN_TAB_DEVELOP
-msgid "Develop"
+msgid " Develop "
 msgstr ""
 
 #: MAIN_TAB_EXIF
 msgid "Exif"
+msgstr ""
+
+#: MAIN_TAB_EXPORT
+msgid " Export "
 msgstr ""
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
@@ -1814,7 +1930,7 @@ msgid "<b>Alt-e</b>"
 msgstr ""
 
 #: MAIN_TAB_FILTER
-msgid "Filter"
+msgid " Filter "
 msgstr ""
 
 #: MAIN_TAB_ICM
@@ -3021,6 +3137,10 @@ msgstr ""
 msgid "Rule of diagonals"
 msgstr ""
 
+#: TP_CROP_GTEPASSPORT
+msgid "Biometric Passport"
+msgstr ""
+
 #: TP_CROP_GTGRID
 msgid "Grid"
 msgstr ""
@@ -3264,15 +3384,15 @@ msgid "Blend highlights with matrix"
 msgstr ""
 
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
-msgid "Use RawTherapees default ICC color profile. More precise than simple matrix, but only available for some cameras."
+msgid "Use RawTherapee's camera-specific ICC input profile that is more precise than a simpler matrix. Available for some cameras, these profiles are stored in /iccprofiles/input directory and are automatically retrieved based on file name matching the exact model name of the camera."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERAICC
-msgid "Camera standard or ICC"
+msgid "Auto-matched camera-specific ICC"
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA_TOOLTIP
-msgid "Use simple default color matrix by DCRAW or embedded in DNG"
+msgid "Use simple color matrix by DCRAW, enhanced RawTherapee version (whichever is available based on camera model) or embedded in DNG."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA
@@ -3288,7 +3408,7 @@ msgid "Use color profile embedded in non-raw files"
 msgstr ""
 
 #: TP_ICM_INPUTNONE_TOOLTIP
-msgid "Use no color profile at all. Use only in special cases."
+msgid "Use no input color profile at all. Use only in special cases."
 msgstr ""
 
 #: TP_ICM_INPUTNONE
