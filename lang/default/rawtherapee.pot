@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-02-22 20:45+0100\n"
+"POT-Creation-Date: 2012-04-28 08:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,7 +94,7 @@ msgid "Minima/Maxima control points"
 msgstr ""
 
 #: CURVEEDITOR_NURBS
-msgid "Control cage"
+msgid "Control Cage"
 msgstr ""
 
 #: CURVEEDITOR_PARAMETRIC
@@ -250,7 +250,7 @@ msgid "Bypass Noise Reduction"
 msgstr ""
 
 #: EXPORT_BYPASS_DIRPYREQUALIZER
-msgid "Bypass Contrast by detail levels"
+msgid "Bypass Contrast by Detail Levels"
 msgstr ""
 
 #: EXPORT_BYPASS_LUMADENOISE
@@ -258,23 +258,23 @@ msgid "Bypass Luma denoise"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_ALL_ENHANCE
-msgid "Bypass Post demosaic artifact/noise reduction"
+msgid "Bypass Post Demosaic Artifact/Noise Reduction"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_CA
-msgid "Bypass [raw] Chromatic Aberration correction"
+msgid "Bypass [raw] Chromatic Aberration Correction"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_CCSTEPS
-msgid "Bypass [raw] False color suppression"
+msgid "Bypass [raw] False Color Suppression"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_DCB_ENHANCE
-msgid "Bypass [raw] DCB enhancement steps"
+msgid "Bypass [raw] DCB Enhancement Steps"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_DCB_ITERATIONS
-msgid "Bypass [raw] DCB iterations"
+msgid "Bypass [raw] DCB Iterations"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_DF
@@ -286,15 +286,15 @@ msgid "Bypass [raw] Flat Field"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_GREENTHRESH
-msgid "Bypass [raw] Green equilibration"
+msgid "Bypass [raw] Green Equilibration"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_LINENOISE
-msgid "Bypass [raw] Line noise filter"
+msgid "Bypass [raw] Line Noise Filter"
 msgstr ""
 
 #: EXPORT_BYPASS_SHARPENEDGE
-msgid "Bypass Edge sharpening"
+msgid "Bypass Edge Sharpening"
 msgstr ""
 
 #: EXPORT_BYPASS_SHARPENING
@@ -306,7 +306,7 @@ msgid "Bypass Microcontrast  "
 msgstr ""
 
 #: EXPORT_BYPASS_SH_HQ
-msgid "Bypass Shadow/Highlights (high quality)"
+msgid "Bypass Shadow/Highlights (High Quality)"
 msgstr ""
 
 #: EXPORT_FASTEXPORTOPTIONS
@@ -329,12 +329,20 @@ msgstr ""
 msgid "  Put to Queue for Fast Export"
 msgstr ""
 
-#: EXPORT_RAW_DMETHOD
-msgid "Demosaic method"
+#: EXPORT_RAW_DMETHOD,PARTIALPASTE_RAW_DMETHOD
+msgid "Demosaic Method"
 msgstr ""
 
-#: EXPORT_RESIZEMETHOD
-msgid "Resize method"
+#: EXPORT_RESIZEMETHOD,HISTORY_MSG_75
+msgid "Resize Method"
+msgstr ""
+
+#: EXTPROGTARGET_1
+msgid "raw"
+msgstr ""
+
+#: EXTPROGTARGET_2
+msgid "queue-processed"
 msgstr ""
 
 #: FILEBROWSER_ADDDELTEMPLATE
@@ -353,12 +361,12 @@ msgstr ""
 msgid "Change between vertical/horizontal alignment of thumbnails"
 msgstr ""
 
-#: FILEBROWSER_AUTODARKFRAME
-msgid "Auto dark frame"
+#: FILEBROWSER_AUTODARKFRAME,HISTORY_MSG_122
+msgid "Auto Dark Frame"
 msgstr ""
 
 #: FILEBROWSER_AUTOFLATFIELD
-msgid "Auto flat field"
+msgid "Auto Flat Field"
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHBUTTONHINT
@@ -366,7 +374,7 @@ msgid "Click to browse to the chosen path"
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHHINT
-msgid "Type path to browse\n<b>Ctrl-o</b> set focus\n<b>Enter</b>, <b>Ctrl-Enter</b> (in File Browser) to browse;\nPath shortcuts:\n  <b>~</b> - user's home directory\n  <b>!</b> - user's pictures directory"
+msgid "Type a path to navigate to.\n<b>Ctrl-O</b> to focus the path text box.\n<b>Enter</b> / <b>Ctrl-Enter</b> (in the File Browser) to browse there;\n\nPath shortcuts:\n  <b>~</b> - user's home directory\n  <b>!</b> - user's pictures directory"
 msgstr ""
 
 #: FILEBROWSER_CACHECLEARFROMFULL
@@ -402,7 +410,7 @@ msgid "File delete confirmation"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
-msgid "Are you sure you want to delete the selected %1 files INCLUDING a Queue processed version?"
+msgid "Are you sure you want to delete the selected %1 files INCLUDING a queue-processed version?"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGMSG
@@ -410,7 +418,7 @@ msgid "Are you sure you want to delete the selected %1 files?"
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASHHINT
-msgid "Permanently delete the files of the trash"
+msgid "Permanently delete the files from trash"
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASH
@@ -418,11 +426,11 @@ msgid "Empty Trash"
 msgstr ""
 
 #: FILEBROWSER_EXEC_CPB
-msgid "Run custom profile builder"
+msgid "Run Custom Profile Builder"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
-msgid "Switch on/off exif filter of the file browser"
+msgid "Switch File Browser Exif Filter on/off"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERAPPLY
@@ -430,15 +438,19 @@ msgid "Apply"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERSETTINGSHINT
-msgid "Change settings of the exif filter"
+msgid "Change settings of the Exif Filter"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERSETTINGS
 msgid "Setup"
 msgstr ""
 
-#: FILEBROWSER_FLATFIELD
-msgid "Flat field"
+#: FILEBROWSER_EXTPROGMENU
+msgid "Open with"
+msgstr ""
+
+#: FILEBROWSER_FLATFIELD,PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
+msgid "Flat Field"
 msgstr ""
 
 #: FILEBROWSER_MOVETODARKFDIR
@@ -451,6 +463,10 @@ msgstr ""
 
 #: FILEBROWSER_NEW_NAME
 msgid "New name:"
+msgstr ""
+
+#: FILEBROWSER_OPENDEFAULTVIEWER
+msgid "Windows Default Viewer (queue-processed) "
 msgstr ""
 
 #: FILEBROWSER_PARTIALPASTEPROFILE
@@ -594,7 +610,7 @@ msgid "Clear the Find query"
 msgstr ""
 
 #: FILEBROWSER_QUERYHINT
-msgid "Type a part of filename to search by \n<b>Ctrl-f</b> set focus (in File Browser);\n<b>Enter</b> to find"
+msgid "Type a partial filename to search for.\n<b>Ctrl-F</b> to focus the Find text box (in the File Browser).\n<b>Enter</b> to commence search."
 msgstr ""
 
 #: FILEBROWSER_QUERYLABEL
@@ -618,39 +634,39 @@ msgid "Select flat field..."
 msgstr ""
 
 #: FILEBROWSER_SHOWCOLORLABEL1HINT
-msgid "Show images labeled Red <b>Alt-1</b>"
+msgid "Show images labeled Red.\nShortcut: <b>Alt-1</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWCOLORLABEL2HINT
-msgid "Show images labeled Yelow <b>Alt-2</b>"
+msgid "Show images labeled Yellow.\nShortcut: <b>Alt-2</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWCOLORLABEL3HINT
-msgid "Show images labeled Green <b>Alt-3</b>"
+msgid "Show images labeled Green.\nShortcut: <b>Alt-3</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWCOLORLABEL4HINT
-msgid "Show images labeled Blue <b>Alt-4</b>"
+msgid "Show images labeled Blue.\nShortcut: <b>Alt-4</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWCOLORLABEL5HINT
-msgid "Show images labeled Purple <b>Alt-5</b>"
+msgid "Show images labeled Purple.\nShortcut: <b>Alt-5</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWDIRHINT
-msgid "Clear all filters <b>D</b>"
+msgid "Clear all filters.\nShortcut: <b>D</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEDITEDHINT
-msgid "Show edited images <b>7</b>"
+msgid "Show edited images.\nShortcut: <b>7</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEDITEDNOTHINT
-msgid "Show not edited images <b>6</b>"
+msgid "Show not edited images.\nShortcut: <b>6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEXIFINFO
-msgid "Show EXIF info <b>i</b>"
+msgid "Show EXIF info.\nShortcut: <b>i</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWQUEUEHINT
@@ -658,43 +674,43 @@ msgid "Show content of the processing queue"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK1HINT
-msgid "Show images ranked as 1 star <b>1</b>"
+msgid "Show images ranked as 1 star.\nShortcut: <b>1</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK2HINT
-msgid "Show images ranked as 2 star <b>2</b>"
+msgid "Show images ranked as 2 star.\nShortcut: <b>2</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK3HINT
-msgid "Show images ranked as 3 star <b>3</b>"
+msgid "Show images ranked as 3 star.\nShortcut: <b>3</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK4HINT
-msgid "Show images ranked as 4 star <b>4</b>"
+msgid "Show images ranked as 4 star.\nShortcut: <b>4</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK5HINT
-msgid "Show images ranked as 5 star <b>5</b>"
+msgid "Show images ranked as 5 star.\nShortcut: <b>5</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRECENTLYSAVEDHINT
-msgid "Show images recently saved  <b>Alt-7</b>"
+msgid "Show images recently saved.\nShortcut: <b>Alt-7</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT
-msgid "Show images not recently saved <b>Alt-6</b>"
+msgid "Show images not recently saved.\nShortcut: <b>Alt-6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWTRASHHINT
-msgid "Show content of the trash <b>T</b>"
+msgid "Show content of the trash.\nShortcut: <b>T</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWUNCOLORHINT
-msgid "Show images without Color label <b>Alt-`</b>"
+msgid "Show images without Color label.\nShortcut: <b>Alt-`</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWUNRANKHINT
-msgid "Show unranked images  <b>`</b>"
+msgid "Show unranked images.\nShortcut: <b>`</b>"
 msgstr ""
 
 #: FILEBROWSER_STARTPROCESSINGHINT
@@ -726,11 +742,11 @@ msgid "Use template:"
 msgstr ""
 
 #: FILEBROWSER_ZOOMINHINT
-msgid "Increase thumbnail size <b>+</b>"
+msgid "Increase thumbnail size.\nShortcut: <b>+</b>"
 msgstr ""
 
 #: FILEBROWSER_ZOOMOUTHINT
-msgid "Decrease thumbnail size <b>-</b>"
+msgid "Decrease thumbnail size.\nShortcut: <b>-</b>"
 msgstr ""
 
 #: GENERAL_ABOUT
@@ -842,15 +858,15 @@ msgid "Histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_BAR
-msgid "Show/Hide RBG indicator bar\nClick right mouse button on image preview to freeze/unfreeze"
+msgid "Show/Hide RGB indicator bar\nClick right mouse button on image preview to freeze/unfreeze"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_B
-msgid "Show/Hide BLUE histogram"
+msgid "Show/Hide blue histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_G
-msgid "Show/Hide GREEN histogram"
+msgid "Show/Hide green histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_L
@@ -862,7 +878,7 @@ msgid "Show/Hide raw histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_R
-msgid "Show/Hide RED histogram"
+msgid "Show/Hide red histogram"
 msgstr ""
 
 #: HISTORY_CUSTOMCURVE
@@ -874,7 +890,7 @@ msgid "Del"
 msgstr ""
 
 #: HISTORY_FROMCLIPBOARD
-msgid "From clipboard"
+msgid "From Clipboard"
 msgstr ""
 
 #: HISTORY_CHANGED
@@ -894,7 +910,7 @@ msgid "Shadow Compression"
 msgstr ""
 
 #: HISTORY_MSG_100
-msgid "RGB saturation"
+msgid "RGB Saturation"
 msgstr ""
 
 #: HISTORY_MSG_101
@@ -930,7 +946,7 @@ msgid "Highlight Compr. Threshold"
 msgstr ""
 
 #: HISTORY_MSG_109
-msgid "Resize bounding box"
+msgid "Resize Bounding Box"
 msgstr ""
 
 #: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR
@@ -938,7 +954,7 @@ msgid "Tone Curve"
 msgstr ""
 
 #: HISTORY_MSG_110
-msgid "Resizing applies to  "
+msgid "Resizing applies o  "
 msgstr ""
 
 #: HISTORY_MSG_111,HISTORY_MSG_34
@@ -958,7 +974,7 @@ msgid "DCB Iterations"
 msgstr ""
 
 #: HISTORY_MSG_115
-msgid "False color iterations"
+msgid "False Color Iterations"
 msgstr ""
 
 #: HISTORY_MSG_116
@@ -966,15 +982,15 @@ msgid "Enhanced DCB"
 msgstr ""
 
 #: HISTORY_MSG_117
-msgid "Red CA correction"
+msgid "Red CA Correction"
 msgstr ""
 
 #: HISTORY_MSG_118
-msgid "Blue CA correction"
+msgid "Blue CA Correction"
 msgstr ""
 
 #: HISTORY_MSG_119
-msgid "Line denoise"
+msgid "Line Denoise"
 msgstr ""
 
 #: HISTORY_MSG_12
@@ -982,15 +998,11 @@ msgid "Auto Exposure"
 msgstr ""
 
 #: HISTORY_MSG_120
-msgid "Green equil. threshold"
+msgid "Green Equil. Threshold"
 msgstr ""
 
 #: HISTORY_MSG_121
 msgid "Auto CA"
-msgstr ""
-
-#: HISTORY_MSG_122
-msgid "Auto Dark Frame"
 msgstr ""
 
 #: HISTORY_MSG_123,PARTIALPASTE_DARKFRAMEFILE
@@ -998,11 +1010,11 @@ msgid "Dark Frame File"
 msgstr ""
 
 #: HISTORY_MSG_124
-msgid "Linear exp. correction"
+msgid "Linear Exp. Correction"
 msgstr ""
 
 #: HISTORY_MSG_125
-msgid "Expo. correction preserving HL"
+msgid "Exp. Correction Preserving HL"
 msgstr ""
 
 #: HISTORY_MSG_126
@@ -1054,15 +1066,15 @@ msgid "Gamma Slope"
 msgstr ""
 
 #: HISTORY_MSG_137
-msgid "Black level green 1"
+msgid "Black Level Green 1"
 msgstr ""
 
 #: HISTORY_MSG_138
-msgid "Black level red"
+msgid "Black Level Red"
 msgstr ""
 
 #: HISTORY_MSG_139
-msgid "Black level blue"
+msgid "Black Level Blue"
 msgstr ""
 
 #: HISTORY_MSG_14
@@ -1070,27 +1082,27 @@ msgid "Luminance Brightness"
 msgstr ""
 
 #: HISTORY_MSG_140
-msgid "Black level green 2"
+msgid "Black Level Green 2"
 msgstr ""
 
 #: HISTORY_MSG_141
-msgid "Black level green together"
+msgid "Black Level Green Together"
 msgstr ""
 
 #: HISTORY_MSG_142
-msgid "Edges sharpening - iterations"
+msgid "Edges Sharpening - Iterations"
 msgstr ""
 
 #: HISTORY_MSG_143
-msgid "Edges sharpening - quantity"
+msgid "Edges Sharpening - Quantity"
 msgstr ""
 
 #: HISTORY_MSG_144
-msgid "Microcontrast - quantity"
+msgid "Microcontrast - Quantity"
 msgstr ""
 
 #: HISTORY_MSG_145
-msgid "Microcontrast - uniformity"
+msgid "Microcontrast - Uniformity"
 msgstr ""
 
 #: HISTORY_MSG_146
@@ -1098,7 +1110,7 @@ msgid "Edges Sharpening"
 msgstr ""
 
 #: HISTORY_MSG_147
-msgid "Edges sharpening - luminance only"
+msgid "Edges Sharpening - Luminance Only"
 msgstr ""
 
 #: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO,TP_SHARPENMICRO_LABEL
@@ -1106,7 +1118,7 @@ msgid "Microcontrast"
 msgstr ""
 
 #: HISTORY_MSG_149
-msgid "Microcontrast - 3x3 matrix"
+msgid "Microcontrast - 3x3 Matrix"
 msgstr ""
 
 #: HISTORY_MSG_15
@@ -1114,7 +1126,7 @@ msgid "Luminance Contrast"
 msgstr ""
 
 #: HISTORY_MSG_150
-msgid "Post demosaic artifact/noise reduction"
+msgid "Post Demosaic Artifact/Noise Reduction"
 msgstr ""
 
 #: HISTORY_MSG_151,PARTIALPASTE_VIBRANCE,TP_VIBRANCE_LABEL
@@ -1149,8 +1161,8 @@ msgstr ""
 msgid "Strength"
 msgstr ""
 
-#: HISTORY_MSG_159,TP_EPD_EDGESTOPPING
-msgid "Edge stopping"
+#: HISTORY_MSG_159
+msgid "Edge Stopping"
 msgstr ""
 
 #: HISTORY_MSG_16
@@ -1161,8 +1173,8 @@ msgstr ""
 msgid "Scale"
 msgstr ""
 
-#: HISTORY_MSG_161,TP_EPD_REWEIGHTINGITERATES
-msgid "Reweighting iterates"
+#: HISTORY_MSG_161
+msgid "Reweighting Iterates"
 msgstr ""
 
 #: HISTORY_MSG_162,PARTIALPASTE_EPD,TP_EPD_LABEL
@@ -1182,7 +1194,7 @@ msgid "RGB Curves - B"
 msgstr ""
 
 #: HISTORY_MSG_166
-msgid "Neutral levels"
+msgid "Neutral Levels"
 msgstr ""
 
 #: HISTORY_MSG_17
@@ -1322,11 +1334,11 @@ msgid "Brightness"
 msgstr ""
 
 #: HISTORY_MSG_50
-msgid "Shadow/Highlight tool"
+msgid "Shadow/Highlight Tool"
 msgstr ""
 
 #: HISTORY_MSG_51
-msgid "Highlight boost"
+msgid "Highlight Boost"
 msgstr ""
 
 #: HISTORY_MSG_52
@@ -1385,7 +1397,7 @@ msgstr ""
 msgid "Crop Photo"
 msgstr ""
 
-#: HISTORY_MSG_65,TP_CACORRECTION_LABEL
+#: HISTORY_MSG_65,PARTIALPASTE_CACORRECTION,TP_CACORRECTION_LABEL
 msgid "C/A Correction"
 msgstr ""
 
@@ -1429,10 +1441,6 @@ msgstr ""
 msgid "Resize Scale"
 msgstr ""
 
-#: HISTORY_MSG_75
-msgid "Resize Method"
-msgstr ""
-
 #: HISTORY_MSG_76
 msgid "Exif Metadata"
 msgstr ""
@@ -1446,47 +1454,47 @@ msgid "Data specified for resize"
 msgstr ""
 
 #: HISTORY_MSG_79
-msgid "Resize width"
+msgid "Resize Width"
 msgstr ""
 
-#: HISTORY_MSG_8
+#: HISTORY_MSG_8,TP_EXPOSURE_EXPCOMP
 msgid "Exposure Compensation"
 msgstr ""
 
 #: HISTORY_MSG_80
-msgid "Resize height"
+msgid "Resize Height"
 msgstr ""
 
 #: HISTORY_MSG_81
-msgid "Resize enabled"
+msgid "Resize Enabled"
 msgstr ""
 
 #: HISTORY_MSG_83
-msgid "High quality shadows/highlights"
+msgid "High Quality Shadows/Highlights"
 msgstr ""
 
 #: HISTORY_MSG_84
-msgid "Perspective correction"
+msgid "Perspective Correction"
 msgstr ""
 
 #: HISTORY_MSG_85
-msgid "Wavelet coefficients"
+msgid "Wavelet Coefficients"
 msgstr ""
 
-#: HISTORY_MSG_86,PARTIALPASTE_WAVELETEQUALIZER,TP_EQUALIZER_LABEL
-msgid "Wavelet equalizer"
+#: HISTORY_MSG_86
+msgid "Wavelet Equalizer"
 msgstr ""
 
-#: HISTORY_MSG_87,PARTIALPASTE_IMPULSEDENOISE
-msgid "Impulse noise reduction"
+#: HISTORY_MSG_87,TP_IMPULSEDENOISE_LABEL
+msgid "Impulse Noise Reduction"
 msgstr ""
 
-#: HISTORY_MSG_88
-msgid "Impulse NR threshold"
+#: HISTORY_MSG_88,TP_IMPULSEDENOISE_THRESH
+msgid "Impulse NR Threshold"
 msgstr ""
 
-#: HISTORY_MSG_89,PARTIALPASTE_DIRPYRDENOISE,TP_DIRPYRDENOISE_LABEL
-msgid "Noise reduction"
+#: HISTORY_MSG_89
+msgid "Noise Reduction"
 msgstr ""
 
 #: HISTORY_MSG_9
@@ -1494,23 +1502,23 @@ msgid "Highlight Compression"
 msgstr ""
 
 #: HISTORY_MSG_90
-msgid "NR - luminance"
+msgid "NR - Luminance"
 msgstr ""
 
 #: HISTORY_MSG_91
-msgid "NR - chrominance"
+msgid "NR - Chrominance"
 msgstr ""
 
 #: HISTORY_MSG_92
-msgid "NR - gamma"
+msgid "NR - Gamma"
 msgstr ""
 
 #: HISTORY_MSG_93
-msgid "Contrast by detail levels value"
+msgid "Contrast by Detail Levels Value"
 msgstr ""
 
-#: HISTORY_MSG_94,PARTIALPASTE_DIRPYREQUALIZER,TP_DIRPYREQUALIZER_LABEL
-msgid "Contrast by detail levels"
+#: HISTORY_MSG_94
+msgid "Contrast by Detail Levels"
 msgstr ""
 
 #: HISTORY_MSG_95,PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION,TP_LABCURVE_SATURATION
@@ -1518,19 +1526,19 @@ msgid "Saturation"
 msgstr ""
 
 #: HISTORY_MSG_96
-msgid "'a' curve"
+msgid "'a' Curve"
 msgstr ""
 
 #: HISTORY_MSG_97
-msgid "'b' curve"
+msgid "'b' Curve"
 msgstr ""
 
 #: HISTORY_MSG_98
-msgid "Demosaicing method"
+msgid "Demosaicing Method"
 msgstr ""
 
 #: HISTORY_MSG_99
-msgid "Hot/dead pixel filtering"
+msgid "Hot/Dead Pixel Filter"
 msgstr ""
 
 #: HISTORY_NEWSNAPSHOTAS
@@ -1561,19 +1569,19 @@ msgstr ""
 msgid "Snapshot"
 msgstr ""
 
-#: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
-msgid "ICC Profile Files"
+#: ICMPANEL_FILEDLGFILTERICM
+msgid "ICC Profile files"
 msgstr ""
 
 #: ICMPANEL_GAMMABEFOREINPUT
-msgid "Profile applies Gamma"
+msgid "Profile Applies Gamma"
 msgstr ""
 
 #: ICMPANEL_INPUTCAMERA
-msgid "Camera default"
+msgid "Camera Default"
 msgstr ""
 
-#: ICMPANEL_INPUTDLGLABEL,TP_ICM_INPUTDLGLABEL
+#: ICMPANEL_INPUTDLGLABEL
 msgid "Select Input ICC Profile..."
 msgstr ""
 
@@ -1585,8 +1593,8 @@ msgstr ""
 msgid "Input Profile"
 msgstr ""
 
-#: ICMPANEL_NOICM,TP_ICM_NOICM
-msgid "No ICM: sRGB output"
+#: ICMPANEL_NOICM
+msgid "No ICM: sRGB Output"
 msgstr ""
 
 #: ICMPANEL_OUTPUTDLGLABEL,TP_ICM_OUTPUTDLGLABEL
@@ -1606,7 +1614,7 @@ msgid "Working Profile"
 msgstr ""
 
 #: IMAGEAREA_DETAILVIEW
-msgid "Detail view"
+msgid "Detail View"
 msgstr ""
 
 #: IPTCPANEL_AUTHORHINT
@@ -1786,27 +1794,27 @@ msgid "Preferences"
 msgstr ""
 
 #: MAIN_BUTTON_PUTTOQUEUE_TOOLTIP
-msgid "Put current image to processing queue <b>Ctrl+Q</b>"
+msgid "Put current image to processing queue.\nShortcut: <b>Ctrl+Q</b>"
 msgstr ""
 
 #: MAIN_BUTTON_SAVE_TOOLTIP
-msgid "Save current image <b>Ctrl+S</b>"
+msgid "Save current image.\nShortcut: <b>Ctrl+S</b>"
 msgstr ""
 
 #: MAIN_BUTTON_SENDTOEDITOR_TOOLTIP
-msgid "Edit current image in external editor <b>Ctrl+E</b>"
+msgid "Edit current image in external editor.\nShortcut: <b>Ctrl+E</b>"
 msgstr ""
 
 #: MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP
-msgid "Show/hide all side panels <b>m</b>"
+msgid "Show/hide all side panels.\nShortcut: <b>m</b>"
 msgstr ""
 
 #: MAIN_BUTTON_UNFULLSCREEN
-msgid "Exit fullscreen"
+msgid "Exit Fullscreen"
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
-msgid " Processing Queue  <b>Ctrl-F3</b> "
+msgid " Processing Queue.\nShortcut: <b>Ctrl-F3</b> "
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE
@@ -1814,7 +1822,7 @@ msgid "Queue "
 msgstr ""
 
 #: MAIN_FRAME_EDITOR_TOOLTIP
-msgid " Editor  <b>Ctrl-F4</b> "
+msgid " Editor.\nShortcut: <b>Ctrl-F4</b> "
 msgstr ""
 
 #: MAIN_FRAME_EDITOR
@@ -1822,7 +1830,7 @@ msgid "Editor "
 msgstr ""
 
 #: MAIN_FRAME_FILEBROWSER_TOOLTIP
-msgid " File Browser  <b>Ctrl-F2</b> "
+msgid " File Browser.\nShortcut: <b>Ctrl-F2</b> "
 msgstr ""
 
 #: MAIN_FRAME_FILEBROWSER
@@ -1873,6 +1881,10 @@ msgstr ""
 msgid "Are you sure you want to exit? There are unprocessed images waiting in the queue."
 msgstr ""
 
+#: MAIN_MSG_IMAGEUNPROCESSED
+msgid "This command requires all selected images to be queue processed first."
+msgstr ""
+
 #: MAIN_MSG_JOBSINQUEUE
 msgid "job(s) in the queue"
 msgstr ""
@@ -1894,7 +1906,7 @@ msgid "Basic"
 msgstr ""
 
 #: MAIN_TAB_COLOR_TOOLTIP
-msgid "<b>Alt-c</b>"
+msgid "Shortcut: <b>Alt-C</b>"
 msgstr ""
 
 #: MAIN_TAB_COLOR
@@ -1902,7 +1914,7 @@ msgid "Color"
 msgstr ""
 
 #: MAIN_TAB_DETAIL_TOOLTIP
-msgid "<b>Alt-d</b>"
+msgid "Shortcut: <b>Alt-D</b>"
 msgstr ""
 
 #: MAIN_TAB_DETAIL,ZOOMBAR_DETAIL
@@ -1926,7 +1938,7 @@ msgid "Exposure"
 msgstr ""
 
 #: MAIN_TAB_EXPOSURE_TOOLTIP
-msgid "<b>Alt-e</b>"
+msgid "Shortcut: <b>Alt-E</b>"
 msgstr ""
 
 #: MAIN_TAB_FILTER
@@ -1946,11 +1958,11 @@ msgid "Metadata"
 msgstr ""
 
 #: MAIN_TAB_METADATA_TOOLTIP
-msgid "<b>Alt-m</b>"
+msgid "Shortcut: <b>Alt-M</b>"
 msgstr ""
 
 #: MAIN_TAB_RAW_TOOLTIP
-msgid "<b>Alt-r</b>"
+msgid "Shortcut: <b>Alt-R</b>"
 msgstr ""
 
 #: MAIN_TAB_TAGGING
@@ -1958,7 +1970,7 @@ msgid "Tagging"
 msgstr ""
 
 #: MAIN_TAB_TRANSFORM_TOOLTIP
-msgid "<b>Alt-t</b>"
+msgid "Shortcut: <b>Alt-T</b>"
 msgstr ""
 
 #: MAIN_TAB_TRANSFORM
@@ -1970,23 +1982,23 @@ msgid "B|A"
 msgstr ""
 
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
-msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged - \nuseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparison can be made to any state in the History\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view 1 step behind, showing image before the effect of the currently used tool"
+msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged.\nUseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparisons can be made to any state in the History\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view one step behind, showing the image before the effect of the currently used tool."
 msgstr ""
 
 #: MAIN_TOOLTIP_HIDEFP
-msgid "Show/hide the bottom panel (directory and file browser) <b>F</b>"
+msgid "Show/Hide the bottom panel (directory and file browser).\nShortcut: <b>F</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_HIDEHP
-msgid "Show/hide the left panel (including the history) <b>l</b>"
+msgid "Show/Hide the left panel (including the history).\nShortcut: <b>l</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_INDCLIPPEDH
-msgid "Clipped highlight indication (Key <)"
+msgid "Clipped highlight indication.\nShortcut: <b>&lt;</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_INDCLIPPEDS
-msgid "Clipped shadow indication (Key >)"
+msgid "Clipped shadow indication.\nShortcut: <b>&gt;</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREFERENCES
@@ -1994,31 +2006,31 @@ msgid "Set preferences"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWB
-msgid "Preview <b>Blue channel</b>\n<b>-b</b>"
+msgid "Preview the <b>Blue channel</b>.\nShortcut: <b>b</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWFOCUSMASK
-msgid "Preview <b>Focus Mask</b> <i>(beta)</i> <b>Shift-F</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom 10-30%\n\nPreview is rendered slower with Focus Mask turned on. "
+msgid "Preview the <b>Focus Mask</b>.\nShortcut: <b>Shift-F</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom 10-30%\n\nPreview is rendered slower with Focus Mask turned on. "
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWG
-msgid "Preview <b>Green channel</b>\n<b>-g</b>"
+msgid "Preview the <b>Green channel</b>.\nShortcut: <b>g</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWL
-msgid "Preview <b>Luminosity</b>\n0.299*R + 0.587*G + 0.114*B\n<b>-v</b>"
+msgid "Preview the <b>Luminosity</b>.\nShortcut: <b>v</b>\n\n0.299*R + 0.587*G + 0.114*B"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWR
-msgid "Preview <b>Red channel</b>\n<b>-r</b>"
+msgid "Preview the <b>Red channel</b>.\nShortcut: <b>r</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_QINFO
-msgid "Quick info on the image <b>I</b>"
+msgid "Quick info on the image.\nShortcut: <b>i</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_SAVEAS
-msgid "Save image to a selected folder"
+msgid "Save image to a specific folder"
 msgstr ""
 
 #: MAIN_TOOLTIP_SAVE
@@ -2026,15 +2038,15 @@ msgid "Save image to the default folder"
 msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDELP1
-msgid "Show/hide the left panel <b>l</b>"
+msgid "Show/Hide the left panel.\nShortcut: <b>l</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDERP1
-msgid "Show/hide the right panel <b>Alt-l</b>"
+msgid "Show/Hide the right panel.\nShortcut: <b>Alt-L</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDETP1
-msgid "Show/hide the top panel <b>Shift-l</b>"
+msgid "Show/Hide the top panel.\nShortcut: <b>Shift-L</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_SHARPENING_THRESHOLD
@@ -2042,7 +2054,7 @@ msgid "Threshold"
 msgstr ""
 
 #: MAIN_TOOLTIP_TOGGLE
-msgid "Toggle <b>before</b>/<b>after</b> view <b>Shift-B</b>"
+msgid "Toggle the <b>Before</b>/<b>After</b> view.\nShortcut: <b>Shift-B</b>"
 msgstr ""
 
 #: NAVIGATOR_B_NA,NAVIGATOR_LAB_B_NA
@@ -2114,15 +2126,11 @@ msgid "x = n/a, y = n/a"
 msgstr ""
 
 #: PARTIALPASTE_BASICGROUP
-msgid "Basic settings"
-msgstr ""
-
-#: PARTIALPASTE_CACORRECTION
-msgid "C/A correction"
+msgid "Basic Settings"
 msgstr ""
 
 #: PARTIALPASTE_COARSETRANS
-msgid "90 deg rotation / flipping"
+msgid "90° rotation / flipping"
 msgstr ""
 
 #: PARTIALPASTE_COLORBOOST
@@ -2171,6 +2179,14 @@ msgstr ""
 
 #: PARTIALPASTE_DIALOGLABEL
 msgid "Partial paste processing profile"
+msgstr ""
+
+#: PARTIALPASTE_DIRPYRDENOISE,TP_DIRPYRDENOISE_LABEL
+msgid "Noise reduction"
+msgstr ""
+
+#: PARTIALPASTE_DIRPYREQUALIZER,TP_DIRPYREQUALIZER_LABEL
+msgid "Contrast by detail levels"
 msgstr ""
 
 #: PARTIALPASTE_DISTORTION
@@ -2227,6 +2243,10 @@ msgstr ""
 
 #: PARTIALPASTE_ICMSETTINGS
 msgid "ICM settings"
+msgstr ""
+
+#: PARTIALPASTE_IMPULSEDENOISE
+msgid "Impulse noise reduction"
 msgstr ""
 
 #: PARTIALPASTE_IPTCINFO
@@ -2293,10 +2313,6 @@ msgstr ""
 msgid "Number of DCB iterations"
 msgstr ""
 
-#: PARTIALPASTE_RAW_DMETHOD
-msgid "Demosaic Method"
-msgstr ""
-
 #: PARTIALPASTE_RAWEXPOS_BLACK
 msgid "Black Level"
 msgstr ""
@@ -2339,6 +2355,10 @@ msgstr ""
 
 #: PARTIALPASTE_VIGNETTING
 msgid "Vignetting correction"
+msgstr ""
+
+#: PARTIALPASTE_WAVELETEQUALIZER,TP_EQUALIZER_LABEL
+msgid "Wavelet equalizer"
 msgstr ""
 
 #: PARTIALPASTE_WHITEBALANCE
@@ -2426,7 +2446,7 @@ msgid "Colorimetric Intent"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-msgid "Executable (or script) file called when a new initial profile should be generated for an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path RAW/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]"
+msgid "Executable (or script) file called when a new initial profile should be generated for an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path raw/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDPATH
@@ -2529,10 +2549,6 @@ msgstr ""
 msgid "Flat Fields directory"
 msgstr ""
 
-#: PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
-msgid "Flat Field"
-msgstr ""
-
 #: PREFERENCES_FORIMAGE
 msgid "For image files"
 msgstr ""
@@ -2593,6 +2609,10 @@ msgstr ""
 msgid "Live Thumbnails (slower)"
 msgstr ""
 
+#: PREFERENCES_MENUGROUPEXTPROGS
+msgid "Group \"Open with\""
+msgstr ""
+
 #: PREFERENCES_MENUGROUPFILEOPERATIONS
 msgid "Group File Operations"
 msgstr ""
@@ -2633,12 +2653,8 @@ msgstr ""
 msgid "Save to folder"
 msgstr ""
 
-#: PREFERENCES_OUTDIRHINT
-msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ...\n\nThese formatting strings refer to the different parts of the photo's pathname.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
-msgstr ""
-
-#: PREFERENCES_OUTDIRTEMPLATEHINT
-msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname, or some attributes of the photo.\n\n%r will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in trash bin, %r will be replaced by 'x'.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
+#: PREFERENCES_OUTDIRHINT,PREFERENCES_OUTDIRTEMPLATEHINT
+msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname or some attributes of the photo.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b> will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in the trash bin, %r will be replaced by 'x'.\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
 msgstr ""
 
 #: PREFERENCES_OUTDIRTEMPLATE
@@ -2849,6 +2865,10 @@ msgstr ""
 msgid "Layout"
 msgstr ""
 
+#: PROFILEPANEL_COPYPPASTE
+msgid "Parameters to copy"
+msgstr ""
+
 #: PROFILEPANEL_FILEDLGFILTERPP
 msgid "Postprocessing profiles"
 msgstr ""
@@ -2859,6 +2879,14 @@ msgstr ""
 
 #: PROFILEPANEL_LOADDLGLABEL
 msgid "Load Postprocessing Parameters..."
+msgstr ""
+
+#: PROFILEPANEL_LOADPPASTE
+msgid "Parameters to load"
+msgstr ""
+
+#: PROFILEPANEL_PASTEPPASTE
+msgid "Parameters to paste"
 msgstr ""
 
 #: PROFILEPANEL_PFILE
@@ -2881,20 +2909,24 @@ msgstr ""
 msgid "Save Postprocessing Parameters..."
 msgstr ""
 
+#: PROFILEPANEL_SAVEPPASTE
+msgid "Parameters to save"
+msgstr ""
+
 #: PROFILEPANEL_TOOLTIPCOPY
-msgid "Copy current profile to clipboard"
+msgid "Copy current profile to clipboard.\nCtrl-click to select the parameters to copy"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPLOAD
-msgid "Load a profile from file"
+msgid "Load a profile from file\nCtrl-click to select the parameters to load"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPPASTE
-msgid " Paste profile from clipboard"
+msgid "Paste profile from clipboard\nCtrl-click key to select the parameters to paste"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPSAVE
-msgid "Save current profile"
+msgid "Save current profile\nCtrl-click key to select the parameters to save"
 msgstr ""
 
 #: PROGRESSBAR_BADPIXELS
@@ -3026,19 +3058,19 @@ msgid "Uncompressed TIFF"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_CROP
-msgid "<b>Crop</b> selection <b>C</b>"
+msgid "<b>Crop</b> selection.\nShortcut: <b>c</b>"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_HAND
-msgid "Hand tool <b>H</b>"
+msgid "Hand tool.\nShortcut: <b>h</b>"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_STRAIGHTEN
-msgid "<b>Straighten</b> / <b>fine rotation</b>  <b>S</b> \n\nIndicate the vertical or horizontal by drawing a guide line over the image preview. Angle of rotation will be shown next to the guide line. Center of rotation is the geometrical center of the image."
+msgid "<b>Straighten</b> / <b>fine rotation</b>.\nShortcut: <b>s</b>\n\nIndicate the vertical or horizontal by drawing a guide line over the image preview. Angle of rotation will be shown next to the guide line. Center of rotation is the geometrical center of the image."
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_WB
-msgid "Spot white balance <b>W</b>"
+msgid "Spot white balance.\nShortcut: <b>w</b>"
 msgstr ""
 
 #: TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
@@ -3242,6 +3274,14 @@ msgstr ""
 msgid "Distortion"
 msgstr ""
 
+#: TP_EPD_EDGESTOPPING
+msgid "Edge stopping"
+msgstr ""
+
+#: TP_EPD_REWEIGHTINGITERATES
+msgid "Reweighting iterates"
+msgstr ""
+
 #: TP_EQUALIZER_FINEST
 msgid "finest"
 msgstr ""
@@ -3276,10 +3316,6 @@ msgstr ""
 
 #: TP_EXPOSURE_COMPRSHADOWS
 msgid "Shadow recovery"
-msgstr ""
-
-#: TP_EXPOSURE_EXPCOMP
-msgid "Exp. Comp."
 msgstr ""
 
 #: TP_FLATFIELD_BLURRADIUS
@@ -3383,16 +3419,20 @@ msgstr ""
 msgid "Blend highlights with matrix"
 msgstr ""
 
+#: TP_ICM_FILEDLGFILTERICM
+msgid "Profile files"
+msgstr ""
+
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
-msgid "Use RawTherapee's camera-specific ICC input profile that is more precise than a simpler matrix. Available for some cameras, these profiles are stored in /iccprofiles/input directory and are automatically retrieved based on file name matching the exact model name of the camera."
+msgid "Use RawTherapee's camera-specific DCP or ICC input profile that is more precise than a simpler matrix. Available for some cameras, these profiles are stored in /iccprofiles/input directory and are automatically retrieved based on file name matching the exact model name of the camera."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERAICC
-msgid "Auto-matched camera-specific ICC"
+msgid "Auto-matched camera-specific profile"
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA_TOOLTIP
-msgid "Use simple color matrix by DCRAW, enhanced RawTherapee version (whichever is available based on camera model) or embedded in DNG."
+msgid "Use simple color matrix by dcraw, enhanced RawTherapee version (whichever is available based on camera model) or embedded in DNG."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA
@@ -3400,7 +3440,11 @@ msgid "Camera standard"
 msgstr ""
 
 #: TP_ICM_INPUTCUSTOM_TOOLTIP
-msgid "Select your own ICC color profile file for the camera"
+msgid "Select your own DCP/ICC color profile file for the camera"
+msgstr ""
+
+#: TP_ICM_INPUTDLGLABEL
+msgid "Select Input DCP/ICC Profile..."
 msgstr ""
 
 #: TP_ICM_INPUTEMBEDDED_TOOLTIP
@@ -3415,12 +3459,28 @@ msgstr ""
 msgid "No profile"
 msgstr ""
 
-#: TP_IMPULSEDENOISE_LABEL
-msgid "Impulse Noise Reduction"
+#: TP_ICM_NOICM
+msgid "No ICM: sRGB output"
 msgstr ""
 
-#: TP_IMPULSEDENOISE_THRESH
-msgid "Impulse NR Threshold"
+#: TP_ICM_PREFERREDPROFILE
+msgid "Preferred DCP profile"
+msgstr ""
+
+#: TP_ICM_PREFERREDPROFILE_1
+msgid "Daylight"
+msgstr ""
+
+#: TP_ICM_PREFERREDPROFILE_2,TP_WBALANCE_TUNGSTEN
+msgid "Tungsten"
+msgstr ""
+
+#: TP_ICM_PREFERREDPROFILE_3,TP_WBALANCE_FLUO_HEADER
+msgid "Fluorescent"
+msgstr ""
+
+#: TP_ICM_PREFERREDPROFILE_4,TP_WBALANCE_FLASH_HEADER
+msgid "Flash"
 msgstr ""
 
 #: TP_LABCURVE_CURVEEDITOR
@@ -3445,6 +3505,10 @@ msgstr ""
 
 #: TP_NEUTRAL_TIP
 msgid "Reset exposure controls to neutral values"
+msgstr ""
+
+#: TP_PREPROCESS_HOTDEADPIXTHRESH
+msgid "Hot/dead pixel detection threshold"
 msgstr ""
 
 #: TP_PREPROCESS_LABEL
@@ -3683,10 +3747,6 @@ msgstr ""
 msgid "Daylight (sunny)"
 msgstr ""
 
-#: TP_WBALANCE_FLASH_HEADER
-msgid "Flash"
-msgstr ""
-
 #: TP_WBALANCE_FLASH55
 msgid "Leica"
 msgstr ""
@@ -3697,10 +3757,6 @@ msgstr ""
 
 #: TP_WBALANCE_FLASH65
 msgid "Nikon, Panasonic, Sony, Minolta"
-msgstr ""
-
-#: TP_WBALANCE_FLUO_HEADER
-msgid "Fluorescent"
 msgstr ""
 
 #: TP_WBALANCE_FLUO1
@@ -3817,10 +3873,6 @@ msgstr ""
 
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"
-msgstr ""
-
-#: TP_WBALANCE_TUNGSTEN
-msgid "Tungsten"
 msgstr ""
 
 #: ZOOMBAR_HUGE

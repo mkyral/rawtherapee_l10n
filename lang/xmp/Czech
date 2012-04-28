@@ -18,6 +18,7 @@
 #17 12.11.2011: updated by mkyral
 #18 29.12.2011: updated by mkyral
 #19 22.02.2012: updated by mkyral
+#20 28.04.2012: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -459,7 +460,14 @@ IPTC_EVENT_HINT;Jméno nebo popis události na které byl snímek pořízen
 IPTC_EVENT;Událost
 IPTC_GENRE;Duševní žánr
 IPTC_GENRE_HINT;Popisuje podstatu snímku na základě intelektuálních a novinářských charakteristik, jako například deník nebo funkce (příklady na: http://www.newscodes.org/) IIM 2:04
-IPTC_HEADLINE_HINT;Krátké shrnutí titulku
+IPTC_GROUPNAME_ABOUTMODELS;<b>Alt-d</b>
+IPTC_GROUPNAME_ARTWORKOROBJECT;Autor nebo autoři snímku
+IPTC_GROUPNAME_CREATORINFO;Informace o modelech
+IPTC_GROUPNAME_DESCRIPTION;Stručné informace o obrázku <b>I</b>
+IPTC_GROUPNAME_FEATUREDORGANISATION;Identifikátor registrační organizace
+IPTC_GROUPNAME_READONLYINFORMATION;Informace o modelech
+IPTC_GROUPNAME_RELEASEINFO;Informace o modelech
+IPTC_HEADLINE_HINT;Uveřejnitelný krátký popis obrázku (Nadpis).
 IPTC_HEADLINE;Nadpis
 IPTC_IMAGECREATOR;Autor snímku
 IPTC_IMAGECREATOR_HINT;Autor nebo autoři snímku
@@ -481,15 +489,14 @@ IPTC_KEYWORDS_HINT;Klíčová slova popisující objekt na fotografii. Libovoln�
 IPTC_KEYWORDS;Klíčová slova
 IPTC_LICENSOR_HINT;Osoba nebo společnost který by měla být kontaktována pro obdržení licence pro užití nebo má předmět licencován
 IPTC_LICENSOR;Udělovatel licence
-IPTC_LOCATIONCITY_HINT;Informace o městě které je zachyceno na snímku
+IPTC_LOCATIONCITY_HINT;Jméno města na snímku zobrazeného místa. IIM 2:90
 IPTC_LOCATIONCITY;Město místa
-IPTC_LOCATIONCOUNTRYCODE_HINT;Vložte dvou nebo tří písmenný kód místa dle ISO 3166
+IPTC_LOCATIONCOUNTRYCODE_HINT;Měl by být použit dvou a tří písmenný kód dle ISO 3166. Plné jméno země by mělo být v položce 'Země' IIM 2:100
 IPTC_LOCATIONCOUNTRYCODE;Kód země místa
-IPTC_LOCATIONCOUNTRY_HINT;Informace o zemi zachycené na snímku
 IPTC_LOCATIONCOUNTRY;Země místa
 IPTC_LOCATIONREGION_HINT;Jméno regionu světa místa. Tento element je první (číslo jedna) úroveň sestupné geografické hierarchie.
 IPTC_LOCATIONREGION;Region světa místa
-IPTC_LOCATIONSTATE_HINT;Informace o státu nebo provincii zachycené na tomto snímku
+IPTC_LOCATIONSTATE_HINT;Jméno podoblasti země na snímku zobrazeného místa. IIM 2:95
 IPTC_LOCATIONSTATE;Stát/provincie místa
 IPTC_LOCATIONSUBLOC_HINT;Jméno místní oblasti. Toto může být buď jméno městské oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. Pokud se jedná o městskou oblast je tento element pátá úroveň sestupné geografické hierarchie.
 IPTC_LOCATIONSUBLOC;Podoblast místa
@@ -503,8 +510,9 @@ IPTC_MODELRELID;Číslo souhlasu modelu
 IPTC_MODELRELID_HINT;Identifikátor spojený ke každému souhlasu modelu se zveřejněním
 IPTC_MODELRELSTATUS_HINT;Dostupnost a rozsah souhlasu modelů s použitím portrétu osob vyskytující se na snímku.
 IPTC_MODELRELSTATUS;Stav souhlasu modelu
-IPTC_ORGANIZATION_HINT;Vložte identifikátor řízeného slovníku následovaný čárkou a slovníkovým kódem organizace zobrazené na fotografii. (například: nasdaq:companyA)
-IPTC_ORGANIZATION;Kód organizace
+IPTC_ORGANISATIONCODE_HINT;Vložte identifikátor řízeného slovníku následovaný čárkou a slovníkovým kódem organizace zobrazené na fotografii. (například: nasdaq:companyA)
+IPTC_ORGANISATIONCODE;Identifikátor registrační organizace
+IPTC_ORGANISATIONNAME;Identifikátor registrační organizace
 IPTCPANEL_COPYHINT;Zkopírovat IPTC nastavení do schránky
 IPTCPANEL_FILEDLGFILTERXMP;IPTC soubory šablon (xmp)
 IPTCPANEL_LOADDLGLABEL;Nahrát IPCT nastavení
@@ -514,7 +522,6 @@ IPTCPANEL_RESETHINT;Vrátit se k předchozímu IPCT
 IPTCPANEL_RESET;Obnovit
 IPTCPANEL_SAVEDLGLABEL;Uložit IPCT nastavení
 IPTCPANEL_SAVEHINT;Uložit IPCT nastavení do souboru
-IPTC_PERSON_HINT;Jméno osoby zobrazené na snímku
 IPTC_PERSON;Zobrazená osoba
 IPTC_PLUSVERSION_HINT;Číslo verze PLUS standardů platných v době transakce
 IPTC_PLUSVERSION;Verze PLUS
@@ -529,13 +536,11 @@ IPTC_REGISTRYORG;Identifikátor registrační organizace
 IPTC_RIGHTSCERTIFICATE_HINT;Web adresa osvědčení správy vlastnických práv
 IPTC_RIGHTSCERTIFICATE;Web adresa osvědčení vlastnických práva
 IPTC_RIGHTS_HINT;Obsahuje všechny nezbytné upozornění autorského práva nárokující intelektuální vlastnictví této fotografie a měl by identifikovat vlastníka autorských práv tohoto díla IIM 2:116 Upozornění Autorského práva
-IPTC_RIGHTSMARKED_HINT;Zatržení znamená, že se jedná o zdroj spravovaný vlastnickými právy. V opačném případě je zdroj public-domain.
 IPTC_RIGHTSMARKED;Správa vlastnických práv
 IPTC_RIGHTSOWNER_HINT;Vlastník nebo vlastníci autorských práv na licencovaném snímku
 IPTC_RIGHTSOWNER;Vlastník autorských práv
 IPTC_RIGHTSSTATEMENT;Adresa prohlášení autorských práv
 IPTC_RIGHTSSTATEMENT_HINT;Internetová adresa prohlášení vlastnictví a práv použití pro tento zdroj
-IPTC_RIGHTSSTATUS_HINT;Stav autorských práv snímku: Chráněný, Public domain, Neznámý
 IPTC_RIGHTSSTATUS;Stav autorských práv
 IPTC_RIGHTS;Upozornění Autorského práva
 IPTC_SCENE_HINT;Popisuje obsah fotografované scény. Specifikuje jeden nebo více označení dle IPTC 'Scene-NewsCodes' (http://www.newscodes.org/). Každá scéna je reprezentována řetězcem šesti číslic neuspořádaného seznamu.
@@ -546,7 +551,7 @@ IPTC_STATE_HINT;Jméno podoblasti země na snímku zobrazeného místa. IIM 2:95
 IPTC_STATE;Provincie/Stát
 IPTC_SUBJECT_HINT;Specifikuje jeden nebo více subjektů dle IPTC 'Subject-NewsCodes' (http://www.newscodes.org/) systematického řazení snímku. Každý subjekt je reprezentován osmimístným číslem v neuspořádaném seznamu.
 IPTC_SUBJECT;Kód subjektu
-IPTC_SUBLOCATION_HINT;Jméno místní oblasti zobrazené na snímku. Toto může být buď jméno městské oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. IIM 2:92
+IPTC_SUBLOCATION_HINT;Jméno místní oblasti. Toto může být buď jméno městské oblasti nebo dobře známého místa nebo (přírodní) monument mimo město. Pokud se jedná o městskou oblast je tento element pátá úroveň sestupné geografické hierarchie.
 IPTC_SUBLOCATION;Podoblast
 IPTC_SUPPLCATEGORIES;Dodatková kategorie
 IPTC_SUPPLCATEGORIES_HINT;Dodatková kategorie IIM 2:20 (zavrženo)
