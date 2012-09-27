@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-04-28 08:03+0200\n"
+"POT-Creation-Date: 2012-07-19 17:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,12 +349,12 @@ msgstr ""
 msgid "Add/Del templates..."
 msgstr ""
 
-#: FILEBROWSER_APPLYPROFILE_PARTIAL
-msgid "Apply profile (partial)"
+#: FILEBROWSER_APPLYPROFILE,FILEBROWSER_EXIFFILTERAPPLY
+msgid "Apply"
 msgstr ""
 
-#: FILEBROWSER_APPLYPROFILE
-msgid "Apply profile"
+#: FILEBROWSER_APPLYPROFILE_PARTIAL
+msgid "Apply - partial"
 msgstr ""
 
 #: FILEBROWSER_ARRANGEMENTHINT
@@ -390,18 +390,18 @@ msgid "Cache"
 msgstr ""
 
 #: FILEBROWSER_CLEARPROFILE
-msgid "Clear profile"
+msgid "Clear"
 msgstr ""
 
 #: FILEBROWSER_COPYPROFILE
-msgid "Copy profile"
+msgid "Copy"
 msgstr ""
 
 #: FILEBROWSER_CURRENT_NAME
 msgid "Current name:"
 msgstr ""
 
-#: FILEBROWSER_DARKFRAME,PREFERENCES_DARKFRAME
+#: FILEBROWSER_DARKFRAME
 msgid "Dark frame"
 msgstr ""
 
@@ -410,11 +410,11 @@ msgid "File delete confirmation"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
-msgid "Are you sure you want to delete the selected %1 files INCLUDING a queue-processed version?"
+msgid "Are you sure you want to delete the selected <b>%1</b> files <b>including</b> a queue-processed version?"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGMSG
-msgid "Are you sure you want to delete the selected %1 files?"
+msgid "Are you sure you want to delete the selected <b>%1</b> files?"
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASHHINT
@@ -426,15 +426,11 @@ msgid "Empty Trash"
 msgstr ""
 
 #: FILEBROWSER_EXEC_CPB
-msgid "Run Custom Profile Builder"
+msgid "Custom Profile Builder"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
 msgid "Switch File Browser Exif Filter on/off"
-msgstr ""
-
-#: FILEBROWSER_EXIFFILTERAPPLY
-msgid "Apply"
 msgstr ""
 
 #: FILEBROWSER_EXIFFILTERSETTINGSHINT
@@ -466,15 +462,15 @@ msgid "New name:"
 msgstr ""
 
 #: FILEBROWSER_OPENDEFAULTVIEWER
-msgid "Windows Default Viewer (queue-processed) "
+msgid "Windows default viewer (queue-processed) "
 msgstr ""
 
 #: FILEBROWSER_PARTIALPASTEPROFILE
-msgid "Partial paste"
+msgid "Paste - partial"
 msgstr ""
 
 #: FILEBROWSER_PASTEPROFILE
-msgid "Paste profile"
+msgid "Paste"
 msgstr ""
 
 #: FILEBROWSER_POPUPCANCELJOB
@@ -518,11 +514,11 @@ msgid "File Operations"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVEEND
-msgid "Move to end of queue"
+msgid "Move to end of Queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVEHEAD
-msgid "Move to head of queue"
+msgid "Move to head of Queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVETO
@@ -542,7 +538,7 @@ msgid "Put to Queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPPROFILEOPERATIONS
-msgid "Profile Operations"
+msgid "Processing Profile Operations"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK
@@ -570,7 +566,7 @@ msgid "Rank 5 *****"
 msgstr ""
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
-msgid "Delete (with output from queue)"
+msgid "Delete with output from queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPREMOVE
@@ -666,7 +662,7 @@ msgid "Show not edited images.\nShortcut: <b>6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEXIFINFO
-msgid "Show EXIF info.\nShortcut: <b>i</b>"
+msgid "Show Exif info.\nShortcut: <b>i</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWQUEUEHINT
@@ -714,7 +710,7 @@ msgid "Show unranked images.\nShortcut: <b>`</b>"
 msgstr ""
 
 #: FILEBROWSER_STARTPROCESSINGHINT
-msgid "Start processing/saving of images in the queue"
+msgid "Start processing the images in the queue"
 msgstr ""
 
 #: FILEBROWSER_STARTPROCESSING
@@ -722,7 +718,7 @@ msgid "Start processing"
 msgstr ""
 
 #: FILEBROWSER_STOPPROCESSINGHINT
-msgid "Stop processing of images"
+msgid "Stop processing the images in the queue"
 msgstr ""
 
 #: FILEBROWSER_STOPPROCESSING
@@ -730,7 +726,7 @@ msgid "Stop processing"
 msgstr ""
 
 #: FILEBROWSER_THUMBSIZE
-msgid "Thumb. size"
+msgid "Thumbnail size"
 msgstr ""
 
 #: FILEBROWSER_TOOLTIP_STOPPROCESSING
@@ -823,6 +819,10 @@ msgstr ""
 
 #: GENERAL_UNCHANGED
 msgid "(Unchanged)"
+msgstr ""
+
+#: GENERAL_WARNING
+msgid "Warning"
 msgstr ""
 
 #: GENERAL_YES
@@ -957,15 +957,15 @@ msgstr ""
 msgid "Resizing applies o  "
 msgstr ""
 
-#: HISTORY_MSG_111,HISTORY_MSG_34
+#: HISTORY_MSG_111
 msgid "Avoid Color Clipping"
 msgstr ""
 
-#: HISTORY_MSG_112,HISTORY_MSG_35
+#: HISTORY_MSG_112
 msgid "Saturation Limiter"
 msgstr ""
 
-#: HISTORY_MSG_113,HISTORY_MSG_36
+#: HISTORY_MSG_113
 msgid "Saturation Limit"
 msgstr ""
 
@@ -1197,6 +1197,10 @@ msgstr ""
 msgid "Neutral Levels"
 msgstr ""
 
+#: HISTORY_MSG_167,TP_LABCURVE_BWTONING
+msgid "BW Toning"
+msgstr ""
+
 #: HISTORY_MSG_17
 msgid "Luminance Highlight Compr."
 msgstr ""
@@ -1210,7 +1214,7 @@ msgid "'L' Curve"
 msgstr ""
 
 #: HISTORY_MSG_2
-msgid "Profile Loaded"
+msgid "PP3 Loaded"
 msgstr ""
 
 #: HISTORY_MSG_20,TP_SHARPENING_LABEL
@@ -1253,8 +1257,8 @@ msgstr ""
 msgid "Sharpening Method"
 msgstr ""
 
-#: HISTORY_MSG_3,HISTORY_MSG_82
-msgid "Profile Changed"
+#: HISTORY_MSG_3
+msgid "PP3 Changed"
 msgstr ""
 
 #: HISTORY_MSG_30
@@ -1271,6 +1275,18 @@ msgstr ""
 
 #: HISTORY_MSG_33
 msgid "Deconvolution Iterations"
+msgstr ""
+
+#: HISTORY_MSG_34
+msgid "LCP use disortion"
+msgstr ""
+
+#: HISTORY_MSG_35
+msgid "LCP use vignette"
+msgstr ""
+
+#: HISTORY_MSG_36
+msgid "LCP use CA"
 msgstr ""
 
 #: HISTORY_MSG_37,TP_COLORBOOST_LABEL
@@ -1469,6 +1485,10 @@ msgstr ""
 msgid "Resize Enabled"
 msgstr ""
 
+#: HISTORY_MSG_82
+msgid "Profile Changed"
+msgstr ""
+
 #: HISTORY_MSG_83
 msgid "High Quality Shadows/Highlights"
 msgstr ""
@@ -1477,8 +1497,8 @@ msgstr ""
 msgid "Perspective Correction"
 msgstr ""
 
-#: HISTORY_MSG_85
-msgid "Wavelet Coefficients"
+#: HISTORY_MSG_85,TP_LENSPROFILE_LABEL
+msgid "Lens Correction Profile"
 msgstr ""
 
 #: HISTORY_MSG_86
@@ -1569,12 +1589,12 @@ msgstr ""
 msgid "Snapshot"
 msgstr ""
 
-#: ICMPANEL_FILEDLGFILTERICM
-msgid "ICC Profile files"
+#: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
+msgid "Color profiles"
 msgstr ""
 
 #: ICMPANEL_GAMMABEFOREINPUT
-msgid "Profile Applies Gamma"
+msgid "Color Profile Applies Gamma"
 msgstr ""
 
 #: ICMPANEL_INPUTCAMERA
@@ -1582,35 +1602,35 @@ msgid "Camera Default"
 msgstr ""
 
 #: ICMPANEL_INPUTDLGLABEL
-msgid "Select Input ICC Profile..."
+msgid "Select Input Color Profile..."
 msgstr ""
 
 #: ICMPANEL_INPUTEMBEDDED,TP_ICM_INPUTEMBEDDED
 msgid "Use Embedded, if possible"
 msgstr ""
 
-#: ICMPANEL_INPUTPROFILE,TP_ICM_INPUTPROFILE
-msgid "Input Profile"
+#: ICMPANEL_INPUTPROFILE
+msgid "Input Color Profile"
 msgstr ""
 
 #: ICMPANEL_NOICM
 msgid "No ICM: sRGB Output"
 msgstr ""
 
-#: ICMPANEL_OUTPUTDLGLABEL,TP_ICM_OUTPUTDLGLABEL
-msgid "Select Output ICC Profile..."
+#: ICMPANEL_OUTPUTDLGLABEL
+msgid "Select Output Color Profile..."
 msgstr ""
 
-#: ICMPANEL_OUTPUTPROFILE,TP_ICM_OUTPUTPROFILE
-msgid "Output Profile"
+#: ICMPANEL_OUTPUTPROFILE
+msgid "Output Color Profile"
 msgstr ""
 
 #: ICMPANEL_SAVEREFERENCE,TP_ICM_SAVEREFERENCE
 msgid "Save reference image for profiling"
 msgstr ""
 
-#: ICMPANEL_WORKINGPROFILE,TP_ICM_WORKINGPROFILE
-msgid "Working Profile"
+#: ICMPANEL_WORKINGPROFILE
+msgid "Working Color Profile"
 msgstr ""
 
 #: IMAGEAREA_DETAILVIEW
@@ -1694,7 +1714,7 @@ msgid "Credit"
 msgstr ""
 
 #: IPTCPANEL_DATECREATEDHINT
-msgid "The date the intellectual content of the image was created; Format: JJJJMMTT (Date Created)."
+msgid "The date the intellectual content of the image was created; Format: YYYYMMDD (Date Created)."
 msgstr ""
 
 #: IPTCPANEL_DATECREATED
@@ -1862,7 +1882,7 @@ msgid "Please set the correct path in the \"Preferences\" dialog."
 msgstr ""
 
 #: MAIN_MSG_CANNOTSTARTEDITOR
-msgid "Can not start editor."
+msgid "Cannot start editor."
 msgstr ""
 
 #: MAIN_MSG_EMPTYFILENAME
@@ -1979,6 +1999,18 @@ msgstr ""
 
 #: MAIN_TOGGLE_BEFORE_AFTER
 msgid "B|A"
+msgstr ""
+
+#: MAIN_TOOLTIP_BACKCOLOR0
+msgid "Background color of the preview: <b>Theme-based</b>\nShortcut: <b>8</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_BACKCOLOR1
+msgid "Background color of the preview: <b>Black</b>\nShortcut: <b>9</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_BACKCOLOR2
+msgid "Background color of the preview: <b>White</b>\nShortcut: <b>0</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
@@ -2121,8 +2153,20 @@ msgstr ""
 msgid "V = %1"
 msgstr ""
 
+#: NAVIGATOR_XY_FULL
+msgid "Width = %1, Height = %2"
+msgstr ""
+
 #: NAVIGATOR_XY_NA
 msgid "x = n/a, y = n/a"
+msgstr ""
+
+#: OPTIONS_DEFIMG_MISSING
+msgid "The default profile for <b>non-raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used."
+msgstr ""
+
+#: OPTIONS_DEFRAW_MISSING
+msgid "The default profile for <b>raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used."
 msgstr ""
 
 #: PARTIALPASTE_BASICGROUP
@@ -2198,7 +2242,7 @@ msgid "Everything"
 msgstr ""
 
 #: PARTIALPASTE_EXIFCHANGES
-msgid "Changes to exif data"
+msgid "Changes to Exif data"
 msgstr ""
 
 #: PARTIALPASTE_FLATFIELDAUTOSELECT
@@ -2242,7 +2286,7 @@ msgid "Output gamma"
 msgstr ""
 
 #: PARTIALPASTE_ICMSETTINGS
-msgid "ICM settings"
+msgid "Color Management settings"
 msgstr ""
 
 #: PARTIALPASTE_IMPULSEDENOISE
@@ -2270,7 +2314,7 @@ msgid "Luminance related settings"
 msgstr ""
 
 #: PARTIALPASTE_METAICMGROUP
-msgid "Metadata/ICM settings"
+msgid "Metadata/Color Management settings"
 msgstr ""
 
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
@@ -2374,7 +2418,7 @@ msgid "restart required"
 msgstr ""
 
 #: PREFERENCES_AUTOMONPROFILE
-msgid "Automatically use operating systems main monitors profile"
+msgid "Automatically use operating system's main monitor color profile"
 msgstr ""
 
 #: PREFERENCES_BATCH_PROCESSING
@@ -2394,7 +2438,7 @@ msgid "Clear All"
 msgstr ""
 
 #: PREFERENCES_CACHECLEARPROFILES
-msgid "Clear Profiles"
+msgid "Clear Processing Profiles"
 msgstr ""
 
 #: PREFERENCES_CACHECLEARTHUMBS
@@ -2438,7 +2482,7 @@ msgid "Maximal Thumbnail Height"
 msgstr ""
 
 #: PREFERENCES_CLIPPINGIND
-msgid "Clipping indication"
+msgid "Clipping Indication"
 msgstr ""
 
 #: PREFERENCES_CMETRICINTENT
@@ -2446,7 +2490,7 @@ msgid "Colorimetric Intent"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-msgid "Executable (or script) file called when a new initial profile should be generated for an image.\nReceives command line params to allow a rules based .pp3 generation:\n[Path raw/JPG] [Path default profile] [f-no] [exposure in secs] [focal length in mm] [ISO] [Lens] [Camera]"
+msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera]"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDPATH
@@ -2454,7 +2498,7 @@ msgid "Executable path"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILD
-msgid "Custom image profile builder"
+msgid "Custom Processing Profile Builder"
 msgstr ""
 
 #: PREFERENCES_CUTOVERLAYBRUSH
@@ -2473,6 +2517,10 @@ msgstr ""
 msgid "templates"
 msgstr ""
 
+#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
+msgid "Dark Frame"
+msgstr ""
+
 #: PREFERENCES_DATEFORMATFRAME
 msgid "Date Format "
 msgstr ""
@@ -2482,15 +2530,15 @@ msgid "<i>You can use the following formatting strings:</i>\n<b>%y</b><i> : year
 msgstr ""
 
 #: PREFERENCES_DATEFORMAT
-msgid "Date Format"
+msgid "Date format"
 msgstr ""
 
 #: PREFERENCES_DEFAULTLANG
-msgid "Default language"
+msgid "Default Language"
 msgstr ""
 
 #: PREFERENCES_DEFAULTTHEME
-msgid "Default theme"
+msgid "Default Theme"
 msgstr ""
 
 #: PREFERENCES_DEMOSAICINGALGO
@@ -2530,7 +2578,7 @@ msgid "Editor Layout"
 msgstr ""
 
 #: PREFERENCES_EXTERNALEDITOR
-msgid "External editor"
+msgid "External Editor"
 msgstr ""
 
 #: PREFERENCES_FBROWSEROPTS
@@ -2550,11 +2598,11 @@ msgid "Flat Fields directory"
 msgstr ""
 
 #: PREFERENCES_FORIMAGE
-msgid "For image files"
+msgid "For non-raw photos"
 msgstr ""
 
 #: PREFERENCES_FORRAW
-msgid "For raw files"
+msgid "For raw photos"
 msgstr ""
 
 #: PREFERENCES_GIMPPATH
@@ -2578,11 +2626,11 @@ msgid "Threshold for clipped highlights"
 msgstr ""
 
 #: PREFERENCES_ICCDIR
-msgid "Directory of ICC profiles"
+msgid "Directory containing color profiles"
 msgstr ""
 
 #: PREFERENCES_IMPROCPARAMS
-msgid "Default image processing parameters"
+msgid "Default Image Processing Parameters"
 msgstr ""
 
 #: PREFERENCES_INTENT_ABSOLUTE
@@ -2598,7 +2646,7 @@ msgid "Relative Colorimetric"
 msgstr ""
 
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
-msgid "Show raw internal thumbnail if unedited"
+msgid "Show embedded JPEG thumbnail if raw is unedited"
 msgstr ""
 
 #: PREFERENCES_LANGAUTODETECT
@@ -2614,35 +2662,35 @@ msgid "Group \"Open with\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPFILEOPERATIONS
-msgid "Group File Operations"
+msgid "Group \"File Operations\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPLABEL
-msgid "Group Labeling"
+msgid "Group \"Color Label\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPPROFILEOPERATIONS
-msgid "Group Profile Operations"
+msgid "Group \"Processing Profile Operations\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPRANK
-msgid "Group Ranking"
+msgid "Group \"Rank\""
 msgstr ""
 
 #: PREFERENCES_MENUOPTIONS
-msgid "Menu Options"
+msgid "Context Menu Options"
 msgstr ""
 
 #: PREFERENCES_MONITORICC
-msgid "Monitor Profile"
+msgid "Monitor Color Profile"
 msgstr ""
 
 #: PREFERENCES_MULTITABDUALMON
-msgid "Multiple tabs mode, if available on second monitor"
+msgid "Multiple editor tabs mode, if available on second monitor"
 msgstr ""
 
 #: PREFERENCES_MULTITAB
-msgid "Multiple tabs mode"
+msgid "Multiple editor tabs mode"
 msgstr ""
 
 #: PREFERENCES_OUTDIRFOLDERHINT
@@ -2674,7 +2722,7 @@ msgid "Overwrite existing output files"
 msgstr ""
 
 #: PREFERENCES_PANFACTORFRAME
-msgid "Pan rate amplification"
+msgid "Pan Rate Amplification"
 msgstr ""
 
 #: PREFERENCES_PANFACTORLABEL
@@ -2702,7 +2750,7 @@ msgid "Processing Profile Handling"
 msgstr ""
 
 #: PREFERENCES_PROFILELOADPR
-msgid "Profile Loading Priority"
+msgid "Processing Profile Loading Priority"
 msgstr ""
 
 #: PREFERENCES_PROFILEPRCACHE
@@ -2714,11 +2762,11 @@ msgid "Profile next to the input file"
 msgstr ""
 
 #: PREFERENCES_PROFILESAVECACHE
-msgid "Save processing parameters to the cache"
+msgid "Save processing profile to the cache"
 msgstr ""
 
 #: PREFERENCES_PROFILESAVEINPUT
-msgid "Save processing parameters next to the input file"
+msgid "Save processing profile next to the input file"
 msgstr ""
 
 #: PREFERENCES_PROPERTY
@@ -2734,7 +2782,7 @@ msgid "Select font"
 msgstr ""
 
 #: PREFERENCES_SELECTICCDIRDLG
-msgid "Select ICC Profile Directory..."
+msgid "Select Color Profile Directory..."
 msgstr ""
 
 #: PREFERENCES_SELECTLANG
@@ -2742,7 +2790,7 @@ msgid "Select language"
 msgstr ""
 
 #: PREFERENCES_SELECTMONITORPROFDLG
-msgid "Select ICC Profile of the Display..."
+msgid "Select Color Profile of the Display..."
 msgstr ""
 
 #: PREFERENCES_SELECTTHEME
@@ -2770,7 +2818,7 @@ msgid "Show only raw files"
 msgstr ""
 
 #: PREFERENCES_SHOWPROFILESELECTOR
-msgid "Show profile selector"
+msgid "Show processing profile selector"
 msgstr ""
 
 #: PREFERENCES_SHTHRESHOLD
@@ -2778,11 +2826,11 @@ msgid "Threshold for clipped shadows"
 msgstr ""
 
 #: PREFERENCES_SINGLETABVERTAB
-msgid "Single tab mode, vertical tabs"
+msgid "Single editor tab mode, vertical tabs"
 msgstr ""
 
 #: PREFERENCES_SINGLETAB
-msgid "Single tab mode"
+msgid "Single editor tab mode"
 msgstr ""
 
 #: PREFERENCES_SLIMUI
@@ -2810,7 +2858,7 @@ msgid "Square detail window (faster)"
 msgstr ""
 
 #: PREFERENCES_STARTUPIMDIR
-msgid "Image directory at startup"
+msgid "Image Directory at Startup"
 msgstr ""
 
 #: PREFERENCES_TAB_BROWSER
@@ -2858,7 +2906,7 @@ msgid "Copy IPTC/XMP unchanged to output file (when tagging with other program)"
 msgstr ""
 
 #: PREFERENCES_USESYSTEMTHEME
-msgid " Use System Theme"
+msgid " Use system theme"
 msgstr ""
 
 #: PREFERENCES_WORKFLOW
@@ -2870,15 +2918,15 @@ msgid "Parameters to copy"
 msgstr ""
 
 #: PROFILEPANEL_FILEDLGFILTERPP
-msgid "Postprocessing profiles"
+msgid "Processing profiles"
 msgstr ""
 
 #: PROFILEPANEL_LABEL
-msgid "Postprocessing Profiles"
+msgid "Processing Profiles"
 msgstr ""
 
 #: PROFILEPANEL_LOADDLGLABEL
-msgid "Load Postprocessing Parameters..."
+msgid "Load Processing Parameters..."
 msgstr ""
 
 #: PROFILEPANEL_LOADPPASTE
@@ -2906,7 +2954,7 @@ msgid "Profile"
 msgstr ""
 
 #: PROFILEPANEL_SAVEDLGLABEL
-msgid "Save Postprocessing Parameters..."
+msgid "Save Processing Parameters..."
 msgstr ""
 
 #: PROFILEPANEL_SAVEPPASTE
@@ -2914,19 +2962,19 @@ msgid "Parameters to save"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPCOPY
-msgid "Copy current profile to clipboard.\nCtrl-click to select the parameters to copy"
+msgid "Copy current processing profile to clipboard.\n<b>Ctrl-click</b> to select the parameters to copy"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPLOAD
-msgid "Load a profile from file\nCtrl-click to select the parameters to load"
+msgid "Load a profile from file.\n<b>Ctrl-click</b> to select the parameters to load"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPPASTE
-msgid "Paste profile from clipboard\nCtrl-click key to select the parameters to paste"
+msgid "Paste profile from clipboard.\n<b>Ctrl-click</b> to select the parameters to paste"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPSAVE
-msgid "Save current profile\nCtrl-click key to select the parameters to save"
+msgid "Save current profile.\n<b>Ctrl-click</b> to select the parameters to save"
 msgstr ""
 
 #: PROGRESSBAR_BADPIXELS
@@ -2977,6 +3025,10 @@ msgstr ""
 msgid "Loading TIFF file..."
 msgstr ""
 
+#: PROGRESSBAR_PROCESSING_PROFILESAVED
+msgid "Processing Profile Saved"
+msgstr ""
+
 #: PROGRESSBAR_PROCESSING
 msgid "Processing Image..."
 msgstr ""
@@ -2998,7 +3050,7 @@ msgid "Saving TIFF file..."
 msgstr ""
 
 #: PROGRESSDLG_PROFILECHANGEDINBROWSER
-msgid "Profile changed in browser"
+msgid "Processing profile changed in browser"
 msgstr ""
 
 #: QINFO_FOCALLENGTH
@@ -3057,6 +3109,38 @@ msgstr ""
 msgid "Uncompressed TIFF"
 msgstr ""
 
+#: SAVEDLG_WARNFILENAME
+msgid "File will be named"
+msgstr ""
+
+#: THRESHOLDSELECTOR_BL
+msgid "Bottom-left"
+msgstr ""
+
+#: THRESHOLDSELECTOR_BR
+msgid "Bottom-right"
+msgstr ""
+
+#: THRESHOLDSELECTOR_B
+msgid "Bottom"
+msgstr ""
+
+#: THRESHOLDSELECTOR_HINT
+msgid "Hold the <b>Shift</b> key to move individual control points."
+msgstr ""
+
+#: THRESHOLDSELECTOR_TL
+msgid "Top-left"
+msgstr ""
+
+#: THRESHOLDSELECTOR_TR
+msgid "Top-right"
+msgstr ""
+
+#: THRESHOLDSELECTOR_T
+msgid "Top"
+msgstr ""
+
 #: TOOLBAR_TOOLTIP_CROP
 msgid "<b>Crop</b> selection.\nShortcut: <b>c</b>"
 msgstr ""
@@ -3090,11 +3174,11 @@ msgid "Flip horizontally"
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_ROTLEFT
-msgid "Rotate left <b>[</b>"
+msgid "Rotate left.\nShortcut: <b>[</b>"
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_ROTRIGHT
-msgid "Rotate right <b>]</b>"
+msgid "Rotate right.\nShortcut: <b>]</b>"
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_VFLIP
@@ -3173,6 +3257,10 @@ msgstr ""
 msgid "Biometric Passport"
 msgstr ""
 
+#: TP_CROP_GTFRAME
+msgid "Frame"
+msgstr ""
+
 #: TP_CROP_GTGRID
 msgid "Grid"
 msgstr ""
@@ -3230,10 +3318,6 @@ msgstr ""
 msgid "Auto selection"
 msgstr ""
 
-#: TP_DARKFRAME_LABEL
-msgid "Dark Frame"
-msgstr ""
-
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance"
 msgstr ""
@@ -3263,11 +3347,11 @@ msgid "Neutral"
 msgstr ""
 
 #: TP_DISTORTION_AUTO_TIP
-msgid "(Exprimental) Correct lens distortion automatically for some cameras (M4/3, some compact DC, etc.)"
+msgid "(Exprimental) Correct lens distortion automatically for some cameras (Micro 4/3, some compact digital cameras, etc.)"
 msgstr ""
 
 #: TP_DISTORTION_AUTO
-msgid "    Auto distortion correction"
+msgid "    Auto Distortion Correction"
 msgstr ""
 
 #: TP_DISTORTION_LABEL
@@ -3295,7 +3379,7 @@ msgid " After interpolation (before RGB conversion)"
 msgstr ""
 
 #: TP_EXPOSCORR_LABEL
-msgid "Raw white-black point"
+msgid "Raw white &amp; black points"
 msgstr ""
 
 #: TP_EXPOSURE_AUTOLEVELS_TIP
@@ -3335,7 +3419,7 @@ msgid "Horizontal"
 msgstr ""
 
 #: TP_FLATFIELD_BT_VERTHORIZ
-msgid "Vert. + Horiz."
+msgid "Vertical + Horizontal"
 msgstr ""
 
 #: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL
@@ -3419,16 +3503,12 @@ msgstr ""
 msgid "Blend highlights with matrix"
 msgstr ""
 
-#: TP_ICM_FILEDLGFILTERICM
-msgid "Profile files"
-msgstr ""
-
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
-msgid "Use RawTherapee's camera-specific DCP or ICC input profile that is more precise than a simpler matrix. Available for some cameras, these profiles are stored in /iccprofiles/input directory and are automatically retrieved based on file name matching the exact model name of the camera."
+msgid "Use RawTherapee's camera-specific DCP or ICC input color profile. These profiles are more precise than simpler matrix ones. Available for some cameras. These profiles are stored in the /iccprofiles/input and /dcpprofiles folders and are automatically retrieved based on a file name matching to the exact model name of the camera."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERAICC
-msgid "Auto-matched camera-specific profile"
+msgid "Auto-matched camera-specific color profile"
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA_TOOLTIP
@@ -3459,8 +3539,20 @@ msgstr ""
 msgid "No profile"
 msgstr ""
 
+#: TP_ICM_INPUTPROFILE
+msgid "Input Profile"
+msgstr ""
+
 #: TP_ICM_NOICM
 msgid "No ICM: sRGB output"
+msgstr ""
+
+#: TP_ICM_OUTPUTDLGLABEL
+msgid "Select Output ICC Profile..."
+msgstr ""
+
+#: TP_ICM_OUTPUTPROFILE
+msgid "Output Profile"
 msgstr ""
 
 #: TP_ICM_PREFERREDPROFILE
@@ -3483,6 +3575,14 @@ msgstr ""
 msgid "Flash"
 msgstr ""
 
+#: TP_ICM_WORKINGPROFILE
+msgid "Working Profile"
+msgstr ""
+
+#: TP_LABCURVE_BWTONING_TIP
+msgid "With <b>BW Toning</b> option enabled the Lab Saturation is not in effect.\nToning can be achieved using the <b>a</b> and <b>b</b> curves "
+msgstr ""
+
 #: TP_LABCURVE_CURVEEDITOR
 msgid "Luminance Curve"
 msgstr ""
@@ -3497,6 +3597,22 @@ msgstr ""
 
 #: TP_LENSGEOM_LABEL
 msgid "Lens / Geometry"
+msgstr ""
+
+#: TP_LENSPROFILE_FILEDLGFILTERLCP
+msgid "Lens correction files"
+msgstr ""
+
+#: TP_LENSPROFILE_USECA
+msgid "Use CA correction"
+msgstr ""
+
+#: TP_LENSPROFILE_USEDIST
+msgid "Use distortion correction"
+msgstr ""
+
+#: TP_LENSPROFILE_USEVIGN
+msgid "Use vignette correction"
 msgstr ""
 
 #: TP_LUMADENOISE_LABEL
@@ -3715,8 +3831,20 @@ msgstr ""
 msgid "Protect skin tones"
 msgstr ""
 
+#: TP_VIBRANCE_PSTHRESHOLD_SATTHRESH
+msgid "Saturation threshold"
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD_TOOLTIP
+msgid "The vertical axis represents pastel tones at the bottom and saturated tones at the top.\nThe horizontal axis represents the saturation range."
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD_WEIGTHING
+msgid "Pastel/saturated transition's weighting"
+msgstr ""
+
 #: TP_VIBRANCE_PSTHRESHOLD
-msgid "Pastel/Saturated tone threshold"
+msgid "Pastel/saturated tones threshold"
 msgstr ""
 
 #: TP_VIBRANCE_SATURATED
