@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-07-19 17:32+0200\n"
-"PO-Revision-Date: 2012-07-19 17:33+0200\n"
+"POT-Creation-Date: 2012-09-27 17:16+0200\n"
+"PO-Revision-Date: 2012-10-10 21:45+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -32,7 +32,7 @@ msgstr "Poznámky k vydání"
 
 #: ABOUT_TAB_SPLASH
 msgid "Splash"
-msgstr "Splash"
+msgstr "Úvodní obrazovka"
 
 #: ADJUSTER_RESET_TO_DEFAULT
 msgid "Reset to default"
@@ -363,9 +363,8 @@ msgid "Apply"
 msgstr "Použít"
 
 #: FILEBROWSER_APPLYPROFILE_PARTIAL
-#, fuzzy
 msgid "Apply - partial"
-msgstr "Aplikovat profil (částečně)"
+msgstr "Aplikovat - částečně"
 
 #: FILEBROWSER_ARRANGEMENTHINT
 msgid "Change between vertical/horizontal alignment of thumbnails"
@@ -414,14 +413,12 @@ msgid "Cache"
 msgstr "Cache"
 
 #: FILEBROWSER_CLEARPROFILE
-#, fuzzy
 msgid "Clear"
-msgstr "Vymazat vše"
+msgstr "Smazat"
 
 #: FILEBROWSER_COPYPROFILE
-#, fuzzy
 msgid "Copy"
-msgstr "Copyright"
+msgstr "Kopírovat"
 
 #: FILEBROWSER_CURRENT_NAME
 msgid "Current name:"
@@ -436,18 +433,17 @@ msgid "File delete confirmation"
 msgstr "Potvrzení smazání souboru"
 
 #: FILEBROWSER_DELETEDLGMSGINCLPROC
-#, fuzzy
 msgid ""
 "Are you sure you want to delete the selected <b>%1</b> files <b>including</"
 "b> a queue-processed version?"
 msgstr ""
-"Jste si jisti, že chcete vymazat %1 vybraných souborů VČETNĚ výstupů "
+"Jste si jisti, že chcete vymazat <b>%1</b> vybraných souborů <b>včetně</b> "
+"výstupů "
 "dávkového zpracování?"
 
 #: FILEBROWSER_DELETEDLGMSG
-#, fuzzy
 msgid "Are you sure you want to delete the selected <b>%1</b> files?"
-msgstr "Jste si jisti, že chcete vymazat %1 vybraných souborů?"
+msgstr "Jste si jisti, že chcete vymazat <b>%1</b> vybraných souborů?"
 
 #: FILEBROWSER_EMPTYTRASHHINT
 msgid "Permanently delete the files from trash"
@@ -458,9 +454,8 @@ msgid "Empty Trash"
 msgstr "Vysypat koš"
 
 #: FILEBROWSER_EXEC_CPB
-#, fuzzy
 msgid "Custom Profile Builder"
-msgstr "Spustit vlastní generátor profilu"
+msgstr "Vlastní generátor profilu"
 
 #: FILEBROWSER_EXIFFILTERAPPLYHINT
 msgid "Switch File Browser Exif Filter on/off"
@@ -495,18 +490,16 @@ msgid "New name:"
 msgstr "Nové jméno:"
 
 #: FILEBROWSER_OPENDEFAULTVIEWER
-#, fuzzy
 msgid "Windows default viewer (queue-processed) "
 msgstr "Výchozí prohlížeč Windows (zpracování fronty) "
 
 #: FILEBROWSER_PARTIALPASTEPROFILE
-#, fuzzy
 msgid "Paste - partial"
-msgstr "Vložit profil"
+msgstr "Vložit - částečně"
 
 #: FILEBROWSER_PASTEPROFILE
 msgid "Paste"
-msgstr ""
+msgstr "Vložit"
 
 #: FILEBROWSER_POPUPCANCELJOB
 msgid "Cancel job"
@@ -549,12 +542,10 @@ msgid "File Operations"
 msgstr "Souborové operace"
 
 #: FILEBROWSER_POPUPMOVEEND
-#, fuzzy
 msgid "Move to end of Queue"
 msgstr "Přesunout na konec fronty"
 
 #: FILEBROWSER_POPUPMOVEHEAD
-#, fuzzy
 msgid "Move to head of Queue"
 msgstr "Přesunout na začátek fronty"
 
@@ -575,9 +566,8 @@ msgid "Put to Queue"
 msgstr "Vložit do fronty"
 
 #: FILEBROWSER_POPUPPROFILEOPERATIONS
-#, fuzzy
 msgid "Processing Profile Operations"
-msgstr "Seskupit operace s profily"
+msgstr "Operace profilů zpracování"
 
 #: FILEBROWSER_POPUPRANK
 msgid "Rank"
@@ -604,9 +594,8 @@ msgid "Rank 5 *****"
 msgstr "Hodnocení 5 *****"
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
-#, fuzzy
 msgid "Delete with output from queue"
-msgstr "Smazat (včetně výstupů z fronty)"
+msgstr "Smazat včetně výstupů z fronty"
 
 #: FILEBROWSER_POPUPREMOVE
 msgid "Delete"
@@ -739,12 +728,11 @@ msgstr ""
 "Zkratka: <b>6</b>"
 
 #: FILEBROWSER_SHOWEXIFINFO
-#, fuzzy
 msgid ""
 "Show Exif info.\n"
 "Shortcut: <b>i</b>"
 msgstr ""
-"Zobrazit EXIF informace.\n"
+"Zobrazit Exif informace.\n"
 "Zkratka: <b>i</b>"
 
 #: FILEBROWSER_SHOWQUEUEHINT
@@ -832,25 +820,22 @@ msgstr ""
 "Zkratka: <b>`</b>"
 
 #: FILEBROWSER_STARTPROCESSINGHINT
-#, fuzzy
 msgid "Start processing the images in the queue"
-msgstr "Spustit zpracování nebo ukládání obrázků ve frontě"
+msgstr "Spustit zpracování obrázků ve frontě"
 
 #: FILEBROWSER_STARTPROCESSING
 msgid "Start processing"
 msgstr "Spustit zpracování"
 
 #: FILEBROWSER_STOPPROCESSINGHINT
-#, fuzzy
 msgid "Stop processing the images in the queue"
-msgstr "Spustit zpracování nebo ukládání obrázků ve frontě"
+msgstr "Zastavit zpracování obrázků ve frontě"
 
 #: FILEBROWSER_STOPPROCESSING
 msgid "Stop processing"
 msgstr "Zastavit zpracovávaní"
 
 #: FILEBROWSER_THUMBSIZE
-#, fuzzy
 msgid "Thumbnail size"
 msgstr "Velikost náhledu"
 
@@ -955,9 +940,8 @@ msgid "(Unchanged)"
 msgstr "(Beze změny)"
 
 #: GENERAL_WARNING
-#, fuzzy
 msgid "Warning"
-msgstr "Doostření"
+msgstr "Varování"
 
 #: GENERAL_YES
 msgid "Yes"
@@ -1002,6 +986,10 @@ msgstr ""
 #: HISTOGRAM_TOOLTIP_B
 msgid "Show/Hide blue histogram"
 msgstr "Skrýt /zobrazit histogram modré"
+
+#: HISTOGRAM_TOOLTIP_FULL
+msgid "Toggle full or scaled histogram"
+msgstr "Přepnout plný nebo přiblížený histogram"
 
 #: HISTOGRAM_TOOLTIP_G
 msgid "Show/Hide green histogram"
@@ -1087,25 +1075,25 @@ msgstr "Práh komprese světel"
 msgid "Resize Bounding Box"
 msgstr "Změna rozměrů výřezu"
 
-#: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR
-msgid "Tone Curve"
-msgstr "Tónová křivka"
+#: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR1
+msgid "Tone Curve 1"
+msgstr "Tónová křivka 1"
 
 #: HISTORY_MSG_110
 msgid "Resizing applies o  "
 msgstr "Změna rozměrů aplikována na  "
 
-#: HISTORY_MSG_111
-msgid "Avoid Color Clipping"
-msgstr "Zabránit oříznutí barev"
+#: HISTORY_MSG_111,TP_LABCURVE_AVOIDCOLORSHIFT
+msgid "Avoid Color Shift"
+msgstr "Zabránit posunu barev"
 
 #: HISTORY_MSG_112
-msgid "Saturation Limiter"
-msgstr "Povolit omezení saturace"
+msgid "--unused--"
+msgstr "--nepoužito--"
 
-#: HISTORY_MSG_113
-msgid "Saturation Limit"
-msgstr "Omezení saturace"
+#: HISTORY_MSG_113,TP_LABCURVE_RSTPROTECTION
+msgid "Red and skin tones protection"
+msgstr "Ochrana červených a pleťových tónů"
 
 #: HISTORY_MSG_114
 msgid "DCB Iterations"
@@ -1131,7 +1119,7 @@ msgstr "Korekce modré CA"
 msgid "Line Denoise"
 msgstr "Linkové odšumění"
 
-#: HISTORY_MSG_12
+#: HISTORY_MSG_12,HISTORY_MSG_37
 msgid "Auto Exposure"
 msgstr "Automatická expozice"
 
@@ -1185,7 +1173,7 @@ msgstr "Redukce jasového šumu"
 
 #: HISTORY_MSG_132
 msgid "Noise Reduction Chroma"
-msgstr "Redukce chromatického šumu"
+msgstr "Redukce barevného šumu"
 
 #: HISTORY_MSG_133,TP_DIRPYRDENOISE_GAMMA
 msgid "Gamma"
@@ -1335,13 +1323,37 @@ msgstr "RGB křivky - B"
 msgid "Neutral Levels"
 msgstr "Neutrální úrovně"
 
-#: HISTORY_MSG_167,TP_LABCURVE_BWTONING
-msgid "BW Toning"
-msgstr ""
+#: HISTORY_MSG_167
+msgid "B&amp;W Toning"
+msgstr "Černobílé tónování"
+
+#: HISTORY_MSG_168
+msgid "'CC' curve"
+msgstr "'CC' křivka"
+
+#: HISTORY_MSG_169
+msgid "'CH' curve"
+msgstr "'CH' křivka"
 
 #: HISTORY_MSG_17
 msgid "Luminance Highlight Compr."
 msgstr "Jas Komprese světel"
+
+#: HISTORY_MSG_170
+msgid "Vibrance - Curve"
+msgstr "Živost - křivka"
+
+#: HISTORY_MSG_171
+msgid "'LC' curve"
+msgstr "'LC' křivka"
+
+#: HISTORY_MSG_172
+msgid "Restrict 'LC' to Red and Skin Tones"
+msgstr "Omezit 'LC' na červené a pleťové tóny"
+
+#: HISTORY_MSG_173
+msgid "NR - Luminance Detail"
+msgstr "Redukce šumu - jas detailu"
 
 #: HISTORY_MSG_18
 msgid "Luminance Shadow Compr."
@@ -1352,9 +1364,8 @@ msgid "'L' Curve"
 msgstr "'L' křivka"
 
 #: HISTORY_MSG_2
-#, fuzzy
 msgid "PP3 Loaded"
-msgstr "Fotka načtena"
+msgstr "PP3 načten"
 
 #: HISTORY_MSG_20,TP_SHARPENING_LABEL
 msgid "Sharpening"
@@ -1397,9 +1408,8 @@ msgid "Sharpening Method"
 msgstr "Metoda doostření"
 
 #: HISTORY_MSG_3
-#, fuzzy
 msgid "PP3 Changed"
-msgstr "Změněno"
+msgstr "PP3 změněn"
 
 #: HISTORY_MSG_30
 msgid "Deconvolution Radius"
@@ -1419,19 +1429,15 @@ msgstr "Počet průchodů dekonvoluce"
 
 #: HISTORY_MSG_34
 msgid "LCP use disortion"
-msgstr ""
+msgstr "LPC používá korekci zkreslení"
 
 #: HISTORY_MSG_35
 msgid "LCP use vignette"
-msgstr ""
+msgstr "LPC používá vinětaci"
 
 #: HISTORY_MSG_36
 msgid "LCP use CA"
-msgstr ""
-
-#: HISTORY_MSG_37,TP_COLORBOOST_LABEL
-msgid "Color Boost"
-msgstr "Sytost barev"
+msgstr "LPC používá chromatickou aberaci"
 
 #: HISTORY_MSG_38
 msgid "White Balance Method"
@@ -1450,16 +1456,16 @@ msgid "White Balance Tint"
 msgstr "Odstín vyvážení bílé"
 
 #: HISTORY_MSG_41
-msgid "Color Shift \"A\""
-msgstr "Barevný posun \"A\""
+msgid "Tone Curve Mode 1"
+msgstr "Tónová křivka mód 1"
 
-#: HISTORY_MSG_42
-msgid "Color Shift \"B\""
-msgstr "Barevný posun \"B\""
+#: HISTORY_MSG_42,TP_EXPOSURE_CURVEEDITOR2
+msgid "Tone Curve 2"
+msgstr "Tónová křivka 2"
 
 #: HISTORY_MSG_43
-msgid "Luminance Denoising"
-msgstr "Jas Redukce šumu"
+msgid "Tone Curve Mode 2"
+msgstr "Tónová křivka mód 2"
 
 #: HISTORY_MSG_44
 msgid "Lum. Denoising Radius"
@@ -1473,13 +1479,13 @@ msgstr "Okrajová tolerance redukce šumu v jasech"
 msgid "Color Denoising"
 msgstr "Redukce barevného šumu"
 
-#: HISTORY_MSG_47
-msgid "Color Denoising Radius"
-msgstr "Poloměr redukce barevného šumu"
+#: HISTORY_MSG_47,TP_ICM_BLENDCMSMATRIX
+msgid "Blend ICC highlights with matrix"
+msgstr "Smísení ICC světel s matici"
 
-#: HISTORY_MSG_48
-msgid "Color Denoising Edge Tolerance"
-msgstr "Okrajová tolerance v redukci barevného šumu"
+#: HISTORY_MSG_48,TP_ICM_TONECURVE
+msgid "Use DCP's tone curve"
+msgstr "Použita tónová křivka DCP"
 
 #: HISTORY_MSG_49
 msgid "Edge Sensitive Color Denoising"
@@ -1638,9 +1644,8 @@ msgid "Perspective Correction"
 msgstr "Korekce perspektivy"
 
 #: HISTORY_MSG_85,TP_LENSPROFILE_LABEL
-#, fuzzy
 msgid "Lens Correction Profile"
-msgstr "Pracovní barevný prostor"
+msgstr "Korekční profil objektivu"
 
 #: HISTORY_MSG_86
 msgid "Wavelet Equalizer"
@@ -1682,9 +1687,9 @@ msgstr "Kontrast dle detailu úrovní - hodnota"
 msgid "Contrast by Detail Levels"
 msgstr "Kontrast dle detailu úrovní"
 
-#: HISTORY_MSG_95,PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION,TP_LABCURVE_SATURATION
-msgid "Saturation"
-msgstr "Sytost"
+#: HISTORY_MSG_95,TP_LABCURVE_CHROMATICITY
+msgid "Chromaticity"
+msgstr "Barva"
 
 #: HISTORY_MSG_96
 msgid "'a' Curve"
@@ -1731,44 +1736,38 @@ msgid "Snapshot"
 msgstr "Snímek"
 
 #: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
-#, fuzzy
 msgid "Color profiles"
-msgstr "Vymazat profil"
+msgstr "Barevné profily"
 
 #: ICMPANEL_GAMMABEFOREINPUT
-#, fuzzy
 msgid "Color Profile Applies Gamma"
-msgstr "Profil aplikuje Gama korekci"
+msgstr "Barevný profil aplikuje Gamu"
 
 #: ICMPANEL_INPUTCAMERA
 msgid "Camera Default"
 msgstr "Výchozí fotoaparátu"
 
 #: ICMPANEL_INPUTDLGLABEL
-#, fuzzy
 msgid "Select Input Color Profile..."
-msgstr "Vybrat vstupní ICC profil..."
+msgstr "Vybrat vstupní barevný profil..."
 
 #: ICMPANEL_INPUTEMBEDDED,TP_ICM_INPUTEMBEDDED
 msgid "Use Embedded, if possible"
 msgstr "Použít vložený profil, pokud je k dispozici"
 
 #: ICMPANEL_INPUTPROFILE
-#, fuzzy
 msgid "Input Color Profile"
-msgstr "Vstupní profil"
+msgstr "Vstupní barevný profil"
 
 #: ICMPANEL_NOICM
 msgid "No ICM: sRGB Output"
 msgstr "Bez ICM: sRGB výstup"
 
 #: ICMPANEL_OUTPUTDLGLABEL
-#, fuzzy
 msgid "Select Output Color Profile..."
-msgstr "Vybrat výstupní ICC profil..."
+msgstr "Vybrat výstupní barevný profil..."
 
 #: ICMPANEL_OUTPUTPROFILE
-#, fuzzy
 msgid "Output Color Profile"
 msgstr "Výstupní barevný prostor"
 
@@ -1777,9 +1776,8 @@ msgid "Save reference image for profiling"
 msgstr "Uložit referenční obrázek pro profilování"
 
 #: ICMPANEL_WORKINGPROFILE
-#, fuzzy
 msgid "Working Color Profile"
-msgstr "Pracovní barevný prostor"
+msgstr "Pracovní barevný profil"
 
 #: IMAGEAREA_DETAILVIEW
 msgid "Detail View"
@@ -1874,11 +1872,12 @@ msgid "Credit"
 msgstr "Zásluhy"
 
 #: IPTCPANEL_DATECREATEDHINT
-#, fuzzy
 msgid ""
 "The date the intellectual content of the image was created; Format: YYYYMMDD "
 "(Date Created)."
-msgstr "Kdy byl obrázek vytvořen; Formát: RRRRMMDD (Datum vytvoření)."
+msgstr ""
+"Datum kdy byl duševní obsah obrázku vytvořen; Formát: RRRRMMDD (Datum "
+"vytvoření)."
 
 #: IPTCPANEL_DATECREATED
 msgid "Date Created"
@@ -2081,7 +2080,6 @@ msgid "Please set the correct path in the \"Preferences\" dialog."
 msgstr "Nastavte prosím správnou cestu v okně \"Volby\". "
 
 #: MAIN_MSG_CANNOTSTARTEDITOR
-#, fuzzy
 msgid "Cannot start editor."
 msgstr "Editor nelze spustit."
 
@@ -2210,21 +2208,24 @@ msgid ""
 "Background color of the preview: <b>Theme-based</b>\n"
 "Shortcut: <b>8</b>"
 msgstr ""
+"Barva pozadí náhledu: <b>Dle motivu</b>\n"
+"Zkratka: <b>8</b>"
 
 #: MAIN_TOOLTIP_BACKCOLOR1
-#, fuzzy
 msgid ""
 "Background color of the preview: <b>Black</b>\n"
 "Shortcut: <b>9</b>"
 msgstr ""
-"Náhled <b>modrého kanálu</b>.\n"
-"Zkratka: <b>b</b>"
+"Barva pozadí náhledu: <b>Černá</b>\n"
+"Zkratka: <b>9</b>"
 
 #: MAIN_TOOLTIP_BACKCOLOR2
 msgid ""
 "Background color of the preview: <b>White</b>\n"
 "Shortcut: <b>0</b>"
 msgstr ""
+"Barva pozadí náhledu: <b>Bílá</b>\n"
+"Zkratka: <b>0</b>"
 
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
 msgid ""
@@ -2460,7 +2461,7 @@ msgstr "V = %1"
 
 #: NAVIGATOR_XY_FULL
 msgid "Width = %1, Height = %2"
-msgstr ""
+msgstr "Šířka = %1, Výška = %2"
 
 #: NAVIGATOR_XY_NA
 msgid "x = n/a, y = n/a"
@@ -2475,6 +2476,11 @@ msgid ""
 "\n"
 "Default internal values will be used."
 msgstr ""
+"Výchozí profil pro <b>ne raw fotky</b> nelze nalézt nebo nastavit.\n"
+"\n"
+"Zkontrolujte prosím vaši složku s profily, buď chybí nebo je poškozena.\n"
+"\n"
+"Budou použity výchozí přednastavené hodnoty."
 
 #: OPTIONS_DEFRAW_MISSING
 msgid ""
@@ -2484,6 +2490,11 @@ msgid ""
 "\n"
 "Default internal values will be used."
 msgstr ""
+"Výchozí profil pro <b>raw fotky</b> nelze nalézt nebo nastavit.\n"
+"\n"
+"Zkontrolujte prosím vaši složku s profily, buď chybí nebo je poškozena.\n"
+"\n"
+"Budou použity výchozí přednastavené hodnoty."
 
 #: PARTIALPASTE_BASICGROUP
 msgid "Basic Settings"
@@ -2541,7 +2552,7 @@ msgstr "Nastavení detailů"
 msgid "Partial paste processing profile"
 msgstr "Částečné vložení profilu zpracování"
 
-#: PARTIALPASTE_DIRPYRDENOISE,TP_DIRPYRDENOISE_LABEL
+#: PARTIALPASTE_DIRPYRDENOISE
 msgid "Noise reduction"
 msgstr "Redukce šumu"
 
@@ -2558,9 +2569,8 @@ msgid "Everything"
 msgstr "Vše"
 
 #: PARTIALPASTE_EXIFCHANGES
-#, fuzzy
 msgid "Changes to Exif data"
-msgstr "Upravená exif data"
+msgstr "Změny Exif dat"
 
 #: PARTIALPASTE_FLATFIELDAUTOSELECT
 msgid "FF Auto Select"
@@ -2603,9 +2613,8 @@ msgid "Output gamma"
 msgstr "Výstupní gama"
 
 #: PARTIALPASTE_ICMSETTINGS
-#, fuzzy
 msgid "Color Management settings"
-msgstr "Správa barev"
+msgstr "Nastavení správy barev"
 
 #: PARTIALPASTE_IMPULSEDENOISE
 msgid "Impulse noise reduction"
@@ -2632,9 +2641,8 @@ msgid "Luminance related settings"
 msgstr "Nastavení jasu"
 
 #: PARTIALPASTE_METAICMGROUP
-#, fuzzy
 msgid "Metadata/Color Management settings"
-msgstr "Nastavení metadat a ICM"
+msgstr "Nastavení metadat a správy barev"
 
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
 msgid "Perspective"
@@ -2737,9 +2745,9 @@ msgid "restart required"
 msgstr "vyžaduje restart aplikace"
 
 #: PREFERENCES_AUTOMONPROFILE
-#, fuzzy
 msgid "Automatically use operating system's main monitor color profile"
-msgstr "Automaticky použít hlavní profil monitoru z operačního systému."
+msgstr ""
+"Automaticky použít hlavní barevný profil monitoru z operačního systému."
 
 #: PREFERENCES_BATCH_PROCESSING
 msgid "Batch Processing"
@@ -2758,9 +2766,8 @@ msgid "Clear All"
 msgstr "Vymazat vše"
 
 #: PREFERENCES_CACHECLEARPROFILES
-#, fuzzy
 msgid "Clear Processing Profiles"
-msgstr "Profily zpracování"
+msgstr "Smazat profily zpracování"
 
 #: PREFERENCES_CACHECLEARTHUMBS
 msgid "Clear Thumbnails"
@@ -2803,7 +2810,6 @@ msgid "Maximal Thumbnail Height"
 msgstr "Maximální výška náhledu"
 
 #: PREFERENCES_CLIPPINGIND
-#, fuzzy
 msgid "Clipping Indication"
 msgstr "Indikace oříznutí"
 
@@ -2812,7 +2818,6 @@ msgid "Colorimetric Intent"
 msgstr "Kolorimetrická metoda"
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-#, fuzzy
 msgid ""
 "Executable (or script) file called when a new initial processing profile "
 "should be generated for an image.\n"
@@ -2824,18 +2829,17 @@ msgstr ""
 "Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil "
 "pro obrázek.\n"
 "Bude spuštěn s následujícími parametry,  které umožní vygenerování "
-"vhodného  .pp3 profilu:\n"
-"[Cesta raw/JPG] [Výchozí cesta profilu] [Clona] [Expozice v sekundách] "
-"[Ohnisková vzdálenost v mm] [ISO] [Objektiv] [Fotoaparát]"
+"vhodného profilu upracování :\n"
+"[cesta raw/JPG] [výchozí cesta profilu] [clona] [expozice v sekundách] "
+"[ohnisková vzdálenost v mm] [ISO] [objektiv] [fotoaparát]"
 
 #: PREFERENCES_CUSTPROFBUILDPATH
 msgid "Executable path"
 msgstr "Cesta k programu"
 
 #: PREFERENCES_CUSTPROFBUILD
-#, fuzzy
 msgid "Custom Processing Profile Builder"
-msgstr "Vlastní generátor profilu obrázku"
+msgstr "Vlastní generátor profilu zpracování"
 
 #: PREFERENCES_CUTOVERLAYBRUSH
 msgid "Crop mask color/transparency"
@@ -2880,17 +2884,14 @@ msgstr ""
 "<b>%d. %m. %y</b>"
 
 #: PREFERENCES_DATEFORMAT
-#, fuzzy
 msgid "Date format"
 msgstr "Formát data"
 
 #: PREFERENCES_DEFAULTLANG
-#, fuzzy
 msgid "Default Language"
 msgstr "Výchozí jazyk"
 
 #: PREFERENCES_DEFAULTTHEME
-#, fuzzy
 msgid "Default Theme"
 msgstr "Výchozí vzhled"
 
@@ -2931,7 +2932,6 @@ msgid "Editor Layout"
 msgstr "Rozvržení editoru"
 
 #: PREFERENCES_EXTERNALEDITOR
-#, fuzzy
 msgid "External Editor"
 msgstr "Externí editor"
 
@@ -2955,12 +2955,11 @@ msgstr "Složka Flat Field souborů"
 
 #: PREFERENCES_FORIMAGE
 msgid "For non-raw photos"
-msgstr ""
+msgstr "Pro ne-raw fotografie"
 
 #: PREFERENCES_FORRAW
-#, fuzzy
 msgid "For raw photos"
-msgstr "Pro raw soubory"
+msgstr "Pro raw fotografie"
 
 #: PREFERENCES_GIMPPATH
 msgid "GIMP installation directory"
@@ -2983,14 +2982,12 @@ msgid "Threshold for clipped highlights"
 msgstr "Práh oříznutých světel"
 
 #: PREFERENCES_ICCDIR
-#, fuzzy
 msgid "Directory containing color profiles"
-msgstr "Složka ICC profilů"
+msgstr "Složka obsahující barevné profily"
 
 #: PREFERENCES_IMPROCPARAMS
-#, fuzzy
 msgid "Default Image Processing Parameters"
-msgstr "Výchozí profily pro zpracování obrázku"
+msgstr "Výchozí parametry zpracování obrázku"
 
 #: PREFERENCES_INTENT_ABSOLUTE
 msgid "Absolute Colorimetric"
@@ -3004,10 +3001,13 @@ msgstr "Vnímání"
 msgid "Relative Colorimetric"
 msgstr "Relativní kolorimetrie"
 
+#: PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION
+msgid "Saturation"
+msgstr "Sytost"
+
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
-#, fuzzy
 msgid "Show embedded JPEG thumbnail if raw is unedited"
-msgstr "Ukázat interní raw náhledy u needitovaných snímků"
+msgstr "Ukázat vložené JPEG náhledy u needitovaných snímků"
 
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use OS language setting"
@@ -3019,47 +3019,39 @@ msgstr "Živé náhledy (pomalejší)"
 
 #: PREFERENCES_MENUGROUPEXTPROGS
 msgid "Group \"Open with\""
-msgstr "Seskupit \"Otevřít pomocí\""
+msgstr "Skupina \"Otevřít pomocí\""
 
 #: PREFERENCES_MENUGROUPFILEOPERATIONS
-#, fuzzy
 msgid "Group \"File Operations\""
-msgstr "Seskupit souborové operace"
+msgstr "Skupina \"Souborové operace\""
 
 #: PREFERENCES_MENUGROUPLABEL
-#, fuzzy
 msgid "Group \"Color Label\""
-msgstr "Seskupit značení"
+msgstr "Skupina \"Barevné štítky\""
 
 #: PREFERENCES_MENUGROUPPROFILEOPERATIONS
-#, fuzzy
 msgid "Group \"Processing Profile Operations\""
-msgstr "Seskupit operace s profily"
+msgstr "Skupina \"Operace s profily zpracování\""
 
 #: PREFERENCES_MENUGROUPRANK
-#, fuzzy
 msgid "Group \"Rank\""
-msgstr "Seskupit hodnocení"
+msgstr "Skupina \"Hodnocení\""
 
 #: PREFERENCES_MENUOPTIONS
-#, fuzzy
 msgid "Context Menu Options"
-msgstr "Vlastnosti nabídky"
+msgstr "Volby místní nabídky"
 
 #: PREFERENCES_MONITORICC
-#, fuzzy
 msgid "Monitor Color Profile"
-msgstr "Profil monitoru"
+msgstr "Barevný profil monitoru"
 
 #: PREFERENCES_MULTITABDUALMON
-#, fuzzy
 msgid "Multiple editor tabs mode, if available on second monitor"
-msgstr "Mód více karet; pouze pokud je dostupný druhý monitor"
+msgstr "Mód více karet editoru, pokud je dostupný druhý monitor"
 
 #: PREFERENCES_MULTITAB
-#, fuzzy
 msgid "Multiple editor tabs mode"
-msgstr "Mód více karet"
+msgstr "Mód více karet editoru"
 
 #: PREFERENCES_OUTDIRFOLDERHINT
 msgid "Put the saved images to the selected folder"
@@ -3158,7 +3150,6 @@ msgid "Overwrite existing output files"
 msgstr "Přepsat existující soubory"
 
 #: PREFERENCES_PANFACTORFRAME
-#, fuzzy
 msgid "Pan Rate Amplification"
 msgstr "Zrychlení posunu výřezu"
 
@@ -3187,9 +3178,8 @@ msgid "Processing Profile Handling"
 msgstr "Řízení profilů zpracování"
 
 #: PREFERENCES_PROFILELOADPR
-#, fuzzy
 msgid "Processing Profile Loading Priority"
-msgstr "Priorita nahrávání profilu"
+msgstr "Priorita nahrávání profilů zpracování"
 
 #: PREFERENCES_PROFILEPRCACHE
 msgid "Profile in cache"
@@ -3200,14 +3190,12 @@ msgid "Profile next to the input file"
 msgstr "Profil uložený se zdrojovým souborem"
 
 #: PREFERENCES_PROFILESAVECACHE
-#, fuzzy
 msgid "Save processing profile to the cache"
 msgstr "Ukládat parametry zpracování do cache"
 
 #: PREFERENCES_PROFILESAVEINPUT
-#, fuzzy
 msgid "Save processing profile next to the input file"
-msgstr "Ukládat parametry zpracování se zdrojovým souborem"
+msgstr "Ukládat parametry zpracování spolu se zdrojovým souborem"
 
 #: PREFERENCES_PROPERTY
 msgid "Property"
@@ -3222,18 +3210,16 @@ msgid "Select font"
 msgstr "Vybrat písmo"
 
 #: PREFERENCES_SELECTICCDIRDLG
-#, fuzzy
 msgid "Select Color Profile Directory..."
-msgstr "Zvolit složku s ICC profily..."
+msgstr "Vybrat složku s barevnými profily..."
 
 #: PREFERENCES_SELECTLANG
 msgid "Select language"
 msgstr "Volba jazyka"
 
 #: PREFERENCES_SELECTMONITORPROFDLG
-#, fuzzy
 msgid "Select Color Profile of the Display..."
-msgstr "Zvolit ICC profil obrazovky..."
+msgstr "Vybrat barevný profil obrazovky..."
 
 #: PREFERENCES_SELECTTHEME
 msgid "Select theme"
@@ -3260,23 +3246,20 @@ msgid "Show only raw files"
 msgstr "Zobrazovat pouze soubory raw"
 
 #: PREFERENCES_SHOWPROFILESELECTOR
-#, fuzzy
 msgid "Show processing profile selector"
-msgstr "Zobrazit výběr profilu"
+msgstr "Zobrazit výběr profilu zpracování"
 
 #: PREFERENCES_SHTHRESHOLD
 msgid "Threshold for clipped shadows"
 msgstr "Práh oříznutých stínů"
 
 #: PREFERENCES_SINGLETABVERTAB
-#, fuzzy
 msgid "Single editor tab mode, vertical tabs"
-msgstr "Mód jedné karty, svislé karty"
+msgstr "Mód jedné karty editoru, svislé karty"
 
 #: PREFERENCES_SINGLETAB
-#, fuzzy
 msgid "Single editor tab mode"
-msgstr "Mód jedné karty"
+msgstr "Mód jedné karty editoru"
 
 #: PREFERENCES_SLIMUI
 msgid "Slim interface"
@@ -3307,7 +3290,6 @@ msgid "Square detail window (faster)"
 msgstr "Čtvercové okno detailu (rychlejší)"
 
 #: PREFERENCES_STARTUPIMDIR
-#, fuzzy
 msgid "Image Directory at Startup"
 msgstr "Složka obrázků při spuštění"
 
@@ -3357,7 +3339,6 @@ msgid ""
 msgstr "Přenést nezměněná IPTC/XMP metadata do výstupního souboru"
 
 #: PREFERENCES_USESYSTEMTHEME
-#, fuzzy
 msgid " Use system theme"
 msgstr " Použít systémový motiv"
 
@@ -3370,17 +3351,14 @@ msgid "Parameters to copy"
 msgstr "Parametry pro kopírování"
 
 #: PROFILEPANEL_FILEDLGFILTERPP
-#, fuzzy
 msgid "Processing profiles"
 msgstr "Profily zpracování"
 
 #: PROFILEPANEL_LABEL
-#, fuzzy
 msgid "Processing Profiles"
 msgstr "Profily zpracování"
 
 #: PROFILEPANEL_LOADDLGLABEL
-#, fuzzy
 msgid "Load Processing Parameters..."
 msgstr "Načíst parametry zpracování..."
 
@@ -3409,49 +3387,44 @@ msgid "Profile"
 msgstr "Profil"
 
 #: PROFILEPANEL_SAVEDLGLABEL
-#, fuzzy
 msgid "Save Processing Parameters..."
-msgstr "Uschovat parametry zpracování..."
+msgstr "Uložit parametry zpracování..."
 
 #: PROFILEPANEL_SAVEPPASTE
 msgid "Parameters to save"
 msgstr "Parametry ukládání"
 
 #: PROFILEPANEL_TOOLTIPCOPY
-#, fuzzy
 msgid ""
 "Copy current processing profile to clipboard.\n"
 "<b>Ctrl-click</b> to select the parameters to copy"
 msgstr ""
 "Kopírovat současný profil do schránky.\n"
-"Ctrl-klik umožní vybrat parametry pro kopírování"
+"<b>Ctrl-klik</b> umožní vybrat parametry pro kopírování"
 
 #: PROFILEPANEL_TOOLTIPLOAD
-#, fuzzy
 msgid ""
 "Load a profile from file.\n"
 "<b>Ctrl-click</b> to select the parameters to load"
 msgstr ""
 "Nahrát profil ze souboru\n"
-"Ctrl-klik umožní vybrat parametry pro nahrání"
+"<b>Ctrl-klik</b> umožní vybrat parametry pro nahrání"
 
 #: PROFILEPANEL_TOOLTIPPASTE
-#, fuzzy
 msgid ""
 "Paste profile from clipboard.\n"
 "<b>Ctrl-click</b> to select the parameters to paste"
 msgstr ""
 "Vložit profil ze schránky\n"
-"Ctrl-klik umožní vybrat parametry pro vložení"
+"<b>Ctrl-klik</b> umožní vybrat parametry pro vložení"
 
 #: PROFILEPANEL_TOOLTIPSAVE
-#, fuzzy
 msgid ""
 "Save current profile.\n"
 "<b>Ctrl-click</b> to select the parameters to save"
 msgstr ""
 "Uložit současný profil\n"
-"Ctrl-klik umožní vybrat parametry pro uložení"
+"<b>Ctrl-klik</b> umožní vybrat parametry pro uložení"
 
 #: PROGRESSBAR_BADPIXELS
 msgid "Bad pixels..."
@@ -3502,9 +3475,8 @@ msgid "Loading TIFF file..."
 msgstr "Načítání TIFF..."
 
 #: PROGRESSBAR_PROCESSING_PROFILESAVED
-#, fuzzy
 msgid "Processing Profile Saved"
-msgstr "Řízení profilů zpracování"
+msgstr "Profil zpracování uložen"
 
 #: PROGRESSBAR_PROCESSING
 msgid "Processing Image..."
@@ -3527,9 +3499,8 @@ msgid "Saving TIFF file..."
 msgstr "Ukládání TIFF souboru..."
 
 #: PROGRESSDLG_PROFILECHANGEDINBROWSER
-#, fuzzy
 msgid "Processing profile changed in browser"
-msgstr "Změněn profil v prohlížeči"
+msgstr "Profil upracování změněn v prohlížeči"
 
 #: QINFO_FOCALLENGTH
 msgid "Focal length"
@@ -3579,6 +3550,32 @@ msgstr "Okamžitě uložit"
 msgid "Save processing parameters with image"
 msgstr "Uschovat parametry zpracování s obrázkem"
 
+#: SAVEDLG_SUBSAMP_TOOLTIP
+msgid ""
+"Best Compression: 4:1:1\n"
+"Balanced: 4:2:2\n"
+"Best quality: 4:4:4"
+msgstr ""
+"Nejlepší komprese: 4:1:1\n"
+"Vyvážený: 4:2:2\n"
+"Nejlepší kvalita: 4:4:4"
+
+#: SAVEDLG_SUBSAMP
+msgid "Subsampling"
+msgstr "Podvzorkování"
+
+#: SAVEDLG_SUBSAMP_1
+msgid "Best compression"
+msgstr "Nejlepší komprese"
+
+#: SAVEDLG_SUBSAMP_2
+msgid "Balanced"
+msgstr "Vyvážené"
+
+#: SAVEDLG_SUBSAMP_3
+msgid "Best quality"
+msgstr "Nejlepší kvalita"
+
 #: SAVEDLG_TIFFFILTER
 msgid "TIFF files"
 msgstr "Soubory TIFF"
@@ -3589,36 +3586,44 @@ msgstr "Nekomprimovaný TIFF"
 
 #: SAVEDLG_WARNFILENAME
 msgid "File will be named"
+msgstr "Soubor bude pojmenován"
+
+#: SHCSELECTOR_TOOLTIP
+msgid ""
+"Click right mouse button to reset\n"
+"the position of those 3 sliders"
 msgstr ""
+"Klikněte pravým tlačítkem myši\n"
+"pro obnovení výchozí pozice těchto tří posuvníků"
 
 #: THRESHOLDSELECTOR_BL
 msgid "Bottom-left"
-msgstr ""
+msgstr "Dole vlevo"
 
 #: THRESHOLDSELECTOR_BR
 msgid "Bottom-right"
-msgstr ""
+msgstr "Dole vpravo"
 
 #: THRESHOLDSELECTOR_B
 msgid "Bottom"
-msgstr ""
+msgstr "Dole"
 
 #: THRESHOLDSELECTOR_HINT
 msgid "Hold the <b>Shift</b> key to move individual control points."
 msgstr ""
+"Držte klávesu <b>Shift</b> pro přesun individuálních kontrolních bodů.."
 
 #: THRESHOLDSELECTOR_TL
 msgid "Top-left"
-msgstr ""
+msgstr "Nahoře vlevo"
 
 #: THRESHOLDSELECTOR_TR
-#, fuzzy
 msgid "Top-right"
-msgstr "Copyright"
+msgstr "Nahoře vpravo"
 
 #: THRESHOLDSELECTOR_T
 msgid "Top"
-msgstr ""
+msgstr "Nahoře"
 
 #: TOOLBAR_TOOLTIP_CROP
 msgid ""
@@ -3663,7 +3668,7 @@ msgstr ""
 msgid "Blue"
 msgstr "Modrá"
 
-#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED
+#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
 msgid "Red"
 msgstr "Červená"
 
@@ -3676,18 +3681,20 @@ msgid "Flip horizontally"
 msgstr "Překlopit horizontálně"
 
 #: TP_COARSETRAF_TOOLTIP_ROTLEFT
-#, fuzzy
 msgid ""
 "Rotate left.\n"
 "Shortcut: <b>[</b>"
-msgstr "Otočit doleva"
+msgstr ""
+"Otočit doleva.\n"
+"Zkratka: <b>[</b>"
 
 #: TP_COARSETRAF_TOOLTIP_ROTRIGHT
-#, fuzzy
 msgid ""
 "Rotate right.\n"
 "Shortcut: <b>]</b>"
-msgstr "Otočit doprava"
+msgstr ""
+"Otočit doprava.\n"
+"Zkratka: <b>]</b>"
 
 #: TP_COARSETRAF_TOOLTIP_VFLIP
 msgid "Flip vertically"
@@ -3701,7 +3708,7 @@ msgstr "Kanál \"a\""
 msgid "Amount"
 msgstr "Míra"
 
-#: TP_COLORBOOST_AVOIDCOLORCLIP,TP_LABCURVE_AVOIDCOLORCLIP
+#: TP_COLORBOOST_AVOIDCOLORCLIP
 msgid "Avoid color clipping"
 msgstr "Zabránit oříznutí barvy"
 
@@ -3709,7 +3716,7 @@ msgstr "Zabránit oříznutí barvy"
 msgid "Channel \"b\""
 msgstr "Kanál \"b\""
 
-#: TP_COLORBOOST_ENABLESATLIMITER,TP_LABCURVE_ENABLESATLIMITER
+#: TP_COLORBOOST_ENABLESATLIMITER
 msgid "Enable saturation limiter"
 msgstr "Omezovat sytost"
 
@@ -3721,7 +3728,11 @@ msgstr "Kanál"
 msgid "separate"
 msgstr "zvlášť"
 
-#: TP_COLORBOOST_SATLIMIT,TP_LABCURVE_SATLIMIT
+#: TP_COLORBOOST_LABEL
+msgid "Color Boost"
+msgstr "Sytost barev"
+
+#: TP_COLORBOOST_SATLIMIT
 msgid "Saturation limit"
 msgstr "Limit sytosti"
 
@@ -3766,9 +3777,8 @@ msgid "Biometric Passport"
 msgstr "Biometrický pas"
 
 #: TP_CROP_GTFRAME
-#, fuzzy
 msgid "Frame"
-msgstr "Tmavý snímek"
+msgstr "Snímek"
 
 #: TP_CROP_GTGRID
 msgid "Grid"
@@ -3831,6 +3841,14 @@ msgstr "Automatický výběr"
 msgid "Chrominance"
 msgstr "Barevnost"
 
+#: TP_DIRPYRDENOISE_LABEL
+msgid "Noise reduction (raw images only)"
+msgstr "Redukce šumu (pouze raw obrázky)"
+
+#: TP_DIRPYRDENOISE_LDETAIL
+msgid "Luminance Detail"
+msgstr "Jas detailů"
+
 #: TP_DIRPYRDENOISE_LUMA
 msgid "Luminance"
 msgstr "Jas"
@@ -3851,21 +3869,19 @@ msgstr "Kontrast+"
 msgid "Finest"
 msgstr "Nejjemnější"
 
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_NEUTRAL
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
 msgid "Neutral"
 msgstr "Neutrální"
 
 #: TP_DISTORTION_AUTO_TIP
-#, fuzzy
 msgid ""
 "(Exprimental) Correct lens distortion automatically for some cameras (Micro "
 "4/3, some compact digital cameras, etc.)"
 msgstr ""
 "(Experimentální) Automatická korekce zkreslení objektivu pro některé "
-"fotoaparáty (M4/3, některé kompakty a jiné)."
+"fotoaparáty (Micro 4/3, některé kompakty a jiné)."
 
 #: TP_DISTORTION_AUTO
-#, fuzzy
 msgid "    Auto Distortion Correction"
 msgstr "    Automatická korekce zkreslení objektivu"
 
@@ -3894,16 +3910,15 @@ msgid " After interpolation (before RGB conversion)"
 msgstr " Po interpolaci (před RGB konverzí)"
 
 #: TP_EXPOSCORR_LABEL
-#, fuzzy
 msgid "Raw white &amp; black points"
-msgstr "Raw bílý-černý bod"
+msgstr "Raw bílý a černý bod"
 
 #: TP_EXPOSURE_AUTOLEVELS_TIP
 msgid ""
 "Toggle execution of Auto Levels to automatically set parameter values based "
 "on image analysis  "
 msgstr ""
-"Přepne provedení automatických úrovní na automatickou sadu hodnot parametrů "
+"Přepne provedení Úrovně automaticky na automatickou sadu hodnot parametrů "
 "založených na analýze obrázku  "
 
 #: TP_EXPOSURE_AUTOLEVELS
@@ -3921,6 +3936,40 @@ msgstr "Oříznutí"
 #: TP_EXPOSURE_COMPRSHADOWS
 msgid "Shadow recovery"
 msgstr "Komprese stínů"
+
+#: TP_EXPOSURE_CURVEEDITOR2_TOOLTIP
+msgid ""
+"Please refer to the following section of the manual to learn more on how to "
+"achieve the best results with the double curve option:\n"
+"The Toolbox > Exposure Tab > Exposure Panel > Tone Curve"
+msgstr ""
+"Podívejte se prosím do následující sekce návodu pro více informací o tom "
+"jak získat co nejlepší výsledek při využití dvou křivek:\n"
+"The Toolbox > Exposure Tab > Exposure Panel > Tone Curve"
+
+#: TP_EXPOSURE_TCMODE_FILMLIKE
+msgid "Film-like"
+msgstr "Jako film"
+
+#: TP_EXPOSURE_TCMODE_LABEL1
+msgid "Curve mode 1"
+msgstr "Mód křivky 1"
+
+#: TP_EXPOSURE_TCMODE_LABEL2
+msgid "Curve mode 2"
+msgstr "Mód křivky 2"
+
+#: TP_EXPOSURE_TCMODE_SATANDVALBLENDING
+msgid "Saturation and Value Blending"
+msgstr "Mísení saturace a hodnoty"
+
+#: TP_EXPOSURE_TCMODE_STANDARD
+msgid "Standard"
+msgstr "Běžný"
+
+#: TP_EXPOSURE_TCMODE_WEIGHTEDSTD
+msgid "Weighted Standard"
+msgstr "Běžný vážený"
 
 #: TP_FLATFIELD_BLURRADIUS
 msgid "Blur Radius"
@@ -4020,12 +4069,7 @@ msgid "Enable to recover blown highlights when using LUT based ICC profiles"
 msgstr ""
 "Povolit obnovení vypálených jasů při použití ICC profilů založených na LUT"
 
-#: TP_ICM_BLENDCMSMATRIX
-msgid "Blend highlights with matrix"
-msgstr "Smísit světla a matici"
-
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
-#, fuzzy
 msgid ""
 "Use RawTherapee's camera-specific DCP or ICC input color profile. These "
 "profiles are more precise than simpler matrix ones. Available for some "
@@ -4033,15 +4077,16 @@ msgid ""
 "dcpprofiles folders and are automatically retrieved based on a file name "
 "matching to the exact model name of the camera."
 msgstr ""
-"Použít RawTherapee specifický DCP nebo ICC vstupní profil fotoaparátu jenž "
+"Použít RawTherapee specifický DCP nebo ICC vstupní barevný profil fotoaparátu "
+"jenž "
 "je mnohem přesnější než zjednodušená matice. Dostupné pro některé "
-"fotoaparáty. Profily jsou uloženy ve složce /iccprofiles/input a jsou "
+"fotoaparáty. Profily jsou uloženy ve složkách /iccprofiles/input a "
+"/dcpprofiles a jsou "
 "automaticky vybrány dle jména souboru shodného s fotoaparátem."
 
 #: TP_ICM_INPUTCAMERAICC
-#, fuzzy
 msgid "Auto-matched camera-specific color profile"
-msgstr "Automatický dohledaný specifický profil fotoaparátu"
+msgstr "Automatický dohledaný specifický barevný profil fotoaparátu"
 
 #: TP_ICM_INPUTCAMERA_TOOLTIP
 msgid ""
@@ -4113,15 +4158,104 @@ msgstr "Fluorescenční"
 msgid "Flash"
 msgstr "Blesk"
 
+#: TP_ICM_TONECURVE_TOOLTIP
+msgid "Enable to use tone curves that may be contained in DCP profiles."
+msgstr ""
+"Povolit použití tónových křivek jenž mohou být uloženy v DCP profilech."
+
 #: TP_ICM_WORKINGPROFILE
 msgid "Working Profile"
 msgstr "Pracovní barevný prostor"
 
+#: TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP
+msgid ""
+"Fit colors into gamut of the working color space\n"
+"and apply Munsell correction"
+msgstr ""
+"Přizpůsobit barvy gamutu barevného pracovního prostoru\n"
+"a aplikovat Munsellovu korekci"
+
 #: TP_LABCURVE_BWTONING_TIP
 msgid ""
-"With <b>BW Toning</b> option enabled the Lab Saturation is not in effect.\n"
+"With <b>B&amp;W Toning</b> option enabled, the Lab Chromaticity, CC, CH and "
+"LC curves are not in effect.\n"
 "Toning can be achieved using the <b>a</b> and <b>b</b> curves "
 msgstr ""
+"Při zapnuté volbě <b>Černobílé tónování</b> nemají křivky Lab barvy, CC, CH a "
+"LC efekt.\n"
+"Tónování může být ovlivněno použitím křivek <b>a</b> a <b>b</b> "
+
+#: TP_LABCURVE_BWTONING
+msgid "B&W Toning"
+msgstr "Černobílé tónování"
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE1
+msgid "Green saturated"
+msgstr "Sytě zelená"
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE2
+msgid "Green pastel"
+msgstr "Pastelově zelená"
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE3
+msgid "Red pastel"
+msgstr "Pastelově červená"
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE4
+msgid "Red saturated"
+msgstr "Sytě červená"
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE1
+msgid "Blue saturated"
+msgstr "Sytě modrá"
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE2
+msgid "Blue pastel"
+msgstr "Pastelově modrá"
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE3
+msgid "Yellow pastel"
+msgstr "Pastelově žlutá"
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE4
+msgid "Yellow saturated"
+msgstr "Sytě žlutá"
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE2
+msgid "Dull"
+msgstr "Matné"
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE3
+msgid "Pastel"
+msgstr "Pastelové"
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE4
+msgid "Saturated"
+msgstr "Saturované"
+
+#: TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP
+msgid "Chromaticity according to the Chromaticity"
+msgstr "Barevnost dle barvy"
+
+#: TP_LABCURVE_CURVEEDITOR_CC
+msgid "CC"
+msgstr "CC"
+
+#: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
+msgid "Chromaticity according to the Hue"
+msgstr "Barevnost dle odstínu"
+
+#: TP_LABCURVE_CURVEEDITOR_CH
+msgid "CH"
+msgstr "CH"
+
+#: TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP
+msgid "Luminance according to Chromaticity"
+msgstr "Jas dle barvy"
+
+#: TP_LABCURVE_CURVEEDITOR_LC
+msgid "LC"
+msgstr "LC"
 
 #: TP_LABCURVE_CURVEEDITOR
 msgid "Luminance Curve"
@@ -4129,7 +4263,23 @@ msgstr "Křivka jasů"
 
 #: TP_LABCURVE_LABEL
 msgid "Lab Adjustments"
-msgstr "Úprava LAB křivek"
+msgstr "Lab úpravy"
+
+#: TP_LABCURVE_LCREDSK_TIP
+msgid ""
+"If enabled, 'LC curve' is limited to Red and skin tones\n"
+"If disabled, applies on all tones"
+msgstr ""
+"Pokud je povoleno, je 'LC křivka' omezena pouze na červené a pleťové tóny\n"
+"Pokud je zakázáno, aplikuje se na všechny tóny"
+
+#: TP_LABCURVE_LCREDSK
+msgid "Restrict LC to Red and Skin Tones"
+msgstr "Omezit LC na tóny červené a pleti"
+
+#: TP_LABCURVE_RSTPRO_TOOLTIP
+msgid "Can be used with the Chromaticity slider and the CC curve."
+msgstr "Může být použito s posuvníkem barev a CC křivkou."
 
 #: TP_LENSGEOM_AUTOCROP
 msgid "    Auto Crop"
@@ -4140,24 +4290,20 @@ msgid "Lens / Geometry"
 msgstr "Objektiv / Geometrie"
 
 #: TP_LENSPROFILE_FILEDLGFILTERLCP
-#, fuzzy
 msgid "Lens correction files"
-msgstr "Korekce C/A"
+msgstr "Soubory korekcí objektivu"
 
 #: TP_LENSPROFILE_USECA
-#, fuzzy
 msgid "Use CA correction"
-msgstr "Korekce C/A"
+msgstr "Použít korekci C/A"
 
 #: TP_LENSPROFILE_USEDIST
-#, fuzzy
 msgid "Use distortion correction"
-msgstr "Korekce zkreslení"
+msgstr "Použít korekci zkreslení"
 
 #: TP_LENSPROFILE_USEVIGN
-#, fuzzy
 msgid "Use vignette correction"
-msgstr "Korekce vinětace"
+msgstr "Použít korekci vinětace"
 
 #: TP_LUMADENOISE_LABEL
 msgid "Luminance Noise Reduction"
@@ -4221,7 +4367,7 @@ msgstr "Obě zelené zároveň"
 
 #: TP_RAW_FALSECOLOR
 msgid "False color suppression steps"
-msgstr "Počet kroků při potlačování chybných barev"
+msgstr "Počet kroků potlačování chybných barev"
 
 #: TP_RAW_LABEL
 msgid "Demosaicing"
@@ -4363,6 +4509,30 @@ msgstr "Jednolitost"
 msgid "Avoid color shift"
 msgstr "Zabránit posunu barev"
 
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL
+msgid "Skin tones"
+msgstr "Tóny pleti"
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1
+msgid "Red/Purple"
+msgstr "Červená/Růžová"
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3
+msgid "Red/Yellow"
+msgstr "Červená/Žlutá"
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
+msgid "Yellow"
+msgstr "Žlutá"
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_TOOLTIP
+msgid "Hue according to the Hue"
+msgstr "Odstín dle odstínu"
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES
+msgid "HH"
+msgstr "HH"
+
 #: TP_VIBRANCE_PASTELS
 msgid "Pastel tones"
 msgstr "Pastelové tóny"
@@ -4376,9 +4546,8 @@ msgid "Protect skin tones"
 msgstr "Zachovat tóny pleti"
 
 #: TP_VIBRANCE_PSTHRESHOLD_SATTHRESH
-#, fuzzy
 msgid "Saturation threshold"
-msgstr "Práh mezi pastelovými a saturovanými tóny"
+msgstr "Práh saturace"
 
 #: TP_VIBRANCE_PSTHRESHOLD_TOOLTIP
 msgid ""
@@ -4386,14 +4555,15 @@ msgid ""
 "at the top.\n"
 "The horizontal axis represents the saturation range."
 msgstr ""
+"Spodní vodorovná osa představuje pastelové a horní "
+"saturované tóny..\n"
+"Svislá osa představuje rozsah saturace."
 
 #: TP_VIBRANCE_PSTHRESHOLD_WEIGTHING
-#, fuzzy
 msgid "Pastel/saturated transition's weighting"
-msgstr "Práh mezi pastelovými a saturovanými tóny"
+msgstr "Váha přechodu mezi pastelovými a saturovanými tóny"
 
 #: TP_VIBRANCE_PSTHRESHOLD
-#, fuzzy
 msgid "Pastel/saturated tones threshold"
 msgstr "Práh mezi pastelovými a saturovanými tóny"
 
@@ -4597,6 +4767,27 @@ msgstr "Zvětšit na 100% <b>1</b>"
 msgid "(100%)"
 msgstr "(100%)"
 
+#~ msgid "Avoid Color Clipping"
+#~ msgstr "Zabránit oříznutí barev"
+
+#~ msgid "Saturation Limiter"
+#~ msgstr "Povolit omezení saturace"
+
+#~ msgid "Saturation Limit"
+#~ msgstr "Omezení saturace"
+
+#~ msgid "Color Shift \"A\""
+#~ msgstr "Barevný posun \"A\""
+
+#~ msgid "Color Shift \"B\""
+#~ msgstr "Barevný posun \"B\""
+
+#~ msgid "Color Denoising Radius"
+#~ msgstr "Poloměr redukce barevného šumu"
+
+#~ msgid "Color Denoising Edge Tolerance"
+#~ msgstr "Okrajová tolerance v redukci barevného šumu"
+
 #~ msgid "Apply profile"
 #~ msgstr "Aplikovat profil"
 
@@ -4674,9 +4865,6 @@ msgstr "(100%)"
 
 #~ msgid "Impulse NR threshold"
 #~ msgstr "Redukce impulzního šumu - práh"
-
-#~ msgid "'a' curve"
-#~ msgstr "'a' křivka"
 
 #~ msgid "'b' curve"
 #~ msgstr "'b' křivka"
@@ -4798,9 +4986,6 @@ msgstr "(100%)"
 #~ msgid "Preview <b>Focus Mask</b>"
 #~ msgstr "Náhled <b>Masky zaostření</b>"
 
-#~ msgid "Yellow"
-#~ msgstr "Žlutá"
-
 #~ msgid "Lime"
 #~ msgstr "Limetková"
 
@@ -4809,9 +4994,6 @@ msgstr "(100%)"
 
 #~ msgid "Aqua"
 #~ msgstr "Azurová"
-
-#~ msgid "Purple"
-#~ msgstr "Růžová"
 
 #~ msgid "Magenta"
 #~ msgstr "Purpurová"

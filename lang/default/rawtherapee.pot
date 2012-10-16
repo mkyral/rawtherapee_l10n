@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2012-07-19 17:32+0200\n"
+"POT-Creation-Date: 2012-09-27 17:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -865,6 +865,10 @@ msgstr ""
 msgid "Show/Hide blue histogram"
 msgstr ""
 
+#: HISTOGRAM_TOOLTIP_FULL
+msgid "Toggle full or scaled histogram"
+msgstr ""
+
 #: HISTOGRAM_TOOLTIP_G
 msgid "Show/Hide green histogram"
 msgstr ""
@@ -949,24 +953,24 @@ msgstr ""
 msgid "Resize Bounding Box"
 msgstr ""
 
-#: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR
-msgid "Tone Curve"
+#: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR1
+msgid "Tone Curve 1"
 msgstr ""
 
 #: HISTORY_MSG_110
 msgid "Resizing applies o  "
 msgstr ""
 
-#: HISTORY_MSG_111
-msgid "Avoid Color Clipping"
+#: HISTORY_MSG_111,TP_LABCURVE_AVOIDCOLORSHIFT
+msgid "Avoid Color Shift"
 msgstr ""
 
 #: HISTORY_MSG_112
-msgid "Saturation Limiter"
+msgid "--unused--"
 msgstr ""
 
-#: HISTORY_MSG_113
-msgid "Saturation Limit"
+#: HISTORY_MSG_113,TP_LABCURVE_RSTPROTECTION
+msgid "Red and skin tones protection"
 msgstr ""
 
 #: HISTORY_MSG_114
@@ -993,7 +997,7 @@ msgstr ""
 msgid "Line Denoise"
 msgstr ""
 
-#: HISTORY_MSG_12
+#: HISTORY_MSG_12,HISTORY_MSG_37
 msgid "Auto Exposure"
 msgstr ""
 
@@ -1197,12 +1201,36 @@ msgstr ""
 msgid "Neutral Levels"
 msgstr ""
 
-#: HISTORY_MSG_167,TP_LABCURVE_BWTONING
-msgid "BW Toning"
+#: HISTORY_MSG_167
+msgid "B&amp;W Toning"
+msgstr ""
+
+#: HISTORY_MSG_168
+msgid "'CC' curve"
+msgstr ""
+
+#: HISTORY_MSG_169
+msgid "'CH' curve"
 msgstr ""
 
 #: HISTORY_MSG_17
 msgid "Luminance Highlight Compr."
+msgstr ""
+
+#: HISTORY_MSG_170
+msgid "Vibrance - Curve"
+msgstr ""
+
+#: HISTORY_MSG_171
+msgid "'LC' curve"
+msgstr ""
+
+#: HISTORY_MSG_172
+msgid "Restrict 'LC' to Red and Skin Tones"
+msgstr ""
+
+#: HISTORY_MSG_173
+msgid "NR - Luminance Detail"
 msgstr ""
 
 #: HISTORY_MSG_18
@@ -1289,10 +1317,6 @@ msgstr ""
 msgid "LCP use CA"
 msgstr ""
 
-#: HISTORY_MSG_37,TP_COLORBOOST_LABEL
-msgid "Color Boost"
-msgstr ""
-
 #: HISTORY_MSG_38
 msgid "White Balance Method"
 msgstr ""
@@ -1310,15 +1334,15 @@ msgid "White Balance Tint"
 msgstr ""
 
 #: HISTORY_MSG_41
-msgid "Color Shift \"A\""
+msgid "Tone Curve Mode 1"
 msgstr ""
 
-#: HISTORY_MSG_42
-msgid "Color Shift \"B\""
+#: HISTORY_MSG_42,TP_EXPOSURE_CURVEEDITOR2
+msgid "Tone Curve 2"
 msgstr ""
 
 #: HISTORY_MSG_43
-msgid "Luminance Denoising"
+msgid "Tone Curve Mode 2"
 msgstr ""
 
 #: HISTORY_MSG_44
@@ -1333,12 +1357,12 @@ msgstr ""
 msgid "Color Denoising"
 msgstr ""
 
-#: HISTORY_MSG_47
-msgid "Color Denoising Radius"
+#: HISTORY_MSG_47,TP_ICM_BLENDCMSMATRIX
+msgid "Blend ICC highlights with matrix"
 msgstr ""
 
-#: HISTORY_MSG_48
-msgid "Color Denoising Edge Tolerance"
+#: HISTORY_MSG_48,TP_ICM_TONECURVE
+msgid "Use DCP's tone curve"
 msgstr ""
 
 #: HISTORY_MSG_49
@@ -1541,8 +1565,8 @@ msgstr ""
 msgid "Contrast by Detail Levels"
 msgstr ""
 
-#: HISTORY_MSG_95,PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION,TP_LABCURVE_SATURATION
-msgid "Saturation"
+#: HISTORY_MSG_95,TP_LABCURVE_CHROMATICITY
+msgid "Chromaticity"
 msgstr ""
 
 #: HISTORY_MSG_96
@@ -2225,7 +2249,7 @@ msgstr ""
 msgid "Partial paste processing profile"
 msgstr ""
 
-#: PARTIALPASTE_DIRPYRDENOISE,TP_DIRPYRDENOISE_LABEL
+#: PARTIALPASTE_DIRPYRDENOISE
 msgid "Noise reduction"
 msgstr ""
 
@@ -2643,6 +2667,10 @@ msgstr ""
 
 #: PREFERENCES_INTENT_RELATIVE
 msgid "Relative Colorimetric"
+msgstr ""
+
+#: PREFERENCES_INTENT_SATURATION,TP_EXPOSURE_SATURATION
+msgid "Saturation"
 msgstr ""
 
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
@@ -3101,6 +3129,26 @@ msgstr ""
 msgid "Save processing parameters with image"
 msgstr ""
 
+#: SAVEDLG_SUBSAMP_TOOLTIP
+msgid "Best Compression: 4:1:1\nBalanced: 4:2:2\nBest quality: 4:4:4"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP
+msgid "Subsampling"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_1
+msgid "Best compression"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_2
+msgid "Balanced"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_3
+msgid "Best quality"
+msgstr ""
+
 #: SAVEDLG_TIFFFILTER
 msgid "TIFF files"
 msgstr ""
@@ -3111,6 +3159,10 @@ msgstr ""
 
 #: SAVEDLG_WARNFILENAME
 msgid "File will be named"
+msgstr ""
+
+#: SHCSELECTOR_TOOLTIP
+msgid "Click right mouse button to reset\nthe position of those 3 sliders"
 msgstr ""
 
 #: THRESHOLDSELECTOR_BL
@@ -3161,7 +3213,7 @@ msgstr ""
 msgid "Blue"
 msgstr ""
 
-#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED
+#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
 msgid "Red"
 msgstr ""
 
@@ -3193,7 +3245,7 @@ msgstr ""
 msgid "Amount"
 msgstr ""
 
-#: TP_COLORBOOST_AVOIDCOLORCLIP,TP_LABCURVE_AVOIDCOLORCLIP
+#: TP_COLORBOOST_AVOIDCOLORCLIP
 msgid "Avoid color clipping"
 msgstr ""
 
@@ -3201,7 +3253,7 @@ msgstr ""
 msgid "Channel \"b\""
 msgstr ""
 
-#: TP_COLORBOOST_ENABLESATLIMITER,TP_LABCURVE_ENABLESATLIMITER
+#: TP_COLORBOOST_ENABLESATLIMITER
 msgid "Enable saturation limiter"
 msgstr ""
 
@@ -3213,7 +3265,11 @@ msgstr ""
 msgid "separate"
 msgstr ""
 
-#: TP_COLORBOOST_SATLIMIT,TP_LABCURVE_SATLIMIT
+#: TP_COLORBOOST_LABEL
+msgid "Color Boost"
+msgstr ""
+
+#: TP_COLORBOOST_SATLIMIT
 msgid "Saturation limit"
 msgstr ""
 
@@ -3322,6 +3378,14 @@ msgstr ""
 msgid "Chrominance"
 msgstr ""
 
+#: TP_DIRPYRDENOISE_LABEL
+msgid "Noise reduction (raw images only)"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LDETAIL
+msgid "Luminance Detail"
+msgstr ""
+
 #: TP_DIRPYRDENOISE_LUMA
 msgid "Luminance"
 msgstr ""
@@ -3342,7 +3406,7 @@ msgstr ""
 msgid "Finest"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_NEUTRAL
+#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_EQUALIZER_NEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
 msgid "Neutral"
 msgstr ""
 
@@ -3400,6 +3464,34 @@ msgstr ""
 
 #: TP_EXPOSURE_COMPRSHADOWS
 msgid "Shadow recovery"
+msgstr ""
+
+#: TP_EXPOSURE_CURVEEDITOR2_TOOLTIP
+msgid "Please refer to the following section of the manual to learn more on how to achieve the best results with the double curve option:\nThe Toolbox > Exposure Tab > Exposure Panel > Tone Curve"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_FILMLIKE
+msgid "Film-like"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_LABEL1
+msgid "Curve mode 1"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_LABEL2
+msgid "Curve mode 2"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_SATANDVALBLENDING
+msgid "Saturation and Value Blending"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_STANDARD
+msgid "Standard"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_WEIGHTEDSTD
+msgid "Weighted Standard"
 msgstr ""
 
 #: TP_FLATFIELD_BLURRADIUS
@@ -3499,10 +3591,6 @@ msgstr ""
 msgid "Enable to recover blown highlights when using LUT based ICC profiles"
 msgstr ""
 
-#: TP_ICM_BLENDCMSMATRIX
-msgid "Blend highlights with matrix"
-msgstr ""
-
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
 msgid "Use RawTherapee's camera-specific DCP or ICC input color profile. These profiles are more precise than simpler matrix ones. Available for some cameras. These profiles are stored in the /iccprofiles/input and /dcpprofiles folders and are automatically retrieved based on a file name matching to the exact model name of the camera."
 msgstr ""
@@ -3575,12 +3663,92 @@ msgstr ""
 msgid "Flash"
 msgstr ""
 
+#: TP_ICM_TONECURVE_TOOLTIP
+msgid "Enable to use tone curves that may be contained in DCP profiles."
+msgstr ""
+
 #: TP_ICM_WORKINGPROFILE
 msgid "Working Profile"
 msgstr ""
 
+#: TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP
+msgid "Fit colors into gamut of the working color space\nand apply Munsell correction"
+msgstr ""
+
 #: TP_LABCURVE_BWTONING_TIP
-msgid "With <b>BW Toning</b> option enabled the Lab Saturation is not in effect.\nToning can be achieved using the <b>a</b> and <b>b</b> curves "
+msgid "With <b>B&amp;W Toning</b> option enabled, the Lab Chromaticity, CC, CH and LC curves are not in effect.\nToning can be achieved using the <b>a</b> and <b>b</b> curves "
+msgstr ""
+
+#: TP_LABCURVE_BWTONING
+msgid "B&W Toning"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE1
+msgid "Green saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE2
+msgid "Green pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE3
+msgid "Red pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE4
+msgid "Red saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE1
+msgid "Blue saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE2
+msgid "Blue pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE3
+msgid "Yellow pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE4
+msgid "Yellow saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE2
+msgid "Dull"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE3
+msgid "Pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE4
+msgid "Saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP
+msgid "Chromaticity according to the Chromaticity"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC
+msgid "CC"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
+msgid "Chromaticity according to the Hue"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CH
+msgid "CH"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP
+msgid "Luminance according to Chromaticity"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LC
+msgid "LC"
 msgstr ""
 
 #: TP_LABCURVE_CURVEEDITOR
@@ -3589,6 +3757,18 @@ msgstr ""
 
 #: TP_LABCURVE_LABEL
 msgid "Lab Adjustments"
+msgstr ""
+
+#: TP_LABCURVE_LCREDSK_TIP
+msgid "If enabled, 'LC curve' is limited to Red and skin tones\nIf disabled, applies on all tones"
+msgstr ""
+
+#: TP_LABCURVE_LCREDSK
+msgid "Restrict LC to Red and Skin Tones"
+msgstr ""
+
+#: TP_LABCURVE_RSTPRO_TOOLTIP
+msgid "Can be used with the Chromaticity slider and the CC curve."
 msgstr ""
 
 #: TP_LENSGEOM_AUTOCROP
@@ -3817,6 +3997,30 @@ msgstr ""
 
 #: TP_VIBRANCE_AVOIDCOLORSHIFT
 msgid "Avoid color shift"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL
+msgid "Skin tones"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1
+msgid "Red/Purple"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3
+msgid "Red/Yellow"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
+msgid "Yellow"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_TOOLTIP
+msgid "Hue according to the Hue"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES
+msgid "HH"
 msgstr ""
 
 #: TP_VIBRANCE_PASTELS
