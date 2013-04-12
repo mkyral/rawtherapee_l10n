@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-03-12 05:31+0100\n"
-"PO-Revision-Date: 2013-03-12 22:36+0100\n"
+"POT-Creation-Date: 2013-04-12 09:18+0200\n"
+"PO-Revision-Date: 2013-04-12 09:27+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -45,6 +45,10 @@ msgstr "Dávkové zpracování"
 #: BATCHQUEUE_AUTOSTART
 msgid "Auto start"
 msgstr "Automatický start"
+
+#: BATCHQUEUE_DESTFILENAME
+msgid "Path and file name"
+msgstr "Cesta a název souboru"
 
 #: CURVEEDITOR_CURVES
 msgid "Curves"
@@ -268,7 +272,7 @@ msgstr "Vynechat [raw] potlačení chybných barev"
 
 #: EXPORT_BYPASS_RAW_DCB_ENHANCE
 msgid "Bypass [raw] DCB Enhancement Steps"
-msgstr "Vynechat [raw] rozšířené kroky DCB"
+msgstr "Vynechat [raw] kroky rozšíření DCB"
 
 #: EXPORT_BYPASS_RAW_DCB_ITERATIONS
 msgid "Bypass [raw] DCB Iterations"
@@ -385,8 +389,11 @@ msgstr "Klikněte pro výběr cesty"
 #: FILEBROWSER_BROWSEPATHHINT
 msgid ""
 "Type a path to navigate to.\n"
-"<b>Ctrl-O</b> to focus the path text box.\n"
-"<b>Enter</b> / <b>Ctrl-Enter</b> (in the File Browser) to browse there;\n"
+"<b>Ctrl-O</b> to focus to the path text box.\n"
+"<b>Enter</b> / <b>Ctrl-Enter</b> to browse there;\n"
+"<b>Esc</b> to clear changes.\n"
+"<b>Shift-Esc</b> to remove focus.\n"
+"\n"
 "\n"
 "Path shortcuts:\n"
 "  <b>~</b> - user's home directory\n"
@@ -394,7 +401,10 @@ msgid ""
 msgstr ""
 "Vložte cestu pro procházení.\n"
 "<b>Ctrl-O</b> pro přepnutí do adresního řádku\n"
-"<b>Enter</b>/ <b>Ctrl-Enter</b> (v prohlížeči souborů) pro procházení ;\n"
+"<b>Enter</b>/ <b>Ctrl-Enter</b> pro procházení ;\n"
+"<b>Esc</b> pro zrušení změn.\n"
+"<b>Shift-Esc</b> pro zrušení přepnutí.\n"
+"\n"
 "\n"
 "Zkratky pro cesty:\n"
 "  <b>~</b> - domácí složka uživatele\n"
@@ -638,16 +648,18 @@ msgid ""
 "i>.\n"
 "E.g. <i>1001,1004,1199</i> \n"
 "\n"
-"<b>Ctrl-F</b> to focus to the Find text box (in the File Browser).\n"
+"<b>Ctrl-F</b> to focus to the Find text box.\n"
 "<b>Enter</b> to commence search.\n"
-"<b>Escape</b> to clear."
+"<b>Esc</b> to clear.\n"
+"<b>Shift-Esc</b> to remove focus."
 msgstr ""
 "Napište část jména hledaného souboru nebo <i>čárkami oddělený seznam</i>.\n"
 "Například: <i>1001,1004,1199</i> \n"
 "\n"
-"<b>Ctrl-F</b> k přepnutí do pole hledání (v Prohlížeči souborů).\n"
-"<b>Enter</b> ke spuštění hledání\n"
-"<b>Escape</b> pro vyčištění."
+"<b>Ctrl-F</b> pro přepnutí do pole hledání .\n"
+"<b>Enter</b> pro zahájení hledání.\n"
+"<b>Esc</b> pro vyčištění.\n"
+"<b>Shift-Esc</b> pro zrušení přepnutí."
 
 #: FILEBROWSER_QUERYLABEL
 msgid " Find: "
@@ -736,10 +748,14 @@ msgstr ""
 #: FILEBROWSER_SHOWEXIFINFO
 msgid ""
 "Show Exif info.\n"
-"Shortcut: <b>i</b>"
+"Shortcut: <b>i</b>\n"
+"\n"
+"Shortcut in Single Editor Tab: <b>Alt-i</b>"
 msgstr ""
 "Zobrazit Exif informace.\n"
-"Zkratka: <b>i</b>"
+"Zkratka: <b>i</b>\n"
+"\n"
+"Zkratka v módu jedné karty editoru: <b>Alt-i</b>"
 
 #: FILEBROWSER_SHOWQUEUEHINT
 msgid "Show content of the processing queue"
@@ -856,18 +872,26 @@ msgstr "Použít šablonu:"
 #: FILEBROWSER_ZOOMINHINT
 msgid ""
 "Increase thumbnail size.\n"
-"Shortcut: <b>+</b>"
+"Shortcut: <b>+</b>\n"
+"\n"
+"Shortcut in Single Editor Tab: <b>Alt +</b>"
 msgstr ""
 "Zvětšit velikosti náhledů.\n"
-"Zkratka:  <b>+</b>"
+"Zkratka:  <b>+</b>\n"
+"\n"
+"Zkratka v módu jedné karty editoru: <b>Alt +</b>"
 
 #: FILEBROWSER_ZOOMOUTHINT
 msgid ""
 "Decrease thumbnail size.\n"
-"Shortcut: <b>-</b>"
+"Shortcut: <b>-</b>\n"
+"\n"
+"Shortcut in Single Editor Tab: <b>Alt -</b>"
 msgstr ""
 "Zmenšit velikosti náhledů.\n"
-"Zkratka: <b>-</b>"
+"Zkratka: <b>-</b>\n"
+"\n"
+"Zkratka v módu jedné karty editoru: <b>Alt -</b>"
 
 #: GENERAL_ABOUT
 msgid "About"
@@ -1501,6 +1525,10 @@ msgstr "Redukce šumu - rozdíl barevnosti - modrá"
 msgid "NR - Method"
 msgstr "Redukce šumu - metoda"
 
+#: HISTORY_MSG_204,PARTIALPASTE_RAW_LMMSEITERATIONS
+msgid "LMMSE enhancement steps"
+msgstr "Kroky rozšíření LMMSE"
+
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
 msgstr "Poloměr doostření"
@@ -2108,6 +2136,56 @@ msgstr "Konec"
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
+
+#: MAIN_BUTTON_NAVNEXT_TOOLTIP
+msgid ""
+"Navigate to the Next image relative to image open in Editor\n"
+"Shortcut: <b>Shift-F4</b>\n"
+"\n"
+"To navigate to the Next image relative to thumbnail selected in File "
+"Browser\n"
+"Shortcut: <b>F4</b>"
+msgstr ""
+"Přejít k dalšímu obrázku relativnímu k obrázku otevřenému v editoru\n"
+"Zkratka: <b>Shift-F4</b>\n"
+"\n"
+"Přejít k dalšímu obrázku relativnímu k vybranému náhledu v prohlížeči "
+"souborů \n"
+"Zkratka: <b>F4</b>"
+
+#: MAIN_BUTTON_NAVPREV_TOOLTIP
+msgid ""
+"Navigate to the Previous image relative to image open in Editor\n"
+"Shortcut: <b>Shift-F3</b> \n"
+"\n"
+"To navigate to the Previous image relative to thumbnail selected in File "
+"Browser\n"
+"Shortcut: <b>F3</b>"
+msgstr ""
+"Přejít k předchozímu obrázku relativnímu k obrázku otevřenému v editoru\n"
+"Zkratka: <b>Shift-F3</b>\n"
+"\n"
+"Přejít k předchozímu obrázku relativnímu k vybranému náhledu v prohlížeči "
+"souborů \n"
+"Zkratka: <b>F3</b>"
+
+#: MAIN_BUTTON_NAVSYNC_TOOLTIP
+msgid ""
+"Synchronize the File Browser with the Editor to reveal the thumbnail of the "
+"currently open image, and clear filters in File Browser \n"
+"Shortcut: <b>x</b>\n"
+"\n"
+"As above, but without clearing filters in File Browser\n"
+"Shortcut: <b>y</b>\n"
+"(Note that thumbnail of the open file will not be shown if filtered out)."
+msgstr ""
+"Synchronizovat prohlížeč souborů s editorem pro zobrazení náhleduaktuálně "
+"otevřeného obrázku a smazání filtrů v prohlížeči souborů\n"
+"Zkratka: <b>x</b>\n"
+"\n"
+"Stejně jako výše, ale bez smazání filtrů v prohlížeči souborů\n"
+"Zkratka: <b>y</b>\n"
+"(Náhled otevřeného obrázku nebude zobrazen pokud je filtrován)."
 
 #: MAIN_BUTTON_PREFERENCES
 msgid "Preferences"
@@ -2868,7 +2946,7 @@ msgstr "CA červená"
 
 #: PARTIALPASTE_RAW_DCBENHANCE
 msgid "Apply DCB enhancement step"
-msgstr "Aplikovat kroky rozšířeného DCB"
+msgstr "Aplikovat kroky rozšíření DCB"
 
 #: PARTIALPASTE_RAW_DCBITERATIONS
 msgid "Number of DCB iterations"
@@ -2934,9 +3012,37 @@ msgstr "vyžaduje restart aplikace"
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
 
+#: PREFERENCES_BEHADDALLHINT
+msgid ""
+"Set all parameters to the <b>Add</b> mode.\n"
+"Adjustments of parameters in the batch tool panel will be <b>deltas</b> to "
+"the stored values "
+msgstr ""
+"Nastaví všechny parametry do módu <b>Přidat</b>.\n"
+"Změna parametrů v panelu dávkového zpracování se aplikuje jako <b>rozdíl</b> "
+"k uloženým hodnotám "
+
+#: PREFERENCES_BEHADDALL
+msgid "All to 'Add'"
+msgstr "Vše do 'Přidat'"
+
 #: PREFERENCES_BEHAVIOR
 msgid "Behavior"
 msgstr "Režim"
+
+#: PREFERENCES_BEHSETALLHINT
+msgid ""
+"Set all parameters to the <b>Set</b> mode.\n"
+"Adjustments of parameters in the batch tool panel will be <b>absolute</b>, "
+"the actual values will be displayed"
+msgstr ""
+"Nastaví všechny parametry do módu <b>Nastavit</b>.\n"
+"Změna parametrů v panelu dávkového zpracování se aplikuje jako <b>absolutní</"
+"b>, budou zobrazeny aktuální hodnoty"
+
+#: PREFERENCES_BEHSETALL
+msgid "All to 'Set'"
+msgstr "Vše do 'Nastavit'"
 
 #: PREFERENCES_BLACKBODY,TP_ICM_PREFERREDPROFILE_2,TP_WBALANCE_TUNGSTEN
 msgid "Tungsten"
@@ -2993,10 +3099,8 @@ msgid ""
 "small increase in speed at the expense of a negligible loss of quality"
 msgstr ""
 "Pokud je povoleno, budou pro CIECAM02 výpočty použita reálná čísla s "
-"jednoduchou "
-"přesností místo čísel s dvojnásobnou přesností. Tím se dosáhne mírného "
-"zrychlení výpočtů za cenu "
-"nepatrné ztráty kvality."
+"jednoduchou přesností místo čísel s dvojnásobnou přesností. Tím se dosáhne "
+"mírného zrychlení výpočtů za cenu nepatrné ztráty kvality."
 
 #: PREFERENCES_CIEART
 msgid "CIECAM02 optimization"
@@ -3189,6 +3293,34 @@ msgstr "GIMP instalační složka"
 #: PREFERENCES_GREY
 msgid "Output device's Yb luminance (%)"
 msgstr "Yb svítivost výstupního zařízení (%)"
+
+#: PREFERENCES_GREY05
+msgid "Yb=05 CIE L#30"
+msgstr "Yb=05 CIE L#30"
+
+#: PREFERENCES_GREY10
+msgid "Yb=10 CIE L#40"
+msgstr "Yb=10 CIE L#40"
+
+#: PREFERENCES_GREY15
+msgid "Yb=15 CIE L#45"
+msgstr "Yb=15 CIE L#45"
+
+#: PREFERENCES_GREY18
+msgid "Yb=18 CIE L#50"
+msgstr "Yb=18 CIE L#50"
+
+#: PREFERENCES_GREY23
+msgid "Yb=23 CIE L#55"
+msgstr "Yb=23 CIE L#55"
+
+#: PREFERENCES_GREY30
+msgid "Yb=30 CIE L#60"
+msgstr "Yb=30 CIE L#60"
+
+#: PREFERENCES_GREY40
+msgid "Yb=40 CIE L#70"
+msgstr "Yb=40 CIE L#70"
 
 #: PREFERENCES_GTKTHEME
 msgid "GTK default"
@@ -3557,7 +3689,7 @@ msgstr "Volby výstupu"
 
 #: PREFERENCES_TAB_PERFORMANCE
 msgid "Performance"
-msgstr "Výkonnost"
+msgstr "Výkon"
 
 #: PREFERENCES_TAB_SOUND
 msgid "Sounds"
@@ -3618,6 +3750,20 @@ msgstr "Načíst parametry zpracování..."
 #: PROFILEPANEL_LOADPPASTE
 msgid "Parameters to load"
 msgstr "Parametry nahrávání"
+
+#: PROFILEPANEL_MODE_TIP
+msgid ""
+"Button pressed: partial profiles will be converted to full profiles; the "
+"missing values will be replaced with hard-coded defaults.\n"
+"\n"
+"Button released: profiles will be applied as they are, altering only those "
+"values which they contain."
+msgstr ""
+"Tlačítko je stisknuto: částečné profily budou aplikovány jako kompletní; "
+"chybějící hodnoty budou doplněny přednastavenými hodnotami.\n"
+"\n"
+"Tlačítko není stisknuto: profily budou aplikovány tak jak jsou, změní se "
+"pouze v profilu obsažené hodnoty."
 
 #: PROFILEPANEL_PASTEPPASTE
 msgid "Parameters to paste"
@@ -3727,6 +3873,10 @@ msgstr "Načítání PNG..."
 msgid "Loading TIFF file..."
 msgstr "Načítání TIFF..."
 
+#: PROGRESSBAR_NOIMAGES
+msgid "No images found"
+msgstr "Složka neobsahuje obrázky"
+
 #: PROGRESSBAR_PROCESSING_PROFILESAVED
 msgid "Processing profile saved"
 msgstr "Profil zpracování uložen"
@@ -3736,8 +3886,8 @@ msgid "Processing image..."
 msgstr "Zpracovávaní obrázku..."
 
 #: PROGRESSBAR_READY
-msgid "Ready."
-msgstr "Připraven."
+msgid "Ready"
+msgstr "Připraven"
 
 #: PROGRESSBAR_SAVEJPEG
 msgid "Saving JPEG file..."
@@ -3770,6 +3920,10 @@ msgstr "Exif údaje nejsou k dispozici."
 #: SAVEDLG_AUTOSUFFIX
 msgid "Automatically add a suffix if the file already exists"
 msgstr "Automaticky přidat příponu pokud soubor již existuje"
+
+#: SAVEDLG_FORCEFORMATOPTS
+msgid "Force saving options"
+msgstr "Vynutit volby uložení"
 
 #: SAVEDLG_JPEGQUAL
 msgid "JPEG Quality"
@@ -3938,18 +4092,26 @@ msgstr "Překlopit horizontálně"
 #: TP_COARSETRAF_TOOLTIP_ROTLEFT
 msgid ""
 "Rotate left.\n"
-"Shortcut: <b>[</b>"
+"Shortcut: <b>[</b>\n"
+"\n"
+"Shortcut in Single Editor Tab: <b>Alt-[</b>"
 msgstr ""
 "Otočit doleva.\n"
-"Zkratka: <b>[</b>"
+"Zkratka: <b>[</b>\n"
+"\n"
+"Zkratka v módu jedné karty editoru: <b>Alt-[</b>"
 
 #: TP_COARSETRAF_TOOLTIP_ROTRIGHT
 msgid ""
 "Rotate right.\n"
-"Shortcut: <b>]</b>"
+"Shortcut: <b>]</b>\n"
+"\n"
+"Shortcut in Single Editor Tab: <b>Alt-]</b>"
 msgstr ""
 "Otočit doprava.\n"
-"Zkratka: <b>]</b>"
+"Zkratka: <b>]</b>\n"
+"\n"
+"Zkratka v módu jedné karty editoru:  <b>Alt-]</b>"
 
 #: TP_COARSETRAF_TOOLTIP_VFLIP
 msgid "Flip vertically"
@@ -4097,8 +4259,8 @@ msgid ""
 "When disabled, histograms in CIECAM02 curves show Lab values before CIECAM02 "
 "adjustments"
 msgstr ""
-"Pokud je povoleno, zobrazuje histogram v CIECAM02 křivkách přibližné "
-"hodnoty/rozsahy po CIECAM02 úpravách  J nebo Q, a C, S nebo M.\n"
+"Pokud je povoleno, zobrazuje histogram v CIECAM02 křivkách přibližné hodnoty/"
+"rozsahy po CIECAM02 úpravách  J nebo Q, a C, S nebo M.\n"
 "Výběr neovlivňuje histogram na hlavním panelu.\n"
 "\n"
 "Pokud je zakázáno, zobrazuje histogram v CIECAM02 křivkách Lab hodnoty před "
@@ -4117,7 +4279,8 @@ msgid ""
 msgstr ""
 "Pokud je povoleno (doporučeno), Rawtherapee vypočítá optimální hodnotu, jenž "
 "následně používá jak CAT02 tak i celý CIECAM02.\n"
-"Zakažte, pokud si přejete zadat hodnotu ručně. Doporučeny jsou hodnoty nad 65."
+"Zakažte, pokud si přejete zadat hodnotu ručně. Doporučeny jsou hodnoty nad "
+"65."
 
 #: TP_COLORAPP_DEGREE_TOOLTIP
 msgid "Amount of CIE Chromatic Adaptation Transform 2002"
@@ -4198,14 +4361,14 @@ msgid ""
 "balance is set in Preferences"
 msgstr ""
 "<b>WB [RT] + [výstup]:</b>\n"
-"pro scénu je použito vyvážení bíle Ravtherapee , CIECAM02 je nastaven na D50, "
-"\n"
-"vyvážení bílé výstupního zařízení je nastaveno ve <i>Volby > Správa barev</i>"
-"\n"
+"pro scénu je použito vyvážení bíle Ravtherapee , CIECAM02 je nastaven na "
+"D50, \n"
+"vyvážení bílé výstupního zařízení je nastaveno ve <i>Volby > Správa barev</"
+"i>\n"
 "\n"
 "<b>WB [RT+CAT02] + [výstup]:</b>\n"
-"CAT02 používá Rawtherapee nastavení vyvážení bílé a "
-"vyvážení bílé výstupního zařízení je nastaveno ve Volbách"
+"CAT02 používá Rawtherapee nastavení vyvážení bílé a vyvážení bílé výstupního "
+"zařízení je nastaveno ve Volbách"
 
 #: TP_COLORAPP_MODEL
 msgid "White-Point Model"
@@ -4332,8 +4495,8 @@ msgid ""
 msgstr ""
 "Pokud je volba zakázána, probíhá mapování tónů prostoru Lab.\n"
 "Pokud je volba povolena.  probíhá mapování tónů pomocí CIECAM02.\n"
-"Aby měla tato volba efekt, musí být povolen nástroj Mapování tónů "
-"(Lab/CIECAM02) "
+"Aby měla tato volba efekt, musí být povolen nástroj Mapování tónů (Lab/"
+"CIECAM02) "
 
 #: TP_COLORAPP_TONECIE
 msgid "Tone mapping using CIECAM02 brightness (Q)"
@@ -4992,7 +5155,7 @@ msgstr "Aplikovat automatickou korekci chromatické aberace"
 
 #: TP_RAW_DCBENHANCE
 msgid "DCB Enhancement Step"
-msgstr "Kroky rozšířeného DCB"
+msgstr "Kroky rozšíření DCB"
 
 #: TP_RAW_DCBITERATIONS
 msgid "Number of DCB Iterations"
@@ -5049,6 +5212,18 @@ msgstr "Počet kroků potlačování chybných barev"
 #: TP_RAW_LABEL
 msgid "Demosaicing"
 msgstr "Demozajkování"
+
+#: TP_RAW_LMMSEITERATIONS
+msgid "LMMSE enhancement Steps"
+msgstr "Kroky rozšíření LMMSE"
+
+#: TP_RAW_LMMSE_TOOLTIP
+msgid ""
+"Add gamma (step 1) - Adds  median (step 2,3,4), then Add a refinement (step "
+"5,6) to reduce artifacts and improve the signal to noise ratio"
+msgstr ""
+"Přidá gamu (krok 1)  - přidá mediány (kroky 2, 3, 4) a následně přidá (kroky "
+"5 a 6) vyčištění artefaktů a vylepšení poměru signálu a šumu."
 
 #: TP_RESIZE_APPLIESTO
 msgid "Applies to:"
@@ -5470,14 +5645,28 @@ msgstr ""
 #: ZOOMPANEL_ZOOM100
 msgid ""
 "Zoom to 100%\n"
-"Shortcut: <b>1</b>"
+"Shortcut: <b>z</b>"
 msgstr ""
 "Zvětšit na 100%\n"
-"Zkratka: <b>1</b>"
+"Zkratka: <b>z</b>"
 
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid ""
+#~ "Rotate left.\n"
+#~ "Shortcut: <b>[</b>"
+#~ msgstr ""
+#~ "Otočit doleva.\n"
+#~ "Zkratka: <b>[</b>"
+
+#~ msgid ""
+#~ "Rotate right.\n"
+#~ "Shortcut: <b>]</b>"
+#~ msgstr ""
+#~ "Otočit doprava.\n"
+#~ "Zkratka: <b>]</b>"
 
 #~ msgid "Wavelet Equalizer"
 #~ msgstr "Vlnková korekce"

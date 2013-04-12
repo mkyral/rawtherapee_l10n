@@ -10,7 +10,7 @@ no_merge_file="${BASE_DIR}/.no_merge_keys"
 pot_file=rawtherapee.pot
 
 # Remove comments, exchange columns - allows to process correctly duplicated strings
-cat default |egrep -v '#|!!|! ' |grep -v '^$'|sed 's/^!//' |sed 's/^\([^;]*\);\(.*\)/\2@\1/' |sort -t "@" -k 1,1 >$sorted_file
+cat default |egrep -v '^#|^!!|^! ' |grep -v '^$'|sed 's/^!//' |sed 's/^\([^;]*\);\(.*\)/\2@\1/' |sort -t "@" -k 1,1 >$sorted_file
 
 old_text=
 keys_list=
