@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-04-14 08:58+0200\n"
+"POT-Creation-Date: 2013-05-29 20:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -297,6 +297,10 @@ msgstr ""
 msgid "Bypass [raw] Line Noise Filter"
 msgstr ""
 
+#: EXPORT_BYPASS_RAW_LMMSE_ITERATIONS
+msgid "Bypass [raw] LMMSE Enhancement Steps"
+msgstr ""
+
 #: EXPORT_BYPASS_SHARPENEDGE
 msgid "Bypass Edge Sharpening"
 msgstr ""
@@ -395,6 +399,10 @@ msgstr ""
 
 #: FILEBROWSER_CLEARPROFILE
 msgid "Clear"
+msgstr ""
+
+#: FILEBROWSER_COLORLABEL_TOOLTIP
+msgid "Color label\n\nUse dropdown menu or Shortcuts:\nShift-Ctrl-1 Red\nShift-Ctrl-2 Yellow\nShift-Ctrl-3 Green\nShift-Ctrl-4 Blue\nShift-Ctrl-5 Purple"
 msgstr ""
 
 #: FILEBROWSER_COPYPROFILE
@@ -617,6 +625,26 @@ msgstr ""
 msgid " Find: "
 msgstr ""
 
+#: FILEBROWSER_RANK1_TOOLTIP
+msgid "Rank 1 *\nShortcut: Shift-1"
+msgstr ""
+
+#: FILEBROWSER_RANK2_TOOLTIP
+msgid "Rank 2 *\nShortcut: Shift-2"
+msgstr ""
+
+#: FILEBROWSER_RANK3_TOOLTIP
+msgid "Rank 3 *\nShortcut: Shift-3"
+msgstr ""
+
+#: FILEBROWSER_RANK4_TOOLTIP
+msgid "Rank 4 *\nShortcut: Shift-4"
+msgstr ""
+
+#: FILEBROWSER_RANK5_TOOLTIP
+msgid "Rank 5 *\nShortcut: Shift-5"
+msgstr ""
+
 #: FILEBROWSER_RENAMEDLGLABEL
 msgid "Rename file"
 msgstr ""
@@ -735,6 +763,10 @@ msgstr ""
 
 #: FILEBROWSER_TOOLTIP_STOPPROCESSING
 msgid "Start processing automatically when a new job arrives"
+msgstr ""
+
+#: FILEBROWSER_UNRANK_TOOLTIP
+msgid "Unrank\nShortcut: Shift - ~"
 msgstr ""
 
 #: FILEBROWSER_USETEMPLATE
@@ -1133,7 +1165,7 @@ msgstr ""
 msgid "Edges Sharpening - Luminance Only"
 msgstr ""
 
-#: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO
+#: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO,TP_SHARPENMICRO_LABEL
 msgid "Microcontrast"
 msgstr ""
 
@@ -1197,7 +1229,7 @@ msgstr ""
 msgid "Reweighting Iterates"
 msgstr ""
 
-#: HISTORY_MSG_162
+#: HISTORY_MSG_162,TP_EPD_LABEL
 msgid "Tone Mapping"
 msgstr ""
 
@@ -1357,7 +1389,7 @@ msgstr ""
 msgid "PP3 Loaded"
 msgstr ""
 
-#: HISTORY_MSG_20
+#: HISTORY_MSG_20,TP_SHARPENING_LABEL
 msgid "Sharpening"
 msgstr ""
 
@@ -1377,8 +1409,20 @@ msgstr ""
 msgid "NR - Method"
 msgstr ""
 
-#: HISTORY_MSG_204,PARTIALPASTE_RAW_LMMSEITERATIONS
-msgid "LMMSE enhancement steps"
+#: HISTORY_MSG_204,TP_RAW_LMMSEITERATIONS
+msgid "LMMSE Enhancement Steps"
+msgstr ""
+
+#: HISTORY_MSG_205
+msgid "CAM02 hot/bad pixels"
+msgstr ""
+
+#: HISTORY_MSG_206
+msgid "CAT02 - Adapt scene auto"
+msgstr ""
+
+#: HISTORY_MSG_207
+msgid "Defringing Hue curve"
 msgstr ""
 
 #: HISTORY_MSG_21
@@ -1689,7 +1733,7 @@ msgstr ""
 msgid "Contrast by Detail Levels Value"
 msgstr ""
 
-#: HISTORY_MSG_94
+#: HISTORY_MSG_94,TP_DIRPYREQUALIZER_LABEL
 msgid "Contrast by Detail Levels"
 msgstr ""
 
@@ -2130,7 +2174,7 @@ msgid "Exif"
 msgstr ""
 
 #: MAIN_TAB_EXPORT
-msgid " Export "
+msgid " Fast Export "
 msgstr ""
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
@@ -2405,7 +2449,7 @@ msgstr ""
 msgid "Dark frame file"
 msgstr ""
 
-#: PARTIALPASTE_DEFRINGE
+#: PARTIALPASTE_DEFRINGE,TP_DEFRINGE_LABEL
 msgid "Defringe"
 msgstr ""
 
@@ -2583,6 +2627,10 @@ msgstr ""
 
 #: PARTIALPASTE_RAWGROUP
 msgid "Raw Settings"
+msgstr ""
+
+#: PARTIALPASTE_RAW_LMMSEITERATIONS
+msgid "LMMSE enhancement steps"
 msgstr ""
 
 #: PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
@@ -3517,12 +3565,16 @@ msgstr ""
 msgid "Flip vertically"
 msgstr ""
 
+#: TP_COLORAPP_ADAP_AUTO_TOOLTIP
+msgid "If the checkbox is checked (recommended) RT calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first"
+msgstr ""
+
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
-msgid "Absolute luminance of the scene environnement\n(usually 2000cd/m²)"
+msgid "Absolute luminance of the scene environement(cd/m²).\n 1)Calculated from the Exif data:\nShutter speed - ISO speed - F number - Camera exposure correction.\n 2)Calculated also from Raw White point and RT Exposure compensation "
 msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE
-msgid "Adaptation scene luminosity (cd/m²)"
+msgid "Adaptation scene luminosity "
 msgstr ""
 
 #: TP_COLORAPP_ADAPTVIEWING_TOOLTIP
@@ -3555,6 +3607,14 @@ msgstr ""
 
 #: TP_COLORAPP_ALGO
 msgid "Algorithm"
+msgstr ""
+
+#: TP_COLORAPP_BADPIXSL_TOOLTIP
+msgid "Suppression of hot/bad (brightly colored) pixels.\n 0=no effect 1=median 2=gaussian.\n\nThese artifacts are due to limitations of CIECAM02. Alternatively, adjust the image to avoid very dark shadows."
+msgstr ""
+
+#: TP_COLORAPP_BADPIXSL
+msgid "Hot/bad pixel filter"
 msgstr ""
 
 #: TP_COLORAPP_BRIGHT_TOOLTIP
@@ -3770,7 +3830,7 @@ msgid "Curve chroma mode"
 msgstr ""
 
 #: TP_COLORAPP_TONECIE_TOOLTIP
-msgid "If this option is disabled, tone mapping is done in Lab space.\nIf this option is enabled, tone mapping is done using CIECAM02.\nThe Tone Mapping (Lab/CIECAM02) tool must be enabled for this setting to take effect"
+msgid "If this option is disabled, tone mapping is done in Lab space.\nIf this option is enabled, tone mapping is done using CIECAM02.\nThe Tone Mapping tool must be enabled for this setting to take effect"
 msgstr ""
 
 #: TP_COLORAPP_TONECIE
@@ -3857,10 +3917,6 @@ msgstr ""
 msgid "Auto selection"
 msgstr ""
 
-#: TP_DEFRINGE_LABEL
-msgid "Defringe (Lab/CIECAM02)"
-msgstr ""
-
 #: TP_DEFRINGE_RADIUS,TP_LUMADENOISE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
 msgid "Radius"
 msgstr ""
@@ -3909,10 +3965,6 @@ msgstr ""
 msgid "Delta chrominance Red"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LABEL
-msgid "Contrast by Detail Levels (Lab/CIECAM02)"
-msgstr ""
-
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
 msgid "Coarsest"
 msgstr ""
@@ -3947,10 +3999,6 @@ msgstr ""
 
 #: TP_DISTORTION_LABEL
 msgid "Distortion"
-msgstr ""
-
-#: TP_EPD_LABEL
-msgid "Tone Mapping (Lab/CIECAM02)"
 msgstr ""
 
 #: TP_EPD_TOOLTIP
@@ -4302,8 +4350,20 @@ msgstr ""
 msgid "Reset exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not"
 msgstr ""
 
+#: TP_PFCURVE_CURVEEDITOR_CH_TOOLTIP
+msgid "Controls defringe strength by color. Higher = more, lower = less."
+msgstr ""
+
+#: TP_PFCURVE_CURVEEDITOR_CH
+msgid "Hue"
+msgstr ""
+
 #: TP_PREPROCESS_GREENEQUIL
 msgid "Green Equilibration"
+msgstr ""
+
+#: TP_PREPROCESS_HOTDEADPIXFILT_TOOLTIP
+msgid "Try to suppress hot and dead pixels"
 msgstr ""
 
 #: TP_PREPROCESS_LABEL
@@ -4384,10 +4444,6 @@ msgstr ""
 
 #: TP_RAW_LABEL
 msgid "Demosaicing"
-msgstr ""
-
-#: TP_RAW_LMMSEITERATIONS
-msgid "LMMSE enhancement Steps"
 msgstr ""
 
 #: TP_RAW_LMMSE_TOOLTIP
@@ -4506,10 +4562,6 @@ msgstr ""
 msgid "Halo control"
 msgstr ""
 
-#: TP_SHARPENING_LABEL
-msgid "Sharpening  (Lab/CIECAM02)"
-msgstr ""
-
 #: TP_SHARPENING_RLD_DAMPING
 msgid "Damping"
 msgstr ""
@@ -4524,10 +4576,6 @@ msgstr ""
 
 #: TP_SHARPENING_USM
 msgid "Unsharp Mask"
-msgstr ""
-
-#: TP_SHARPENMICRO_LABEL
-msgid "Microcontrast (Lab/CIECAM02)"
 msgstr ""
 
 #: TP_SHARPENMICRO_MATRIX

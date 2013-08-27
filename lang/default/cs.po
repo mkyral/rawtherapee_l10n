@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-04-14 08:58+0200\n"
-"PO-Revision-Date: 2013-04-12 09:27+0200\n"
+"POT-Creation-Date: 2013-05-29 20:27+0200\n"
+"PO-Revision-Date: 2013-05-29 20:43+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -294,6 +294,10 @@ msgstr "Vynechat [raw] vyrovnání zelené"
 msgid "Bypass [raw] Line Noise Filter"
 msgstr "Vynechat [raw] filtrování linkového rušení"
 
+#: EXPORT_BYPASS_RAW_LMMSE_ITERATIONS
+msgid "Bypass [raw] LMMSE Enhancement Steps"
+msgstr "Vynechat [raw] kroky rozšíření LMMSE"
+
 #: EXPORT_BYPASS_SHARPENEDGE
 msgid "Bypass Edge Sharpening"
 msgstr "Vynechat doostření hran"
@@ -425,6 +429,18 @@ msgstr "Cache"
 #: FILEBROWSER_CLEARPROFILE
 msgid "Clear"
 msgstr "Smazat"
+
+#: FILEBROWSER_COLORLABEL_TOOLTIP
+msgid ""
+"Color label\n"
+"\n"
+"Use dropdown menu or Shortcuts:\n"
+"Shift-Ctrl-1 Red\n"
+"Shift-Ctrl-2 Yellow\n"
+"Shift-Ctrl-3 Green\n"
+"Shift-Ctrl-4 Blue\n"
+"Shift-Ctrl-5 Purple"
+msgstr ""
 
 #: FILEBROWSER_COPYPROFILE
 msgid "Copy"
@@ -665,6 +681,46 @@ msgstr ""
 msgid " Find: "
 msgstr " Najít: "
 
+#: FILEBROWSER_RANK1_TOOLTIP
+msgid ""
+"Rank 1 *\n"
+"Shortcut: Shift-1"
+msgstr ""
+"Hodnocení 1 *\n"
+"Zkratka: Shift-1"
+
+#: FILEBROWSER_RANK2_TOOLTIP
+msgid ""
+"Rank 2 *\n"
+"Shortcut: Shift-2"
+msgstr ""
+"Hodnocení 2 *\n"
+"Zkratka: Shift-2"
+
+#: FILEBROWSER_RANK3_TOOLTIP
+msgid ""
+"Rank 3 *\n"
+"Shortcut: Shift-3"
+msgstr ""
+"Hodnocení 3 *\n"
+"Zkratka: Shift-3"
+
+#: FILEBROWSER_RANK4_TOOLTIP
+msgid ""
+"Rank 4 *\n"
+"Shortcut: Shift-4"
+msgstr ""
+"Hodnocení 4 *\n"
+"Zkratka: Shift-4"
+
+#: FILEBROWSER_RANK5_TOOLTIP
+msgid ""
+"Rank 5 *\n"
+"Shortcut: Shift-5"
+msgstr ""
+"Hodnocení 5 *\n"
+"Zkratka: Shift-5"
+
 #: FILEBROWSER_RENAMEDLGLABEL
 msgid "Rename file"
 msgstr "Přejmenování souboru"
@@ -864,6 +920,14 @@ msgstr "Velikost náhledu"
 #: FILEBROWSER_TOOLTIP_STOPPROCESSING
 msgid "Start processing automatically when a new job arrives"
 msgstr "Automatické spuštění zpracování po vložení nové úlohy"
+
+#: FILEBROWSER_UNRANK_TOOLTIP
+msgid ""
+"Unrank\n"
+"Shortcut: Shift - ~"
+msgstr ""
+"Zrušit hodnocení\n"
+"Zkratka: Shift - ~"
 
 #: FILEBROWSER_USETEMPLATE
 msgid "Use template:"
@@ -1281,7 +1345,7 @@ msgstr "Doostření hran"
 msgid "Edges Sharpening - Luminance Only"
 msgstr "Doostření hran - pouze jas"
 
-#: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO
+#: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO,TP_SHARPENMICRO_LABEL
 msgid "Microcontrast"
 msgstr "Mikrokontrast"
 
@@ -1345,7 +1409,7 @@ msgstr "Měřítko"
 msgid "Reweighting Iterates"
 msgstr "Počet průchodů převážení"
 
-#: HISTORY_MSG_162
+#: HISTORY_MSG_162,TP_EPD_LABEL
 msgid "Tone Mapping"
 msgstr "Mapování tónů"
 
@@ -1505,7 +1569,7 @@ msgstr "CAM02 - Zobrazení CIECAM02 výstupních histogramů v křivkách"
 msgid "PP3 Loaded"
 msgstr "PP3 načten"
 
-#: HISTORY_MSG_20
+#: HISTORY_MSG_20,TP_SHARPENING_LABEL
 msgid "Sharpening"
 msgstr "Doostření"
 
@@ -1525,9 +1589,22 @@ msgstr "Redukce šumu - rozdíl barevnosti - modrá"
 msgid "NR - Method"
 msgstr "Redukce šumu - metoda"
 
-#: HISTORY_MSG_204,PARTIALPASTE_RAW_LMMSEITERATIONS
-msgid "LMMSE enhancement steps"
+#: HISTORY_MSG_204,TP_RAW_LMMSEITERATIONS
+msgid "LMMSE Enhancement Steps"
 msgstr "Kroky rozšíření LMMSE"
+
+#: HISTORY_MSG_205
+msgid "CAM02 hot/bad pixels"
+msgstr "CAM02 vypálené/špatné pixely"
+
+#: HISTORY_MSG_206
+msgid "CAT02 - Adapt scene auto"
+msgstr "CAT02 automatické přizpůsobení scény"
+
+#: HISTORY_MSG_207
+#, fuzzy
+msgid "Defringing Hue curve"
+msgstr "Odstranění lemu"
 
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
@@ -1837,7 +1914,7 @@ msgstr "Redukce šumu - gama"
 msgid "Contrast by Detail Levels Value"
 msgstr "Kontrast dle detailu úrovní - hodnota"
 
-#: HISTORY_MSG_94
+#: HISTORY_MSG_94,TP_DIRPYREQUALIZER_LABEL
 msgid "Contrast by Detail Levels"
 msgstr "Kontrast dle detailu úrovní"
 
@@ -2396,8 +2473,8 @@ msgid "Exif"
 msgstr "Exif"
 
 #: MAIN_TAB_EXPORT
-msgid " Export "
-msgstr "Export"
+msgid " Fast Export "
+msgstr "Rychlý export"
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
 msgid "Exposure"
@@ -2796,7 +2873,7 @@ msgstr "Automatický výběr tmavých snímků"
 msgid "Dark frame file"
 msgstr "Soubor tmavého snímku"
 
-#: PARTIALPASTE_DEFRINGE
+#: PARTIALPASTE_DEFRINGE,TP_DEFRINGE_LABEL
 msgid "Defringe"
 msgstr "Odstranění lemu"
 
@@ -2975,6 +3052,10 @@ msgstr "Kroky potlačení falešných barev demozajkování"
 #: PARTIALPASTE_RAWGROUP
 msgid "Raw Settings"
 msgstr "Nastavení Raw"
+
+#: PARTIALPASTE_RAW_LMMSEITERATIONS
+msgid "LMMSE enhancement steps"
+msgstr "Kroky rozšíření LMMSE"
 
 #: PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
 msgid "Resize"
@@ -3752,7 +3833,6 @@ msgid "Parameters to load"
 msgstr "Parametry nahrávání"
 
 #: PROFILEPANEL_MODE_TIP
-#, fuzzy
 msgid ""
 "Processing profile fill mode.\n"
 "\n"
@@ -3762,6 +3842,8 @@ msgid ""
 "Button released: profiles will be applied as they are, altering only those "
 "values which they contain."
 msgstr ""
+"Režim uplatnění profilu zpracování.\n"
+"\n"
 "Tlačítko je stisknuto: částečné profily budou aplikovány jako kompletní; "
 "chybějící hodnoty budou doplněny přednastavenými hodnotami.\n"
 "\n"
@@ -4120,15 +4202,29 @@ msgstr ""
 msgid "Flip vertically"
 msgstr "Překlopit vertikálně"
 
+#: TP_COLORAPP_ADAP_AUTO_TOOLTIP
+#, fuzzy
+msgid ""
+"If the checkbox is checked (recommended) RT calculates an optimum value from "
+"Exif data.\n"
+"To set the value manually, uncheck the checkbox first"
+msgstr ""
+"Pokud je povoleno (doporučeno), Rawtherapee vypočítá optimální hodnotu, jenž "
+"následně používá jak CAT02 tak i celý CIECAM02.\n"
+"Zakažte, pokud si přejete zadat hodnotu ručně. Doporučeny jsou hodnoty nad "
+"65."
+
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
 msgid ""
-"Absolute luminance of the scene environnement\n"
-"(usually 2000cd/m²)"
-msgstr "Maximální jas prostředí scény (obvykle 2000cd/m²)"
+"Absolute luminance of the scene environement(cd/m²).\n"
+" 1)Calculated from the Exif data:\n"
+"Shutter speed - ISO speed - F number - Camera exposure correction.\n"
+" 2)Calculated also from Raw White point and RT Exposure compensation "
+msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE
-msgid "Adaptation scene luminosity (cd/m²)"
-msgstr "Přizpůsobení světlosti scény (cd/m²)"
+msgid "Adaptation scene luminosity "
+msgstr "Přizpůsobení světlosti scény "
 
 #: TP_COLORAPP_ADAPTVIEWING_TOOLTIP
 msgid ""
@@ -4165,6 +4261,19 @@ msgstr "Umožňuje vybrat mezi podmnožinou nebo všemi parametry"
 #: TP_COLORAPP_ALGO
 msgid "Algorithm"
 msgstr "Algoritmus"
+
+#: TP_COLORAPP_BADPIXSL_TOOLTIP
+msgid ""
+"Suppression of hot/bad (brightly colored) pixels.\n"
+" 0=no effect 1=median 2=gaussian.\n"
+"\n"
+"These artifacts are due to limitations of CIECAM02. Alternatively, adjust "
+"the image to avoid very dark shadows."
+msgstr ""
+
+#: TP_COLORAPP_BADPIXSL
+msgid "Hot/bad pixel filter"
+msgstr "Filtr vypálených/mrtvých pixelů"
 
 #: TP_COLORAPP_BRIGHT_TOOLTIP
 msgid ""
@@ -4490,11 +4599,11 @@ msgid "Curve chroma mode"
 msgstr "Mód barevné křivky"
 
 #: TP_COLORAPP_TONECIE_TOOLTIP
+#, fuzzy
 msgid ""
 "If this option is disabled, tone mapping is done in Lab space.\n"
 "If this option is enabled, tone mapping is done using CIECAM02.\n"
-"The Tone Mapping (Lab/CIECAM02) tool must be enabled for this setting to "
-"take effect"
+"The Tone Mapping tool must be enabled for this setting to take effect"
 msgstr ""
 "Pokud je volba zakázána, probíhá mapování tónů prostoru Lab.\n"
 "Pokud je volba povolena.  probíhá mapování tónů pomocí CIECAM02.\n"
@@ -4585,10 +4694,6 @@ msgstr "Y"
 msgid "Auto selection"
 msgstr "Automatický výběr"
 
-#: TP_DEFRINGE_LABEL
-msgid "Defringe (Lab/CIECAM02)"
-msgstr "Odstranění lemu (Lan/CIECAM02)"
-
 #: TP_DEFRINGE_RADIUS,TP_LUMADENOISE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
 msgid "Radius"
 msgstr "Poloměr"
@@ -4658,10 +4763,6 @@ msgstr "RGB režim (raw obrázky)"
 msgid "Delta chrominance Red"
 msgstr "Rozdíl barevnosti - Červená"
 
-#: TP_DIRPYREQUALIZER_LABEL
-msgid "Contrast by Detail Levels (Lab/CIECAM02)"
-msgstr "Kontrast dle detailu úrovní (Lab/CIECAM02)"
-
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
 msgid "Coarsest"
 msgstr "Nejhrubší"
@@ -4701,10 +4802,6 @@ msgstr "Automatická korekce zkreslení"
 #: TP_DISTORTION_LABEL
 msgid "Distortion"
 msgstr "Oprava zkreslení objektivu"
-
-#: TP_EPD_LABEL
-msgid "Tone Mapping (Lab/CIECAM02)"
-msgstr "Mapování tónů (Lab/CIECAM02)"
 
 #: TP_EPD_TOOLTIP
 msgid ""
@@ -5132,9 +5229,21 @@ msgstr ""
 "Použije stejné kontroly jako volba \"Automatické úrovně\" bez ohledu na to, "
 "zda jsou nebo nejsou Automatické úrovně použity"
 
+#: TP_PFCURVE_CURVEEDITOR_CH_TOOLTIP
+msgid "Controls defringe strength by color. Higher = more, lower = less."
+msgstr ""
+
+#: TP_PFCURVE_CURVEEDITOR_CH
+msgid "Hue"
+msgstr "Odstín"
+
 #: TP_PREPROCESS_GREENEQUIL
 msgid "Green Equilibration"
 msgstr "Vyrovnání zelené"
+
+#: TP_PREPROCESS_HOTDEADPIXFILT_TOOLTIP
+msgid "Try to suppress hot and dead pixels"
+msgstr "Zkusí potlačit vypálené a mrtvé pixely"
 
 #: TP_PREPROCESS_LABEL
 msgid "Preprocessing"
@@ -5215,10 +5324,6 @@ msgstr "Počet kroků potlačování chybných barev"
 #: TP_RAW_LABEL
 msgid "Demosaicing"
 msgstr "Demozajkování"
-
-#: TP_RAW_LMMSEITERATIONS
-msgid "LMMSE enhancement Steps"
-msgstr "Kroky rozšíření LMMSE"
 
 #: TP_RAW_LMMSE_TOOLTIP
 msgid ""
@@ -5344,10 +5449,6 @@ msgstr "Pouze jas"
 msgid "Halo control"
 msgstr "Omezení haló artefatů"
 
-#: TP_SHARPENING_LABEL
-msgid "Sharpening  (Lab/CIECAM02)"
-msgstr "Doostření (Lab/CIECAM02)"
-
 #: TP_SHARPENING_RLD_DAMPING
 msgid "Damping"
 msgstr "Útlum"
@@ -5367,10 +5468,6 @@ msgstr ""
 #: TP_SHARPENING_USM
 msgid "Unsharp Mask"
 msgstr "Maskování rozostření"
-
-#: TP_SHARPENMICRO_LABEL
-msgid "Microcontrast (Lab/CIECAM02)"
-msgstr "Mikrokontrast (Lab/CIECAM02)"
 
 #: TP_SHARPENMICRO_MATRIX
 msgid "3×3 matrix instead of 5×5"
@@ -5656,6 +5753,26 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid ""
+#~ "Absolute luminance of the scene environnement\n"
+#~ "(usually 2000cd/m²)"
+#~ msgstr "Maximální jas prostředí scény (obvykle 2000cd/m²)"
+
+#~ msgid "Defringe (Lab/CIECAM02)"
+#~ msgstr "Odstranění lemu (Lan/CIECAM02)"
+
+#~ msgid "Contrast by Detail Levels (Lab/CIECAM02)"
+#~ msgstr "Kontrast dle detailu úrovní (Lab/CIECAM02)"
+
+#~ msgid "Tone Mapping (Lab/CIECAM02)"
+#~ msgstr "Mapování tónů (Lab/CIECAM02)"
+
+#~ msgid "Sharpening  (Lab/CIECAM02)"
+#~ msgstr "Doostření (Lab/CIECAM02)"
+
+#~ msgid "Microcontrast (Lab/CIECAM02)"
+#~ msgstr "Mikrokontrast (Lab/CIECAM02)"
 
 #~ msgid ""
 #~ "Rotate left.\n"
@@ -6154,9 +6271,6 @@ msgstr "(100%)"
 
 #~ msgid "DPI="
 #~ msgstr "DPI="
-
-#~ msgid "Hue"
-#~ msgstr "Odstín"
 
 #~ msgid "Value"
 #~ msgstr "Hodnota"
