@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-05-29 20:27+0200\n"
+"POT-Creation-Date: 2013-08-27 08:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1423,6 +1423,10 @@ msgstr ""
 
 #: HISTORY_MSG_207
 msgid "Defringing Hue curve"
+msgstr ""
+
+#: HISTORY_MSG_208,TP_WBALANCE_EQBLUERED
+msgid "Blue/Red Equalizer"
 msgstr ""
 
 #: HISTORY_MSG_21
@@ -3029,8 +3033,12 @@ msgstr ""
 msgid "Save to folder"
 msgstr ""
 
-#: PREFERENCES_OUTDIRHINT,PREFERENCES_OUTDIRTEMPLATEHINT
+#: PREFERENCES_OUTDIRHINT
 msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname or some attributes of the photo.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b> will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in the trash bin, %r will be replaced by 'x'.\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
+msgstr ""
+
+#: PREFERENCES_OUTDIRTEMPLATEHINT
+msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>, <b>%s1</b>, <b>%s2</b>, ...\n\nThese formatting strings refer to the different parts of the photo's pathname, some attributes of the photo or an arbitrary sequence index in the batch job.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b> will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in the trash bin, %r will be replaced by 'x'.\n\n<b>%s1</b>, <b>%s2</b>, etc. will be replaced by a sequence index which is padded to between 1 and 9 digits. The sequence index will start at one each time the queue processing is started and is incremented by one for each image processed.\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
 msgstr ""
 
 #: PREFERENCES_OUTDIRTEMPLATE
@@ -4670,6 +4678,10 @@ msgstr ""
 msgid "Daylight (sunny)"
 msgstr ""
 
+#: TP_WBALANCE_EQBLUERED_TOOLTIP
+msgid "Allows to deviate from the normal behavior of \"white balance\" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater)\nb) are far from conditions where calibrations were performed\nc) where the matrices or ICC profiles are unsuitable"
+msgstr ""
+
 #: TP_WBALANCE_FLASH55
 msgid "Leica"
 msgstr ""
@@ -4796,6 +4808,18 @@ msgstr ""
 
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"
+msgstr ""
+
+#: TP_WBALANCE_WATER_HEADER
+msgid "UnderWater"
+msgstr ""
+
+#: TP_WBALANCE_WATER1
+msgid "UnderWater 1"
+msgstr ""
+
+#: TP_WBALANCE_WATER2
+msgid "UnderWater 2"
 msgstr ""
 
 #: ZOOMBAR_HUGE
