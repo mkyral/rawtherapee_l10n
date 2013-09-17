@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-08-27 08:18+0200\n"
-"PO-Revision-Date: 2013-09-12 20:16+0200\n"
+"POT-Creation-Date: 2013-09-17 20:51+0200\n"
+"PO-Revision-Date: 2013-09-17 20:55+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -3649,8 +3649,8 @@ msgstr ""
 "ohodnocena, bude %r nahrazeno '0'.  Pokud je fotografie v koši, bude %r "
 "nahrazeno 'x'.\n"
 "\n"
-"<b>%s1</b>, <b>%s2</b>, atd. bude nahrazeno pořadím v dávce doplněném na 1 až "
-"9 číslic. Každé spuštění zpracování fronty jej vždy nastaví na jedna a po "
+"<b>%s1</b>, <b>%s2</b>, atd. bude nahrazeno pořadím v dávce doplněném na 1 "
+"až 9 číslic. Každé spuštění zpracování fronty jej vždy nastaví na jedna a po "
 "každé zpracované fotografii se o jedna zvýší .\n"
 "\n"
 "Pokud si přejete uložit výstupní obrázek vedle originálu, napište:\n"
@@ -3890,6 +3890,10 @@ msgid ""
 "Copy IPTC/XMP unchanged to output file (when tagging with other program)"
 msgstr "Přenést nezměněná IPTC/XMP metadata do výstupního souboru"
 
+#: PREFERENCES_USEBUNDLEDPROFILES
+msgid "Use bundled profiles"
+msgstr "Použít přiložené profily"
+
 #: PREFERENCES_USESYSTEMTHEME
 msgid "Use system theme"
 msgstr "Použít systémový motiv"
@@ -3912,6 +3916,10 @@ msgstr "Parametry pro kopírování"
 #: PROFILEPANEL_FILEDLGFILTERPP
 msgid "Processing profiles"
 msgstr "Profily zpracování"
+
+#: PROFILEPANEL_GLOBALPROFILES
+msgid "Bundled profiles"
+msgstr "Přiložené profily"
 
 #: PROFILEPANEL_LABEL
 msgid "Processing Profiles"
@@ -3943,6 +3951,10 @@ msgstr ""
 "Tlačítko není stisknuto: profily budou aplikovány tak jak jsou, změní se "
 "pouze v profilu obsažené hodnoty."
 
+#: PROFILEPANEL_MYPROFILES
+msgid "My profiles"
+msgstr "Mé profily"
+
 #: PROFILEPANEL_PASTEPPASTE
 msgid "Parameters to paste"
 msgstr "Parametry pro vložení"
@@ -3950,6 +3962,10 @@ msgstr "Parametry pro vložení"
 #: PROFILEPANEL_PFILE
 msgid "From file"
 msgstr "Ze souboru"
+
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
+msgid "Neutral"
+msgstr "Neutrální"
 
 #: PROFILEPANEL_PLASTPHOTO
 msgid "Last Photo"
@@ -4301,8 +4317,8 @@ msgid ""
 "Exif data.\n"
 "To set the value manually, uncheck the checkbox first"
 msgstr ""
-"Pokud je povoleno (doporučeno), Rawtherapee vypočítá optimální hodnotu z Exif "
-"dat.\n"
+"Pokud je povoleno (doporučeno), Rawtherapee vypočítá optimální hodnotu z "
+"Exif dat.\n"
 "Zakažte, pokud si přejete zadat hodnotu ručně."
 
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
@@ -4369,8 +4385,8 @@ msgstr ""
 "Potlačení vypálených/mrtvých (jasně zabarvených) pixelů.\n"
 " 0=bez efektu 1=medián 2=gaussový.\n"
 "\n"
-"Tyto artefakty vznikají díky omezením CIECAM02. Popřípadě obrázek "
-"zesvětlete tak, aby jste se vyhnuli velmi tmavým stínům."
+"Tyto artefakty vznikají díky omezením CIECAM02. Popřípadě obrázek zesvětlete "
+"tak, aby jste se vyhnuli velmi tmavým stínům."
 
 #: TP_COLORAPP_BADPIXSL
 msgid "Hot/bad pixel filter"
@@ -4661,7 +4677,7 @@ msgstr ""
 "\n"
 "<b>Velmi tmavé:</b>\n"
 "Velmi tmavé prostředí (cutsheet)\n"
-"Obrázek bude velmi tmavý\t"
+"Obrázek bude velmi tmavý"
 
 #: TP_COLORAPP_SURROUND
 msgid "Surround"
@@ -4877,10 +4893,6 @@ msgstr "Kontrast+ "
 #: TP_DIRPYREQUALIZER_LUMAFINEST
 msgid "Finest"
 msgstr "Nejjemnější"
-
-#: TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
-msgid "Neutral"
-msgstr "Neutrální"
 
 #: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
 msgid "Amount"
@@ -5674,8 +5686,8 @@ msgid ""
 "b) are far from conditions where calibrations were performed\n"
 "c) where the matrices or ICC profiles are unsuitable"
 msgstr ""
-"Umožňuje odchýlení se od normálního chování \"vyvážení bílé\" "
-"pomocí změny vyvážení modré a červené.\n"
+"Umožňuje odchýlení se od normálního chování \"vyvážení bílé\" pomocí změny "
+"vyvážení modré a červené.\n"
 "Toto může být užitečné v těchto případech:\n"
 "a) podmínky jsou velmi odlišné od standardních (například pod vodou)\n"
 "b) podmínky se velmi liší od podmínek za kterých probíhala kalibrace\n"
@@ -6104,9 +6116,6 @@ msgstr "(100%)"
 
 #~ msgid "Apply profile"
 #~ msgstr "Aplikovat profil"
-
-#~ msgid "Copy profile"
-#~ msgstr "Kopírovat profil"
 
 #~ msgid "Partial paste"
 #~ msgstr "Vložit částečně"
