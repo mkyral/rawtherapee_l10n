@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-09-17 20:51+0200\n"
-"PO-Revision-Date: 2013-09-17 20:55+0200\n"
+"POT-Creation-Date: 2013-11-07 18:10+0100\n"
+"PO-Revision-Date: 2013-11-06 21:37+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1397,7 +1397,7 @@ msgstr "Živost - propojit pastelové a saturované tóny"
 msgid "Vibrance - Pastel/Saturated threshold"
 msgstr "Živost - práh mezi pastelovými a saturovanými tóny"
 
-#: HISTORY_MSG_158,TP_EPD_STRENGTH,TP_VIGNETTING_STRENGTH
+#: HISTORY_MSG_158,TP_EPD_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH
 msgid "Strength"
 msgstr "Síla"
 
@@ -1617,9 +1617,18 @@ msgstr "Křivka odstínu odstranění lemu"
 msgid "Blue/Red Equalizer"
 msgstr "Korekce Modrá/červená"
 
+#: HISTORY_MSG_210,HISTORY_MSG_211,PARTIALPASTE_GRADIENT,TP_GRADIENT_LABEL
+msgid "Graduated Filter"
+msgstr "Přechodový filtr"
+
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
 msgstr "Poloměr doostření"
+
+#: HISTORY_MSG_212,HISTORY_MSG_213,PARTIALPASTE_PCVIGNETTE,TP_PCVIGNETTE_LABEL
+#, fuzzy
+msgid "Vignette Filter"
+msgstr "Filtrovat linkové rušení"
 
 #: HISTORY_MSG_22
 msgid "Sharpening Amount"
@@ -3212,15 +3221,23 @@ msgid ""
 "should be generated for an image.\n"
 "Receives command line parameters to allow a rules-based processing profile "
 "generation:\n"
-"[raw/JPG path] [default processing profile path] [f-number] [exposure in "
-"secs] [focal length in mm] [ISO] [lens] [camera]"
+"[raw/JPG path] [default processing profile path] [RT's cache folder path] [f-"
+"number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera make] "
+"[camera model]\n"
+"\n"
+"<b>WARNING:</b> You are responsible of using double quotes where necessary "
+"if you're using paths containing spaces."
 msgstr ""
 "Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil "
 "pro obrázek.\n"
 "Bude spuštěn s následujícími parametry,  které umožní vygenerování vhodného "
 "profilu upracování :\n"
-"[cesta raw/JPG] [výchozí cesta profilu] [clona] [expozice v sekundách] "
-"[ohnisková vzdálenost v mm] [ISO] [objektiv] [fotoaparát]"
+"[cesta raw/JPG] [výchozí cesta profilu] [cesta k RT cache ][clona] [expozice "
+"v sekundách] [ohnisková vzdálenost v mm] [ISO] [objektiv] [výrobce "
+"fotoaparátu][model fotoaparátu]\n"
+"\n"
+"<b>VAROVÁNÍ:</b> Pokud používáte cesty obsahující mezery, musíte je sami "
+"uzavřít do dvojitých uvozovek."
 
 #: PREFERENCES_CUSTPROFBUILDPATH
 msgid "Executable path"
@@ -5020,6 +5037,46 @@ msgstr "Výstupní gama"
 msgid "Slope (linear)"
 msgstr "Sklon (lineární)"
 
+#: TP_GRADIENT_CENTER,TP_VIGNETTING_CENTER
+msgid "Center"
+msgstr "Střed"
+
+#: TP_GRADIENT_CENTER_X_TOOLTIP
+msgid "Rotation anchor point X: -100=left edge, 0=center, +100=right edge"
+msgstr "Bod otáčení X: -100=levá hrana, 0=střed, +100=pravá hrana"
+
+#: TP_GRADIENT_CENTER_X,TP_VIGNETTING_CENTER_X
+msgid "Center X"
+msgstr "Střed X"
+
+#: TP_GRADIENT_CENTER_Y_TOOLTIP
+msgid "Rotation anchor point Y: -100=top edge, 0=center, +100=bottom edge"
+msgstr "Bod otáčení Y: -100=horní hrana, 0=střed, +100=spodní hrana"
+
+#: TP_GRADIENT_CENTER_Y,TP_VIGNETTING_CENTER_Y
+msgid "Center Y"
+msgstr "Střed Y"
+
+#: TP_GRADIENT_DEGREE_TOOLTIP
+msgid "Rotation angle in degrees"
+msgstr "Úhel otočení ve stupních"
+
+#: TP_GRADIENT_DEGREE
+msgid "Angle"
+msgstr "Úhel"
+
+#: TP_GRADIENT_FEATHER_TOOLTIP
+msgid "Gradient width in percent of the image diagonal"
+msgstr "Šíře přechodu v procentech uhlopříčky obrázku"
+
+#: TP_GRADIENT_FEATHER,TP_PCVIGNETTE_FEATHER
+msgid "Feather"
+msgstr "Rozptyl"
+
+#: TP_GRADIENT_STRENGTH_TOOLTIP
+msgid "Filter strength in stops"
+msgstr "Síla filtru v expozičních stupních"
+
 #: TP_HLREC_BLEND
 msgid "Blend"
 msgstr "Mísení"
@@ -5049,9 +5106,9 @@ msgctxt "TP_HSVEQUALIZER_HUE"
 msgid "H"
 msgstr "H"
 
-#: TP_HSVEQUALIZER_CHANNEL
-msgid "HSV Channel"
-msgstr "HSV kanál"
+#: TP_HSVEQUALIZER_CHANNEL,TP_RGBCURVES_CHANNEL
+msgid "Channel"
+msgstr "Kanál"
 
 #: TP_HSVEQUALIZER_SAT
 msgid "S"
@@ -5340,6 +5397,24 @@ msgstr ""
 "Použije stejné kontroly jako volba \"Automatické úrovně\" bez ohledu na to, "
 "zda jsou nebo nejsou Automatické úrovně použity"
 
+#: TP_PCVIGNETTE_FEATHER_TOOLTIP
+msgid "Feathering: 0=corners only, 50=halfway to center, 100=to center"
+msgstr ""
+
+#: TP_PCVIGNETTE_ROUNDNESS_TOOLTIP
+msgid "Roundness: 0=rectangle, 50=fitted ellipse, 100=circle"
+msgstr ""
+
+#: TP_PCVIGNETTE_ROUNDNESS
+#, fuzzy
+msgid "Roundness"
+msgstr "Zvuky"
+
+#: TP_PCVIGNETTE_STRENGTH_TOOLTIP
+#, fuzzy
+msgid "Filter strength in stops (reached in corners)"
+msgstr "Síla filtru v expozičních stupních"
+
 #: TP_PFCURVE_CURVEEDITOR_CH_TOOLTIP
 msgid "Controls defringe strength by color. Higher = more, lower = less."
 msgstr "Upravuje sílu odstranění lemu dle barvy. Vyšší = více, nižší = méně."
@@ -5500,10 +5575,6 @@ msgstr "Zvolte:"
 msgid "W:"
 msgstr "Š:"
 
-#: TP_RGBCURVES_CHANNEL
-msgid "Channel"
-msgstr "Kanál"
-
 #: TP_RGBCURVES_LABEL
 msgid "RGB Curves"
 msgstr "RGB křivky"
@@ -5648,18 +5719,6 @@ msgstr "Práh mezi pastelovými a saturovanými tóny"
 #: TP_VIBRANCE_SATURATED
 msgid "Saturated Tones"
 msgstr "Saturované tóny"
-
-#: TP_VIGNETTING_CENTER_X
-msgid "Center X"
-msgstr "Střed X"
-
-#: TP_VIGNETTING_CENTER_Y
-msgid "Center Y"
-msgstr "Střed Y"
-
-#: TP_VIGNETTING_CENTER
-msgid "Center"
-msgstr "Střed"
 
 #: TP_VIGNETTING_LABEL
 msgid "Vignetting Correction"
@@ -5892,6 +5951,12 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Gradient Filter"
+#~ msgstr "Přechodový filtr"
+
+#~ msgid "HSV Channel"
+#~ msgstr "HSV kanál"
 
 #~ msgid ""
 #~ "Absolute luminance of the scene environnement\n"
@@ -6368,9 +6433,6 @@ msgstr "(100%)"
 
 #~ msgid "Gradient passes"
 #~ msgstr "Průchody gradientu"
-
-#~ msgid "Gradient strength"
-#~ msgstr "Síla gradientu"
 
 #~ msgid "Put to processing queue"
 #~ msgstr "Vložit do fronty"

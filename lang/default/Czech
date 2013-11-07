@@ -25,6 +25,7 @@
 #24 12.04.2013: updated by mkyral
 #25 12.09.2013: updated by mkyral
 #26 17.09.2013: updated by mkyral
+#27 06.11.2013: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -385,6 +386,8 @@ HISTORY_MSG_206;CAT02 automatické přizpůsobení scény
 HISTORY_MSG_207;Křivka odstínu odstranění lemu
 HISTORY_MSG_208;Korekce Modrá/červená
 HISTORY_MSG_21;Poloměr doostření
+HISTORY_MSG_210;Přechodový filtr
+HISTORY_MSG_211;Přechodový filtr
 HISTORY_MSG_22;Míra doostření
 HISTORY_MSG_23;Práh doostření
 HISTORY_MSG_24;Doostřit pouze okraje
@@ -667,6 +670,7 @@ PARTIALPASTE_FLATFIELDAUTOSELECT;FF Automatický výběr
 PARTIALPASTE_FLATFIELDBLURRADIUS;FF Poloměr rozostření
 PARTIALPASTE_FLATFIELDBLURTYPE;FF Typ rozostření
 PARTIALPASTE_FLATFIELDFILE;Flat Field (FF) Soubor
+PARTIALPASTE_GRADIENT;Postupný filtr
 PARTIALPASTE_HLRECONSTRUCTION;Rekonstrukce světel
 PARTIALPASTE_HLRECOVERYAMOUNT;Míra obnovení světel
 PARTIALPASTE_HLRECOVERY;Obnovení světel
@@ -736,7 +740,7 @@ PREFERENCES_CIEART_LABEL;Použít jednoduchou přesnost místo dvojnásobné
 PREFERENCES_CIEART_TOOLTIP;Pokud je povoleno, budou pro CIECAM02 výpočty použita reálná čísla s jednoduchou přesností místo čísel s dvojnásobnou přesností. Tím se dosáhne mírného zrychlení výpočtů za cenu nepatrné ztráty kvality.
 PREFERENCES_CLIPPINGIND;Indikace oříznutí
 PREFERENCES_CMETRICINTENT;Kolorimetrický záměr
-PREFERENCES_CUSTPROFBUILDHINT;Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil pro obrázek.\nBude spuštěn s následujícími parametry,  které umožní vygenerování vhodného profilu upracování :\n[cesta raw/JPG] [výchozí cesta profilu] [clona] [expozice v sekundách] [ohnisková vzdálenost v mm] [ISO] [objektiv] [fotoaparát]
+PREFERENCES_CUSTPROFBUILDHINT;Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil pro obrázek.\nBude spuštěn s následujícími parametry,  které umožní vygenerování vhodného profilu upracování :\n[cesta raw/JPG] [výchozí cesta profilu] [cesta k RT cache ][clona] [expozice v sekundách] [ohnisková vzdálenost v mm] [ISO] [objektiv] [výrobce fotoaparátu][model fotoaparátu]\n\n<b>VAROVÁNÍ:</b> Pokud používáte cesty obsahující mezery, musíte je sami uzavřít do dvojitých uvozovek.
 PREFERENCES_CUSTPROFBUILDPATH;Cesta k programu
 PREFERENCES_CUSTPROFBUILD;Vlastní generátor profilu zpracování
 PREFERENCES_CUTOVERLAYBRUSH;Barva masky ořezu/průhlednosti
@@ -1118,6 +1122,18 @@ TP_GAMMA_CURV;Gama
 TP_GAMMA_FREE;Volná gama
 TP_GAMMA_OUTPUT;Výstupní gama
 TP_GAMMA_SLOP;Sklon (lineární)
+TP_GRADIENT_CENTER;Střed
+TP_GRADIENT_CENTER_X;Střed X
+TP_GRADIENT_CENTER_X_TOOLTIP;Bod otáčení X: -100=levá hrana, 0=střed, +100=pravá hrana
+TP_GRADIENT_CENTER_Y;Střed Y
+TP_GRADIENT_CENTER_Y_TOOLTIP;Bod otáčení Y: -100=horní hrana, 0=střed, +100=spodní hrana
+TP_GRADIENT_DEGREE_TOOLTIP;Úhel otočení ve stupních
+TP_GRADIENT_DEGREE;Úhel
+TP_GRADIENT_FEATHER;Rozptyl
+TP_GRADIENT_FEATHER_TOOLTIP;Šíře přechodu v procentech uhlopříčky obrázku
+TP_GRADIENT_LABEL;Postupný filtr
+TP_GRADIENT_STRENGTH;Síla
+TP_GRADIENT_STRENGTH_TOOLTIP;Síla filtru v expozičních stupních
 TP_HLREC_BLEND;Mísení
 TP_HLREC_CIELAB;Mísení CIELab
 TP_HLREC_COLOR;Propagace barev
@@ -1125,7 +1141,7 @@ TP_HLREC_LABEL;Rekonstrukce světel
 TP_HLREC_LUMINANCE;Obnovení jasů
 TP_HLREC_METHOD;Metoda:
 TP_HSVEQUALIZER_HUE;H
-TP_HSVEQUALIZER_CHANNEL;HSV kanál
+TP_HSVEQUALIZER_CHANNEL;Kanál
 TP_HSVEQUALIZER_LABEL;HSV korekce
 TP_HSVEQUALIZER_NEUTRAL;Neutrální
 TP_HSVEQUALIZER_SAT;S

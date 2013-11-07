@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-09-17 20:51+0200\n"
+"POT-Creation-Date: 2013-11-07 18:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1209,7 +1209,7 @@ msgstr ""
 msgid "Vibrance - Pastel/Saturated threshold"
 msgstr ""
 
-#: HISTORY_MSG_158,TP_EPD_STRENGTH,TP_VIGNETTING_STRENGTH
+#: HISTORY_MSG_158,TP_EPD_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH
 msgid "Strength"
 msgstr ""
 
@@ -1429,8 +1429,16 @@ msgstr ""
 msgid "Blue/Red Equalizer"
 msgstr ""
 
+#: HISTORY_MSG_210,HISTORY_MSG_211,PARTIALPASTE_GRADIENT,TP_GRADIENT_LABEL
+msgid "Graduated Filter"
+msgstr ""
+
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
+msgstr ""
+
+#: HISTORY_MSG_212,HISTORY_MSG_213,PARTIALPASTE_PCVIGNETTE,TP_PCVIGNETTE_LABEL
+msgid "Vignette Filter"
 msgstr ""
 
 #: HISTORY_MSG_22
@@ -2758,7 +2766,7 @@ msgid "Colorimetric intent"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera]"
+msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [RT's cache folder path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera make] [camera model]\n\n<b>WARNING:</b> You are responsible of using double quotes where necessary if you're using paths containing spaces."
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDPATH
@@ -4105,6 +4113,46 @@ msgstr ""
 msgid "Slope (linear)"
 msgstr ""
 
+#: TP_GRADIENT_CENTER,TP_VIGNETTING_CENTER
+msgid "Center"
+msgstr ""
+
+#: TP_GRADIENT_CENTER_X_TOOLTIP
+msgid "Rotation anchor point X: -100=left edge, 0=center, +100=right edge"
+msgstr ""
+
+#: TP_GRADIENT_CENTER_X,TP_VIGNETTING_CENTER_X
+msgid "Center X"
+msgstr ""
+
+#: TP_GRADIENT_CENTER_Y_TOOLTIP
+msgid "Rotation anchor point Y: -100=top edge, 0=center, +100=bottom edge"
+msgstr ""
+
+#: TP_GRADIENT_CENTER_Y,TP_VIGNETTING_CENTER_Y
+msgid "Center Y"
+msgstr ""
+
+#: TP_GRADIENT_DEGREE_TOOLTIP
+msgid "Rotation angle in degrees"
+msgstr ""
+
+#: TP_GRADIENT_DEGREE
+msgid "Angle"
+msgstr ""
+
+#: TP_GRADIENT_FEATHER_TOOLTIP
+msgid "Gradient width in percent of the image diagonal"
+msgstr ""
+
+#: TP_GRADIENT_FEATHER,TP_PCVIGNETTE_FEATHER
+msgid "Feather"
+msgstr ""
+
+#: TP_GRADIENT_STRENGTH_TOOLTIP
+msgid "Filter strength in stops"
+msgstr ""
+
 #: TP_HLREC_BLEND
 msgid "Blend"
 msgstr ""
@@ -4134,8 +4182,8 @@ msgctxt "TP_HSVEQUALIZER_HUE"
 msgid "H"
 msgstr ""
 
-#: TP_HSVEQUALIZER_CHANNEL
-msgid "HSV Channel"
+#: TP_HSVEQUALIZER_CHANNEL,TP_RGBCURVES_CHANNEL
+msgid "Channel"
 msgstr ""
 
 #: TP_HSVEQUALIZER_SAT
@@ -4370,6 +4418,22 @@ msgstr ""
 msgid "Reset exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not"
 msgstr ""
 
+#: TP_PCVIGNETTE_FEATHER_TOOLTIP
+msgid "Feathering: 0=corners only, 50=halfway to center, 100=to center"
+msgstr ""
+
+#: TP_PCVIGNETTE_ROUNDNESS_TOOLTIP
+msgid "Roundness: 0=rectangle, 50=fitted ellipse, 100=circle"
+msgstr ""
+
+#: TP_PCVIGNETTE_ROUNDNESS
+msgid "Roundness"
+msgstr ""
+
+#: TP_PCVIGNETTE_STRENGTH_TOOLTIP
+msgid "Filter strength in stops (reached in corners)"
+msgstr ""
+
 #: TP_PFCURVE_CURVEEDITOR_CH_TOOLTIP
 msgid "Controls defringe strength by color. Higher = more, lower = less."
 msgstr ""
@@ -4526,10 +4590,6 @@ msgstr ""
 msgid "W:"
 msgstr ""
 
-#: TP_RGBCURVES_CHANNEL
-msgid "Channel"
-msgstr ""
-
 #: TP_RGBCURVES_LABEL
 msgid "RGB Curves"
 msgstr ""
@@ -4660,18 +4720,6 @@ msgstr ""
 
 #: TP_VIBRANCE_SATURATED
 msgid "Saturated Tones"
-msgstr ""
-
-#: TP_VIGNETTING_CENTER_X
-msgid "Center X"
-msgstr ""
-
-#: TP_VIGNETTING_CENTER_Y
-msgid "Center Y"
-msgstr ""
-
-#: TP_VIGNETTING_CENTER
-msgid "Center"
 msgstr ""
 
 #: TP_VIGNETTING_LABEL

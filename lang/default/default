@@ -443,6 +443,10 @@ HISTORY_MSG_205;CAM02 hot/bad pixels
 HISTORY_MSG_206;CAT02 - Adapt scene auto
 HISTORY_MSG_207;Defringing Hue curve
 HISTORY_MSG_208;Blue/Red Equalizer
+HISTORY_MSG_210;Graduated Filter
+HISTORY_MSG_211;Graduated Filter
+HISTORY_MSG_212;Vignette Filter
+HISTORY_MSG_213;Vignette Filter
 HISTORY_NEWSNAPSHOTAS;As...
 HISTORY_NEWSNAPSHOT;Add
 HISTORY_NEWSNAPSHOT_TOOLTIP;Shortcut: <b>Alt-s</b>
@@ -641,6 +645,7 @@ PARTIALPASTE_FLATFIELDAUTOSELECT;FF auto select
 PARTIALPASTE_FLATFIELDBLURRADIUS;FF blur radius
 PARTIALPASTE_FLATFIELDBLURTYPE;FF blur type
 PARTIALPASTE_FLATFIELDFILE;Flat field (FF) File
+PARTIALPASTE_GRADIENT;Graduated Filter
 PARTIALPASTE_HLRECONSTRUCTION;Highlight reconstruction
 PARTIALPASTE_HLRECOVERYAMOUNT;Highlight recovery amount
 PARTIALPASTE_HLRECOVERYTHRESHOLD;Highlight recovery threshold
@@ -656,6 +661,7 @@ PARTIALPASTE_LENSPROFILE;Lens correction profile
 PARTIALPASTE_LUMADENOISE;Luminance noise reduction
 PARTIALPASTE_LUMINANCEGROUP;Luminance related settings
 PARTIALPASTE_METAICMGROUP;Metadata/Color Management Settings
+PARTIALPASTE_PCVIGNETTE;Vignette Filter
 PARTIALPASTE_PERSPECTIVE;Perspective
 PARTIALPASTE_PREPROCESS_GREENEQUIL;Green equilibration
 PARTIALPASTE_PREPROCESS_HOTDEADPIXFILT;Apply hot/dead pixel filter
@@ -709,7 +715,7 @@ PREFERENCES_CIEART_LABEL;Use float precision instead of double
 PREFERENCES_CIEART_TOOLTIP;If enabled, CIECAM02 calculations are performed in the single-precision floating-point format instead of the double-precision one. This provides a small increase in speed at the expense of a negligible loss of quality
 PREFERENCES_CLIPPINGIND;Clipping Indication
 PREFERENCES_CMETRICINTENT;Colorimetric intent
-PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera]
+PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [RT's cache folder path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera make] [camera model]\n\n<b>WARNING:</b> You are responsible of using double quotes where necessary if you're using paths containing spaces.
 PREFERENCES_CUSTPROFBUILDPATH;Executable path
 PREFERENCES_CUSTPROFBUILD;Custom Processing Profile Builder
 PREFERENCES_CUTOVERLAYBRUSH;Crop mask color/transparency
@@ -1096,13 +1102,25 @@ TP_GAMMA_CURV;Gamma
 TP_GAMMA_FREE;Free gamma
 TP_GAMMA_OUTPUT;Output Gamma
 TP_GAMMA_SLOP;Slope (linear)
+TP_GRADIENT_CENTER;Center
+TP_GRADIENT_CENTER_X;Center X
+TP_GRADIENT_CENTER_X_TOOLTIP;Rotation anchor point X: -100=left edge, 0=center, +100=right edge
+TP_GRADIENT_CENTER_Y;Center Y
+TP_GRADIENT_CENTER_Y_TOOLTIP;Rotation anchor point Y: -100=top edge, 0=center, +100=bottom edge
+TP_GRADIENT_DEGREE;Angle
+TP_GRADIENT_DEGREE_TOOLTIP;Rotation angle in degrees
+TP_GRADIENT_FEATHER;Feather
+TP_GRADIENT_FEATHER_TOOLTIP;Gradient width in percent of the image diagonal
+TP_GRADIENT_LABEL;Graduated Filter
+TP_GRADIENT_STRENGTH;Strength
+TP_GRADIENT_STRENGTH_TOOLTIP;Filter strength in stops
 TP_HLREC_BLEND;Blend
 TP_HLREC_CIELAB;CIELab Blending
 TP_HLREC_COLOR;Color Propagation
 TP_HLREC_LABEL;Highlight Reconstruction
 TP_HLREC_LUMINANCE;Luminance Recovery
 TP_HLREC_METHOD;Method:
-TP_HSVEQUALIZER_CHANNEL;HSV Channel
+TP_HSVEQUALIZER_CHANNEL;Channel
 TP_HSVEQUALIZER_HUE;H
 TP_HSVEQUALIZER_LABEL;HSV Equalizer
 TP_HSVEQUALIZER_NEUTRAL;Neutral
@@ -1184,6 +1202,13 @@ TP_LUMADENOISE_LABEL;Luminance Noise Reduction
 TP_LUMADENOISE_RADIUS;Radius
 TP_NEUTRAL;Neutral
 TP_NEUTRAL_TIP;Reset exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not
+TP_PCVIGNETTE_FEATHER;Feather
+TP_PCVIGNETTE_FEATHER_TOOLTIP;Feathering: 0=corners only, 50=halfway to center, 100=to center
+TP_PCVIGNETTE_LABEL;Vignette Filter
+TP_PCVIGNETTE_ROUNDNESS;Roundness
+TP_PCVIGNETTE_ROUNDNESS_TOOLTIP;Roundness: 0=rectangle, 50=fitted ellipse, 100=circle
+TP_PCVIGNETTE_STRENGTH;Strength
+TP_PCVIGNETTE_STRENGTH_TOOLTIP;Filter strength in stops (reached in corners)
 TP_PERSPECTIVE_HORIZONTAL;Horizontal
 TP_PERSPECTIVE_LABEL;Perspective
 TP_PERSPECTIVE_VERTICAL;Vertical
@@ -1302,14 +1327,12 @@ TP_VIGNETTING_LABEL;Vignetting Correction
 TP_VIGNETTING_RADIUS;Radius
 TP_VIGNETTING_STRENGTH;Strength
 TP_WBALANCE_AUTO;Auto
-TP_WBALANCE_EQBLUERED;Blue/Red Equalizer
-TP_WBALANCE_EQBLUERED_TOOLTIP;Allows to deviate from the normal behavior of "white balance" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater)\nb) are far from conditions where calibrations were performed\nc) where the matrices or ICC profiles are unsuitable
 TP_WBALANCE_CAMERA;Camera
 TP_WBALANCE_CLOUDY;Cloudy
 TP_WBALANCE_CUSTOM;Custom
 TP_WBALANCE_DAYLIGHT;Daylight (sunny)
-TP_WBALANCE_WATER1;UnderWater 1
-TP_WBALANCE_WATER2;UnderWater 2
+TP_WBALANCE_EQBLUERED;Blue/Red Equalizer
+TP_WBALANCE_EQBLUERED_TOOLTIP;Allows to deviate from the normal behavior of "white balance" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater)\nb) are far from conditions where calibrations were performed\nc) where the matrices or ICC profiles are unsuitable
 TP_WBALANCE_FLASH55;Leica
 TP_WBALANCE_FLASH60;Standard, Canon, Pentax, Olympus
 TP_WBALANCE_FLASH65;Nikon, Panasonic, Sony, Minolta
@@ -1327,7 +1350,6 @@ TP_WBALANCE_FLUO10;F10 - Philips TL85
 TP_WBALANCE_FLUO11;F11 - Philips TL84
 TP_WBALANCE_FLUO12;F12 - Philips TL83
 TP_WBALANCE_FLUO_HEADER;Fluorescent
-TP_WBALANCE_WATER_HEADER;UnderWater
 TP_WBALANCE_GREEN;Tint
 TP_WBALANCE_GTI;GTI
 TP_WBALANCE_HMI;HMI
@@ -1347,6 +1369,9 @@ TP_WBALANCE_SOLUX47_NG;Solux 4700K (Nat. Gallery)
 TP_WBALANCE_SPOTWB;Spot WB
 TP_WBALANCE_TEMPERATURE;Temperature
 TP_WBALANCE_TUNGSTEN;Tungsten
+TP_WBALANCE_WATER1;UnderWater 1
+TP_WBALANCE_WATER2;UnderWater 2
+TP_WBALANCE_WATER_HEADER;UnderWater
 ZOOMBAR_DETAIL;Detail
 ZOOMBAR_HUGE;Huge
 ZOOMBAR_LARGE;Large
