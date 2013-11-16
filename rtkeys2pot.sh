@@ -27,8 +27,15 @@ do
   fi
 
   no_merge_flag=$(grep -c "$KEY_ID" $no_merge_file)
-  if [ "$old_text" = "$KEY_TEXT" -a "$no_merge_flag" = "0" ]
+  if [ "$no_merge_flag" = "1" ]
   then
+    # No merge key - immediatelly write key
+    echo "No merge key found: $KEY_ID"
+    echo "$KEY_ID;$no_merge_flag;$KEY_TEXT" >> $uniq_keys_file
+    continue
+  elif [ "$old_text" = "$KEY_TEXT" -a "$no_merge_flag" = "0" ]
+  then
+    # Duplicate key - merge with previous key(s)
     echo "Duplicated key found: $KEY_ID"
     keys_list+=",$KEY_ID"
     old_no_merge_flag=$no_merge_flag

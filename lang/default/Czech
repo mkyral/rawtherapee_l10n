@@ -26,6 +26,8 @@
 #25 12.09.2013: updated by mkyral
 #26 17.09.2013: updated by mkyral
 #27 06.11.2013: updated by mkyral
+#28 16.11.2013: updated by mkyral
+#29 17.11.2013: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -388,8 +390,34 @@ HISTORY_MSG_208;Korekce Modrá/červená
 HISTORY_MSG_21;Poloměr doostření
 HISTORY_MSG_210;Přechodový filtr
 HISTORY_MSG_211;Přechodový filtr
+HISTORY_MSG_212;Viněta
+HISTORY_MSG_213;Viněta
+HISTORY_MSG_214;Černobílá
+HISTORY_MSG_215;ČB Míchání kanálů  - červená
+HISTORY_MSG_216;ČB Míchání kanálů  - zelená
+HISTORY_MSG_217;ČB Míchání kanálů  - modrá
+HISTORY_MSG_218;ČB gama červená
+HISTORY_MSG_219;ČB gama zelená
 HISTORY_MSG_22;Míra doostření
+HISTORY_MSG_220;ČB gama modrá
+HISTORY_MSG_221;ČB barevný filtr
+HISTORY_MSG_222;ČB předvolby
+HISTORY_MSG_223;ČB Míchání kanálů  - oranžová
+HISTORY_MSG_224;ČB Míchání kanálů  - žlutá
+HISTORY_MSG_225;ČB Míchání kanálů  - tyrkysová
+HISTORY_MSG_226;ČB Míchání kanálů  - nachová
+HISTORY_MSG_227;ČB Míchání kanálů  - purpurová
+HISTORY_MSG_228;ČB jasová korekce
+HISTORY_MSG_229;ČB jasová korekce
 HISTORY_MSG_23;Práh doostření
+HISTORY_MSG_230;ČB režim 
+HISTORY_MSG_231;ČB křivka
+HISTORY_MSG_232;Typ ČB křivky
+HISTORY_MSG_233;ČB křivka
+HISTORY_MSG_234;Typ ČB křivky
+HISTORY_MSG_235;ČB automatické míchání kanálů
+HISTORY_MSG_236;ČB automatické míchání kanálů
+HISTORY_MSG_237;ČB vracení míchání
 HISTORY_MSG_24;Doostřit pouze okraje
 HISTORY_MSG_25;Poloměr detekce okrajů při doostření
 HISTORY_MSG_26;Tolerance okrajů při doostření
@@ -543,7 +571,7 @@ MAIN_BUTTON_NAVNEXT_TOOLTIP;Přejít k dalšímu obrázku relativnímu k obrázk
 MAIN_BUTTON_NAVPREV_TOOLTIP;Přejít k předchozímu obrázku relativnímu k obrázku otevřenému v editoru\nZkratka: <b>Shift-F3</b>\n\nPřejít k předchozímu obrázku relativnímu k vybranému náhledu v prohlížeči souborů \nZkratka: <b>F3</b>
 MAIN_BUTTON_NAVSYNC_TOOLTIP;Synchronizovat prohlížeč souborů s editorem pro zobrazení náhleduaktuálně otevřeného obrázku a smazání filtrů v prohlížeči souborů\nZkratka: <b>x</b>\n\nStejně jako výše, ale bez smazání filtrů v prohlížeči souborů\nZkratka: <b>y</b>\n(Náhled otevřeného obrázku nebude zobrazen pokud je filtrován).
 MAIN_BUTTON_PREFERENCES;Volby
-MAIN_BUTTON_PUTTOQUEUE_TOOLTIP;Vložit současný obrázek do fronty zpracování.\nZkratka: <b>Ctrl+Q</b>
+MAIN_BUTTON_PUTTOQUEUE_TOOLTIP;Vložit současný obrázek do fronty zpracování.\nZkratka: <b>Ctrl+B</b>
 MAIN_BUTTON_QUEUE;Vložit do fronty
 MAIN_BUTTON_SAVE_TOOLTIP;Uložit současný obrázek.\nZkratka: <b>Ctrl+S</b>
 MAIN_BUTTON_SENDTOEDITOR_TOOLTIP;Editovat současný obrázek v externím editoru.\nZkratka:  <b>Ctrl+E</b> 
@@ -670,12 +698,13 @@ PARTIALPASTE_FLATFIELDAUTOSELECT;FF Automatický výběr
 PARTIALPASTE_FLATFIELDBLURRADIUS;FF Poloměr rozostření
 PARTIALPASTE_FLATFIELDBLURTYPE;FF Typ rozostření
 PARTIALPASTE_FLATFIELDFILE;Flat Field (FF) Soubor
-PARTIALPASTE_GRADIENT;Postupný filtr
+PARTIALPASTE_GRADIENT;Přechodový filtr
 PARTIALPASTE_HLRECONSTRUCTION;Rekonstrukce světel
 PARTIALPASTE_HLRECOVERYAMOUNT;Míra obnovení světel
 PARTIALPASTE_HLRECOVERY;Obnovení světel
 PARTIALPASTE_HLRECOVERYTHRESHOLD;Práh obnovení světel
 PARTIALPASTE_HSVEQUALIZER;HSV korekce
+PARTIALPASTE_CHANNELMIXERBW;Černobílá
 PARTIALPASTE_CHANNELMIXER;Míchání kanálů
 PARTIALPASTE_ICMGAMMA;Výstupní gama
 PARTIALPASTE_ICMSETTINGS;Nastavení správy barev
@@ -687,6 +716,7 @@ PARTIALPASTE_LENSPROFILE;Korekční profil objektivu
 PARTIALPASTE_LUMADENOISE;Redukce šumu v jasech
 PARTIALPASTE_LUMINANCEGROUP;Nastavení jasu
 PARTIALPASTE_METAICMGROUP;Nastavení metadat a správy barev
+PARTIALPASTE_PCVIGNETTE;Viněta
 PARTIALPASTE_PERSPECTIVE;Perspektiva
 PARTIALPASTE_PREPROCESS_GREENEQUIL;Vyrovnání zelené
 PARTIALPASTE_PREPROCESS_HOTDEADPIXFILT;Aplikovat filtr na vypálené/mrtvé body
@@ -952,6 +982,76 @@ TOOLBAR_TOOLTIP_CROP;Vyznačení výřezu.\nZkratka: <b>c</b>
 TOOLBAR_TOOLTIP_HAND;Nástroj ruka.\nZkratka: <b>h</b>
 TOOLBAR_TOOLTIP_STRAIGHTEN;Vyznačení <b>roviny</b> / <b>rotace</b>.\nZkratka: <b>s</b> \n\nZobrazení míry rotace pomocí vodící linky na náhledu snímky. Úhel rotace je zobrazen vedle vodící linky. Střed rotace je geometrický střed snímku.
 TOOLBAR_TOOLTIP_WB;Bodové vyvážení bílé.\nZkratka: <b>w</b>
+TP_BWMIX_AUTOCH;Automaticky
+TP_BWMIX_AUTOCH_TIP;Spočítá optimální hodnoty pro michání kanálů
+TP_BWMIX_BLUE;Modrá
+TP_BWMIX_CC_ENABLED;Doplňková barva
+TP_BWMIX_CC_TOOLTIP;Povolením zapnete automatické korekce doplňkových barev v režimu ROYGCBMP
+TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP;Tónová křivka na konci úprav - po převodu na černobílou fotografii
+TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP;Tónová křivka před převodem na černobílou fotografii\nmůže vzít v potaz barevné složky
+TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Změní jas dle odstínu\nUvědomte si, že extrémní hodnoty mohou způsobovat artefakty.
+TP_BWMIX_CURVEEDITOR1;Před konverzí na ČB
+TP_BWMIX_CURVEEDITOR2;Po konverzi na ČB
+TP_BWMIX_CYAN;Tyrkysová
+TP_BWMIX_FILTER;Barevný filtr
+TP_BWMIX_FILTER_TOOLTIP;Efekt barevného filtru je podobný focení na film s nasazeným barevným filtrem. Barevný filtr omezuje průchod specifického rozsahu barev a způsobuje tak jejich zesvětlení. Například červený filtr způsobí ztmavení modré oblohy.
+TP_BWMIX_FILTER0;Žádný
+TP_BWMIX_FILTER1;Červený
+TP_BWMIX_FILTER2;Oranžový
+TP_BWMIX_FILTER3;Žlutý
+TP_BWMIX_FILTER4;Žlutozelený
+TP_BWMIX_FILTER5;Zelený
+TP_BWMIX_FILTER6;Tyrkysový
+TP_BWMIX_FILTER7;Modrý
+TP_BWMIX_FILTER8;Nachový
+TP_BWMIX_GAM_BLUE;Gama korekce modrého kanálu
+TP_BWMIX_GAM_GREEN;Gama korekce zeleného kanálu
+TP_BWMIX_GAMMA;Gama korekce
+TP_BWMIX_GAMM;Gama korekce
+TP_BWMIX_GAM_RED;Gama korekce červeného kanálu
+TP_BWMIX_GAM_TOOLTIP;Gama korekce jako křivka ICC TRC pro každý R, G, B kanál
+TP_BWMIX_GREEN;Zelená
+TP_BWMIX_CHANNEL;Korekce jasu
+TP_BWMIX_MAG;Nachová
+TP_BWMIX_MET;Metoda
+TP_BWMIX_MET_TOOLTIP;Vyberte typ odbarvení - míchání světel - míchání kanálů
+TP_BWMIX_MET0;Žádná
+TP_BWMIX_MET1;Odbarvení
+TP_BWMIX_MET2;Korekce jasu
+TP_BWMIX_MET3;Míchání kanálů
+TP_BWMIX_MIXC;Míchání
+TP_BWMIX_MIXF;Filtry míchání
+TP_BWMIX_NEUTRAL_TIP;Vrátí všechny posuvníky, filtry a mixéry kanálů na výchozí pozice
+TP_BWMIX_NEUTRAL;Vrátit míchání
+TP_BWMIX_ORA;Oranžová
+TP_BWMIX_PUR;Purpurová
+TP_BWMIX_RED;Červená
+TP_BWMIX_RGB_TOOLTIP;Mísení RGB kanálů v požadovaném poměru. Jako vodítko můžete použít uložená přednastavení.\nPovšimněte si prosím, že záporné hodnoty mohou vést ke vzniku artefaktů nebo chybnému chování.
+TP_BWMIX_SETTING_TOOLTIP;Uložená přednastavení - filmy - krajina - nebo vlastní míchání kanálů 
+TP_BWMIX_SETTING;Uložené předvolby
+TP_BWMIX_SET0;Normální kontrast
+TP_BWMIX_SET1;Vysoký kontrast
+TP_BWMIX_SET10;Míchání kanálů  - úplné RGB
+TP_BWMIX_SET11;Míchání kanálů  - relativní RGB
+TP_BWMIX_SET12;Míchání kanálů  - úplné ROYGCBMP
+TP_BWMIX_SET13;Míchání kanálů  - relativní ROYGCBMP
+TP_BWMIX_SET14;Infračervená
+TP_BWMIX_SET2;Jas
+TP_BWMIX_SET3;Krajina
+TP_BWMIX_SET4;Portrét
+TP_BWMIX_SET5;Nízká citlivost
+TP_BWMIX_SET6;Vysoká citlivost
+TP_BWMIX_SET7;Panchromatic
+TP_BWMIX_SET8;Hyper Panchromatic
+TP_BWMIX_SET9;Orthochromatic
+TP_BWMIX_TCMODE_FILMLIKE;ČB Jako film
+TP_BWMIX_TCMODE_LABEL1;ČB křivka před
+TP_BWMIX_TCMODE_LABEL2;ČB křivka po
+TP_BWMIX_TCMODE_SATANDVALBLENDING;ČB Mísení saturace a hodnoty
+TP_BWMIX_TCMODE_STANDARD;ČB Běžný
+TP_BWMIX_TCMODE_WEIGHTEDSTD;ČB Běžný vážený
+TP_BWMIX_VAL;L
+TP_BWMIX_YEL;Žlutá
 TP_CACORRECTION_BLUE;Modrá
 TP_CACORRECTION_LABEL;Úprava chromatické vady
 TP_CACORRECTION_RED;Červená
@@ -1131,7 +1231,7 @@ TP_GRADIENT_DEGREE_TOOLTIP;Úhel otočení ve stupních
 TP_GRADIENT_DEGREE;Úhel
 TP_GRADIENT_FEATHER;Rozptyl
 TP_GRADIENT_FEATHER_TOOLTIP;Šíře přechodu v procentech uhlopříčky obrázku
-TP_GRADIENT_LABEL;Postupný filtr
+TP_GRADIENT_LABEL;Přechodový filtr
 TP_GRADIENT_STRENGTH;Síla
 TP_GRADIENT_STRENGTH_TOOLTIP;Síla filtru v expozičních stupních
 TP_HLREC_BLEND;Mísení
@@ -1147,6 +1247,7 @@ TP_HSVEQUALIZER_NEUTRAL;Neutrální
 TP_HSVEQUALIZER_SAT;S
 TP_HSVEQUALIZER_VAL;V
 TP_CHMIXER_BLUE;Modrý kanál
+TP_CHMIXERBW_LABEL;Černobílá fotografie
 TP_CHMIXER_GREEN;Zelený kanál
 TP_CHMIXER_LABEL;Míchání kanálů
 TP_CHMIXER_RED;Červený kanál
@@ -1227,6 +1328,13 @@ TP_LUMADENOISE_LABEL;Redukce šumu v jasech
 TP_LUMADENOISE_RADIUS;Poloměr
 TP_NEUTRAL;Neutrální
 TP_NEUTRAL_TIP;Nastaví posuvníky expozice na neutrální hodnoty,\nPoužije stejné kontroly jako volba "Automatické úrovně" bez ohledu na to, zda jsou nebo nejsou Automatické úrovně použity
+TP_PCVIGNETTE_FEATHER;Rozptyl
+TP_PCVIGNETTE_FEATHER_TOOLTIP;Rozptyl: 0 = pouze rohy, 50 = napůl do středu, 100 = do středu
+TP_PCVIGNETTE_LABEL;Viněta
+TP_PCVIGNETTE_ROUNDNESS_TOOLTIP;Zaoblení: 0 = čtverec, 50 = elipsa, 100 = kruh
+TP_PCVIGNETTE_ROUNDNESS;Zaoblení
+TP_PCVIGNETTE_STRENGTH;Síla
+TP_PCVIGNETTE_STRENGTH_TOOLTIP;Síla filtru v expozičních stupních (v rozích)
 TP_PERSPECTIVE_HORIZONTAL;Vodorovně
 TP_PERSPECTIVE_LABEL;Perspektiva
 TP_PERSPECTIVE_VERTICAL;Svisle
