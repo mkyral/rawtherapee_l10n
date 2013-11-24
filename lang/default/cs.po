@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-11-17 20:50+0100\n"
-"PO-Revision-Date: 2013-11-17 20:55+0100\n"
+"POT-Creation-Date: 2013-11-19 20:10+0100\n"
+"PO-Revision-Date: 2013-11-24 18:58+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1582,9 +1582,8 @@ msgid "Sharpening"
 msgstr "Doostření"
 
 #: HISTORY_MSG_200
-#, fuzzy
 msgid "CAM02 - Tone mapping using CIECAM02 Q"
-msgstr "CAM02 - Mapování tónů pomocí CIECAM02 (Q)"
+msgstr "CAM02 - Mapování tónů pomocí CIECAM02 Q"
 
 #: HISTORY_MSG_201
 msgid "NR - Delta Chrominance red"
@@ -1631,36 +1630,30 @@ msgid "Vignette Filter"
 msgstr "Viněta"
 
 #: HISTORY_MSG_213
-#, fuzzy
 msgid "Vignette Filter - Strength"
-msgstr "Viněta"
+msgstr "Viněta - síla"
 
 #: HISTORY_MSG_214
 msgid "Black and White"
 msgstr "Černobílá fotografie"
 
 #: HISTORY_MSG_215
-#, fuzzy
 msgid "BW Channel Mixer Red"
 msgstr "ČB Míchání kanálů  - červená"
 
 #: HISTORY_MSG_216
-#, fuzzy
 msgid "BW Channel Mixer Green"
 msgstr "ČB Míchání kanálů  - zelená"
 
 #: HISTORY_MSG_217
-#, fuzzy
 msgid "BW Channel Mixer Blue"
 msgstr "ČB Míchání kanálů  - modrá"
 
 #: HISTORY_MSG_218
-#, fuzzy
 msgid "BW Red Gamma"
 msgstr "ČB gama červená"
 
 #: HISTORY_MSG_219
-#, fuzzy
 msgid "BW Green Gamma"
 msgstr "ČB gama zelená"
 
@@ -1681,32 +1674,26 @@ msgid "BW Presets"
 msgstr "ČB předvolby"
 
 #: HISTORY_MSG_223
-#, fuzzy
 msgid "BW Channel Mixer Orange"
 msgstr "ČB Míchání kanálů  - oranžová"
 
 #: HISTORY_MSG_224
-#, fuzzy
 msgid "BW Channel Mixer Yellow"
 msgstr "ČB Míchání kanálů  - žlutá"
 
 #: HISTORY_MSG_225
-#, fuzzy
 msgid "BW Channel Mixer Cyan"
 msgstr "ČB Míchání kanálů  - tyrkysová"
 
 #: HISTORY_MSG_226
-#, fuzzy
 msgid "BW Channel Mixer Magenta"
 msgstr "ČB Míchání kanálů  - nachová"
 
 #: HISTORY_MSG_227
-#, fuzzy
 msgid "BW Channel Mixer Purple"
 msgstr "ČB Míchání kanálů  - purpurová"
 
 #: HISTORY_MSG_228,HISTORY_MSG_229
-#, fuzzy
 msgid "BW Luminance Equalizer"
 msgstr "ČB jasová korekce"
 
@@ -1715,73 +1702,64 @@ msgid "Sharpening Threshold"
 msgstr "Práh doostření"
 
 #: HISTORY_MSG_230
-#, fuzzy
 msgid "BW Black and White Mode"
-msgstr "ČB režim "
+msgstr "Černobílý režim"
 
 #: HISTORY_MSG_231,HISTORY_MSG_233
-#, fuzzy
 msgid "BW Curve"
 msgstr "ČB křivka"
 
 #: HISTORY_MSG_232,HISTORY_MSG_234
-#, fuzzy
 msgid "BW Curve Type"
-msgstr "Typ ČB křivky"
+msgstr "ČB typ křivky"
 
 #: HISTORY_MSG_235,HISTORY_MSG_236
-#, fuzzy
 msgid "BW Auto Channel Mixer"
 msgstr "ČB automatické míchání kanálů"
 
 #: HISTORY_MSG_237
-#, fuzzy
 msgid "BW Reset Mixer"
 msgstr "ČB vracení míchání"
 
 #: HISTORY_MSG_238
-#, fuzzy
 msgid "Gradient - Feather"
-msgstr "Průchody gradientu"
+msgstr "Přechod - rozptyl"
 
 #: HISTORY_MSG_239
-#, fuzzy
 msgid "Gradient - Strength"
-msgstr "Ostrost - síla gradientu"
+msgstr "Přechod - síla"
 
 #: HISTORY_MSG_24,TP_SHARPENING_ONLYEDGES
 msgid "Sharpen only edges"
 msgstr "Doostřit pouze okraje"
 
 #: HISTORY_MSG_240
-#, fuzzy
 msgid "Gradient - Center"
-msgstr "Průchody gradientu"
+msgstr "Přechod - střed"
 
 #: HISTORY_MSG_241
-#, fuzzy
 msgid "Vignette Filter - Feather"
-msgstr "Viněta"
+msgstr "Viněta - rozptyl"
 
 #: HISTORY_MSG_242
-#, fuzzy
 msgid "Vignette Filter - Roundness"
-msgstr "Viněta"
+msgstr "Viněta - zaoblení"
 
 #: HISTORY_MSG_243
-#, fuzzy
 msgid "Vignetting - Rayon"
-msgstr "Korekce vinětace"
+msgstr "Vinětace - oblast"
 
 #: HISTORY_MSG_244
-#, fuzzy
 msgid "Vignetting - Strength"
-msgstr "Korekce vinětace"
+msgstr "Vinětace - síla"
 
 #: HISTORY_MSG_245
-#, fuzzy
 msgid "Vignetting - Center"
-msgstr "Úprava vinětace"
+msgstr "Vinětace - střed"
+
+#: HISTORY_MSG_246
+msgid "CL curve"
+msgstr "CL křivka"
 
 #: HISTORY_MSG_25
 msgid "Sharpening Edge Detection Radius"
@@ -1888,8 +1866,8 @@ msgid "Use DCP's tone curve"
 msgstr "Použita tónová křivka DCP"
 
 #: HISTORY_MSG_49
-msgid "Edge Sensitive Color Denoising"
-msgstr "Redukce barevného šumu s ohledem na okraje"
+msgid "DCP Illuminant"
+msgstr "DCP osvětlení"
 
 #: HISTORY_MSG_5,TP_COLORAPP_TCMODE_LIGHTNESS,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
 msgid "Lightness"
@@ -1984,9 +1962,8 @@ msgid "Input Color Space"
 msgstr "Vstupní barevný prostor"
 
 #: HISTORY_MSG_72
-#, fuzzy
 msgid "Vignetting - Amount"
-msgstr "Korekce vinětace"
+msgstr "Vinětace - objem"
 
 #: HISTORY_MSG_73,TP_BWMIX_MET3,TP_CHMIXER_LABEL
 msgid "Channel Mixer"
@@ -3295,7 +3272,7 @@ msgstr ""
 msgid "All to 'Set'"
 msgstr "Vše do 'Nastavit'"
 
-#: PREFERENCES_BLACKBODY,TP_ICM_PREFERREDPROFILE_2,TP_WBALANCE_TUNGSTEN
+#: PREFERENCES_BLACKBODY,TP_WBALANCE_TUNGSTEN
 msgid "Tungsten"
 msgstr "Wolfram"
 
@@ -3391,16 +3368,15 @@ msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME
 msgid "Name"
-msgstr ""
+msgstr "Jméno"
 
 #: PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID
 msgid "TagID"
-msgstr ""
+msgstr "TagID"
 
 #: PREFERENCES_CUSTPROFBUILDKEYFORMAT
-#, fuzzy
 msgid "Keys format"
-msgstr "Formát data"
+msgstr "Formát klíče"
 
 #: PREFERENCES_CUSTPROFBUILDPATH
 msgid "Executable path"
@@ -4470,12 +4446,10 @@ msgstr ""
 "Povolením zapnete automatické korekce doplňkových barev v režimu ROYGCBMP"
 
 #: TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP
-#, fuzzy
 msgid "Tone curve, after B&amp;W conversion, at the end of treatment"
 msgstr "Tónová křivka na konci úprav - po převodu na černobílou fotografii"
 
 #: TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP
-#, fuzzy
 msgid ""
 "Tone curve, just before B&amp;W conversion\n"
 "May take into account the color components"
@@ -4484,7 +4458,6 @@ msgstr ""
 "může vzít v potaz barevné složky"
 
 #: TP_BWMIX_CURVEEDITOR_LH_TOOLTIP
-#, fuzzy
 msgid ""
 "Modify luminance in function of hue\n"
 "Pay attention to extreme values that may cause artifacts"
@@ -4493,22 +4466,18 @@ msgstr ""
 "Uvědomte si, že extrémní hodnoty mohou způsobovat artefakty."
 
 #: TP_BWMIX_CURVEEDITOR1
-#, fuzzy
 msgid "Before B&W conv."
 msgstr "Před konverzí na ČB"
 
 #: TP_BWMIX_CURVEEDITOR2
-#, fuzzy
 msgid "After B&W conv."
 msgstr "Po konverzi na ČB"
 
 #: TP_BWMIX_CYAN
-#, fuzzy
 msgid "Cyan Filter"
-msgstr "Filtr"
+msgstr "Tyrkysový filtr"
 
 #: TP_BWMIX_FILTER_TOOLTIP
-#, fuzzy
 msgid ""
 "The color filter simulate shots taken with a colored filter placed in front "
 "of the lens. Colored filters reduce transmission of specific range of colors "
@@ -4587,28 +4556,24 @@ msgid "Red Channel"
 msgstr "Červený kanál"
 
 #: TP_BWMIX_GAM_TOOLTIP
-#, fuzzy
 msgid "Correct gamma for each channel RGB as an ICC TRC curve"
 msgstr "Gama korekce jako křivka ICC TRC pro každý R, G, B kanál"
 
 #: TP_BWMIX_GREEN
-#, fuzzy
 msgid "Green"
-msgstr "Zelený"
+msgstr "Zelený filtr"
 
 #: TP_BWMIX_CHANNEL,TP_BWMIX_MET2
 msgid "Luminance Equalizer"
 msgstr "Korekce jasu"
 
 #: TP_BWMIX_LABEL
-#, fuzzy
 msgid "Black&amp;White"
 msgstr "Černobílá fotografie"
 
 #: TP_BWMIX_MAG
-#, fuzzy
 msgid "Magenta Filter"
-msgstr "Nachová"
+msgstr "Nachový filtr"
 
 #: TP_BWMIX_MET_TOOLTIP
 msgid "Select between desaturation - mixer luminance - channel mixer"
@@ -4645,43 +4610,38 @@ msgid "Reset mixer"
 msgstr "Vrátit míchání"
 
 #: TP_BWMIX_ORA
-#, fuzzy
 msgid "Orange Filter"
-msgstr "Přechodový filtr"
+msgstr "Oranžový filtr"
 
 #: TP_BWMIX_PUR
-#, fuzzy
 msgid "Purple Filter"
-msgstr "Purpurová"
+msgstr "Purpurový filtr"
 
 #: TP_BWMIX_RED,TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
 msgid "Red"
 msgstr "Červená"
 
 #: TP_BWMIX_RGB_TOOLTIP
-#, fuzzy
 msgid ""
 "Mix the RGB channels. Use Presets for guidance.\n"
 "Pay attention to negative values that may cause artifacts or erratic "
 "behavior."
 msgstr ""
-"Mísení RGB kanálů v požadovaném poměru. Jako vodítko můžete použít uložená "
+"Mísení RGB kanálů. Jako vodítko můžete použít uložená "
 "přednastavení.\n"
 "Povšimněte si prosím, že záporné hodnoty mohou vést ke vzniku artefaktů nebo "
 "chybnému chování."
 
 #: TP_BWMIX_SETTING_TOOLTIP
-#, fuzzy
 msgid ""
 "Different presets (films, landscape, ...) or manual settings of channel-mixer"
-msgstr "Uložená přednastavení - filmy - krajina - nebo vlastní míchání kanálů "
+msgstr "Různá přednastavení (filmy, krajina, ...) nebo vlastní míchání kanálů"
 
 #: TP_BWMIX_SETTING
 msgid "Presets"
 msgstr "Uložené předvolby"
 
 #: TP_BWMIX_SET0
-#, fuzzy
 msgid "Normal Contrast"
 msgstr "Normální kontrast"
 
@@ -4744,39 +4704,32 @@ msgid "Orthochromatic"
 msgstr "Orthochromatic"
 
 #: TP_BWMIX_TCMODE_FILMLIKE
-#, fuzzy
 msgid "B&W Film-like"
 msgstr "ČB Jako film"
 
 #: TP_BWMIX_TCMODE_LABEL1
-#, fuzzy
 msgid "B&W Curve Before"
 msgstr "ČB křivka před"
 
 #: TP_BWMIX_TCMODE_LABEL2
-#, fuzzy
 msgid "B&W Curve After"
 msgstr "ČB křivka po"
 
 #: TP_BWMIX_TCMODE_SATANDVALBLENDING
-#, fuzzy
 msgid "B&W Saturation and Value Blending"
 msgstr "ČB Mísení saturace a hodnoty"
 
 #: TP_BWMIX_TCMODE_STANDARD
-#, fuzzy
 msgid "B&W Standard"
 msgstr "ČB Běžný"
 
 #: TP_BWMIX_TCMODE_WEIGHTEDSTD
-#, fuzzy
 msgid "B&W Weighted Standard"
 msgstr "ČB Běžný vážený"
 
 #: TP_BWMIX_YEL
-#, fuzzy
 msgid "Yellow Filter"
-msgstr "Barevný filtr"
+msgstr "Žlutý filtr"
 
 #: TP_CACORRECTION_LABEL
 msgid "CA Correction"
@@ -5610,6 +5563,25 @@ msgid "Enable to recover blown highlights when using LUT based ICC profiles"
 msgstr ""
 "Povolit obnovení vypálených jasů při použití ICC profilů založených na LUT"
 
+#: TP_ICM_DCPILLUMINANT_INTERPOLATED
+msgid "Interpolated"
+msgstr "Interpolované"
+
+#: TP_ICM_DCPILLUMINANT_TOOLTIP
+msgid ""
+"Select which embedded DCP illuminant to employ. Default is \"interpolated\" "
+"which is a mix between the two based on white balance. The setting is only "
+"enabled if a Dual-Illuminant DCP with interpolation support is selected."
+msgstr ""
+"Vyberte které vložené DCP osvětlení se má použít. Ve výchozím stavu se "
+"použije \"interpolované\", což je mix mezi dvěma osvětleními založenými na "
+"vyvážení bílé. Nastavené je dostupné pouze v případě, že je povoleno dvojité "
+"DCP osvětlení s podporou interpolace."
+
+#: TP_ICM_DCPILLUMINANT
+msgid "Illuminant"
+msgstr "Osvětlení"
+
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
 msgid ""
 "Use RawTherapee's camera-specific DCP or ICC input color profiles. These "
@@ -5678,30 +5650,17 @@ msgstr "Vybrat výstupní ICC profil..."
 msgid "Output Profile"
 msgstr "Výstupní barevný prostor"
 
-#: TP_ICM_PREFERREDPROFILE
-msgid "Preferred DCP profile"
-msgstr "Preferovaný DCP profil"
-
-#: TP_ICM_PREFERREDPROFILE_1
-msgid "Daylight"
-msgstr "Denní světlo"
-
-#: TP_ICM_PREFERREDPROFILE_3,TP_WBALANCE_FLUO_HEADER
-msgid "Fluorescent"
-msgstr "Fluorescenční"
-
-#: TP_ICM_PREFERREDPROFILE_4,TP_WBALANCE_FLASH_HEADER
-msgid "Flash"
-msgstr "Blesk"
-
 #: TP_ICM_SAVEREFERENCE
 msgid "Save Reference Image for Profiling"
 msgstr "Uložit referenční obrázek pro profilování"
 
 #: TP_ICM_TONECURVE_TOOLTIP
-msgid "Enable to use tone curves that may be contained in DCP profiles."
+msgid ""
+"Employ the embedded DCP tone curve. The setting is only enabled if the "
+"selected DCP has a tone curve."
 msgstr ""
-"Povolit použití tónových křivek jenž mohou být uloženy v DCP profilech."
+"Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze "
+"v případě, že DCP obsahuje tónovou křivku."
 
 #: TP_ICM_WORKINGPROFILE
 msgid "Working Profile"
@@ -5787,6 +5746,14 @@ msgstr ""
 #: TP_LABCURVE_CURVEEDITOR_CC
 msgid "CC"
 msgstr "CC"
+
+#: TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP
+msgid "Chromaticity according to the luminance"
+msgstr "Barevnost dle odstínu"
+
+#: TP_LABCURVE_CURVEEDITOR_CL
+msgid "CL"
+msgstr "CL"
 
 #: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
 msgid "Chromaticity according to the hue"
@@ -6221,6 +6188,10 @@ msgstr ""
 "b) podmínky se velmi liší od podmínek za kterých probíhala kalibrace\n"
 "c) nevhodné snímače nebo ICC profily"
 
+#: TP_WBALANCE_FLASH_HEADER
+msgid "Flash"
+msgstr "Blesk"
+
 #: TP_WBALANCE_FLASH55
 msgid "Leica"
 msgstr "Leica"
@@ -6232,6 +6203,10 @@ msgstr "Standard, Canon, Pentax, Olympus"
 #: TP_WBALANCE_FLASH65
 msgid "Nikon, Panasonic, Sony, Minolta"
 msgstr "Nikon, Panasonic, Sony, Minolta"
+
+#: TP_WBALANCE_FLUO_HEADER
+msgid "Fluorescent"
+msgstr "Fluorescenční"
 
 #: TP_WBALANCE_FLUO1
 msgid "F1 - Daylight"
@@ -6420,6 +6395,19 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Edge Sensitive Color Denoising"
+#~ msgstr "Redukce barevného šumu s ohledem na okraje"
+
+#~ msgid "Preferred DCP profile"
+#~ msgstr "Preferovaný DCP profil"
+
+#~ msgid "Daylight"
+#~ msgstr "Denní světlo"
+
+#~ msgid "Enable to use tone curves that may be contained in DCP profiles."
+#~ msgstr ""
+#~ "Povolit použití tónových křivek jenž mohou být uloženy v DCP profilech."
 
 #~ msgid "Mixer blue"
 #~ msgstr "Modrá"
@@ -6983,9 +6971,6 @@ msgstr "(100%)"
 
 #~ msgid "Value"
 #~ msgstr "Hodnota"
-
-#~ msgid "Lab curve"
-#~ msgstr "Lab křivka"
 
 #~ msgid "Saving file..."
 #~ msgstr "Ukládání souboru..."

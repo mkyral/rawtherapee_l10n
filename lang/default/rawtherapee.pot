@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-11-17 20:50+0100\n"
+"POT-Creation-Date: 2013-11-19 20:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1569,6 +1569,10 @@ msgstr ""
 msgid "Vignetting - Center"
 msgstr ""
 
+#: HISTORY_MSG_246
+msgid "CL curve"
+msgstr ""
+
 #: HISTORY_MSG_25
 msgid "Sharpening Edge Detection Radius"
 msgstr ""
@@ -1674,7 +1678,7 @@ msgid "Use DCP's tone curve"
 msgstr ""
 
 #: HISTORY_MSG_49
-msgid "Edge Sensitive Color Denoising"
+msgid "DCP Illuminant"
 msgstr ""
 
 #: HISTORY_MSG_5,TP_COLORAPP_TCMODE_LIGHTNESS,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
@@ -2825,7 +2829,7 @@ msgstr ""
 msgid "All to 'Set'"
 msgstr ""
 
-#: PREFERENCES_BLACKBODY,TP_ICM_PREFERREDPROFILE_2,TP_WBALANCE_TUNGSTEN
+#: PREFERENCES_BLACKBODY,TP_WBALANCE_TUNGSTEN
 msgid "Tungsten"
 msgstr ""
 
@@ -4609,6 +4613,18 @@ msgstr ""
 msgid "Enable to recover blown highlights when using LUT based ICC profiles"
 msgstr ""
 
+#: TP_ICM_DCPILLUMINANT_INTERPOLATED
+msgid "Interpolated"
+msgstr ""
+
+#: TP_ICM_DCPILLUMINANT_TOOLTIP
+msgid "Select which embedded DCP illuminant to employ. Default is \"interpolated\" which is a mix between the two based on white balance. The setting is only enabled if a Dual-Illuminant DCP with interpolation support is selected."
+msgstr ""
+
+#: TP_ICM_DCPILLUMINANT
+msgid "Illuminant"
+msgstr ""
+
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
 msgid "Use RawTherapee's camera-specific DCP or ICC input color profiles. These profiles are more precise than simpler matrix ones. They are not available for all cameras. These profiles are stored in the /iccprofiles/input and /dcpprofiles folders and are automatically retrieved based on a file name matching to the exact model name of the camera."
 msgstr ""
@@ -4661,28 +4677,12 @@ msgstr ""
 msgid "Output Profile"
 msgstr ""
 
-#: TP_ICM_PREFERREDPROFILE
-msgid "Preferred DCP profile"
-msgstr ""
-
-#: TP_ICM_PREFERREDPROFILE_1
-msgid "Daylight"
-msgstr ""
-
-#: TP_ICM_PREFERREDPROFILE_3,TP_WBALANCE_FLUO_HEADER
-msgid "Fluorescent"
-msgstr ""
-
-#: TP_ICM_PREFERREDPROFILE_4,TP_WBALANCE_FLASH_HEADER
-msgid "Flash"
-msgstr ""
-
 #: TP_ICM_SAVEREFERENCE
 msgid "Save Reference Image for Profiling"
 msgstr ""
 
 #: TP_ICM_TONECURVE_TOOLTIP
-msgid "Enable to use tone curves that may be contained in DCP profiles."
+msgid "Employ the embedded DCP tone curve. The setting is only enabled if the selected DCP has a tone curve."
 msgstr ""
 
 #: TP_ICM_WORKINGPROFILE
@@ -4751,6 +4751,14 @@ msgstr ""
 
 #: TP_LABCURVE_CURVEEDITOR_CC
 msgid "CC"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP
+msgid "Chromaticity according to the luminance"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CL
+msgid "CL"
 msgstr ""
 
 #: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
@@ -5137,6 +5145,10 @@ msgstr ""
 msgid "Allows to deviate from the normal behavior of \"white balance\" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater)\nb) are far from conditions where calibrations were performed\nc) where the matrices or ICC profiles are unsuitable"
 msgstr ""
 
+#: TP_WBALANCE_FLASH_HEADER
+msgid "Flash"
+msgstr ""
+
 #: TP_WBALANCE_FLASH55
 msgid "Leica"
 msgstr ""
@@ -5147,6 +5159,10 @@ msgstr ""
 
 #: TP_WBALANCE_FLASH65
 msgid "Nikon, Panasonic, Sony, Minolta"
+msgstr ""
+
+#: TP_WBALANCE_FLUO_HEADER
+msgid "Fluorescent"
 msgstr ""
 
 #: TP_WBALANCE_FLUO1
