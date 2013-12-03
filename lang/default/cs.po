@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-11-19 20:10+0100\n"
-"PO-Revision-Date: 2013-11-24 18:58+0100\n"
+"POT-Creation-Date: 2013-12-09 20:10+0100\n"
+"PO-Revision-Date: 2013-12-09 20:08+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -448,7 +448,7 @@ msgstr ""
 "Shift-Ctrl-2 Žlutý\n"
 "Shift-Ctrl-3 Zelený\n"
 "Shift-Ctrl-4 Modrý\n"
-"Shift-Ctrl-5 Nachový"
+"Shift-Ctrl-5 Fialový"
 
 #: FILEBROWSER_COPYPROFILE
 msgid "Copy"
@@ -564,7 +564,7 @@ msgstr "Štítek: Modrý"
 
 #: FILEBROWSER_POPUPCOLORLABEL5
 msgid "Label: Purple"
-msgstr "Štítek: Růžový"
+msgstr "Štítek: Fialový"
 
 #: FILEBROWSER_POPUPCOPYTO
 msgid "Copy to..."
@@ -1013,7 +1013,7 @@ msgstr "Soubor"
 msgid "High quality"
 msgstr "Vysoká kvalita"
 
-#: GENERAL_LANDSCAPE
+#: GENERAL_LANDSCAPE,TP_BWMIX_SET_LANDSCAPE
 msgid "Landscape"
 msgstr "Na šířku"
 
@@ -1025,7 +1025,7 @@ msgstr "Načíst"
 msgid "n/a"
 msgstr "n/a"
 
-#: GENERAL_NONE,TP_CROP_GTNONE
+#: GENERAL_NONE,TP_BWMIX_FILTER_NONE,TP_CROP_GTNONE
 msgid "None"
 msgstr "Nic"
 
@@ -1037,7 +1037,7 @@ msgstr "Ne"
 msgid "OK"
 msgstr "OK"
 
-#: GENERAL_PORTRAIT
+#: GENERAL_PORTRAIT,TP_BWMIX_SET_PORTRAIT
 msgid "Portrait"
 msgstr "Na výšku"
 
@@ -1201,7 +1201,7 @@ msgstr "Změna rozměrů aplikována na"
 msgid "Avoid color shift"
 msgstr "Zabránit posunu barev"
 
-#: HISTORY_MSG_112
+#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236
 msgid "--unused--"
 msgstr "--nepoužito--"
 
@@ -1437,10 +1437,6 @@ msgstr "RGB křivky - B"
 msgid "Neutral Levels"
 msgstr "Neutrální úrovně"
 
-#: HISTORY_MSG_167
-msgid "B&amp;W toning"
-msgstr "Černobílé tónování"
-
 #: HISTORY_MSG_168
 msgid "'CC' curve"
 msgstr "'CC' křivka"
@@ -1463,7 +1459,7 @@ msgstr "'LC' křivka"
 
 #: HISTORY_MSG_172,TP_LABCURVE_LCREDSK
 msgid "Restrict LC to red and skin tones"
-msgstr "Omezit LC na tóny červené a pletiS"
+msgstr "Omezit LC na tóny červené a pleti"
 
 #: HISTORY_MSG_173
 msgid "NR - Luminance Detail"
@@ -1634,27 +1630,27 @@ msgid "Vignette Filter - Strength"
 msgstr "Viněta - síla"
 
 #: HISTORY_MSG_214
-msgid "Black and White"
+msgid "Black &amp; White"
 msgstr "Černobílá fotografie"
 
 #: HISTORY_MSG_215
-msgid "BW Channel Mixer Red"
-msgstr "ČB Míchání kanálů  - červená"
+msgid "B&amp;W Channel Mixer Red"
+msgstr "ČB Míchání kanálů - červená"
 
 #: HISTORY_MSG_216
-msgid "BW Channel Mixer Green"
-msgstr "ČB Míchání kanálů  - zelená"
+msgid "B&amp;W Channel Mixer Green"
+msgstr "ČB Míchání kanálů - zelená"
 
 #: HISTORY_MSG_217
-msgid "BW Channel Mixer Blue"
-msgstr "ČB Míchání kanálů  - modrá"
+msgid "B&amp;W Channel Mixer Blue"
+msgstr "ČB Míchání kanálů - modrá"
 
 #: HISTORY_MSG_218
-msgid "BW Red Gamma"
+msgid "B&amp;W Red Gamma"
 msgstr "ČB gama červená"
 
 #: HISTORY_MSG_219
-msgid "BW Green Gamma"
+msgid "B&amp;W Green Gamma"
 msgstr "ČB gama zelená"
 
 #: HISTORY_MSG_22
@@ -1662,39 +1658,39 @@ msgid "Sharpening Amount"
 msgstr "Míra doostření"
 
 #: HISTORY_MSG_220
-msgid "BW Blue Gamma"
+msgid "B&amp;W Blue Gamma"
 msgstr "ČB gama modrá"
 
 #: HISTORY_MSG_221
-msgid "BW Color Filter"
+msgid "B&amp;W Color Filter"
 msgstr "ČB barevný filtr"
 
 #: HISTORY_MSG_222
-msgid "BW Presets"
+msgid "B&amp;W Presets"
 msgstr "ČB předvolby"
 
 #: HISTORY_MSG_223
-msgid "BW Channel Mixer Orange"
-msgstr "ČB Míchání kanálů  - oranžová"
+msgid "B&amp;W Channel Mixer Orange"
+msgstr "ČB Míchání kanálů - oranžová"
 
 #: HISTORY_MSG_224
-msgid "BW Channel Mixer Yellow"
-msgstr "ČB Míchání kanálů  - žlutá"
+msgid "B&amp;W Channel Mixer Yellow"
+msgstr "ČB Míchání kanálů - žlutá"
 
 #: HISTORY_MSG_225
-msgid "BW Channel Mixer Cyan"
-msgstr "ČB Míchání kanálů  - tyrkysová"
+msgid "B&amp;W Channel Mixer Cyan"
+msgstr "ČB Míchání kanálů - tyrkysová"
 
 #: HISTORY_MSG_226
-msgid "BW Channel Mixer Magenta"
-msgstr "ČB Míchání kanálů  - nachová"
+msgid "B&amp;W Channel Mixer Magenta"
+msgstr "ČB Míchání kanálů - purpurová"
 
 #: HISTORY_MSG_227
-msgid "BW Channel Mixer Purple"
-msgstr "ČB Míchání kanálů  - purpurová"
+msgid "B&amp;W Channel Mixer Purple"
+msgstr "ČB Míchání kanálů - fialová"
 
 #: HISTORY_MSG_228,HISTORY_MSG_229
-msgid "BW Luminance Equalizer"
+msgid "B&amp;W Luminance Equalizer"
 msgstr "ČB jasová korekce"
 
 #: HISTORY_MSG_23
@@ -1702,24 +1698,32 @@ msgid "Sharpening Threshold"
 msgstr "Práh doostření"
 
 #: HISTORY_MSG_230
-msgid "BW Black and White Mode"
+msgid "B&amp;W Black and White Mode"
 msgstr "Černobílý režim"
 
-#: HISTORY_MSG_231,HISTORY_MSG_233
-msgid "BW Curve"
-msgstr "ČB křivka"
+#: HISTORY_MSG_231
+msgid "B&amp;W 'Before' Curve"
+msgstr "ČB křivka 'Před'"
 
-#: HISTORY_MSG_232,HISTORY_MSG_234
-msgid "BW Curve Type"
-msgstr "ČB typ křivky"
+#: HISTORY_MSG_232
+msgid "B&amp;W 'Before' Curve Type"
+msgstr "ČB typ křivky 'Před'"
 
-#: HISTORY_MSG_235,HISTORY_MSG_236
-msgid "BW Auto Channel Mixer"
+#: HISTORY_MSG_233
+msgid "B&amp;W 'After' Curve"
+msgstr "ČB křivka 'Po'"
+
+#: HISTORY_MSG_234
+msgid "B&amp;W 'After' Curve Type"
+msgstr "ČB typ křivky 'Po'"
+
+#: HISTORY_MSG_235
+msgid "B&amp;W Auto Channel Mixer"
 msgstr "ČB automatické míchání kanálů"
 
 #: HISTORY_MSG_237
-msgid "BW Reset Mixer"
-msgstr "ČB vracení míchání"
+msgid "B&amp;W Mixer"
+msgstr "Míchání černé a bílé"
 
 #: HISTORY_MSG_238
 msgid "Gradient - Feather"
@@ -1965,7 +1969,7 @@ msgstr "Vstupní barevný prostor"
 msgid "Vignetting - Amount"
 msgstr "Vinětace - objem"
 
-#: HISTORY_MSG_73,TP_BWMIX_MET3,TP_CHMIXER_LABEL
+#: HISTORY_MSG_73,TP_BWMIX_MET_CHANMIX,TP_CHMIXER_LABEL
 msgid "Channel Mixer"
 msgstr "Míchání kanálů"
 
@@ -2059,7 +2063,7 @@ msgstr "Kontrast dle detailu úrovní"
 
 #: HISTORY_MSG_95,TP_LABCURVE_CHROMATICITY
 msgid "Chromaticity"
-msgstr "Barva"
+msgstr "Barevnost"
 
 #: HISTORY_MSG_96
 msgid "'a' Curve"
@@ -4431,19 +4435,19 @@ msgstr "Spočítá optimální hodnoty pro michání kanálů"
 msgid "Auto"
 msgstr "Automaticky"
 
-#: TP_BWMIX_BLUE,TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
+#: TP_BWMIX_BLUE,TP_BWMIX_FILTER_BLUE,TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
 msgid "Blue"
 msgstr "Modrá"
 
 #: TP_BWMIX_CC_ENABLED
-msgid "Complementary color"
-msgstr "Doplňková barva"
+msgid "Adjust complementary color"
+msgstr "Úpravy doplňkových barev"
 
 #: TP_BWMIX_CC_TOOLTIP
 msgid ""
-"Enable to allow automatic adjustment of complementary colors in ROYGCBMP mode"
+"Enable to allow automatic adjustment of complementary colors in ROYGCBPM mode"
 msgstr ""
-"Povolením zapnete automatické korekce doplňkových barev v režimu ROYGCBMP"
+"Povolením zapnete automatické korekce doplňkových barev v režimu ROYGCBPM"
 
 #: TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP
 msgid "Tone curve, after B&amp;W conversion, at the end of treatment"
@@ -4466,16 +4470,40 @@ msgstr ""
 "Uvědomte si, že extrémní hodnoty mohou způsobovat artefakty."
 
 #: TP_BWMIX_CURVEEDITOR1
-msgid "Before B&W conv."
-msgstr "Před konverzí na ČB"
+msgid "'Before' curve"
+msgstr "Křivka 'Před'"
 
 #: TP_BWMIX_CURVEEDITOR2
-msgid "After B&W conv."
-msgstr "Po konverzi na ČB"
+msgid "'After' curve"
+msgstr "Křivka 'Po'"
 
 #: TP_BWMIX_CYAN
-msgid "Cyan Filter"
-msgstr "Tyrkysový filtr"
+msgid "Cyan"
+msgstr "Tyrkysová"
+
+#: TP_BWMIX_FILTER_BLUEGREEN
+msgid "Blue-Green"
+msgstr "Tyrkysová"
+
+#: TP_BWMIX_FILTER_GREEN,TP_BWMIX_GREEN
+msgid "Green"
+msgstr "Zelená"
+
+#: TP_BWMIX_FILTER_GREENYELLOW
+msgid "Green-Yellow"
+msgstr "Žlutozelený"
+
+#: TP_BWMIX_FILTER_PURPLE,TP_BWMIX_PURPLE
+msgid "Purple"
+msgstr "Fialová"
+
+#: TP_BWMIX_FILTER_RED,TP_BWMIX_RED,TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
+msgid "Red"
+msgstr "Červená"
+
+#: TP_BWMIX_FILTER_REDYELLOW
+msgid "Red-Yellow"
+msgstr "Oranžový"
 
 #: TP_BWMIX_FILTER_TOOLTIP
 msgid ""
@@ -4489,50 +4517,9 @@ msgstr ""
 "způsobuje tak jejich zesvětlení. Například červený filtr způsobí ztmavení "
 "modré oblohy."
 
-#: TP_BWMIX_FILTER0
-msgctxt "TP_BWMIX_FILTER0"
-msgid "None"
-msgstr "Žádný"
-
-#: TP_BWMIX_FILTER1
-msgctxt "TP_BWMIX_FILTER1"
-msgid "Red"
-msgstr "Červený"
-
-#: TP_BWMIX_FILTER2
-msgctxt "TP_BWMIX_FILTER2"
-msgid "Red-Yellow"
-msgstr "Oranžový"
-
-#: TP_BWMIX_FILTER3
-msgctxt "TP_BWMIX_FILTER3"
+#: TP_BWMIX_FILTER_YELLOW,TP_BWMIX_YELLOW,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
 msgid "Yellow"
-msgstr "Žlutý"
-
-#: TP_BWMIX_FILTER4
-msgctxt "TP_BWMIX_FILTER4"
-msgid "Green-Yellow"
-msgstr "Žlutozelený"
-
-#: TP_BWMIX_FILTER5
-msgctxt "TP_BWMIX_FILTER5"
-msgid "Green"
-msgstr "Zelený"
-
-#: TP_BWMIX_FILTER6
-msgctxt "TP_BWMIX_FILTER6"
-msgid "Blue-Green"
-msgstr "Tyrkysový"
-
-#: TP_BWMIX_FILTER7
-msgctxt "TP_BWMIX_FILTER7"
-msgid "Blue"
-msgstr "Modrý"
-
-#: TP_BWMIX_FILTER8
-msgctxt "TP_BWMIX_FILTER8"
-msgid "Purple"
-msgstr "Nachový"
+msgstr "Žlutá"
 
 #: TP_BWMIX_FILTER
 msgctxt "TP_BWMIX_FILTER"
@@ -4556,42 +4543,29 @@ msgid "Red Channel"
 msgstr "Červený kanál"
 
 #: TP_BWMIX_GAM_TOOLTIP
-msgid "Correct gamma for each channel RGB as an ICC TRC curve"
-msgstr "Gama korekce jako křivka ICC TRC pro každý R, G, B kanál"
+msgid "Correct gamma for each channel RGB"
+msgstr "Gama korekce pro každý R, G, B kanál"
 
-#: TP_BWMIX_GREEN
-msgid "Green"
-msgstr "Zelený filtr"
-
-#: TP_BWMIX_CHANNEL,TP_BWMIX_MET2
+#: TP_BWMIX_CHANNEL,TP_BWMIX_MET_LUMEQUAL
 msgid "Luminance Equalizer"
 msgstr "Korekce jasu"
 
 #: TP_BWMIX_LABEL
-msgid "Black&amp;White"
+msgid "Black & White"
 msgstr "Černobílá fotografie"
 
-#: TP_BWMIX_MAG
-msgid "Magenta Filter"
-msgstr "Nachový filtr"
+#: TP_BWMIX_MAGENTA
+msgid "Magenta"
+msgstr "Purpurová"
 
-#: TP_BWMIX_MET_TOOLTIP
-msgid "Select between desaturation - mixer luminance - channel mixer"
-msgstr "Vyberte typ odbarvení - míchání světel - míchání kanálů"
-
-#: TP_BWMIX_MET0
-msgctxt "TP_BWMIX_MET0"
-msgid "None"
-msgstr "Žádná"
+#: TP_BWMIX_MET_DESAT
+msgid "Desaturation"
+msgstr "Odbarvení"
 
 #: TP_BWMIX_MET
 msgctxt "TP_BWMIX_MET"
 msgid "Method"
 msgstr "Metoda"
-
-#: TP_BWMIX_MET1
-msgid "Desaturation"
-msgstr "Odbarvení"
 
 #: TP_BWMIX_MIXC
 msgid "Mixer"
@@ -4602,24 +4576,32 @@ msgid "Mixer Filters"
 msgstr "Filtry míchání"
 
 #: TP_BWMIX_NEUTRAL_TIP
-msgid "Reset all values - sliders - filters - channel-mixer to default"
-msgstr "Vrátí všechny posuvníky, filtry a mixéry kanálů na výchozí pozice"
+msgid "Reset all values (filter, channel-mixer) to default"
+msgstr "Vrátí všechny hodnoty (filtry, mixéry kanálů) na výchozí pozice"
 
 #: TP_BWMIX_NEUTRAL
 msgid "Reset mixer"
 msgstr "Vrátit míchání"
 
-#: TP_BWMIX_ORA
-msgid "Orange Filter"
-msgstr "Oranžový filtr"
+#: TP_BWMIX_ORANGE
+msgid "Orange"
+msgstr "Oranžová"
 
-#: TP_BWMIX_PUR
-msgid "Purple Filter"
-msgstr "Purpurový filtr"
+#: TP_BWMIX_RGBLABEL_HINT
+msgid ""
+"Final RGB factors that take care of all of the mixer options\n"
+"Total displays the sum of RGB values ​​actually applied:\n"
+"- always 100% in relative mode\n"
+"- higher (lighter) or lower (darker) than 100% in absolute mode."
+msgstr ""
+"Výsledné RGB faktory po započtení všech mixérů\n"
+"\"Celkem\" zobrazí souček aktuálně aplikovaných RGB hodnot:\n"
+"- vždy 100% v relativním režimu\n"
+"- více (světlejší) nebo méně (tmavší) než 100% v absolutním režimu."
 
-#: TP_BWMIX_RED,TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
-msgid "Red"
-msgstr "Červená"
+#: TP_BWMIX_RGBLABEL
+msgid "R: %1%%   G: %2%%   B: %3%%   Total: %4%%"
+msgstr "R: %1%%   G: %2%%   B: %3%%   Celkem: %4%%"
 
 #: TP_BWMIX_RGB_TOOLTIP
 msgid ""
@@ -4627,10 +4609,61 @@ msgid ""
 "Pay attention to negative values that may cause artifacts or erratic "
 "behavior."
 msgstr ""
-"Mísení RGB kanálů. Jako vodítko můžete použít uložená "
-"přednastavení.\n"
+"Mísení RGB kanálů. Jako vodítko můžete použít uložená přednastavení.\n"
 "Povšimněte si prosím, že záporné hodnoty mohou vést ke vzniku artefaktů nebo "
 "chybnému chování."
+
+#: TP_BWMIX_SET_HIGHCONTAST
+msgid "High contrast"
+msgstr "Vysoký kontrast"
+
+#: TP_BWMIX_SET_HIGHSENSIT
+msgid "High Sensitivity"
+msgstr "Vysoká citlivost"
+
+#: TP_BWMIX_SET_HYPERPANCHRO
+msgid "Hyper Panchromatic"
+msgstr "Hyper Panchromatic"
+
+#: TP_BWMIX_SET_INFRARED
+msgid "Infrared"
+msgstr "Infračervená"
+
+#: TP_BWMIX_SET_LOWSENSIT
+msgid "Low Sensitivity"
+msgstr "Nízká citlivost"
+
+#: TP_BWMIX_SET_LUMINANCE,TP_DIRPYRDENOISE_LUMA
+msgid "Luminance"
+msgstr "Jas"
+
+#: TP_BWMIX_SET_NORMCONTAST
+msgid "Normal Contrast"
+msgstr "Normální kontrast"
+
+#: TP_BWMIX_SET_ORTHOCHRO
+msgid "Orthochromatic"
+msgstr "Orthochromatic"
+
+#: TP_BWMIX_SET_PANCHRO
+msgid "Panchromatic"
+msgstr "Panchromatic"
+
+#: TP_BWMIX_SET_RGBABS
+msgid "Channel-Mixer absolute RGB"
+msgstr "Míchání kanálů - úplné RGB"
+
+#: TP_BWMIX_SET_RGBREL
+msgid "Channel-Mixer relative RGB"
+msgstr "Míchání kanálů - relativní RGB"
+
+#: TP_BWMIX_SET_ROYGCBPMABS
+msgid "Channel-Mixer absolute ROYGCBPM"
+msgstr "Míchání kanálů - úplné ROYGCBPM"
+
+#: TP_BWMIX_SET_ROYGCBPMREL
+msgid "Channel-Mixer relative ROYGCBPM"
+msgstr "Míchání kanálů - relativní ROYGCBPM"
 
 #: TP_BWMIX_SETTING_TOOLTIP
 msgid ""
@@ -4641,79 +4674,9 @@ msgstr "Různá přednastavení (filmy, krajina, ...) nebo vlastní míchání k
 msgid "Presets"
 msgstr "Uložené předvolby"
 
-#: TP_BWMIX_SET0
-msgid "Normal Contrast"
-msgstr "Normální kontrast"
-
-#: TP_BWMIX_SET1
-msgid "High contrast"
-msgstr "Vysoký kontrast"
-
-#: TP_BWMIX_SET10
-msgid "Channel-Mixer absolute RGB"
-msgstr "Míchání kanálů  - úplné RGB"
-
-#: TP_BWMIX_SET11
-msgid "Channel-Mixer relative RGB"
-msgstr "Míchání kanálů  - relativní RGB"
-
-#: TP_BWMIX_SET12
-msgid "Channel-Mixer absolute ROYGCBMP"
-msgstr "Míchání kanálů  - úplné ROYGCBMP"
-
-#: TP_BWMIX_SET13
-msgid "Channel-Mixer relative ROYGCBMP"
-msgstr "Míchání kanálů  - relativní ROYGCBMP"
-
-#: TP_BWMIX_SET14
-msgid "Infrared"
-msgstr "Infračervená"
-
-#: TP_BWMIX_SET2,TP_DIRPYRDENOISE_LUMA
-msgid "Luminance"
-msgstr "Jas"
-
-#: TP_BWMIX_SET3
-msgctxt "TP_BWMIX_SET3"
-msgid "Landscape"
-msgstr "Krajina"
-
-#: TP_BWMIX_SET4
-msgctxt "TP_BWMIX_SET4"
-msgid "Portrait"
-msgstr "Portrét"
-
-#: TP_BWMIX_SET5
-msgid "Low Sensitivity"
-msgstr "Nízká citlivost"
-
-#: TP_BWMIX_SET6
-msgid "High Sensitivity"
-msgstr "Vysoká citlivost"
-
-#: TP_BWMIX_SET7
-msgid "Panchromatic"
-msgstr "Panchromatic"
-
-#: TP_BWMIX_SET8
-msgid "Hyper Panchromatic"
-msgstr "Hyper Panchromatic"
-
-#: TP_BWMIX_SET9
-msgid "Orthochromatic"
-msgstr "Orthochromatic"
-
 #: TP_BWMIX_TCMODE_FILMLIKE
 msgid "B&W Film-like"
 msgstr "ČB Jako film"
-
-#: TP_BWMIX_TCMODE_LABEL1
-msgid "B&W Curve Before"
-msgstr "ČB křivka před"
-
-#: TP_BWMIX_TCMODE_LABEL2
-msgid "B&W Curve After"
-msgstr "ČB křivka po"
 
 #: TP_BWMIX_TCMODE_SATANDVALBLENDING
 msgid "B&W Saturation and Value Blending"
@@ -4726,10 +4689,6 @@ msgstr "ČB Běžný"
 #: TP_BWMIX_TCMODE_WEIGHTEDSTD
 msgid "B&W Weighted Standard"
 msgstr "ČB Běžný vážený"
-
-#: TP_BWMIX_YEL
-msgid "Yellow Filter"
-msgstr "Žlutý filtr"
 
 #: TP_CACORRECTION_LABEL
 msgid "CA Correction"
@@ -5384,7 +5343,7 @@ msgstr ""
 "3. \"Mapování tónů pomocí jasu CIECAM02 (Q)\""
 
 #: TP_EXPOSCORR_LABEL
-msgid "Raw White &amp; Black Points"
+msgid "Raw White & Black Points"
 msgstr "Raw bílý a černý bod"
 
 #: TP_EXPOSURE_AUTOLEVELS_TIP
@@ -5659,8 +5618,8 @@ msgid ""
 "Employ the embedded DCP tone curve. The setting is only enabled if the "
 "selected DCP has a tone curve."
 msgstr ""
-"Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze "
-"v případě, že DCP obsahuje tónovou křivku."
+"Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, "
+"že DCP obsahuje tónovou křivku."
 
 #: TP_ICM_WORKINGPROFILE
 msgid "Working Profile"
@@ -5672,20 +5631,6 @@ msgid ""
 msgstr ""
 "Přizpůsobit barvy palety barevného pracovního prostoru\n"
 "a aplikovat Munsellovu korekci"
-
-#: TP_LABCURVE_BWTONING_TIP
-msgid ""
-"With the <b>B&amp;W toning</b> option enabled, the Lab Chromaticity, CC, CH "
-"and LC curves are not in effect.\n"
-"Toning can be achieved using the <b>a</b> and <b>b</b> curves"
-msgstr ""
-"Při zapnuté volbě <b>Černobílé tónování</b> nemají křivky Lab barvy, CC, CH "
-"a LC efekt.\n"
-"Tónování může být ovlivněno použitím křivek <b>a</b> a <b>b</b>"
-
-#: TP_LABCURVE_BWTONING
-msgid "B&W toning"
-msgstr "Černobílé tónování"
 
 #: TP_LABCURVE_CURVEEDITOR_A_RANGE1
 msgid "Green Saturated"
@@ -5732,56 +5677,40 @@ msgid "Saturated"
 msgstr "Saturované"
 
 #: TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP
-msgid ""
-"Chromaticity C=f(C).\n"
-"\n"
-"Shows the histogram of chromaticity before curve adjustements.\n"
-"For final output refer to the main histogram panel"
-msgstr ""
-"Barevnost C=f(C).\n"
-"\n"
-"Zobrazuje histogram křivky barevnosti před úpravami.\n"
-"Histogram konečného výsledku je zobrazen na hlavním panelu."
+msgid "Chromaticity according to chromaticity C=f(C)"
+msgstr "Barevnost dle barevnosti C=f(C)"
 
 #: TP_LABCURVE_CURVEEDITOR_CC
 msgid "CC"
 msgstr "CC"
 
 #: TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP
-msgid "Chromaticity according to the luminance"
-msgstr "Barevnost dle odstínu"
+msgid "Chromaticity according to luminance C=f(L)"
+msgstr "Barevnost dle jasu C=f(L)"
 
 #: TP_LABCURVE_CURVEEDITOR_CL
 msgid "CL"
 msgstr "CL"
 
 #: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
-msgid "Chromaticity according to the hue"
-msgstr "Barevnost dle odstínu"
+msgid "Chromaticity according to hue C=f(H)"
+msgstr "Barevnost dle odstínu C=f(H)"
 
 #: TP_LABCURVE_CURVEEDITOR_CH
 msgid "CH"
 msgstr "CH"
 
 #: TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP
-msgid "Luminance according to the chromaticity"
-msgstr "Jas dle barvy"
+msgid "Luminance according to chromaticity L=f(C)"
+msgstr "Jas dle barevnosti L=f(C)"
 
 #: TP_LABCURVE_CURVEEDITOR_LC
 msgid "LC"
 msgstr "LC"
 
 #: TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP
-msgid ""
-"Luminance Lab L=f(L).\n"
-"\n"
-"Shows the histogram of L before curve adjustements.\n"
-"nFor final output refer to the main histogram panel"
-msgstr ""
-"Jas Lab L=f(L).\n"
-"\n"
-"Zobrazuje histogram L křivky před úpravami.\n"
-"Histogram konečného výsledku je zobrazen na hlavním panelu."
+msgid "Luminance according to luminance L=f(L)"
+msgstr "Jas dle jasu L=f(L)"
 
 #: TP_LABCURVE_CURVEEDITOR
 msgid "Luminance Curve"
@@ -5803,7 +5732,7 @@ msgstr ""
 
 #: TP_LABCURVE_RSTPRO_TOOLTIP
 msgid "Can be used with the Chromaticity slider and the CC curve."
-msgstr "Může být použito s posuvníkem barev a CC křivkou."
+msgstr "Může být použito s posuvníkem barevnosti a CC křivkou."
 
 #: TP_LENSGEOM_AUTOCROP
 msgid "Auto Crop"
@@ -6105,15 +6034,11 @@ msgstr "Tóny pleti"
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1
 msgid "Red/Purple"
-msgstr "Červená/Růžová"
+msgstr "Červená/Fialová"
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3
 msgid "Red/Yellow"
 msgstr "Červená/Žlutá"
-
-#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
-msgid "Yellow"
-msgstr "Žlutá"
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_TOOLTIP
 msgid "Hue according to the hue"
@@ -6396,6 +6321,105 @@ msgstr ""
 msgid "(100%)"
 msgstr "(100%)"
 
+#~ msgid "BW Curve"
+#~ msgstr "ČB křivka"
+
+#~ msgid "BW Reset Mixer"
+#~ msgstr "ČB vracení míchání"
+
+#~ msgid "Before B&W conv."
+#~ msgstr "Před konverzí na ČB"
+
+#~ msgid "After B&W conv."
+#~ msgstr "Po konverzi na ČB"
+
+#~ msgid "Cyan Filter"
+#~ msgstr "Tyrkysová"
+
+#~ msgctxt "TP_BWMIX_FILTER0"
+#~ msgid "None"
+#~ msgstr "Žádný"
+
+#~ msgctxt "TP_BWMIX_FILTER1"
+#~ msgid "Red"
+#~ msgstr "Červený"
+
+#~ msgctxt "TP_BWMIX_FILTER3"
+#~ msgid "Yellow"
+#~ msgstr "Žlutý"
+
+#~ msgctxt "TP_BWMIX_FILTER5"
+#~ msgid "Green"
+#~ msgstr "Zelený"
+
+#~ msgctxt "TP_BWMIX_FILTER7"
+#~ msgid "Blue"
+#~ msgstr "Modrý"
+
+#~ msgid "Magenta Filter"
+#~ msgstr "Nachová"
+
+#~ msgid "Select between desaturation - mixer luminance - channel mixer"
+#~ msgstr "Vyberte typ odbarvení - míchání světel - míchání kanálů"
+
+#~ msgctxt "TP_BWMIX_MET0"
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+#~ msgid "Purple Filter"
+#~ msgstr "Purpurová"
+
+#~ msgctxt "TP_BWMIX_SET3"
+#~ msgid "Landscape"
+#~ msgstr "Krajina"
+
+#~ msgctxt "TP_BWMIX_SET4"
+#~ msgid "Portrait"
+#~ msgstr "Portrét"
+
+#~ msgid "B&W Curve Before"
+#~ msgstr "ČB křivka před"
+
+#~ msgid "B&W Curve After"
+#~ msgstr "ČB křivka po"
+
+#~ msgid "Yellow Filter"
+#~ msgstr "Žlutá"
+
+#~ msgid ""
+#~ "With the <b>B&amp;W toning</b> option enabled, the Lab Chromaticity, CC, "
+#~ "CH, LC and CL curves are not in effect.\n"
+#~ "Toning can be achieved using the <b>a</b> and <b>b</b> curves"
+#~ msgstr ""
+#~ "Při zapnuté volbě <b>Černobílé tónování</b> nemají křivky Lab barevnost, "
+#~ "CC, CH a LC efekt.\n"
+#~ "Tónování může být ovlivněno pomocí křivek <b>a</b> a <b>b</b>"
+
+#~ msgid "B&W toning"
+#~ msgstr "Černobílé tónování"
+
+#~ msgid ""
+#~ "Chromaticity C=f(C).\n"
+#~ "\n"
+#~ "Shows the histogram of chromaticity before curve adjustements.\n"
+#~ "For final output refer to the main histogram panel"
+#~ msgstr ""
+#~ "Barevnost C=f(C).\n"
+#~ "\n"
+#~ "Zobrazuje histogram křivky barevnosti před úpravami.\n"
+#~ "Histogram konečného výsledku je zobrazen na hlavním panelu."
+
+#~ msgid ""
+#~ "Luminance Lab L=f(L).\n"
+#~ "\n"
+#~ "Shows the histogram of L before curve adjustements.\n"
+#~ "nFor final output refer to the main histogram panel"
+#~ msgstr ""
+#~ "Jas Lab L=f(L).\n"
+#~ "\n"
+#~ "Zobrazuje histogram L křivky před úpravami.\n"
+#~ "Histogram konečného výsledku je zobrazen na hlavním panelu."
+
 #~ msgid "Edge Sensitive Color Denoising"
 #~ msgstr "Redukce barevného šumu s ohledem na okraje"
 
@@ -6529,9 +6553,6 @@ msgstr "(100%)"
 
 #~ msgid "y"
 #~ msgstr "y"
-
-#~ msgid "Chromaticity according to the chromaticity"
-#~ msgstr "Barevnost dle barvy"
 
 #~ msgid "Batch processing"
 #~ msgstr "Dávkové zpracování"
@@ -6762,9 +6783,6 @@ msgstr "(100%)"
 #~ msgid "Impulse NR threshold"
 #~ msgstr "Redukce impulzního šumu - práh"
 
-#~ msgid "'b' curve"
-#~ msgstr "'b' křivka"
-
 #~ msgid "<b>Alt-d</b>"
 #~ msgstr "<b>Alt-d</b>"
 
@@ -6887,9 +6905,6 @@ msgstr "(100%)"
 
 #~ msgid "Aqua"
 #~ msgstr "Azurová"
-
-#~ msgid "Magenta"
-#~ msgstr "Purpurová"
 
 #~ msgid "RAW"
 #~ msgstr "RAW"

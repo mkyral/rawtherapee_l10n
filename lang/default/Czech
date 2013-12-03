@@ -25,9 +25,7 @@
 #24 12.04.2013: updated by mkyral
 #25 12.09.2013: updated by mkyral
 #26 17.09.2013: updated by mkyral
-#27 06.11.2013: updated by mkyral
-#28 16.11.2013: updated by mkyral
-#29 17.11.2013: updated by mkyral
+#27 09.12.2013: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -124,7 +122,7 @@ FILEBROWSER_CACHE;Cache
 FILEBROWSER_CACHECLEARFROMFULL;Vymazat z cache - úplně
 FILEBROWSER_CACHECLEARFROMPARTIAL;Vymazat z cache - částečně
 FILEBROWSER_CLEARPROFILE;Smazat
-FILEBROWSER_COLORLABEL_TOOLTIP;Barevný štítek\n\nPoužijte výběr ze seznamu nebo klávesové zkratky:\nShift-Ctrl-1 Červený\nShift-Ctrl-2 Žlutý\nShift-Ctrl-3 Zelený\nShift-Ctrl-4 Modrý\nShift-Ctrl-5 Nachový
+FILEBROWSER_COLORLABEL_TOOLTIP;Barevný štítek\n\nPoužijte výběr ze seznamu nebo klávesové zkratky:\nShift-Ctrl-1 Červený\nShift-Ctrl-2 Žlutý\nShift-Ctrl-3 Zelený\nShift-Ctrl-4 Modrý\nShift-Ctrl-5 Fialový
 FILEBROWSER_COPYPROFILE;Kopírovat
 FILEBROWSER_CURRENT_NAME;Současné jméno:
 FILEBROWSER_DARKFRAME;Tmavý snímek
@@ -154,7 +152,7 @@ FILEBROWSER_POPUPCOLORLABEL1;Štítek: Červený
 FILEBROWSER_POPUPCOLORLABEL2;Štítek: Žlutý
 FILEBROWSER_POPUPCOLORLABEL3;Štítek: Zelený
 FILEBROWSER_POPUPCOLORLABEL4;Štítek: Modrý
-FILEBROWSER_POPUPCOLORLABEL5;Štítek: Růžový
+FILEBROWSER_POPUPCOLORLABEL5;Štítek: Fialový
 FILEBROWSER_POPUPCOPYTO;Kopírovat do...
 FILEBROWSER_POPUPFILEOPERATIONS;Souborové operace
 FILEBROWSER_POPUPMOVEEND;Přesunout na konec fronty
@@ -340,13 +338,13 @@ HISTORY_MSG_163;RGB křivky - R
 HISTORY_MSG_164;RGB křivky - G
 HISTORY_MSG_165;RGB křivky - B
 HISTORY_MSG_166;Neutrální úrovně
-HISTORY_MSG_167;Černobílé tónování
+HISTORY_MSG_167;--nepoužito--
 HISTORY_MSG_168;'CC' křivka
 HISTORY_MSG_169;'CH' křivka
 HISTORY_MSG_17;Jas Komprese světel
 HISTORY_MSG_170;Živost - křivka
 HISTORY_MSG_171;'LC' křivka
-HISTORY_MSG_172;Omezit LC na tóny červené a pletiS
+HISTORY_MSG_172;Omezit LC na tóny červené a pleti
 HISTORY_MSG_173;Redukce šumu - jas detailu
 HISTORY_MSG_174;CIECAM02
 HISTORY_MSG_175;CAM02 - Míra chromatického přizpůsobení
@@ -378,7 +376,7 @@ HISTORY_MSG_198;CAM02 - Barevná křivka
 HISTORY_MSG_199;CAM02 - Zobrazení CIECAM02 výstupních histogramů v křivkách
 HISTORY_MSG_2;PP3 načten
 HISTORY_MSG_20;Doostření
-HISTORY_MSG_200;CAM02 - Mapování tónů pomocí CIECAM02 (Q)
+HISTORY_MSG_200;CAM02 - Mapování tónů pomocí CIECAM02 Q
 HISTORY_MSG_201;Redukce šumu - rozdíl barevnosti - červená
 HISTORY_MSG_202;Redukce šumu - rozdíl barevnosti - modrá
 HISTORY_MSG_203;Redukce šumu - metoda
@@ -391,34 +389,43 @@ HISTORY_MSG_21;Poloměr doostření
 HISTORY_MSG_210;Přechodový filtr
 HISTORY_MSG_211;Přechodový filtr
 HISTORY_MSG_212;Viněta
-HISTORY_MSG_213;Viněta
-HISTORY_MSG_214;Černobílá
-HISTORY_MSG_215;ČB Míchání kanálů  - červená
-HISTORY_MSG_216;ČB Míchání kanálů  - zelená
-HISTORY_MSG_217;ČB Míchání kanálů  - modrá
+HISTORY_MSG_213;Viněta - síla
+HISTORY_MSG_214;Černobílá fotografie
+HISTORY_MSG_215;ČB Míchání kanálů - červená
+HISTORY_MSG_216;ČB Míchání kanálů - zelená
+HISTORY_MSG_217;ČB Míchání kanálů - modrá
 HISTORY_MSG_218;ČB gama červená
 HISTORY_MSG_219;ČB gama zelená
 HISTORY_MSG_22;Míra doostření
 HISTORY_MSG_220;ČB gama modrá
 HISTORY_MSG_221;ČB barevný filtr
 HISTORY_MSG_222;ČB předvolby
-HISTORY_MSG_223;ČB Míchání kanálů  - oranžová
-HISTORY_MSG_224;ČB Míchání kanálů  - žlutá
-HISTORY_MSG_225;ČB Míchání kanálů  - tyrkysová
-HISTORY_MSG_226;ČB Míchání kanálů  - nachová
-HISTORY_MSG_227;ČB Míchání kanálů  - purpurová
+HISTORY_MSG_223;ČB Míchání kanálů - oranžová
+HISTORY_MSG_224;ČB Míchání kanálů - žlutá
+HISTORY_MSG_225;ČB Míchání kanálů - tyrkysová
+HISTORY_MSG_226;ČB Míchání kanálů - purpurová
+HISTORY_MSG_227;ČB Míchání kanálů - fialová
 HISTORY_MSG_228;ČB jasová korekce
 HISTORY_MSG_229;ČB jasová korekce
 HISTORY_MSG_23;Práh doostření
-HISTORY_MSG_230;ČB režim 
-HISTORY_MSG_231;ČB křivka
-HISTORY_MSG_232;Typ ČB křivky
-HISTORY_MSG_233;ČB křivka
-HISTORY_MSG_234;Typ ČB křivky
+HISTORY_MSG_230;Černobílý režim
+HISTORY_MSG_231;ČB křivka 'Před'
+HISTORY_MSG_232;ČB typ křivky 'Před'
+HISTORY_MSG_233;ČB křivka 'Po'
+HISTORY_MSG_234;ČB typ křivky 'Po'
 HISTORY_MSG_235;ČB automatické míchání kanálů
-HISTORY_MSG_236;ČB automatické míchání kanálů
-HISTORY_MSG_237;ČB vracení míchání
+HISTORY_MSG_236;--nepoužito--
+HISTORY_MSG_237;Míchání černé a bílé
+HISTORY_MSG_238;Přechod - rozptyl
+HISTORY_MSG_239;Přechod - síla
 HISTORY_MSG_24;Doostřit pouze okraje
+HISTORY_MSG_240;Přechod - střed
+HISTORY_MSG_241;Viněta - rozptyl
+HISTORY_MSG_242;Viněta - zaoblení
+HISTORY_MSG_243;Vinětace - oblast
+HISTORY_MSG_244;Vinětace - síla
+HISTORY_MSG_245;Vinětace - střed
+HISTORY_MSG_246;CL křivka
 HISTORY_MSG_25;Poloměr detekce okrajů při doostření
 HISTORY_MSG_26;Tolerance okrajů při doostření
 HISTORY_MSG_27;Omezení haló artefaktů doostření
@@ -445,7 +452,7 @@ HISTORY_MSG_45;Okrajová tolerance redukce šumu v jasech
 HISTORY_MSG_46;Redukce barevného šumu
 HISTORY_MSG_47;Smísení ICC světel s matici
 HISTORY_MSG_48;Použita tónová křivka DCP
-HISTORY_MSG_49;Redukce barevného šumu s ohledem na okraje
+HISTORY_MSG_49;DCP osvětlení
 HISTORY_MSG_5;Světlost
 HISTORY_MSG_50;Stíny/Světla
 HISTORY_MSG_51;Světla
@@ -471,7 +478,7 @@ HISTORY_MSG_69;Pracovní barevný prostor
 HISTORY_MSG_7;Černá
 HISTORY_MSG_70;Výstupní barevný prostor
 HISTORY_MSG_71;Vstupní barevný prostor
-HISTORY_MSG_72;Korekce vinětace
+HISTORY_MSG_72;Vinětace - objem
 HISTORY_MSG_73;Míchání kanálů
 HISTORY_MSG_74;Míra změny rozměrů
 HISTORY_MSG_75;Metoda změny rozměru
@@ -496,7 +503,7 @@ HISTORY_MSG_91;Redukce šumu - barevnost
 HISTORY_MSG_92;Redukce šumu - gama
 HISTORY_MSG_93;Kontrast dle detailu úrovní - hodnota
 HISTORY_MSG_94;Kontrast dle detailu úrovní
-HISTORY_MSG_95;Barva
+HISTORY_MSG_95;Barevnost
 HISTORY_MSG_96;'a' křivka
 HISTORY_MSG_97;'b' křivka
 HISTORY_MSG_98;Metoda demozajkování
@@ -771,6 +778,9 @@ PREFERENCES_CIEART_TOOLTIP;Pokud je povoleno, budou pro CIECAM02 výpočty použ
 PREFERENCES_CLIPPINGIND;Indikace oříznutí
 PREFERENCES_CMETRICINTENT;Kolorimetrický záměr
 PREFERENCES_CUSTPROFBUILDHINT;Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil pro obrázek.\nBude spuštěn s následujícími parametry,  které umožní vygenerování vhodného profilu upracování :\n[cesta raw/JPG] [výchozí cesta profilu] [cesta k RT cache ][clona] [expozice v sekundách] [ohnisková vzdálenost v mm] [ISO] [objektiv] [výrobce fotoaparátu][model fotoaparátu]\n\n<b>VAROVÁNÍ:</b> Pokud používáte cesty obsahující mezery, musíte je sami uzavřít do dvojitých uvozovek.
+PREFERENCES_CUSTPROFBUILDKEYFORMAT;Formát klíče
+PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME;Jméno
+PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID;TagID
 PREFERENCES_CUSTPROFBUILDPATH;Cesta k programu
 PREFERENCES_CUSTPROFBUILD;Vlastní generátor profilu zpracování
 PREFERENCES_CUTOVERLAYBRUSH;Barva masky ořezu/průhlednosti
@@ -985,73 +995,71 @@ TOOLBAR_TOOLTIP_WB;Bodové vyvážení bílé.\nZkratka: <b>w</b>
 TP_BWMIX_AUTOCH;Automaticky
 TP_BWMIX_AUTOCH_TIP;Spočítá optimální hodnoty pro michání kanálů
 TP_BWMIX_BLUE;Modrá
-TP_BWMIX_CC_ENABLED;Doplňková barva
-TP_BWMIX_CC_TOOLTIP;Povolením zapnete automatické korekce doplňkových barev v režimu ROYGCBMP
+TP_BWMIX_CC_ENABLED;Úpravy doplňkových barev
+TP_BWMIX_CC_TOOLTIP;Povolením zapnete automatické korekce doplňkových barev v režimu ROYGCBPM
 TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP;Tónová křivka na konci úprav - po převodu na černobílou fotografii
 TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP;Tónová křivka před převodem na černobílou fotografii\nmůže vzít v potaz barevné složky
 TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Změní jas dle odstínu\nUvědomte si, že extrémní hodnoty mohou způsobovat artefakty.
-TP_BWMIX_CURVEEDITOR1;Před konverzí na ČB
-TP_BWMIX_CURVEEDITOR2;Po konverzi na ČB
+TP_BWMIX_CURVEEDITOR1;Křivka 'Před'
+TP_BWMIX_CURVEEDITOR2;Křivka 'Po'
 TP_BWMIX_CYAN;Tyrkysová
 TP_BWMIX_FILTER;Barevný filtr
+TP_BWMIX_FILTER_BLUEGREEN;Tyrkysová
+TP_BWMIX_FILTER_BLUE;Modrá
+TP_BWMIX_FILTER_GREENYELLOW;Žlutozelený
+TP_BWMIX_FILTER_GREEN;Zelená
+TP_BWMIX_FILTER_NONE;Nic
+TP_BWMIX_FILTER_PURPLE;Fialová
+TP_BWMIX_FILTER_RED;Červená
+TP_BWMIX_FILTER_REDYELLOW;Oranžový
 TP_BWMIX_FILTER_TOOLTIP;Efekt barevného filtru je podobný focení na film s nasazeným barevným filtrem. Barevný filtr omezuje průchod specifického rozsahu barev a způsobuje tak jejich zesvětlení. Například červený filtr způsobí ztmavení modré oblohy.
-TP_BWMIX_FILTER0;Žádný
-TP_BWMIX_FILTER1;Červený
-TP_BWMIX_FILTER2;Oranžový
-TP_BWMIX_FILTER3;Žlutý
-TP_BWMIX_FILTER4;Žlutozelený
-TP_BWMIX_FILTER5;Zelený
-TP_BWMIX_FILTER6;Tyrkysový
-TP_BWMIX_FILTER7;Modrý
-TP_BWMIX_FILTER8;Nachový
-TP_BWMIX_GAM_BLUE;Gama korekce modrého kanálu
-TP_BWMIX_GAM_GREEN;Gama korekce zeleného kanálu
+TP_BWMIX_FILTER_YELLOW;Žlutá
+TP_BWMIX_GAM_BLUE;Modrý kanál
+TP_BWMIX_GAM_GREEN;Zelený kanál
 TP_BWMIX_GAMMA;Gama korekce
-TP_BWMIX_GAMM;Gama korekce
-TP_BWMIX_GAM_RED;Gama korekce červeného kanálu
-TP_BWMIX_GAM_TOOLTIP;Gama korekce jako křivka ICC TRC pro každý R, G, B kanál
+TP_BWMIX_GAM_RED;Červený kanál
+TP_BWMIX_GAM_TOOLTIP;Gama korekce pro každý R, G, B kanál
 TP_BWMIX_GREEN;Zelená
 TP_BWMIX_CHANNEL;Korekce jasu
-TP_BWMIX_MAG;Nachová
+TP_BWMIX_LABEL;Černobílá fotografie
+TP_BWMIX_MAGENTA;Purpurová
+TP_BWMIX_MET_DESAT;Odbarvení
+TP_BWMIX_MET_CHANMIX;Míchání kanálů
+TP_BWMIX_MET_LUMEQUAL;Korekce jasu
 TP_BWMIX_MET;Metoda
-TP_BWMIX_MET_TOOLTIP;Vyberte typ odbarvení - míchání světel - míchání kanálů
-TP_BWMIX_MET0;Žádná
-TP_BWMIX_MET1;Odbarvení
-TP_BWMIX_MET2;Korekce jasu
-TP_BWMIX_MET3;Míchání kanálů
 TP_BWMIX_MIXC;Míchání
 TP_BWMIX_MIXF;Filtry míchání
-TP_BWMIX_NEUTRAL_TIP;Vrátí všechny posuvníky, filtry a mixéry kanálů na výchozí pozice
+TP_BWMIX_NEUTRAL_TIP;Vrátí všechny hodnoty (filtry, mixéry kanálů) na výchozí pozice
 TP_BWMIX_NEUTRAL;Vrátit míchání
-TP_BWMIX_ORA;Oranžová
-TP_BWMIX_PUR;Purpurová
+TP_BWMIX_ORANGE;Oranžová
+TP_BWMIX_PURPLE;Fialová
 TP_BWMIX_RED;Červená
-TP_BWMIX_RGB_TOOLTIP;Mísení RGB kanálů v požadovaném poměru. Jako vodítko můžete použít uložená přednastavení.\nPovšimněte si prosím, že záporné hodnoty mohou vést ke vzniku artefaktů nebo chybnému chování.
-TP_BWMIX_SETTING_TOOLTIP;Uložená přednastavení - filmy - krajina - nebo vlastní míchání kanálů 
+TP_BWMIX_RGBLABEL_HINT;Výsledné RGB faktory po započtení všech mixérů\n"Celkem" zobrazí souček aktuálně aplikovaných RGB hodnot:\n- vždy 100% v relativním režimu\n- více (světlejší) nebo méně (tmavší) než 100% v absolutním režimu.
+TP_BWMIX_RGBLABEL;R: %1%%   G: %2%%   B: %3%%   Celkem: %4%%
+TP_BWMIX_RGB_TOOLTIP;Mísení RGB kanálů. Jako vodítko můžete použít uložená přednastavení.\nPovšimněte si prosím, že záporné hodnoty mohou vést ke vzniku artefaktů nebo chybnému chování.
+TP_BWMIX_SET_HIGHCONTAST;Vysoký kontrast
+TP_BWMIX_SET_HIGHSENSIT;Vysoká citlivost
+TP_BWMIX_SET_HYPERPANCHRO;Hyper Panchromatic
+TP_BWMIX_SET_INFRARED;Infračervená
+TP_BWMIX_SET_LANDSCAPE;Na šířku
+TP_BWMIX_SET_LOWSENSIT;Nízká citlivost
+TP_BWMIX_SET_LUMINANCE;Jas
+TP_BWMIX_SET_NORMCONTAST;Normální kontrast
+TP_BWMIX_SET_ORTHOCHRO;Orthochromatic
+TP_BWMIX_SET_PANCHRO;Panchromatic
+TP_BWMIX_SET_PORTRAIT;Na výšku
+TP_BWMIX_SET_RGBABS;Míchání kanálů - úplné RGB
+TP_BWMIX_SET_RGBREL;Míchání kanálů - relativní RGB
+TP_BWMIX_SET_ROYGCBPMABS;Míchání kanálů - úplné ROYGCBPM
+TP_BWMIX_SET_ROYGCBPMREL;Míchání kanálů - relativní ROYGCBPM
+TP_BWMIX_SETTING_TOOLTIP;Různá přednastavení (filmy, krajina, ...) nebo vlastní míchání kanálů
 TP_BWMIX_SETTING;Uložené předvolby
-TP_BWMIX_SET0;Normální kontrast
-TP_BWMIX_SET1;Vysoký kontrast
-TP_BWMIX_SET10;Míchání kanálů  - úplné RGB
-TP_BWMIX_SET11;Míchání kanálů  - relativní RGB
-TP_BWMIX_SET12;Míchání kanálů  - úplné ROYGCBMP
-TP_BWMIX_SET13;Míchání kanálů  - relativní ROYGCBMP
-TP_BWMIX_SET14;Infračervená
-TP_BWMIX_SET2;Jas
-TP_BWMIX_SET3;Krajina
-TP_BWMIX_SET4;Portrét
-TP_BWMIX_SET5;Nízká citlivost
-TP_BWMIX_SET6;Vysoká citlivost
-TP_BWMIX_SET7;Panchromatic
-TP_BWMIX_SET8;Hyper Panchromatic
-TP_BWMIX_SET9;Orthochromatic
 TP_BWMIX_TCMODE_FILMLIKE;ČB Jako film
-TP_BWMIX_TCMODE_LABEL1;ČB křivka před
-TP_BWMIX_TCMODE_LABEL2;ČB křivka po
 TP_BWMIX_TCMODE_SATANDVALBLENDING;ČB Mísení saturace a hodnoty
 TP_BWMIX_TCMODE_STANDARD;ČB Běžný
 TP_BWMIX_TCMODE_WEIGHTEDSTD;ČB Běžný vážený
 TP_BWMIX_VAL;L
-TP_BWMIX_YEL;Žlutá
+TP_BWMIX_YELLOW;Žlutá
 TP_CACORRECTION_BLUE;Modrá
 TP_CACORRECTION_LABEL;Úprava chromatické vady
 TP_CACORRECTION_RED;Červená
@@ -1247,13 +1255,15 @@ TP_HSVEQUALIZER_NEUTRAL;Neutrální
 TP_HSVEQUALIZER_SAT;S
 TP_HSVEQUALIZER_VAL;V
 TP_CHMIXER_BLUE;Modrý kanál
-TP_CHMIXERBW_LABEL;Černobílá fotografie
 TP_CHMIXER_GREEN;Zelený kanál
 TP_CHMIXER_LABEL;Míchání kanálů
 TP_CHMIXER_RED;Červený kanál
 TP_CHROMATABERR_LABEL;Chromatická Aberace
 TP_ICM_BLENDCMSMATRIX;Smísení ICC světel s matici
 TP_ICM_BLENDCMSMATRIX_TOOLTIP;Povolit obnovení vypálených jasů při použití ICC profilů založených na LUT
+TP_ICM_DCPILLUMINANT_INTERPOLATED;Interpolované
+TP_ICM_DCPILLUMINANT;Osvětlení
+TP_ICM_DCPILLUMINANT_TOOLTIP;Vyberte které vložené DCP osvětlení se má použít. Ve výchozím stavu se použije "interpolované", což je mix mezi dvěma osvětleními založenými na vyvážení bílé. Nastavené je dostupné pouze v případě, že je povoleno dvojité DCP osvětlení s podporou interpolace.
 TP_ICM_FILEDLGFILTERANY;Jakékoliv soubory
 TP_ICM_FILEDLGFILTERICM;Barevné profily
 TP_ICM_INPUTCAMERAICC;Automatický dohledaný specifický barevný profil fotoaparátu
@@ -1272,22 +1282,15 @@ TP_ICM_LABEL;Správa barev
 TP_ICM_NOICM;Bez ICM: sRGB výstup
 TP_ICM_OUTPUTDLGLABEL;Vybrat výstupní ICC profil...
 TP_ICM_OUTPUTPROFILE;Výstupní barevný prostor
-TP_ICM_PREFERREDPROFILE;Preferovaný DCP profil
-TP_ICM_PREFERREDPROFILE_1;Denní světlo
-TP_ICM_PREFERREDPROFILE_2;Wolfram
-TP_ICM_PREFERREDPROFILE_3;Fluorescenční
-TP_ICM_PREFERREDPROFILE_4;Blesk
 TP_ICM_SAVEREFERENCE;Uložit referenční obrázek pro profilování
 TP_ICM_TONECURVE;Použita tónová křivka DCP
-TP_ICM_TONECURVE_TOOLTIP;Povolit použití tónových křivek jenž mohou být uloženy v DCP profilech.
+TP_ICM_TONECURVE_TOOLTIP;Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, že DCP obsahuje tónovou křivku.
 TP_ICM_WORKINGPROFILE;Pracovní barevný prostor
 TP_IMPULSEDENOISE_LABEL;Redukce impulzního šumu
 TP_IMPULSEDENOISE_THRESH;Práh
 TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP;Přizpůsobit barvy palety barevného pracovního prostoru\na aplikovat Munsellovu korekci
 TP_LABCURVE_AVOIDCOLORSHIFT;Zabránit posunu barev
 TP_LABCURVE_BRIGHTNESS;Světlost
-TP_LABCURVE_BWTONING;Černobílé tónování
-TP_LABCURVE_BWTONING_TIP;Při zapnuté volbě <b>Černobílé tónování</b> nemají křivky Lab barvy, CC, CH a LC efekt.\nTónování může být ovlivněno použitím křivek <b>a</b> a <b>b</b>
 TP_LABCURVE_CONTRAST;Kontrast
 TP_LABCURVE_CURVEEDITOR_A_RANGE1;Sytě zelená
 TP_LABCURVE_CURVEEDITOR_A_RANGE2;Pastelově zelená
@@ -1302,19 +1305,21 @@ TP_LABCURVE_CURVEEDITOR_CC_RANGE1;Neutrální
 TP_LABCURVE_CURVEEDITOR_CC_RANGE2;Matné
 TP_LABCURVE_CURVEEDITOR_CC_RANGE3;Pastelové
 TP_LABCURVE_CURVEEDITOR_CC_RANGE4;Saturované
-TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP;Barevnost C=f(C).\n\nZobrazuje histogram křivky barevnosti před úpravami.\nHistogram konečného výsledku je zobrazen na hlavním panelu.
+TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP;Barevnost dle barevnosti C=f(C)
+TP_LABCURVE_CURVEEDITOR_CL;CL
+TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP;Barevnost dle jasu C=f(L)
 TP_LABCURVE_CURVEEDITOR_CH;CH
-TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP;Barevnost dle odstínu
+TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP;Barevnost dle odstínu C=f(H)
 TP_LABCURVE_CURVEEDITOR;Křivka jasů
 TP_LABCURVE_CURVEEDITOR_LC;LC
-TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP;Jas dle barvy
-TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP;Jas Lab L=f(L).\n\nZobrazuje histogram L křivky před úpravami.\nHistogram konečného výsledku je zobrazen na hlavním panelu.
-TP_LABCURVE_CHROMATICITY;Barva
+TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP;Jas dle barevnosti L=f(C)
+TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP;Jas dle jasu L=f(L)
+TP_LABCURVE_CHROMATICITY;Barevnost
 TP_LABCURVE_LABEL;Lab úpravy
-TP_LABCURVE_LCREDSK;Omezit LC na tóny červené a pletiS
+TP_LABCURVE_LCREDSK;Omezit LC na tóny červené a pleti
 TP_LABCURVE_LCREDSK_TIP;Pokud je povoleno, je 'LC křivka' (Jas dle barevnosti) omezena pouze na červené a pleťové tóny\nPokud je zakázáno, aplikuje se na všechny tóny
 TP_LABCURVE_RSTPROTECTION;Ochrana červených a pleťových tónů
-TP_LABCURVE_RSTPRO_TOOLTIP;Může být použito s posuvníkem barev a CC křivkou.
+TP_LABCURVE_RSTPRO_TOOLTIP;Může být použito s posuvníkem barevnosti a CC křivkou.
 TP_LENSGEOM_AUTOCROP;Automatický ořez
 TP_LENSGEOM_FILL;Automatické vyplnění
 TP_LENSGEOM_LABEL;Objektiv / Geometrie
@@ -1431,7 +1436,7 @@ TP_SHARPENMICRO_UNIFORMITY;Jednolitost
 TP_VIBRANCE_AVOIDCOLORSHIFT;Zabránit posunu barev
 TP_VIBRANCE_CURVEEDITOR_SKINTONES;HH
 TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL;Tóny pleti
-TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1;Červená/Růžová
+TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1;Červená/Fialová
 TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2;Červená
 TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3;Červená/Žlutá
 TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4;Žlutá
