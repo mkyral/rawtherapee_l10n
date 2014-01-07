@@ -26,6 +26,7 @@
 #25 12.09.2013: updated by mkyral
 #26 17.09.2013: updated by mkyral
 #27 09.12.2013: updated by mkyral
+#28 27.12.2013: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -90,13 +91,13 @@ EXPORT_BYPASS_LUMADENOISE;Vynechat redukci jasového šumu
 EXPORT_BYPASS_RAW_ALL_ENHANCE;Vynechat redukci artefaktů a šumu po demozajkování
 EXPORT_BYPASS_RAW_CA;Vynechat [raw] korekci Chromatické aberace
 EXPORT_BYPASS_RAW_CCSTEPS;Vynechat [raw] potlačení chybných barev
-EXPORT_BYPASS_RAW_DCB_ENHANCE;Vynechat [raw] kroky rozšíření DCB
+EXPORT_BYPASS_RAW_DCB_ENHANCE;Vynechat [raw] kroky vylepšení DCB
 EXPORT_BYPASS_RAW_DCB_ITERATIONS;Vynechat [raw] průchody DCB
 EXPORT_BYPASS_RAW_DF;Vynechat [raw] tmavé snímky
 EXPORT_BYPASS_RAW_FF;Vynechat [raw] Flat Field
 EXPORT_BYPASS_RAW_GREENTHRESH;Vynechat [raw] vyrovnání zelené
 EXPORT_BYPASS_RAW_LINENOISE;Vynechat [raw] filtrování linkového rušení
-EXPORT_BYPASS_RAW_LMMSE_ITERATIONS;Vynechat [raw] kroky rozšíření LMMSE
+EXPORT_BYPASS_RAW_LMMSE_ITERATIONS;Vynechat [raw] kroky vylepšení LMMSE
 EXPORT_BYPASS_SHARPENEDGE;Vynechat doostření hran
 EXPORT_BYPASS_SHARPENING;Vynechat doostření
 EXPORT_BYPASS_SHARPENMICRO;Vynechat mikrokontrast
@@ -282,7 +283,7 @@ HISTORY_MSG_112;--nepoužito--
 HISTORY_MSG_113;Ochrana červených a pleťových tónů
 HISTORY_MSG_114;Průchody DCB
 HISTORY_MSG_115;Průchody chybných barev
-HISTORY_MSG_116;Rozšířené DCB
+HISTORY_MSG_116;Vylepšené DCB
 HISTORY_MSG_117;Raw: korekce červené CA
 HISTORY_MSG_118;Raw: korekce modré CA
 HISTORY_MSG_119;Linkové odšumění
@@ -377,19 +378,19 @@ HISTORY_MSG_199;CAM02 - Zobrazení CIECAM02 výstupních histogramů v křivkác
 HISTORY_MSG_2;PP3 načten
 HISTORY_MSG_20;Doostření
 HISTORY_MSG_200;CAM02 - Mapování tónů pomocí CIECAM02 Q
-HISTORY_MSG_201;Redukce šumu - rozdíl barevnosti - červená
-HISTORY_MSG_202;Redukce šumu - rozdíl barevnosti - modrá
+HISTORY_MSG_201;Redukce šumu - rozdíl barevnosti - červená a zelená
+HISTORY_MSG_202;Redukce šumu - rozdíl barevnosti - modrá - žlutá
 HISTORY_MSG_203;Redukce šumu - metoda
-HISTORY_MSG_204;Kroky rozšíření LMMSE
+HISTORY_MSG_204;Kroky vylepšení LMMSE
 HISTORY_MSG_205;CAM02 vypálené/špatné pixely
 HISTORY_MSG_206;CAT02 automatické přizpůsobení scény
 HISTORY_MSG_207;Křivka odstínu odstranění lemu
 HISTORY_MSG_208;Korekce Modrá/červená
 HISTORY_MSG_21;Poloměr doostření
-HISTORY_MSG_210;Přechodový filtr
+HISTORY_MSG_210;Přechodový filtr - úhel
 HISTORY_MSG_211;Přechodový filtr
-HISTORY_MSG_212;Viněta
-HISTORY_MSG_213;Viněta - síla
+HISTORY_MSG_212;Viněta - síla
+HISTORY_MSG_213;Viněta
 HISTORY_MSG_214;Černobílá fotografie
 HISTORY_MSG_215;ČB Míchání kanálů - červená
 HISTORY_MSG_216;ČB Míchání kanálů - zelená
@@ -425,8 +426,12 @@ HISTORY_MSG_242;Viněta - zaoblení
 HISTORY_MSG_243;Vinětace - oblast
 HISTORY_MSG_244;Vinětace - síla
 HISTORY_MSG_245;Vinětace - střed
-HISTORY_MSG_246;CL křivka
+HISTORY_MSG_246;'CL' křivka
+HISTORY_MSG_247;'LH' křivka
+HISTORY_MSG_248;'HH' křivka
+HISTORY_MSG_249;Kontrast dle detailu úrovní - práh
 HISTORY_MSG_25;Poloměr detekce okrajů při doostření
+HISTORY_MSG_250;Redukce šumu - vylepšený režim
 HISTORY_MSG_26;Tolerance okrajů při doostření
 HISTORY_MSG_27;Omezení haló artefaktů doostření
 HISTORY_MSG_28;Míra omezení haló artefaktů
@@ -471,9 +476,9 @@ HISTORY_MSG_62;Úprava zkreslení objektivu
 HISTORY_MSG_63;Snímek vybrán
 HISTORY_MSG_64;Oříznout fotku
 HISTORY_MSG_65;Korekce CA
-HISTORY_MSG_66;Obnovení světel
-HISTORY_MSG_67;Míra obnovení světel
-HISTORY_MSG_68;Metoda obnovení světel
+HISTORY_MSG_66;Rekonstrukce světel
+HISTORY_MSG_67;Rekonstrukce světel - míra
+HISTORY_MSG_68;Rekonstrukce světel - metoda
 HISTORY_MSG_69;Pracovní barevný prostor
 HISTORY_MSG_7;Černá
 HISTORY_MSG_70;Výstupní barevný prostor
@@ -732,7 +737,7 @@ PARTIALPASTE_RAW_ALLENHANCE;Aplikovat redukci artefaktů/šumu po demozajkován�
 PARTIALPASTE_RAWCACORR_AUTO;Automatická korekce CA
 PARTIALPASTE_RAWCACORR_CABLUE;CA modrá
 PARTIALPASTE_RAWCACORR_CARED;CA červená
-PARTIALPASTE_RAW_DCBENHANCE;Aplikovat kroky rozšíření DCB
+PARTIALPASTE_RAW_DCBENHANCE;Aplikovat kroky vylepšení DCB
 PARTIALPASTE_RAW_DCBITERATIONS;Počet průchodů DCB
 PARTIALPASTE_RAW_DMETHOD;Metoda demozajkování
 PARTIALPASTE_RAWEXPOS_BLACK;Úroveň černé
@@ -777,7 +782,7 @@ PREFERENCES_CIEART_LABEL;Použít jednoduchou přesnost místo dvojnásobné
 PREFERENCES_CIEART_TOOLTIP;Pokud je povoleno, budou pro CIECAM02 výpočty použita reálná čísla s jednoduchou přesností místo čísel s dvojnásobnou přesností. Tím se dosáhne mírného zrychlení výpočtů za cenu nepatrné ztráty kvality.
 PREFERENCES_CLIPPINGIND;Indikace oříznutí
 PREFERENCES_CMETRICINTENT;Kolorimetrický záměr
-PREFERENCES_CUSTPROFBUILDHINT;Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil pro obrázek.\nBude spuštěn s následujícími parametry,  které umožní vygenerování vhodného profilu upracování :\n[cesta raw/JPG] [výchozí cesta profilu] [cesta k RT cache ][clona] [expozice v sekundách] [ohnisková vzdálenost v mm] [ISO] [objektiv] [výrobce fotoaparátu][model fotoaparátu]\n\n<b>VAROVÁNÍ:</b> Pokud používáte cesty obsahující mezery, musíte je sami uzavřít do dvojitých uvozovek.
+PREFERENCES_CUSTPROFBUILDHINT;Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil pro obrázek.\n\nCesta k souboru s parametry (styl *.ini, neboli "soubor klíčů") je přidán jako parametr do příkazové řádky. Soubor obsahuje mnoho různých parametrů skriptem vyžadovaných a Exif data, což umožní skriptu vygenerovat správný profil pro zpracování.\n\n<b>VAROVÁNÍ:</b> Pokud používáte cesty obsahující mezery, musíte je sami uzavřít do dvojitých uvozovek.
 PREFERENCES_CUSTPROFBUILDKEYFORMAT;Formát klíče
 PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME;Jméno
 PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID;TagID
@@ -1164,8 +1169,10 @@ TP_DARKFRAME_LABEL;Tmavý snímek
 TP_DEFRINGE_LABEL;Odstranění lemu
 TP_DEFRINGE_RADIUS;Poloměr
 TP_DEFRINGE_THRESHOLD;Práh
-TP_DIRPYRDENOISE_BLUE;Rozdíl barevnosti - Modrá
+TP_DIRPYRDENOISE_BLUE;Rozdíl barevnosti - Modrá a žlutá
 TP_DIRPYRDENOISE_ENABLED_TOOLTIP;Může být použito jak pro raw tak i pro ostatní obrázky.\n\nPokud je použito pro ostatní obrázky, závisí redukce šumu dle jasu na gamě vstupního barevného profilu. Předpokládá se sRGB gama a proto se může výsledek u obrázků s rozdílnou gamou barevného profilu lišit.
+TP_DIRPYRDENOISE_ENH_TOOLTIP;Zvýší kvalitu odšumění, ale zároveň prodlouží délku zpracování  asi o 20%
+TP_DIRPYRDENOISE_ENH;Vylepšený režim
 TP_DIRPYRDENOISE_GAMMA;Gama
 TP_DIRPYRDENOISE_GAMMA_TOOLTIP;Gama ovlivňuje sílu redukce šumu v rozsahu tónů. Menší hodnoty ovlivňují stíny, kdežto vysoké hodnoty zesílí efekt v jasných tónech.
 TP_DIRPYRDENOISE_CHROMA;Barevnost (Hlavní)
@@ -1176,7 +1183,7 @@ TP_DIRPYRDENOISE_LUMA;Jas
 TP_DIRPYRDENOISE_METHOD;Metoda
 TP_DIRPYRDENOISE_METHOD_TOOLTIP;Pro Raw obrázky může být použita jak RGB tak i Lab metoda.\n\nPro ostatní obrázky bude vždy použita metoda  Lab bez ohledu na výběr.
 TP_DIRPYRDENOISE_PERF;RGB režim (raw obrázky)
-TP_DIRPYRDENOISE_RED;Rozdíl barevnosti - Červená
+TP_DIRPYRDENOISE_RED;Rozdíl barevnosti - Červená a zelená
 TP_DIRPYRDENOISE_RGB;RGB
 TP_DIRPYREQUALIZER_LABEL;Kontrast dle detailu úrovní
 TP_DIRPYREQUALIZER_LUMACOARSEST;Nejhrubší
@@ -1197,10 +1204,10 @@ TP_EPD_STRENGTH;Síla
 TP_EPD_TOOLTIP;Mapování tónů je dostupné v Lab (standard) a CIECAM02 módu.\n\nPro zapnutí CIECAM02 mu mapování tónů povolte prosím následující nastavení:\n1. CIECAM02\n2. Algoritmus="Jas a pestrobarevnost (QM)"\n3. "Mapování tónů pomocí jasu CIECAM02 (Q)"
 TP_EXPOSCORR_LABEL;Raw bílý a černý bod
 TP_EXPOSURE_AUTOLEVELS;Automatické úrovně
-TP_EXPOSURE_AUTOLEVELS_TIP;Přepne provedení Automatické úrovně na automatickou sadu hodnot parametrů založených na analýze obrázku
+TP_EXPOSURE_AUTOLEVELS_TIP;Přepne provedení Automatické úrovně na automatickou sadu hodnot parametrů založených na analýze obrázku\nPokud to je nezbytné, povolí rekonstrukci světel
 TP_EXPOSURE_BLACKLEVEL;Černá
 TP_EXPOSURE_BRIGHTNESS;Světlost
-TP_EXPOSURE_CLIP;Oříznutí
+TP_EXPOSURE_CLIP;Oříznutí %
 TP_EXPOSURE_CLIP_TIP;Podíl klipujících bodů v automatických operacích úrovní
 TP_EXPOSURE_COMPRHIGHLIGHTS;Míra obnovení světel
 TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD;Práh obnovení světel
@@ -1230,6 +1237,7 @@ TP_GAMMA_CURV;Gama
 TP_GAMMA_FREE;Volná gama
 TP_GAMMA_OUTPUT;Výstupní gama
 TP_GAMMA_SLOP;Sklon (lineární)
+TP_GENERAL_11SCALE_TOOLTIP;Efekt tohoto nástroje nebo některých jeho komponent je viditelný pouze při přiblížení 1:1.
 TP_GRADIENT_CENTER;Střed
 TP_GRADIENT_CENTER_X;Střed X
 TP_GRADIENT_CENTER_X_TOOLTIP;Bod otáčení X: -100=levá hrana, 0=střed, +100=pravá hrana
@@ -1245,6 +1253,7 @@ TP_GRADIENT_STRENGTH_TOOLTIP;Síla filtru v expozičních stupních
 TP_HLREC_BLEND;Mísení
 TP_HLREC_CIELAB;Mísení CIELab
 TP_HLREC_COLOR;Propagace barev
+TP_HLREC_ENA_TOOLTIP;Může být aktivováno automatickou expozicí
 TP_HLREC_LABEL;Rekonstrukce světel
 TP_HLREC_LUMINANCE;Obnovení jasů
 TP_HLREC_METHOD;Metoda:
@@ -1269,7 +1278,7 @@ TP_ICM_FILEDLGFILTERICM;Barevné profily
 TP_ICM_INPUTCAMERAICC;Automatický dohledaný specifický barevný profil fotoaparátu
 TP_ICM_INPUTCAMERAICC_TOOLTIP;Použít RawTherapee specifický DCP nebo ICC vstupní barevný profil fotoaparátu jenž je mnohem přesnější než zjednodušená matice. Není dostupné pro všechny fotoaparáty. Profily jsou uloženy ve složkách /iccprofiles/input a /dcpprofiles a jsou automaticky vybrány dle jména souboru shodného s fotoaparátem.
 TP_ICM_INPUTCAMERA;Standard fotoaparátu
-TP_ICM_INPUTCAMERA_TOOLTIP;Použít jednoduchou matici barev dcraw, rozšířenou verzí RawTherapee (kterýkoli dostupný, založený na modelu fotoaparátu) nebo vložený v DNG.
+TP_ICM_INPUTCAMERA_TOOLTIP;Použít jednoduchou matici barev dcraw, rozšířenou verzi RawTherapee (kterýkoli dostupný, založený na modelu fotoaparátu) nebo vložený v DNG.
 TP_ICM_INPUTCUSTOM_TOOLTIP;Vyberte vlastní DCP/ICC soubor barevného profilu pro fotoaparát
 TP_ICM_INPUTCUSTOM;Vlastní
 TP_ICM_INPUTDLGLABEL;Vybrat vstupní DCP/ICC profil...
@@ -1308,13 +1317,18 @@ TP_LABCURVE_CURVEEDITOR_CC_RANGE4;Saturované
 TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP;Barevnost dle barevnosti C=f(C)
 TP_LABCURVE_CURVEEDITOR_CL;CL
 TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP;Barevnost dle jasu C=f(L)
+TP_LABCURVE_CURVEEDITOR_HH;HH
+TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP;Odstín dle odstínu H=f(H)
 TP_LABCURVE_CURVEEDITOR_CH;CH
 TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP;Barevnost dle odstínu C=f(H)
 TP_LABCURVE_CURVEEDITOR;Křivka jasů
 TP_LABCURVE_CURVEEDITOR_LC;LC
 TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP;Jas dle barevnosti L=f(C)
+TP_LABCURVE_CURVEEDITOR_LH;LH
+TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP;Jas dle jasu odstínu L=f(H)
 TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP;Jas dle jasu L=f(L)
 TP_LABCURVE_CHROMATICITY;Barevnost
+TP_LABCURVE_CHROMA_TOOLTIP;Pro černobílé tónování nastavte barevnost na -100
 TP_LABCURVE_LABEL;Lab úpravy
 TP_LABCURVE_LCREDSK;Omezit LC na tóny červené a pleti
 TP_LABCURVE_LCREDSK_TIP;Pokud je povoleno, je 'LC křivka' (Jas dle barevnosti) omezena pouze na červené a pleťové tóny\nPokud je zakázáno, aplikuje se na všechny tóny
@@ -1355,7 +1369,7 @@ TP_RAW_ALLENHANCE;Redukce artefaktů/šumu po demozajkování
 TP_RAWCACORR_AUTO;Aplikovat automatickou korekci chromatické aberace
 TP_RAWCACORR_CABLUE;Modrá
 TP_RAWCACORR_CARED;Červená
-TP_RAW_DCBENHANCE;Kroky rozšíření DCB
+TP_RAW_DCBENHANCE;Kroky vylepšení DCB
 TP_RAW_DCBITERATIONS;Počet průchodů DCB
 TP_RAW_DMETHOD;Metoda
 TP_RAW_DMETHOD_PROGRESSBAR_REFINE;Vylepšení demozajkování...
@@ -1371,7 +1385,7 @@ TP_RAWEXPOS_PRESER;Bílý bod: Kor. zachování světel (EV)
 TP_RAWEXPOS_TWOGREEN;Obě zelené zároveň
 TP_RAW_FALSECOLOR;Počet kroků potlačování chybných barev
 TP_RAW_LABEL;Demozajkování
-TP_RAW_LMMSEITERATIONS;Kroky rozšíření LMMSE
+TP_RAW_LMMSEITERATIONS;Kroky vylepšení LMMSE
 TP_RAW_LMMSE_TOOLTIP;Přidá gamu (krok 1)  - přidá mediány (kroky 2, 3, 4) a následně přidá (kroky 5 a 6) vyčištění artefaktů a vylepšení poměru signálu a šumu.
 TP_RESIZE_APPLIESTO;Aplikovat na:
 TP_RESIZE_BICUBIC;Bikubická

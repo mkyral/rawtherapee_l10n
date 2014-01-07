@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-12-09 20:10+0100\n"
+"POT-Creation-Date: 2013-12-27 19:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1394,11 +1394,11 @@ msgid "CAM02 - Tone mapping using CIECAM02 Q"
 msgstr ""
 
 #: HISTORY_MSG_201
-msgid "NR - Delta Chrominance red"
+msgid "NR - Delta Chrominance red-green"
 msgstr ""
 
 #: HISTORY_MSG_202
-msgid "NR - Delta Chrominance blue"
+msgid "NR - Delta Chrominance blue-yellow"
 msgstr ""
 
 #: HISTORY_MSG_203
@@ -1425,20 +1425,24 @@ msgstr ""
 msgid "Blue/Red Equalizer"
 msgstr ""
 
-#: HISTORY_MSG_210,HISTORY_MSG_211,PARTIALPASTE_GRADIENT,TP_GRADIENT_LABEL
-msgid "Graduated Filter"
-msgstr ""
-
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
 msgstr ""
 
-#: HISTORY_MSG_212,PARTIALPASTE_PCVIGNETTE,TP_PCVIGNETTE_LABEL
-msgid "Vignette Filter"
+#: HISTORY_MSG_210
+msgid "Graduated Filter - Angle"
 msgstr ""
 
-#: HISTORY_MSG_213
+#: HISTORY_MSG_211,PARTIALPASTE_GRADIENT,TP_GRADIENT_LABEL
+msgid "Graduated Filter"
+msgstr ""
+
+#: HISTORY_MSG_212
 msgid "Vignette Filter - Strength"
+msgstr ""
+
+#: HISTORY_MSG_213,PARTIALPASTE_PCVIGNETTE,TP_PCVIGNETTE_LABEL
+msgid "Vignette Filter"
 msgstr ""
 
 #: HISTORY_MSG_214
@@ -1574,11 +1578,27 @@ msgid "Vignetting - Center"
 msgstr ""
 
 #: HISTORY_MSG_246
-msgid "CL curve"
+msgid "'CL' curve"
+msgstr ""
+
+#: HISTORY_MSG_247
+msgid "'LH' curve"
+msgstr ""
+
+#: HISTORY_MSG_248
+msgid "'HH' curve"
+msgstr ""
+
+#: HISTORY_MSG_249
+msgid "Contrast by Detail Levels Threshold"
 msgstr ""
 
 #: HISTORY_MSG_25
 msgid "Sharpening Edge Detection Radius"
+msgstr ""
+
+#: HISTORY_MSG_250
+msgid "NR enhance"
 msgstr ""
 
 #: HISTORY_MSG_26
@@ -1749,16 +1769,16 @@ msgstr ""
 msgid "CA correction"
 msgstr ""
 
-#: HISTORY_MSG_66
-msgid "Highlight Recovery"
+#: HISTORY_MSG_66,TP_HLREC_LABEL
+msgid "Highlight Reconstruction"
 msgstr ""
 
-#: HISTORY_MSG_67,TP_EXPOSURE_COMPRHIGHLIGHTS
-msgid "Highlight Recovery Amount"
+#: HISTORY_MSG_67
+msgid "HL Reconstruction - Amount"
 msgstr ""
 
 #: HISTORY_MSG_68
-msgid "Highlight Recovery Method"
+msgid "HL Reconstruction - Method"
 msgstr ""
 
 #: HISTORY_MSG_69
@@ -2898,7 +2918,7 @@ msgid "Colorimetric intent"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [RT's cache folder path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera make] [camera model]\n\n<b>WARNING:</b> You are responsible of using double quotes where necessary if you're using paths containing spaces."
+msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\n\nThe path of the communication file (*.ini style, a.k.a. \"Keyfile\") is added as a command line parameter. It contains various parameters required for the scipts and image Exif to allow a rules-based processing profile generation.\n\n<b>WARNING:</b> You are responsible for using double quotes where necessary if you're using paths containing spaces."
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME
@@ -4321,11 +4341,19 @@ msgid "Radius"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_BLUE
-msgid "Delta chrominance Blue"
+msgid "Delta chrominance Blue & Yellow"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_ENABLED_TOOLTIP
 msgid "Can be used on raw and non-raw images.\n\nFor non-raw images noise reduction of luminance depends on gamma of the input color profile. Gamma of sRGB is assumed, thus if input image is in color profile of a different gamma, luminance noise reduction will vary."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_ENH_TOOLTIP
+msgid "Increases the quality of denoise, but increases processing time approximately 20%"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_ENH
+msgid "Enhanced mode"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_GAMMA_TOOLTIP
@@ -4357,7 +4385,7 @@ msgid "RGB mode (raw images)"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_RED
-msgid "Delta chrominance Red"
+msgid "Delta chrominance Red & Green"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
@@ -4401,7 +4429,7 @@ msgid "Raw White & Black Points"
 msgstr ""
 
 #: TP_EXPOSURE_AUTOLEVELS_TIP
-msgid "Toggle execution of auto levels to automatically set parameter values based on image analysis"
+msgid "Toggle execution of auto levels to automatically set parameter values based on image analysis\nEnable Highlight Reconstruction if necessary"
 msgstr ""
 
 #: TP_EXPOSURE_CLIP_TIP
@@ -4409,11 +4437,15 @@ msgid "The fraction of pixels to be clipped in auto level's operation"
 msgstr ""
 
 #: TP_EXPOSURE_CLIP
-msgid "Clip"
+msgid "Clip %"
 msgstr ""
 
 #: TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
 msgid "Highlight Recovery Threshold"
+msgstr ""
+
+#: TP_EXPOSURE_COMPRHIGHLIGHTS
+msgid "Highlight Recovery Amount"
 msgstr ""
 
 #: TP_EXPOSURE_COMPRSHADOWS
@@ -4476,6 +4508,10 @@ msgstr ""
 msgid "Slope (linear)"
 msgstr ""
 
+#: TP_GENERAL_11SCALE_TOOLTIP
+msgid "The effect of this tool or some of its sub-component is only visible at 1:1 preview scale."
+msgstr ""
+
 #: TP_GRADIENT_CENTER,TP_VIGNETTING_CENTER
 msgid "Center"
 msgstr ""
@@ -4528,8 +4564,8 @@ msgstr ""
 msgid "Color Propagation"
 msgstr ""
 
-#: TP_HLREC_LABEL
-msgid "Highlight Reconstruction"
+#: TP_HLREC_ENA_TOOLTIP
+msgid "Could be activated by automatic exposure"
 msgstr ""
 
 #: TP_HLREC_LUMINANCE
@@ -4705,6 +4741,14 @@ msgstr ""
 msgid "CL"
 msgstr ""
 
+#: TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP
+msgid "Hue according to hue H=f(H)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_HH,TP_VIBRANCE_CURVEEDITOR_SKINTONES
+msgid "HH"
+msgstr ""
+
 #: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
 msgid "Chromaticity according to hue C=f(H)"
 msgstr ""
@@ -4721,12 +4765,24 @@ msgstr ""
 msgid "LC"
 msgstr ""
 
+#: TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP
+msgid "Luminance according to hue L=f(H)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LH
+msgid "LH"
+msgstr ""
+
 #: TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP
 msgid "Luminance according to luminance L=f(L)"
 msgstr ""
 
 #: TP_LABCURVE_CURVEEDITOR
 msgid "Luminance Curve"
+msgstr ""
+
+#: TP_LABCURVE_CHROMA_TOOLTIP
+msgid "To apply Bwtoning, set Chromaticity to -100"
 msgstr ""
 
 #: TP_LABCURVE_LABEL
@@ -5031,10 +5087,6 @@ msgstr ""
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_TOOLTIP
 msgid "Hue according to the hue"
-msgstr ""
-
-#: TP_VIBRANCE_CURVEEDITOR_SKINTONES
-msgid "HH"
 msgstr ""
 
 #: TP_VIBRANCE_PASTELS

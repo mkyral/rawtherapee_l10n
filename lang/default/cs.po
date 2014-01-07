@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2013-12-09 20:10+0100\n"
-"PO-Revision-Date: 2013-12-09 20:08+0100\n"
+"POT-Creation-Date: 2013-12-27 19:03+0100\n"
+"PO-Revision-Date: 2013-12-27 21:04+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -272,7 +272,7 @@ msgstr "Vynechat [raw] potlačení chybných barev"
 
 #: EXPORT_BYPASS_RAW_DCB_ENHANCE
 msgid "Bypass [raw] DCB Enhancement Steps"
-msgstr "Vynechat [raw] kroky rozšíření DCB"
+msgstr "Vynechat [raw] kroky vylepšení DCB"
 
 #: EXPORT_BYPASS_RAW_DCB_ITERATIONS
 msgid "Bypass [raw] DCB Iterations"
@@ -296,7 +296,7 @@ msgstr "Vynechat [raw] filtrování linkového rušení"
 
 #: EXPORT_BYPASS_RAW_LMMSE_ITERATIONS
 msgid "Bypass [raw] LMMSE Enhancement Steps"
-msgstr "Vynechat [raw] kroky rozšíření LMMSE"
+msgstr "Vynechat [raw] kroky vylepšení LMMSE"
 
 #: EXPORT_BYPASS_SHARPENEDGE
 msgid "Bypass Edge Sharpening"
@@ -1219,7 +1219,7 @@ msgstr "Průchody chybných barev"
 
 #: HISTORY_MSG_116
 msgid "Enhanced DCB"
-msgstr "Rozšířené DCB"
+msgstr "Vylepšené DCB"
 
 #: HISTORY_MSG_117
 msgid "Raw Red CA Correction"
@@ -1582,12 +1582,12 @@ msgid "CAM02 - Tone mapping using CIECAM02 Q"
 msgstr "CAM02 - Mapování tónů pomocí CIECAM02 Q"
 
 #: HISTORY_MSG_201
-msgid "NR - Delta Chrominance red"
-msgstr "Redukce šumu - rozdíl barevnosti - červená"
+msgid "NR - Delta Chrominance red-green"
+msgstr "Redukce šumu - rozdíl barevnosti - červená a zelená"
 
 #: HISTORY_MSG_202
-msgid "NR - Delta Chrominance blue"
-msgstr "Redukce šumu - rozdíl barevnosti - modrá"
+msgid "NR - Delta Chrominance blue-yellow"
+msgstr "Redukce šumu - rozdíl barevnosti - modrá - žlutá"
 
 #: HISTORY_MSG_203
 msgid "NR - Method"
@@ -1595,7 +1595,7 @@ msgstr "Redukce šumu - metoda"
 
 #: HISTORY_MSG_204,TP_RAW_LMMSEITERATIONS
 msgid "LMMSE Enhancement Steps"
-msgstr "Kroky rozšíření LMMSE"
+msgstr "Kroky vylepšení LMMSE"
 
 #: HISTORY_MSG_205
 msgid "CAM02 hot/bad pixels"
@@ -1613,21 +1613,25 @@ msgstr "Křivka odstínu odstranění lemu"
 msgid "Blue/Red Equalizer"
 msgstr "Korekce Modrá/červená"
 
-#: HISTORY_MSG_210,HISTORY_MSG_211,PARTIALPASTE_GRADIENT,TP_GRADIENT_LABEL
-msgid "Graduated Filter"
-msgstr "Přechodový filtr"
-
 #: HISTORY_MSG_21
 msgid "Sharpening Radius"
 msgstr "Poloměr doostření"
 
-#: HISTORY_MSG_212,PARTIALPASTE_PCVIGNETTE,TP_PCVIGNETTE_LABEL
-msgid "Vignette Filter"
-msgstr "Viněta"
+#: HISTORY_MSG_210
+msgid "Graduated Filter - Angle"
+msgstr "Přechodový filtr - úhel"
 
-#: HISTORY_MSG_213
+#: HISTORY_MSG_211,PARTIALPASTE_GRADIENT,TP_GRADIENT_LABEL
+msgid "Graduated Filter"
+msgstr "Přechodový filtr"
+
+#: HISTORY_MSG_212
 msgid "Vignette Filter - Strength"
 msgstr "Viněta - síla"
+
+#: HISTORY_MSG_213,PARTIALPASTE_PCVIGNETTE,TP_PCVIGNETTE_LABEL
+msgid "Vignette Filter"
+msgstr "Viněta"
 
 #: HISTORY_MSG_214
 msgid "Black &amp; White"
@@ -1762,12 +1766,28 @@ msgid "Vignetting - Center"
 msgstr "Vinětace - střed"
 
 #: HISTORY_MSG_246
-msgid "CL curve"
-msgstr "CL křivka"
+msgid "'CL' curve"
+msgstr "'CL' křivka"
+
+#: HISTORY_MSG_247
+msgid "'LH' curve"
+msgstr "'LH' křivka"
+
+#: HISTORY_MSG_248
+msgid "'HH' curve"
+msgstr "'HH' křivka"
+
+#: HISTORY_MSG_249
+msgid "Contrast by Detail Levels Threshold"
+msgstr "Kontrast dle detailu úrovní - práh"
 
 #: HISTORY_MSG_25
 msgid "Sharpening Edge Detection Radius"
 msgstr "Poloměr detekce okrajů při doostření"
+
+#: HISTORY_MSG_250
+msgid "NR enhance"
+msgstr "Redukce šumu - vylepšený režim"
 
 #: HISTORY_MSG_26
 msgid "Sharpening Edge Tolerance"
@@ -1937,17 +1957,17 @@ msgstr "Oříznout fotku"
 msgid "CA correction"
 msgstr "Korekce CA"
 
-#: HISTORY_MSG_66
-msgid "Highlight Recovery"
-msgstr "Obnovení světel"
+#: HISTORY_MSG_66,TP_HLREC_LABEL
+msgid "Highlight Reconstruction"
+msgstr "Rekonstrukce světel"
 
-#: HISTORY_MSG_67,TP_EXPOSURE_COMPRHIGHLIGHTS
-msgid "Highlight Recovery Amount"
-msgstr "Míra obnovení světel"
+#: HISTORY_MSG_67
+msgid "HL Reconstruction - Amount"
+msgstr "Rekonstrukce světel - míra"
 
 #: HISTORY_MSG_68
-msgid "Highlight Recovery Method"
-msgstr "Metoda obnovení světel"
+msgid "HL Reconstruction - Method"
+msgstr "Rekonstrukce světel - metoda"
 
 #: HISTORY_MSG_69
 msgid "Working Color Space"
@@ -3170,7 +3190,7 @@ msgstr "CA červená"
 
 #: PARTIALPASTE_RAW_DCBENHANCE
 msgid "Apply DCB enhancement step"
-msgstr "Aplikovat kroky rozšíření DCB"
+msgstr "Aplikovat kroky vylepšení DCB"
 
 #: PARTIALPASTE_RAW_DCBITERATIONS
 msgid "Number of DCB iterations"
@@ -3350,22 +3370,23 @@ msgstr "Kolorimetrický záměr"
 msgid ""
 "Executable (or script) file called when a new initial processing profile "
 "should be generated for an image.\n"
-"Receives command line parameters to allow a rules-based processing profile "
-"generation:\n"
-"[raw/JPG path] [default processing profile path] [RT's cache folder path] [f-"
-"number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera make] "
-"[camera model]\n"
 "\n"
-"<b>WARNING:</b> You are responsible of using double quotes where necessary "
+"The path of the communication file (*.ini style, a.k.a. \"Keyfile\") is "
+"added as a command line parameter. It contains various parameters required "
+"for the scipts and image Exif to allow a rules-based processing profile "
+"generation.\n"
+"\n"
+"<b>WARNING:</b> You are responsible for using double quotes where necessary "
 "if you're using paths containing spaces."
 msgstr ""
 "Program (nebo skript) spuštěný v případě, že má být vygenerován nový profil "
 "pro obrázek.\n"
-"Bude spuštěn s následujícími parametry,  které umožní vygenerování vhodného "
-"profilu upracování :\n"
-"[cesta raw/JPG] [výchozí cesta profilu] [cesta k RT cache ][clona] [expozice "
-"v sekundách] [ohnisková vzdálenost v mm] [ISO] [objektiv] [výrobce "
-"fotoaparátu][model fotoaparátu]\n"
+"\n"
+"Cesta k souboru s parametry (styl *.ini, neboli \"soubor klíčů\") je přidán "
+"jako "
+"parametr do příkazové řádky. Soubor obsahuje mnoho různých parametrů "
+"skriptem vyžadovaných a Exif data, což umožní skriptu vygenerovat správný "
+"profil pro zpracování.\n"
 "\n"
 "<b>VAROVÁNÍ:</b> Pokud používáte cesty obsahující mezery, musíte je sami "
 "uzavřít do dvojitých uvozovek."
@@ -5230,8 +5251,8 @@ msgid "Radius"
 msgstr "Poloměr"
 
 #: TP_DIRPYRDENOISE_BLUE
-msgid "Delta chrominance Blue"
-msgstr "Rozdíl barevnosti - Modrá"
+msgid "Delta chrominance Blue & Yellow"
+msgstr "Rozdíl barevnosti - Modrá a žlutá"
 
 #: TP_DIRPYRDENOISE_ENABLED_TOOLTIP
 msgid ""
@@ -5246,6 +5267,17 @@ msgstr ""
 "Pokud je použito pro ostatní obrázky, závisí redukce šumu dle jasu na gamě "
 "vstupního barevného profilu. Předpokládá se sRGB gama a proto se může "
 "výsledek u obrázků s rozdílnou gamou barevného profilu lišit."
+
+#: TP_DIRPYRDENOISE_ENH_TOOLTIP
+msgid ""
+"Increases the quality of denoise, but increases processing time "
+"approximately 20%"
+msgstr ""
+"Zvýší kvalitu odšumění, ale zároveň prodlouží délku zpracování  asi o 20%"
+
+#: TP_DIRPYRDENOISE_ENH
+msgid "Enhanced mode"
+msgstr "Vylepšený režim"
 
 #: TP_DIRPYRDENOISE_GAMMA_TOOLTIP
 msgid ""
@@ -5287,8 +5319,8 @@ msgid "RGB mode (raw images)"
 msgstr "RGB režim (raw obrázky)"
 
 #: TP_DIRPYRDENOISE_RED
-msgid "Delta chrominance Red"
-msgstr "Rozdíl barevnosti - Červená"
+msgid "Delta chrominance Red & Green"
+msgstr "Rozdíl barevnosti - Červená a zelená"
 
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
 msgid "Coarsest"
@@ -5349,22 +5381,28 @@ msgstr "Raw bílý a černý bod"
 #: TP_EXPOSURE_AUTOLEVELS_TIP
 msgid ""
 "Toggle execution of auto levels to automatically set parameter values based "
-"on image analysis"
+"on image analysis\n"
+"Enable Highlight Reconstruction if necessary"
 msgstr ""
 "Přepne provedení Automatické úrovně na automatickou sadu hodnot parametrů "
-"založených na analýze obrázku"
+"založených na analýze obrázku\n"
+"Pokud to je nezbytné, povolí rekonstrukci světel"
 
 #: TP_EXPOSURE_CLIP_TIP
 msgid "The fraction of pixels to be clipped in auto level's operation"
 msgstr "Podíl klipujících bodů v automatických operacích úrovní"
 
 #: TP_EXPOSURE_CLIP
-msgid "Clip"
-msgstr "Oříznutí"
+msgid "Clip %"
+msgstr "Oříznutí %"
 
 #: TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
 msgid "Highlight Recovery Threshold"
 msgstr "Práh obnovení světel"
+
+#: TP_EXPOSURE_COMPRHIGHLIGHTS
+msgid "Highlight Recovery Amount"
+msgstr "Míra obnovení světel"
 
 #: TP_EXPOSURE_COMPRSHADOWS
 msgid "Shadow Recovery"
@@ -5432,6 +5470,14 @@ msgstr "Výstupní gama"
 msgid "Slope (linear)"
 msgstr "Sklon (lineární)"
 
+#: TP_GENERAL_11SCALE_TOOLTIP
+msgid ""
+"The effect of this tool or some of its sub-component is only visible at 1:1 "
+"preview scale."
+msgstr ""
+"Efekt tohoto nástroje nebo některých jeho komponent je viditelný pouze při "
+"přiblížení 1:1."
+
 #: TP_GRADIENT_CENTER,TP_VIGNETTING_CENTER
 msgid "Center"
 msgstr "Střed"
@@ -5484,9 +5530,9 @@ msgstr "Mísení CIELab"
 msgid "Color Propagation"
 msgstr "Propagace barev"
 
-#: TP_HLREC_LABEL
-msgid "Highlight Reconstruction"
-msgstr "Rekonstrukce světel"
+#: TP_HLREC_ENA_TOOLTIP
+msgid "Could be activated by automatic exposure"
+msgstr "Může být aktivováno automatickou expozicí"
 
 #: TP_HLREC_LUMINANCE
 msgid "Luminance Recovery"
@@ -5564,7 +5610,7 @@ msgid ""
 "Use simple color matrix by dcraw, enhanced RawTherapee version (whichever is "
 "available based on camera model) or embedded in DNG."
 msgstr ""
-"Použít jednoduchou matici barev dcraw, rozšířenou verzí RawTherapee "
+"Použít jednoduchou matici barev dcraw, rozšířenou verzi RawTherapee "
 "(kterýkoli dostupný, založený na modelu fotoaparátu) nebo vložený v DNG."
 
 #: TP_ICM_INPUTCAMERA
@@ -5692,6 +5738,14 @@ msgstr "Barevnost dle jasu C=f(L)"
 msgid "CL"
 msgstr "CL"
 
+#: TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP
+msgid "Hue according to hue H=f(H)"
+msgstr "Odstín dle odstínu H=f(H)"
+
+#: TP_LABCURVE_CURVEEDITOR_HH,TP_VIBRANCE_CURVEEDITOR_SKINTONES
+msgid "HH"
+msgstr "HH"
+
 #: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
 msgid "Chromaticity according to hue C=f(H)"
 msgstr "Barevnost dle odstínu C=f(H)"
@@ -5708,6 +5762,14 @@ msgstr "Jas dle barevnosti L=f(C)"
 msgid "LC"
 msgstr "LC"
 
+#: TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP
+msgid "Luminance according to hue L=f(H)"
+msgstr "Jas dle jasu odstínu L=f(H)"
+
+#: TP_LABCURVE_CURVEEDITOR_LH
+msgid "LH"
+msgstr "LH"
+
 #: TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP
 msgid "Luminance according to luminance L=f(L)"
 msgstr "Jas dle jasu L=f(L)"
@@ -5715,6 +5777,10 @@ msgstr "Jas dle jasu L=f(L)"
 #: TP_LABCURVE_CURVEEDITOR
 msgid "Luminance Curve"
 msgstr "Křivka jasů"
+
+#: TP_LABCURVE_CHROMA_TOOLTIP
+msgid "To apply Bwtoning, set Chromaticity to -100"
+msgstr "Pro černobílé tónování nastavte barevnost na -100"
 
 #: TP_LABCURVE_LABEL
 msgid "Lab Adjustments"
@@ -5818,7 +5884,7 @@ msgstr "Aplikovat automatickou korekci chromatické aberace"
 
 #: TP_RAW_DCBENHANCE
 msgid "DCB Enhancement Step"
-msgstr "Kroky rozšíření DCB"
+msgstr "Kroky vylepšení DCB"
 
 #: TP_RAW_DCBITERATIONS
 msgid "Number of DCB Iterations"
@@ -6043,10 +6109,6 @@ msgstr "Červená/Žlutá"
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_TOOLTIP
 msgid "Hue according to the hue"
 msgstr "Odstín dle odstínu"
-
-#: TP_VIBRANCE_CURVEEDITOR_SKINTONES
-msgid "HH"
-msgstr "HH"
 
 #: TP_VIBRANCE_PASTELS
 msgid "Pastel Tones"
@@ -6320,6 +6382,15 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "CL curve"
+#~ msgstr "CL křivka"
+
+#~ msgid "Highlight Recovery"
+#~ msgstr "Obnovení světel"
+
+#~ msgid "Highlight Recovery Method"
+#~ msgstr "Metoda obnovení světel"
 
 #~ msgid "BW Curve"
 #~ msgstr "ČB křivka"

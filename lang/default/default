@@ -300,9 +300,9 @@ HISTORY_MSG_62;Lens Distortion Correction
 HISTORY_MSG_63;Snapshot Selected
 HISTORY_MSG_64;Crop Photo
 HISTORY_MSG_65;CA correction
-HISTORY_MSG_66;Highlight Recovery
-HISTORY_MSG_67;Highlight Recovery Amount
-HISTORY_MSG_68;Highlight Recovery Method
+HISTORY_MSG_66;Highlight Reconstruction
+HISTORY_MSG_67;HL Reconstruction - Amount
+HISTORY_MSG_68;HL Reconstruction - Method
 HISTORY_MSG_69;Working Color Space
 HISTORY_MSG_70;Output Color Space
 HISTORY_MSG_71;Input Color Space
@@ -435,18 +435,18 @@ HISTORY_MSG_197;CAM02 - Color curve
 HISTORY_MSG_198;CAM02 - Color curve
 HISTORY_MSG_199;CAM02 - Show CIECAM02 output histograms in curves
 HISTORY_MSG_200;CAM02 - Tone mapping using CIECAM02 Q
-HISTORY_MSG_201;NR - Delta Chrominance red
-HISTORY_MSG_202;NR - Delta Chrominance blue
+HISTORY_MSG_201;NR - Delta Chrominance red-green
+HISTORY_MSG_202;NR - Delta Chrominance blue-yellow
 HISTORY_MSG_203;NR - Method
 HISTORY_MSG_204;LMMSE Enhancement Steps
 HISTORY_MSG_205;CAM02 hot/bad pixels
 HISTORY_MSG_206;CAT02 - Adapt scene auto
 HISTORY_MSG_207;Defringing Hue curve
 HISTORY_MSG_208;Blue/Red Equalizer
-HISTORY_MSG_210;Graduated Filter
+HISTORY_MSG_210;Graduated Filter - Angle
 HISTORY_MSG_211;Graduated Filter
-HISTORY_MSG_212;Vignette Filter
-HISTORY_MSG_213;Vignette Filter - Strength
+HISTORY_MSG_212;Vignette Filter - Strength
+HISTORY_MSG_213;Vignette Filter
 HISTORY_MSG_214;Black &amp; White
 HISTORY_MSG_215;B&amp;W Channel Mixer Red
 HISTORY_MSG_216;B&amp;W Channel Mixer Green
@@ -479,7 +479,11 @@ HISTORY_MSG_242;Vignette Filter - Roundness
 HISTORY_MSG_243;Vignetting - Rayon
 HISTORY_MSG_244;Vignetting - Strength
 HISTORY_MSG_245;Vignetting - Center
-HISTORY_MSG_246;CL curve
+HISTORY_MSG_246;'CL' curve
+HISTORY_MSG_247;'LH' curve
+HISTORY_MSG_248;'HH' curve
+HISTORY_MSG_249;Contrast by Detail Levels Threshold
+HISTORY_MSG_250;NR enhance
 HISTORY_NEWSNAPSHOTAS;As...
 HISTORY_NEWSNAPSHOT;Add
 HISTORY_NEWSNAPSHOT_TOOLTIP;Shortcut: <b>Alt-s</b>
@@ -651,8 +655,8 @@ OPTIONS_DEFIMG_MISSING;The default profile for <b>non-raw photos</b> could not b
 OPTIONS_DEFRAW_MISSING;The default profile for <b>raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used.
 PARTIALPASTE_BASICGROUP;Basic Settings
 PARTIALPASTE_CACORRECTION;CA correction
-PARTIALPASTE_CHANNELMIXER;Channel mixer
 PARTIALPASTE_CHANNELMIXERBW;Black and white
+PARTIALPASTE_CHANNELMIXER;Channel mixer
 PARTIALPASTE_COARSETRANS;90° rotation / flipping
 PARTIALPASTE_COLORAPP;CIE Color Appearance Model 2002
 PARTIALPASTE_COLORBOOST;Color boost
@@ -749,11 +753,11 @@ PREFERENCES_CIEART_LABEL;Use float precision instead of double
 PREFERENCES_CIEART_TOOLTIP;If enabled, CIECAM02 calculations are performed in the single-precision floating-point format instead of the double-precision one. This provides a small increase in speed at the expense of a negligible loss of quality
 PREFERENCES_CLIPPINGIND;Clipping Indication
 PREFERENCES_CMETRICINTENT;Colorimetric intent
-PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial processing profile should be generated for an image.\nReceives command line parameters to allow a rules-based processing profile generation:\n[raw/JPG path] [default processing profile path] [RT's cache folder path] [f-number] [exposure in secs] [focal length in mm] [ISO] [lens] [camera make] [camera model]\n\n<b>WARNING:</b> You are responsible of using double quotes where necessary if you're using paths containing spaces.
-PREFERENCES_CUSTPROFBUILDPATH;Executable path
+PREFERENCES_CUSTPROFBUILDHINT;Executable (or script) file called when a new initial processing profile should be generated for an image.\n\nThe path of the communication file (*.ini style, a.k.a. "Keyfile") is added as a command line parameter. It contains various parameters required for the scipts and image Exif to allow a rules-based processing profile generation.\n\n<b>WARNING:</b> You are responsible for using double quotes where necessary if you're using paths containing spaces.
 PREFERENCES_CUSTPROFBUILDKEYFORMAT;Keys format
-PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID;TagID
 PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME;Name
+PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID;TagID
+PREFERENCES_CUSTPROFBUILDPATH;Executable path
 PREFERENCES_CUSTPROFBUILD;Custom Processing Profile Builder
 PREFERENCES_CUTOVERLAYBRUSH;Crop mask color/transparency
 PREFERENCES_D50;5000K
@@ -964,6 +968,74 @@ TOOLBAR_TOOLTIP_CROP;<b>Crop</b> selection.\nShortcut: <b>c</b>
 TOOLBAR_TOOLTIP_HAND;Hand tool.\nShortcut: <b>h</b>
 TOOLBAR_TOOLTIP_STRAIGHTEN;<b>Straighten</b> / <b>fine rotation</b>.\nShortcut: <b>s</b>\n\nIndicate the vertical or horizontal by drawing a guide line over the image preview. Angle of rotation will be shown next to the guide line. Center of rotation is the geometrical center of the image.
 TOOLBAR_TOOLTIP_WB;Spot white balance.\nShortcut: <b>w</b>
+TP_BWMIX_AUTOCH;Auto
+TP_BWMIX_AUTOCH_TIP;Calculate values optimizing channel-mixer
+TP_BWMIX_BLUE;Blue
+TP_BWMIX_CC_ENABLED;Adjust complementary color
+TP_BWMIX_CC_TOOLTIP;Enable to allow automatic adjustment of complementary colors in ROYGCBPM mode
+TP_BWMIX_CHANNEL;Luminance Equalizer
+TP_BWMIX_CURVEEDITOR1;'Before' curve
+TP_BWMIX_CURVEEDITOR2;'After' curve
+TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP;Tone curve, after B&amp;W conversion, at the end of treatment
+TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP;Tone curve, just before B&amp;W conversion\nMay take into account the color components
+TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Modify luminance in function of hue\nPay attention to extreme values that may cause artifacts
+TP_BWMIX_CYAN;Cyan
+TP_BWMIX_FILTER;Color Filter
+TP_BWMIX_FILTER_BLUEGREEN;Blue-Green
+TP_BWMIX_FILTER_BLUE;Blue
+TP_BWMIX_FILTER_GREENYELLOW;Green-Yellow
+TP_BWMIX_FILTER_GREEN;Green
+TP_BWMIX_FILTER_NONE;None
+TP_BWMIX_FILTER_PURPLE;Purple
+TP_BWMIX_FILTER_REDYELLOW;Red-Yellow
+TP_BWMIX_FILTER_RED;Red
+TP_BWMIX_FILTER_TOOLTIP;The color filter simulate shots taken with a colored filter placed in front of the lens. Colored filters reduce transmission of specific range of colors and correspondingly affect their lightness. E.g. a Red filter darkens Blue skies.
+TP_BWMIX_FILTER_YELLOW;Yellow
+TP_BWMIX_GAMMA;Gamma Correction
+TP_BWMIX_GAM_BLUE;Blue Channel
+TP_BWMIX_GAM_GREEN;Green Channel
+TP_BWMIX_GAM_RED;Red Channel
+TP_BWMIX_GAM_TOOLTIP;Correct gamma for each channel RGB
+TP_BWMIX_GREEN;Green
+TP_BWMIX_LABEL;Black & White
+TP_BWMIX_MAGENTA;Magenta
+TP_BWMIX_MET;Method
+TP_BWMIX_MET_CHANMIX;Channel Mixer
+TP_BWMIX_MET_DESAT;Desaturation
+TP_BWMIX_MET_LUMEQUAL;Luminance Equalizer
+TP_BWMIX_MIXC;Mixer
+TP_BWMIX_MIXF;Mixer Filters
+TP_BWMIX_NEUTRAL;Reset mixer
+TP_BWMIX_NEUTRAL_TIP;Reset all values (filter, channel-mixer) to default
+TP_BWMIX_ORANGE;Orange
+TP_BWMIX_PURPLE;Purple
+TP_BWMIX_RED;Red
+TP_BWMIX_RGBLABEL;R: %1%%   G: %2%%   B: %3%%   Total: %4%%
+TP_BWMIX_RGBLABEL_HINT;Final RGB factors that take care of all of the mixer options\nTotal displays the sum of RGB values ​​actually applied:\n- always 100% in relative mode\n- higher (lighter) or lower (darker) than 100% in absolute mode.
+TP_BWMIX_RGB_TOOLTIP;Mix the RGB channels. Use Presets for guidance.\nPay attention to negative values that may cause artifacts or erratic behavior.
+TP_BWMIX_SETTING;Presets
+TP_BWMIX_SETTING_TOOLTIP;Different presets (films, landscape, ...) or manual settings of channel-mixer
+TP_BWMIX_SET_HIGHCONTAST;High contrast
+TP_BWMIX_SET_HIGHSENSIT;High Sensitivity
+TP_BWMIX_SET_HYPERPANCHRO;Hyper Panchromatic
+TP_BWMIX_SET_INFRARED;Infrared
+TP_BWMIX_SET_LANDSCAPE;Landscape
+TP_BWMIX_SET_LOWSENSIT;Low Sensitivity
+TP_BWMIX_SET_LUMINANCE;Luminance
+TP_BWMIX_SET_NORMCONTAST;Normal Contrast
+TP_BWMIX_SET_ORTHOCHRO;Orthochromatic
+TP_BWMIX_SET_PANCHRO;Panchromatic
+TP_BWMIX_SET_PORTRAIT;Portrait
+TP_BWMIX_SET_RGBABS;Channel-Mixer absolute RGB
+TP_BWMIX_SET_RGBREL;Channel-Mixer relative RGB
+TP_BWMIX_SET_ROYGCBPMABS;Channel-Mixer absolute ROYGCBPM
+TP_BWMIX_SET_ROYGCBPMREL;Channel-Mixer relative ROYGCBPM
+TP_BWMIX_TCMODE_FILMLIKE;B&W Film-like
+TP_BWMIX_TCMODE_SATANDVALBLENDING;B&W Saturation and Value Blending
+TP_BWMIX_TCMODE_STANDARD;B&W Standard
+TP_BWMIX_TCMODE_WEIGHTEDSTD;B&W Weighted Standard
+TP_BWMIX_VAL;L
+TP_BWMIX_YELLOW;Yellow
 TP_CACORRECTION_BLUE;Blue
 TP_CACORRECTION_LABEL;CA Correction
 TP_CACORRECTION_RED;Red
@@ -971,74 +1043,6 @@ TP_CHMIXER_BLUE;Blue Channel
 TP_CHMIXER_GREEN;Green Channel
 TP_CHMIXER_LABEL;Channel Mixer
 TP_CHMIXER_RED;Red Channel
-TP_BWMIX_LABEL;Black & White
-TP_BWMIX_CC_ENABLED;Adjust complementary color
-TP_BWMIX_CHANNEL;Luminance Equalizer
-TP_BWMIX_VAL;L
-TP_BWMIX_CC_TOOLTIP;Enable to allow automatic adjustment of complementary colors in ROYGCBPM mode
-TP_BWMIX_SETTING_TOOLTIP;Different presets (films, landscape, ...) or manual settings of channel-mixer
-TP_BWMIX_FILTER_TOOLTIP;The color filter simulate shots taken with a colored filter placed in front of the lens. Colored filters reduce transmission of specific range of colors and correspondingly affect their lightness. E.g. a Red filter darkens Blue skies.
-TP_BWMIX_AUTOCH;Auto
-TP_BWMIX_AUTOCH_TIP;Calculate values optimizing channel-mixer
-TP_BWMIX_NEUTRAL;Reset mixer
-TP_BWMIX_NEUTRAL_TIP;Reset all values (filter, channel-mixer) to default
-TP_BWMIX_RED;Red
-TP_BWMIX_GREEN;Green
-TP_BWMIX_BLUE;Blue
-TP_BWMIX_ORANGE;Orange
-TP_BWMIX_YELLOW;Yellow
-TP_BWMIX_CYAN;Cyan
-TP_BWMIX_MAGENTA;Magenta
-TP_BWMIX_PURPLE;Purple
-TP_BWMIX_RGB_TOOLTIP;Mix the RGB channels. Use Presets for guidance.\nPay attention to negative values that may cause artifacts or erratic behavior.
-TP_BWMIX_GAM_RED;Red Channel
-TP_BWMIX_GAM_GREEN;Green Channel
-TP_BWMIX_GAM_BLUE;Blue Channel
-TP_BWMIX_MIXC;Mixer
-TP_BWMIX_MIXF;Mixer Filters
-TP_BWMIX_RGBLABEL;R: %1%%   G: %2%%   B: %3%%   Total: %4%%
-TP_BWMIX_RGBLABEL_HINT;Final RGB factors that take care of all of the mixer options\nTotal displays the sum of RGB values ​​actually applied:\n- always 100% in relative mode\n- higher (lighter) or lower (darker) than 100% in absolute mode.
-TP_BWMIX_FILTER;Color Filter
-TP_BWMIX_FILTER_NONE;None
-TP_BWMIX_FILTER_RED;Red
-TP_BWMIX_FILTER_REDYELLOW;Red-Yellow
-TP_BWMIX_FILTER_YELLOW;Yellow
-TP_BWMIX_FILTER_GREENYELLOW;Green-Yellow
-TP_BWMIX_FILTER_GREEN;Green
-TP_BWMIX_FILTER_BLUEGREEN;Blue-Green
-TP_BWMIX_FILTER_BLUE;Blue
-TP_BWMIX_FILTER_PURPLE;Purple
-TP_BWMIX_SETTING;Presets
-TP_BWMIX_SET_NORMCONTAST;Normal Contrast
-TP_BWMIX_SET_HIGHCONTAST;High contrast
-TP_BWMIX_SET_LUMINANCE;Luminance
-TP_BWMIX_SET_LANDSCAPE;Landscape
-TP_BWMIX_SET_PORTRAIT;Portrait
-TP_BWMIX_SET_LOWSENSIT;Low Sensitivity
-TP_BWMIX_SET_HIGHSENSIT;High Sensitivity
-TP_BWMIX_SET_PANCHRO;Panchromatic
-TP_BWMIX_SET_HYPERPANCHRO;Hyper Panchromatic
-TP_BWMIX_SET_ORTHOCHRO;Orthochromatic
-TP_BWMIX_SET_RGBABS;Channel-Mixer absolute RGB
-TP_BWMIX_SET_RGBREL;Channel-Mixer relative RGB
-TP_BWMIX_SET_ROYGCBPMABS;Channel-Mixer absolute ROYGCBPM
-TP_BWMIX_SET_ROYGCBPMREL;Channel-Mixer relative ROYGCBPM
-TP_BWMIX_SET_INFRARED;Infrared
-TP_BWMIX_GAMMA;Gamma Correction
-TP_BWMIX_GAM_TOOLTIP;Correct gamma for each channel RGB
-TP_BWMIX_MET;Method
-TP_BWMIX_MET_DESAT;Desaturation
-TP_BWMIX_MET_LUMEQUAL;Luminance Equalizer
-TP_BWMIX_MET_CHANMIX;Channel Mixer
-TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Modify luminance in function of hue\nPay attention to extreme values that may cause artifacts
-TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP;Tone curve, after B&amp;W conversion, at the end of treatment
-TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP;Tone curve, just before B&amp;W conversion\nMay take into account the color components
-TP_BWMIX_CURVEEDITOR1;'Before' curve
-TP_BWMIX_CURVEEDITOR2;'After' curve
-TP_BWMIX_TCMODE_FILMLIKE;B&W Film-like
-TP_BWMIX_TCMODE_SATANDVALBLENDING;B&W Saturation and Value Blending
-TP_BWMIX_TCMODE_STANDARD;B&W Standard
-TP_BWMIX_TCMODE_WEIGHTEDSTD;B&W Weighted Standard
 TP_CHROMATABERR_LABEL;Chromatic Aberration
 TP_COARSETRAF_TOOLTIP_HFLIP;Flip horizontally
 TP_COARSETRAF_TOOLTIP_ROTLEFT;Rotate left.\nShortcut: <b>[</b>\n\nShortcut in Single Editor Tab: <b>Alt-[</b>
@@ -1141,9 +1145,11 @@ TP_DARKFRAME_LABEL;Dark Frame
 TP_DEFRINGE_LABEL;Defringe
 TP_DEFRINGE_RADIUS;Radius
 TP_DEFRINGE_THRESHOLD;Threshold
-TP_DIRPYRDENOISE_BLUE;Delta chrominance Blue
+TP_DIRPYRDENOISE_BLUE;Delta chrominance Blue & Yellow
 TP_DIRPYRDENOISE_CHROMA;Chrominance (Master)
 TP_DIRPYRDENOISE_ENABLED_TOOLTIP;Can be used on raw and non-raw images.\n\nFor non-raw images noise reduction of luminance depends on gamma of the input color profile. Gamma of sRGB is assumed, thus if input image is in color profile of a different gamma, luminance noise reduction will vary.
+TP_DIRPYRDENOISE_ENH;Enhanced mode
+TP_DIRPYRDENOISE_ENH_TOOLTIP;Increases the quality of denoise, but increases processing time approximately 20%
 TP_DIRPYRDENOISE_GAMMA;Gamma
 TP_DIRPYRDENOISE_GAMMA_TOOLTIP;Gamma varies noise reduction strength across the range of tones. Smaller values will target shadows, while larger values will stretch the effect to the brighter tones.
 TP_DIRPYRDENOISE_LABEL;Noise Reduction
@@ -1153,7 +1159,7 @@ TP_DIRPYRDENOISE_LUMA;Luminance
 TP_DIRPYRDENOISE_METHOD;Method
 TP_DIRPYRDENOISE_METHOD_TOOLTIP;For raw images either RGB or Lab methods can be used.\n\nFor non-raw images Lab method will be used, regardless of the selection.
 TP_DIRPYRDENOISE_PERF;RGB mode (raw images)
-TP_DIRPYRDENOISE_RED;Delta chrominance Red
+TP_DIRPYRDENOISE_RED;Delta chrominance Red & Green
 TP_DIRPYRDENOISE_RGB;RGB
 TP_DIRPYREQUALIZER_LABEL;Contrast by Detail Levels
 TP_DIRPYREQUALIZER_LUMACOARSEST;Coarsest
@@ -1174,10 +1180,10 @@ TP_EPD_STRENGTH;Strength
 TP_EPD_TOOLTIP;Tone mapping is possible via Lab mode (standard) and CIECAM02 mode.\n\nTo engage CIECAM02 tone mapping mode enable the following settings:\n1. CIECAM02\n2. Algorithm="Brightness + Colorfulness (QM)"\n3. "Tone mapping using CIECAM02 brightness (Q)"
 TP_EXPOSCORR_LABEL;Raw White & Black Points
 TP_EXPOSURE_AUTOLEVELS;Auto Levels
-TP_EXPOSURE_AUTOLEVELS_TIP;Toggle execution of auto levels to automatically set parameter values based on image analysis
+TP_EXPOSURE_AUTOLEVELS_TIP;Toggle execution of auto levels to automatically set parameter values based on image analysis\nEnable Highlight Reconstruction if necessary
 TP_EXPOSURE_BLACKLEVEL;Black
 TP_EXPOSURE_BRIGHTNESS;Lightness
-TP_EXPOSURE_CLIP;Clip
+TP_EXPOSURE_CLIP;Clip %
 TP_EXPOSURE_CLIP_TIP;The fraction of pixels to be clipped in auto level's operation
 TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD;Highlight Recovery Threshold
 TP_EXPOSURE_COMPRHIGHLIGHTS;Highlight Recovery Amount
@@ -1207,6 +1213,7 @@ TP_GAMMA_CURV;Gamma
 TP_GAMMA_FREE;Free gamma
 TP_GAMMA_OUTPUT;Output Gamma
 TP_GAMMA_SLOP;Slope (linear)
+TP_GENERAL_11SCALE_TOOLTIP;The effect of this tool or some of its sub-component is only visible at 1:1 preview scale.
 TP_GRADIENT_CENTER;Center
 TP_GRADIENT_CENTER_X;Center X
 TP_GRADIENT_CENTER_X_TOOLTIP;Rotation anchor point X: -100=left edge, 0=center, +100=right edge
@@ -1222,6 +1229,7 @@ TP_GRADIENT_STRENGTH_TOOLTIP;Filter strength in stops
 TP_HLREC_BLEND;Blend
 TP_HLREC_CIELAB;CIELab Blending
 TP_HLREC_COLOR;Color Propagation
+TP_HLREC_ENA_TOOLTIP;Could be activated by automatic exposure
 TP_HLREC_LABEL;Highlight Reconstruction
 TP_HLREC_LUMINANCE;Luminance Recovery
 TP_HLREC_METHOD;Method:
@@ -1234,8 +1242,8 @@ TP_HSVEQUALIZER_VAL;V
 TP_ICM_BLENDCMSMATRIX;Blend ICC highlights with matrix
 TP_ICM_BLENDCMSMATRIX_TOOLTIP;Enable to recover blown highlights when using LUT based ICC profiles
 TP_ICM_DCPILLUMINANT;Illuminant
-TP_ICM_DCPILLUMINANT_TOOLTIP;Select which embedded DCP illuminant to employ. Default is "interpolated" which is a mix between the two based on white balance. The setting is only enabled if a Dual-Illuminant DCP with interpolation support is selected.
 TP_ICM_DCPILLUMINANT_INTERPOLATED;Interpolated
+TP_ICM_DCPILLUMINANT_TOOLTIP;Select which embedded DCP illuminant to employ. Default is "interpolated" which is a mix between the two based on white balance. The setting is only enabled if a Dual-Illuminant DCP with interpolation support is selected.
 TP_ICM_FILEDLGFILTERANY;Any files
 TP_ICM_FILEDLGFILTERICM;Color profiles
 TP_ICM_INPUTCAMERAICC;Auto-matched camera-specific color profile
@@ -1264,10 +1272,9 @@ TP_LABCURVE_AVOIDCOLORSHIFT;Avoid color shift
 TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP;Fit colors into gamut of the working color space and apply Munsell correction
 TP_LABCURVE_BRIGHTNESS;Lightness
 TP_LABCURVE_CHROMATICITY;Chromaticity
+TP_LABCURVE_CHROMA_TOOLTIP;To apply Bwtoning, set Chromaticity to -100
 TP_LABCURVE_CONTRAST;Contrast
 TP_LABCURVE_CURVEEDITOR;Luminance Curve
-TP_LABCURVE_CURVEEDITOR_CL;CL
-TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP;Chromaticity according to luminance C=f(L)
 TP_LABCURVE_CURVEEDITOR_A_RANGE1;Green Saturated
 TP_LABCURVE_CURVEEDITOR_A_RANGE2;Green Pastel
 TP_LABCURVE_CURVEEDITOR_A_RANGE3;Red Pastel
@@ -1284,8 +1291,14 @@ TP_LABCURVE_CURVEEDITOR_CC_RANGE4;Saturated
 TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP;Chromaticity according to chromaticity C=f(C)
 TP_LABCURVE_CURVEEDITOR_CH;CH
 TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP;Chromaticity according to hue C=f(H)
+TP_LABCURVE_CURVEEDITOR_CL;CL
+TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP;Chromaticity according to luminance C=f(L)
+TP_LABCURVE_CURVEEDITOR_HH;HH
+TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP;Hue according to hue H=f(H)
 TP_LABCURVE_CURVEEDITOR_LC;LC
 TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP;Luminance according to chromaticity L=f(C)
+TP_LABCURVE_CURVEEDITOR_LH;LH
+TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP;Luminance according to hue L=f(H)
 TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP;Luminance according to luminance L=f(L)
 TP_LABCURVE_LABEL;Lab Adjustments
 TP_LABCURVE_LCREDSK;Restrict LC to red and skin tones
