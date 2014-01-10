@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-01-07 05:27+0100\n"
+"POT-Creation-Date: 2014-01-10 19:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Curve"
 msgstr ""
 
-#: CURVEEDITOR_CUSTOM,ICMPANEL_INPUTCUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
+#: CURVEEDITOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
 msgid "Custom"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Darks"
 msgstr ""
 
-#: CURVEEDITOR_FILEDLGFILTERANY,ICMPANEL_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
+#: CURVEEDITOR_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
 msgid "Any files"
 msgstr ""
 
@@ -149,10 +149,6 @@ msgstr ""
 msgid "Camera"
 msgstr ""
 
-#: EXIFFILTER_DIALOGLABEL,FILEBROWSER_EXIFFILTERLABEL
-msgid "Exif Filter"
-msgstr ""
-
 #: EXIFFILTER_EXPOSURECOMPENSATION
 msgid "Exposure Compensation (EV)"
 msgstr ""
@@ -169,7 +165,7 @@ msgstr ""
 msgid "ISO"
 msgstr ""
 
-#: EXIFFILTER_LENS,QINFO_LENS
+#: EXIFFILTER_LENS
 msgid "Lens"
 msgstr ""
 
@@ -209,12 +205,12 @@ msgstr ""
 msgid "Keep"
 msgstr ""
 
-#: EXIFPANEL_REMOVE,FILEBROWSER_POPUPREMOVESUBMENU
-msgid "Remove"
-msgstr ""
-
 #: EXIFPANEL_REMOVEHINT
 msgid "Remove the selected tags when writing output file"
+msgstr ""
+
+#: EXIFPANEL_REMOVE
+msgid "Remove"
 msgstr ""
 
 #: EXIFPANEL_RESETALLHINT
@@ -357,16 +353,12 @@ msgstr ""
 msgid "Add/Del templates..."
 msgstr ""
 
-#: FILEBROWSER_APPLYPROFILE,FILEBROWSER_EXIFFILTERAPPLY
-msgid "Apply"
-msgstr ""
-
 #: FILEBROWSER_APPLYPROFILE_PARTIAL
 msgid "Apply - partial"
 msgstr ""
 
-#: FILEBROWSER_ARRANGEMENTHINT
-msgid "Change between vertical/horizontal alignment of thumbnails"
+#: FILEBROWSER_APPLYPROFILE
+msgid "Apply"
 msgstr ""
 
 #: FILEBROWSER_AUTODARKFRAME
@@ -441,18 +433,6 @@ msgstr ""
 msgid "Custom Profile Builder"
 msgstr ""
 
-#: FILEBROWSER_EXIFFILTERAPPLYHINT
-msgid "Switch File Browser Exif Filter on/off"
-msgstr ""
-
-#: FILEBROWSER_EXIFFILTERSETTINGSHINT
-msgid "Change settings of the Exif Filter"
-msgstr ""
-
-#: FILEBROWSER_EXIFFILTERSETTINGS
-msgid "Setup"
-msgstr ""
-
 #: FILEBROWSER_EXTPROGMENU
 msgid "Open with"
 msgstr ""
@@ -493,30 +473,6 @@ msgstr ""
 msgid "Color label"
 msgstr ""
 
-#: FILEBROWSER_POPUPCOLORLABEL0
-msgid "Label: None"
-msgstr ""
-
-#: FILEBROWSER_POPUPCOLORLABEL1
-msgid "Label: Red"
-msgstr ""
-
-#: FILEBROWSER_POPUPCOLORLABEL2
-msgid "Label: Yellow"
-msgstr ""
-
-#: FILEBROWSER_POPUPCOLORLABEL3
-msgid "Label: Green"
-msgstr ""
-
-#: FILEBROWSER_POPUPCOLORLABEL4
-msgid "Label: Blue"
-msgstr ""
-
-#: FILEBROWSER_POPUPCOLORLABEL5
-msgid "Label: Purple"
-msgstr ""
-
 #: FILEBROWSER_POPUPCOPYTO
 msgid "Copy to..."
 msgstr ""
@@ -545,7 +501,7 @@ msgstr ""
 msgid "Put to Queue (Fast export)"
 msgstr ""
 
-#: FILEBROWSER_POPUPPROCESS,MAIN_BUTTON_QUEUE
+#: FILEBROWSER_POPUPPROCESS
 msgid "Put to Queue"
 msgstr ""
 
@@ -555,26 +511,6 @@ msgstr ""
 
 #: FILEBROWSER_POPUPRANK
 msgid "Rank"
-msgstr ""
-
-#: FILEBROWSER_POPUPRANK1
-msgid "Rank 1 *"
-msgstr ""
-
-#: FILEBROWSER_POPUPRANK2
-msgid "Rank 2 **"
-msgstr ""
-
-#: FILEBROWSER_POPUPRANK3
-msgid "Rank 3 ***"
-msgstr ""
-
-#: FILEBROWSER_POPUPRANK4
-msgid "Rank 4 ****"
-msgstr ""
-
-#: FILEBROWSER_POPUPRANK5
-msgid "Rank 5 *****"
 msgstr ""
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
@@ -603,14 +539,6 @@ msgstr ""
 
 #: FILEBROWSER_POPUPUNTRASH
 msgid "Remove from trash"
-msgstr ""
-
-#: FILEBROWSER_PROCESSINGSETTINGSHINT
-msgid "Set the file format and output directory"
-msgstr ""
-
-#: FILEBROWSER_PROCESSINGSETTINGS
-msgid "Settings"
 msgstr ""
 
 #: FILEBROWSER_QUERYBUTTONHINT
@@ -695,10 +623,6 @@ msgstr ""
 
 #: FILEBROWSER_SHOWEXIFINFO
 msgid "Show Exif info.\nShortcut: <b>i</b>\n\nShortcut in Single Editor Tab Mode: <b>Alt-i</b>"
-msgstr ""
-
-#: FILEBROWSER_SHOWQUEUEHINT
-msgid "Show content of the processing queue"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK1HINT
@@ -825,16 +749,8 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: GENERAL_HIGH_QUALITY
-msgid "High quality"
-msgstr ""
-
 #: GENERAL_LANDSCAPE,TP_BWMIX_SET_LANDSCAPE
 msgid "Landscape"
-msgstr ""
-
-#: GENERAL_LOAD
-msgid "Load"
 msgstr ""
 
 #: GENERAL_NA
@@ -867,38 +783,6 @@ msgstr ""
 
 #: GENERAL_WARNING
 msgid "Warning"
-msgstr ""
-
-#: GENERAL_YES
-msgid "Yes"
-msgstr ""
-
-#: HISTOGRAM_BUTTON_BAR,TP_DIRPYRDENOISE_RGB
-msgid "RGB"
-msgstr ""
-
-#: HISTOGRAM_BUTTON_B,TP_RGBCURVES_BLUE
-msgid "B"
-msgstr ""
-
-#: HISTOGRAM_BUTTON_G,TP_RGBCURVES_GREEN
-msgid "G"
-msgstr ""
-
-#: HISTOGRAM_BUTTON_L,TP_BWMIX_VAL
-msgid "L"
-msgstr ""
-
-#: HISTOGRAM_BUTTON_RAW,MAIN_TAB_RAW
-msgid "Raw"
-msgstr ""
-
-#: HISTOGRAM_BUTTON_R,TP_RGBCURVES_RED
-msgid "R"
-msgstr ""
-
-#: HISTOGRAM_LABEL
-msgid "Histogram"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_BAR
@@ -1917,10 +1801,6 @@ msgstr ""
 msgid "Hot/Dead pixel filter"
 msgstr ""
 
-#: HISTORY_NEWSNAPSHOTAS
-msgid "As..."
-msgstr ""
-
 #: HISTORY_NEWSNAPSHOT,MAIN_FRAME_PLACES_ADD,PREFERENCES_ADD
 msgid "Add"
 msgstr ""
@@ -1929,76 +1809,12 @@ msgstr ""
 msgid "Shortcut: <b>Alt-s</b>"
 msgstr ""
 
-#: HISTORY_NEWSSDIALOGLABEL
-msgid "Label of the snapshot:"
-msgstr ""
-
-#: HISTORY_NEWSSDIALOGTITLE
-msgid "Add new snapshot"
-msgstr ""
-
-#: HISTORY_SETTO
-msgid "Set to"
-msgstr ""
-
 #: HISTORY_SNAPSHOTS
 msgid "Snapshots"
 msgstr ""
 
 #: HISTORY_SNAPSHOT
 msgid "Snapshot"
-msgstr ""
-
-#: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
-msgid "Color profiles"
-msgstr ""
-
-#: ICMPANEL_GAMMABEFOREINPUT
-msgid "Color Profile Applies Gamma"
-msgstr ""
-
-#: ICMPANEL_INPUTCAMERA
-msgid "Camera Default"
-msgstr ""
-
-#: ICMPANEL_INPUTDLGLABEL
-msgid "Select Input Color Profile..."
-msgstr ""
-
-#: ICMPANEL_INPUTEMBEDDED
-msgid "Use Embedded, if possible"
-msgstr ""
-
-#: ICMPANEL_INPUTPROFILE
-msgid "Input Color Profile"
-msgstr ""
-
-#: ICMPANEL_NOICM,TP_ICM_NOICM
-msgid "No ICM: sRGB Output"
-msgstr ""
-
-#: ICMPANEL_OUTPUTDLGLABEL
-msgid "Select Output Color Profile..."
-msgstr ""
-
-#: ICMPANEL_OUTPUTPROFILE
-msgid "Output Color Profile"
-msgstr ""
-
-#: ICMPANEL_SAVEREFERENCE
-msgid "Save reference image for profiling"
-msgstr ""
-
-#: ICMPANEL_WORKINGPROFILE
-msgid "Working Color Profile"
-msgstr ""
-
-#: IMAGEAREA_DETAILVIEW
-msgid "Detail View"
-msgstr ""
-
-#: IPTCPANEL_AUTHORHINT
-msgid "Name of the creator of the object, e.g. writer, photographer or graphic artist (By-line)."
 msgstr ""
 
 #: IPTCPANEL_AUTHORSPOSITIONHINT
@@ -2161,10 +1977,6 @@ msgstr ""
 msgid "Trans. reference"
 msgstr ""
 
-#: MAIN_BUTTON_EXIT
-msgid "Exit"
-msgstr ""
-
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
 msgstr ""
@@ -2229,7 +2041,7 @@ msgstr ""
 msgid "File Browser.\nShortcut: <b>Ctrl-F2</b>"
 msgstr ""
 
-#: MAIN_FRAME_PLACES,MAIN_MSG_PLACES
+#: MAIN_FRAME_PLACES
 msgid "Places"
 msgstr ""
 
@@ -2261,24 +2073,8 @@ msgstr ""
 msgid "Filename unspecified!"
 msgstr ""
 
-#: MAIN_MSG_ERRORDURINGIMAGESAVING
-msgid "Error during image saving"
-msgstr ""
-
-#: MAIN_MSG_EXITJOBSINQUEUEINFO
-msgid "Unprocessed images in the queue will be lost on exit."
-msgstr ""
-
-#: MAIN_MSG_EXITJOBSINQUEUEQUEST
-msgid "Are you sure you want to exit? There are unprocessed images waiting in the queue."
-msgstr ""
-
 #: MAIN_MSG_IMAGEUNPROCESSED
 msgid "This command requires all selected images to be queue processed first."
-msgstr ""
-
-#: MAIN_MSG_JOBSINQUEUE
-msgid "job(s) in the queue"
 msgstr ""
 
 #: MAIN_MSG_NAVIGATOR
@@ -2305,10 +2101,6 @@ msgstr ""
 msgid "Failed to write\n\n<b>\"%1\"</b>\n\nMake sure that the folder exists and that you have write permission to it."
 msgstr ""
 
-#: MAIN_TAB_BASIC
-msgid "Basic"
-msgstr ""
-
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "Shortcut: <b>Alt-c</b>"
 msgstr ""
@@ -2321,7 +2113,7 @@ msgstr ""
 msgid "Shortcut: <b>Alt-d</b>"
 msgstr ""
 
-#: MAIN_TAB_DETAIL,ZOOMBAR_DETAIL
+#: MAIN_TAB_DETAIL
 msgid "Detail"
 msgstr ""
 
@@ -2349,10 +2141,6 @@ msgstr ""
 msgid " Filter "
 msgstr ""
 
-#: MAIN_TAB_ICM
-msgid "ICM"
-msgstr ""
-
 #: MAIN_TAB_IPTC
 msgid "IPTC"
 msgstr ""
@@ -2369,6 +2157,10 @@ msgstr ""
 msgid "Shortcut: <b>Alt-r</b>"
 msgstr ""
 
+#: MAIN_TAB_RAW
+msgid "Raw"
+msgstr ""
+
 #: MAIN_TAB_TAGGING
 msgid "Tagging"
 msgstr ""
@@ -2379,10 +2171,6 @@ msgstr ""
 
 #: MAIN_TAB_TRANSFORM
 msgid "Transform"
-msgstr ""
-
-#: MAIN_TOGGLE_BEFORE_AFTER
-msgid "B|A"
 msgstr ""
 
 #: MAIN_TOOLTIP_BACKCOLOR0
@@ -2401,10 +2189,6 @@ msgstr ""
 msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged.\nUseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparisons can be made to any state in the History\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view one step behind, showing the image before the effect of the currently used tool."
 msgstr ""
 
-#: MAIN_TOOLTIP_HIDEFP
-msgid "Show/Hide the bottom panel (directory and file browser).\nShortcut: <b>f</b>"
-msgstr ""
-
 #: MAIN_TOOLTIP_HIDEHP
 msgid "Show/Hide the left panel (including the history).\nShortcut: <b>l</b>"
 msgstr ""
@@ -2415,10 +2199,6 @@ msgstr ""
 
 #: MAIN_TOOLTIP_INDCLIPPEDS
 msgid "Clipped shadow indication.\nShortcut: <b>&gt;</b>"
-msgstr ""
-
-#: MAIN_TOOLTIP_PREFERENCES
-msgid "Set preferences"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWB
@@ -2443,14 +2223,6 @@ msgstr ""
 
 #: MAIN_TOOLTIP_QINFO
 msgid "Quick info on the image.\nShortcut: <b>i</b>"
-msgstr ""
-
-#: MAIN_TOOLTIP_SAVEAS
-msgid "Save image to a specific folder"
-msgstr ""
-
-#: MAIN_TOOLTIP_SAVE
-msgid "Save image to the default folder"
 msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDELP1
@@ -2577,24 +2349,8 @@ msgstr ""
 msgid "CIE Color Appearance Model 2002"
 msgstr ""
 
-#: PARTIALPASTE_COLORBOOST
-msgid "Color boost"
-msgstr ""
-
-#: PARTIALPASTE_COLORDENOISE
-msgid "Color denoise"
-msgstr ""
-
 #: PARTIALPASTE_COLORGROUP
 msgid "Color Related Settings"
-msgstr ""
-
-#: PARTIALPASTE_COLORMIXER
-msgid "Color mixer"
-msgstr ""
-
-#: PARTIALPASTE_COLORSHIFT
-msgid "Color shift"
 msgstr ""
 
 #: PARTIALPASTE_COMPOSITIONGROUP
@@ -2661,22 +2417,6 @@ msgstr ""
 msgid "Graduated filter"
 msgstr ""
 
-#: PARTIALPASTE_HLRECONSTRUCTION
-msgid "Highlight reconstruction"
-msgstr ""
-
-#: PARTIALPASTE_HLRECOVERYAMOUNT
-msgid "Highlight compression"
-msgstr ""
-
-#: PARTIALPASTE_HLRECOVERYTHRESHOLD
-msgid "Highlight compression threshold"
-msgstr ""
-
-#: PARTIALPASTE_HLRECOVERY
-msgid "Highlight recovery"
-msgstr ""
-
 #: PARTIALPASTE_HSVEQUALIZER
 msgid "HSV equalizer"
 msgstr ""
@@ -2711,14 +2451,6 @@ msgstr ""
 
 #: PARTIALPASTE_LENSPROFILE
 msgid "Lens correction profile"
-msgstr ""
-
-#: PARTIALPASTE_LUMADENOISE
-msgid "Luminance noise reduction"
-msgstr ""
-
-#: PARTIALPASTE_LUMINANCEGROUP
-msgid "Luminance related settings"
 msgstr ""
 
 #: PARTIALPASTE_METAICMGROUP
@@ -2817,10 +2549,6 @@ msgstr ""
 msgid "Vignetting correction"
 msgstr ""
 
-#: PARTIALPASTE_WAVELETEQUALIZER
-msgid "Wavelet equalizer"
-msgstr ""
-
 #: PARTIALPASTE_WHITEBALANCE
 msgid "White balance"
 msgstr ""
@@ -2879,18 +2607,6 @@ msgstr ""
 
 #: PREFERENCES_CACHEOPTS
 msgid "Cache Options"
-msgstr ""
-
-#: PREFERENCES_CACHESTRAT
-msgid "Cache Strategy"
-msgstr ""
-
-#: PREFERENCES_CACHESTRAT1
-msgid "Prefer Speed to Low Memory Consumption"
-msgstr ""
-
-#: PREFERENCES_CACHESTRAT2
-msgid "Prefer Low Memory Consumption to Speed"
 msgstr ""
 
 #: PREFERENCES_CACHETHUMBHEIGHT
@@ -2979,10 +2695,6 @@ msgstr ""
 
 #: PREFERENCES_DEFAULTTHEME
 msgid "Default Theme"
-msgstr ""
-
-#: PREFERENCES_DEMOSAICINGALGO
-msgid "Demosaicing Algorithm"
 msgstr ""
 
 #: PREFERENCES_DIRDARKFRAMES
@@ -3113,10 +2825,6 @@ msgstr ""
 msgid "GTK default"
 msgstr ""
 
-#: PREFERENCES_HINT
-msgid "Hint"
-msgstr ""
-
 #: PREFERENCES_HISTOGRAMPOSITIONLEFT
 msgid "Histogram in left panel"
 msgstr ""
@@ -3151,10 +2859,6 @@ msgstr ""
 
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use OS language setting"
-msgstr ""
-
-#: PREFERENCES_LIVETHUMBNAILS
-msgid "Live Thumbnails (slower)"
 msgstr ""
 
 #: PREFERENCES_MENUGROUPEXTPROGS
@@ -3199,10 +2903,6 @@ msgstr ""
 
 #: PREFERENCES_OUTDIRFOLDER
 msgid "Save to folder"
-msgstr ""
-
-#: PREFERENCES_OUTDIRHINT
-msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>\n\nThese formatting strings refer to the different parts of the photo's pathname or some attributes of the photo.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b> will be replaced by the rank of the photo.  If the photo is unranked, %r will be replaced by '0'.  If the photo is in the trash bin, %r will be replaced by 'x'.\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named \"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
 msgstr ""
 
 #: PREFERENCES_OUTDIRTEMPLATEHINT
@@ -3293,16 +2993,8 @@ msgstr ""
 msgid "Select font"
 msgstr ""
 
-#: PREFERENCES_SELECTICCDIRDLG
-msgid "Select Color Profile Directory..."
-msgstr ""
-
 #: PREFERENCES_SELECTLANG
 msgid "Select language"
-msgstr ""
-
-#: PREFERENCES_SELECTMONITORPROFDLG
-msgid "Select Color Profile of the Display..."
 msgstr ""
 
 #: PREFERENCES_SELECTTHEME
@@ -3323,10 +3015,6 @@ msgstr ""
 
 #: PREFERENCES_SHOWEXPOSURECOMPENSATION
 msgid "Append exposure compensation"
-msgstr ""
-
-#: PREFERENCES_SHOWONLYRAW
-msgid "Show only raw files"
 msgstr ""
 
 #: PREFERENCES_SHOWPROFILESELECTOR
@@ -3385,20 +3073,12 @@ msgstr ""
 msgid "Image Processing"
 msgstr ""
 
-#: PREFERENCES_TAB_OUTPUT
-msgid "Output Options"
-msgstr ""
-
 #: PREFERENCES_TAB_PERFORMANCE
 msgid "Performance"
 msgstr ""
 
 #: PREFERENCES_TAB_SOUND
 msgid "Sounds"
-msgstr ""
-
-#: PREFERENCES_THUMBSIZE
-msgid "Thumbnail Size"
 msgstr ""
 
 #: PREFERENCES_TP_LABEL
@@ -3473,20 +3153,12 @@ msgstr ""
 msgid "From file"
 msgstr ""
 
-#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
 msgid "Neutral"
-msgstr ""
-
-#: PROFILEPANEL_PLASTPHOTO
-msgid "Last Photo"
 msgstr ""
 
 #: PROFILEPANEL_PLASTSAVED
 msgid "Last Saved"
-msgstr ""
-
-#: PROFILEPANEL_PROFILE
-msgid "Profile"
 msgstr ""
 
 #: PROFILEPANEL_SAVEDLGLABEL
@@ -3511,34 +3183,6 @@ msgstr ""
 
 #: PROFILEPANEL_TOOLTIPSAVE
 msgid "Save current profile.\n<b>Ctrl-click</b> to select the parameters to save"
-msgstr ""
-
-#: PROGRESSBAR_BADPIXELS
-msgid "Bad pixels..."
-msgstr ""
-
-#: PROGRESSBAR_CACORRECTION
-msgid "CA correction..."
-msgstr ""
-
-#: PROGRESSBAR_DARKFRAME
-msgid "Darkframe..."
-msgstr ""
-
-#: PROGRESSBAR_DECODING
-msgid "Decoding raw file..."
-msgstr ""
-
-#: PROGRESSBAR_DEMOSAICING
-msgid "Demosaicing..."
-msgstr ""
-
-#: PROGRESSBAR_GREENEQUIL
-msgid "Green equilibrating..."
-msgstr ""
-
-#: PROGRESSBAR_LINEDENOISE
-msgid "Line denoise..."
 msgstr ""
 
 #: PROGRESSBAR_LOADINGTHUMBS
@@ -3597,10 +3241,6 @@ msgstr ""
 msgid "Processing profile changed in browser"
 msgstr ""
 
-#: QINFO_FOCALLENGTH
-msgid "Focal length"
-msgstr ""
-
 #: QINFO_NOEXIF
 msgid "Exif data not available."
 msgstr ""
@@ -3623,10 +3263,6 @@ msgstr ""
 
 #: SAVEDLG_PNGCOMPR
 msgid "PNG Compression"
-msgstr ""
-
-#: SAVEDLG_PNGFILTER
-msgid "PNG files"
 msgstr ""
 
 #: SAVEDLG_PUTTOQUEUEHEAD
@@ -3851,10 +3487,6 @@ msgstr ""
 msgid "Mixer"
 msgstr ""
 
-#: TP_BWMIX_MIXF
-msgid "Mixer Filters"
-msgstr ""
-
 #: TP_BWMIX_NEUTRAL_TIP
 msgid "Reset all values (filter, channel-mixer) to default"
 msgstr ""
@@ -3953,6 +3585,10 @@ msgstr ""
 
 #: TP_BWMIX_TCMODE_WEIGHTEDSTD
 msgid "B&W Weighted Standard"
+msgstr ""
+
+#: TP_BWMIX_VAL
+msgid "L"
 msgstr ""
 
 #: TP_CACORRECTION_LABEL
@@ -4093,10 +3729,6 @@ msgstr ""
 
 #: TP_COLORAPP_DEGREE_TOOLTIP
 msgid "Amount of CIE Chromatic Adaptation Transform 2002"
-msgstr ""
-
-#: TP_COLORAPP_EQUAL
-msgid "Equal"
 msgstr ""
 
 #: TP_COLORAPP_GAMUT_TOOLTIP
@@ -4328,7 +3960,7 @@ msgstr ""
 msgid "Auto selection"
 msgstr ""
 
-#: TP_DEFRINGE_RADIUS,TP_LUMADENOISE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
+#: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
 msgid "Radius"
 msgstr ""
 
@@ -4384,6 +4016,10 @@ msgstr ""
 msgid "Chrominance - Red-Green"
 msgstr ""
 
+#: TP_DIRPYRDENOISE_RGB
+msgid "RGB"
+msgstr ""
+
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
 msgid "Coarsest"
 msgstr ""
@@ -4420,7 +4056,7 @@ msgstr ""
 msgid "Reweighting Iterates"
 msgstr ""
 
-#: TP_EPD_SCALE,TP_RESIZE_SCALE,ZOOMBAR_SCALE
+#: TP_EPD_SCALE,TP_RESIZE_SCALE
 msgid "Scale"
 msgstr ""
 
@@ -4609,6 +4245,10 @@ msgstr ""
 msgid "Illuminant"
 msgstr ""
 
+#: TP_ICM_FILEDLGFILTERICM
+msgid "Color profiles"
+msgstr ""
+
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
 msgid "Use RawTherapee's camera-specific DCP or ICC input color profiles. These profiles are more precise than simpler matrix ones. They are not available for all cameras. These profiles are stored in the /iccprofiles/input and /dcpprofiles folders and are automatically retrieved based on a file name matching to the exact model name of the camera."
 msgstr ""
@@ -4653,8 +4293,8 @@ msgstr ""
 msgid "Input Profile"
 msgstr ""
 
-#: TP_ICM_OUTPUTDLGLABEL
-msgid "Select Output ICC Profile..."
+#: TP_ICM_NOICM
+msgid "No ICM: sRGB Output"
 msgstr ""
 
 #: TP_ICM_OUTPUTPROFILE
@@ -4833,14 +4473,6 @@ msgstr ""
 msgid "CA Correction"
 msgstr ""
 
-#: TP_LUMADENOISE_EDGETOLERANCE,TP_SHARPENING_EDTOLERANCE
-msgid "Edge Tolerance"
-msgstr ""
-
-#: TP_LUMADENOISE_LABEL
-msgid "Luminance Noise Reduction"
-msgstr ""
-
 #: TP_NEUTRAL_TIP
 msgid "Reset exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not"
 msgstr ""
@@ -4973,10 +4605,6 @@ msgstr ""
 msgid "Full Image"
 msgstr ""
 
-#: TP_RESIZE_FULLSIZE
-msgid "Full Image Size:"
-msgstr ""
-
 #: TP_RESIZE_HEIGHT
 msgid "Height"
 msgstr ""
@@ -5001,6 +4629,14 @@ msgstr ""
 msgid "W:"
 msgstr ""
 
+#: TP_RGBCURVES_BLUE
+msgid "B"
+msgstr ""
+
+#: TP_RGBCURVES_GREEN
+msgid "G"
+msgstr ""
+
 #: TP_RGBCURVES_LABEL
 msgid "RGB Curves"
 msgstr ""
@@ -5011,6 +4647,10 @@ msgstr ""
 
 #: TP_RGBCURVES_LUMAMODE
 msgid "Luminosity Mode"
+msgstr ""
+
+#: TP_RGBCURVES_RED
+msgid "R"
 msgstr ""
 
 #: TP_ROTATE_DEGREE
@@ -5055,6 +4695,10 @@ msgstr ""
 
 #: TP_SHARPENEDGE_THREE
 msgid "Luminance only"
+msgstr ""
+
+#: TP_SHARPENING_EDTOLERANCE
+msgid "Edge Tolerance"
 msgstr ""
 
 #: TP_SHARPENING_HALOCONTROL
@@ -5299,26 +4943,6 @@ msgstr ""
 
 #: TP_WBALANCE_WATER2
 msgid "UnderWater 2"
-msgstr ""
-
-#: ZOOMBAR_HUGE
-msgid "Huge"
-msgstr ""
-
-#: ZOOMBAR_LARGE
-msgid "Large"
-msgstr ""
-
-#: ZOOMBAR_NORMAL
-msgid "Normal"
-msgstr ""
-
-#: ZOOMBAR_PREVIEW
-msgid "Preview"
-msgstr ""
-
-#: ZOOMBAR_SMALL
-msgid "Small"
 msgstr ""
 
 #: ZOOMPANEL_NEWCROPWINDOW

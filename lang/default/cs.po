@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-01-07 05:27+0100\n"
+"POT-Creation-Date: 2014-01-10 19:23+0100\n"
 "PO-Revision-Date: 2014-01-07 20:08+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -58,7 +58,7 @@ msgstr "Křivky"
 msgid "Curve"
 msgstr "Křivka"
 
-#: CURVEEDITOR_CUSTOM,ICMPANEL_INPUTCUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
+#: CURVEEDITOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_WBALANCE_CUSTOM
 msgid "Custom"
 msgstr "Vlastní"
 
@@ -66,7 +66,7 @@ msgstr "Vlastní"
 msgid "Darks"
 msgstr "Tmavé"
 
-#: CURVEEDITOR_FILEDLGFILTERANY,ICMPANEL_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
+#: CURVEEDITOR_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
 msgid "Any files"
 msgstr "Jakékoliv soubory"
 
@@ -146,10 +146,6 @@ msgstr "Clona"
 msgid "Camera"
 msgstr "Fotoaparát"
 
-#: EXIFFILTER_DIALOGLABEL,FILEBROWSER_EXIFFILTERLABEL
-msgid "Exif Filter"
-msgstr "Filtrovat dle Exif"
-
 #: EXIFFILTER_EXPOSURECOMPENSATION
 msgid "Exposure Compensation (EV)"
 msgstr "Kompenzace expozice (EV)"
@@ -166,7 +162,7 @@ msgstr "Ohnisková vzdálenost"
 msgid "ISO"
 msgstr "ISO"
 
-#: EXIFFILTER_LENS,QINFO_LENS
+#: EXIFFILTER_LENS
 msgid "Lens"
 msgstr "Objektiv"
 
@@ -206,13 +202,13 @@ msgstr "Zachovat vybrané štítky při zápisu do souboru"
 msgid "Keep"
 msgstr "Zachovat"
 
-#: EXIFPANEL_REMOVE,FILEBROWSER_POPUPREMOVESUBMENU
-msgid "Remove"
-msgstr "Smazat"
-
 #: EXIFPANEL_REMOVEHINT
 msgid "Remove the selected tags when writing output file"
 msgstr "Odstranit vybrané štítky při zápisu do souboru"
+
+#: EXIFPANEL_REMOVE
+msgid "Remove"
+msgstr "Smazat"
 
 #: EXIFPANEL_RESETALLHINT
 msgid "Reset all tags to their original values"
@@ -366,17 +362,13 @@ msgstr "Zpracování fronty"
 msgid "Add/Del templates..."
 msgstr "Přidat/Smazat šablony..."
 
-#: FILEBROWSER_APPLYPROFILE,FILEBROWSER_EXIFFILTERAPPLY
-msgid "Apply"
-msgstr "Použít"
-
 #: FILEBROWSER_APPLYPROFILE_PARTIAL
 msgid "Apply - partial"
 msgstr "Aplikovat - částečně"
 
-#: FILEBROWSER_ARRANGEMENTHINT
-msgid "Change between vertical/horizontal alignment of thumbnails"
-msgstr "Přepnout mezi vertikálním/horizontálním zarovnáním náhledů"
+#: FILEBROWSER_APPLYPROFILE
+msgid "Apply"
+msgstr "Použít"
 
 #: FILEBROWSER_AUTODARKFRAME
 msgid "Auto Dark Frame"
@@ -492,18 +484,6 @@ msgstr "Vysypat koš"
 msgid "Custom Profile Builder"
 msgstr "Vlastní generátor profilu"
 
-#: FILEBROWSER_EXIFFILTERAPPLYHINT
-msgid "Switch File Browser Exif Filter on/off"
-msgstr "Zapnout/vypnout Exif filtr v prohlížeči souborů"
-
-#: FILEBROWSER_EXIFFILTERSETTINGSHINT
-msgid "Change settings of the Exif Filter"
-msgstr "Změnit nastavení Exif filtru"
-
-#: FILEBROWSER_EXIFFILTERSETTINGS
-msgid "Setup"
-msgstr "Nastavení"
-
 #: FILEBROWSER_EXTPROGMENU
 msgid "Open with"
 msgstr "Otevřít pomocí"
@@ -544,30 +524,6 @@ msgstr "Zrušit úlohu"
 msgid "Color label"
 msgstr "Barevný štítek"
 
-#: FILEBROWSER_POPUPCOLORLABEL0
-msgid "Label: None"
-msgstr "Štítek: Žádný"
-
-#: FILEBROWSER_POPUPCOLORLABEL1
-msgid "Label: Red"
-msgstr "Štítek: Červený"
-
-#: FILEBROWSER_POPUPCOLORLABEL2
-msgid "Label: Yellow"
-msgstr "Štítek: Žlutý"
-
-#: FILEBROWSER_POPUPCOLORLABEL3
-msgid "Label: Green"
-msgstr "Štítek: Zelený"
-
-#: FILEBROWSER_POPUPCOLORLABEL4
-msgid "Label: Blue"
-msgstr "Štítek: Modrý"
-
-#: FILEBROWSER_POPUPCOLORLABEL5
-msgid "Label: Purple"
-msgstr "Štítek: Nachový"
-
 #: FILEBROWSER_POPUPCOPYTO
 msgid "Copy to..."
 msgstr "Kopírovat do..."
@@ -596,7 +552,7 @@ msgstr "Otevřít"
 msgid "Put to Queue (Fast export)"
 msgstr "Vložit do fronty (Rychlý export)"
 
-#: FILEBROWSER_POPUPPROCESS,MAIN_BUTTON_QUEUE
+#: FILEBROWSER_POPUPPROCESS
 msgid "Put to Queue"
 msgstr "Vložit do fronty"
 
@@ -607,26 +563,6 @@ msgstr "Operace profilů zpracování"
 #: FILEBROWSER_POPUPRANK
 msgid "Rank"
 msgstr "Hodnocení"
-
-#: FILEBROWSER_POPUPRANK1
-msgid "Rank 1 *"
-msgstr "Hodnocení 1 *"
-
-#: FILEBROWSER_POPUPRANK2
-msgid "Rank 2 **"
-msgstr "Hodnocení 2 **"
-
-#: FILEBROWSER_POPUPRANK3
-msgid "Rank 3 ***"
-msgstr "Hodnocení 3 ***"
-
-#: FILEBROWSER_POPUPRANK4
-msgid "Rank 4 ****"
-msgstr "Hodnocení 4 ****"
-
-#: FILEBROWSER_POPUPRANK5
-msgid "Rank 5 *****"
-msgstr "Hodnocení 5 *****"
 
 #: FILEBROWSER_POPUPREMOVEINCLPROC
 msgid "Delete with output from queue"
@@ -655,14 +591,6 @@ msgstr "Odstranit hodnocení"
 #: FILEBROWSER_POPUPUNTRASH
 msgid "Remove from trash"
 msgstr "Vymazat z koše"
-
-#: FILEBROWSER_PROCESSINGSETTINGSHINT
-msgid "Set the file format and output directory"
-msgstr "Nastavení formátu souboru a výstupní složky"
-
-#: FILEBROWSER_PROCESSINGSETTINGS
-msgid "Settings"
-msgstr "Nastavení"
 
 #: FILEBROWSER_QUERYBUTTONHINT
 msgid "Clear the Find query"
@@ -822,10 +750,6 @@ msgstr ""
 "Zkratka: <b>i</b>\n"
 "\n"
 "Zkratka v módu jedné karty editoru: <b>Alt-i</b>"
-
-#: FILEBROWSER_SHOWQUEUEHINT
-msgid "Show content of the processing queue"
-msgstr "Ukázat obsah fronty zpracování"
 
 #: FILEBROWSER_SHOWRANK1HINT
 msgid ""
@@ -1011,17 +935,9 @@ msgstr "Zapnout"
 msgid "File"
 msgstr "Soubor"
 
-#: GENERAL_HIGH_QUALITY
-msgid "High quality"
-msgstr "Vysoká kvalita"
-
 #: GENERAL_LANDSCAPE,TP_BWMIX_SET_LANDSCAPE
 msgid "Landscape"
 msgstr "Na šířku"
-
-#: GENERAL_LOAD
-msgid "Load"
-msgstr "Načíst"
 
 #: GENERAL_NA
 msgid "n/a"
@@ -1054,38 +970,6 @@ msgstr "(Beze změny)"
 #: GENERAL_WARNING
 msgid "Warning"
 msgstr "Varování"
-
-#: GENERAL_YES
-msgid "Yes"
-msgstr "Ano"
-
-#: HISTOGRAM_BUTTON_BAR,TP_DIRPYRDENOISE_RGB
-msgid "RGB"
-msgstr "RGB"
-
-#: HISTOGRAM_BUTTON_B,TP_RGBCURVES_BLUE
-msgid "B"
-msgstr "B"
-
-#: HISTOGRAM_BUTTON_G,TP_RGBCURVES_GREEN
-msgid "G"
-msgstr "G"
-
-#: HISTOGRAM_BUTTON_L,TP_BWMIX_VAL
-msgid "L"
-msgstr "L"
-
-#: HISTOGRAM_BUTTON_RAW,MAIN_TAB_RAW
-msgid "Raw"
-msgstr "Raw"
-
-#: HISTOGRAM_BUTTON_R,TP_RGBCURVES_RED
-msgid "R"
-msgstr "R"
-
-#: HISTOGRAM_LABEL
-msgid "Histogram"
-msgstr "Histogram"
 
 #: HISTOGRAM_TOOLTIP_BAR
 msgid ""
@@ -2107,10 +1991,6 @@ msgstr "Metoda demozajkování"
 msgid "Hot/Dead pixel filter"
 msgstr "Filtr vypálených/mrtvých pixelů"
 
-#: HISTORY_NEWSNAPSHOTAS
-msgid "As..."
-msgstr "Jako..."
-
 #: HISTORY_NEWSNAPSHOT,MAIN_FRAME_PLACES_ADD,PREFERENCES_ADD
 msgid "Add"
 msgstr "Přidat"
@@ -2119,18 +1999,6 @@ msgstr "Přidat"
 msgid "Shortcut: <b>Alt-s</b>"
 msgstr "Zkratka: <b>Alt-s</b>"
 
-#: HISTORY_NEWSSDIALOGLABEL
-msgid "Label of the snapshot:"
-msgstr "Titulek snímku:"
-
-#: HISTORY_NEWSSDIALOGTITLE
-msgid "Add new snapshot"
-msgstr "Přidat nový snímek"
-
-#: HISTORY_SETTO
-msgid "Set to"
-msgstr "Nastavit na"
-
 #: HISTORY_SNAPSHOTS
 msgid "Snapshots"
 msgstr "Snímky"
@@ -2138,60 +2006,6 @@ msgstr "Snímky"
 #: HISTORY_SNAPSHOT
 msgid "Snapshot"
 msgstr "Snímek"
-
-#: ICMPANEL_FILEDLGFILTERICM,TP_ICM_FILEDLGFILTERICM
-msgid "Color profiles"
-msgstr "Barevné profily"
-
-#: ICMPANEL_GAMMABEFOREINPUT
-msgid "Color Profile Applies Gamma"
-msgstr "Barevný profil aplikuje Gamu"
-
-#: ICMPANEL_INPUTCAMERA
-msgid "Camera Default"
-msgstr "Výchozí fotoaparátu"
-
-#: ICMPANEL_INPUTDLGLABEL
-msgid "Select Input Color Profile..."
-msgstr "Vybrat vstupní barevný profil..."
-
-#: ICMPANEL_INPUTEMBEDDED
-msgid "Use Embedded, if possible"
-msgstr "Použít vložený profil, pokud je k dispozici"
-
-#: ICMPANEL_INPUTPROFILE
-msgid "Input Color Profile"
-msgstr "Vstupní barevný profil"
-
-#: ICMPANEL_NOICM,TP_ICM_NOICM
-msgid "No ICM: sRGB Output"
-msgstr "Bez ICM: sRGB výstup"
-
-#: ICMPANEL_OUTPUTDLGLABEL
-msgid "Select Output Color Profile..."
-msgstr "Vybrat výstupní barevný profil..."
-
-#: ICMPANEL_OUTPUTPROFILE
-msgid "Output Color Profile"
-msgstr "Výstupní barevný prostor"
-
-#: ICMPANEL_SAVEREFERENCE
-msgid "Save reference image for profiling"
-msgstr "Uložit referenční obrázek pro profilování"
-
-#: ICMPANEL_WORKINGPROFILE
-msgid "Working Color Profile"
-msgstr "Pracovní barevný profil"
-
-#: IMAGEAREA_DETAILVIEW
-msgid "Detail View"
-msgstr "Detailní pohled"
-
-#: IPTCPANEL_AUTHORHINT
-msgid ""
-"Name of the creator of the object, e.g. writer, photographer or graphic "
-"artist (By-line)."
-msgstr "Jméno autora, například spisovatele, fotografa nebo grafika (By-line)."
 
 #: IPTCPANEL_AUTHORSPOSITIONHINT
 msgid "Title of the creator or creators of the object (By-line Title)."
@@ -2375,10 +2189,6 @@ msgstr ""
 msgid "Trans. reference"
 msgstr "Trans. reference"
 
-#: MAIN_BUTTON_EXIT
-msgid "Exit"
-msgstr "Konec"
-
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
@@ -2509,7 +2319,7 @@ msgstr ""
 "Prohlížeč souborů.\n"
 "Zkratka: <b>Ctrl-F2</b>"
 
-#: MAIN_FRAME_PLACES,MAIN_MSG_PLACES
+#: MAIN_FRAME_PLACES
 msgid "Places"
 msgstr "Místa"
 
@@ -2541,29 +2351,11 @@ msgstr "Editor nelze spustit."
 msgid "Filename unspecified!"
 msgstr "Název souboru nebyl zadán!"
 
-#: MAIN_MSG_ERRORDURINGIMAGESAVING
-msgid "Error during image saving"
-msgstr "Chyba při ukládání obrázku"
-
-#: MAIN_MSG_EXITJOBSINQUEUEINFO
-msgid "Unprocessed images in the queue will be lost on exit."
-msgstr "Nezpracované obrázky ve frontě budou při ukončení ztraceny."
-
-#: MAIN_MSG_EXITJOBSINQUEUEQUEST
-msgid ""
-"Are you sure you want to exit? There are unprocessed images waiting in the "
-"queue."
-msgstr "Opravdu chcete skončit? Ve frontě čekají nezpracované obrázky."
-
 #: MAIN_MSG_IMAGEUNPROCESSED
 msgid "This command requires all selected images to be queue processed first."
 msgstr ""
 "Tento příkaz vyžaduje aby byly všechny vybrané obrázky nejprve zpracovány ve "
 "frontě."
-
-#: MAIN_MSG_JOBSINQUEUE
-msgid "job(s) in the queue"
-msgstr "úlohy ve frontě"
 
 #: MAIN_MSG_NAVIGATOR
 msgid "Navigator"
@@ -2613,10 +2405,6 @@ msgstr ""
 "\n"
 "Ujistětě se, že složka existuje a máte práva do ní zapisovat."
 
-#: MAIN_TAB_BASIC
-msgid "Basic"
-msgstr "Základní"
-
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "Shortcut: <b>Alt-c</b>"
 msgstr "Zkratka: <b>Alt-c</b>"
@@ -2629,7 +2417,7 @@ msgstr "Barvy"
 msgid "Shortcut: <b>Alt-d</b>"
 msgstr "Zkratka: <b>Alt-d</b>"
 
-#: MAIN_TAB_DETAIL,ZOOMBAR_DETAIL
+#: MAIN_TAB_DETAIL
 msgid "Detail"
 msgstr "Detaily"
 
@@ -2657,10 +2445,6 @@ msgstr "Zkratka: <b>Alt-e</b>"
 msgid " Filter "
 msgstr " Filtr"
 
-#: MAIN_TAB_ICM
-msgid "ICM"
-msgstr "ICM"
-
 #: MAIN_TAB_IPTC
 msgid "IPTC"
 msgstr "IPTC"
@@ -2677,6 +2461,10 @@ msgstr "Zkratka: <b>Alt-m</b>"
 msgid "Shortcut: <b>Alt-r</b>"
 msgstr "Zkratka: <b>Alt-r</b>"
 
+#: MAIN_TAB_RAW
+msgid "Raw"
+msgstr "Raw"
+
 #: MAIN_TAB_TAGGING
 msgid "Tagging"
 msgstr "Štítky"
@@ -2688,10 +2476,6 @@ msgstr "Zkratka: <b>Alt-t</b>"
 #: MAIN_TAB_TRANSFORM
 msgid "Transform"
 msgstr "Transformace"
-
-#: MAIN_TOGGLE_BEFORE_AFTER
-msgid "B|A"
-msgstr "Před|Po"
 
 #: MAIN_TOOLTIP_BACKCOLOR0
 msgid ""
@@ -2737,14 +2521,6 @@ msgstr ""
 "<b>Odemknout</b>: pohled <b>Před</b> bude následovat pohled <b>Poté</b>, "
 "vždy jen o jeden krok zpět, představí vliv právě použitého nástroje."
 
-#: MAIN_TOOLTIP_HIDEFP
-msgid ""
-"Show/Hide the bottom panel (directory and file browser).\n"
-"Shortcut: <b>f</b>"
-msgstr ""
-"Zobrazit či schovat dolní panel (složky a prohlížeč souborů).\n"
-"Zkratka: <b>f</b>"
-
 #: MAIN_TOOLTIP_HIDEHP
 msgid ""
 "Show/Hide the left panel (including the history).\n"
@@ -2768,10 +2544,6 @@ msgid ""
 msgstr ""
 "Zvýraznit oříznuté stíny.\n"
 "Zkratka: <b>&gt;</b>"
-
-#: MAIN_TOOLTIP_PREFERENCES
-msgid "Set preferences"
-msgstr "Změnit volby"
 
 #: MAIN_TOOLTIP_PREVIEWB
 msgid ""
@@ -2840,14 +2612,6 @@ msgid ""
 msgstr ""
 "Stručné informace o obrázku.\n"
 "Zkratka: <b>i</b>"
-
-#: MAIN_TOOLTIP_SAVEAS
-msgid "Save image to a specific folder"
-msgstr "Uložit obrázek do zadané složky"
-
-#: MAIN_TOOLTIP_SAVE
-msgid "Save image to the default folder"
-msgstr "Uložit obrázek do výchozí složky"
 
 #: MAIN_TOOLTIP_SHOWHIDELP1
 msgid ""
@@ -3010,25 +2774,9 @@ msgstr "Rotace o 90° / překlopení"
 msgid "CIE Color Appearance Model 2002"
 msgstr "CIE Color Appearance Model 2002"
 
-#: PARTIALPASTE_COLORBOOST
-msgid "Color boost"
-msgstr "Posílení barev"
-
-#: PARTIALPASTE_COLORDENOISE
-msgid "Color denoise"
-msgstr "Odstranění barevného šumu"
-
 #: PARTIALPASTE_COLORGROUP
 msgid "Color Related Settings"
 msgstr "Nastavení barev"
-
-#: PARTIALPASTE_COLORMIXER
-msgid "Color mixer"
-msgstr "Míchání barev"
-
-#: PARTIALPASTE_COLORSHIFT
-msgid "Color shift"
-msgstr "Posun barev"
 
 #: PARTIALPASTE_COMPOSITIONGROUP
 msgid "Composition Settings"
@@ -3094,22 +2842,6 @@ msgstr "Flat field soubor"
 msgid "Graduated filter"
 msgstr "Přechodový filtr"
 
-#: PARTIALPASTE_HLRECONSTRUCTION
-msgid "Highlight reconstruction"
-msgstr "Rekonstrukce světel"
-
-#: PARTIALPASTE_HLRECOVERYAMOUNT
-msgid "Highlight compression"
-msgstr "Komprese světel"
-
-#: PARTIALPASTE_HLRECOVERYTHRESHOLD
-msgid "Highlight compression threshold"
-msgstr "Práh komprese světel"
-
-#: PARTIALPASTE_HLRECOVERY
-msgid "Highlight recovery"
-msgstr "Obnovení světel"
-
 #: PARTIALPASTE_HSVEQUALIZER
 msgid "HSV equalizer"
 msgstr "HSV korekce"
@@ -3145,14 +2877,6 @@ msgstr "Nastavení objektivu"
 #: PARTIALPASTE_LENSPROFILE
 msgid "Lens correction profile"
 msgstr "Korekční profil objektivu"
-
-#: PARTIALPASTE_LUMADENOISE
-msgid "Luminance noise reduction"
-msgstr "Redukce šumu v jasech"
-
-#: PARTIALPASTE_LUMINANCEGROUP
-msgid "Luminance related settings"
-msgstr "Nastavení jasu"
 
 #: PARTIALPASTE_METAICMGROUP
 msgid "Metadata/Color Management Settings"
@@ -3250,10 +2974,6 @@ msgstr "Doostření (USM/RL)"
 msgid "Vignetting correction"
 msgstr "Korekce vinětace"
 
-#: PARTIALPASTE_WAVELETEQUALIZER
-msgid "Wavelet equalizer"
-msgstr "Vlnková korekce"
-
 #: PARTIALPASTE_WHITEBALANCE
 msgid "White balance"
 msgstr "Nastavení bílé"
@@ -3325,18 +3045,6 @@ msgstr "Maximální počet záznamů v cache"
 #: PREFERENCES_CACHEOPTS
 msgid "Cache Options"
 msgstr "Vlastnosti cache"
-
-#: PREFERENCES_CACHESTRAT
-msgid "Cache Strategy"
-msgstr "Strategie cache"
-
-#: PREFERENCES_CACHESTRAT1
-msgid "Prefer Speed to Low Memory Consumption"
-msgstr "Upřednostnit rychlost před spotřebou paměti"
-
-#: PREFERENCES_CACHESTRAT2
-msgid "Prefer Low Memory Consumption to Speed"
-msgstr "Upřednostnit nižší spotřebu paměti před rychlostí"
 
 #: PREFERENCES_CACHETHUMBHEIGHT
 msgid "Maximum thumbnail height"
@@ -3465,10 +3173,6 @@ msgstr "Výchozí jazyk"
 #: PREFERENCES_DEFAULTTHEME
 msgid "Default Theme"
 msgstr "Výchozí vzhled"
-
-#: PREFERENCES_DEMOSAICINGALGO
-msgid "Demosaicing Algorithm"
-msgstr "Demozajkovací algoritmus"
 
 #: PREFERENCES_DIRDARKFRAMES
 msgid "Dark frames directory"
@@ -3600,10 +3304,6 @@ msgstr "Yb=40 CIE L#70"
 msgid "GTK default"
 msgstr "GTK výchozí"
 
-#: PREFERENCES_HINT
-msgid "Hint"
-msgstr "Nápověda"
-
 #: PREFERENCES_HISTOGRAMPOSITIONLEFT
 msgid "Histogram in left panel"
 msgstr "Histogram v levém panelu"
@@ -3639,10 +3339,6 @@ msgstr "Ukázat vložené JPEG náhledy u needitovaných snímků"
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use OS language setting"
 msgstr "Použít jazykové nastavení OS"
-
-#: PREFERENCES_LIVETHUMBNAILS
-msgid "Live Thumbnails (slower)"
-msgstr "Živé náhledy (pomalejší)"
 
 #: PREFERENCES_MENUGROUPEXTPROGS
 msgid "Group \"Open with\""
@@ -3687,78 +3383,6 @@ msgstr "Uložit obrázky do vybrané složky"
 #: PREFERENCES_OUTDIRFOLDER
 msgid "Save to folder"
 msgstr "Ulož do souboru"
-
-#: PREFERENCES_OUTDIRHINT
-msgid ""
-"You can use the following formatting strings:\n"
-"<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</"
-"b>\n"
-"\n"
-"These formatting strings refer to the different parts of the photo's "
-"pathname or some attributes of the photo.\n"
-"\n"
-"For example, if the photo being processed has the following pathname:\n"
-"<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\n"
-"the meaning of the formatting strings are:\n"
-"<b>%d4</b> = <i>home</i>\n"
-"<b>%d3</b> = <i>tom</i>\n"
-"<b>%d2</b> = <i>photos</i>\n"
-"<b>%d1</b> = <i>2010-10-31</i>\n"
-"<b>%f</b> = <i>dsc0042</i>\n"
-"<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n"
-"<b>%p2</b> = <i>/home/tom/photos/</i>\n"
-"<b>%p3</b> = <i>/home/tom/</i>\n"
-"<b>%p4</b> = <i>/home/</i>\n"
-"\n"
-"<b>%r</b> will be replaced by the rank of the photo.  If the photo is "
-"unranked, %r will be replaced by '0'.  If the photo is in the trash bin, %r "
-"will be replaced by 'x'.\n"
-"\n"
-"If you want to save the output image where the original is, write:\n"
-"<b>%p1/%f</b>\n"
-"\n"
-"If you want to save the output image in a directory named \"<i>converted</i>"
-"\" located in the directory of the opened image, write:\n"
-"<b>%p1/converted/%f</b>\n"
-"\n"
-"If you want to save the output image in a directory named \"<i>/home/tom/"
-"photos/converted/2010-10-31</i>\", write:\n"
-"<b>%p2/converted/%d1/%f</b>"
-msgstr ""
-"Lze použít následující formátovací řetězce:\n"
-"<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</"
-"b>\n"
-"\n"
-"Tyto formátovací řetězce reprezentují různé části cesty k uložené "
-"fotografii.\n"
-"\n"
-"Například pokud má zpracovávaná fotografie následující cestu:\n"
-"<b><i>/home/tomas/fotky/2010-10-31/dsc0042.nef</i></b>,\n"
-"mají jednotlivé formátovací řetězce tento význam:\n"
-"<b>%d4</b> = <i>home</i>\n"
-"<b>%d3</b> = <i>tomas</i>\n"
-"<b>%d2</b> = <i>fotky</i>\n"
-"<b>%d1</b> = <i>2010-10-31</i>\n"
-"<b>%f</b> = <i>dsc0042</i>\n"
-"<b>%p1</b> = <i>/home/tomas/fotky/2010-10-31/</i>\n"
-"<b>%p2</b> = <i>/home/tomas/fotky/</i>\n"
-"<b>%p3</b> = <i>/home/tomas/</i>\n"
-"<b>%p4</b> = <i>/home/</i>\n"
-"\n"
-"<b>%r</b> bude nahrazeno hodnocením fotografie.  Pokud není fotografie "
-"ohodnocena, bude %r nahrazeno '0'.  Pokud je fotografie v koši, bude %r "
-"nahrazeno 'x'.\n"
-"\n"
-"Pokud si přejete uložit výstupní obrázek vedle originálu, napište:\n"
-"<b>%p1/%f</b>\n"
-"\n"
-"Pokud si jej ale přejete uložit do adresáře \"<i>converted</i>\" ve stejném "
-"adresáři jako otevřený obrázek, napište:\n"
-"<b>%p1/converted/%f</b>\n"
-"\n"
-"Pro uložení výstupního obrázku do adresáře  \"<i>/home/tom/photos/"
-"converted/2010-10-31</i>\", napište:\n"
-"<b>%p2/converted/%d1/%f</b>"
 
 #: PREFERENCES_OUTDIRTEMPLATEHINT
 msgid ""
@@ -3934,17 +3558,9 @@ msgstr ""
 msgid "Select font"
 msgstr "Vybrat písmo"
 
-#: PREFERENCES_SELECTICCDIRDLG
-msgid "Select Color Profile Directory..."
-msgstr "Vybrat složku s barevnými profily..."
-
 #: PREFERENCES_SELECTLANG
 msgid "Select language"
 msgstr "Volba jazyka"
-
-#: PREFERENCES_SELECTMONITORPROFDLG
-msgid "Select Color Profile of the Display..."
-msgstr "Vybrat barevný profil obrazovky..."
 
 #: PREFERENCES_SELECTTHEME
 msgid "Select theme"
@@ -3965,10 +3581,6 @@ msgstr "Zobrazovat datum a čas"
 #: PREFERENCES_SHOWEXPOSURECOMPENSATION
 msgid "Append exposure compensation"
 msgstr "Přidat kompenzaci expozice"
-
-#: PREFERENCES_SHOWONLYRAW
-msgid "Show only raw files"
-msgstr "Zobrazovat pouze soubory raw"
 
 #: PREFERENCES_SHOWPROFILESELECTOR
 msgid "Show processing profile selector"
@@ -4035,10 +3647,6 @@ msgstr "Obecné"
 msgid "Image Processing"
 msgstr "Zpracování obrázku"
 
-#: PREFERENCES_TAB_OUTPUT
-msgid "Output Options"
-msgstr "Volby výstupu"
-
 #: PREFERENCES_TAB_PERFORMANCE
 msgid "Performance"
 msgstr "Výkon"
@@ -4046,10 +3654,6 @@ msgstr "Výkon"
 #: PREFERENCES_TAB_SOUND
 msgid "Sounds"
 msgstr "Zvuky"
-
-#: PREFERENCES_THUMBSIZE
-msgid "Thumbnail Size"
-msgstr "Velikost náhledu"
 
 #: PREFERENCES_TP_LABEL
 msgid "Tool panel:"
@@ -4140,21 +3744,13 @@ msgstr "Parametry pro vložení"
 msgid "From file"
 msgstr "Ze souboru"
 
-#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_HSVEQUALIZER_NEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
 msgid "Neutral"
 msgstr "Neutrální"
-
-#: PROFILEPANEL_PLASTPHOTO
-msgid "Last Photo"
-msgstr "Poslední fotka"
 
 #: PROFILEPANEL_PLASTSAVED
 msgid "Last Saved"
 msgstr "Poslední uschovaný"
-
-#: PROFILEPANEL_PROFILE
-msgid "Profile"
-msgstr "Profil"
 
 #: PROFILEPANEL_SAVEDLGLABEL
 msgid "Save Processing Parameters..."
@@ -4195,34 +3791,6 @@ msgid ""
 msgstr ""
 "Uložit současný profil\n"
 "<b>Ctrl-klik</b> umožní vybrat parametry pro uložení"
-
-#: PROGRESSBAR_BADPIXELS
-msgid "Bad pixels..."
-msgstr "Špatné pixely"
-
-#: PROGRESSBAR_CACORRECTION
-msgid "CA correction..."
-msgstr "Korekce chromatické aberace..."
-
-#: PROGRESSBAR_DARKFRAME
-msgid "Darkframe..."
-msgstr "Tmavý snímek..."
-
-#: PROGRESSBAR_DECODING
-msgid "Decoding raw file..."
-msgstr "Dekódování raw..."
-
-#: PROGRESSBAR_DEMOSAICING
-msgid "Demosaicing..."
-msgstr "Demozajkování..."
-
-#: PROGRESSBAR_GREENEQUIL
-msgid "Green equilibrating..."
-msgstr "Vyrovnání zelené..."
-
-#: PROGRESSBAR_LINEDENOISE
-msgid "Line denoise..."
-msgstr "Linkové odšumění..."
 
 #: PROGRESSBAR_LOADINGTHUMBS
 msgid "Loading thumbnails..."
@@ -4280,10 +3848,6 @@ msgstr "Snímek přidán"
 msgid "Processing profile changed in browser"
 msgstr "Profil upracování změněn v prohlížeči"
 
-#: QINFO_FOCALLENGTH
-msgid "Focal length"
-msgstr "Ohnisková vzdálenost"
-
 #: QINFO_NOEXIF
 msgid "Exif data not available."
 msgstr "Exif údaje nejsou k dispozici."
@@ -4307,10 +3871,6 @@ msgstr "Soubory JPEG"
 #: SAVEDLG_PNGCOMPR
 msgid "PNG Compression"
 msgstr "PNG Komprese"
-
-#: SAVEDLG_PNGFILTER
-msgid "PNG files"
-msgstr "Soubory PNG"
 
 #: SAVEDLG_PUTTOQUEUEHEAD
 msgid "Put to the head of the processing queue"
@@ -4586,10 +4146,6 @@ msgstr "Metoda"
 msgid "Mixer"
 msgstr "Míchání"
 
-#: TP_BWMIX_MIXF
-msgid "Mixer Filters"
-msgstr "Filtry míchání"
-
 #: TP_BWMIX_NEUTRAL_TIP
 msgid "Reset all values (filter, channel-mixer) to default"
 msgstr "Vrátí všechny hodnoty (filtry, mixéry kanálů) na výchozí pozice"
@@ -4705,6 +4261,10 @@ msgstr "ČB Běžný"
 msgid "B&W Weighted Standard"
 msgstr "ČB Běžný vážený"
 
+#: TP_BWMIX_VAL
+msgid "L"
+msgstr "L"
+
 #: TP_CACORRECTION_LABEL
 msgid "Chromatic Aberration Correction"
 msgstr "Korekce chromatické aberace"
@@ -4761,8 +4321,7 @@ msgstr ""
 "Absolutní jas scény prostředí(cd/m²).\n"
 " 1) Vypočítáno z Exifu:\n"
 "Rychlost závěrky - citlivost - clona - expoziční korekce fotoaparátu.\n"
-" 2) Vypočítáno z hodnoty raw bílého bodu a expoziční kompenzace "
-"Rawtherapee"
+" 2) Vypočítáno z hodnoty raw bílého bodu a expoziční kompenzace Rawtherapee"
 
 #: TP_COLORAPP_ADAPTSCENE
 msgid "Scene luminosity"
@@ -4944,10 +4503,6 @@ msgstr ""
 #: TP_COLORAPP_DEGREE_TOOLTIP
 msgid "Amount of CIE Chromatic Adaptation Transform 2002"
 msgstr "Míra CIE Chromatic Adaptation Transform 2002"
-
-#: TP_COLORAPP_EQUAL
-msgid "Equal"
-msgstr "Stejné"
 
 #: TP_COLORAPP_GAMUT_TOOLTIP
 msgid "Allow gamut control in Lab mode"
@@ -5244,7 +4799,7 @@ msgstr "Y"
 msgid "Auto selection"
 msgstr "Automatický výběr"
 
-#: TP_DEFRINGE_RADIUS,TP_LUMADENOISE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
+#: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
 msgid "Radius"
 msgstr "Poloměr"
 
@@ -5324,6 +4879,10 @@ msgstr "RGB režim (raw obrázky)"
 msgid "Chrominance - Red-Green"
 msgstr "Barevnost - Červená a zelená"
 
+#: TP_DIRPYRDENOISE_RGB
+msgid "RGB"
+msgstr "RGB"
+
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
 msgid "Coarsest"
 msgstr "Nejhrubší"
@@ -5364,7 +4923,7 @@ msgstr "Míra zachování hran"
 msgid "Reweighting Iterates"
 msgstr "Počet průchodů převážení"
 
-#: TP_EPD_SCALE,TP_RESIZE_SCALE,ZOOMBAR_SCALE
+#: TP_EPD_SCALE,TP_RESIZE_SCALE
 msgid "Scale"
 msgstr "Měřítko"
 
@@ -5589,6 +5148,10 @@ msgstr ""
 msgid "Illuminant"
 msgstr "Osvětlení"
 
+#: TP_ICM_FILEDLGFILTERICM
+msgid "Color profiles"
+msgstr "Barevné profily"
+
 #: TP_ICM_INPUTCAMERAICC_TOOLTIP
 msgid ""
 "Use RawTherapee's camera-specific DCP or ICC input color profiles. These "
@@ -5649,9 +5212,9 @@ msgstr "Bez profilu"
 msgid "Input Profile"
 msgstr "Vstupní profil"
 
-#: TP_ICM_OUTPUTDLGLABEL
-msgid "Select Output ICC Profile..."
-msgstr "Vybrat výstupní ICC profil..."
+#: TP_ICM_NOICM
+msgid "No ICM: sRGB Output"
+msgstr "Bez ICM: sRGB výstup"
 
 #: TP_ICM_OUTPUTPROFILE
 msgid "Output Profile"
@@ -5662,9 +5225,8 @@ msgid ""
 "Save the linear TIFF image before the input profile is applied. Result can "
 "be used for calibration purposes, generation of a camera profile."
 msgstr ""
-"Uloží lineární TIFF obrázek před aplikováním vstupního profilu. Výsledek může "
-"být použit "
-"pro kalibraci a generování profilu fotoaparátu-"
+"Uloží lineární TIFF obrázek před aplikováním vstupního profilu. Výsledek "
+"může být použit pro kalibraci a generování profilu fotoaparátu-"
 
 #: TP_ICM_SAVEREFERENCE
 msgid "Save Reference Image for Profiling"
@@ -5810,8 +5372,7 @@ msgid ""
 "If enabled, the LC Curve affects only red and skin tones.\n"
 "If disabled, it applies to all tones."
 msgstr ""
-"Pokud je povoleno, je LC křivka omezena pouze na "
-"červené a pleťové tóny\n"
+"Pokud je povoleno, je LC křivka omezena pouze na červené a pleťové tóny\n"
 "Pokud je zakázáno, aplikuje se na všechny tóny"
 
 #: TP_LABCURVE_LCREDSK
@@ -5845,14 +5406,6 @@ msgstr "Korekční profil objektivu"
 #: TP_LENSPROFILE_USECA
 msgid "CA Correction"
 msgstr "Úprava chromatické vady"
-
-#: TP_LUMADENOISE_EDGETOLERANCE,TP_SHARPENING_EDTOLERANCE
-msgid "Edge Tolerance"
-msgstr "Tolerance okrajům"
-
-#: TP_LUMADENOISE_LABEL
-msgid "Luminance Noise Reduction"
-msgstr "Redukce šumu v jasech"
 
 #: TP_NEUTRAL_TIP
 msgid ""
@@ -5996,10 +5549,6 @@ msgstr "Výřez"
 msgid "Full Image"
 msgstr "Celý obrázek"
 
-#: TP_RESIZE_FULLSIZE
-msgid "Full Image Size:"
-msgstr "Plná velikost obrázku:"
-
 #: TP_RESIZE_HEIGHT
 msgid "Height"
 msgstr "Výška"
@@ -6024,6 +5573,14 @@ msgstr "Zvolte:"
 msgid "W:"
 msgstr "Š:"
 
+#: TP_RGBCURVES_BLUE
+msgid "B"
+msgstr "B"
+
+#: TP_RGBCURVES_GREEN
+msgid "G"
+msgstr "G"
+
 #: TP_RGBCURVES_LABEL
 msgid "RGB Curves"
 msgstr "RGB křivky"
@@ -6033,12 +5590,16 @@ msgid ""
 "<b>Luminosity Mode</b> allows to vary the contribution of R, G and B "
 "channels to the Luminosity of the image, without altering image color.    "
 msgstr ""
-"<b>Režim svítivosti</b> umožňuje změnu světlosti obrázku bez změny jeho barev "
-"pomocí změny podílu jednotlivých barevných RGB kanálů.     "
+"<b>Režim svítivosti</b> umožňuje změnu světlosti obrázku bez změny jeho "
+"barev pomocí změny podílu jednotlivých barevných RGB kanálů.     "
 
 #: TP_RGBCURVES_LUMAMODE
 msgid "Luminosity Mode"
 msgstr "Mód svítivosti"
+
+#: TP_RGBCURVES_RED
+msgid "R"
+msgstr "R"
 
 #: TP_ROTATE_DEGREE
 msgid "Degree"
@@ -6083,6 +5644,10 @@ msgstr "Počet průchodů"
 #: TP_SHARPENEDGE_THREE
 msgid "Luminance only"
 msgstr "Pouze jas"
+
+#: TP_SHARPENING_EDTOLERANCE
+msgid "Edge Tolerance"
+msgstr "Tolerance okrajům"
 
 #: TP_SHARPENING_HALOCONTROL
 msgid "Halo control"
@@ -6349,26 +5914,6 @@ msgstr "Pod vodou 1"
 msgid "UnderWater 2"
 msgstr "Pod vodou 2"
 
-#: ZOOMBAR_HUGE
-msgid "Huge"
-msgstr "Veliký"
-
-#: ZOOMBAR_LARGE
-msgid "Large"
-msgstr "Větší"
-
-#: ZOOMBAR_NORMAL
-msgid "Normal"
-msgstr "Normální"
-
-#: ZOOMBAR_PREVIEW
-msgid "Preview"
-msgstr "Náhled"
-
-#: ZOOMBAR_SMALL
-msgid "Small"
-msgstr "Malý"
-
 #: ZOOMPANEL_NEWCROPWINDOW
 msgid "Open (new) detail window"
 msgstr "Otevřít (nové) okno detailu"
@@ -6408,6 +5953,365 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Exif Filter"
+#~ msgstr "Filtrovat dle Exif"
+
+#~ msgid "Change between vertical/horizontal alignment of thumbnails"
+#~ msgstr "Přepnout mezi vertikálním/horizontálním zarovnáním náhledů"
+
+#~ msgid "Switch File Browser Exif Filter on/off"
+#~ msgstr "Zapnout/vypnout Exif filtr v prohlížeči souborů"
+
+#~ msgid "Change settings of the Exif Filter"
+#~ msgstr "Změnit nastavení Exif filtru"
+
+#~ msgid "Setup"
+#~ msgstr "Nastavení"
+
+#~ msgid "Label: None"
+#~ msgstr "Štítek: Žádný"
+
+#~ msgid "Label: Red"
+#~ msgstr "Štítek: Červený"
+
+#~ msgid "Label: Yellow"
+#~ msgstr "Štítek: Žlutý"
+
+#~ msgid "Label: Green"
+#~ msgstr "Štítek: Zelený"
+
+#~ msgid "Label: Blue"
+#~ msgstr "Štítek: Modrý"
+
+#~ msgid "Label: Purple"
+#~ msgstr "Štítek: Nachový"
+
+#~ msgid "Rank 1 *"
+#~ msgstr "Hodnocení 1 *"
+
+#~ msgid "Rank 2 **"
+#~ msgstr "Hodnocení 2 **"
+
+#~ msgid "Rank 3 ***"
+#~ msgstr "Hodnocení 3 ***"
+
+#~ msgid "Rank 4 ****"
+#~ msgstr "Hodnocení 4 ****"
+
+#~ msgid "Rank 5 *****"
+#~ msgstr "Hodnocení 5 *****"
+
+#~ msgid "Set the file format and output directory"
+#~ msgstr "Nastavení formátu souboru a výstupní složky"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavení"
+
+#~ msgid "Show content of the processing queue"
+#~ msgstr "Ukázat obsah fronty zpracování"
+
+#~ msgid "High quality"
+#~ msgstr "Vysoká kvalita"
+
+#~ msgid "Load"
+#~ msgstr "Načíst"
+
+#~ msgid "Yes"
+#~ msgstr "Ano"
+
+#~ msgid "Histogram"
+#~ msgstr "Histogram"
+
+#~ msgid "As..."
+#~ msgstr "Jako..."
+
+#~ msgid "Label of the snapshot:"
+#~ msgstr "Titulek snímku:"
+
+#~ msgid "Add new snapshot"
+#~ msgstr "Přidat nový snímek"
+
+#~ msgid "Set to"
+#~ msgstr "Nastavit na"
+
+#~ msgid "Color Profile Applies Gamma"
+#~ msgstr "Barevný profil aplikuje Gamu"
+
+#~ msgid "Camera Default"
+#~ msgstr "Výchozí fotoaparátu"
+
+#~ msgid "Select Input Color Profile..."
+#~ msgstr "Vybrat vstupní barevný profil..."
+
+#~ msgid "Use Embedded, if possible"
+#~ msgstr "Použít vložený profil, pokud je k dispozici"
+
+#~ msgid "Input Color Profile"
+#~ msgstr "Vstupní barevný profil"
+
+#~ msgid "Select Output Color Profile..."
+#~ msgstr "Vybrat výstupní barevný profil..."
+
+#~ msgid "Output Color Profile"
+#~ msgstr "Výstupní barevný prostor"
+
+#~ msgid "Save reference image for profiling"
+#~ msgstr "Uložit referenční obrázek pro profilování"
+
+#~ msgid "Working Color Profile"
+#~ msgstr "Pracovní barevný profil"
+
+#~ msgid "Detail View"
+#~ msgstr "Detailní pohled"
+
+#~ msgid ""
+#~ "Name of the creator of the object, e.g. writer, photographer or graphic "
+#~ "artist (By-line)."
+#~ msgstr ""
+#~ "Jméno autora, například spisovatele, fotografa nebo grafika (By-line)."
+
+#~ msgid "Exit"
+#~ msgstr "Konec"
+
+#~ msgid "Error during image saving"
+#~ msgstr "Chyba při ukládání obrázku"
+
+#~ msgid "Unprocessed images in the queue will be lost on exit."
+#~ msgstr "Nezpracované obrázky ve frontě budou při ukončení ztraceny."
+
+#~ msgid ""
+#~ "Are you sure you want to exit? There are unprocessed images waiting in "
+#~ "the queue."
+#~ msgstr "Opravdu chcete skončit? Ve frontě čekají nezpracované obrázky."
+
+#~ msgid "job(s) in the queue"
+#~ msgstr "úlohy ve frontě"
+
+#~ msgid "Basic"
+#~ msgstr "Základní"
+
+#~ msgid "ICM"
+#~ msgstr "ICM"
+
+#~ msgid "B|A"
+#~ msgstr "Před|Po"
+
+#~ msgid ""
+#~ "Show/Hide the bottom panel (directory and file browser).\n"
+#~ "Shortcut: <b>f</b>"
+#~ msgstr ""
+#~ "Zobrazit či schovat dolní panel (složky a prohlížeč souborů).\n"
+#~ "Zkratka: <b>f</b>"
+
+#~ msgid "Set preferences"
+#~ msgstr "Změnit volby"
+
+#~ msgid "Save image to a specific folder"
+#~ msgstr "Uložit obrázek do zadané složky"
+
+#~ msgid "Save image to the default folder"
+#~ msgstr "Uložit obrázek do výchozí složky"
+
+#~ msgid "Color boost"
+#~ msgstr "Posílení barev"
+
+#~ msgid "Color denoise"
+#~ msgstr "Odstranění barevného šumu"
+
+#~ msgid "Color mixer"
+#~ msgstr "Míchání barev"
+
+#~ msgid "Color shift"
+#~ msgstr "Posun barev"
+
+#~ msgid "Highlight reconstruction"
+#~ msgstr "Rekonstrukce světel"
+
+#~ msgid "Highlight compression"
+#~ msgstr "Komprese světel"
+
+#~ msgid "Highlight compression threshold"
+#~ msgstr "Práh komprese světel"
+
+#~ msgid "Highlight recovery"
+#~ msgstr "Obnovení světel"
+
+#~ msgid "Luminance noise reduction"
+#~ msgstr "Redukce šumu v jasech"
+
+#~ msgid "Luminance related settings"
+#~ msgstr "Nastavení jasu"
+
+#~ msgid "Wavelet equalizer"
+#~ msgstr "Vlnková korekce"
+
+#~ msgid "Cache Strategy"
+#~ msgstr "Strategie cache"
+
+#~ msgid "Prefer Speed to Low Memory Consumption"
+#~ msgstr "Upřednostnit rychlost před spotřebou paměti"
+
+#~ msgid "Prefer Low Memory Consumption to Speed"
+#~ msgstr "Upřednostnit nižší spotřebu paměti před rychlostí"
+
+#~ msgid "Demosaicing Algorithm"
+#~ msgstr "Demozajkovací algoritmus"
+
+#~ msgid "Hint"
+#~ msgstr "Nápověda"
+
+#~ msgid "Live Thumbnails (slower)"
+#~ msgstr "Živé náhledy (pomalejší)"
+
+#~ msgid ""
+#~ "You can use the following formatting strings:\n"
+#~ "<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>"
+#~ "%r</b>\n"
+#~ "\n"
+#~ "These formatting strings refer to the different parts of the photo's "
+#~ "pathname or some attributes of the photo.\n"
+#~ "\n"
+#~ "For example, if the photo being processed has the following pathname:\n"
+#~ "<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\n"
+#~ "the meaning of the formatting strings are:\n"
+#~ "<b>%d4</b> = <i>home</i>\n"
+#~ "<b>%d3</b> = <i>tom</i>\n"
+#~ "<b>%d2</b> = <i>photos</i>\n"
+#~ "<b>%d1</b> = <i>2010-10-31</i>\n"
+#~ "<b>%f</b> = <i>dsc0042</i>\n"
+#~ "<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n"
+#~ "<b>%p2</b> = <i>/home/tom/photos/</i>\n"
+#~ "<b>%p3</b> = <i>/home/tom/</i>\n"
+#~ "<b>%p4</b> = <i>/home/</i>\n"
+#~ "\n"
+#~ "<b>%r</b> will be replaced by the rank of the photo.  If the photo is "
+#~ "unranked, %r will be replaced by '0'.  If the photo is in the trash bin, "
+#~ "%r will be replaced by 'x'.\n"
+#~ "\n"
+#~ "If you want to save the output image where the original is, write:\n"
+#~ "<b>%p1/%f</b>\n"
+#~ "\n"
+#~ "If you want to save the output image in a directory named \"<i>converted</"
+#~ "i>\" located in the directory of the opened image, write:\n"
+#~ "<b>%p1/converted/%f</b>\n"
+#~ "\n"
+#~ "If you want to save the output image in a directory named \"<i>/home/tom/"
+#~ "photos/converted/2010-10-31</i>\", write:\n"
+#~ "<b>%p2/converted/%d1/%f</b>"
+#~ msgstr ""
+#~ "Lze použít následující formátovací řetězce:\n"
+#~ "<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>"
+#~ "%r</b>\n"
+#~ "\n"
+#~ "Tyto formátovací řetězce reprezentují různé části cesty k uložené "
+#~ "fotografii.\n"
+#~ "\n"
+#~ "Například pokud má zpracovávaná fotografie následující cestu:\n"
+#~ "<b><i>/home/tomas/fotky/2010-10-31/dsc0042.nef</i></b>,\n"
+#~ "mají jednotlivé formátovací řetězce tento význam:\n"
+#~ "<b>%d4</b> = <i>home</i>\n"
+#~ "<b>%d3</b> = <i>tomas</i>\n"
+#~ "<b>%d2</b> = <i>fotky</i>\n"
+#~ "<b>%d1</b> = <i>2010-10-31</i>\n"
+#~ "<b>%f</b> = <i>dsc0042</i>\n"
+#~ "<b>%p1</b> = <i>/home/tomas/fotky/2010-10-31/</i>\n"
+#~ "<b>%p2</b> = <i>/home/tomas/fotky/</i>\n"
+#~ "<b>%p3</b> = <i>/home/tomas/</i>\n"
+#~ "<b>%p4</b> = <i>/home/</i>\n"
+#~ "\n"
+#~ "<b>%r</b> bude nahrazeno hodnocením fotografie.  Pokud není fotografie "
+#~ "ohodnocena, bude %r nahrazeno '0'.  Pokud je fotografie v koši, bude %r "
+#~ "nahrazeno 'x'.\n"
+#~ "\n"
+#~ "Pokud si přejete uložit výstupní obrázek vedle originálu, napište:\n"
+#~ "<b>%p1/%f</b>\n"
+#~ "\n"
+#~ "Pokud si jej ale přejete uložit do adresáře \"<i>converted</i>\" ve "
+#~ "stejném adresáři jako otevřený obrázek, napište:\n"
+#~ "<b>%p1/converted/%f</b>\n"
+#~ "\n"
+#~ "Pro uložení výstupního obrázku do adresáře  \"<i>/home/tom/photos/"
+#~ "converted/2010-10-31</i>\", napište:\n"
+#~ "<b>%p2/converted/%d1/%f</b>"
+
+#~ msgid "Select Color Profile Directory..."
+#~ msgstr "Vybrat složku s barevnými profily..."
+
+#~ msgid "Select Color Profile of the Display..."
+#~ msgstr "Vybrat barevný profil obrazovky..."
+
+#~ msgid "Show only raw files"
+#~ msgstr "Zobrazovat pouze soubory raw"
+
+#~ msgid "Output Options"
+#~ msgstr "Volby výstupu"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Velikost náhledu"
+
+#~ msgid "Last Photo"
+#~ msgstr "Poslední fotka"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Bad pixels..."
+#~ msgstr "Špatné pixely"
+
+#~ msgid "CA correction..."
+#~ msgstr "Korekce chromatické aberace..."
+
+#~ msgid "Darkframe..."
+#~ msgstr "Tmavý snímek..."
+
+#~ msgid "Decoding raw file..."
+#~ msgstr "Dekódování raw..."
+
+#~ msgid "Demosaicing..."
+#~ msgstr "Demozajkování..."
+
+#~ msgid "Green equilibrating..."
+#~ msgstr "Vyrovnání zelené..."
+
+#~ msgid "Line denoise..."
+#~ msgstr "Linkové odšumění..."
+
+#~ msgid "Focal length"
+#~ msgstr "Ohnisková vzdálenost"
+
+#~ msgid "PNG files"
+#~ msgstr "Soubory PNG"
+
+#~ msgid "Mixer Filters"
+#~ msgstr "Filtry míchání"
+
+#~ msgid "Equal"
+#~ msgstr "Stejné"
+
+#~ msgid "Select Output ICC Profile..."
+#~ msgstr "Vybrat výstupní ICC profil..."
+
+#~ msgid "Luminance Noise Reduction"
+#~ msgstr "Redukce šumu v jasech"
+
+#~ msgid "Full Image Size:"
+#~ msgstr "Plná velikost obrázku:"
+
+#~ msgid "Huge"
+#~ msgstr "Veliký"
+
+#~ msgid "Large"
+#~ msgstr "Větší"
+
+#~ msgid "Normal"
+#~ msgstr "Normální"
+
+#~ msgid "Preview"
+#~ msgstr "Náhled"
+
+#~ msgid "Small"
+#~ msgstr "Malý"
 
 #~ msgid "Bypass Shadow/Highlights (High Quality)"
 #~ msgstr "Vynechat Světla/Stíny (vysoká kvalita)"
