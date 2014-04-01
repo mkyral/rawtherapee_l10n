@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-01-10 19:23+0100\n"
+"POT-Creation-Date: 2014-03-27 18:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Lights"
 msgstr ""
 
-#: CURVEEDITOR_LINEAR
+#: CURVEEDITOR_LINEAR,TP_BWMIX_ALGO_LI
 msgid "Linear"
 msgstr ""
 
@@ -114,27 +114,35 @@ msgid "Shadows"
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPCOPY
-msgid "Copy current curve to clipboard"
+msgid "Copy current curve to clipboard."
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPLINEAR
-msgid "Reset curve to linear"
+msgid "Reset curve to linear."
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPLOAD
-msgid "Load a curve from file"
+msgid "Load a curve from file."
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPPASTE
-msgid "Paste curve from clipboard"
+msgid "Paste curve from clipboard."
 msgstr ""
 
 #: CURVEEDITOR_TOOLTIPSAVE
-msgid "Save current curve"
+msgid "Save current curve."
 msgstr ""
 
 #: CURVEEDITOR_TYPE
 msgid "Type:"
+msgstr ""
+
+#: EDIT_OBJECT_TOOLTIP
+msgid "Displays a widget on the preview window which lets you adjust this tool."
+msgstr ""
+
+#: EDIT_PIPETTE_TOOLTIP
+msgid "To add an adjustment point to the curve, hold the Ctrl key while left-clicking the desired spot in the image preview.\nTo adjust the point, hold the Ctrl key while left-clicking the corresponding area in the preview, then let go of Ctrl (unless you desire fine control) and while still holding the left mouse button move the mouse up or down to move that point up or down in the curve."
 msgstr ""
 
 #: EDITWINDOW_TITLE
@@ -178,7 +186,7 @@ msgid "Shutter"
 msgstr ""
 
 #: EXIFPANEL_ADDEDITHINT
-msgid "Add new tag or edit tag"
+msgid "Add new tag or edit tag."
 msgstr ""
 
 #: EXIFPANEL_ADDEDIT
@@ -198,7 +206,7 @@ msgid "Add/Edit Tag"
 msgstr ""
 
 #: EXIFPANEL_KEEPHINT
-msgid "Keep the selected tags when writing output file"
+msgid "Keep the selected tags when writing output file."
 msgstr ""
 
 #: EXIFPANEL_KEEP
@@ -206,7 +214,7 @@ msgid "Keep"
 msgstr ""
 
 #: EXIFPANEL_REMOVEHINT
-msgid "Remove the selected tags when writing output file"
+msgid "Remove the selected tags when writing output file."
 msgstr ""
 
 #: EXIFPANEL_REMOVE
@@ -214,7 +222,7 @@ msgid "Remove"
 msgstr ""
 
 #: EXIFPANEL_RESETALLHINT
-msgid "Reset all tags to their original values"
+msgid "Reset all tags to their original values."
 msgstr ""
 
 #: EXIFPANEL_RESETALL
@@ -222,7 +230,7 @@ msgid "Reset All"
 msgstr ""
 
 #: EXIFPANEL_RESETHINT
-msgid "Reset the selected tags to their original values"
+msgid "Reset the selected tags to their original values."
 msgstr ""
 
 #: EXIFPANEL_RESET,IPTCPANEL_RESET
@@ -370,11 +378,11 @@ msgid "Auto Flat Field"
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHBUTTONHINT
-msgid "Click to browse to the chosen path"
+msgid "Click to browse to the chosen path."
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHHINT
-msgid "Type a path to navigate to.\n<b>Ctrl-O</b> to focus to the path text box.\n<b>Enter</b> / <b>Ctrl-Enter</b> to browse there;\n<b>Esc</b> to clear changes.\n<b>Shift-Esc</b> to remove focus.\n\n\nPath shortcuts:\n  <b>~</b> - user's home directory\n  <b>!</b> - user's pictures directory"
+msgid "Type a path to navigate to.\n\nKeyboard shortcuts:\n<b>Ctrl-o</b> to focus to the path text box.\n<b>Enter</b> / <b>Ctrl-Enter</b> to browse there;\n<b>Esc</b> to clear changes.\n<b>Shift-Esc</b> to remove focus.\n\nPath shortcuts:\n<b>~</b>	- user's home directory.\n<b>!</b>	- user's pictures directory"
 msgstr ""
 
 #: FILEBROWSER_CACHECLEARFROMFULL
@@ -394,7 +402,7 @@ msgid "Clear"
 msgstr ""
 
 #: FILEBROWSER_COLORLABEL_TOOLTIP
-msgid "Color label\n\nUse dropdown menu or Shortcuts:\n<b>Shift-Ctrl-0</b> No Color\n<b>Shift-Ctrl-1</b> Red\n<b>Shift-Ctrl-2</b> Yellow\n<b>Shift-Ctrl-3</b> Green\n<b>Shift-Ctrl-4</b> Blue\n<b>Shift-Ctrl-5</b> Purple"
+msgid "Color label.\n\nUse dropdown menu or shortcuts:\n<b>Shift-Ctrl-0</b> No Color\n<b>Shift-Ctrl-1</b> Red\n<b>Shift-Ctrl-2</b> Yellow\n<b>Shift-Ctrl-3</b> Green\n<b>Shift-Ctrl-4</b> Blue\n<b>Shift-Ctrl-5</b> Purple"
 msgstr ""
 
 #: FILEBROWSER_COPYPROFILE
@@ -422,7 +430,7 @@ msgid "Are you sure you want to delete the selected <b>%1</b> files?"
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASHHINT
-msgid "Permanently delete the files from trash"
+msgid "Permanently delete the files from trash."
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASH
@@ -473,6 +481,30 @@ msgstr ""
 msgid "Color label"
 msgstr ""
 
+#: FILEBROWSER_POPUPCOLORLABEL0
+msgid "Label: None"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL1
+msgid "Label: Red"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL2
+msgid "Label: Yellow"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL3
+msgid "Label: Green"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL4
+msgid "Label: Blue"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL5
+msgid "Label: Purple"
+msgstr ""
+
 #: FILEBROWSER_POPUPCOPYTO
 msgid "Copy to..."
 msgstr ""
@@ -513,6 +545,30 @@ msgstr ""
 msgid "Rank"
 msgstr ""
 
+#: FILEBROWSER_POPUPRANK0
+msgid "Unkank"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK1
+msgid "Rank 1 * "
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK2
+msgid "Rank 2 **"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK3
+msgid "Rank 3 ***"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK4
+msgid "Rank 4 ****"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK5
+msgid "Rank 5 *****"
+msgstr ""
+
 #: FILEBROWSER_POPUPREMOVEINCLPROC
 msgid "Delete with output from queue"
 msgstr ""
@@ -546,7 +602,7 @@ msgid "Clear the Find query"
 msgstr ""
 
 #: FILEBROWSER_QUERYHINT
-msgid "Type a <i>partial filename</i> to search for or a <i>comma-separated list</i>.\nE.g. <i>1001,1004,1199</i> \n\n<b>Ctrl-F</b> to focus to the Find text box.\n<b>Enter</b> to commence search.\n<b>Esc</b> to clear.\n<b>Shift-Esc</b> to remove focus."
+msgid "Type filenames to search for. Supports partial filenames. Separate search terms using commas, e.g.\n<i>1001,1004,1199</i>\n\nShortcuts:\n<b>Ctrl-f</b> - focus the Find box,\n<b>Enter</b> - search,\n<b>Esc</b> - clear the Find box,\n<b>Shift-Esc</b> - defocus the Find box."
 msgstr ""
 
 #: FILEBROWSER_QUERYLABEL
@@ -622,7 +678,7 @@ msgid "Show not edited images.\nShortcut: <b>6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWEXIFINFO
-msgid "Show Exif info.\nShortcut: <b>i</b>\n\nShortcut in Single Editor Tab Mode: <b>Alt-i</b>"
+msgid "Show Exif info.\n\nShortcuts:\n<b>i</b> - Multiple Editor Tabs Mode,\n<b>Alt-i</b> - Single Editor Tab Mode."
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK1HINT
@@ -646,19 +702,19 @@ msgid "Show images ranked as 5 star.\nShortcut: <b>5</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRECENTLYSAVEDHINT
-msgid "Show images recently saved.\nShortcut: <b>Alt-7</b>"
+msgid "Show saved images.\nShortcut: <b>Alt-7</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT
-msgid "Show images not recently saved.\nShortcut: <b>Alt-6</b>"
+msgid "Show unsaved images.\nShortcut: <b>Alt-6</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWTRASHHINT
-msgid "Show content of the trash.\nShortcut: <b>T</b>"
+msgid "Show contents of trash.\nShortcut: <b>t</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWUNCOLORHINT
-msgid "Show images without Color label.\nShortcut: <b>Alt-0</b>"
+msgid "Show images without a color label.\nShortcut: <b>Alt-0</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWUNRANKHINT
@@ -666,7 +722,7 @@ msgid "Show unranked images.\nShortcut: <b>0</b>"
 msgstr ""
 
 #: FILEBROWSER_STARTPROCESSINGHINT
-msgid "Start processing the images in the queue"
+msgid "Start processing the images in the queue."
 msgstr ""
 
 #: FILEBROWSER_STARTPROCESSING
@@ -674,7 +730,7 @@ msgid "Start Processing"
 msgstr ""
 
 #: FILEBROWSER_STOPPROCESSINGHINT
-msgid "Stop processing the images in the queue"
+msgid "Stop processing the images in the queue."
 msgstr ""
 
 #: FILEBROWSER_STOPPROCESSING
@@ -686,11 +742,11 @@ msgid "Thumbnail size"
 msgstr ""
 
 #: FILEBROWSER_TOOLTIP_STOPPROCESSING
-msgid "Start processing automatically when a new job arrives"
+msgid "Start processing automatically when a new job arrives."
 msgstr ""
 
 #: FILEBROWSER_UNRANK_TOOLTIP
-msgid "Unrank\nShortcut: <b>Shift-0</b>"
+msgid "Unrank.\nShortcut: <b>Shift-0</b>"
 msgstr ""
 
 #: FILEBROWSER_USETEMPLATE
@@ -698,11 +754,11 @@ msgid "Use template:"
 msgstr ""
 
 #: FILEBROWSER_ZOOMINHINT
-msgid "Increase thumbnail size.\nShortcut: <b>+</b>\n\nShortcut in Single Editor Tab Mode: <b>Alt-+</b>"
+msgid "Increase thumbnail size.\n\nShortcuts:\n<b>+</b> - Multiple Editor Tabs Mode,\n<b>Alt</b>-<b>+</b> - Single Editor Tab Mode."
 msgstr ""
 
 #: FILEBROWSER_ZOOMOUTHINT
-msgid "Decrease thumbnail size.\nShortcut: <b>-</b>\n\nShortcut in Single Editor Tab Mode: <b>Alt--</b>"
+msgid "Decrease thumbnail size.\n\nShortcuts:\n<b>-</b> - Multiple Editor Tabs Mode,\n<b>Alt</b>-<b>-</b> - Single Editor Tab Mode."
 msgstr ""
 
 #: GENERAL_ABOUT
@@ -786,35 +842,35 @@ msgid "Warning"
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_BAR
-msgid "Show/Hide RGB indicator bar\nClick right mouse button on image preview to freeze/unfreeze"
+msgid "Show/Hide RGB indicator bar.\nRight-click on image preview to freeze/unfreeze."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_B
-msgid "Show/Hide blue histogram"
+msgid "Show/Hide blue histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_FULL
-msgid "Toggle full (on) or scaled (off) histogram"
+msgid "Toggle full (on) or scaled (off) histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_G
-msgid "Show/Hide green histogram"
+msgid "Show/Hide green histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_CHRO
-msgid "Show/Hide chromaticity histogram"
+msgid "Show/Hide chromaticity histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_L
-msgid "Show/Hide CIELAB Luminance histogram"
+msgid "Show/Hide CIELAB Luminance histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_RAW
-msgid "Show/Hide raw histogram"
+msgid "Show/Hide raw histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_R
-msgid "Show/Hide red histogram"
+msgid "Show/Hide red histogram."
 msgstr ""
 
 #: HISTORY_CUSTOMCURVE
@@ -897,7 +953,7 @@ msgstr ""
 msgid "Lab - Avoid color shift"
 msgstr ""
 
-#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236
+#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
 msgid "--unused--"
 msgstr ""
 
@@ -1485,6 +1541,26 @@ msgstr ""
 msgid "NR - Enhanced"
 msgstr ""
 
+#: HISTORY_MSG_251
+msgid "B&amp;W - Algorithm"
+msgstr ""
+
+#: HISTORY_MSG_252
+msgid "CbDL Skin Tones"
+msgstr ""
+
+#: HISTORY_MSG_253
+msgid "CbDL Reduce artifacts"
+msgstr ""
+
+#: HISTORY_MSG_254
+msgid "CbDL - Hueskin"
+msgstr ""
+
+#: HISTORY_MSG_255
+msgid "CbDL - Algorithm"
+msgstr ""
+
 #: HISTORY_MSG_26
 msgid "USM - Edge Tolerance"
 msgstr ""
@@ -1862,7 +1938,7 @@ msgid "City"
 msgstr ""
 
 #: IPTCPANEL_COPYHINT
-msgid "Copy IPTC settings to clipboard"
+msgid "Copy IPTC settings to clipboard."
 msgstr ""
 
 #: IPTCPANEL_COPYRIGHTHINT
@@ -1898,7 +1974,7 @@ msgid "Date created"
 msgstr ""
 
 #: IPTCPANEL_EMBEDDEDHINT
-msgid "Reset to IPTC data embedded in the image file"
+msgid "Reset to IPTC data embedded in the image file."
 msgstr ""
 
 #: IPTCPANEL_EMBEDDED
@@ -1930,7 +2006,7 @@ msgid "Keywords"
 msgstr ""
 
 #: IPTCPANEL_PASTEHINT
-msgid "Paste IPTC settings from clipboard"
+msgid "Paste IPTC settings from clipboard."
 msgstr ""
 
 #: IPTCPANEL_PROVINCEHINT
@@ -1942,7 +2018,7 @@ msgid "Province"
 msgstr ""
 
 #: IPTCPANEL_RESETHINT
-msgid "Reset to profile default"
+msgid "Reset to profile default."
 msgstr ""
 
 #: IPTCPANEL_SOURCEHINT
@@ -1982,15 +2058,15 @@ msgid "Fullscreen"
 msgstr ""
 
 #: MAIN_BUTTON_NAVNEXT_TOOLTIP
-msgid "Navigate to the Next image relative to image open in Editor\nShortcut: <b>Shift-F4</b>\n\nTo navigate to the Next image relative to thumbnail selected in File Browser\nShortcut: <b>F4</b>"
+msgid "Navigate to the next image relative to image opened in the Editor.\nShortcut: <b>Shift-F4</b>\n\nTo navigate to the next image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F4</b>"
 msgstr ""
 
 #: MAIN_BUTTON_NAVPREV_TOOLTIP
-msgid "Navigate to the Previous image relative to image open in Editor\nShortcut: <b>Shift-F3</b> \n\nTo navigate to the Previous image relative to thumbnail selected in File Browser\nShortcut: <b>F3</b>"
+msgid "Navigate to the previous image relative to image opened in the Editor.\nShortcut: <b>Shift-F3</b>\n\nTo navigate to the previous image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F3</b>"
 msgstr ""
 
 #: MAIN_BUTTON_NAVSYNC_TOOLTIP
-msgid "Synchronize the File Browser with the Editor to reveal the thumbnail of the currently open image, and clear filters in File Browser \nShortcut: <b>x</b>\n\nAs above, but without clearing filters in File Browser\nShortcut: <b>y</b>\n(Note that thumbnail of the open file will not be shown if filtered out)."
+msgid "Synchronize the File Browser or Filmstrip with the Editor to reveal the thumbnail of the currently opened image, and clear any active filters.\nShortcut: <b>x</b>\n\nAs above, but without clearing active filters:\nShortcut: <b>y</b>\n(Note that the thumbnail of the opened image will not be shown if filtered out)."
 msgstr ""
 
 #: MAIN_BUTTON_PREFERENCES
@@ -2018,7 +2094,7 @@ msgid "Exit Fullscreen"
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
-msgid "Processing Queue.\nShortcut: <b>Ctrl-F3</b>"
+msgid "Processing queue.\nShortcut: <b>Ctrl-F3</b>"
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE
@@ -2186,7 +2262,7 @@ msgid "Background color of the preview: <b>White</b>\nShortcut: <b>9</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
-msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged.\nUseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparisons can be made to any state in the History\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view one step behind, showing the image before the effect of the currently used tool."
+msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged.\nUseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparisons can be made to any state in the History.\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view one step behind, showing the image before the effect of the currently used tool."
 msgstr ""
 
 #: MAIN_TOOLTIP_HIDEHP
@@ -2206,7 +2282,7 @@ msgid "Preview the <b>Blue channel</b>.\nShortcut: <b>b</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWFOCUSMASK
-msgid "Preview the <b>Focus Mask</b>.\nShortcut: <b>Shift-f</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom 10-30%\n\nPreview is rendered slower with Focus Mask turned on."
+msgid "Preview the <b>Focus Mask</b>.\nShortcut: <b>Shift-f</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels.\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom, about 10-30%.\n\nPreview is rendered slower with Focus Mask turned on."
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWG
@@ -2234,7 +2310,7 @@ msgid "Show/Hide the right panel.\nShortcut: <b>Alt-l</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_SHOWHIDETP1
-msgid "Show/Hide the top panel.\nShortcut: <b>Shift-l</b>"
+msgid "Show/Hide the top panel.\nShortcut: <b>Shift-L</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_SHARPENING_THRESHOLD
@@ -2562,7 +2638,7 @@ msgid "Use operating system's main monitor color profile"
 msgstr ""
 
 #: PREFERENCES_BEHADDALLHINT
-msgid "Set all parameters to the <b>Add</b> mode.\nAdjustments of parameters in the batch tool panel will be <b>deltas</b> to the stored values "
+msgid "Set all parameters to the <b>Add</b> mode.\nAdjustments of parameters in the batch tool panel will be <b>deltas</b> to the stored values."
 msgstr ""
 
 #: PREFERENCES_BEHADDALL
@@ -2574,7 +2650,7 @@ msgid "Behavior"
 msgstr ""
 
 #: PREFERENCES_BEHSETALLHINT
-msgid "Set all parameters to the <b>Set</b> mode.\nAdjustments of parameters in the batch tool panel will be <b>absolute</b>, the actual values will be displayed"
+msgid "Set all parameters to the <b>Set</b> mode.\nAdjustments of parameters in the batch tool panel will be <b>absolute</b>, the actual values will be displayed."
 msgstr ""
 
 #: PREFERENCES_BEHSETALL
@@ -2618,7 +2694,7 @@ msgid "Use float precision instead of double"
 msgstr ""
 
 #: PREFERENCES_CIEART_TOOLTIP
-msgid "If enabled, CIECAM02 calculations are performed in the single-precision floating-point format instead of the double-precision one. This provides a small increase in speed at the expense of a negligible loss of quality"
+msgid "If enabled, CIECAM02 calculations are performed in the single-precision floating-point format instead of the double-precision one. This provides a small increase in speed at the expense of a negligible loss of quality."
 msgstr ""
 
 #: PREFERENCES_CIEART
@@ -2682,7 +2758,7 @@ msgid "Date Format"
 msgstr ""
 
 #: PREFERENCES_DATEFORMATHINT
-msgid "<i>You can use the following formatting strings:</i>\n<b>%y</b><i> : year</i>\n<b>%m</b><i> : month</i>\n<b>%d</b><i> : day</i>\n<i>\nFor example, the hungarian date format is:</i>\n<b>%y/%m/%d</b>"
+msgid "You can use the following formatting strings:\n<b>%y</b>	- year\n<b>%m</b>	- month\n<b>%d</b>	- day\n\nFor example, the Hungarian date format is:\n<b>%y/%m/%d</b>"
 msgstr ""
 
 #: PREFERENCES_DATEFORMAT
@@ -2898,7 +2974,7 @@ msgid "Multiple Editor Tabs Mode"
 msgstr ""
 
 #: PREFERENCES_OUTDIRFOLDERHINT
-msgid "Put the saved images to the selected folder"
+msgid "Save images to the selected folder."
 msgstr ""
 
 #: PREFERENCES_OUTDIRFOLDER
@@ -2934,7 +3010,7 @@ msgid "Factor"
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTADDHINT
-msgid "Type an extension and press this button to append list"
+msgid "Add entered extension to the list."
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTADD
@@ -2942,7 +3018,7 @@ msgid "Add Extension"
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTDELHINT
-msgid "Delete selected extension from the list"
+msgid "Delete selected extension from the list."
 msgstr ""
 
 #: PREFERENCES_PARSEDEXT
@@ -3170,19 +3246,19 @@ msgid "Parameters to save"
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPCOPY
-msgid "Copy current processing profile to clipboard.\n<b>Ctrl-click</b> to select the parameters to copy"
+msgid "Copy current processing profile to clipboard.\n<b>Ctrl-click</b> to select the parameters to copy."
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPLOAD
-msgid "Load a profile from file.\n<b>Ctrl-click</b> to select the parameters to load"
+msgid "Load a profile from file.\n<b>Ctrl-click</b> to select the parameters to load."
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPPASTE
-msgid "Paste profile from clipboard.\n<b>Ctrl-click</b> to select the parameters to paste"
+msgid "Paste profile from clipboard.\n<b>Ctrl-click</b> to select the parameters to paste."
 msgstr ""
 
 #: PROFILEPANEL_TOOLTIPSAVE
-msgid "Save current profile.\n<b>Ctrl-click</b> to select the parameters to save"
+msgid "Save current profile.\n<b>Ctrl-click</b> to select the parameters to save."
 msgstr ""
 
 #: PROGRESSBAR_LOADINGTHUMBS
@@ -3318,7 +3394,7 @@ msgid "File will be named"
 msgstr ""
 
 #: SHCSELECTOR_TOOLTIP
-msgid "Click right mouse button to reset the position of those 3 sliders"
+msgid "Click right mouse button to reset the position of those 3 sliders."
 msgstr ""
 
 #: THRESHOLDSELECTOR_BL
@@ -3350,7 +3426,7 @@ msgid "Top"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_CROP
-msgid "<b>Crop</b> selection.\nShortcut: <b>c</b>\nMove the crop area using Shift + mouse drag"
+msgid "<b>Crop</b> selection.\nShortcut: <b>c</b>\nMove the crop area using <b>Shift-mouse drag</b>"
 msgstr ""
 
 #: TOOLBAR_TOOLTIP_HAND
@@ -3365,8 +3441,20 @@ msgstr ""
 msgid "Spot white balance.\nShortcut: <b>w</b>"
 msgstr ""
 
+#: TP_BWMIX_ALGO_SP
+msgid "Special effects"
+msgstr ""
+
+#: TP_BWMIX_ALGO_TOOLTIP
+msgid "Linear: will produce a normal <b>linear</b> response.\nSpecial effects: will produce special effects by mixing channels <b>non-linearly</b>."
+msgstr ""
+
+#: TP_BWMIX_ALGO
+msgid "Algorithm OYCPM"
+msgstr ""
+
 #: TP_BWMIX_AUTOCH_TIP
-msgid "Calculate values optimizing channel-mixer"
+msgid "Calculate values optimizing Channel Mixer."
 msgstr ""
 
 #: TP_BWMIX_AUTOCH,TP_WBALANCE_AUTO
@@ -3382,19 +3470,19 @@ msgid "Adjust complementary color"
 msgstr ""
 
 #: TP_BWMIX_CC_TOOLTIP
-msgid "Enable to allow automatic adjustment of complementary colors in ROYGCBPM mode"
+msgid "Enable to allow automatic adjustment of complementary colors in ROYGCBPM mode."
 msgstr ""
 
 #: TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP
-msgid "Tone curve, after B&amp;W conversion, at the end of treatment"
+msgid "Tone curve, after B&amp;W conversion, at the end of treatment."
 msgstr ""
 
 #: TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP
-msgid "Tone curve, just before B&amp;W conversion\nMay take into account the color components"
+msgid "Tone curve, just before B&amp;W conversion.\nMay take into account the color components."
 msgstr ""
 
 #: TP_BWMIX_CURVEEDITOR_LH_TOOLTIP
-msgid "Modify luminance in function of hue\nPay attention to extreme values that may cause artifacts"
+msgid "Luminance according to hue L=f(H).\nPay attention to extreme values as they may cause artifacts."
 msgstr ""
 
 #: TP_BWMIX_CURVEEDITOR1
@@ -3434,7 +3522,7 @@ msgid "Red-Yellow"
 msgstr ""
 
 #: TP_BWMIX_FILTER_TOOLTIP
-msgid "The color filter simulate shots taken with a colored filter placed in front of the lens. Colored filters reduce transmission of specific range of colors and correspondingly affect their lightness. E.g. a Red filter darkens Blue skies."
+msgid "The color filter simulates shots taken with a colored filter placed in front of the lens. Colored filters reduce the transmission of specific color ranges and therefore affect their lightness. E.g. a red filter darkens blue skies."
 msgstr ""
 
 #: TP_BWMIX_FILTER_YELLOW,TP_BWMIX_YELLOW,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
@@ -3463,7 +3551,7 @@ msgid "Red Channel"
 msgstr ""
 
 #: TP_BWMIX_GAM_TOOLTIP
-msgid "Correct gamma for each channel RGB"
+msgid "Correct gamma for each RGB channel."
 msgstr ""
 
 #: TP_BWMIX_CHANNEL,TP_BWMIX_MET_LUMEQUAL
@@ -3488,7 +3576,7 @@ msgid "Mixer"
 msgstr ""
 
 #: TP_BWMIX_NEUTRAL_TIP
-msgid "Reset all values (filter, channel-mixer) to default"
+msgid "Reset all values (Color Filter, Channel Mixer) to default."
 msgstr ""
 
 #: TP_BWMIX_NEUTRAL
@@ -3500,7 +3588,7 @@ msgid "Orange"
 msgstr ""
 
 #: TP_BWMIX_RGBLABEL_HINT
-msgid "Final RGB factors that take care of all of the mixer options\nTotal displays the sum of RGB values actually applied:\n- always 100% in relative mode\n- higher (lighter) or lower (darker) than 100% in absolute mode."
+msgid "Final RGB factors that take care of all the mixer options.\n\"Total\" displays the sum of the RGB values:\n- always 100% in relative mode\n- higher (lighter) or lower (darker) than 100% in absolute mode."
 msgstr ""
 
 #: TP_BWMIX_RGBLABEL
@@ -3508,7 +3596,7 @@ msgid "R: %1%%   G: %2%%   B: %3%%   Total: %4%%"
 msgstr ""
 
 #: TP_BWMIX_RGB_TOOLTIP
-msgid "Mix the RGB channels. Use Presets for guidance.\nPay attention to negative values that may cause artifacts or erratic behavior."
+msgid "Mix the RGB channels. Use presets for guidance.\nPay attention to negative values that may cause artifacts or erratic behavior."
 msgstr ""
 
 #: TP_BWMIX_SET_HIGHCONTAST
@@ -3548,23 +3636,23 @@ msgid "Panchromatic"
 msgstr ""
 
 #: TP_BWMIX_SET_RGBABS
-msgid "Channel-Mixer absolute RGB"
+msgid "Channel Mixer absolute RGB"
 msgstr ""
 
 #: TP_BWMIX_SET_RGBREL
-msgid "Channel-Mixer relative RGB"
+msgid "Channel Mixer relative RGB"
 msgstr ""
 
 #: TP_BWMIX_SET_ROYGCBPMABS
-msgid "Channel-Mixer absolute ROYGCBPM"
+msgid "Channel Mixer absolute ROYGCBPM"
 msgstr ""
 
 #: TP_BWMIX_SET_ROYGCBPMREL
-msgid "Channel-Mixer relative ROYGCBPM"
+msgid "Channel Mixer relative ROYGCBPM"
 msgstr ""
 
 #: TP_BWMIX_SETTING_TOOLTIP
-msgid "Different presets (films, landscape, ...) or manual settings of channel-mixer"
+msgid "Different presets (film, landscape, etc.) or manual Channel Mixer settings."
 msgstr ""
 
 #: TP_BWMIX_SETTING
@@ -3596,27 +3684,27 @@ msgid "Chromatic Aberration Correction"
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_HFLIP
-msgid "Flip horizontally"
+msgid "Flip horizontally."
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_ROTLEFT
-msgid "Rotate left.\nShortcut: <b>[</b>\n\nShortcut in Single Editor Tab: <b>Alt-[</b>"
+msgid "Rotate left.\n\nShortcuts:\n<b>[</b> - Multiple Editor Tabs Mode,\n<b>Alt-[</b> - Single Editor Tab Mode."
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_ROTRIGHT
-msgid "Rotate right.\nShortcut: <b>]</b>\n\nShortcut in Single Editor Tab: <b>Alt-]</b>"
+msgid "Rotate right.\n\nShortcuts:\n<b>]</b> - Multiple Editor Tabs Mode,\n<b>Alt-]</b> - Single Editor Tab Mode."
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_VFLIP
-msgid "Flip vertically"
+msgid "Flip vertically."
 msgstr ""
 
 #: TP_COLORAPP_ADAP_AUTO_TOOLTIP
-msgid "If the checkbox is checked (recommended) RT calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first"
+msgid "If the checkbox is checked (recommended) RT calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
-msgid "Absolute luminance of the scene environement (cd/m²).\n1) Calculated from the Exif data:\nShutter speed - ISO speed - F number - camera exposure correction.\n2) Calculated from the raw white point and RT's Exposure Compensation slider"
+msgid "Absolute luminance of the scene environement (cd/m²).\n1) Calculated from the Exif data:\nShutter speed - ISO speed - F number - camera exposure correction.\n2) Calculated from the raw white point and RT's Exposure Compensation slider."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE
@@ -3624,7 +3712,7 @@ msgid "Scene luminosity"
 msgstr ""
 
 #: TP_COLORAPP_ADAPTVIEWING_TOOLTIP
-msgid "Absolute luminance of the viewing environnement\n(usually 16cd/m²)"
+msgid "Absolute luminance of the viewing environnement\n(usually 16cd/m²)."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTVIEWING
@@ -3648,7 +3736,7 @@ msgid "Brightness + Colorfulness (QM)"
 msgstr ""
 
 #: TP_COLORAPP_ALGO_TOOLTIP
-msgid "Lets you choose between parameter subsets or all parameters"
+msgid "Lets you choose between parameter subsets or all parameters."
 msgstr ""
 
 #: TP_COLORAPP_ALGO
@@ -3656,7 +3744,7 @@ msgid "Algorithm"
 msgstr ""
 
 #: TP_COLORAPP_BADPIXSL_TOOLTIP
-msgid "Suppression of hot/bad (brightly colored) pixels.\n 0=no effect 1=median 2=gaussian.\n\nThese artifacts are due to limitations of CIECAM02. Alternatively, adjust the image to avoid very dark shadows."
+msgid "Suppression of hot/bad (brightly colored) pixels.\n0 = no effect\n1 = median\n2 = gaussian.\n\nThese artifacts are due to limitations of CIECAM02. Alternatively, adjust the image to avoid very dark shadows."
 msgstr ""
 
 #: TP_COLORAPP_BADPIXSL
@@ -3664,7 +3752,7 @@ msgid "Hot/bad pixel filter"
 msgstr ""
 
 #: TP_COLORAPP_BRIGHT_TOOLTIP
-msgid "Brightness in CIECAM02 takes into account the white's luminosity and differs from Lab and RGB brightness"
+msgid "Brightness in CIECAM02 takes into account the white's luminosity and differs from Lab and RGB brightness."
 msgstr ""
 
 #: TP_COLORAPP_BRIGHT
@@ -3676,7 +3764,7 @@ msgid "CAT02 adaptation"
 msgstr ""
 
 #: TP_COLORAPP_CONTRAST_Q_TOOLTIP
-msgid "Contrast in CIECAM02 for the Q slider; it differs from Lab and RGB contrast"
+msgid "Contrast in CIECAM02 for the Q slider; it differs from Lab and RGB contrast."
 msgstr ""
 
 #: TP_COLORAPP_CONTRAST_Q
@@ -3684,7 +3772,7 @@ msgid "Contrast (Q)"
 msgstr ""
 
 #: TP_COLORAPP_CONTRAST_TOOLTIP
-msgid "Contrast in CIECAM02 for the J slider; it differs from Lab and RGB contrast"
+msgid "Contrast in CIECAM02 for the J slider; it differs from Lab and RGB contrast."
 msgstr ""
 
 #: TP_COLORAPP_CONTRAST
@@ -3692,7 +3780,7 @@ msgid "Contrast (J)"
 msgstr ""
 
 #: TP_COLORAPP_CURVEEDITOR1_TOOLTIP
-msgid "Shows the histogram of L (Lab) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of J or Q after CIECAM02.\n\nJ and Q are not shown in the main histogram panel.\n\nFor final output refer to the main histogram panel"
+msgid "Shows the histogram of L (Lab) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of J or Q after CIECAM02.\n\nJ and Q are not shown in the main histogram panel.\n\nFor final output refer to the main histogram panel."
 msgstr ""
 
 #: TP_COLORAPP_CURVEEDITOR1
@@ -3708,7 +3796,7 @@ msgid "Tone curve 2"
 msgstr ""
 
 #: TP_COLORAPP_CURVEEDITOR3_TOOLTIP
-msgid "Adjust either chroma, saturation or colorfulness.\n\nShows the histogram of chromaticity (Lab) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of C, s or M after CIECAM02.\n\nC, s and M are not shown in the main histogram panel.\nFor final output refer to the main histogram panel"
+msgid "Adjust either chroma, saturation or colorfulness.\n\nShows the histogram of chromaticity (Lab) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of C, s or M after CIECAM02.\n\nC, s and M are not shown in the main histogram panel.\nFor final output refer to the main histogram panel."
 msgstr ""
 
 #: TP_COLORAPP_CURVEEDITOR3
@@ -3716,7 +3804,7 @@ msgid "Color curve"
 msgstr ""
 
 #: TP_COLORAPP_DATACIE_TOOLTIP
-msgid "When enabled, histograms in CIECAM02 curves show approximate values/ranges for J or Q, and C, s or M after the CIECAM02 adjustments.\nThis selection does not impact the main histogram panel.\n\nWhen disabled, histograms in CIECAM02 curves show Lab values before CIECAM02 adjustments"
+msgid "When enabled, histograms in CIECAM02 curves show approximate values/ranges for J or Q, and C, s or M after the CIECAM02 adjustments.\nThis selection does not impact the main histogram panel.\n\nWhen disabled, histograms in CIECAM02 curves show Lab values before CIECAM02 adjustments."
 msgstr ""
 
 #: TP_COLORAPP_DATACIE
@@ -3724,15 +3812,15 @@ msgid "CIECAM02 output histograms in curves"
 msgstr ""
 
 #: TP_COLORAPP_DEGREE_AUTO_TOOLTIP
-msgid "If the check-box is checked (recommended), RT calculates an optimum value, which is then used by CAT02, and also for the entire CIECAM02.\nTo set the value manually, uncheck the check-box first (values above 65 are recommended)"
+msgid "If the check-box is checked (recommended), RT calculates an optimum value, which is then used by CAT02, and also for the entire CIECAM02.\nTo set the value manually, uncheck the check-box first (values above 65 are recommended)."
 msgstr ""
 
 #: TP_COLORAPP_DEGREE_TOOLTIP
-msgid "Amount of CIE Chromatic Adaptation Transform 2002"
+msgid "Amount of CIE Chromatic Adaptation Transform 2002."
 msgstr ""
 
 #: TP_COLORAPP_GAMUT_TOOLTIP
-msgid "Allow gamut control in Lab mode"
+msgid "Allow gamut control in Lab mode."
 msgstr ""
 
 #: TP_COLORAPP_GAMUT
@@ -3740,7 +3828,7 @@ msgid "Gamut control (Lab)"
 msgstr ""
 
 #: TP_COLORAPP_HUE_TOOLTIP
-msgid "Hue (h) - angle between 0° and 360°"
+msgid "Hue (h) - angle between 0° and 360°."
 msgstr ""
 
 #: TP_COLORAPP_HUE
@@ -3748,7 +3836,7 @@ msgid "Hue (h)"
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_M_TOOLTIP
-msgid "Colorfulness in CIECAM02 differs from Lab and RGB colorfulness"
+msgid "Colorfulness in CIECAM02 differs from Lab and RGB colorfulness."
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_M
@@ -3756,7 +3844,7 @@ msgid "Colorfulnes (M)"
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_S_TOOLTIP
-msgid "Saturation in CIECAM02 differs from Lab and RGB saturation"
+msgid "Saturation in CIECAM02 differs from Lab and RGB saturation."
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_S
@@ -3764,7 +3852,7 @@ msgid "Saturation (S)"
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_TOOLTIP
-msgid "Chroma in CIECAM02 differs from Lab and RGB chroma"
+msgid "Chroma in CIECAM02 differs from Lab and RGB chroma."
 msgstr ""
 
 #: TP_COLORAPP_CHROMA
@@ -3784,7 +3872,7 @@ msgid "Viewing Conditions"
 msgstr ""
 
 #: TP_COLORAPP_LIGHT_TOOLTIP
-msgid "Lightness in CIECAM02 differs from Lab and RGB lightness"
+msgid "Lightness in CIECAM02 differs from Lab and RGB lightness."
 msgstr ""
 
 #: TP_COLORAPP_LIGHT
@@ -3792,7 +3880,7 @@ msgid "Lightness (J)"
 msgstr ""
 
 #: TP_COLORAPP_MODEL_TOOLTIP
-msgid "White-Point Model\n\n<b>WB [RT] + [output]:</b>\nRT's white balance is used for the scene, CIECAM02 is set to D50, the output device's white balance is set in <i>Preferences > Color Management</i>\n\n<b>WB [RT+CAT02] + [output]:</b>\nRT's white balance settings are used by CAT02 and the output device's white balance is set in Preferences"
+msgid "White-Point Model.\n\n<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, CIECAM02 is set to D50, and the output device's white balance is set in <i>Preferences > Color Management</i>.\n\n<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by CAT02 and the output device's white balance is set in <i>Preferences - Color Management</i>."
 msgstr ""
 
 #: TP_COLORAPP_MODEL
@@ -3800,19 +3888,11 @@ msgid "WP Model"
 msgstr ""
 
 #: TP_COLORAPP_RSTPRO_TOOLTIP
-msgid "Red and skin tones protection (sliders and curves)"
+msgid "Red and skin tones protection (sliders and curves)."
 msgstr ""
 
 #: TP_COLORAPP_RSTPRO
 msgid "Red & skin tones protection"
-msgstr ""
-
-#: TP_COLORAPP_SHARPCIE_TOOLTIP
-msgid "Sharpening, Contrast by Detail Levels, Microcontrast & Defringe will use CIECAM02 if enabled."
-msgstr ""
-
-#: TP_COLORAPP_SHARPCIE
-msgid "Sharpening, Contrast by Detail Levels, Microcontrast & Defringe with Q/C"
 msgstr ""
 
 #: TP_COLORAPP_SURROUND_AVER
@@ -3832,7 +3912,7 @@ msgid "Extremly Dark (Cutsheet)"
 msgstr ""
 
 #: TP_COLORAPP_SURROUND_TOOLTIP
-msgid "Change tones and colors to take into account the viewing conditions of the output device\n\n<b>Average:</b>\nAverage light environment (standard)\nThe image will not change\n\n<b>Dim:</b>\nDim environment (TV)\nThe image will become slighty dark\n\n<b>Dark:</b>\nDark environment (projector)\nThe image will become more dark\n\n<b>Extremly Dark:</b>\nExtremly dark environment (cutsheet)\nThe image will become very dark"
+msgid "Changes tones and colors to take into account the viewing conditions of the output device.\n\n<b>Average</b>: Average light environment (standard). The image will not change.\n\n<b>Dim</b>: Dim environment (TV). The image will become slighty dark.\n\n<b>Dark</b>: Dark environment (projector). The image will become more dark.\n\n<b>Extremly Dark</b>: Extremly dark environment (cutsheet). The image will become very dark."
 msgstr ""
 
 #: TP_COLORAPP_SURROUND
@@ -3840,7 +3920,7 @@ msgid "Surround"
 msgstr ""
 
 #: TP_COLORAPP_SURSOURCE_TOOLTIP
-msgid "Can be used if source image has a dark border"
+msgid "Can be used if image has a dark border."
 msgstr ""
 
 #: TP_COLORAPP_SURSOURCE
@@ -3872,7 +3952,7 @@ msgid "Curve chroma mode"
 msgstr ""
 
 #: TP_COLORAPP_TONECIE_TOOLTIP
-msgid "If this option is disabled, tone mapping is done in Lab space.\nIf this option is enabled, tone mapping is done using CIECAM02.\nThe Tone Mapping tool must be enabled for this setting to take effect"
+msgid "If this option is disabled, tone mapping is done in Lab space.\nIf this option is enabled, tone mapping is done using CIECAM02.\nThe Tone Mapping tool must be enabled for this setting to take effect."
 msgstr ""
 
 #: TP_COLORAPP_TONECIE
@@ -3969,11 +4049,11 @@ msgid "Chrominance - Blue-Yellow"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_ENABLED_TOOLTIP
-msgid "Can be used on raw and non-raw images.\n\nFor non-raw images noise reduction of luminance depends on gamma of the input color profile. Gamma of sRGB is assumed, thus if input image is in color profile of a different gamma, luminance noise reduction will vary."
+msgid "Can be used on raw and non-raw images.\n\nFor non-raw images noise reduction of luminance depends on the gamma of the input color profile. An sRGB gamma is assumed, thus if the image uses an input color profile of a different gamma, the effects of luminance noise reduction will differ."
 msgstr ""
 
 #: TP_DIRPYRDENOISE_ENH_TOOLTIP
-msgid "Increases noise reduction quality at the expense of a 20% processing time increase"
+msgid "Increases noise reduction quality at the expense of a 20% processing time increase."
 msgstr ""
 
 #: TP_DIRPYRDENOISE_ENH
@@ -4001,7 +4081,7 @@ msgid "Luminance Detail"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_METHOD_TOOLTIP
-msgid "For raw images either RGB or Lab methods can be used.\n\nFor non-raw images Lab method will be used, regardless of the selection."
+msgid "For raw images either RGB or Lab methods can be used.\n\nFor non-raw images the Lab method will be used, regardless of the selection."
 msgstr ""
 
 #: TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
@@ -4020,6 +4100,34 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
+#: TP_DIRPYREQUALIZER_ALGO_FI
+msgid "Fine"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_ALGO_LA
+msgid "Large"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_ALGO_TOOLTIP
+msgid "Fine: closer to the colors of the skin, minimizing the action on other colors\nLarge: avoid more artifacts"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_ALGO
+msgid "Algorithm Skin"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_GAMUT
+msgid "Reduce artifacts  "
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_HUESKIN_TOOLTIP
+msgid "This pyramid is for the upper part, so far as the algorithm at its maximum efficiency.\nTo the lower part, the transition zones.\nIf you need to move the area significantly to the left or right - or if there are artifacts: the <b>white balance is incorrect</b>\nYou can slightly reduce the zone to prevent the rest of the image is affected"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_HUESKIN
+msgid "Skin hue "
+msgstr ""
+
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
 msgid "Coarsest"
 msgstr ""
@@ -4036,12 +4144,24 @@ msgstr ""
 msgid "Finest"
 msgstr ""
 
+#: TP_DIRPYREQUALIZER_SKIN_TOOLTIP
+msgid "At -100 skin tones are targetted.\nAt 0 all tones are treated equally.\nAt +100 skin tones are protected while all other tones are affected."
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_SKIN
+msgid "Skin Tones Targetting/Protection"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_TOOLTIP
+msgid "Attempts to reduce artifacts due to the transitions between the color (hue, chroma, luma) of the skin and the rest of the image"
+msgstr ""
+
 #: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
 msgid "Amount"
 msgstr ""
 
 #: TP_DISTORTION_AUTO_TIP
-msgid "(Exprimental) Correct lens distortion automatically for some cameras (Micro 4/3, some compact digital cameras, etc.)"
+msgid "Correct lens distortion automatically for some cameras (Micro 4/3, some compact digital cameras, etc.)."
 msgstr ""
 
 #: TP_DISTORTION_AUTO
@@ -4073,11 +4193,11 @@ msgid "Raw White & Black Points"
 msgstr ""
 
 #: TP_EXPOSURE_AUTOLEVELS_TIP
-msgid "Toggle execution of auto levels to automatically set parameter values based on image analysis\nEnable Highlight Reconstruction if necessary"
+msgid "Toggles execution of Auto Levels to automatically set Exposure slider values based on an image analysis.\nEnables Highlight Reconstruction if necessary."
 msgstr ""
 
 #: TP_EXPOSURE_CLIP_TIP
-msgid "The fraction of pixels to be clipped in auto level's operation"
+msgid "The fraction of pixels to be clipped in Auto Level's operation."
 msgstr ""
 
 #: TP_EXPOSURE_CLIP
@@ -4089,7 +4209,7 @@ msgid "Highlight Compression Threshold"
 msgstr ""
 
 #: TP_EXPOSURE_CURVEEDITOR2_TOOLTIP
-msgid "Please refer to the following section of the manual to learn how to achieve the best results with double curves:\nThe Toolbox > Exposure Tab > Exposure Panel > Tone Curve"
+msgid "Please refer to the \"Exposure > Tone Curves\" RawPedia article to learn how to achieve the best results by using two tone curves."
 msgstr ""
 
 #: TP_EXPOSURE_TCMODE_FILMLIKE
@@ -4141,7 +4261,7 @@ msgid "Slope (linear)"
 msgstr ""
 
 #: TP_GENERAL_11SCALE_TOOLTIP
-msgid "The effect of this tool or some of its sub-component is only visible at 1:1 preview scale."
+msgid "The effects of this tool are only visible or only accurate at a preview scale of 1:1."
 msgstr ""
 
 #: TP_GRADIENT_CENTER,TP_VIGNETTING_CENTER
@@ -4149,7 +4269,7 @@ msgid "Center"
 msgstr ""
 
 #: TP_GRADIENT_CENTER_X_TOOLTIP
-msgid "Rotation anchor point X: -100=left edge, 0=center, +100=right edge"
+msgid "Shift gradient to the left (negative values) or right (positive values)."
 msgstr ""
 
 #: TP_GRADIENT_CENTER_X,TP_VIGNETTING_CENTER_X
@@ -4157,7 +4277,7 @@ msgid "Center X"
 msgstr ""
 
 #: TP_GRADIENT_CENTER_Y_TOOLTIP
-msgid "Rotation anchor point Y: -100=top edge, 0=center, +100=bottom edge"
+msgid "Shift gradient up (negative values) or down (positive values)."
 msgstr ""
 
 #: TP_GRADIENT_CENTER_Y,TP_VIGNETTING_CENTER_Y
@@ -4165,7 +4285,7 @@ msgid "Center Y"
 msgstr ""
 
 #: TP_GRADIENT_DEGREE_TOOLTIP
-msgid "Rotation angle in degrees"
+msgid "Rotation angle in degrees."
 msgstr ""
 
 #: TP_GRADIENT_DEGREE
@@ -4173,7 +4293,7 @@ msgid "Angle"
 msgstr ""
 
 #: TP_GRADIENT_FEATHER_TOOLTIP
-msgid "Gradient width in percent of the image diagonal"
+msgid "Gradient width in percent of the image diagonal."
 msgstr ""
 
 #: TP_GRADIENT_FEATHER,TP_PCVIGNETTE_FEATHER
@@ -4181,7 +4301,7 @@ msgid "Feather"
 msgstr ""
 
 #: TP_GRADIENT_STRENGTH_TOOLTIP
-msgid "Filter strength in stops"
+msgid "Filter strength in stops."
 msgstr ""
 
 #: TP_HLREC_BLEND
@@ -4197,7 +4317,7 @@ msgid "Color Propagation"
 msgstr ""
 
 #: TP_HLREC_ENA_TOOLTIP
-msgid "Could be activated by automatic exposure"
+msgid "Could be activated by Auto Levels."
 msgstr ""
 
 #: TP_HLREC_LUMINANCE
@@ -4230,7 +4350,7 @@ msgid "Chromatic Aberration"
 msgstr ""
 
 #: TP_ICM_BLENDCMSMATRIX_TOOLTIP
-msgid "Enable to recover blown highlights when using LUT based ICC profiles"
+msgid "Enable to recover clipped highlights when using LUT based ICC profiles."
 msgstr ""
 
 #: TP_ICM_DCPILLUMINANT_INTERPOLATED
@@ -4258,7 +4378,7 @@ msgid "Auto-matched camera profile"
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA_TOOLTIP
-msgid "Use simple color matrix by dcraw, enhanced RawTherapee version (whichever is available based on camera model) or embedded in DNG."
+msgid "Use a simple color matrix from dcraw, an enhanced RawTherapee version (whichever is available based on camera model) or one embedded in the DNG."
 msgstr ""
 
 #: TP_ICM_INPUTCAMERA
@@ -4266,7 +4386,7 @@ msgid "Camera standard"
 msgstr ""
 
 #: TP_ICM_INPUTCUSTOM_TOOLTIP
-msgid "Select your own DCP/ICC color profile file for the camera"
+msgid "Select your own DCP/ICC color profile file for the camera."
 msgstr ""
 
 #: TP_ICM_INPUTDLGLABEL
@@ -4274,7 +4394,7 @@ msgid "Select Input DCP/ICC Profile..."
 msgstr ""
 
 #: TP_ICM_INPUTEMBEDDED_TOOLTIP
-msgid "Use color profile embedded in non-raw files"
+msgid "Use color profile embedded in non-raw files."
 msgstr ""
 
 #: TP_ICM_INPUTEMBEDDED
@@ -4282,7 +4402,7 @@ msgid "Use embedded, if possible"
 msgstr ""
 
 #: TP_ICM_INPUTNONE_TOOLTIP
-msgid "Use no input color profile at all. Use only in special cases."
+msgid "Use no input color profile at all.\nUse only in special cases."
 msgstr ""
 
 #: TP_ICM_INPUTNONE
@@ -4302,7 +4422,7 @@ msgid "Output Profile"
 msgstr ""
 
 #: TP_ICM_SAVEREFERENCE_TOOLTIP
-msgid "Save the linear TIFF image before the input profile is applied. Result can be used for calibration purposes, generation of a camera profile."
+msgid "Save the linear TIFF image before the input profile is applied. The result can be used for calibration purposes and generation of a camera profile."
 msgstr ""
 
 #: TP_ICM_SAVEREFERENCE
@@ -4318,7 +4438,7 @@ msgid "Working Profile"
 msgstr ""
 
 #: TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP
-msgid "Fit colors into gamut of the working color space and apply Munsell correction"
+msgid "Fit colors into gamut of the working color space and apply Munsell correction."
 msgstr ""
 
 #: TP_LABCURVE_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT
@@ -4430,7 +4550,7 @@ msgid "Chromaticity"
 msgstr ""
 
 #: TP_LABCURVE_CHROMA_TOOLTIP
-msgid "To apply B&amp;W toning, set Chromaticity to -100"
+msgid "To apply B&amp;W toning, set Chromaticity to -100."
 msgstr ""
 
 #: TP_LABCURVE_LABEL
@@ -4474,15 +4594,15 @@ msgid "CA Correction"
 msgstr ""
 
 #: TP_NEUTRAL_TIP
-msgid "Reset exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not"
+msgid "Resets exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not."
 msgstr ""
 
 #: TP_PCVIGNETTE_FEATHER_TOOLTIP
-msgid "Feathering: 0=corners only, 50=halfway to center, 100=to center"
+msgid "Feathering:\n0 = corners only,\n50 = halfway to center,\n100 = to center."
 msgstr ""
 
 #: TP_PCVIGNETTE_ROUNDNESS_TOOLTIP
-msgid "Roundness: 0=rectangle, 50=fitted ellipse, 100=circle"
+msgid "Roundness:\n0 = rectangle,\n50 = fitted ellipse,\n100 = circle."
 msgstr ""
 
 #: TP_PCVIGNETTE_ROUNDNESS
@@ -4490,11 +4610,11 @@ msgid "Roundness"
 msgstr ""
 
 #: TP_PCVIGNETTE_STRENGTH_TOOLTIP
-msgid "Filter strength in stops (reached in corners)"
+msgid "Filter strength in stops (reached in corners)."
 msgstr ""
 
 #: TP_PFCURVE_CURVEEDITOR_CH_TOOLTIP
-msgid "Controls defringe strength by color. Higher = more, lower = less."
+msgid "Controls defringe strength by color.\nHigher = more,\nLower = less."
 msgstr ""
 
 #: TP_PFCURVE_CURVEEDITOR_CH
@@ -4502,7 +4622,7 @@ msgid "Hue"
 msgstr ""
 
 #: TP_PREPROCESS_HOTDEADPIXFILT_TOOLTIP
-msgid "Try to suppress hot and dead pixels"
+msgid "Tries to suppress hot and dead pixels."
 msgstr ""
 
 #: TP_PREPROCESS_LABEL
@@ -4534,7 +4654,7 @@ msgid "%1 demosaicing..."
 msgstr ""
 
 #: TP_RAW_DMETHOD_TOOLTIP
-msgid "Note: IGV and LMMSE are dedicated to high ISO images"
+msgid "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise reduction without leading to posterization or a washed-out look."
 msgstr ""
 
 #: TP_RAWEXPOS_BLACKONE
@@ -4570,7 +4690,7 @@ msgid "Demosaicing"
 msgstr ""
 
 #: TP_RAW_LMMSE_TOOLTIP
-msgid "Adds gamma (step 1), median (steps 2-4) and refinement (steps 5-6) to reduce artifacts and improve the signal to noise ratio"
+msgid "Adds gamma (step 1), median (steps 2-4) and refinement (steps 5-6) to reduce artifacts and improve the signal-to-noise ratio."
 msgstr ""
 
 #: TP_RESIZE_APPLIESTO
@@ -4666,7 +4786,7 @@ msgid "Select Straight Line"
 msgstr ""
 
 #: TP_SAVEDIALOG_OK_TIP
-msgid "Shortcut <b>Ctrl-Enter</b>"
+msgid "Shortcut: <b>Ctrl-Enter</b>"
 msgstr ""
 
 #: TP_SHADOWSHLIGHTS_HLTONALW
@@ -4718,7 +4838,7 @@ msgid "RL Deconvolution"
 msgstr ""
 
 #: TP_SHARPENING_TOOLTIP
-msgid "Expect a slightly different effect when used with CIECAM02. If difference is observed, adjust to taste."
+msgid "Expect a slightly different effect when using with CIECAM02. If difference is observed, adjust to taste."
 msgstr ""
 
 #: TP_SHARPENING_USM
@@ -4790,7 +4910,7 @@ msgid "Daylight (sunny)"
 msgstr ""
 
 #: TP_WBALANCE_EQBLUERED_TOOLTIP
-msgid "Allows to deviate from the normal behavior of \"white balance\" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater)\nb) are far from conditions where calibrations were performed\nc) where the matrices or ICC profiles are unsuitable"
+msgid "Allows to deviate from the normal behavior of \"white balance\" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater),\nb) are far from conditions where calibrations were performed,\nc) where the matrices or ICC profiles are unsuitable."
 msgstr ""
 
 #: TP_WBALANCE_EQBLUERED
