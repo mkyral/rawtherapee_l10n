@@ -30,6 +30,7 @@
 #29 07.01.2014: updated by mkyral
 #30 10.01.2014: updated by mkyral
 #31 02.04.2014: updated by mkyral
+#32 07.04.2014: updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -162,8 +163,8 @@ FILEBROWSER_POPUPPROCESSFAST;Vložit do fronty (Rychlý export)
 FILEBROWSER_POPUPPROCESS;Vložit do fronty
 FILEBROWSER_POPUPPROFILEOPERATIONS;Operace profilů zpracování
 FILEBROWSER_POPUPRANK;Hodnocení
-FILEBROWSER_POPUPRANK0;Nezařazeno
-FILEBROWSER_POPUPRANK1;Hodnocení 1 * 
+FILEBROWSER_POPUPRANK0;Odstranit hodnocení
+FILEBROWSER_POPUPRANK1;Hodnocení 1 *
 FILEBROWSER_POPUPRANK2;Hodnocení 2 **
 FILEBROWSER_POPUPRANK3;Hodnocení 3 ***
 FILEBROWSER_POPUPRANK4;Hodnocení 4 ****
@@ -274,17 +275,17 @@ HISTORY_MSG_118;Raw - Korekce modré CA
 HISTORY_MSG_119;Filtrovat linkové rušení
 HISTORY_MSG_12;Automatické úrovně
 HISTORY_MSG_120;Vyrovnání zelené
-HISTORY_MSG_121;Raw - Automatická CA
+HISTORY_MSG_121;Raw - automatická korekce CA
 HISTORY_MSG_122;Tmavý snímky - Aut. výběr
 HISTORY_MSG_123;Soubor tmavého snímku
 HISTORY_MSG_124;Korekce bílého bodu
 HISTORY_MSG_125;Zachování světel
-HISTORY_MSG_126;Flat Field soubor
-HISTORY_MSG_127;Flat Field Automatický výběr
-HISTORY_MSG_128;Flat Field Poloměr rozostření
-HISTORY_MSG_129;Flat Field Typ rozostření
+HISTORY_MSG_126;Soubor Flat Field
+HISTORY_MSG_127;Automatický výběr Flat Field
+HISTORY_MSG_128;Poloměr rozostření Flat Field
+HISTORY_MSG_129;Typ rozostření Flat Field
 HISTORY_MSG_13;Oříznutí expozice
-HISTORY_MSG_130;Automatická oprava zkreslení objektivu
+HISTORY_MSG_130;Automatická korekce zkreslení
 HISTORY_MSG_131;Redukce jasového šumu
 HISTORY_MSG_132;Redukce barevného šumu
 HISTORY_MSG_133;Výstupní gama
@@ -580,7 +581,7 @@ MAIN_MSG_OPERATIONCANCELLED;Operace zrušena
 MAIN_MSG_PATHDOESNTEXIST;Cesta\n\n<b>%1</b>\n\nneexistuje. Nastavte prosím správnou cestu v okně "Volby".
 MAIN_MSG_QOVERWRITE;Chcete jej přepsat?
 MAIN_MSG_SETPATHFIRST;K použití této funkce musíte nejprve zadat cílovou cestu\nv okně "Volby"!
-MAIN_MSG_WRITEFAILED;Chyba zápisu\n\n<b>"%1"</b>\n\nUjistětě se, že složka existuje a máte práva do ní zapisovat.
+MAIN_MSG_WRITEFAILED;Chyba zápisu\n\n<b>"%1"</b>\n\nUjistěte se, že složka existuje a máte práva do ní zapisovat.
 MAIN_TAB_COLOR;Barvy
 MAIN_TAB_COLOR_TOOLTIP;Zkratka: <b>Alt-c</b>
 MAIN_TAB_DETAIL;Detaily
@@ -607,7 +608,7 @@ MAIN_TOOLTIP_HIDEHP;Zobrazit či schovat levý panel (obsahující historii).\nZ
 MAIN_TOOLTIP_INDCLIPPEDH;Zvýraznit oříznutá světla.\nZkratka: <b>&lt;</b>
 MAIN_TOOLTIP_INDCLIPPEDS;Zvýraznit oříznuté stíny.\nZkratka: <b>&gt;</b>
 MAIN_TOOLTIP_PREVIEWB;Náhled <b>modrého kanálu</b>.\nZkratka: <b>b</b>
-MAIN_TOOLTIP_PREVIEWFOCUSMASK;Náhled <b>Masky zaostření</b>.\nZkratka: <b>Shift-f</b>\n\nVíce přesné u snímků s nízkou hloubkou ostrosti, nízkým šumem a na vyšších úrovních zvětšení-\n\nPro zlepšení přesnosti detekce u zašuměných snímků použijte menší zvětšení  (10-30%).\n\nPokud je maska zaostření zapnuta je náhled generován pomaleji.
+MAIN_TOOLTIP_PREVIEWFOCUSMASK;Náhled <b>Masky zaostření</b>.\nZkratka: <b>Shift-f</b>\n\nVíce přesné u snímků s nízkou hloubkou ostrosti, nízkým šumem a na vyšších úrovních zvětšení.\n\nPro zlepšení přesnosti detekce u zašuměných snímků použijte menší zvětšení, mezi 10 až 30%.
 MAIN_TOOLTIP_PREVIEWG;Náhled <b>zeleného kanálu</b>.\nZkratka: <b>g</b>
 MAIN_TOOLTIP_PREVIEWL;Náhled <b>Svítivost</b>.\nZkratka: <b>v</b>\n\n0.299*R + 0.587*G + 0.114*B
 MAIN_TOOLTIP_PREVIEWR;Náhled <b>červeného kanálu</b>.\nZkratka: <b>r</b>
@@ -659,10 +660,10 @@ PARTIALPASTE_EPD;Mapování tónů
 PARTIALPASTE_EVERYTHING;Vše
 PARTIALPASTE_EXIFCHANGES;Změny Exif dat
 PARTIALPASTE_EXPOSURE;Expozice
-PARTIALPASTE_FLATFIELDAUTOSELECT;Flat field automatický výběr
-PARTIALPASTE_FLATFIELDBLURRADIUS;Flat field poloměr rozostření
-PARTIALPASTE_FLATFIELDBLURTYPE;Flat field typ rozostření
-PARTIALPASTE_FLATFIELDFILE;Flat field soubor
+PARTIALPASTE_FLATFIELDAUTOSELECT;Automatický výběr Flat Field
+PARTIALPASTE_FLATFIELDBLURRADIUS;Poloměr rozostření Flat Field
+PARTIALPASTE_FLATFIELDBLURTYPE;Typ rozostření Flat Field
+PARTIALPASTE_FLATFIELDFILE;Flat Field soubor
 PARTIALPASTE_GRADIENT;Přechodový filtr
 PARTIALPASTE_HSVEQUALIZER;HSV korekce
 PARTIALPASTE_CHANNELMIXERBW;Černobílá
@@ -776,7 +777,6 @@ PREFERENCES_GREY18;Yb=18 CIE L#50
 PREFERENCES_GREY23;Yb=23 CIE L#55
 PREFERENCES_GREY30;Yb=30 CIE L#60
 PREFERENCES_GREY40;Yb=40 CIE L#70
-PREFERENCES_GTKTHEME;GTK výchozí
 PREFERENCES_HISTOGRAMPOSITIONLEFT;Histogram v levém panelu
 PREFERENCES_HLTHRESHOLD;Práh oříznutých světel
 PREFERENCES_ICCDIR;Složka obsahující barevné profily
@@ -1208,6 +1208,7 @@ TP_ICM_DCPILLUMINANT;Osvětlení
 TP_ICM_DCPILLUMINANT_TOOLTIP;Vyberte které vložené DCP osvětlení se má použít. Ve výchozím stavu se použije "interpolované", což je mix mezi dvěma osvětleními založenými na vyvážení bílé. Nastavené je dostupné pouze v případě, že je povoleno dvojité DCP osvětlení s podporou interpolace.
 TP_ICM_FILEDLGFILTERANY;Jakékoliv soubory
 TP_ICM_FILEDLGFILTERICM;Barevné profily
+TP_ICM_FILEDLGFILTERICMDNG;Barevné profily + DNG
 TP_ICM_INPUTCAMERAICC;Automatický dohledaný profil fotoaparátu
 TP_ICM_INPUTCAMERAICC_TOOLTIP;Použít RawTherapee specifický DCP nebo ICC vstupní barevný profil fotoaparátu jenž je mnohem přesnější než zjednodušená matice. Není dostupné pro všechny fotoaparáty. Profily jsou uloženy ve složkách /iccprofiles/input a /dcpprofiles a jsou automaticky vybrány dle jména souboru shodného s fotoaparátem.
 TP_ICM_INPUTCAMERA;Standard fotoaparátu
@@ -1296,7 +1297,7 @@ TP_PREPROCESS_LABEL;Předzpracování
 TP_PREPROCESS_LINEDENOISE;Filtrovat linkové rušení
 TP_PREPROCESS_NO_FOUND;Nic nenalezeno
 TP_RAW_ALLENHANCE;Redukce artefaktů/šumu po demozajkování
-TP_RAWCACORR_AUTO;Aplikovat automatickou korekci chromatické aberace
+TP_RAWCACORR_AUTO;Automatická korekce
 TP_RAWCACORR_CABLUE;Modrá
 TP_RAWCACORR_CARED;Červená
 TP_RAW_DCBENHANCE;DCB vylepšení

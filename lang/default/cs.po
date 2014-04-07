@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-03-27 18:08+0100\n"
-"PO-Revision-Date: 2014-04-02 00:02+0200\n"
+"POT-Creation-Date: 2014-04-07 16:44+0200\n"
+"PO-Revision-Date: 2014-04-07 17:07+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -43,7 +43,7 @@ msgid "Batch Processing"
 msgstr "Dávkové zpracování"
 
 #: BATCHQUEUE_AUTOSTART
-msgid "Auto start"
+msgid "Auto-start"
 msgstr "Automatický start"
 
 #: BATCHQUEUE_DESTFILENAME
@@ -296,11 +296,11 @@ msgid "Bypass [raw] DCB Iterations"
 msgstr "Vynechat [raw] průchody DCB"
 
 #: EXPORT_BYPASS_RAW_DF
-msgid "Bypass [raw] Dark Frame"
+msgid "Bypass [raw] Dark-Frame"
 msgstr "Vynechat [raw] tmavé snímky"
 
 #: EXPORT_BYPASS_RAW_FF
-msgid "Bypass [raw] Flat Field"
+msgid "Bypass [raw] Flat-Field"
 msgstr "Vynechat [raw] Flat Field"
 
 #: EXPORT_BYPASS_RAW_GREENTHRESH
@@ -392,11 +392,11 @@ msgid "Apply"
 msgstr "Použít"
 
 #: FILEBROWSER_AUTODARKFRAME
-msgid "Auto Dark Frame"
+msgid "Auto Dark-Frame"
 msgstr "Automatický tmavý snímek"
 
 #: FILEBROWSER_AUTOFLATFIELD
-msgid "Auto Flat Field"
+msgid "Auto Flat-Field"
 msgstr "Auto Flat Field"
 
 #: FILEBROWSER_BROWSEPATHBUTTONHINT
@@ -476,7 +476,7 @@ msgid "Current name:"
 msgstr "Současné jméno:"
 
 #: FILEBROWSER_DARKFRAME
-msgid "Dark frame"
+msgid "Dark-frame"
 msgstr "Tmavý snímek"
 
 #: FILEBROWSER_DELETEDLGLABEL
@@ -512,15 +512,15 @@ msgid "Open with"
 msgstr "Otevřít pomocí"
 
 #: FILEBROWSER_FLATFIELD,PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
-msgid "Flat Field"
+msgid "Flat-Field"
 msgstr "Flat Field"
 
 #: FILEBROWSER_MOVETODARKFDIR
-msgid "Move to dark frames directory"
+msgid "Move to dark-frames directory"
 msgstr "Přesunout do složky tmavých snímků"
 
 #: FILEBROWSER_MOVETOFLATFIELDDIR
-msgid "Move to flat fields directory"
+msgid "Move to flat-fields directory"
 msgstr "Přesunout do složky Flat Field"
 
 #: FILEBROWSER_NEW_NAME
@@ -607,17 +607,17 @@ msgstr "Vložit do fronty"
 msgid "Processing Profile Operations"
 msgstr "Operace profilů zpracování"
 
+#: FILEBROWSER_POPUPRANK0,FILEBROWSER_POPUPUNRANK
+msgid "Unrank"
+msgstr "Odstranit hodnocení"
+
 #: FILEBROWSER_POPUPRANK
 msgid "Rank"
 msgstr "Hodnocení"
 
-#: FILEBROWSER_POPUPRANK0
-msgid "Unkank"
-msgstr "Nezařazeno"
-
 #: FILEBROWSER_POPUPRANK1
-msgid "Rank 1 * "
-msgstr "Hodnocení 1 * "
+msgid "Rank 1 *"
+msgstr "Hodnocení 1 *"
 
 #: FILEBROWSER_POPUPRANK2
 msgid "Rank 2 **"
@@ -655,10 +655,6 @@ msgstr "Vybrat vše"
 msgid "Move to trash"
 msgstr "Přesunout do koše"
 
-#: FILEBROWSER_POPUPUNRANK
-msgid "Unrank"
-msgstr "Odstranit hodnocení"
-
 #: FILEBROWSER_POPUPUNTRASH
 msgid "Remove from trash"
 msgstr "Vymazat z koše"
@@ -680,8 +676,7 @@ msgid ""
 "<b>Shift-Esc</b> - defocus the Find box."
 msgstr ""
 "Napište názvy hledaných souborů. Podporuje částečná jména souborů. Hledané "
-"termíny oddělte čárkami."
-"Například:\n"
+"termíny oddělte čárkami.Například:\n"
 "<i>1001,1004,1199</i> \n"
 "\n"
 "Zkratky:\n"
@@ -743,11 +738,11 @@ msgid "Rename file \"%1\" to:"
 msgstr "Přejmenovat soubor \"%1\" na:"
 
 #: FILEBROWSER_SELECTDARKFRAME
-msgid "Select dark frame..."
+msgid "Select dark-frame..."
 msgstr "Výběr tmavého snímku..."
 
 #: FILEBROWSER_SELECTFLATFIELD
-msgid "Select flat field..."
+msgid "Select flat-field..."
 msgstr "Výběr Flat Field..."
 
 #: FILEBROWSER_SHOWCOLORLABEL1HINT
@@ -1209,15 +1204,15 @@ msgid "Green Equilibration"
 msgstr "Vyrovnání zelené"
 
 #: HISTORY_MSG_121
-msgid "Raw Auto CA"
-msgstr "Raw - Automatická CA"
+msgid "Raw Auto CA Correction"
+msgstr "Raw - automatická korekce CA"
 
 #: HISTORY_MSG_122
-msgid "Dark Frame Auto Select"
+msgid "Dark-Frame Auto-Select"
 msgstr "Tmavý snímky - Aut. výběr"
 
 #: HISTORY_MSG_123
-msgid "Dark Frame File"
+msgid "Dark-Frame File"
 msgstr "Soubor tmavého snímku"
 
 #: HISTORY_MSG_124,TP_RAWEXPOS_LINEAR
@@ -1229,28 +1224,28 @@ msgid "Highlight Preservation"
 msgstr "Zachování světel"
 
 #: HISTORY_MSG_126
-msgid "Flat Field File"
-msgstr "Flat Field soubor"
+msgid "Flat-Field File"
+msgstr "Soubor Flat Field"
 
 #: HISTORY_MSG_127
-msgid "Flat Field Auto Select"
-msgstr "Flat Field Automatický výběr"
+msgid "Flat-Field Auto-Select"
+msgstr "Automatický výběr Flat Field"
 
 #: HISTORY_MSG_128
-msgid "Flat Field Blur Radius"
-msgstr "Flat Field Poloměr rozostření"
+msgid "Flat-Field Blur Radius"
+msgstr "Poloměr rozostření Flat Field"
 
 #: HISTORY_MSG_129
-msgid "Flat Field Blur Type"
-msgstr "Flat Field Typ rozostření"
+msgid "Flat-Field Blur Type"
+msgstr "Typ rozostření Flat Field"
 
 #: HISTORY_MSG_13
 msgid "Exposure Clipping"
 msgstr "Oříznutí expozice"
 
 #: HISTORY_MSG_130
-msgid "Auto Distorion"
-msgstr "Automatická oprava zkreslení objektivu"
+msgid "Auto Distorion Correction"
+msgstr "Automatická korekce zkreslení"
 
 #: HISTORY_MSG_131
 msgid "Noise Reduction Luma"
@@ -1929,7 +1924,7 @@ msgid "Rotation"
 msgstr "Otočení"
 
 #: HISTORY_MSG_61,PARTIALPASTE_COMMONTRANSFORMPARAMS,TP_LENSGEOM_FILL
-msgid "Auto fill"
+msgid "Auto-fill"
 msgstr "Automatické vyplnění"
 
 #: HISTORY_MSG_62,TP_DISTORTION_LABEL
@@ -1953,7 +1948,7 @@ msgid "Highlight Reconstruction"
 msgstr "Rekonstrukce světel"
 
 #: HISTORY_MSG_67
-msgid "HL Reconstruction Amount"
+msgid "HR Reconstruction Amount"
 msgstr "Míra rekonstrukce světel"
 
 #: HISTORY_MSG_68
@@ -2505,7 +2500,7 @@ msgstr ""
 "\n"
 "<b>\"%1\"</b>\n"
 "\n"
-"Ujistětě se, že složka existuje a máte práva do ní zapisovat."
+"Ujistěte se, že složka existuje a máte práva do ní zapisovat."
 
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "Shortcut: <b>Alt-c</b>"
@@ -2664,20 +2659,16 @@ msgid ""
 "zoom levels.\n"
 "\n"
 "To improve detection accuracy for noisy images evaluate at smaller zoom, "
-"about 10-30%.\n"
-"\n"
-"Preview is rendered slower with Focus Mask turned on."
+"about 10-30%."
 msgstr ""
 "Náhled <b>Masky zaostření</b>.\n"
 "Zkratka: <b>Shift-f</b>\n"
 "\n"
 "Více přesné u snímků s nízkou hloubkou ostrosti, nízkým šumem a na vyšších "
-"úrovních zvětšení-\n"
+"úrovních zvětšení.\n"
 "\n"
-"Pro zlepšení přesnosti detekce u zašuměných snímků použijte menší zvětšení  "
-"(10-30%).\n"
-"\n"
-"Pokud je maska zaostření zapnuta je náhled generován pomaleji."
+"Pro zlepšení přesnosti detekce u zašuměných snímků použijte menší zvětšení, "
+"mezi 10 až 30%."
 
 #: MAIN_TOOLTIP_PREVIEWG
 msgid ""
@@ -2885,11 +2876,11 @@ msgid "Composition Settings"
 msgstr "Nastavení kompozice"
 
 #: PARTIALPASTE_DARKFRAMEAUTOSELECT
-msgid "Dark frame auto selection"
+msgid "Dark-frame auto-selection"
 msgstr "Automatický výběr tmavých snímků"
 
 #: PARTIALPASTE_DARKFRAMEFILE
-msgid "Dark frame file"
+msgid "Dark-frame file"
 msgstr "Soubor tmavého snímku"
 
 #: PARTIALPASTE_DETAILGROUP
@@ -2925,20 +2916,20 @@ msgid "Changes to Exif data"
 msgstr "Změny Exif dat"
 
 #: PARTIALPASTE_FLATFIELDAUTOSELECT
-msgid "Flat field auto selection"
-msgstr "Flat field automatický výběr"
+msgid "Flat-field auto-selection"
+msgstr "Automatický výběr Flat Field"
 
 #: PARTIALPASTE_FLATFIELDBLURRADIUS
-msgid "Flat field blur radius"
-msgstr "Flat field poloměr rozostření"
+msgid "Flat-field blur radius"
+msgstr "Poloměr rozostření Flat Field"
 
 #: PARTIALPASTE_FLATFIELDBLURTYPE
-msgid "Flat field blur type"
-msgstr "Flat field typ rozostření"
+msgid "Flat-field blur type"
+msgstr "Typ rozostření Flat Field"
 
 #: PARTIALPASTE_FLATFIELDFILE
-msgid "Flat field file"
-msgstr "Flat field soubor"
+msgid "Flat-field file"
+msgstr "Flat Field soubor"
 
 #: PARTIALPASTE_GRADIENT
 msgid "Graduated filter"
@@ -3009,7 +3000,7 @@ msgid "Post-demosaic artifact/noise reduction"
 msgstr "Redukce artefaktů/šumu po demozajkování"
 
 #: PARTIALPASTE_RAWCACORR_AUTO
-msgid "CA auto correction"
+msgid "CA auto-correction"
 msgstr "Automatická korekce CA"
 
 #: PARTIALPASTE_RAWCACORR_CABLUE
@@ -3238,8 +3229,8 @@ msgstr "snímků"
 msgid "templates"
 msgstr "šablon"
 
-#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
-msgid "Dark Frame"
+#: PREFERENCES_DARKFRAME
+msgid "Dark-Frame"
 msgstr "Tmavý snímek"
 
 #: PREFERENCES_DATEFORMATFRAME
@@ -3277,7 +3268,7 @@ msgid "Default Theme"
 msgstr "Výchozí vzhled"
 
 #: PREFERENCES_DIRDARKFRAMES
-msgid "Dark frames directory"
+msgid "Dark-frames directory"
 msgstr "Složka tmavých snímků"
 
 #: PREFERENCES_DIRHOME
@@ -3343,7 +3334,7 @@ msgid "File format"
 msgstr "Formát souboru"
 
 #: PREFERENCES_FLATFIELDSDIR
-msgid "Flat fields directory"
+msgid "Flat-fields directory"
 msgstr "Složka Flat Field souborů"
 
 #: PREFERENCES_FLUOF11
@@ -3401,10 +3392,6 @@ msgstr "Yb=30 CIE L#60"
 #: PREFERENCES_GREY40
 msgid "Yb=40 CIE L#70"
 msgstr "Yb=40 CIE L#70"
-
-#: PREFERENCES_GTKTHEME
-msgid "GTK default"
-msgstr "GTK výchozí"
 
 #: PREFERENCES_HISTOGRAMPOSITIONLEFT
 msgid "Histogram in left panel"
@@ -4119,8 +4106,8 @@ msgid ""
 "linearly</b>."
 msgstr ""
 "Lineární: výstupem bude běžná <b>lineární</b>  odpověď.\n"
-"Speciální efekty: výstupem budou speciální efekty pomocí míchání kanálů (<b>"
-"nelineární</b>  odpověď)."
+"Speciální efekty: výstupem budou speciální efekty pomocí míchání kanálů "
+"(<b>nelineární</b>  odpověď)."
 
 #: TP_BWMIX_ALGO
 msgid "Algorithm OYCPM"
@@ -4624,8 +4611,8 @@ msgid ""
 "To set the value manually, uncheck the check-box first (values above 65 are "
 "recommended)."
 msgstr ""
-"Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu, jenž "
-"následně používá jak CAT02 tak i celý CIECAM02.\n"
+"Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu, jenž následně "
+"používá jak CAT02 tak i celý CIECAM02.\n"
 "Zakažte, pokud si přejete zadat hodnotu ručně (doporučeny jsou hodnoty nad "
 "65)."
 
@@ -4708,13 +4695,12 @@ msgstr ""
 "Model bílého bodu.\n"
 "\n"
 "<b>WB [RT] + [výstup]</b>: Pro scénu je použito vyvážení bílé RT , CIECAM02 "
-"je nastaven na "
-"D50 a vyvážení bílé výstupního zařízení je nastaveno ve <i>Volby > Správa "
-"barev</i>.\n"
+"je nastaven na D50 a vyvážení bílé výstupního zařízení je nastaveno ve "
+"<i>Volby > Správa barev</i>.\n"
 "\n"
 "<b>WB [RT+CAT02] + [výstup]</b>: CAT02 používá RT nastavení vyvážení bílé a "
-"vyvážení bílé výstupního "
-"zařízení je nastaveno ve <i>Volby > Správa barev</i>."
+"vyvážení bílé výstupního zařízení je nastaveno ve <i>Volby > Správa barev</"
+"i>."
 
 #: TP_COLORAPP_MODEL
 msgid "WP Model"
@@ -4899,8 +4885,12 @@ msgid "Y"
 msgstr "Y"
 
 #: TP_DARKFRAME_AUTOSELECT,TP_FLATFIELD_AUTOSELECT
-msgid "Auto selection"
+msgid "Auto-selection"
 msgstr "Automatický výběr"
+
+#: TP_DARKFRAME_LABEL
+msgid "Dark Frame"
+msgstr "Tmavý snímek"
 
 #: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
 msgid "Radius"
@@ -5078,8 +5068,8 @@ msgid ""
 "Correct lens distortion automatically for some cameras (Micro 4/3, some "
 "compact digital cameras, etc.)."
 msgstr ""
-"Automatická korekce zkreslení objektivu pro některé "
-"fotoaparáty (Micro 4/3, některé kompakty a jiné)."
+"Automatická korekce zkreslení objektivu pro některé fotoaparáty (Micro 4/3, "
+"některé kompakty a jiné)."
 
 #: TP_DISTORTION_AUTO
 msgid "Auto Distortion Correction"
@@ -5132,7 +5122,7 @@ msgstr ""
 "Pokud to je nezbytné, povolí rekonstrukci světel."
 
 #: TP_EXPOSURE_CLIP_TIP
-msgid "The fraction of pixels to be clipped in Auto Level's operation."
+msgid "The fraction of pixels to be clipped in Auto Levels operation."
 msgstr "Podíl klipujících bodů v automatických operacích úrovní."
 
 #: TP_EXPOSURE_CLIP
@@ -5293,7 +5283,7 @@ msgid "Chromatic Aberration"
 msgstr "Chromatická Aberace"
 
 #: TP_ICM_BLENDCMSMATRIX_TOOLTIP
-msgid "Enable to recover clipped highlights when using LUT based ICC profiles."
+msgid "Enable to recover clipped highlights when using LUT-based ICC profiles."
 msgstr ""
 "Povolit obnovení vypálených jasů při použití ICC profilů založených na LUT."
 
@@ -5315,6 +5305,10 @@ msgstr ""
 #: TP_ICM_DCPILLUMINANT
 msgid "Illuminant"
 msgstr "Osvětlení"
+
+#: TP_ICM_FILEDLGFILTERICMDNG
+msgid "Color profiles + DNG"
+msgstr "Barevné profily + DNG"
 
 #: TP_ICM_FILEDLGFILTERICM
 msgid "Color profiles"
@@ -5419,8 +5413,8 @@ msgid ""
 "Fit colors into gamut of the working color space and apply Munsell "
 "correction."
 msgstr ""
-"Přizpůsobit barvy palety barevného pracovního prostoru a aplikovat Munsellovu "
-"korekci."
+"Přizpůsobit barvy palety barevného pracovního prostoru a aplikovat "
+"Munsellovu korekci."
 
 #: TP_LABCURVE_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT
 msgid "Avoid color shift"
@@ -5559,7 +5553,7 @@ msgid "Can be used with the Chromaticity slider and the CC curve."
 msgstr "Může být použito s posuvníkem barevnosti a CC křivkou."
 
 #: TP_LENSGEOM_AUTOCROP
-msgid "Auto Crop"
+msgid "Auto-Crop"
 msgstr "Automatický ořez"
 
 #: TP_LENSGEOM_LABEL
@@ -5651,8 +5645,8 @@ msgid "Post-Demosaic Artifact/Noise Reduction"
 msgstr "Redukce artefaktů/šumu po demozajkování"
 
 #: TP_RAWCACORR_AUTO
-msgid "Auto correction"
-msgstr "Aplikovat automatickou korekci chromatické aberace"
+msgid "Auto-correction"
+msgstr "Automatická korekce"
 
 #: TP_RAW_DCBITERATIONS
 msgid "Number of DCB Iterations"
@@ -6150,6 +6144,18 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Unkank"
+#~ msgstr "Nezařazeno"
+
+#~ msgid "Raw Auto CA"
+#~ msgstr "Raw - Automatická CA"
+
+#~ msgid "Auto Distorion"
+#~ msgstr "Automatická oprava zkreslení objektivu"
+
+#~ msgid "GTK default"
+#~ msgstr "GTK výchozí"
 
 #~ msgid ""
 #~ "Show images recently saved.\n"

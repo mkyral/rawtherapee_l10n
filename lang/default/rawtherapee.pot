@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-03-27 18:08+0100\n"
+"POT-Creation-Date: 2014-04-07 16:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgid "Batch Processing"
 msgstr ""
 
 #: BATCHQUEUE_AUTOSTART
-msgid "Auto start"
+msgid "Auto-start"
 msgstr ""
 
 #: BATCHQUEUE_DESTFILENAME
@@ -286,11 +286,11 @@ msgid "Bypass [raw] DCB Iterations"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_DF
-msgid "Bypass [raw] Dark Frame"
+msgid "Bypass [raw] Dark-Frame"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_FF
-msgid "Bypass [raw] Flat Field"
+msgid "Bypass [raw] Flat-Field"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_GREENTHRESH
@@ -370,11 +370,11 @@ msgid "Apply"
 msgstr ""
 
 #: FILEBROWSER_AUTODARKFRAME
-msgid "Auto Dark Frame"
+msgid "Auto Dark-Frame"
 msgstr ""
 
 #: FILEBROWSER_AUTOFLATFIELD
-msgid "Auto Flat Field"
+msgid "Auto Flat-Field"
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHBUTTONHINT
@@ -414,7 +414,7 @@ msgid "Current name:"
 msgstr ""
 
 #: FILEBROWSER_DARKFRAME
-msgid "Dark frame"
+msgid "Dark-frame"
 msgstr ""
 
 #: FILEBROWSER_DELETEDLGLABEL
@@ -446,15 +446,15 @@ msgid "Open with"
 msgstr ""
 
 #: FILEBROWSER_FLATFIELD,PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
-msgid "Flat Field"
+msgid "Flat-Field"
 msgstr ""
 
 #: FILEBROWSER_MOVETODARKFDIR
-msgid "Move to dark frames directory"
+msgid "Move to dark-frames directory"
 msgstr ""
 
 #: FILEBROWSER_MOVETOFLATFIELDDIR
-msgid "Move to flat fields directory"
+msgid "Move to flat-fields directory"
 msgstr ""
 
 #: FILEBROWSER_NEW_NAME
@@ -541,16 +541,16 @@ msgstr ""
 msgid "Processing Profile Operations"
 msgstr ""
 
+#: FILEBROWSER_POPUPRANK0,FILEBROWSER_POPUPUNRANK
+msgid "Unrank"
+msgstr ""
+
 #: FILEBROWSER_POPUPRANK
 msgid "Rank"
 msgstr ""
 
-#: FILEBROWSER_POPUPRANK0
-msgid "Unkank"
-msgstr ""
-
 #: FILEBROWSER_POPUPRANK1
-msgid "Rank 1 * "
+msgid "Rank 1 *"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK2
@@ -587,10 +587,6 @@ msgstr ""
 
 #: FILEBROWSER_POPUPTRASH
 msgid "Move to trash"
-msgstr ""
-
-#: FILEBROWSER_POPUPUNRANK
-msgid "Unrank"
 msgstr ""
 
 #: FILEBROWSER_POPUPUNTRASH
@@ -638,11 +634,11 @@ msgid "Rename file \"%1\" to:"
 msgstr ""
 
 #: FILEBROWSER_SELECTDARKFRAME
-msgid "Select dark frame..."
+msgid "Select dark-frame..."
 msgstr ""
 
 #: FILEBROWSER_SELECTFLATFIELD
-msgid "Select flat field..."
+msgid "Select flat-field..."
 msgstr ""
 
 #: FILEBROWSER_SHOWCOLORLABEL1HINT
@@ -994,15 +990,15 @@ msgid "Green Equilibration"
 msgstr ""
 
 #: HISTORY_MSG_121
-msgid "Raw Auto CA"
+msgid "Raw Auto CA Correction"
 msgstr ""
 
 #: HISTORY_MSG_122
-msgid "Dark Frame Auto Select"
+msgid "Dark-Frame Auto-Select"
 msgstr ""
 
 #: HISTORY_MSG_123
-msgid "Dark Frame File"
+msgid "Dark-Frame File"
 msgstr ""
 
 #: HISTORY_MSG_124,TP_RAWEXPOS_LINEAR
@@ -1014,19 +1010,19 @@ msgid "Highlight Preservation"
 msgstr ""
 
 #: HISTORY_MSG_126
-msgid "Flat Field File"
+msgid "Flat-Field File"
 msgstr ""
 
 #: HISTORY_MSG_127
-msgid "Flat Field Auto Select"
+msgid "Flat-Field Auto-Select"
 msgstr ""
 
 #: HISTORY_MSG_128
-msgid "Flat Field Blur Radius"
+msgid "Flat-Field Blur Radius"
 msgstr ""
 
 #: HISTORY_MSG_129
-msgid "Flat Field Blur Type"
+msgid "Flat-Field Blur Type"
 msgstr ""
 
 #: HISTORY_MSG_13
@@ -1034,7 +1030,7 @@ msgid "Exposure Clipping"
 msgstr ""
 
 #: HISTORY_MSG_130
-msgid "Auto Distorion"
+msgid "Auto Distorion Correction"
 msgstr ""
 
 #: HISTORY_MSG_131
@@ -1714,7 +1710,7 @@ msgid "Rotation"
 msgstr ""
 
 #: HISTORY_MSG_61,PARTIALPASTE_COMMONTRANSFORMPARAMS,TP_LENSGEOM_FILL
-msgid "Auto fill"
+msgid "Auto-fill"
 msgstr ""
 
 #: HISTORY_MSG_62,TP_DISTORTION_LABEL
@@ -1738,7 +1734,7 @@ msgid "Highlight Reconstruction"
 msgstr ""
 
 #: HISTORY_MSG_67
-msgid "HL Reconstruction Amount"
+msgid "HR Reconstruction Amount"
 msgstr ""
 
 #: HISTORY_MSG_68
@@ -2282,7 +2278,7 @@ msgid "Preview the <b>Blue channel</b>.\nShortcut: <b>b</b>"
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWFOCUSMASK
-msgid "Preview the <b>Focus Mask</b>.\nShortcut: <b>Shift-f</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels.\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom, about 10-30%.\n\nPreview is rendered slower with Focus Mask turned on."
+msgid "Preview the <b>Focus Mask</b>.\nShortcut: <b>Shift-f</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels.\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom, about 10-30%."
 msgstr ""
 
 #: MAIN_TOOLTIP_PREVIEWG
@@ -2434,11 +2430,11 @@ msgid "Composition Settings"
 msgstr ""
 
 #: PARTIALPASTE_DARKFRAMEAUTOSELECT
-msgid "Dark frame auto selection"
+msgid "Dark-frame auto-selection"
 msgstr ""
 
 #: PARTIALPASTE_DARKFRAMEFILE
-msgid "Dark frame file"
+msgid "Dark-frame file"
 msgstr ""
 
 #: PARTIALPASTE_DETAILGROUP
@@ -2474,19 +2470,19 @@ msgid "Changes to Exif data"
 msgstr ""
 
 #: PARTIALPASTE_FLATFIELDAUTOSELECT
-msgid "Flat field auto selection"
+msgid "Flat-field auto-selection"
 msgstr ""
 
 #: PARTIALPASTE_FLATFIELDBLURRADIUS
-msgid "Flat field blur radius"
+msgid "Flat-field blur radius"
 msgstr ""
 
 #: PARTIALPASTE_FLATFIELDBLURTYPE
-msgid "Flat field blur type"
+msgid "Flat-field blur type"
 msgstr ""
 
 #: PARTIALPASTE_FLATFIELDFILE
-msgid "Flat field file"
+msgid "Flat-field file"
 msgstr ""
 
 #: PARTIALPASTE_GRADIENT
@@ -2558,7 +2554,7 @@ msgid "Post-demosaic artifact/noise reduction"
 msgstr ""
 
 #: PARTIALPASTE_RAWCACORR_AUTO
-msgid "CA auto correction"
+msgid "CA auto-correction"
 msgstr ""
 
 #: PARTIALPASTE_RAWCACORR_CABLUE
@@ -2749,8 +2745,8 @@ msgstr ""
 msgid "templates"
 msgstr ""
 
-#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
-msgid "Dark Frame"
+#: PREFERENCES_DARKFRAME
+msgid "Dark-Frame"
 msgstr ""
 
 #: PREFERENCES_DATEFORMATFRAME
@@ -2774,7 +2770,7 @@ msgid "Default Theme"
 msgstr ""
 
 #: PREFERENCES_DIRDARKFRAMES
-msgid "Dark frames directory"
+msgid "Dark-frames directory"
 msgstr ""
 
 #: PREFERENCES_DIRHOME
@@ -2838,7 +2834,7 @@ msgid "File format"
 msgstr ""
 
 #: PREFERENCES_FLATFIELDSDIR
-msgid "Flat fields directory"
+msgid "Flat-fields directory"
 msgstr ""
 
 #: PREFERENCES_FLUOF11
@@ -2895,10 +2891,6 @@ msgstr ""
 
 #: PREFERENCES_GREY40
 msgid "Yb=40 CIE L#70"
-msgstr ""
-
-#: PREFERENCES_GTKTHEME
-msgid "GTK default"
 msgstr ""
 
 #: PREFERENCES_HISTOGRAMPOSITIONLEFT
@@ -4037,7 +4029,11 @@ msgid "Y"
 msgstr ""
 
 #: TP_DARKFRAME_AUTOSELECT,TP_FLATFIELD_AUTOSELECT
-msgid "Auto selection"
+msgid "Auto-selection"
+msgstr ""
+
+#: TP_DARKFRAME_LABEL
+msgid "Dark Frame"
 msgstr ""
 
 #: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
@@ -4197,7 +4193,7 @@ msgid "Toggles execution of Auto Levels to automatically set Exposure slider val
 msgstr ""
 
 #: TP_EXPOSURE_CLIP_TIP
-msgid "The fraction of pixels to be clipped in Auto Level's operation."
+msgid "The fraction of pixels to be clipped in Auto Levels operation."
 msgstr ""
 
 #: TP_EXPOSURE_CLIP
@@ -4350,7 +4346,7 @@ msgid "Chromatic Aberration"
 msgstr ""
 
 #: TP_ICM_BLENDCMSMATRIX_TOOLTIP
-msgid "Enable to recover clipped highlights when using LUT based ICC profiles."
+msgid "Enable to recover clipped highlights when using LUT-based ICC profiles."
 msgstr ""
 
 #: TP_ICM_DCPILLUMINANT_INTERPOLATED
@@ -4363,6 +4359,10 @@ msgstr ""
 
 #: TP_ICM_DCPILLUMINANT
 msgid "Illuminant"
+msgstr ""
+
+#: TP_ICM_FILEDLGFILTERICMDNG
+msgid "Color profiles + DNG"
 msgstr ""
 
 #: TP_ICM_FILEDLGFILTERICM
@@ -4574,7 +4574,7 @@ msgid "Can be used with the Chromaticity slider and the CC curve."
 msgstr ""
 
 #: TP_LENSGEOM_AUTOCROP
-msgid "Auto Crop"
+msgid "Auto-Crop"
 msgstr ""
 
 #: TP_LENSGEOM_LABEL
@@ -4638,7 +4638,7 @@ msgid "Post-Demosaic Artifact/Noise Reduction"
 msgstr ""
 
 #: TP_RAWCACORR_AUTO
-msgid "Auto correction"
+msgid "Auto-correction"
 msgstr ""
 
 #: TP_RAW_DCBITERATIONS
