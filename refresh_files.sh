@@ -7,7 +7,7 @@ PO_LANG=cs
 
 cd lang
 
-for BRANCH in $(find . -mindepth 1 -type d -printf "%P\n" |grep -v branch_3.0)
+for BRANCH in $(find . -mindepth 1 -type d -printf "%P\n" |egrep -v "branch_3\.0|xmp")
 do
   echo "==== Refreshing branch $BRANCH ===="
 

@@ -81,12 +81,11 @@ cat > $po_file << EOT
 # Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
 "POT-Creation-Date: $(date '+%Y-%m-%d %H:%M%z')\n"
 "PO-Revision-Date: 2010-10-16 15:11+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

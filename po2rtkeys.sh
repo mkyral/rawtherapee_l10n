@@ -27,14 +27,14 @@ then
   echo "         You have to do it manually."
   [ -f "$new_rt_file" ] && rm $new_rt_file
 else
-  new_date=$(date '+%d.%m.%Y')
+  new_date=$(date '+%Y-%m-%d')
   new_name=${TRANSLATOR_NAME}
 
   # Copy translation history
-  grep '^#' $orig_rt_file |grep -v "${new_date}:" > $new_rt_file
+  grep '^#' $orig_rt_file |grep -v "${new_date}" > $new_rt_file
   old_ver=$(tail -n 1 $new_rt_file | sed -e 's/#\([0-9]*\) .*$/\1/' -e 's/^0//')
   ((new_ver = old_ver + 1))
-  printf "#%02d %s: updated by %s\n" $new_ver "$new_date" "$new_name" >>$new_rt_file
+  printf "#%02d %s updated by %s\n" $new_ver "$new_date" "$new_name" >>$new_rt_file
 fi
 
 # initialization
@@ -138,7 +138,7 @@ then
 fi
 
 # sort the output
-sort $tmp_rt_file >>$new_rt_file
+LANG=C sort -Vu $tmp_rt_file >>$new_rt_file
 
 # Cleanup
 rm $tmp_rt_file

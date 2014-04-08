@@ -1,18 +1,18 @@
 # Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-04-07 16:44+0200\n"
-"PO-Revision-Date: 2014-04-07 17:07+0200\n"
+"POT-Creation-Date: 2014-04-08 20:30+0200\n"
+"PO-Revision-Date: 2014-04-08 23:00+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf8\n"
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 
 #: ABOUT_TAB_BUILD
 msgid "Version"
@@ -137,7 +137,7 @@ msgstr "Typ"
 #: EDIT_OBJECT_TOOLTIP
 msgid ""
 "Displays a widget on the preview window which lets you adjust this tool."
-msgstr "V náhledovém okně zobrazí widget umožňující  přizpůsobení nástroje."
+msgstr "V náhledovém okně zobrazí widget umožňující přizpůsobení nástroje."
 
 #: EDIT_PIPETTE_TOOLTIP
 msgid ""
@@ -253,7 +253,7 @@ msgstr "Podadresář"
 
 #: EXPORT_BYPASS_ALL
 msgid "Select / Unselect All"
-msgstr "Vybrat/ zrušit výběr všeho"
+msgstr "Vybrat / Zrušit výběr všeho"
 
 #: EXPORT_BYPASS_COLORDENOISE
 msgid "Bypass Color denoise"
@@ -677,7 +677,7 @@ msgid ""
 msgstr ""
 "Napište názvy hledaných souborů. Podporuje částečná jména souborů. Hledané "
 "termíny oddělte čárkami.Například:\n"
-"<i>1001,1004,1199</i> \n"
+"<i>1001,1004,1199</i>\n"
 "\n"
 "Zkratky:\n"
 "<b>Ctrl-F</b> pro přepnutí do pole hledání ,\n"
@@ -820,8 +820,8 @@ msgstr ""
 "Zobrazit Exif informace.\n"
 "\n"
 "Zkratky:\n"
-"<b>i</b> - režim  více karet editoru,\n"
-"<b>Alt-i</b> - režim  jedné karty editoru."
+"<b>i</b> - režim více karet editoru,\n"
+"<b>Alt-i</b> - režim jedné karty editoru."
 
 #: FILEBROWSER_SHOWRANK1HINT
 msgid ""
@@ -845,7 +845,7 @@ msgid ""
 "Shortcut: <b>3</b>"
 msgstr ""
 "Ukázat obrázky hodnocené 3 hvězdičkami.\n"
-"Zkratka:  <b>3</b>"
+"Zkratka: <b>3</b>"
 
 #: FILEBROWSER_SHOWRANK4HINT
 msgid ""
@@ -853,7 +853,7 @@ msgid ""
 "Shortcut: <b>4</b>"
 msgstr ""
 "Ukázat obrázky hodnocené 4 hvězdičkami.\n"
-"Zkratka:  <b>4</b>"
+"Zkratka: <b>4</b>"
 
 #: FILEBROWSER_SHOWRANK5HINT
 msgid ""
@@ -861,7 +861,7 @@ msgid ""
 "Shortcut: <b>5</b>"
 msgstr ""
 "Ukázat obrázky hodnocené 5 hvězdičkami.\n"
-"Zkratka:  <b>5</b>"
+"Zkratka: <b>5</b>"
 
 #: FILEBROWSER_SHOWRECENTLYSAVEDHINT
 msgid ""
@@ -950,8 +950,8 @@ msgstr ""
 "Zvětšit velikosti náhledů.\n"
 "\n"
 "Zkratky:\n"
-"<b>+</b> - režim  více karet editoru,\n"
-"<b>Alt-+</b> - režim  jedné karty editoru."
+"<b>+</b> - režim více karet editoru,\n"
+"<b>Alt-+</b> - režim jedné karty editoru."
 
 #: FILEBROWSER_ZOOMOUTHINT
 msgid ""
@@ -964,8 +964,8 @@ msgstr ""
 "Zmenšit velikosti náhledů.\n"
 "\n"
 "Zkratky:\n"
-"<b>-</b> - režim  více karet editoru,\n"
-"<b>Alt--</b> - režim  jedné karty editoru."
+"<b>-</b> - režim více karet editoru,\n"
+"<b>Alt--</b> - režim jedné karty editoru."
 
 #: GENERAL_ABOUT
 msgid "About"
@@ -1052,36 +1052,36 @@ msgid ""
 "Show/Hide RGB indicator bar.\n"
 "Right-click on image preview to freeze/unfreeze."
 msgstr ""
-"Skrýt/zobrazit řádek RGB indikátoru\n"
+"Skrýt/Zobrazit řádek RGB indikátoru\n"
 "Klikněte pravým tlačítkem myši na náhled pro zmrazení/uvolnění."
 
 #: HISTOGRAM_TOOLTIP_B
 msgid "Show/Hide blue histogram."
-msgstr "Skrýt /zobrazit histogram modré."
+msgstr "Skrýt/Zobrazit histogram modré."
 
 #: HISTOGRAM_TOOLTIP_FULL
 msgid "Toggle full (on) or scaled (off) histogram."
-msgstr "Plný (zapnuto) nebo přiblížený  (vypnuto) histogram."
+msgstr "Plný (zapnuto) nebo přiblížený (vypnuto) histogram."
 
 #: HISTOGRAM_TOOLTIP_G
 msgid "Show/Hide green histogram."
-msgstr "Skrýt /zobrazit histogram zelené."
+msgstr "Skrýt/Zobrazit histogram zelené."
 
 #: HISTOGRAM_TOOLTIP_CHRO
 msgid "Show/Hide chromaticity histogram."
-msgstr "Skrýt /zobrazit histogram barevnosti."
+msgstr "Skrýt/Zobrazit histogram barevnosti."
 
 #: HISTOGRAM_TOOLTIP_L
 msgid "Show/Hide CIELAB Luminance histogram."
-msgstr "Skrýt /zobrazit CIELAB histogram jasu."
+msgstr "Skrýt/Zobrazit CIELAB histogram jasu."
 
 #: HISTOGRAM_TOOLTIP_RAW
 msgid "Show/Hide raw histogram."
-msgstr "Skrýt /zobrazit raw histogram."
+msgstr "Skrýt/Zobrazit raw histogram."
 
 #: HISTOGRAM_TOOLTIP_R
 msgid "Show/Hide red histogram."
-msgstr "Skrýt /zobrazit histogram červené."
+msgstr "Skrýt/Zobrazit histogram červené."
 
 #: HISTORY_CUSTOMCURVE
 msgid "Custom Curve"
@@ -2366,7 +2366,7 @@ msgid ""
 "Shortcut: <b>Ctrl+e</b>"
 msgstr ""
 "Editovat současný obrázek v externím editoru.\n"
-"Zkratka:  <b>Ctrl+e</b>"
+"Zkratka: <b>Ctrl+e</b>"
 
 #: MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP
 msgid ""
@@ -2520,7 +2520,7 @@ msgstr "Detaily"
 
 #: MAIN_TAB_DEVELOP
 msgid " Develop "
-msgstr " Vyvolání"
+msgstr " Vyvolání "
 
 #: MAIN_TAB_EXIF
 msgid "Exif"
@@ -2528,7 +2528,7 @@ msgstr "Exif"
 
 #: MAIN_TAB_EXPORT
 msgid " Fast Export "
-msgstr " Rychlý export"
+msgstr " Rychlý export "
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
 msgid "Exposure"
@@ -2540,7 +2540,7 @@ msgstr "Zkratka: <b>Alt-e</b>"
 
 #: MAIN_TAB_FILTER
 msgid " Filter "
-msgstr " Filtr"
+msgstr " Filtr "
 
 #: MAIN_TAB_IPTC
 msgid "IPTC"
@@ -2740,79 +2740,47 @@ msgid ""
 "Shortcut: <b>Shift-b</b>"
 msgstr ""
 "Přepnout pohled <b>Před</b> a <b>Po</b>.\n"
-"Zkratka:  <b>Shift-b</b>"
+"Zkratka: <b>Shift-b</b>"
 
-#: NAVIGATOR_B_NA
-msgid "B = n/a"
-msgstr "B = n/a"
+#: NAVIGATOR_B
+msgid "B:"
+msgstr "B:"
 
-#: NAVIGATOR_B_VALUE
-msgid "B = %1"
-msgstr "B = %1"
+#: NAVIGATOR_G
+msgid "G:"
+msgstr "G:"
 
-#: NAVIGATOR_G_NA
-msgid "G = n/a"
-msgstr "G = n/a"
+#: NAVIGATOR_H,TP_RESIZE_H
+msgid "H:"
+msgstr "H:"
 
-#: NAVIGATOR_G_VALUE
-msgid "G = %1"
-msgstr "G = %1"
+#: NAVIGATOR_LAB_A
+msgid "a:"
+msgstr "a:"
 
-#: NAVIGATOR_H_NA
-msgid "H = n/a"
-msgstr "H = n/a"
+#: NAVIGATOR_LAB_B
+msgid "b:"
+msgstr "b:"
 
-#: NAVIGATOR_H_VALUE
-msgid "H = %1"
-msgstr "H = %1"
+#: NAVIGATOR_LAB_L
+msgid "L:"
+msgstr "L:"
 
-#: NAVIGATOR_LAB_A_NA
-msgid "a = n/a"
-msgstr "a = n/a"
+#: NAVIGATOR_NA
+msgid " --"
+msgstr " --"
 
-#: NAVIGATOR_LAB_A_VALUE
-msgid "a = %1"
-msgstr "a = %1"
+#: NAVIGATOR_R
+msgid "R:"
+msgstr "R:"
 
-#: NAVIGATOR_LAB_B_NA
-msgid "b = n/a"
-msgstr "b = n/a"
+#: NAVIGATOR_S
+msgid "S:"
+msgstr "S:"
 
-#: NAVIGATOR_LAB_B_VALUE
-msgid "b = %1"
-msgstr "b = %1"
-
-#: NAVIGATOR_LAB_L_NA
-msgid "L = n/a"
-msgstr "L = n/a"
-
-#: NAVIGATOR_LAB_L_VALUE
-msgid "L = %1"
-msgstr "L = %1"
-
-#: NAVIGATOR_R_NA
-msgid "R = n/a"
-msgstr "R = n/a"
-
-#: NAVIGATOR_R_VALUE
-msgid "R = %1"
-msgstr "R = %1"
-
-#: NAVIGATOR_S_NA
-msgid "S = n/a"
-msgstr "S = n/a"
-
-#: NAVIGATOR_S_VALUE
-msgid "S = %1"
-msgstr "S = %1"
-
-#: NAVIGATOR_V_NA
-msgid "V = n/a"
-msgstr "V = n/a"
-
-#: NAVIGATOR_V_VALUE
-msgid "V = %1"
-msgstr "V = %1"
+#: NAVIGATOR_V
+msgid "V:"
+msgstr "V:"
 
 #: NAVIGATOR_XY_FULL
 msgid "Width = %1, Height = %2"
@@ -3536,8 +3504,8 @@ msgstr ""
 "<b>%p3</b> = <i>/home/tomas/</i>\n"
 "<b>%p4</b> = <i>/home/</i>\n"
 "\n"
-"<b>%r</b> bude nahrazeno hodnocením fotografie.  Pokud není fotografie "
-"ohodnocena, bude %r nahrazeno '0'.  Pokud je fotografie v koši, bude %r "
+"<b>%r</b> bude nahrazeno hodnocením fotografie. Pokud není fotografie "
+"ohodnocena, bude %r nahrazeno '0'. Pokud je fotografie v koši, bude %r "
 "nahrazeno 'x'.\n"
 "\n"
 "<b>%s1</b>, <b>%s2</b>, atd. bude nahrazeno pořadím v dávce doplněném na 1 "
@@ -3551,7 +3519,7 @@ msgstr ""
 "adresáři jako otevřený obrázek, napište:\n"
 "<b>%p1/zpracovano/%f</b>\n"
 "\n"
-"Pro uložení výstupního obrázku do adresáře  \"<i>/home/tom/fotky/"
+"Pro uložení výstupního obrázku do adresáře \"<i>/home/tom/fotky/"
 "zpracovano/2010-10-31</i>\", napište:\n"
 "<b>%p2/zpracovano/%d1/%f</b>"
 
@@ -3638,7 +3606,7 @@ msgid ""
 "threads run in parallel, the faster the computation. Leave the setting at "
 "\"0\" to automatically use as many threads as possible."
 msgstr ""
-"Redukce šumu potřebuje v základu 128MB RAM u 10MPix obrázku nebo 512MB  pro "
+"Redukce šumu potřebuje v základu 128MB RAM u 10MPix obrázku nebo 512MB pro "
 "40MPix obrázek plus dalších 128MB RAM pro každé vlákno. Více paralelních "
 "vláken zvyšuje spotřebu paměti. Při nastavení na nulu je automaticky použit "
 "maximální možný počet vláken."
@@ -3702,10 +3670,10 @@ msgid ""
 "sounds.\n"
 "On Linux use \"complete\", \"window-attention\" etc. for system sounds. "
 msgstr ""
-"Vložte cestu k souboru nebo ponechte prázdné (bez zvuku). \n"
+"Vložte cestu k souboru nebo ponechte prázdné (bez zvuku).\n"
 "Ve Windows zadejte \"SystemDefault\", \"SystemAsterisk\", atd. pro použití "
-"systémových zvuků. \n"
-"Na Linuxu pro systémové zvuky  použijte \"complete\", \"window-attention\" a "
+"systémových zvuků.\n"
+"Na Linuxu pro systémové zvuky použijte \"complete\", \"window-attention\" a "
 "další. "
 
 #: PREFERENCES_SND_LNGEDITPROCDONE
@@ -4082,7 +4050,7 @@ msgid ""
 "rotation is the geometrical center of the image."
 msgstr ""
 "Vyznačení <b>roviny</b> / <b>rotace</b>.\n"
-"Zkratka: <b>s</b> \n"
+"Zkratka: <b>s</b>\n"
 "\n"
 "Zobrazení míry rotace pomocí vodící linky na náhledu snímky. Úhel rotace je "
 "zobrazen vedle vodící linky. Střed rotace je geometrický střed snímku."
@@ -4105,9 +4073,9 @@ msgid ""
 "Special effects: will produce special effects by mixing channels <b>non-"
 "linearly</b>."
 msgstr ""
-"Lineární: výstupem bude běžná <b>lineární</b>  odpověď.\n"
+"Lineární: výstupem bude běžná <b>lineární</b> odpověď.\n"
 "Speciální efekty: výstupem budou speciální efekty pomocí míchání kanálů "
-"(<b>nelineární</b>  odpověď)."
+"(<b>nelineární</b> odpověď)."
 
 #: TP_BWMIX_ALGO
 msgid "Algorithm OYCPM"
@@ -4449,7 +4417,7 @@ msgstr ""
 
 #: TP_COLORAPP_ADAPTVIEWING
 msgid "Viewing luminosity (cd/m²)"
-msgstr "Svítivost prohlížení  (cd/m²)"
+msgstr "Svítivost prohlížení (cd/m²)"
 
 #: TP_COLORAPP_ALGO_ALL
 msgid "All"
@@ -4542,7 +4510,7 @@ msgid ""
 msgstr ""
 "Zobrazuje histogram L (Lab) křivky před CIECAM02.\n"
 "Pokud je volba \"Zobrazit CIECAM02 histogramy výstupu v křivkách\" povolena, "
-"zobrazí histogram  J nebo Q po CIECAM02 .\n"
+"zobrazí histogram J nebo Q po CIECAM02 .\n"
 "\n"
 "J a Q histogramy nejsou na hlavním panelu zobrazeny.\n"
 "\n"
@@ -4575,7 +4543,7 @@ msgstr ""
 "\n"
 "Zobrazí histogram barevnosti (Lab) před CIECAM02.\n"
 "Pokud je volba \"Zobrazit CIECAM02 histogramy výstupu v křivkách\" povolena, "
-"zobrazí histogram  C, S nebo M po CIECAM02 .\n"
+"zobrazí histogram C, S nebo M po CIECAM02 .\n"
 "\n"
 "C, S a M histogramy nejsou na hlavním panelu zobrazeny.\n"
 "Histogram konečného výsledku je zobrazen na hlavním panelu."
@@ -4594,7 +4562,7 @@ msgid ""
 "adjustments."
 msgstr ""
 "Pokud je povoleno, zobrazuje histogram v CIECAM02 křivkách přibližné hodnoty/"
-"rozsahy po CIECAM02 úpravách  J nebo Q, a C, S nebo M.\n"
+"rozsahy po CIECAM02 úpravách J nebo Q, a C, S nebo M.\n"
 "Výběr neovlivňuje histogram na hlavním panelu.\n"
 "\n"
 "Pokud je zakázáno, zobrazuje histogram v CIECAM02 křivkách Lab hodnoty před "
@@ -4800,7 +4768,7 @@ msgid ""
 "The Tone Mapping tool must be enabled for this setting to take effect."
 msgstr ""
 "Pokud je volba zakázána, probíhá mapování tónů v prostoru Lab.\n"
-"Pokud je volba povolena.  probíhá mapování tónů pomocí CIECAM02.\n"
+"Pokud je volba povolena. probíhá mapování tónů pomocí CIECAM02.\n"
 "Aby měla tato volba efekt, musí být povolen nástroj Mapování tónů."
 
 #: TP_COLORAPP_TONECIE
@@ -4959,7 +4927,7 @@ msgid ""
 msgstr ""
 "Pro raw obrázky může být použita jak RGB tak i Lab metoda.\n"
 "\n"
-"Pro ostatní obrázky bude vždy použita metoda  Lab bez ohledu na výběr."
+"Pro ostatní obrázky bude vždy použita metoda Lab bez ohledu na výběr."
 
 #: TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
@@ -5014,7 +4982,7 @@ msgstr ""
 "Pyramida je pro horní část, kde je algoritmus nejvíce efektivní.\n"
 "Ke spodní části, tranzitním zónám.\n"
 "Pokud potřebujete posunout oblast hodně doleva nebo doprava - nebo pokud se "
-"vyskytnou artefakty =  <b>vyvážení bílé není správné</b>, můžete mírně "
+"vyskytnou artefakty = <b>vyvážení bílé není správné</b>, můžete mírně "
 "zmenšit zónu aby jste zabránili ovlivnění ostatních částí obrázku."
 
 #: TP_DIRPYREQUALIZER_HUESKIN
@@ -5666,7 +5634,7 @@ msgid ""
 "reduction without leading to posterization or a washed-out look."
 msgstr ""
 "Poznámka: IGV a LMMSE jsou určeny pro obrázky s vysokým ISO, kde pomůže "
-"redukci šumu minimalizovat posterizaci a  vyžehlený vzhled."
+"redukci šumu minimalizovat posterizaci a vyžehlený vzhled."
 
 #: TP_RAWEXPOS_BLACKONE
 msgid "Black Level: Red"
@@ -5705,7 +5673,7 @@ msgid ""
 "Adds gamma (step 1), median (steps 2-4) and refinement (steps 5-6) to reduce "
 "artifacts and improve the signal-to-noise ratio."
 msgstr ""
-"Přidá gamu (krok 1)  - přidá mediány (kroky 2, až 4) a následně přidá (kroky "
+"Přidá gamu (krok 1) - přidá mediány (kroky 2, až 4) a následně přidá (kroky "
 "5 a 6) vyčištění artefaktů a vylepšení poměru signálu a šumu."
 
 #: TP_RESIZE_APPLIESTO
@@ -5744,10 +5712,6 @@ msgstr "Celý obrázek"
 msgid "Height"
 msgstr "Výška"
 
-#: TP_RESIZE_H
-msgid "H:"
-msgstr "V:"
-
 #: TP_RESIZE_LANCZOS
 msgid "Lanczos"
 msgstr "Lanczos"
@@ -5781,8 +5745,8 @@ msgid ""
 "<b>Luminosity Mode</b> allows to vary the contribution of R, G and B "
 "channels to the Luminosity of the image, without altering image color.    "
 msgstr ""
-"<b>Režim svítivosti</b> umožňuje změnu světlosti obrázku bez změny jeho "
-"barev pomocí změny podílu jednotlivých barevných RGB kanálů.     "
+"<b>Mód svítivosti</b> umožňuje odlišit podíl jednotlivých R, G, B kanálů na "
+"svítivosti obrázku bez změny barvy obrázku."
 
 #: TP_RGBCURVES_LUMAMODE
 msgid "Luminosity Mode"
@@ -6114,7 +6078,7 @@ msgid ""
 "Fit to screen\n"
 "Shortcut: <b>f</b>"
 msgstr ""
-"Přizpůsobit obrazovce \n"
+"Přizpůsobit obrazovce\n"
 "Zkratka: <b>f</b>"
 
 #: ZOOMPANEL_ZOOMIN
@@ -6122,7 +6086,7 @@ msgid ""
 "Zoom In\n"
 "Shortcut: <b>+</b>"
 msgstr ""
-"Přiblížit \n"
+"Přiblížit\n"
 "Zkratka: <b>+</b>"
 
 #: ZOOMPANEL_ZOOMOUT
@@ -6130,7 +6094,7 @@ msgid ""
 "Zoom Out\n"
 "Shortcut: <b>-</b>"
 msgstr ""
-"Oddálit \n"
+"Oddálit\n"
 "Zkratka: <b>-</b>"
 
 #: ZOOMPANEL_ZOOM100
@@ -6144,6 +6108,60 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "B = n/a"
+#~ msgstr "B = n/a"
+
+#~ msgid "B = %1"
+#~ msgstr "B = %1"
+
+#~ msgid "G = n/a"
+#~ msgstr "G = n/a"
+
+#~ msgid "G = %1"
+#~ msgstr "G = %1"
+
+#~ msgid "H = n/a"
+#~ msgstr "H = n/a"
+
+#~ msgid "H = %1"
+#~ msgstr "H = %1"
+
+#~ msgid "a = n/a"
+#~ msgstr "a = n/a"
+
+#~ msgid "a = %1"
+#~ msgstr "a = %1"
+
+#~ msgid "b = n/a"
+#~ msgstr "b = n/a"
+
+#~ msgid "b = %1"
+#~ msgstr "b = %1"
+
+#~ msgid "L = n/a"
+#~ msgstr "L = n/a"
+
+#~ msgid "L = %1"
+#~ msgstr "L = %1"
+
+#~ msgid "R = n/a"
+#~ msgstr "R = n/a"
+
+#~ msgid "R = %1"
+#~ msgstr "R = %1"
+
+#~ msgid "S = n/a"
+#~ msgstr "S = n/a"
+
+#~ msgid "S = %1"
+#~ msgstr "S = %1"
+
+#~ msgid "V = n/a"
+#~ msgstr "V = n/a"
+
+#~ msgid "V = %1"
+#~ msgstr "V = %1"
 
 #~ msgid "Unkank"
 #~ msgstr "Nezařazeno"
@@ -6402,9 +6420,9 @@ msgstr "(100%)"
 #~ "<b>%p3</b> = <i>/home/tom/</i>\n"
 #~ "<b>%p4</b> = <i>/home/</i>\n"
 #~ "\n"
-#~ "<b>%r</b> will be replaced by the rank of the photo.  If the photo is "
-#~ "unranked, %r will be replaced by '0'.  If the photo is in the trash bin, "
-#~ "%r will be replaced by 'x'.\n"
+#~ "<b>%r</b> will be replaced by the rank of the photo.If the photo is "
+#~ "unranked, %r will be replaced by '0'.If the photo is in the trash bin, %r "
+#~ "will be replaced by 'x'.\n"
 #~ "\n"
 #~ "If you want to save the output image where the original is, write:\n"
 #~ "<b>%p1/%f</b>\n"
@@ -6437,8 +6455,8 @@ msgstr "(100%)"
 #~ "<b>%p3</b> = <i>/home/tomas/</i>\n"
 #~ "<b>%p4</b> = <i>/home/</i>\n"
 #~ "\n"
-#~ "<b>%r</b> bude nahrazeno hodnocením fotografie.  Pokud není fotografie "
-#~ "ohodnocena, bude %r nahrazeno '0'.  Pokud je fotografie v koši, bude %r "
+#~ "<b>%r</b> bude nahrazeno hodnocením fotografie.Pokud není fotografie "
+#~ "ohodnocena, bude %r nahrazeno '0'.Pokud je fotografie v koši, bude %r "
 #~ "nahrazeno 'x'.\n"
 #~ "\n"
 #~ "Pokud si přejete uložit výstupní obrázek vedle originálu, napište:\n"
@@ -6448,7 +6466,7 @@ msgstr "(100%)"
 #~ "stejném adresáři jako otevřený obrázek, napište:\n"
 #~ "<b>%p1/converted/%f</b>\n"
 #~ "\n"
-#~ "Pro uložení výstupního obrázku do adresáře  \"<i>/home/tom/photos/"
+#~ "Pro uložení výstupního obrázku do adresáře\"<i>/home/tom/photos/"
 #~ "converted/2010-10-31</i>\", napište:\n"
 #~ "<b>%p2/converted/%d1/%f</b>"
 
@@ -6588,7 +6606,7 @@ msgstr "(100%)"
 #~ msgstr "CAM02 - Model"
 
 #~ msgid "CAM02 - Tone curve "
-#~ msgstr "CAM02 - Tónová křivka  "
+#~ msgstr "CAM02 - Tónová křivka"
 
 #~ msgid "CAM02 - Show CIECAM02 output histograms in curves"
 #~ msgstr "CAM02 - Zobrazení CIECAM02 výstupních histogramů v křivkách"
@@ -6753,7 +6771,7 @@ msgstr "(100%)"
 #~ "Increases the quality of denoise, but increases processing time "
 #~ "approximately 20%"
 #~ msgstr ""
-#~ "Zvýší kvalitu odšumění, ale zároveň prodlouží délku zpracování  asi o 20%"
+#~ "Zvýší kvalitu odšumění, ale zároveň prodlouží délku zpracováníasi o 20%"
 
 #~ msgid "Distortion"
 #~ msgstr "Oprava zkreslení objektivu"
@@ -6974,7 +6992,7 @@ msgstr "(100%)"
 #~ msgid "Tone Mapping (Lab/CIECAM02)"
 #~ msgstr "Mapování tónů (Lab/CIECAM02)"
 
-#~ msgid "Sharpening  (Lab/CIECAM02)"
+#~ msgid "Sharpening(Lab/CIECAM02)"
 #~ msgstr "Doostření (Lab/CIECAM02)"
 
 #~ msgid "Microcontrast (Lab/CIECAM02)"
@@ -7221,13 +7239,13 @@ msgstr "(100%)"
 #~ msgstr "Flat-Field"
 
 #~ msgid "Show/Hide BLUE histogram"
-#~ msgstr "Skrýt /zobrazit histogram pro MODROU barvu"
+#~ msgstr "Skrýt/Zobrazit histogram pro MODROU barvu"
 
 #~ msgid "Show/Hide GREEN histogram"
-#~ msgstr "Skrýt /zobrazit histogram pro ZELENOU barvu"
+#~ msgstr "Skrýt/Zobrazit histogram pro ZELENOU barvu"
 
 #~ msgid "Show/Hide RED histogram"
-#~ msgstr "Skrýt /zobrazit histogram pro ČERVENOU barvu"
+#~ msgstr "Skrýt/Zobrazit histogram pro ČERVENOU barvu"
 
 #~ msgid "Black level green 1"
 #~ msgstr "Úroveň černé: Zelená 1"
@@ -7267,9 +7285,9 @@ msgstr "(100%)"
 #~ "These formatting strings refer to the different parts of the photo's "
 #~ "pathname, or some attributes of the photo.\n"
 #~ "\n"
-#~ "%r will be replaced by the rank of the photo.  If the photo is unranked, "
-#~ "%r will be replaced by '0'.  If the photo is in trash bin, %r will be "
-#~ "replaced by 'x'.\n"
+#~ "%r will be replaced by the rank of the photo.If the photo is unranked, %r "
+#~ "will be replaced by '0'.If the photo is in trash bin, %r will be replaced "
+#~ "by 'x'.\n"
 #~ "\n"
 #~ "For example, if the photo being processed has the following pathname:\n"
 #~ "<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\n"
@@ -7302,9 +7320,9 @@ msgstr "(100%)"
 #~ "Tyto formátovací řetězce reprezentují různé části cesty k uložené "
 #~ "fotografii nebo atributů fotografie.\n"
 #~ "\n"
-#~ "Řetězec %r bude nahrazen hodnocením fotografie.  Pokud není fotografie "
-#~ "ohodnocena, bude %r nahrazeno '0'.  Pokud je fotografie uložena v koši, "
-#~ "bude  %r nahrazeno znakem 'x'.\n"
+#~ "Řetězec %r bude nahrazen hodnocením fotografie.Pokud není fotografie "
+#~ "ohodnocena, bude %r nahrazeno '0'.Pokud je fotografie uložena v koši, bude"
+#~ "%r nahrazeno znakem 'x'.\n"
 #~ "\n"
 #~ "Například pokud má zpracovávaná fotografie následující cestu:\n"
 #~ "<b><i>/home/tomas/fotky/2010-10-31/dsc0042.nef</i></b>,\n"
@@ -7326,7 +7344,7 @@ msgstr "(100%)"
 #~ "stejném adresáři jako otevřený obrázek, napište:\n"
 #~ "<b>%p1/converted/%f</b>\n"
 #~ "\n"
-#~ "Pro uložení výstupního obrázku do adresáře  \"<i>/home/tomas/fotky/"
+#~ "Pro uložení výstupního obrázku do adresáře\"<i>/home/tomas/fotky/"
 #~ "zpracovano/2010-10-31</i>\", napište:\n"
 #~ "<b>%p2/zpracovano/%d1/%f</b>"
 

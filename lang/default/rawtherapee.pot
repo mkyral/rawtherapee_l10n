@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-04-07 16:44+0200\n"
+"POT-Creation-Date: 2014-04-08 20:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2317,76 +2317,44 @@ msgstr ""
 msgid "Toggle the <b>Before</b>/<b>After</b> view.\nShortcut: <b>Shift-b</b>"
 msgstr ""
 
-#: NAVIGATOR_B_NA
-msgid "B = n/a"
+#: NAVIGATOR_B
+msgid "B:"
 msgstr ""
 
-#: NAVIGATOR_B_VALUE
-msgid "B = %1"
+#: NAVIGATOR_G
+msgid "G:"
 msgstr ""
 
-#: NAVIGATOR_G_NA
-msgid "G = n/a"
+#: NAVIGATOR_H,TP_RESIZE_H
+msgid "H:"
 msgstr ""
 
-#: NAVIGATOR_G_VALUE
-msgid "G = %1"
+#: NAVIGATOR_LAB_A
+msgid "a:"
 msgstr ""
 
-#: NAVIGATOR_H_NA
-msgid "H = n/a"
+#: NAVIGATOR_LAB_B
+msgid "b:"
 msgstr ""
 
-#: NAVIGATOR_H_VALUE
-msgid "H = %1"
+#: NAVIGATOR_LAB_L
+msgid "L:"
 msgstr ""
 
-#: NAVIGATOR_LAB_A_NA
-msgid "a = n/a"
+#: NAVIGATOR_NA
+msgid " --"
 msgstr ""
 
-#: NAVIGATOR_LAB_A_VALUE
-msgid "a = %1"
+#: NAVIGATOR_R
+msgid "R:"
 msgstr ""
 
-#: NAVIGATOR_LAB_B_NA
-msgid "b = n/a"
+#: NAVIGATOR_S
+msgid "S:"
 msgstr ""
 
-#: NAVIGATOR_LAB_B_VALUE
-msgid "b = %1"
-msgstr ""
-
-#: NAVIGATOR_LAB_L_NA
-msgid "L = n/a"
-msgstr ""
-
-#: NAVIGATOR_LAB_L_VALUE
-msgid "L = %1"
-msgstr ""
-
-#: NAVIGATOR_R_NA
-msgid "R = n/a"
-msgstr ""
-
-#: NAVIGATOR_R_VALUE
-msgid "R = %1"
-msgstr ""
-
-#: NAVIGATOR_S_NA
-msgid "S = n/a"
-msgstr ""
-
-#: NAVIGATOR_S_VALUE
-msgid "S = %1"
-msgstr ""
-
-#: NAVIGATOR_V_NA
-msgid "V = n/a"
-msgstr ""
-
-#: NAVIGATOR_V_VALUE
-msgid "V = %1"
+#: NAVIGATOR_V
+msgid "V:"
 msgstr ""
 
 #: NAVIGATOR_XY_FULL
@@ -4727,10 +4695,6 @@ msgstr ""
 
 #: TP_RESIZE_HEIGHT
 msgid "Height"
-msgstr ""
-
-#: TP_RESIZE_H
-msgid "H:"
 msgstr ""
 
 #: TP_RESIZE_LANCZOS
