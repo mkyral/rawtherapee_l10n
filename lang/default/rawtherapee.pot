@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-04-08 20:30+0200\n"
+"POT-Creation-Date: 2014-04-30 18:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2358,11 +2358,11 @@ msgid "V:"
 msgstr ""
 
 #: NAVIGATOR_XY_FULL
-msgid "Width = %1, Height = %2"
+msgid "Width: %1, Height: %2"
 msgstr ""
 
 #: NAVIGATOR_XY_NA
-msgid "x = n/a, y = n/a"
+msgid "x: --, y: --"
 msgstr ""
 
 #: OPTIONS_DEFIMG_MISSING
@@ -2865,6 +2865,14 @@ msgstr ""
 msgid "Histogram in left panel"
 msgstr ""
 
+#: PREFERENCES_HISTOGRAM_TOOLTIP
+msgid "if enabled use Working Profile instead of Output Profile (with gamma), for Navigator and histogram display"
+msgstr ""
+
+#: PREFERENCES_HISTOGRAMWORKING
+msgid "Histogram and Navigator using Working Profile"
+msgstr ""
+
 #: PREFERENCES_HLTHRESHOLD
 msgid "Threshold for clipped highlights"
 msgstr ""
@@ -2931,6 +2939,10 @@ msgstr ""
 
 #: PREFERENCES_MULTITAB
 msgid "Multiple Editor Tabs Mode"
+msgstr ""
+
+#: PREFERENCES_NAVGUIDEBRUSH
+msgid "Navigator guide color"
 msgstr ""
 
 #: PREFERENCES_OUTDIRFOLDERHINT

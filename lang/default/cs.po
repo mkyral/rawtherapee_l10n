@@ -3,16 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-04-08 20:30+0200\n"
-"PO-Revision-Date: 2014-04-08 23:00+0200\n"
+"POT-Creation-Date: 2014-04-30 18:36+0200\n"
+"PO-Revision-Date: 2014-04-30 19:26+0200\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf8\n"
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 
 #: ABOUT_TAB_BUILD
 msgid "Version"
@@ -2783,12 +2783,12 @@ msgid "V:"
 msgstr "V:"
 
 #: NAVIGATOR_XY_FULL
-msgid "Width = %1, Height = %2"
-msgstr "Šířka = %1, Výška = %2"
+msgid "Width: %1, Height: %2"
+msgstr "Šířka: %1, Výška: %2"
 
 #: NAVIGATOR_XY_NA
-msgid "x = n/a, y = n/a"
-msgstr "x = n/a, y = n/a"
+msgid "x: --, y: --"
+msgstr "x: --, y: --"
 
 #: OPTIONS_DEFIMG_MISSING
 msgid ""
@@ -3365,6 +3365,18 @@ msgstr "Yb=40 CIE L#70"
 msgid "Histogram in left panel"
 msgstr "Histogram v levém panelu"
 
+#: PREFERENCES_HISTOGRAM_TOOLTIP
+msgid ""
+"if enabled use Working Profile instead of Output Profile (with gamma), for "
+"Navigator and histogram display"
+msgstr ""
+"Pokud je povoleno, použije se pro zobrazení navigátoru a histogramu místo "
+"výstupního profilu (s gamou) profil pracovní."
+
+#: PREFERENCES_HISTOGRAMWORKING
+msgid "Histogram and Navigator using Working Profile"
+msgstr "Histogram a navigátor používají pracovní profil"
+
 #: PREFERENCES_HLTHRESHOLD
 msgid "Threshold for clipped highlights"
 msgstr "Práh oříznutých světel"
@@ -3432,6 +3444,10 @@ msgstr "Mód více karet editoru (pokud je dostupný druhý monitor)"
 #: PREFERENCES_MULTITAB
 msgid "Multiple Editor Tabs Mode"
 msgstr "Mód více karet editoru"
+
+#: PREFERENCES_NAVGUIDEBRUSH
+msgid "Navigator guide color"
+msgstr "Barva vodítek navigátoru"
 
 #: PREFERENCES_OUTDIRFOLDERHINT
 msgid "Save images to the selected folder."
@@ -6108,6 +6124,9 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "x = n/a, y = n/a"
+#~ msgstr "x = n/a, y = n/a"
 
 #~ msgid "B = n/a"
 #~ msgstr "B = n/a"

@@ -28,6 +28,7 @@
 #27 2013-12-09 updated by mkyral
 #28 2014-01-07 updated by mkyral
 #29 2014-04-08 updated by mkyral
+#30 2014-04-30 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -625,8 +626,8 @@ NAVIGATOR_NA; --
 NAVIGATOR_R;R:
 NAVIGATOR_S;S:
 NAVIGATOR_V;V:
-NAVIGATOR_XY_FULL;Šířka = %1, Výška = %2
-NAVIGATOR_XY_NA;x = n/a, y = n/a
+NAVIGATOR_XY_FULL;Šířka: %1, Výška: %2
+NAVIGATOR_XY_NA;x: --, y: --
 OPTIONS_DEFIMG_MISSING;Výchozí profil pro <b>ne raw fotky</b> nelze nalézt nebo nastavit.\n\nZkontrolujte prosím vaši složku s profily, buď chybí nebo je poškozena.\n\nBudou použity výchozí přednastavené hodnoty.
 OPTIONS_DEFRAW_MISSING;Výchozí profil pro <b>raw fotky</b> nelze nalézt nebo nastavit.\n\nZkontrolujte prosím vaši složku s profily, buď chybí nebo je poškozena.\n\nBudou použity výchozí přednastavené hodnoty.
 PARTIALPASTE_BASICGROUP;Základní nastavení
@@ -767,6 +768,8 @@ PREFERENCES_GREY30;Yb=30 CIE L#60
 PREFERENCES_GREY40;Yb=40 CIE L#70
 PREFERENCES_GREY;Yb svítivost výstupního zařízení (%)
 PREFERENCES_HISTOGRAMPOSITIONLEFT;Histogram v levém panelu
+PREFERENCES_HISTOGRAMWORKING;Histogram a navigátor používají pracovní profil
+PREFERENCES_HISTOGRAM_TOOLTIP;Pokud je povoleno, použije se pro zobrazení navigátoru a histogramu místo výstupního profilu (s gamou) profil pracovní.
 PREFERENCES_HLTHRESHOLD;Práh oříznutých světel
 PREFERENCES_ICCDIR;Složka obsahující barevné profily
 PREFERENCES_IMPROCPARAMS;Výchozí parametry zpracování obrázku
@@ -786,6 +789,7 @@ PREFERENCES_METADATA;Metadata
 PREFERENCES_MONITORICC;Barevný profil monitoru
 PREFERENCES_MULTITABDUALMON;Mód více karet editoru (pokud je dostupný druhý monitor)
 PREFERENCES_MULTITAB;Mód více karet editoru
+PREFERENCES_NAVGUIDEBRUSH;Barva vodítek navigátoru
 PREFERENCES_OUTDIRFOLDERHINT;Uložit obrázky do vybrané složky.
 PREFERENCES_OUTDIRFOLDER;Ulož do souboru
 PREFERENCES_OUTDIRTEMPLATEHINT;Lze použít následující formátovací řetězce:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>, <b>%s1</b>, <b>%s2</b>, ...\n\nTyto formátovací řetězce reprezentují různé části cesty k uložené fotografii, některé vlastnosti fotografie nebo pořadí v dávce.\n\nNapříklad pokud má zpracovávaná fotografie následující cestu:\n<b><i>/home/tomas/fotky/2010-10-31/dsc0042.nef</i></b>,\nmají jednotlivé formátovací řetězce tento význam:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tomas</i>\n<b>%d2</b> = <i>fotky</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tomas/fotky/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tomas/fotky/</i>\n<b>%p3</b> = <i>/home/tomas/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b> bude nahrazeno hodnocením fotografie. Pokud není fotografie ohodnocena, bude %r nahrazeno '0'. Pokud je fotografie v koši, bude %r nahrazeno 'x'.\n\n<b>%s1</b>, <b>%s2</b>, atd. bude nahrazeno pořadím v dávce doplněném na 1 až 9 číslic. Každé spuštění zpracování fronty jej vždy nastaví na jedna a po každé zpracované fotografii se o jedna zvýší .\n\nPokud si přejete uložit výstupní obrázek vedle originálu, napište:\n<b>%p1/%f</b>\n\nPokud si jej ale přejete uložit do adresáře "<i>zpracovano</i>" ve stejném adresáři jako otevřený obrázek, napište:\n<b>%p1/zpracovano/%f</b>\n\nPro uložení výstupního obrázku do adresáře "<i>/home/tom/fotky/zpracovano/2010-10-31</i>", napište:\n<b>%p2/zpracovano/%d1/%f</b>
