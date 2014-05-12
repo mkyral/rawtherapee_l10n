@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-04-30 18:36+0200\n"
+"POT-Creation-Date: 2014-05-12 19:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -809,7 +809,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,TP_BWMIX_FILTER_NONE,TP_CROP_GTNONE
+#: GENERAL_NONE,TP_CROP_GTNONE
 msgid "None"
 msgstr ""
 
@@ -3433,7 +3433,8 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: TP_BWMIX_BLUE,TP_BWMIX_FILTER_BLUE,TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
+#: TP_BWMIX_BLUE
+msgctxt "TP_BWMIX_BLUE"
 msgid "Blue"
 msgstr ""
 
@@ -3466,43 +3467,60 @@ msgid "'After' curve"
 msgstr ""
 
 #: TP_BWMIX_CYAN
+msgctxt "TP_BWMIX_CYAN"
 msgid "Cyan"
 msgstr ""
 
 #: TP_BWMIX_FILTER_BLUEGREEN
+msgctxt "TP_BWMIX_FILTER_BLUEGREEN"
 msgid "Blue-Green"
 msgstr ""
 
-#: TP_BWMIX_FILTER_GREEN,TP_BWMIX_GREEN
-msgid "Green"
+#: TP_BWMIX_FILTER_BLUE
+msgctxt "TP_BWMIX_FILTER_BLUE"
+msgid "Blue"
 msgstr ""
 
 #: TP_BWMIX_FILTER_GREENYELLOW
+msgctxt "TP_BWMIX_FILTER_GREENYELLOW"
 msgid "Green-Yellow"
 msgstr ""
 
-#: TP_BWMIX_FILTER_PURPLE,TP_BWMIX_PURPLE
+#: TP_BWMIX_FILTER_GREEN
+msgctxt "TP_BWMIX_FILTER_GREEN"
+msgid "Green"
+msgstr ""
+
+#: TP_BWMIX_FILTER_NONE
+msgctxt "TP_BWMIX_FILTER_NONE"
+msgid "None"
+msgstr ""
+
+#: TP_BWMIX_FILTER_PURPLE
+msgctxt "TP_BWMIX_FILTER_PURPLE"
 msgid "Purple"
 msgstr ""
 
-#: TP_BWMIX_FILTER_RED,TP_BWMIX_RED,TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
-msgid "Red"
+#: TP_BWMIX_FILTER_REDYELLOW
+msgctxt "TP_BWMIX_FILTER_REDYELLOW"
+msgid "Red-Yellow"
 msgstr ""
 
-#: TP_BWMIX_FILTER_REDYELLOW
-msgid "Red-Yellow"
+#: TP_BWMIX_FILTER_RED
+msgctxt "TP_BWMIX_FILTER_RED"
+msgid "Red"
 msgstr ""
 
 #: TP_BWMIX_FILTER_TOOLTIP
 msgid "The color filter simulates shots taken with a colored filter placed in front of the lens. Colored filters reduce the transmission of specific color ranges and therefore affect their lightness. E.g. a red filter darkens blue skies."
 msgstr ""
 
-#: TP_BWMIX_FILTER_YELLOW,TP_BWMIX_YELLOW,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
+#: TP_BWMIX_FILTER_YELLOW
+msgctxt "TP_BWMIX_FILTER_YELLOW"
 msgid "Yellow"
 msgstr ""
 
 #: TP_BWMIX_FILTER
-msgctxt "TP_BWMIX_FILTER"
 msgid "Color Filter"
 msgstr ""
 
@@ -3526,11 +3544,16 @@ msgstr ""
 msgid "Correct gamma for each RGB channel."
 msgstr ""
 
+#: TP_BWMIX_GREEN
+msgid "Green"
+msgstr ""
+
 #: TP_BWMIX_CHANNEL,TP_BWMIX_MET_LUMEQUAL
 msgid "Luminance Equalizer"
 msgstr ""
 
 #: TP_BWMIX_MAGENTA
+msgctxt "TP_BWMIX_MAGENTA"
 msgid "Magenta"
 msgstr ""
 
@@ -3538,8 +3561,7 @@ msgstr ""
 msgid "Desaturation"
 msgstr ""
 
-#: TP_BWMIX_MET
-msgctxt "TP_BWMIX_MET"
+#: TP_BWMIX_MET,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
 msgstr ""
 
@@ -3556,7 +3578,17 @@ msgid "Reset mixer"
 msgstr ""
 
 #: TP_BWMIX_ORANGE
+msgctxt "TP_BWMIX_ORANGE"
 msgid "Orange"
+msgstr ""
+
+#: TP_BWMIX_PURPLE
+msgctxt "TP_BWMIX_PURPLE"
+msgid "Purple"
+msgstr ""
+
+#: TP_BWMIX_RED,TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
+msgid "Red"
 msgstr ""
 
 #: TP_BWMIX_RGBLABEL_HINT
@@ -3591,7 +3623,8 @@ msgstr ""
 msgid "Low Sensitivity"
 msgstr ""
 
-#: TP_BWMIX_SET_LUMINANCE,TP_DIRPYRDENOISE_LUMA
+#: TP_BWMIX_SET_LUMINANCE
+msgctxt "TP_BWMIX_SET_LUMINANCE"
 msgid "Luminance"
 msgstr ""
 
@@ -3649,6 +3682,15 @@ msgstr ""
 
 #: TP_BWMIX_VAL
 msgid "L"
+msgstr ""
+
+#: TP_BWMIX_YELLOW
+msgctxt "TP_BWMIX_YELLOW"
+msgid "Yellow"
+msgstr ""
+
+#: TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
+msgid "Blue"
 msgstr ""
 
 #: TP_CACORRECTION_LABEL
@@ -4056,12 +4098,12 @@ msgstr ""
 msgid "Luminance Detail"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_METHOD_TOOLTIP
-msgid "For raw images either RGB or Lab methods can be used.\n\nFor non-raw images the Lab method will be used, regardless of the selection."
+#: TP_DIRPYRDENOISE_LUMA
+msgid "Luminance"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
-msgid "Method"
+#: TP_DIRPYRDENOISE_METHOD_TOOLTIP
+msgid "For raw images either RGB or Lab methods can be used.\n\nFor non-raw images the Lab method will be used, regardless of the selection."
 msgstr ""
 
 #: TP_DIRPYRDENOISE_PERF
@@ -4839,6 +4881,10 @@ msgstr ""
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3
 msgid "Red/Yellow"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
+msgid "Yellow"
 msgstr ""
 
 #: TP_VIBRANCE_PASTELS

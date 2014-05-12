@@ -29,6 +29,7 @@
 #28 2014-01-07 updated by mkyral
 #29 2014-04-08 updated by mkyral
 #30 2014-04-30 updated by mkyral
+#31 2014-05-12 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -929,16 +930,16 @@ TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP;Tónová křivka před převodem na černob�
 TP_BWMIX_CURVEEDITOR_LH_TOOLTIP;Změní jas dle odstínu L=f(H).\nUvědomte si, že extrémní hodnoty mohou způsobovat artefakty.
 TP_BWMIX_CYAN;Tyrkysová
 TP_BWMIX_FILTER;Barevný filtr
-TP_BWMIX_FILTER_BLUEGREEN;Tyrkysová
+TP_BWMIX_FILTER_BLUEGREEN;Tyrkysový
 TP_BWMIX_FILTER_BLUE;Modrá
 TP_BWMIX_FILTER_GREENYELLOW;Žlutozelený
 TP_BWMIX_FILTER_GREEN;Zelená
-TP_BWMIX_FILTER_NONE;Nic
-TP_BWMIX_FILTER_PURPLE;Nachová
+TP_BWMIX_FILTER_NONE;Žádný
+TP_BWMIX_FILTER_PURPLE;Nachový
 TP_BWMIX_FILTER_REDYELLOW;Oranžový
 TP_BWMIX_FILTER_RED;Červená
 TP_BWMIX_FILTER_TOOLTIP;Efekt barevného filtru je podobný focení na film s nasazeným barevným filtrem. Barevný filtr omezuje průchod specifického rozsahu barev a způsobuje tak jejich zesvětlení. Například červený filtr způsobí ztmavení modré oblohy.
-TP_BWMIX_FILTER_YELLOW;Žlutá
+TP_BWMIX_FILTER_YELLOW;Žlutý
 TP_BWMIX_GAMMA;Gama korekce
 TP_BWMIX_GAM_BLUE;Modrý kanál
 TP_BWMIX_GAM_GREEN;Zelený kanál

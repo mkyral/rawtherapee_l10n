@@ -26,7 +26,7 @@ do
     continue
   fi
 
-  no_merge_flag=$(grep -c "$KEY_ID" $no_merge_file)
+  no_merge_flag=$(grep -c "^$KEY_ID$" $no_merge_file)
   if [ "$no_merge_flag" = "1" ]
   then
     # No merge key - immediatelly write key
