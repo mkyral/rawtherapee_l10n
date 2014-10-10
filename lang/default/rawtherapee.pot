@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-05-12 19:47+0200\n"
+"POT-Creation-Date: 2014-10-10 17:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Darks"
 msgstr ""
 
-#: CURVEEDITOR_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
+#: CURVEEDITOR_FILEDLGFILTERANY,PROFILEPANEL_FILEDLGFILTERANY,TP_FLATFIELD_FILEDLGFILTERANY,TP_ICM_FILEDLGFILTERANY
 msgid "Any files"
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Curve files"
 msgstr ""
 
-#: CURVEEDITOR_HIGHLIGHTS,TP_SHADOWSHLIGHTS_HIGHLIGHTS
+#: CURVEEDITOR_HIGHLIGHTS,TP_COLORTONING_HIGHLIGHT,TP_SHADOWSHLIGHTS_HIGHLIGHTS
 msgid "Highlights"
 msgstr ""
 
@@ -90,7 +90,7 @@ msgid "Linear"
 msgstr ""
 
 #: CURVEEDITOR_LOADDLGLABEL
-msgid "Load Curve..."
+msgid "Load curve..."
 msgstr ""
 
 #: CURVEEDITOR_MINMAXCPOINTS
@@ -98,7 +98,7 @@ msgid "Minima/Maxima control points"
 msgstr ""
 
 #: CURVEEDITOR_NURBS
-msgid "Control Cage"
+msgid "Control cage"
 msgstr ""
 
 #: CURVEEDITOR_PARAMETRIC
@@ -106,10 +106,10 @@ msgid "Parametric"
 msgstr ""
 
 #: CURVEEDITOR_SAVEDLGLABEL
-msgid "Save Curve..."
+msgid "Save curve..."
 msgstr ""
 
-#: CURVEEDITOR_SHADOWS,TP_SHADOWSHLIGHTS_SHADOWS
+#: CURVEEDITOR_SHADOWS,TP_COLORTONING_SHADOWS,TP_SHADOWSHLIGHTS_SHADOWS
 msgid "Shadows"
 msgstr ""
 
@@ -158,15 +158,15 @@ msgid "Camera"
 msgstr ""
 
 #: EXIFFILTER_EXPOSURECOMPENSATION
-msgid "Exposure Compensation (EV)"
+msgid "Exposure compensation (EV)"
 msgstr ""
 
 #: EXIFFILTER_FILETYPE
-msgid "File Type"
+msgid "File type"
 msgstr ""
 
 #: EXIFFILTER_FOCALLEN
-msgid "Focal Length"
+msgid "Focal length"
 msgstr ""
 
 #: EXIFFILTER_ISO,QINFO_ISO
@@ -178,7 +178,7 @@ msgid "Lens"
 msgstr ""
 
 #: EXIFFILTER_METADATAFILTER
-msgid "Enable Metadata Filters"
+msgid "Enable metadata filters"
 msgstr ""
 
 #: EXIFFILTER_SHUTTER
@@ -245,10 +245,6 @@ msgstr ""
 msgid "Select / Unselect All"
 msgstr ""
 
-#: EXPORT_BYPASS_COLORDENOISE
-msgid "Bypass Color denoise"
-msgstr ""
-
 #: EXPORT_BYPASS_DEFRINGE
 msgid "Bypass Defringe"
 msgstr ""
@@ -259,14 +255,6 @@ msgstr ""
 
 #: EXPORT_BYPASS_DIRPYREQUALIZER
 msgid "Bypass Contrast by Detail Levels"
-msgstr ""
-
-#: EXPORT_BYPASS_LUMADENOISE
-msgid "Bypass Luma denoise"
-msgstr ""
-
-#: EXPORT_BYPASS_RAW_ALL_ENHANCE
-msgid "Bypass Post Demosaic Artifact/Noise Reduction"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_CA
@@ -330,23 +318,23 @@ msgid "Fast Export options provide overrides to bypass time and resource consumi
 msgstr ""
 
 #: EXPORT_MAXHEIGHT
-msgid "Maximum Height:"
+msgid "Maximum height:"
 msgstr ""
 
 #: EXPORT_MAXWIDTH
-msgid "Maximum Width:"
+msgid "Maximum width:"
 msgstr ""
 
 #: EXPORT_PUTTOQUEUEFAST
-msgid "  Put to Queue for Fast Export  "
+msgid "  Put to queue for fast export  "
 msgstr ""
 
-#: EXPORT_RAW_DMETHOD
-msgid "Demosaic Method"
+#: EXPORT_RAW_DMETHOD,PARTIALPASTE_RAW_DMETHOD
+msgid "Demosaic method"
 msgstr ""
 
-#: EXPORT_RESIZEMETHOD,HISTORY_MSG_75
-msgid "Resize Method"
+#: EXPORT_RESIZEMETHOD
+msgid "Resize method"
 msgstr ""
 
 #: EXTPROGTARGET_1
@@ -370,11 +358,11 @@ msgid "Apply"
 msgstr ""
 
 #: FILEBROWSER_AUTODARKFRAME
-msgid "Auto Dark-Frame"
+msgid "Auto dark-frame"
 msgstr ""
 
 #: FILEBROWSER_AUTOFLATFIELD
-msgid "Auto Flat-Field"
+msgid "Auto flat-field"
 msgstr ""
 
 #: FILEBROWSER_BROWSEPATHBUTTONHINT
@@ -434,7 +422,7 @@ msgid "Permanently delete the files from trash."
 msgstr ""
 
 #: FILEBROWSER_EMPTYTRASH
-msgid "Empty Trash"
+msgid "Empty trash"
 msgstr ""
 
 #: FILEBROWSER_EXEC_CPB
@@ -510,15 +498,15 @@ msgid "Copy to..."
 msgstr ""
 
 #: FILEBROWSER_POPUPFILEOPERATIONS
-msgid "File Operations"
+msgid "File operations"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVEEND
-msgid "Move to end of Queue"
+msgid "Move to end of queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVEHEAD
-msgid "Move to head of Queue"
+msgid "Move to head of queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPMOVETO
@@ -530,15 +518,15 @@ msgid "Open"
 msgstr ""
 
 #: FILEBROWSER_POPUPPROCESSFAST
-msgid "Put to Queue (Fast export)"
+msgid "Put to queue (Fast export)"
 msgstr ""
 
 #: FILEBROWSER_POPUPPROCESS
-msgid "Put to Queue"
+msgid "Put to queue"
 msgstr ""
 
 #: FILEBROWSER_POPUPPROFILEOPERATIONS
-msgid "Processing Profile Operations"
+msgid "Processing profile operations"
 msgstr ""
 
 #: FILEBROWSER_POPUPRANK0,FILEBROWSER_POPUPUNRANK
@@ -598,7 +586,7 @@ msgid "Clear the Find query"
 msgstr ""
 
 #: FILEBROWSER_QUERYHINT
-msgid "Type filenames to search for. Supports partial filenames. Separate search terms using commas, e.g.\n<i>1001,1004,1199</i>\n\nShortcuts:\n<b>Ctrl-f</b> - focus the Find box,\n<b>Enter</b> - search,\n<b>Esc</b> - clear the Find box,\n<b>Shift-Esc</b> - defocus the Find box."
+msgid "Type filenames to search for. Supports partial filenames. Separate the search terms using commas, e.g.\n<i>1001,1004,1199</i>\n\nExclude search terms by prefixing them with <i>!=</i>\ne.g.\n<i>!=1001,1004,1199</i>\n\nShortcuts:\n<b>Ctrl-f</b> - focus the Find box,\n<b>Enter</b> - search,\n<b>Esc</b> - clear the Find box,\n<b>Shift-Esc</b> - defocus the Find box."
 msgstr ""
 
 #: FILEBROWSER_QUERYLABEL
@@ -678,23 +666,23 @@ msgid "Show Exif info.\n\nShortcuts:\n<b>i</b> - Multiple Editor Tabs Mode,\n<b>
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK1HINT
-msgid "Show images ranked as 1 star.\nShortcut: <b>1</b>"
+msgid "Show images ranked as 1-star.\nShortcut: <b>1</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK2HINT
-msgid "Show images ranked as 2 star.\nShortcut: <b>2</b>"
+msgid "Show images ranked as 2-star.\nShortcut: <b>2</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK3HINT
-msgid "Show images ranked as 3 star.\nShortcut: <b>3</b>"
+msgid "Show images ranked as 3-star.\nShortcut: <b>3</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK4HINT
-msgid "Show images ranked as 4 star.\nShortcut: <b>4</b>"
+msgid "Show images ranked as 4-star.\nShortcut: <b>4</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK5HINT
-msgid "Show images ranked as 5 star.\nShortcut: <b>5</b>"
+msgid "Show images ranked as 5-star.\nShortcut: <b>5</b>"
 msgstr ""
 
 #: FILEBROWSER_SHOWRECENTLYSAVEDHINT
@@ -722,7 +710,7 @@ msgid "Start processing the images in the queue."
 msgstr ""
 
 #: FILEBROWSER_STARTPROCESSING
-msgid "Start Processing"
+msgid "Start processing"
 msgstr ""
 
 #: FILEBROWSER_STOPPROCESSINGHINT
@@ -730,7 +718,7 @@ msgid "Stop processing the images in the queue."
 msgstr ""
 
 #: FILEBROWSER_STOPPROCESSING
-msgid "Stop Processing"
+msgid "Stop processing"
 msgstr ""
 
 #: FILEBROWSER_THUMBSIZE
@@ -743,10 +731,6 @@ msgstr ""
 
 #: FILEBROWSER_UNRANK_TOOLTIP
 msgid "Unrank.\nShortcut: <b>Shift-0</b>"
-msgstr ""
-
-#: FILEBROWSER_USETEMPLATE
-msgid "Use template:"
 msgstr ""
 
 #: FILEBROWSER_ZOOMINHINT
@@ -765,7 +749,7 @@ msgstr ""
 msgid "After"
 msgstr ""
 
-#: GENERAL_AUTO
+#: GENERAL_AUTO,TP_COLORTONING_AUTOSAT
 msgid "Automatic"
 msgstr ""
 
@@ -846,7 +830,7 @@ msgid "Show/Hide blue histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_FULL
-msgid "Toggle full (on) or scaled (off) histogram."
+msgid "Toggle full (off) or scaled (on) histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_G
@@ -858,7 +842,7 @@ msgid "Show/Hide chromaticity histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_L
-msgid "Show/Hide CIELAB Luminance histogram."
+msgid "Show/Hide CIELAB luminance histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_RAW
@@ -870,7 +854,7 @@ msgid "Show/Hide red histogram."
 msgstr ""
 
 #: HISTORY_CUSTOMCURVE
-msgid "Custom Curve"
+msgid "Custom curve"
 msgstr ""
 
 #: HISTORY_DELSNAPSHOT,MAIN_FRAME_PLACES_DEL
@@ -878,7 +862,7 @@ msgid "Del"
 msgstr ""
 
 #: HISTORY_FROMCLIPBOARD
-msgid "From Clipboard"
+msgid "From clipboard"
 msgstr ""
 
 #: HISTORY_CHANGED
@@ -890,11 +874,11 @@ msgid "History"
 msgstr ""
 
 #: HISTORY_MSG_1
-msgid "Photo Loaded"
+msgid "Photo loaded"
 msgstr ""
 
 #: HISTORY_MSG_10,TP_EXPOSURE_COMPRSHADOWS
-msgid "Shadow Compression"
+msgid "Shadow compression"
 msgstr ""
 
 #: HISTORY_MSG_100,PREFERENCES_INTENT_SATURATION,TP_COLORAPP_TCMODE_SATUR,TP_EXPOSURE_SATURATION
@@ -934,22 +918,22 @@ msgid "Highlight Compr. Threshold"
 msgstr ""
 
 #: HISTORY_MSG_109
-msgid "Resize Bounding Box"
+msgid "Resize - Bounding box"
 msgstr ""
 
-#: HISTORY_MSG_11,TP_EXPOSURE_CURVEEDITOR1
-msgid "Tone Curve 1"
+#: HISTORY_MSG_11,TP_COLORAPP_CURVEEDITOR1,TP_EXPOSURE_CURVEEDITOR1
+msgid "Tone curve 1"
 msgstr ""
 
 #: HISTORY_MSG_110
-msgid "Resizing applies to"
+msgid "Resize - Applies to"
 msgstr ""
 
 #: HISTORY_MSG_111
 msgid "Lab - Avoid color shift"
 msgstr ""
 
-#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
+#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
 msgid "--unused--"
 msgstr ""
 
@@ -958,111 +942,111 @@ msgid "Lab - Protection"
 msgstr ""
 
 #: HISTORY_MSG_114
-msgid "DCB Iterations"
+msgid "DCB iterations"
 msgstr ""
 
 #: HISTORY_MSG_115
-msgid "False Color Suppression"
+msgid "False color suppression"
 msgstr ""
 
-#: HISTORY_MSG_116,TP_RAW_DCBENHANCE
-msgid "DCB Enhancement"
+#: HISTORY_MSG_116,PARTIALPASTE_RAW_DCBENHANCE,TP_RAW_DCBENHANCE
+msgid "DCB enhancement"
 msgstr ""
 
 #: HISTORY_MSG_117
-msgid "Raw Red CA Correction"
+msgid "Raw CA correction - Red"
 msgstr ""
 
 #: HISTORY_MSG_118
-msgid "Raw Blue CA Correction"
+msgid "Raw CA correction - Blue"
 msgstr ""
 
-#: HISTORY_MSG_119,TP_PREPROCESS_LINEDENOISE
-msgid "Line Noise Filter"
+#: HISTORY_MSG_119,PARTIALPASTE_PREPROCESS_LINEDENOISE,TP_PREPROCESS_LINEDENOISE
+msgid "Line noise filter"
 msgstr ""
 
-#: HISTORY_MSG_12,HISTORY_MSG_37,TP_EXPOSURE_AUTOLEVELS
-msgid "Auto Levels"
+#: HISTORY_MSG_12,HISTORY_MSG_37
+msgid "Auto levels"
 msgstr ""
 
-#: HISTORY_MSG_120,TP_PREPROCESS_GREENEQUIL
-msgid "Green Equilibration"
+#: HISTORY_MSG_120,PARTIALPASTE_PREPROCESS_GREENEQUIL,TP_PREPROCESS_GREENEQUIL
+msgid "Green equilibration"
 msgstr ""
 
 #: HISTORY_MSG_121
-msgid "Raw Auto CA Correction"
+msgid "Raw CA Correction - Auto"
 msgstr ""
 
 #: HISTORY_MSG_122
-msgid "Dark-Frame Auto-Select"
+msgid "Dark-Frame - Auto-selection"
 msgstr ""
 
 #: HISTORY_MSG_123
-msgid "Dark-Frame File"
+msgid "Dark-Frame - File"
 msgstr ""
 
-#: HISTORY_MSG_124,TP_RAWEXPOS_LINEAR
-msgid "White Point Correction"
+#: HISTORY_MSG_124,PARTIALPASTE_RAWEXPOS_LINEAR
+msgid "White point correction"
 msgstr ""
 
-#: HISTORY_MSG_125,TP_RAWEXPOS_PRESER
-msgid "Highlight Preservation"
+#: HISTORY_MSG_125,PARTIALPASTE_RAWEXPOS_PRESER,TP_RAWEXPOS_PRESER
+msgid "Highlight preservation"
 msgstr ""
 
 #: HISTORY_MSG_126
-msgid "Flat-Field File"
+msgid "Flat-Field - File"
 msgstr ""
 
 #: HISTORY_MSG_127
-msgid "Flat-Field Auto-Select"
+msgid "Flat-Field - Auto-selection"
 msgstr ""
 
 #: HISTORY_MSG_128
-msgid "Flat-Field Blur Radius"
+msgid "Flat-Field - Blur radius"
 msgstr ""
 
 #: HISTORY_MSG_129
-msgid "Flat-Field Blur Type"
+msgid "Flat-Field - Blur type"
 msgstr ""
 
 #: HISTORY_MSG_13
-msgid "Exposure Clipping"
+msgid "Exposure clipping"
 msgstr ""
 
 #: HISTORY_MSG_130
-msgid "Auto Distorion Correction"
+msgid "Auto distorion correction"
 msgstr ""
 
 #: HISTORY_MSG_131
-msgid "Noise Reduction Luma"
+msgid "NR - Luma"
 msgstr ""
 
 #: HISTORY_MSG_132
-msgid "Noise Reduction Chroma"
+msgid "NR - Chroma"
 msgstr ""
 
-#: HISTORY_MSG_133,TP_GAMMA_OUTPUT
-msgid "Output Gamma"
+#: HISTORY_MSG_133,PARTIALPASTE_ICMGAMMA,TP_GAMMA_OUTPUT
+msgid "Output gamma"
 msgstr ""
 
-#: HISTORY_MSG_134,HISTORY_MSG_135
-msgid "Free Gamma"
+#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE
+msgid "Free gamma"
 msgstr ""
 
 #: HISTORY_MSG_136
-msgid "Free Gamma Slope"
+msgid "Free gamma slope"
 msgstr ""
 
 #: HISTORY_MSG_137
-msgid "Black Level - Green 1"
+msgid "Black level - Green 1"
 msgstr ""
 
 #: HISTORY_MSG_138
-msgid "Black Level - Red"
+msgid "Black level - Red"
 msgstr ""
 
 #: HISTORY_MSG_139
-msgid "Black Level - Blue"
+msgid "Black level - Blue"
 msgstr ""
 
 #: HISTORY_MSG_14
@@ -1070,11 +1054,11 @@ msgid "Lab - Lightness"
 msgstr ""
 
 #: HISTORY_MSG_140
-msgid "Black Level - Green 2"
+msgid "Black level - Green 2"
 msgstr ""
 
 #: HISTORY_MSG_141
-msgid "Black Level - Link greens"
+msgid "Black level - Link greens"
 msgstr ""
 
 #: HISTORY_MSG_142
@@ -1094,11 +1078,11 @@ msgid "Microcontrast - Uniformity"
 msgstr ""
 
 #: HISTORY_MSG_146
-msgid "Edges Sharpening"
+msgid "Edge sharpening"
 msgstr ""
 
 #: HISTORY_MSG_147
-msgid "ES - Luminance Only"
+msgid "ES - Luminance only"
 msgstr ""
 
 #: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO,TP_SHARPENMICRO_LABEL
@@ -1114,7 +1098,7 @@ msgid "Lab - Contrast"
 msgstr ""
 
 #: HISTORY_MSG_150
-msgid "Post Demosaic Artifact/Noise Reduction"
+msgid "Post-demosaic artifact/noise reduction"
 msgstr ""
 
 #: HISTORY_MSG_151,PARTIALPASTE_VIBRANCE,TP_VIBRANCE_LABEL
@@ -1122,15 +1106,15 @@ msgid "Vibrance"
 msgstr ""
 
 #: HISTORY_MSG_152
-msgid "Vib - Pastel Tones"
+msgid "Vib - Pastel tones"
 msgstr ""
 
 #: HISTORY_MSG_153
-msgid "Vib - Saturated Tones"
+msgid "Vib - Saturated tones"
 msgstr ""
 
 #: HISTORY_MSG_154
-msgid "Vib - Protect skin tones"
+msgid "Vib - Protect skin-tones"
 msgstr ""
 
 #: HISTORY_MSG_155
@@ -1150,11 +1134,11 @@ msgid "TM - Strength"
 msgstr ""
 
 #: HISTORY_MSG_159
-msgid "TM - Edge Stopping"
+msgid "TM - Edge stopping"
 msgstr ""
 
 #: HISTORY_MSG_16
-msgid "Luminance Black"
+msgid "Luminance black"
 msgstr ""
 
 #: HISTORY_MSG_160
@@ -1162,7 +1146,7 @@ msgid "TM - Scale"
 msgstr ""
 
 #: HISTORY_MSG_161
-msgid "TM - Reweighting Iterates"
+msgid "TM - Reweighting iterates"
 msgstr ""
 
 #: HISTORY_MSG_162,TP_EPD_LABEL
@@ -1170,39 +1154,39 @@ msgid "Tone Mapping"
 msgstr ""
 
 #: HISTORY_MSG_163
-msgid "RGB Curves - Red"
+msgid "RGB curves - Red"
 msgstr ""
 
 #: HISTORY_MSG_164
-msgid "RGB Curves - Green"
+msgid "RGB curves - Green"
 msgstr ""
 
 #: HISTORY_MSG_165
-msgid "RGB Curves - Blue"
+msgid "RGB curves - Blue"
 msgstr ""
 
 #: HISTORY_MSG_166
-msgid "Neutral Levels"
+msgid "Neutral levels"
 msgstr ""
 
 #: HISTORY_MSG_168
-msgid "'CC' curve"
+msgid "Lab - CC curve"
 msgstr ""
 
 #: HISTORY_MSG_169
-msgid "'CH' curve"
+msgid "Lab - CH curve"
 msgstr ""
 
 #: HISTORY_MSG_17
-msgid "Luminance Highlight Compr."
+msgid "Luminance highlight Compr."
 msgstr ""
 
 #: HISTORY_MSG_170
-msgid "Vib - Curve"
+msgid "Vibrance - HH curve"
 msgstr ""
 
 #: HISTORY_MSG_171
-msgid "'LC' curve"
+msgid "Lab - LC curve"
 msgstr ""
 
 #: HISTORY_MSG_172
@@ -1210,7 +1194,7 @@ msgid "Lab - Restrict LC"
 msgstr ""
 
 #: HISTORY_MSG_173
-msgid "NR - Luminance Detail"
+msgid "NR - Luminance detail"
 msgstr ""
 
 #: HISTORY_MSG_174
@@ -1218,7 +1202,7 @@ msgid "CIECAM02"
 msgstr ""
 
 #: HISTORY_MSG_175
-msgid "CAM02 - CAT02 Adaptation"
+msgid "CAM02 - CAT02 adaptation"
 msgstr ""
 
 #: HISTORY_MSG_176
@@ -1234,11 +1218,11 @@ msgid "CAM02 - Viewing luminosity"
 msgstr ""
 
 #: HISTORY_MSG_179
-msgid "CAM02 - White-Point Model"
+msgid "CAM02 - White-point model"
 msgstr ""
 
 #: HISTORY_MSG_18
-msgid "Luminance Shadow Compr."
+msgid "Luminance shadow Compr."
 msgstr ""
 
 #: HISTORY_MSG_180
@@ -1270,7 +1254,7 @@ msgid "CAM02 - Algorithm"
 msgstr ""
 
 #: HISTORY_MSG_187
-msgid "CAM02 - Red &amp; skin tones protection"
+msgid "CAM02 - Red/skin prot."
 msgstr ""
 
 #: HISTORY_MSG_188
@@ -1318,7 +1302,7 @@ msgid "CAM02 - Output histograms"
 msgstr ""
 
 #: HISTORY_MSG_2
-msgid "PP3 Loaded"
+msgid "PP3 loaded"
 msgstr ""
 
 #: HISTORY_MSG_20,TP_SHARPENING_LABEL
@@ -1330,23 +1314,23 @@ msgid "CAM02 - Tone mapping"
 msgstr ""
 
 #: HISTORY_MSG_201
-msgid "NR - Chrominance R,G"
+msgid "NR - Chrominance - R&amp;G"
 msgstr ""
 
 #: HISTORY_MSG_202
-msgid "NR - Chrominance B,Y"
+msgid "NR - Chrominance - B&amp;Y"
 msgstr ""
 
 #: HISTORY_MSG_203
 msgid "NR - Method"
 msgstr ""
 
-#: HISTORY_MSG_204,TP_RAW_LMMSEITERATIONS
-msgid "LMMSE Enhancement Steps"
+#: HISTORY_MSG_204,PARTIALPASTE_RAW_LMMSEITERATIONS,TP_RAW_LMMSEITERATIONS
+msgid "LMMSE enhancement steps"
 msgstr ""
 
 #: HISTORY_MSG_205
-msgid "CAM02 - Hot/bad pixels"
+msgid "CAM02 - Hot/bad pixel filter"
 msgstr ""
 
 #: HISTORY_MSG_206
@@ -1358,7 +1342,7 @@ msgid "Defringe - Hue curve"
 msgstr ""
 
 #: HISTORY_MSG_208
-msgid "WB - B-R Equalizer"
+msgid "WB - B/R equalizer"
 msgstr ""
 
 #: HISTORY_MSG_21
@@ -1414,7 +1398,7 @@ msgid "B&amp;W - Gamma - Blue"
 msgstr ""
 
 #: HISTORY_MSG_221
-msgid "B&amp;W - Color Filter"
+msgid "B&amp;W - Color filter"
 msgstr ""
 
 #: HISTORY_MSG_222
@@ -1442,7 +1426,7 @@ msgid "B&amp;W - CM - Purple"
 msgstr ""
 
 #: HISTORY_MSG_228,HISTORY_MSG_229
-msgid "B&amp;W - Luminance Equalizer"
+msgid "B&amp;W - Luminance equalizer"
 msgstr ""
 
 #: HISTORY_MSG_23
@@ -1454,23 +1438,23 @@ msgid "B&amp;W - Mode"
 msgstr ""
 
 #: HISTORY_MSG_231
-msgid "B&amp;W - 'Before' Curve"
+msgid "B&amp;W - 'Before' curve"
 msgstr ""
 
 #: HISTORY_MSG_232
-msgid "B&amp;W - 'Before' Curve Type"
+msgid "B&amp;W - 'Before' curve type"
 msgstr ""
 
 #: HISTORY_MSG_233
-msgid "B&amp;W - 'After' Curve"
+msgid "B&amp;W - 'After' curve"
 msgstr ""
 
 #: HISTORY_MSG_234
-msgid "B&amp;W - 'After' Curve Type"
+msgid "B&amp;W - 'After' curve type"
 msgstr ""
 
 #: HISTORY_MSG_235
-msgid "B&amp;W - Auto Channel Mixer"
+msgid "B&amp;W - Auto channel mixer"
 msgstr ""
 
 #: HISTORY_MSG_237
@@ -1514,15 +1498,15 @@ msgid "VC - Center"
 msgstr ""
 
 #: HISTORY_MSG_246
-msgid "'CL' curve"
+msgid "CL curve"
 msgstr ""
 
 #: HISTORY_MSG_247
-msgid "'LH' curve"
+msgid "LH curve"
 msgstr ""
 
 #: HISTORY_MSG_248
-msgid "'HH' curve"
+msgid "HH curve"
 msgstr ""
 
 #: HISTORY_MSG_249
@@ -1530,7 +1514,7 @@ msgid "CbDL - Threshold"
 msgstr ""
 
 #: HISTORY_MSG_25
-msgid "USM - Edge Detection Radius"
+msgid "USM - Edge detection radius"
 msgstr ""
 
 #: HISTORY_MSG_250
@@ -1542,39 +1526,203 @@ msgid "B&amp;W - Algorithm"
 msgstr ""
 
 #: HISTORY_MSG_252
-msgid "CbDL Skin Tones"
+msgid "CbDL - Skin-tones"
 msgstr ""
 
 #: HISTORY_MSG_253
-msgid "CbDL Reduce artifacts"
+msgid "CbDL - Reduce artifacts"
 msgstr ""
 
 #: HISTORY_MSG_254
-msgid "CbDL - Hueskin"
+msgid "CbDL - Skin hue"
 msgstr ""
 
 #: HISTORY_MSG_255
-msgid "CbDL - Algorithm"
+msgid "NR - Median filter"
+msgstr ""
+
+#: HISTORY_MSG_256
+msgid "NR - Median type"
+msgstr ""
+
+#: HISTORY_MSG_257,PARTIALPASTE_COLORTONING,TP_COLORTONING_LABEL
+msgid "Color Toning"
+msgstr ""
+
+#: HISTORY_MSG_258
+msgid "Color Toning - Color"
+msgstr ""
+
+#: HISTORY_MSG_259,HISTORY_MSG_276
+msgid "Color Toning - Opacity"
 msgstr ""
 
 #: HISTORY_MSG_26
-msgid "USM - Edge Tolerance"
+msgid "USM - Edge tolerance"
+msgstr ""
+
+#: HISTORY_MSG_260
+msgid "Color Toning - 'a[b]' opacity"
+msgstr ""
+
+#: HISTORY_MSG_261
+msgid "Color Toning - Method"
+msgstr ""
+
+#: HISTORY_MSG_262
+msgid "Color Toning - 'b' opacity"
+msgstr ""
+
+#: HISTORY_MSG_263
+msgid "Color Toning - Shadows - Red"
+msgstr ""
+
+#: HISTORY_MSG_264
+msgid "Color Toning - Shadows - Green"
+msgstr ""
+
+#: HISTORY_MSG_265
+msgid "Color Toning - Shadows - Blue"
+msgstr ""
+
+#: HISTORY_MSG_266
+msgid "Color Toning - Mid - Red"
+msgstr ""
+
+#: HISTORY_MSG_267
+msgid "Color Toning - Mid - Green"
+msgstr ""
+
+#: HISTORY_MSG_268
+msgid "Color Toning - Mid - Blue"
+msgstr ""
+
+#: HISTORY_MSG_269
+msgid "Color Toning - High - Red"
 msgstr ""
 
 #: HISTORY_MSG_27
 msgid "USM - Halo control"
 msgstr ""
 
+#: HISTORY_MSG_270
+msgid "Color Toning - High - Green"
+msgstr ""
+
+#: HISTORY_MSG_271
+msgid "Color Toning - High - Blue"
+msgstr ""
+
+#: HISTORY_MSG_272
+msgid "Color Toning - Balance"
+msgstr ""
+
+#: HISTORY_MSG_273
+msgid "Color Toning - Reset"
+msgstr ""
+
+#: HISTORY_MSG_274
+msgid "Color Toning - Sat. Shadows"
+msgstr ""
+
+#: HISTORY_MSG_275
+msgid "Color Toning - Sat. Highlights"
+msgstr ""
+
+#: HISTORY_MSG_278
+msgid "Color Toning - Preserve luminance"
+msgstr ""
+
+#: HISTORY_MSG_279
+msgid "Color Toning - Shadows"
+msgstr ""
+
 #: HISTORY_MSG_28
-msgid "USM - Halo Control Amount"
+msgid "USM - Halo control amount"
+msgstr ""
+
+#: HISTORY_MSG_280
+msgid "Color Toning - Highlights"
+msgstr ""
+
+#: HISTORY_MSG_281
+msgid "Color Toning - Sat. strength"
+msgstr ""
+
+#: HISTORY_MSG_282
+msgid "Color Toning - Sat. threshold"
+msgstr ""
+
+#: HISTORY_MSG_283
+msgid "Color Toning - Strength"
+msgstr ""
+
+#: HISTORY_MSG_284
+msgid "Color Toning - Auto sat. protection"
+msgstr ""
+
+#: HISTORY_MSG_285
+msgid "NR - Median - Method"
+msgstr ""
+
+#: HISTORY_MSG_286
+msgid "NR - Median - Type"
+msgstr ""
+
+#: HISTORY_MSG_287
+msgid "NR - Median - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_288
+msgid "Flat Field - Clip control"
+msgstr ""
+
+#: HISTORY_MSG_289
+msgid "Flat Field - Clip control - Auto"
 msgstr ""
 
 #: HISTORY_MSG_29
-msgid "Sharpening Method"
+msgid "Sharpening method"
+msgstr ""
+
+#: HISTORY_MSG_290
+msgid "Black Level - Red"
+msgstr ""
+
+#: HISTORY_MSG_291
+msgid "Black Level - Green"
+msgstr ""
+
+#: HISTORY_MSG_292
+msgid "Black Level - Blue"
+msgstr ""
+
+#: HISTORY_MSG_293,PARTIALPASTE_FILMSIMULATION,PREFERENCES_FILMSIMULATION,TP_FILMSIMULATION_LABEL
+msgid "Film Simulation"
+msgstr ""
+
+#: HISTORY_MSG_294
+msgid "Film Simulation - Strength"
+msgstr ""
+
+#: HISTORY_MSG_295
+msgid "Film Simulation - Film"
+msgstr ""
+
+#: HISTORY_MSG_296
+msgid "NR - Modulate luminance"
+msgstr ""
+
+#: HISTORY_MSG_297
+msgid "NR - Quality"
+msgstr ""
+
+#: HISTORY_MSG_298,TP_PREPROCESS_DEADPIXFILT
+msgid "Dead pixel filter"
 msgstr ""
 
 #: HISTORY_MSG_3
-msgid "PP3 Changed"
+msgid "PP3 changed"
 msgstr ""
 
 #: HISTORY_MSG_30
@@ -1606,7 +1754,7 @@ msgid "LCP CA correction"
 msgstr ""
 
 #: HISTORY_MSG_38
-msgid "White Balance Method"
+msgid "White balance method"
 msgstr ""
 
 #: HISTORY_MSG_39
@@ -1614,7 +1762,7 @@ msgid "WB - Temperature"
 msgstr ""
 
 #: HISTORY_MSG_4
-msgid "History Browsing"
+msgid "History browsing"
 msgstr ""
 
 #: HISTORY_MSG_40
@@ -1622,27 +1770,27 @@ msgid "WB - Tint"
 msgstr ""
 
 #: HISTORY_MSG_41
-msgid "Tone Curve Mode 1"
+msgid "Tone curve 1 mode"
 msgstr ""
 
-#: HISTORY_MSG_42,TP_EXPOSURE_CURVEEDITOR2
-msgid "Tone Curve 2"
+#: HISTORY_MSG_42,TP_COLORAPP_CURVEEDITOR2,TP_EXPOSURE_CURVEEDITOR2
+msgid "Tone curve 2"
 msgstr ""
 
 #: HISTORY_MSG_43
-msgid "Tone Curve Mode 2"
+msgid "Tone curve 2 mode"
 msgstr ""
 
 #: HISTORY_MSG_44
-msgid "Lum. Denoising Radius"
+msgid "Lum. denoising radius"
 msgstr ""
 
 #: HISTORY_MSG_45
-msgid "Lum. Denoising Edge Tolerance"
+msgid "Lum. denoising edge tolerance"
 msgstr ""
 
 #: HISTORY_MSG_46
-msgid "Color Denoising"
+msgid "Color denoising"
 msgstr ""
 
 #: HISTORY_MSG_47,TP_ICM_BLENDCMSMATRIX
@@ -1654,14 +1802,14 @@ msgid "Use DCP's tone curve"
 msgstr ""
 
 #: HISTORY_MSG_49
-msgid "DCP Illuminant"
+msgid "DCP illuminant"
 msgstr ""
 
 #: HISTORY_MSG_5,TP_COLORAPP_TCMODE_LIGHTNESS,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
 msgid "Lightness"
 msgstr ""
 
-#: HISTORY_MSG_50,TP_SHADOWSHLIGHTS_LABEL
+#: HISTORY_MSG_50
 msgid "Shadows/Highlights"
 msgstr ""
 
@@ -1674,15 +1822,15 @@ msgid "S/H - Shadows"
 msgstr ""
 
 #: HISTORY_MSG_53
-msgid "S/H - Highlight Tonal Width"
+msgid "S/H - Highlight tonal width"
 msgstr ""
 
 #: HISTORY_MSG_54
-msgid "S/H - Shadow Tonal Width"
+msgid "S/H - Shadow tonal width"
 msgstr ""
 
 #: HISTORY_MSG_55
-msgid "S/H - Local Contrast"
+msgid "S/H - Local contrast"
 msgstr ""
 
 #: HISTORY_MSG_56
@@ -1690,15 +1838,15 @@ msgid "S/H - Radius"
 msgstr ""
 
 #: HISTORY_MSG_57
-msgid "Coarse Rotation"
+msgid "Coarse rotation"
 msgstr ""
 
 #: HISTORY_MSG_58
-msgid "Horizontal Flipping"
+msgid "Horizontal flipping"
 msgstr ""
 
 #: HISTORY_MSG_59
-msgid "Vertical Flipping"
+msgid "Vertical flipping"
 msgstr ""
 
 #: HISTORY_MSG_6,TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST
@@ -1713,12 +1861,12 @@ msgstr ""
 msgid "Auto-fill"
 msgstr ""
 
-#: HISTORY_MSG_62,TP_DISTORTION_LABEL
-msgid "Distortion Correction"
+#: HISTORY_MSG_62,PARTIALPASTE_DISTORTION,TP_LENSPROFILE_USEDIST
+msgid "Distortion correction"
 msgstr ""
 
 #: HISTORY_MSG_63
-msgid "Snapshot Selected"
+msgid "Snapshot selected"
 msgstr ""
 
 #: HISTORY_MSG_64,PARTIALPASTE_CROP,TP_CROP_LABEL
@@ -1730,19 +1878,19 @@ msgid "CA correction"
 msgstr ""
 
 #: HISTORY_MSG_66,TP_HLREC_LABEL
-msgid "Highlight Reconstruction"
+msgid "Highlight reconstruction"
 msgstr ""
 
 #: HISTORY_MSG_67
-msgid "HR Reconstruction Amount"
+msgid "HR reconstruction amount"
 msgstr ""
 
 #: HISTORY_MSG_68
-msgid "HL Reconstruction Method"
+msgid "HL reconstruction method"
 msgstr ""
 
 #: HISTORY_MSG_69
-msgid "Working Color Space"
+msgid "Working color space"
 msgstr ""
 
 #: HISTORY_MSG_7,TP_EXPOSURE_BLACKLEVEL
@@ -1750,11 +1898,11 @@ msgid "Black"
 msgstr ""
 
 #: HISTORY_MSG_70
-msgid "Output Color Space"
+msgid "Output color space"
 msgstr ""
 
 #: HISTORY_MSG_71
-msgid "Input Color Space"
+msgid "Input color space"
 msgstr ""
 
 #: HISTORY_MSG_72
@@ -1766,15 +1914,19 @@ msgid "Channel Mixer"
 msgstr ""
 
 #: HISTORY_MSG_74
-msgid "Resize Scale"
+msgid "Resize - Scale"
+msgstr ""
+
+#: HISTORY_MSG_75
+msgid "Resize - Method"
 msgstr ""
 
 #: HISTORY_MSG_76
-msgid "Exif Metadata"
+msgid "Exif metadata"
 msgstr ""
 
 #: HISTORY_MSG_77
-msgid "IPTC Metadata"
+msgid "IPTC metadata"
 msgstr ""
 
 #: HISTORY_MSG_78
@@ -1782,15 +1934,15 @@ msgid "Data specified for resize"
 msgstr ""
 
 #: HISTORY_MSG_79
-msgid "Resize Width"
+msgid "Resize - Width"
 msgstr ""
 
 #: HISTORY_MSG_8,TP_EXPOSURE_EXPCOMP
-msgid "Exposure Compensation"
+msgid "Exposure compensation"
 msgstr ""
 
 #: HISTORY_MSG_80
-msgid "Resize Height"
+msgid "Resize - Height"
 msgstr ""
 
 #: HISTORY_MSG_81,PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
@@ -1798,15 +1950,15 @@ msgid "Resize"
 msgstr ""
 
 #: HISTORY_MSG_82
-msgid "Profile Changed"
+msgid "Profile changed"
 msgstr ""
 
 #: HISTORY_MSG_83
-msgid "S/H - Sharp Mask"
+msgid "S/H - Sharp mask"
 msgstr ""
 
 #: HISTORY_MSG_84
-msgid "Perspective Correction"
+msgid "Perspective correction"
 msgstr ""
 
 #: HISTORY_MSG_85
@@ -1814,15 +1966,15 @@ msgid "LCP"
 msgstr ""
 
 #: HISTORY_MSG_86
-msgid "RGB Curves - Luminosity Mode"
+msgid "RGB curves - Luminosity mode"
 msgstr ""
 
-#: HISTORY_MSG_87,TP_IMPULSEDENOISE_LABEL
-msgid "Impulse Noise Reduction"
+#: HISTORY_MSG_87,PARTIALPASTE_IMPULSEDENOISE
+msgid "Impulse noise reduction"
 msgstr ""
 
 #: HISTORY_MSG_88
-msgid "Impulse NR Threshold"
+msgid "Impulse NR threshold"
 msgstr ""
 
 #: HISTORY_MSG_89,TP_DIRPYRDENOISE_LABEL
@@ -1830,7 +1982,7 @@ msgid "Noise Reduction"
 msgstr ""
 
 #: HISTORY_MSG_9,TP_EXPOSURE_COMPRHIGHLIGHTS
-msgid "Highlight Compression"
+msgid "Highlight compression"
 msgstr ""
 
 #: HISTORY_MSG_90
@@ -1838,7 +1990,7 @@ msgid "NR - Luminance"
 msgstr ""
 
 #: HISTORY_MSG_91
-msgid "NR - Chrominance Master"
+msgid "NR - Chrominance master"
 msgstr ""
 
 #: HISTORY_MSG_92
@@ -1866,11 +2018,11 @@ msgid "'b' Curve"
 msgstr ""
 
 #: HISTORY_MSG_98
-msgid "Demosaicing Method"
+msgid "Demosaicing method"
 msgstr ""
 
-#: HISTORY_MSG_99,TP_PREPROCESS_HOTDEADPIXFILT
-msgid "Hot/Dead pixel filter"
+#: HISTORY_MSG_99,TP_PREPROCESS_HOTPIXFILT
+msgid "Hot pixel filter"
 msgstr ""
 
 #: HISTORY_NEWSNAPSHOT,MAIN_FRAME_PLACES_ADD,PREFERENCES_ADD
@@ -2086,7 +2238,7 @@ msgid "Show/hide all side panels.\nShortcut: <b>m</b>"
 msgstr ""
 
 #: MAIN_BUTTON_UNFULLSCREEN
-msgid "Exit Fullscreen"
+msgid "Exit fullscreen"
 msgstr ""
 
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
@@ -2110,7 +2262,7 @@ msgid "File Browser"
 msgstr ""
 
 #: MAIN_FRAME_FILEBROWSER_TOOLTIP
-msgid "File Browser.\nShortcut: <b>Ctrl-F2</b>"
+msgid "File browser.\nShortcut: <b>Ctrl-F2</b>"
 msgstr ""
 
 #: MAIN_FRAME_PLACES
@@ -2134,7 +2286,7 @@ msgid "File saving error"
 msgstr ""
 
 #: MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY
-msgid "Please set the correct path in the \"Preferences\" dialog."
+msgid "Please set the correct path in Preferences."
 msgstr ""
 
 #: MAIN_MSG_CANNOTSTARTEDITOR
@@ -2146,7 +2298,7 @@ msgid "Filename unspecified!"
 msgstr ""
 
 #: MAIN_MSG_IMAGEUNPROCESSED
-msgid "This command requires all selected images to be queue processed first."
+msgid "This command requires all selected images to be queue-processed first."
 msgstr ""
 
 #: MAIN_MSG_NAVIGATOR
@@ -2158,7 +2310,7 @@ msgid "Operation cancelled"
 msgstr ""
 
 #: MAIN_MSG_PATHDOESNTEXIST
-msgid "The path\n\n<b>%1</b>\n\ndoesn't exist. Please set a correct path in the Preference window."
+msgid "The path\n\n<b>%1</b>\n\ndoes not exist. Please set a correct path in Preferences."
 msgstr ""
 
 #: MAIN_MSG_QOVERWRITE
@@ -2166,18 +2318,18 @@ msgid "Do you want to overwrite it?"
 msgstr ""
 
 #: MAIN_MSG_SETPATHFIRST
-msgid "You have to set a target path first in Preferences\nin order to use this function!"
+msgid "You first have to set a target path in Preferences in order to use this function!"
 msgstr ""
 
 #: MAIN_MSG_WRITEFAILED
-msgid "Failed to write\n\n<b>\"%1\"</b>\n\nMake sure that the folder exists and that you have write permission to it."
+msgid "Failed to write\n<b>\"%1\"</b>\n\nMake sure that the folder exists and that you have write permission to it."
 msgstr ""
 
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "Shortcut: <b>Alt-c</b>"
 msgstr ""
 
-#: MAIN_TAB_COLOR
+#: MAIN_TAB_COLOR,TP_COLORTONING_COLOR
 msgid "Color"
 msgstr ""
 
@@ -2231,10 +2383,6 @@ msgstr ""
 
 #: MAIN_TAB_RAW
 msgid "Raw"
-msgstr ""
-
-#: MAIN_TAB_TAGGING
-msgid "Tagging"
 msgstr ""
 
 #: MAIN_TAB_TRANSFORM_TOOLTIP
@@ -2309,7 +2457,7 @@ msgstr ""
 msgid "Show/Hide the top panel.\nShortcut: <b>Shift-L</b>"
 msgstr ""
 
-#: MAIN_TOOLTIP_THRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_SHARPENING_THRESHOLD
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_SHARPENING_THRESHOLD
 msgid "Threshold"
 msgstr ""
 
@@ -2377,7 +2525,7 @@ msgstr ""
 msgid "Basic Settings"
 msgstr ""
 
-#: PARTIALPASTE_CACORRECTION
+#: PARTIALPASTE_CACORRECTION,TP_LENSPROFILE_USECA
 msgid "Chromatic aberration correction"
 msgstr ""
 
@@ -2421,10 +2569,6 @@ msgstr ""
 msgid "Contrast by detail levels"
 msgstr ""
 
-#: PARTIALPASTE_DISTORTION,TP_LENSPROFILE_USEDIST
-msgid "Distortion correction"
-msgstr ""
-
 #: PARTIALPASTE_EPD
 msgid "Tone mapping"
 msgstr ""
@@ -2449,6 +2593,10 @@ msgstr ""
 msgid "Flat-field blur type"
 msgstr ""
 
+#: PARTIALPASTE_FLATFIELDCLIPCONTROL
+msgid "Flat-field clip control"
+msgstr ""
+
 #: PARTIALPASTE_FLATFIELDFILE
 msgid "Flat-field file"
 msgstr ""
@@ -2465,16 +2613,8 @@ msgstr ""
 msgid "Channel mixer"
 msgstr ""
 
-#: PARTIALPASTE_ICMGAMMA
-msgid "Output gamma"
-msgstr ""
-
 #: PARTIALPASTE_ICMSETTINGS
 msgid "Color management settings"
-msgstr ""
-
-#: PARTIALPASTE_IMPULSEDENOISE
-msgid "Impulse noise reduction"
 msgstr ""
 
 #: PARTIALPASTE_IPTCINFO
@@ -2505,20 +2645,12 @@ msgstr ""
 msgid "Perspective"
 msgstr ""
 
-#: PARTIALPASTE_PREPROCESS_GREENEQUIL
-msgid "Green equilibration"
+#: PARTIALPASTE_PREPROCESS_DEADPIXFILT
+msgid "Apply dead pixel filter"
 msgstr ""
 
-#: PARTIALPASTE_PREPROCESS_HOTDEADPIXFILT
-msgid "Apply hot/dead pixel filter"
-msgstr ""
-
-#: PARTIALPASTE_PREPROCESS_LINEDENOISE
-msgid "Line noise filter"
-msgstr ""
-
-#: PARTIALPASTE_RAW_ALLENHANCE
-msgid "Post-demosaic artifact/noise reduction"
+#: PARTIALPASTE_PREPROCESS_HOTPIXFILT
+msgid "Apply hot pixel filter"
 msgstr ""
 
 #: PARTIALPASTE_RAWCACORR_AUTO
@@ -2533,28 +2665,12 @@ msgstr ""
 msgid "CA red"
 msgstr ""
 
-#: PARTIALPASTE_RAW_DCBENHANCE
-msgid "DCB enhancement"
-msgstr ""
-
-#: PARTIALPASTE_RAW_DCBITERATIONS
+#: PARTIALPASTE_RAW_DCBITERATIONS,TP_RAW_DCBITERATIONS
 msgid "Number of DCB iterations"
-msgstr ""
-
-#: PARTIALPASTE_RAW_DMETHOD
-msgid "Demosaic method"
 msgstr ""
 
 #: PARTIALPASTE_RAWEXPOS_BLACK
 msgid "Black levels"
-msgstr ""
-
-#: PARTIALPASTE_RAWEXPOS_LINEAR
-msgid "White point correction"
-msgstr ""
-
-#: PARTIALPASTE_RAWEXPOS_PRESER
-msgid "Highlight preservation"
 msgstr ""
 
 #: PARTIALPASTE_RAW_FALSECOLOR
@@ -2565,15 +2681,11 @@ msgstr ""
 msgid "Raw Settings"
 msgstr ""
 
-#: PARTIALPASTE_RAW_LMMSEITERATIONS
-msgid "LMMSE enhancement steps"
-msgstr ""
-
 #: PARTIALPASTE_RGBCURVES
 msgid "RGB curves"
 msgstr ""
 
-#: PARTIALPASTE_SHADOWSHIGHLIGHTS
+#: PARTIALPASTE_SHADOWSHIGHLIGHTS,TP_SHADOWSHLIGHTS_LABEL
 msgid "Shadows/highlights"
 msgstr ""
 
@@ -2625,10 +2737,6 @@ msgstr ""
 msgid "Tungsten"
 msgstr ""
 
-#: PREFERENCES_BLINKCLIPPED
-msgid "Blink clipped areas"
-msgstr ""
-
 #: PREFERENCES_CACHECLEARALL
 msgid "Clear All"
 msgstr ""
@@ -2669,12 +2777,16 @@ msgstr ""
 msgid "Clipping Indication"
 msgstr ""
 
+#: PREFERENCES_CLUTSDIR
+msgid "HaldCLUT directory"
+msgstr ""
+
 #: PREFERENCES_CMETRICINTENT
 msgid "Colorimetric intent"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
-msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\n\nThe path of the communication file (*.ini style, a.k.a. \"Keyfile\") is added as a command line parameter. It contains various parameters required for the scipts and image Exif to allow a rules-based processing profile generation.\n\n<b>WARNING:</b> You are responsible for using double quotes where necessary if you're using paths containing spaces."
+msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\n\nThe path of the communication file (*.ini style, a.k.a. \"Keyfile\") is added as a command line parameter. It contains various parameters required for the scripts and image Exif to allow a rules-based processing profile generation.\n\n<b>WARNING:</b> You are responsible for using double quotes where necessary if you're using paths containing spaces."
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME
@@ -2713,12 +2825,8 @@ msgstr ""
 msgid "templates"
 msgstr ""
 
-#: PREFERENCES_DARKFRAME
+#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
 msgid "Dark-Frame"
-msgstr ""
-
-#: PREFERENCES_DATEFORMATFRAME
-msgid "Date Format"
 msgstr ""
 
 #: PREFERENCES_DATEFORMATHINT
@@ -2866,11 +2974,11 @@ msgid "Histogram in left panel"
 msgstr ""
 
 #: PREFERENCES_HISTOGRAM_TOOLTIP
-msgid "if enabled use Working Profile instead of Output Profile (with gamma), for Navigator and histogram display"
+msgid "If enabled, the working profile is used for rendering the main histogram and the Navigator panel, otherwise the gamma-corrected output profile is used."
 msgstr ""
 
 #: PREFERENCES_HISTOGRAMWORKING
-msgid "Histogram and Navigator using Working Profile"
+msgid "Use working profile for main histogram and Navigator"
 msgstr ""
 
 #: PREFERENCES_HLTHRESHOLD
@@ -2882,7 +2990,7 @@ msgid "Directory containing color profiles"
 msgstr ""
 
 #: PREFERENCES_IMPROCPARAMS
-msgid "Default Image Processing Parameters"
+msgid "Default Processing Profile"
 msgstr ""
 
 #: PREFERENCES_INTENT_ABSOLUTE
@@ -2902,7 +3010,7 @@ msgid "Show embedded JPEG thumbnail if raw is unedited"
 msgstr ""
 
 #: PREFERENCES_LANGAUTODETECT
-msgid "Use OS language setting"
+msgid "Use system language"
 msgstr ""
 
 #: PREFERENCES_MENUGROUPEXTPROGS
@@ -2910,15 +3018,15 @@ msgid "Group \"Open with\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPFILEOPERATIONS
-msgid "Group \"File Operations\""
+msgid "Group \"File operations\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPLABEL
-msgid "Group \"Color Label\""
+msgid "Group \"Color label\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPPROFILEOPERATIONS
-msgid "Group \"Processing Profile Operations\""
+msgid "Group \"Processing profile operations\""
 msgstr ""
 
 #: PREFERENCES_MENUGROUPRANK
@@ -2986,7 +3094,7 @@ msgid "Add entered extension to the list."
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTADD
-msgid "Add Extension"
+msgid "Add extension"
 msgstr ""
 
 #: PREFERENCES_PARSEDEXTDELHINT
@@ -3006,11 +3114,11 @@ msgid "Processing profile loading priority"
 msgstr ""
 
 #: PREFERENCES_PROFILEPRCACHE
-msgid "Profile in Cache"
+msgid "Profile in cache"
 msgstr ""
 
 #: PREFERENCES_PROFILEPRFILE
-msgid "Profile Next to the Input File"
+msgid "Profile next to the input file"
 msgstr ""
 
 #: PREFERENCES_PROFILESAVECACHE
@@ -3098,11 +3206,7 @@ msgid "Editor processing done"
 msgstr ""
 
 #: PREFERENCES_SND_TRESHOLDSECS
-msgid "after secs"
-msgstr ""
-
-#: PREFERENCES_SQUAREDETAILWINDOW
-msgid "Square detail window (faster)"
+msgid "After seconds"
 msgstr ""
 
 #: PREFERENCES_STARTUPIMDIR
@@ -3302,7 +3406,7 @@ msgid "Force saving options"
 msgstr ""
 
 #: SAVEDLG_JPEGQUAL
-msgid "JPEG Quality"
+msgid "JPEG quality"
 msgstr ""
 
 #: SAVEDLG_JPGFILTER
@@ -3310,7 +3414,7 @@ msgid "JPEG files"
 msgstr ""
 
 #: SAVEDLG_PNGCOMPR
-msgid "PNG Compression"
+msgid "PNG compression"
 msgstr ""
 
 #: SAVEDLG_PUTTOQUEUEHEAD
@@ -3334,7 +3438,7 @@ msgid "Save processing parameters with image"
 msgstr ""
 
 #: SAVEDLG_SUBSAMP_TOOLTIP
-msgid "Best Compression: 4:1:1\nBalanced: 4:2:2\nBest Quality: 4:4:4"
+msgid "Best compression: 4:1:1\nBalanced: 4:2:2\nBest quality: 4:4:4"
 msgstr ""
 
 #: SAVEDLG_SUBSAMP
@@ -3342,7 +3446,7 @@ msgid "Subsampling"
 msgstr ""
 
 #: SAVEDLG_SUBSAMP_1
-msgid "Best Compression"
+msgid "Best compression"
 msgstr ""
 
 #: SAVEDLG_SUBSAMP_2
@@ -3350,7 +3454,7 @@ msgid "Balanced"
 msgstr ""
 
 #: SAVEDLG_SUBSAMP_3
-msgid "Best Quality"
+msgid "Best quality"
 msgstr ""
 
 #: SAVEDLG_TIFFFILTER
@@ -3433,11 +3537,6 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: TP_BWMIX_BLUE
-msgctxt "TP_BWMIX_BLUE"
-msgid "Blue"
-msgstr ""
-
 #: TP_BWMIX_CC_ENABLED
 msgid "Adjust complementary color"
 msgstr ""
@@ -3464,11 +3563,6 @@ msgstr ""
 
 #: TP_BWMIX_CURVEEDITOR2
 msgid "'After' curve"
-msgstr ""
-
-#: TP_BWMIX_CYAN
-msgctxt "TP_BWMIX_CYAN"
-msgid "Cyan"
 msgstr ""
 
 #: TP_BWMIX_FILTER_BLUEGREEN
@@ -3524,44 +3618,27 @@ msgstr ""
 msgid "Color Filter"
 msgstr ""
 
-#: TP_BWMIX_GAM_BLUE,TP_CHMIXER_BLUE
-msgid "Blue Channel"
-msgstr ""
-
-#: TP_BWMIX_GAM_GREEN,TP_CHMIXER_GREEN
-msgid "Green Channel"
-msgstr ""
-
 #: TP_BWMIX_GAMMA
 msgid "Gamma Correction"
-msgstr ""
-
-#: TP_BWMIX_GAM_RED,TP_CHMIXER_RED
-msgid "Red Channel"
 msgstr ""
 
 #: TP_BWMIX_GAM_TOOLTIP
 msgid "Correct gamma for each RGB channel."
 msgstr ""
 
-#: TP_BWMIX_GREEN
-msgid "Green"
-msgstr ""
-
-#: TP_BWMIX_CHANNEL,TP_BWMIX_MET_LUMEQUAL
-msgid "Luminance Equalizer"
-msgstr ""
-
-#: TP_BWMIX_MAGENTA
-msgctxt "TP_BWMIX_MAGENTA"
-msgid "Magenta"
+#: TP_BWMIX_CHANNEL
+msgid "Luminance equalizer"
 msgstr ""
 
 #: TP_BWMIX_MET_DESAT
 msgid "Desaturation"
 msgstr ""
 
-#: TP_BWMIX_MET,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
+#: TP_BWMIX_MET_LUMEQUAL
+msgid "Luminance Equalizer"
+msgstr ""
+
+#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
 msgstr ""
 
@@ -3575,20 +3652,6 @@ msgstr ""
 
 #: TP_BWMIX_NEUTRAL
 msgid "Reset mixer"
-msgstr ""
-
-#: TP_BWMIX_ORANGE
-msgctxt "TP_BWMIX_ORANGE"
-msgid "Orange"
-msgstr ""
-
-#: TP_BWMIX_PURPLE
-msgctxt "TP_BWMIX_PURPLE"
-msgid "Purple"
-msgstr ""
-
-#: TP_BWMIX_RED,TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
-msgid "Red"
 msgstr ""
 
 #: TP_BWMIX_RGBLABEL_HINT
@@ -3684,17 +3747,16 @@ msgstr ""
 msgid "L"
 msgstr ""
 
-#: TP_BWMIX_YELLOW
-msgctxt "TP_BWMIX_YELLOW"
-msgid "Yellow"
-msgstr ""
-
-#: TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE
+#: TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE,TP_RAWEXPOS_BLACK_BLUE,TP_RAWEXPOS_BLACK_2
 msgid "Blue"
 msgstr ""
 
 #: TP_CACORRECTION_LABEL
 msgid "Chromatic Aberration Correction"
+msgstr ""
+
+#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_RAWEXPOS_BLACK_RED,TP_RAWEXPOS_BLACK_1,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
+msgid "Red"
 msgstr ""
 
 #: TP_COARSETRAF_TOOLTIP_HFLIP
@@ -3714,7 +3776,7 @@ msgid "Flip vertically."
 msgstr ""
 
 #: TP_COLORAPP_ADAP_AUTO_TOOLTIP
-msgid "If the checkbox is checked (recommended) RT calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first."
+msgid "If the checkbox is checked (recommended) RawTherapee calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
@@ -3758,7 +3820,7 @@ msgid "Algorithm"
 msgstr ""
 
 #: TP_COLORAPP_BADPIXSL_TOOLTIP
-msgid "Suppression of hot/bad (brightly colored) pixels.\n0 = no effect\n1 = median\n2 = gaussian.\n\nThese artifacts are due to limitations of CIECAM02. Alternatively, adjust the image to avoid very dark shadows."
+msgid "Suppression of hot/bad (brightly colored) pixels.\n0 = No effect\n1 = Median\n2 = Gaussian.\nAlternatively, adjust the image to avoid very dark shadows.\n\nThese artifacts are due to limitations of CIECAM02."
 msgstr ""
 
 #: TP_COLORAPP_BADPIXSL
@@ -3797,16 +3859,8 @@ msgstr ""
 msgid "Shows the histogram of L (Lab) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of J or Q after CIECAM02.\n\nJ and Q are not shown in the main histogram panel.\n\nFor final output refer to the main histogram panel."
 msgstr ""
 
-#: TP_COLORAPP_CURVEEDITOR1
-msgid "Tone curve 1"
-msgstr ""
-
 #: TP_COLORAPP_CURVEEDITOR2_TOOLTIP
 msgid "Same usage as with the second exposure tone curve."
-msgstr ""
-
-#: TP_COLORAPP_CURVEEDITOR2
-msgid "Tone curve 2"
 msgstr ""
 
 #: TP_COLORAPP_CURVEEDITOR3_TOOLTIP
@@ -3902,11 +3956,11 @@ msgid "WP Model"
 msgstr ""
 
 #: TP_COLORAPP_RSTPRO_TOOLTIP
-msgid "Red and skin tones protection (sliders and curves)."
+msgid "Red and skin-tones protection (sliders and curves)."
 msgstr ""
 
 #: TP_COLORAPP_RSTPRO
-msgid "Red & skin tones protection"
+msgid "Red & skin-tones protection"
 msgstr ""
 
 #: TP_COLORAPP_SURROUND_AVER
@@ -3981,8 +4035,124 @@ msgstr ""
 msgid "WB [RT] + [output]"
 msgstr ""
 
+#: TP_COLORTONING_AB,TP_COLORTONING_BY
+msgid "o C/L"
+msgstr ""
+
+#: TP_COLORTONING_BALANCE
+msgid "Balance"
+msgstr ""
+
+#: TP_COLORTONING_CURVEEDITOR_CL_TOOLTIP
+msgid "Opacity Chroma according to Luminance of C=f(L)"
+msgstr ""
+
+#: TP_COLORTONING_HUE,TP_PFCURVE_CURVEEDITOR_CH
+msgid "Hue"
+msgstr ""
+
+#: TP_COLORTONING_CHROMAC,TP_COLORTONING_OPACITY
+msgid "Opacity"
+msgstr ""
+
+#: TP_COLORTONING_LABCOL_TOOLTIP
+msgid "When you move a saturation slider, these 'direct' colors are increased."
+msgstr ""
+
+#: TP_COLORTONING_LABCOL
+msgid "Direct Colors"
+msgstr ""
+
+#: TP_COLORTONING_LABINT_TOOLTIP
+msgid "When the image color is blue and the blending color is red, it results in a magenta color in the function of % opacity.\nWhen the image color is red and the blending color is yellow, it results in an orange color in the function of % opacity."
+msgstr ""
+
+#: TP_COLORTONING_LABINT
+msgid "-"
+msgstr ""
+
+#: TP_COLORTONING_LAB
+msgid "Lab blending"
+msgstr ""
+
+#: TP_COLORTONING_LUMAMODE_TOOLTIP
+msgid "If enabled, when you change color (red, green, cyan, blue, etc.) the luminance of each pixel is preserved."
+msgstr ""
+
+#: TP_COLORTONING_LUMAMODE
+msgid "Preserve luminance"
+msgstr ""
+
+#: TP_COLORTONING_LUMA,TP_DIRPYRDENOISE_LUMA
+msgid "Luminance"
+msgstr ""
+
+#: TP_COLORTONING_METHOD_TOOLTIP
+msgid "\"Lab blending\", \"RGB sliders\" and \"RGB curves\" use interpolated color blending.\n\"Color balance (Shadows/Midtones/Highlights)\" and \"Saturation 2 colors\" use direct colors.\n\nThe Black-and-White tool can be enabled when using any color toning method, which allows for color toning."
+msgstr ""
+
+#: TP_COLORTONING_MIDTONES
+msgid "Midtones"
+msgstr ""
+
+#: TP_COLORTONING_NEUTRAL_TIP
+msgid "Reset all values (Shadows, Midtones, Highlights) to default."
+msgstr ""
+
+#: TP_COLORTONING_NEUTRAL
+msgid "Reset sliders"
+msgstr ""
+
+#: TP_COLORTONING_RGBCURVES
+msgid "RGB - Curves"
+msgstr ""
+
+#: TP_COLORTONING_RGBSLIDERS
+msgid "RGB - Sliders"
+msgstr ""
+
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH
+msgid "Strength"
+msgstr ""
+
+#: TP_COLORTONING_SA
+msgid "Saturation Protection"
+msgstr ""
+
+#: TP_COLORTONING_SPLITCOCO
+msgid "Color Balance Shadows/Midtones/Highlights"
+msgstr ""
+
+#: TP_COLORTONING_SPLITCO
+msgid "Shadows/Midtones/Highlights"
+msgstr ""
+
+#: TP_COLORTONING_SPLITLR
+msgid "Saturation 2 colors"
+msgstr ""
+
+#: TP_COLORTONING_TWOALL
+msgid "Special chroma"
+msgstr ""
+
+#: TP_COLORTONING_TWOBY
+msgid "Special 'a' and 'b'"
+msgstr ""
+
+#: TP_COLORTONING_TWOCOLOR_TOOLTIP
+msgid "Standard chroma:\nLinear response, a* = b*.\n\nSpecial chroma:\nLinear response, a* = b*, but unbound - try under the diagonal.\n\nSpecial a* and b*:\nLinear response unbound with separate curves for a* and b*. Intended for special effects.\n\nSpecial chroma 2 colors:\nMore predictable."
+msgstr ""
+
+#: TP_COLORTONING_TWOSTD
+msgid "Standard chroma"
+msgstr ""
+
+#: TP_COLORTONING_TWO2
+msgid "Special chroma '2 colors'"
+msgstr ""
+
 #: TP_CROP_FIXRATIO
-msgid "Fix ratio:"
+msgid "Lock ratio"
 msgstr ""
 
 #: TP_CROP_GTDIAGONALS
@@ -4022,7 +4192,7 @@ msgid "Rule of Thirds"
 msgstr ""
 
 #: TP_CROP_GUIDETYPE
-msgid "Guide Type:"
+msgid "Guide type:"
 msgstr ""
 
 #: TP_CROP_H
@@ -4054,16 +4224,16 @@ msgstr ""
 msgid "Auto-selection"
 msgstr ""
 
-#: TP_DARKFRAME_LABEL
-msgid "Dark Frame"
-msgstr ""
-
 #: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
 msgid "Radius"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_BLUE
 msgid "Chrominance - Blue-Yellow"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CURVEEDITOR_L_TOOLTIP
+msgid "Modulates action of 'Luminance' denoise"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_ENABLED_TOOLTIP
@@ -4090,32 +4260,100 @@ msgstr ""
 msgid "Chrominance - Master"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_LAB
+#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM
 msgid "Lab"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_LDETAIL
-msgid "Luminance Detail"
+#: TP_DIRPYRDENOISE_LCURVE
+msgid "Luminance curve"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_LUMA
-msgid "Luminance"
+#: TP_DIRPYRDENOISE_LDETAIL
+msgid "Luminance - Detail"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LM,TP_SHARPENEDGE_THREE
+msgid "Luminance only"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDMETHOD
+msgid "Median method"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MED_TOOLTIP
+msgid "Enabled median denoising"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDTYPE
+msgid "Median type"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MED
+msgid "Median"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_METHOD_TOOLTIP
 msgid "For raw images either RGB or Lab methods can be used.\n\nFor non-raw images the Lab method will be used, regardless of the selection."
 msgstr ""
 
-#: TP_DIRPYRDENOISE_PERF
-msgid "RGB mode (raw images)"
+#: TP_DIRPYRDENOISE_METHOD11_TOOLTIP
+msgid "Quality can be adapted to the noise pattern. A setting of \"high\" increases the noise reduction effect at a cost of extended processing time."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_METHOD11
+msgid "Quality"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_METM_TOOLTIP
+msgid "When using the \"Luminance only\" and \"Lab\" methods, median filtering will be performed just after the wavelet step in the noise reduction pipeline.\nWhen using the \"RGB\" mode, it will be performed at the very end of the noise reduction pipeline."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MET_TOOLTIP
+msgid "Apply a median filter of the desired size. The larger the size, the longer it takes.\n\n3x3 soft: treats 5 pixels in a 1-pixel range.\n3x3: treats 9 pixels in a 1-pixel range.\n5x5 soft: treats 13 pixels in a 2-pixel range.\n5x5: treats 25 pixels in a 2-pixel range.\n7x7: treats 49 pixels in a 3-pixel range.\n\nSometimes it is possible to achieve higher quality running several iterations with a small range than one iteration with a large range."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PASSES_TOOLTIP
+msgid "Applying a 3x3 median filter with three iterations often leads to better results than applying 7x7 once."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PASSES
+msgid "Median iterations"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_RED
 msgid "Chrominance - Red-Green"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_RGB
+#: TP_DIRPYRDENOISE_RGB,TP_DIRPYRDENOISE_RGBM
 msgid "RGB"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_SHALBI
+msgid "High"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_SHAL,TP_EXPOSURE_TCMODE_STANDARD
+msgid "Standard"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_SOFT
+msgid "3x3"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_33
+msgid "3×3 strong"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_55SOFT
+msgid "5×5"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_55
+msgid "5×5 strong"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_77
+msgid "7×7 (slow)"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_ALGO_FI
@@ -4127,23 +4365,23 @@ msgid "Large"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_ALGO_TOOLTIP
-msgid "Fine: closer to the colors of the skin, minimizing the action on other colors\nLarge: avoid more artifacts"
+msgid "Fine: closer to the colors of the skin, minimizing the action on other colors\nLarge: avoid more artifacts."
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_ALGO
-msgid "Algorithm Skin"
+msgid "Skin Color Range"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_GAMUT
-msgid "Reduce artifacts  "
+msgid "Reduce artifacts"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_HUESKIN_TOOLTIP
-msgid "This pyramid is for the upper part, so far as the algorithm at its maximum efficiency.\nTo the lower part, the transition zones.\nIf you need to move the area significantly to the left or right - or if there are artifacts: the <b>white balance is incorrect</b>\nYou can slightly reduce the zone to prevent the rest of the image is affected"
+msgid "This pyramid is for the upper part, so far as the algorithm at its maximum efficiency.\nTo the lower part, the transition zones.\nIf you need to move the area significantly to the left or right - or if there are artifacts: the <b>white balance is incorrect</b>\nYou can slightly reduce the zone to prevent the rest of the image is affected."
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_HUESKIN
-msgid "Skin hue "
+msgid "Skin hue"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_LUMACOARSEST
@@ -4151,11 +4389,11 @@ msgid "Coarsest"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_LUMACONTRAST_MINUS
-msgid "Contrast-"
+msgid "Contrast -"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_LUMACONTRAST_PLUS
-msgid "Contrast+ "
+msgid "Contrast +"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_LUMAFINEST
@@ -4163,15 +4401,15 @@ msgid "Finest"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_SKIN_TOOLTIP
-msgid "At -100 skin tones are targetted.\nAt 0 all tones are treated equally.\nAt +100 skin tones are protected while all other tones are affected."
+msgid "At -100 skin-tones are targetted.\nAt 0 all tones are treated equally.\nAt +100 skin-tones are protected while all other tones are affected."
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_SKIN
-msgid "Skin Tones Targetting/Protection"
+msgid "Skin-tones targetting/protection"
 msgstr ""
 
 #: TP_DIRPYREQUALIZER_TOOLTIP
-msgid "Attempts to reduce artifacts due to the transitions between the color (hue, chroma, luma) of the skin and the rest of the image"
+msgid "Attempts to reduce artifacts in the transitions between skin colors (hue, chroma, luma) and the rest of the image."
 msgstr ""
 
 #: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
@@ -4186,32 +4424,36 @@ msgstr ""
 msgid "Auto Distortion Correction"
 msgstr ""
 
+#: TP_DISTORTION_LABEL
+msgid "Distortion Correction"
+msgstr ""
+
 #: TP_EPD_EDGESTOPPING
-msgid "Edge Stopping"
+msgid "Edge stopping"
 msgstr ""
 
 #: TP_EPD_REWEIGHTINGITERATES
-msgid "Reweighting Iterates"
+msgid "Reweighting iterates"
 msgstr ""
 
 #: TP_EPD_SCALE,TP_RESIZE_SCALE
 msgid "Scale"
 msgstr ""
 
-#: TP_EPD_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH
-msgid "Strength"
-msgstr ""
-
 #: TP_EPD_TOOLTIP
 msgid "Tone mapping is possible via Lab mode (standard) and CIECAM02 mode.\n\nTo engage CIECAM02 tone mapping mode enable the following settings:\n1. CIECAM02\n2. Algorithm=\"Brightness + Colorfulness (QM)\"\n3. \"Tone mapping using CIECAM02 brightness (Q)\""
 msgstr ""
 
-#: TP_EXPOSCORR_LABEL
-msgid "Raw White & Black Points"
+#: TP_EXPOS_BLACKPOINT_LABEL
+msgid "Raw Black Points"
 msgstr ""
 
 #: TP_EXPOSURE_AUTOLEVELS_TIP
 msgid "Toggles execution of Auto Levels to automatically set Exposure slider values based on an image analysis.\nEnables Highlight Reconstruction if necessary."
+msgstr ""
+
+#: TP_EXPOSURE_AUTOLEVELS
+msgid "Auto Levels"
 msgstr ""
 
 #: TP_EXPOSURE_CLIP_TIP
@@ -4223,7 +4465,7 @@ msgid "Clip %"
 msgstr ""
 
 #: TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
-msgid "Highlight Compression Threshold"
+msgid "Highlight compression threshold"
 msgstr ""
 
 #: TP_EXPOSURE_CURVEEDITOR2_TOOLTIP
@@ -4238,20 +4480,24 @@ msgstr ""
 msgid "Saturation and Value Blending"
 msgstr ""
 
-#: TP_EXPOSURE_TCMODE_STANDARD
-msgid "Standard"
-msgstr ""
-
 #: TP_EXPOSURE_TCMODE_WEIGHTEDSTD
 msgid "Weighted Standard"
 msgstr ""
 
+#: TP_EXPOS_WHITEPOINT_LABEL
+msgid "Raw White Points"
+msgstr ""
+
+#: TP_FILMSIMULATION_ZEROCLUTSFOUND
+msgid "Set HaldCLUT directory in Preferences"
+msgstr ""
+
 #: TP_FLATFIELD_BLURRADIUS
-msgid "Blur Radius"
+msgid "Blur radius"
 msgstr ""
 
 #: TP_FLATFIELD_BLURTYPE
-msgid "Blur Type"
+msgid "Blur type"
 msgstr ""
 
 #: TP_FLATFIELD_BT_AREA
@@ -4270,8 +4516,16 @@ msgstr ""
 msgid "Vertical"
 msgstr ""
 
-#: TP_GAMMA_FREE
-msgid "Free gamma"
+#: TP_FLATFIELD_CLIPCONTROL_TOOLTIP
+msgid "Clip control avoids clipped highlights caused by applying the flat field. If there are already clipped highlights before applying the flat field, clip control can lead to color cast."
+msgstr ""
+
+#: TP_FLATFIELD_CLIPCONTROL
+msgid "Clip control"
+msgstr ""
+
+#: TP_FLATFIELD_FILEDLGFILTERFF
+msgid "Same format as current photo"
 msgstr ""
 
 #: TP_GAMMA_SLOP
@@ -4361,6 +4615,18 @@ msgstr ""
 
 #: TP_HSVEQUALIZER_VAL
 msgid "V"
+msgstr ""
+
+#: TP_CHMIXER_BLUE
+msgid "Blue channel"
+msgstr ""
+
+#: TP_CHMIXER_GREEN
+msgid "Green channel"
+msgstr ""
+
+#: TP_CHMIXER_RED
+msgid "Red channel"
 msgstr ""
 
 #: TP_CHROMATABERR_LABEL
@@ -4457,6 +4723,10 @@ msgstr ""
 
 #: TP_ICM_WORKINGPROFILE
 msgid "Working Profile"
+msgstr ""
+
+#: TP_IMPULSEDENOISE_LABEL
+msgid "Impulse Noise Reduction"
 msgstr ""
 
 #: TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP
@@ -4580,15 +4850,15 @@ msgid "Lab Adjustments"
 msgstr ""
 
 #: TP_LABCURVE_LCREDSK_TIP
-msgid "If enabled, the LC Curve affects only red and skin tones.\nIf disabled, it applies to all tones."
+msgid "If enabled, the LC Curve affects only red and skin-tones.\nIf disabled, it applies to all tones."
 msgstr ""
 
 #: TP_LABCURVE_LCREDSK
-msgid "Restrict LC to red and skin tones"
+msgid "Restrict LC to red and skin-tones"
 msgstr ""
 
 #: TP_LABCURVE_RSTPROTECTION
-msgid "Red and Skin Tones Protection"
+msgid "Red and skin-tones protection"
 msgstr ""
 
 #: TP_LABCURVE_RSTPRO_TOOLTIP
@@ -4609,10 +4879,6 @@ msgstr ""
 
 #: TP_LENSPROFILE_LABEL
 msgid "Lens Correction Profile"
-msgstr ""
-
-#: TP_LENSPROFILE_USECA
-msgid "CA Correction"
 msgstr ""
 
 #: TP_NEUTRAL_TIP
@@ -4639,12 +4905,12 @@ msgstr ""
 msgid "Controls defringe strength by color.\nHigher = more,\nLower = less."
 msgstr ""
 
-#: TP_PFCURVE_CURVEEDITOR_CH
-msgid "Hue"
+#: TP_PREPROCESS_DEADPIXFILT_TOOLTIP
+msgid "Tries to suppress dead pixels."
 msgstr ""
 
-#: TP_PREPROCESS_HOTDEADPIXFILT_TOOLTIP
-msgid "Tries to suppress hot and dead pixels."
+#: TP_PREPROCESS_HOTPIXFILT_TOOLTIP
+msgid "Tries to suppress hot pixels."
 msgstr ""
 
 #: TP_PREPROCESS_LABEL
@@ -4655,16 +4921,8 @@ msgstr ""
 msgid "None found"
 msgstr ""
 
-#: TP_RAW_ALLENHANCE
-msgid "Post-Demosaic Artifact/Noise Reduction"
-msgstr ""
-
 #: TP_RAWCACORR_AUTO
 msgid "Auto-correction"
-msgstr ""
-
-#: TP_RAW_DCBITERATIONS
-msgid "Number of DCB Iterations"
 msgstr ""
 
 #: TP_RAW_DMETHOD_PROGRESSBAR_REFINE
@@ -4679,24 +4937,28 @@ msgstr ""
 msgid "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise reduction without leading to posterization or a washed-out look."
 msgstr ""
 
-#: TP_RAWEXPOS_BLACKONE
-msgid "Black Level: Red"
+#: TP_RAWEXPOS_BLACK_GREEN
+msgid "Green"
 msgstr ""
 
 #: TP_RAWEXPOS_BLACKS
 msgid "Black Levels"
 msgstr ""
 
-#: TP_RAWEXPOS_BLACKTHREE
-msgid "Black Level: Green 2"
+#: TP_RAWEXPOS_BLACK_0
+msgid "Green 1 (lead)"
 msgstr ""
 
-#: TP_RAWEXPOS_BLACKTWO
-msgid "Black Level: Blue"
+#: TP_RAWEXPOS_BLACK_3
+msgid "Green 2"
 msgstr ""
 
-#: TP_RAWEXPOS_BLACKZERO
-msgid "Black Level: Green 1 (lead)"
+#: TP_RAWEXPOS_LINEAR
+msgid "White-point correction"
+msgstr ""
+
+#: TP_RAWEXPOS_RGB
+msgid "Red, Green, Blue"
 msgstr ""
 
 #: TP_RAWEXPOS_TWOGREEN
@@ -4704,7 +4966,7 @@ msgid "Link greens"
 msgstr ""
 
 #: TP_RAW_FALSECOLOR
-msgid "False Color Suppression Steps"
+msgid "False color suppression steps"
 msgstr ""
 
 #: TP_RAW_LABEL
@@ -4715,16 +4977,28 @@ msgstr ""
 msgid "Adds gamma (step 1), median (steps 2-4) and refinement (steps 5-6) to reduce artifacts and improve the signal-to-noise ratio."
 msgstr ""
 
+#: TP_RAW_SENSOR_BAYER_LABEL
+msgid "Sensor with Bayer Matrix"
+msgstr ""
+
+#: TP_RAW_SENSOR_XTRANS_DMETHOD_TOOLTIP
+msgid "3-pass gives best results (recommended for low ISO images).\n1-pass is almost undistinguishable from 3-pass for high ISO images and is faster."
+msgstr ""
+
+#: TP_RAW_SENSOR_XTRANS_LABEL
+msgid "Sensor with X-Trans Matrix"
+msgstr ""
+
 #: TP_RESIZE_APPLIESTO
 msgid "Applies to:"
 msgstr ""
 
 #: TP_RESIZE_BICUBICSF
-msgid "Bicubic (Softer)"
+msgid "Bicubic (softer)"
 msgstr ""
 
 #: TP_RESIZE_BICUBICSH
-msgid "Bicubic (Sharper)"
+msgid "Bicubic (sharper)"
 msgstr ""
 
 #: TP_RESIZE_BICUBIC
@@ -4780,11 +5054,11 @@ msgid "RGB Curves"
 msgstr ""
 
 #: TP_RGBCURVES_LUMAMODE_TOOLTIP
-msgid "<b>Luminosity Mode</b> allows to vary the contribution of R, G and B channels to the Luminosity of the image, without altering image color.    "
+msgid "<b>Luminosity mode</b> allows to vary the contribution of R, G and B channels to the luminosity of the image, without altering image color."
 msgstr ""
 
 #: TP_RGBCURVES_LUMAMODE
-msgid "Luminosity Mode"
+msgid "Luminosity mode"
 msgstr ""
 
 #: TP_RGBCURVES_RED
@@ -4808,11 +5082,11 @@ msgid "Shortcut: <b>Ctrl-Enter</b>"
 msgstr ""
 
 #: TP_SHADOWSHLIGHTS_HLTONALW
-msgid "Tonal Width for Highlights"
+msgid "Tonal width for highlights"
 msgstr ""
 
 #: TP_SHADOWSHLIGHTS_LOCALCONTR
-msgid "Local Contrast"
+msgid "Local contrast"
 msgstr ""
 
 #: TP_SHADOWSHLIGHTS_SHARPMASK
@@ -4820,7 +5094,7 @@ msgid "Sharp mask"
 msgstr ""
 
 #: TP_SHADOWSHLIGHTS_SHTONALW
-msgid "Tonal Width for Shadows"
+msgid "Tonal width for shadows"
 msgstr ""
 
 #: TP_SHARPENEDGE_AMOUNT,TP_SHARPENMICRO_AMOUNT
@@ -4831,12 +5105,8 @@ msgstr ""
 msgid "Iterations"
 msgstr ""
 
-#: TP_SHARPENEDGE_THREE
-msgid "Luminance only"
-msgstr ""
-
 #: TP_SHARPENING_EDTOLERANCE
-msgid "Edge Tolerance"
+msgid "Edge tolerance"
 msgstr ""
 
 #: TP_SHARPENING_HALOCONTROL
@@ -4872,7 +5142,7 @@ msgid "Uniformity"
 msgstr ""
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL
-msgid "Skin tones"
+msgid "Skin-tones"
 msgstr ""
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1
@@ -4896,7 +5166,7 @@ msgid "Link pastel and saturated tones"
 msgstr ""
 
 #: TP_VIBRANCE_PROTECTSKINS
-msgid "Protect skin tones"
+msgid "Protect skin-tones"
 msgstr ""
 
 #: TP_VIBRANCE_PSTHRESHOLD_SATTHRESH
@@ -4936,7 +5206,7 @@ msgid "Allows to deviate from the normal behavior of \"white balance\" by modula
 msgstr ""
 
 #: TP_WBALANCE_EQBLUERED
-msgid "Blue/Red Equalizer"
+msgid "Blue/Red equalizer"
 msgstr ""
 
 #: TP_WBALANCE_FLASH_HEADER
