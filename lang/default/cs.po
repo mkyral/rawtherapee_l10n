@@ -1,11 +1,11 @@
-# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014.
+# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-10-10 17:33+0200\n"
-"PO-Revision-Date: 2014-10-24 12:46+0200\n"
-"Last-Translator: Marian Kyral <mkyral@email.cz>\n"
+"POT-Creation-Date: 2015-01-28 05:20+0100\n"
+"PO-Revision-Date: 2015-01-29 20:36+0100\n"
+"Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Cesta a název souboru"
 msgid "Curves"
 msgstr "Křivky"
 
-#: CURVEEDITOR_CURVE
+#: CURVEEDITOR_CURVE,TP_DIRPYRDENOISE_CUR
 msgid "Curve"
 msgstr "Křivka"
 
@@ -91,8 +91,8 @@ msgid "Load curve..."
 msgstr "Načíst křivku..."
 
 #: CURVEEDITOR_MINMAXCPOINTS
-msgid "Minima/Maxima control points"
-msgstr "Min/Max kontrolní body"
+msgid "Equalizer"
+msgstr "Korekce"
 
 #: CURVEEDITOR_NURBS
 msgid "Control cage"
@@ -878,10 +878,10 @@ msgstr ""
 #: FILEBROWSER_SHOWTRASHHINT
 msgid ""
 "Show contents of trash.\n"
-"Shortcut: <b>t</b>"
+"Shortcut: <b>Ctrl-t</b>"
 msgstr ""
 "Ukázat obsah koše.\n"
-"Zkratka: <b>t</b>"
+"Zkratka: <b>Ctrl-t</b>"
 
 #: FILEBROWSER_SHOWUNCOLORHINT
 msgid ""
@@ -967,7 +967,7 @@ msgstr "O programu"
 msgid "After"
 msgstr "Poté"
 
-#: GENERAL_AUTO,TP_COLORTONING_AUTOSAT
+#: GENERAL_AUTO,PREFERENCES_GREYSCA,TP_COLORTONING_AUTOSAT
 msgid "Automatic"
 msgstr "Automaticky"
 
@@ -1011,11 +1011,11 @@ msgstr "Na šířku"
 msgid "n/a"
 msgstr "n/a"
 
-#: GENERAL_NONE,TP_CROP_GTNONE
+#: GENERAL_NONE,PREFERENCES_AUTLISVLOW,TP_CROP_GTNONE
 msgid "None"
 msgstr "Nic"
 
-#: GENERAL_NO
+#: GENERAL_NO,PREFERENCES_WLZER
 msgid "No"
 msgstr "Ne"
 
@@ -1064,8 +1064,8 @@ msgid "Show/Hide chromaticity histogram."
 msgstr "Skrýt/Zobrazit histogram barevnosti."
 
 #: HISTOGRAM_TOOLTIP_L
-msgid "Show/Hide CIELAB luminance histogram."
-msgstr "Skrýt/Zobrazit CIELAB histogram jasu."
+msgid "Show/Hide CIELab luminance histogram."
+msgstr "Skrýt/Zobrazit CIELab histogram jasu."
 
 #: HISTOGRAM_TOOLTIP_RAW
 msgid "Show/Hide raw histogram."
@@ -1103,9 +1103,9 @@ msgstr "Fotka načtena"
 msgid "Shadow compression"
 msgstr "Komprese stínů"
 
-#: HISTORY_MSG_100,PREFERENCES_INTENT_SATURATION,TP_COLORAPP_TCMODE_SATUR,TP_EXPOSURE_SATURATION
-msgid "Saturation"
-msgstr "Sytost"
+#: HISTORY_MSG_100
+msgid "RGB Saturation"
+msgstr "Sytost RGB"
 
 #: HISTORY_MSG_101
 msgid "HSV - Hue"
@@ -1152,16 +1152,16 @@ msgid "Resize - Applies to"
 msgstr "Změna rozměrů - aplikována na"
 
 #: HISTORY_MSG_111
-msgid "Lab - Avoid color shift"
-msgstr "Lab - Zabránit posunu barev"
+msgid "L*a*b* - Avoid color shift"
+msgstr "L*a*b* - Zabránit posunu barev"
 
 #: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
 msgid "--unused--"
 msgstr "--nepoužito--"
 
 #: HISTORY_MSG_113
-msgid "Lab - Protection"
-msgstr "Lab - Ochrana"
+msgid "L*a*b* - Protection"
+msgstr "L*a*b* - Ochrana"
 
 #: HISTORY_MSG_114
 msgid "DCB iterations"
@@ -1272,8 +1272,8 @@ msgid "Black level - Blue"
 msgstr "Úroveň černé - Modrá"
 
 #: HISTORY_MSG_14
-msgid "Lab - Lightness"
-msgstr "Lab - Světlost"
+msgid "L*a*b* - Lightness"
+msgstr "L*a*b* - Světlost"
 
 #: HISTORY_MSG_140
 msgid "Black level - Green 2"
@@ -1316,8 +1316,8 @@ msgid "Microcontrast - 3x3 matrix"
 msgstr "Mikrokontrast - Matice 3×3"
 
 #: HISTORY_MSG_15
-msgid "Lab - Contrast"
-msgstr "Lab - Kontrast"
+msgid "L*a*b* - Contrast"
+msgstr "L*a*b* - Kontrast"
 
 #: HISTORY_MSG_150
 msgid "Post-demosaic artifact/noise reduction"
@@ -1359,9 +1359,9 @@ msgstr "MT - Síla"
 msgid "TM - Edge stopping"
 msgstr "MT - Míra zachování hran"
 
-#: HISTORY_MSG_16
-msgid "Luminance black"
-msgstr "Jas černé"
+#: HISTORY_MSG_16,HISTORY_MSG_17,HISTORY_MSG_18,HISTORY_MSG_300,HISTORY_MSG_78
+msgid "-"
+msgstr "-"
 
 #: HISTORY_MSG_160
 msgid "TM - Scale"
@@ -1392,34 +1392,30 @@ msgid "Neutral levels"
 msgstr "Neutrální úrovně"
 
 #: HISTORY_MSG_168
-msgid "Lab - CC curve"
-msgstr "Lab - CC křivka"
+msgid "L*a*b* - CC curve"
+msgstr "L*a*b* - CC křivka"
 
 #: HISTORY_MSG_169
-msgid "Lab - CH curve"
-msgstr "Lab - CH Křivka"
-
-#: HISTORY_MSG_17
-msgid "Luminance highlight Compr."
-msgstr "Jas komprese světel"
+msgid "L*a*b* - CH curve"
+msgstr "L*a*b* - CH Křivka"
 
 #: HISTORY_MSG_170
 msgid "Vibrance - HH curve"
 msgstr "Živost - HH křivka"
 
 #: HISTORY_MSG_171
-msgid "Lab - LC curve"
-msgstr "Lab - LC křivka"
+msgid "L*a*b* - LC curve"
+msgstr "L*a*b* - LC křivka"
 
 #: HISTORY_MSG_172
-msgid "Lab - Restrict LC"
-msgstr "Lab - Omezit LC"
+msgid "L*a*b* - Restrict LC"
+msgstr "L*a*b* - Omezení LC"
 
 #: HISTORY_MSG_173
 msgid "NR - Luminance detail"
 msgstr "Redukce šumu - Jas detailu"
 
-#: HISTORY_MSG_174
+#: HISTORY_MSG_174,PARTIALPASTE_COLORAPP
 msgid "CIECAM02"
 msgstr "CIECAM02"
 
@@ -1442,10 +1438,6 @@ msgstr "CAM02 - Svítivost prohlížení"
 #: HISTORY_MSG_179
 msgid "CAM02 - White-point model"
 msgstr "CAM02 - Model bílého bodu"
-
-#: HISTORY_MSG_18
-msgid "Luminance shadow Compr."
-msgstr "Jas komprese stínů"
 
 #: HISTORY_MSG_180
 msgid "CAM02 - Lightness (J)"
@@ -1488,8 +1480,8 @@ msgid "CAM02 - Contrast (Q)"
 msgstr "CAM02 - Kontrast (Q)"
 
 #: HISTORY_MSG_19
-msgid "'L' Curve"
-msgstr "'L' křivka"
+msgid "L*a*b* - L* curve"
+msgstr "L*a*b* - L* křivka"
 
 #: HISTORY_MSG_190
 msgid "CAM02 - Saturation (S)"
@@ -1720,16 +1712,16 @@ msgid "VC - Center"
 msgstr "Vínětace - Střed"
 
 #: HISTORY_MSG_246
-msgid "CL curve"
-msgstr "CL křivka"
+msgid "L*a*b* - CL curve"
+msgstr "L*a*b* - CL křivka"
 
 #: HISTORY_MSG_247
-msgid "LH curve"
-msgstr "LH křivka"
+msgid "L*a*b* - LH curve"
+msgstr "L*a*b* - LH Křivka"
 
 #: HISTORY_MSG_248
-msgid "HH curve"
-msgstr "HH křivka"
+msgid "L*a*b* - HH curve"
+msgstr "L*a*b* - HH Křivka"
 
 #: HISTORY_MSG_249
 msgid "CbDL - Threshold"
@@ -1772,55 +1764,55 @@ msgid "Color Toning"
 msgstr "Barevné tónování"
 
 #: HISTORY_MSG_258
-msgid "Color Toning - Color"
-msgstr "Barevné tónování - Barva"
+msgid "CT - Color curve"
+msgstr "Barevní tónování - Barevná křivka"
 
-#: HISTORY_MSG_259,HISTORY_MSG_276
-msgid "Color Toning - Opacity"
-msgstr "Barevné tónování - Průhlednost"
+#: HISTORY_MSG_259
+msgid "CT - Opacity curve"
+msgstr "Barevné tónování - Křivka neprůhlednosti"
 
 #: HISTORY_MSG_26
 msgid "USM - Edge tolerance"
 msgstr "Doostření - Tolerance okrajů"
 
 #: HISTORY_MSG_260
-msgid "Color Toning - 'a[b]' opacity"
-msgstr "Barevné tónování - \"a[b]\" průhlednost"
+msgid "CT - a*[b*] opacity"
+msgstr "Barevné tónování - a*[b*] neprůhlednost"
 
 #: HISTORY_MSG_261
-msgid "Color Toning - Method"
+msgid "CT - Method"
 msgstr "Barevné tónování - Metoda"
 
 #: HISTORY_MSG_262
-msgid "Color Toning - 'b' opacity"
-msgstr "Barevné tónování - \"b\" průhlednost"
+msgid "CT - b* opacity"
+msgstr "Barevné tónování - b* neprůhlednost"
 
 #: HISTORY_MSG_263
-msgid "Color Toning - Shadows - Red"
+msgid "CT - Shadows - Red"
 msgstr "Barevné tónování - Stíny - červená"
 
 #: HISTORY_MSG_264
-msgid "Color Toning - Shadows - Green"
+msgid "CT - Shadows - Green"
 msgstr "Barevné tónování - Stíny - zelená"
 
 #: HISTORY_MSG_265
-msgid "Color Toning - Shadows - Blue"
+msgid "CT - Shadows - Blue"
 msgstr "Barevné tónování - Stíny - modrá"
 
 #: HISTORY_MSG_266
-msgid "Color Toning - Mid - Red"
+msgid "CT - Mid - Red"
 msgstr "Barevné tónování - Střední tóny - červená"
 
 #: HISTORY_MSG_267
-msgid "Color Toning - Mid - Green"
-msgstr "Barevné tónování - Střed- zelená"
+msgid "CT - Mid - Green"
+msgstr "Barevné tónování - Střední tóny - zelená"
 
 #: HISTORY_MSG_268
-msgid "Color Toning - Mid - Blue"
+msgid "CT - Mid - Blue"
 msgstr "Barevné tónování - Střední tóny - modrá"
 
 #: HISTORY_MSG_269
-msgid "Color Toning - High - Red"
+msgid "CT - High - Red"
 msgstr "Barevné tónování - Světla - červená"
 
 #: HISTORY_MSG_27
@@ -1828,35 +1820,39 @@ msgid "USM - Halo control"
 msgstr "Doostření - Omezení haló art."
 
 #: HISTORY_MSG_270
-msgid "Color Toning - High - Green"
+msgid "CT - High - Green"
 msgstr "Barevné tónování - Světla - zelená"
 
 #: HISTORY_MSG_271
-msgid "Color Toning - High - Blue"
+msgid "CT - High - Blue"
 msgstr "Barevné tónování - Světla - modrá"
 
 #: HISTORY_MSG_272
-msgid "Color Toning - Balance"
+msgid "CT - Balance"
 msgstr "Barevné tónování - Vyvážení"
 
 #: HISTORY_MSG_273
-msgid "Color Toning - Reset"
+msgid "CT - Reset"
 msgstr "Barevné tónování - Obnovení"
 
 #: HISTORY_MSG_274
-msgid "Color Toning - Sat. Shadows"
+msgid "CT - Sat. Shadows"
 msgstr "Barevné tónování - Saturace stínů"
 
 #: HISTORY_MSG_275
-msgid "Color Toning - Sat. Highlights"
+msgid "CT - Sat. Highlights"
 msgstr "Barevné tónování - Saturace světel"
 
+#: HISTORY_MSG_276
+msgid "CT - Opacity"
+msgstr "Barevné tónování  - Neprůhlednost"
+
 #: HISTORY_MSG_278
-msgid "Color Toning - Preserve luminance"
-msgstr "Barevné tónování - Saturace jasů"
+msgid "CT - Preserve luminance"
+msgstr "Barevné tónování - Zachování jasu"
 
 #: HISTORY_MSG_279
-msgid "Color Toning - Shadows"
+msgid "CT - Shadows"
 msgstr "Barevné tónování - Stíny"
 
 #: HISTORY_MSG_28
@@ -1864,23 +1860,23 @@ msgid "USM - Halo control amount"
 msgstr "Doostření - Míra omezení haló art."
 
 #: HISTORY_MSG_280
-msgid "Color Toning - Highlights"
+msgid "CT - Highlights"
 msgstr "Barevné tónování - Světla"
 
 #: HISTORY_MSG_281
-msgid "Color Toning - Sat. strength"
+msgid "CT - Sat. strength"
 msgstr "Barevné tónování - Síla saturace"
 
 #: HISTORY_MSG_282
-msgid "Color Toning - Sat. threshold"
+msgid "CT - Sat. threshold"
 msgstr "Barevné tónování - Práh saturace"
 
 #: HISTORY_MSG_283
-msgid "Color Toning - Strength"
-msgstr "Barevné tónování - síla"
+msgid "CT - Strength"
+msgstr "Barevné tónování - Síla"
 
 #: HISTORY_MSG_284
-msgid "Color Toning - Auto sat. protection"
+msgid "CT - Auto sat. protection"
 msgstr "Barevné tónování - Aut. ochrana saturace"
 
 #: HISTORY_MSG_285
@@ -1932,16 +1928,20 @@ msgid "Film Simulation - Film"
 msgstr "Simulace filmu - Film"
 
 #: HISTORY_MSG_296
-msgid "NR - Modulate luminance"
-msgstr "Redukce šumu - Modulace jasu"
+msgid "NR - Luminance curve"
+msgstr "Redukce šumu - Křivka jasů"
 
 #: HISTORY_MSG_297
 msgid "NR - Quality"
 msgstr "Redukce šumu - Kvalita"
 
-#: HISTORY_MSG_298,TP_PREPROCESS_DEADPIXFILT
+#: HISTORY_MSG_298,PARTIALPASTE_PREPROCESS_DEADPIXFILT,TP_PREPROCESS_DEADPIXFILT
 msgid "Dead pixel filter"
 msgstr "Filtr mrtvých pixelů"
+
+#: HISTORY_MSG_299
+msgid "NR - Chrominance curve"
+msgstr "Redukce šumu - Křivka barevnosti"
 
 #: HISTORY_MSG_3
 msgid "PP3 changed"
@@ -1950,6 +1950,14 @@ msgstr "PP3 změněn"
 #: HISTORY_MSG_30
 msgid "RLD - Radius"
 msgstr "RLD - Poloměr"
+
+#: HISTORY_MSG_301
+msgid "NR - Luma control"
+msgstr "Redukce šumu - Nastavení jasu"
+
+#: HISTORY_MSG_302,HISTORY_MSG_303
+msgid "NR - Chroma method"
+msgstr "Redukce šumu - Metoda barevnosti"
 
 #: HISTORY_MSG_31
 msgid "RLD - Amount"
@@ -2151,10 +2159,6 @@ msgstr "Exif metadata"
 msgid "IPTC metadata"
 msgstr "IPTC metadata"
 
-#: HISTORY_MSG_78
-msgid "Data specified for resize"
-msgstr "Data pro změnu rozměrů"
-
 #: HISTORY_MSG_79
 msgid "Resize - Width"
 msgstr "Změna velikosti - šířka"
@@ -2199,7 +2203,7 @@ msgstr "Redukce impulzního šumu"
 msgid "Impulse NR threshold"
 msgstr "Redukce impulzního šumu - práh"
 
-#: HISTORY_MSG_89,TP_DIRPYRDENOISE_LABEL
+#: HISTORY_MSG_89,PREFERENCES_NOISE,TP_DIRPYRDENOISE_LABEL
 msgid "Noise Reduction"
 msgstr "Redukce šumu"
 
@@ -2228,22 +2232,22 @@ msgid "Contrast by Detail Levels"
 msgstr "Kontrast dle detailu úrovní"
 
 #: HISTORY_MSG_95
-msgid "Lab - Chromaticity"
-msgstr "Lab - Barevnost"
+msgid "L*a*b* - Chromaticity"
+msgstr "L*a*b* - Barevnost"
 
 #: HISTORY_MSG_96
-msgid "'a' Curve"
-msgstr "'a' křivka"
+msgid "L*a*b* - a* curve"
+msgstr "L*a*b* - CC křivka"
 
 #: HISTORY_MSG_97
-msgid "'b' Curve"
-msgstr "'b' křivka"
+msgid "L*a*b* - b* curve"
+msgstr "L*a*b* - CC křivka"
 
 #: HISTORY_MSG_98
 msgid "Demosaicing method"
 msgstr "Metoda demozajkování"
 
-#: HISTORY_MSG_99,TP_PREPROCESS_HOTPIXFILT
+#: HISTORY_MSG_99,PARTIALPASTE_PREPROCESS_HOTPIXFILT,TP_PREPROCESS_HOTPIXFILT
 msgid "Hot pixel filter"
 msgstr "Filtr vypálených pixelů"
 
@@ -2680,7 +2684,7 @@ msgstr "Detaily"
 msgid " Develop "
 msgstr " Vyvolání "
 
-#: MAIN_TAB_EXIF
+#: MAIN_TAB_EXIF,PARTIALPASTE_EXIFCHANGES
 msgid "Exif"
 msgstr "Exif"
 
@@ -2700,7 +2704,11 @@ msgstr "Zkratka: <b>Alt-e</b>"
 msgid " Filter "
 msgstr " Filtr "
 
-#: MAIN_TAB_IPTC
+#: MAIN_TAB_INSPECT
+msgid " Inspect"
+msgstr " Prohlížení"
+
+#: MAIN_TAB_IPTC,PARTIALPASTE_IPTCINFO
 msgid "IPTC"
 msgstr "IPTC"
 
@@ -2879,10 +2887,10 @@ msgstr ""
 #: MAIN_TOOLTIP_SHOWHIDETP1
 msgid ""
 "Show/Hide the top panel.\n"
-"Shortcut: <b>Shift-L</b>"
+"Shortcut: <b>Shift-l</b>"
 msgstr ""
 "Zobrazit/skrýt horní panel.\n"
-"Zkratka: <b>Shift-L</b>"
+"Zkratka: <b>Shift-l</b>"
 
 #: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_SHARPENING_THRESHOLD
 msgid "Threshold"
@@ -2904,21 +2912,21 @@ msgstr "B:"
 msgid "G:"
 msgstr "G:"
 
-#: NAVIGATOR_H,TP_RESIZE_H
+#: NAVIGATOR_H
 msgid "H:"
 msgstr "H:"
 
 #: NAVIGATOR_LAB_A
-msgid "a:"
-msgstr "a:"
+msgid "a*:"
+msgstr "a*:"
 
 #: NAVIGATOR_LAB_B
-msgid "b:"
-msgstr "b:"
+msgid "b*:"
+msgstr "b*:"
 
 #: NAVIGATOR_LAB_L
-msgid "L:"
-msgstr "L:"
+msgid "L*:"
+msgstr "L*:"
 
 #: NAVIGATOR_NA
 msgid " --"
@@ -2982,12 +2990,8 @@ msgid "Chromatic aberration correction"
 msgstr "Korekce chromatické aberace"
 
 #: PARTIALPASTE_COARSETRANS
-msgid "90° rotation / flipping"
-msgstr "Rotace o 90° / překlopení"
-
-#: PARTIALPASTE_COLORAPP,TP_COLORAPP_LABEL
-msgid "CIE Color Appearance Model 2002"
-msgstr "CIE model přizpůsobení barev 2002"
+msgid "Coarse rotation / flipping"
+msgstr "Hrubá rotace a překlopení"
 
 #: PARTIALPASTE_COLORGROUP
 msgid "Color Related Settings"
@@ -3029,10 +3033,6 @@ msgstr "Mapování tónů"
 msgid "Everything"
 msgstr "Vše"
 
-#: PARTIALPASTE_EXIFCHANGES
-msgid "Changes to Exif data"
-msgstr "Změny Exif dat"
-
 #: PARTIALPASTE_FLATFIELDAUTOSELECT
 msgid "Flat-field auto-selection"
 msgstr "Automatický výběr Flat Field"
@@ -3069,17 +3069,13 @@ msgstr "Míchání kanálů"
 msgid "Color management settings"
 msgstr "Nastavení správy barev"
 
-#: PARTIALPASTE_IPTCINFO
-msgid "IPTC info"
-msgstr "IPTC info"
-
 #: PARTIALPASTE_LABCURVE
-msgid "Lab adjustments"
-msgstr "Úprava LAB křivek"
+msgid "L*a*b* adjustments"
+msgstr "L*a*b* úpravy"
 
 #: PARTIALPASTE_LENSGROUP
-msgid "Lens Related Settings"
-msgstr "Nastavení objektivu"
+msgid "Lens related settings"
+msgstr "Nastavení související s objektivy"
 
 #: PARTIALPASTE_LENSPROFILE
 msgid "Lens correction profile"
@@ -3096,14 +3092,6 @@ msgstr "Viněta"
 #: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
 msgid "Perspective"
 msgstr "Perspektiva"
-
-#: PARTIALPASTE_PREPROCESS_DEADPIXFILT
-msgid "Apply dead pixel filter"
-msgstr "Aplikovat filtr na mrtvé body"
-
-#: PARTIALPASTE_PREPROCESS_HOTPIXFILT
-msgid "Apply hot pixel filter"
-msgstr "Aplikovat filtr na vypálené body"
 
 #: PARTIALPASTE_RAWCACORR_AUTO
 msgid "CA auto-correction"
@@ -3157,13 +3145,33 @@ msgstr "Korekce vinětace"
 msgid "White balance"
 msgstr "Nastavení bílé"
 
+#: PREFERENCES_APPLNEXTRELOAD
+msgid "image reload required"
+msgstr "vyžaduje obnovení obrázku"
+
 #: PREFERENCES_APPLNEXTSTARTUP
 msgid "restart required"
 msgstr "vyžaduje restart aplikace"
 
+#: PREFERENCES_AUTLISLOW,PREFERENCES_AUTLOW
+msgid "Low"
+msgstr "Nízká"
+
+#: PREFERENCES_AUTLISMAX
+msgid "Max - Average of all tiles"
+msgstr "Maximální - průměr všech dlaždic"
+
+#: PREFERENCES_AUTLISSTD,PREFERENCES_TIMAX,TP_DIRPYRDENOISE_SHALBI
+msgid "High"
+msgstr "Vysoká"
+
 #: PREFERENCES_AUTOMONPROFILE
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
+
+#: PREFERENCES_AUTSTD,PREFERENCES_STDAUT,PREFERENCES_TISTD,TP_DIRPYRDENOISE_SHAL,TP_EXPOSURE_TCMODE_STANDARD
+msgid "Standard"
+msgstr "Běžný"
 
 #: PREFERENCES_BEHADDALLHINT
 msgid ""
@@ -3225,6 +3233,10 @@ msgstr "Vlastnosti cache"
 msgid "Maximum thumbnail height"
 msgstr "Maximální výška náhledu"
 
+#: PREFERENCES_CIEART_FRAME
+msgid "CIECAM02-Specific Settings"
+msgstr "CIECAM0 2 -Specifická nastavení"
+
 #: PREFERENCES_CIEART_LABEL
 msgid "Use float precision instead of double"
 msgstr "Použít jednoduchou přesnost místo dvojnásobné"
@@ -3246,6 +3258,14 @@ msgstr "CIECAM02 optimalizace"
 #: PREFERENCES_CLIPPINGIND
 msgid "Clipping Indication"
 msgstr "Indikace oříznutí"
+
+#: PREFERENCES_CLUTSCACHE_LABEL
+msgid "Max number of cached Cluts"
+msgstr "Maximální počet  přednačtených Cluts"
+
+#: PREFERENCES_CLUTSCACHE
+msgid "HaldCLUT cache"
+msgstr "Mezipaměť HaldCLUT"
 
 #: PREFERENCES_CLUTSDIR
 msgid "HaldCLUT directory"
@@ -3326,13 +3346,13 @@ msgid ""
 "<b>%m</b>\t- month\n"
 "<b>%d</b>\t- day\n"
 "\n"
-"For example, the Hungarian date format is:\n"
-"<b>%y/%m/%d</b>"
+"For example, the ISO 8601 standard dictates the date format as follows:\n"
+"<b>%y-%m-%d</b>"
 msgstr ""
 "Lze použít následující formátovací řetězce:\n"
 "<b>%y</b>\t- rok (year)\n"
 "<b>%m</b>\t- měsíc (month)\n"
-"<b>%d</b>\t-: den (day)\n"
+"<b>%d</b>\t- den (day)\n"
 "\n"
 "Například český formát data:\n"
 "<b>%d. %m. %y</b>"
@@ -3397,6 +3417,10 @@ msgstr "Jiný příkaz"
 msgid "Editor Layout"
 msgstr "Rozvržení editoru"
 
+#: PREFERENCES_EXPAUT
+msgid "Expert"
+msgstr "Expert"
+
 #: PREFERENCES_EXTERNALEDITOR
 msgid "External Editor"
 msgstr "Externí editor"
@@ -3439,9 +3463,29 @@ msgstr "Pro ostatní fotografie"
 msgid "For raw photos"
 msgstr "Pro raw fotografie"
 
+#: PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT_HINT
+msgid ""
+"Having separate thumbnail size will require more processing time each time "
+"you'll switch between the single Editor tab and the File Browser."
+msgstr ""
+"Rozdílné velikosti náhledů znamenají delší dobu zpracování při přepínání "
+"mezi obrázkem v záložce Editoru a Prohlížečem souborů."
+
+#: PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT
+msgid "Same thumbnail height between the Editor's panel and the File Browser"
+msgstr "Stejná velikost náhledu v panelu Editoru a v Prohlížeči souborů"
+
 #: PREFERENCES_GIMPPATH
 msgid "GIMP installation directory"
 msgstr "GIMP instalační složka"
+
+#: PREFERENCES_GREYSC
+msgid "Scene Yb luminance (%)"
+msgstr "Yb svítivost scény (%)"
+
+#: PREFERENCES_GREYSC18,PREFERENCES_GREY18
+msgid "Yb=18 CIE L#50"
+msgstr "Yb=18 CIE L#50"
 
 #: PREFERENCES_GREY
 msgid "Output device's Yb luminance (%)"
@@ -3458,10 +3502,6 @@ msgstr "Yb=10 CIE L#40"
 #: PREFERENCES_GREY15
 msgid "Yb=15 CIE L#45"
 msgstr "Yb=15 CIE L#45"
-
-#: PREFERENCES_GREY18
-msgid "Yb=18 CIE L#50"
-msgstr "Yb=18 CIE L#50"
 
 #: PREFERENCES_GREY23
 msgid "Yb=23 CIE L#55"
@@ -3485,8 +3525,8 @@ msgid ""
 "the Navigator panel, otherwise the gamma-corrected output profile is used."
 msgstr ""
 "Pokud je povoleno, používá se pracovní profil pro vykreslení hlavního "
-"histogramu a v navigačním panelu. V opačném případě je použit výstupní profil "
-"s aplikovanou gama korekcí."
+"histogramu a v navigačním panelu. V opačném případě je použit výstupní "
+"profil s aplikovanou gama korekcí."
 
 #: PREFERENCES_HISTOGRAMWORKING
 msgid "Use working profile for main histogram and Navigator"
@@ -3500,9 +3540,36 @@ msgstr "Práh oříznutých světel"
 msgid "Directory containing color profiles"
 msgstr "Složka obsahující barevné profily"
 
+#: PREFERENCES_IMG_RELOAD_NEEDED
+msgid ""
+"These changes require the image to be reloaded (or a new image to be opened) "
+"to take effect."
+msgstr ""
+"Tyto změny se projeví až po novém načtení již otevřeného obrázku (nebo po "
+"otevření nového obrázku)"
+
 #: PREFERENCES_IMPROCPARAMS
 msgid "Default Processing Profile"
 msgstr "Výchozí profil zpracování"
+
+#: PREFERENCES_INSPECT_LABEL
+msgid "Inspect"
+msgstr "Prohlížení"
+
+#: PREFERENCES_INSPECT_MAXBUFFERS_LABEL
+msgid "Maximum number of buffers"
+msgstr "Maximální počet vyrovnávacích pamětí"
+
+#: PREFERENCES_INSPECT_MAXBUFFERS_TOOLTIP
+msgid ""
+"Set the maximum number of images stored in cache when hovering over them in "
+"the File Browser; systems with little RAM (2GB) should keep this value set "
+"to 1 or 2."
+msgstr ""
+"Nastavení maximálního počtu obrázků, které jsou ukládány do mezipaměti při "
+"zkoumání "
+"v Prohlížeči souborů. Na systémech s nedostatkem pamětí (2GB) nastavte "
+"hodnotu 1 nebo 2."
 
 #: PREFERENCES_INTENT_ABSOLUTE
 msgid "Absolute Colorimetric"
@@ -3516,6 +3583,10 @@ msgstr "Vnímání"
 msgid "Relative Colorimetric"
 msgstr "Relativní kolorimetrie"
 
+#: PREFERENCES_INTENT_SATURATION,TP_COLORAPP_TCMODE_SATUR,TP_EXPOSURE_SATURATION
+msgid "Saturation"
+msgstr "Sytost"
+
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
 msgid "Show embedded JPEG thumbnail if raw is unedited"
 msgstr "Ukázat vložené JPEG náhledy u needitovaných snímků"
@@ -3523,6 +3594,26 @@ msgstr "Ukázat vložené JPEG náhledy u needitovaných snímků"
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use system language"
 msgstr "Použít systémový jazyk"
+
+#: PREFERENCES_LEVAUTDN
+msgid "Denoising level"
+msgstr "Úroveň odšumění"
+
+#: PREFERENCES_LEVDN
+msgid "Cell size"
+msgstr "Velikost buňky"
+
+#: PREFERENCES_LISS
+msgid "Auto multi-zone smoothing"
+msgstr "Automatické více zónové vyhlazení"
+
+#: PREFERENCES_MAX
+msgid "Maxi (Tile)"
+msgstr "Velká (dlaždice)"
+
+#: PREFERENCES_MED
+msgid "Medium (Tile/2)"
+msgstr "Střední (Poloviční dlaždice)"
 
 #: PREFERENCES_MENUGROUPEXTPROGS
 msgid "Group \"Open with\""
@@ -3548,13 +3639,17 @@ msgstr "Skupina \"Hodnocení\""
 msgid "Context Menu Options"
 msgstr "Volby místní nabídky"
 
+#: PREFERENCES_MIN
+msgid "Mini (100x115)"
+msgstr "Velmi malá (100x115)"
+
 #: PREFERENCES_MONITORICC
 msgid "Monitor color profile"
 msgstr "Barevný profil monitoru"
 
 #: PREFERENCES_MULTITABDUALMON
-msgid "Multiple Editor Tabs Mode (if available on second monitor)"
-msgstr "Mód více karet editoru (pokud je dostupný druhý monitor)"
+msgid "Multiple Editor Tabs In Own Window Mode"
+msgstr "Mód více karet editoru ve vlastním okně"
 
 #: PREFERENCES_MULTITAB
 msgid "Multiple Editor Tabs Mode"
@@ -3595,8 +3690,8 @@ msgid ""
 "<b>%p3</b> = <i>/home/tom/</i>\n"
 "<b>%p4</b> = <i>/home/</i>\n"
 "\n"
-"<b>%r</b> will be replaced by the rank of the photo.  If the photo is "
-"unranked, %r will be replaced by '0'.  If the photo is in the trash bin, %r "
+"<b>%r</b> will be replaced by the rank of the photo. If the photo is "
+"unranked, %r will be replaced by '0'. If the photo is in the trash bin, %r "
 "will be replaced by 'x'.\n"
 "\n"
 "<b>%s1</b>, <b>%s2</b>, etc. will be replaced by a sequence index which is "
@@ -3662,9 +3757,13 @@ msgstr "Použít šablonu"
 msgid "Output Directory"
 msgstr "Výstupní složka"
 
+#: PREFERENCES_OVERLAY_FILENAMES_FILMSTRIP
+msgid "Overlay filenames on thumbnails in the editor pannel"
+msgstr "Překrýt jména souborů na náhledech v editoru"
+
 #: PREFERENCES_OVERLAY_FILENAMES
-msgid "Overlay filenames on thumbnails"
-msgstr "Přepsat jména souborů v náhledech"
+msgid "Overlay filenames on thumbnails in the file browser"
+msgstr "Překrýt jména souborů na náhledech v prohlížeči souborů"
 
 #: PREFERENCES_OVERWRITEOUTPUTFILE
 msgid "Overwrite existing output files"
@@ -3727,8 +3826,8 @@ msgid "Adobe Photoshop installation directory"
 msgstr "Instalační složka Adobe Photoshop"
 
 #: PREFERENCES_RGBDTL_LABEL
-msgid "Max number of threads for Noise Reduction"
-msgstr "Maximální počet vláken pro redukci šumu"
+msgid "Max number of threads"
+msgstr "Maximální počet vláken"
 
 #: PREFERENCES_RGBDTL_TOOLTIP
 msgid ""
@@ -3778,6 +3877,10 @@ msgstr "Zobrazit výběr profilu zpracování"
 msgid "Threshold for clipped shadows"
 msgstr "Práh oříznutých stínů"
 
+#: PREFERENCES_SIMPLAUT
+msgid "Tool mode"
+msgstr "Režim nástrojů"
+
 #: PREFERENCES_SINGLETABVERTAB
 msgid "Single Editor Tab Mode, Vertical Tabs"
 msgstr "Mód jedné karty editoru, svislé karty"
@@ -3789,6 +3892,10 @@ msgstr "Mód jedné karty editoru"
 #: PREFERENCES_SLIMUI
 msgid "Slim interface"
 msgstr "Štíhlé rozhraní"
+
+#: PREFERENCES_SMA
+msgid "Small (250x287)"
+msgstr "Malá (250x287)"
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
 msgid "Queue processing done"
@@ -3832,12 +3939,16 @@ msgid "Image Processing"
 msgstr "Zpracování obrázku"
 
 #: PREFERENCES_TAB_PERFORMANCE
-msgid "Performance"
-msgstr "Výkon"
+msgid "Performance & Quality"
+msgstr "Výkon a kvalita"
 
 #: PREFERENCES_TAB_SOUND
 msgid "Sounds"
 msgstr "Zvuky"
+
+#: PREFERENCES_TINB
+msgid "Number of tiles"
+msgstr "Počet dlaždic"
 
 #: PREFERENCES_TP_LABEL
 msgid "Tool panel:"
@@ -3869,6 +3980,18 @@ msgid "Output device's white balance (monitor, TV, projector, viewing, etc.)"
 msgstr ""
 "Nastavení vyvážení bílé výstupních zařízení (monitor, TV, projektor, rámeček "
 "a jiné)"
+
+#: PREFERENCES_WAVLEV
+msgid "Increase wavelet level in quality 'high'"
+msgstr "Zvýšit úroveň vlnkové transformace v nejvyšší kvalitě"
+
+#: PREFERENCES_WLONE
+msgid "One level"
+msgstr "Jedna úroveň"
+
+#: PREFERENCES_WLTWO
+msgid "Two levels"
+msgstr "Dvě úrovně"
 
 #: PREFERENCES_WORKFLOW
 msgid "Layout"
@@ -4416,20 +4539,20 @@ msgid "Panchromatic"
 msgstr "Panchromatic"
 
 #: TP_BWMIX_SET_RGBABS
-msgid "Channel Mixer absolute RGB"
-msgstr "Míchání kanálů - úplné RGB"
+msgid "Absolute RGB"
+msgstr "Absolutní RGB"
 
 #: TP_BWMIX_SET_RGBREL
-msgid "Channel Mixer relative RGB"
-msgstr "Míchání kanálů - relativní RGB"
+msgid "Relative RGB"
+msgstr "Relativní RGB"
 
 #: TP_BWMIX_SET_ROYGCBPMABS
-msgid "Channel Mixer absolute ROYGCBPM"
-msgstr "Míchání kanálů - úplné ROYGCBPM"
+msgid "Absolute ROYGCBPM"
+msgstr "Úplné ROYGCBPM"
 
 #: TP_BWMIX_SET_ROYGCBPMREL
-msgid "Channel Mixer relative ROYGCBPM"
-msgstr "Míchání kanálů - relativní ROYGCBPM"
+msgid "Relative ROYGCBPM"
+msgstr "Relativní ROYGCBPM"
 
 #: TP_BWMIX_SETTING_TOOLTIP
 msgid ""
@@ -4514,8 +4637,7 @@ msgid ""
 "value from Exif data.\n"
 "To set the value manually, uncheck the checkbox first."
 msgstr ""
-"Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu z "
-"Exif dat.\n"
+"Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu z Exif dat.\n"
 "Pokud si přejete zadat hodnotu ručně, nejprve zrušte zatržení tohoto pole. "
 
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
@@ -4595,9 +4717,9 @@ msgstr "Filtr vypálených/mrtvých pixelů"
 #: TP_COLORAPP_BRIGHT_TOOLTIP
 msgid ""
 "Brightness in CIECAM02 takes into account the white's luminosity and differs "
-"from Lab and RGB brightness."
+"from L*a*b* and RGB brightness."
 msgstr ""
-"Jas v CIECAM02 bere v potaz svítivost bílé a rozdíly jasů mezi Lab a RGB."
+"Jas v CIECAM02 bere v potaz svítivost bílé a rozdíly jasů mezi L*a*b* a RGB."
 
 #: TP_COLORAPP_BRIGHT
 msgid "Brightness (Q)"
@@ -4609,8 +4731,9 @@ msgstr "CAT02 přizpůsobení"
 
 #: TP_COLORAPP_CONTRAST_Q_TOOLTIP
 msgid ""
-"Contrast in CIECAM02 for the Q slider; it differs from Lab and RGB contrast."
-msgstr "Kontrast pro posuvník Q se v CIECAM02 liší od kontrastu Lab a RGB."
+"Contrast in CIECAM02 for the Q slider; it differs from L*a*b* and RGB "
+"contrast."
+msgstr "Kontrast pro posuvník Q se v CIECAM02 liší od kontrastu L*a*b* a RGB."
 
 #: TP_COLORAPP_CONTRAST_Q
 msgid "Contrast (Q)"
@@ -4618,8 +4741,9 @@ msgstr "Kontrast (O)"
 
 #: TP_COLORAPP_CONTRAST_TOOLTIP
 msgid ""
-"Contrast in CIECAM02 for the J slider; it differs from Lab and RGB contrast."
-msgstr "Kontrast pro posuvník J se v CIECAM02 liší od kontrastu Lab a RGB."
+"Contrast in CIECAM02 for the J slider; it differs from L*a*b* and RGB "
+"contrast."
+msgstr "Kontrast pro posuvník J se v CIECAM02 liší od kontrastu L*a*b* a RGB."
 
 #: TP_COLORAPP_CONTRAST
 msgid "Contrast (J)"
@@ -4627,7 +4751,7 @@ msgstr "Kontrast (I)"
 
 #: TP_COLORAPP_CURVEEDITOR1_TOOLTIP
 msgid ""
-"Shows the histogram of L (Lab) before CIECAM02.\n"
+"Shows the histogram of L* (L*a*b*) before CIECAM02.\n"
 "If the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, "
 "shows the histogram of J or Q after CIECAM02.\n"
 "\n"
@@ -4635,7 +4759,7 @@ msgid ""
 "\n"
 "For final output refer to the main histogram panel."
 msgstr ""
-"Zobrazuje histogram L (Lab) křivky před CIECAM02.\n"
+"Zobrazuje histogram L* (L*a*b*) křivky před CIECAM02.\n"
 "Pokud je volba \"Zobrazit CIECAM02 histogramy výstupu v křivkách\" povolena, "
 "zobrazí histogram J nebo Q po CIECAM02 .\n"
 "\n"
@@ -4651,7 +4775,7 @@ msgstr "Stejné použití jako u druhé expoziční tónové křivky."
 msgid ""
 "Adjust either chroma, saturation or colorfulness.\n"
 "\n"
-"Shows the histogram of chromaticity (Lab) before CIECAM02.\n"
+"Shows the histogram of chromaticity (L*a*b*) before CIECAM02.\n"
 "If the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, "
 "shows the histogram of C, s or M after CIECAM02.\n"
 "\n"
@@ -4660,7 +4784,7 @@ msgid ""
 msgstr ""
 "Upravte barevnost, saturaci nebo pestrobarevnost.\n"
 "\n"
-"Zobrazí histogram barevnosti (Lab) před CIECAM02.\n"
+"Zobrazí histogram barevnosti (L*a*b*) před CIECAM02.\n"
 "Pokud je volba \"Zobrazit CIECAM02 histogramy výstupu v křivkách\" povolena, "
 "zobrazí histogram C, S nebo M po CIECAM02 .\n"
 "\n"
@@ -4677,14 +4801,15 @@ msgid ""
 "for J or Q, and C, s or M after the CIECAM02 adjustments.\n"
 "This selection does not impact the main histogram panel.\n"
 "\n"
-"When disabled, histograms in CIECAM02 curves show Lab values before CIECAM02 "
-"adjustments."
+"When disabled, histograms in CIECAM02 curves show L*a*b* values before "
+"CIECAM02 adjustments."
 msgstr ""
 "Pokud je povoleno, zobrazuje histogram v CIECAM02 křivkách přibližné hodnoty/"
 "rozsahy po CIECAM02 úpravách J nebo Q, a C, S nebo M.\n"
 "Výběr neovlivňuje histogram na hlavním panelu.\n"
 "\n"
-"Pokud je zakázáno, zobrazuje histogram v CIECAM02 křivkách Lab hodnoty před "
+"Pokud je zakázáno, zobrazuje histogram v CIECAM02 křivkách L*a*b* hodnoty "
+"před "
 "CIECAM02 úpravami."
 
 #: TP_COLORAPP_DATACIE
@@ -4693,12 +4818,13 @@ msgstr "CIECAM02 histogramy výstupu v křivkách"
 
 #: TP_COLORAPP_DEGREE_AUTO_TOOLTIP
 msgid ""
-"If the check-box is checked (recommended), RT calculates an optimum value, "
-"which is then used by CAT02, and also for the entire CIECAM02.\n"
+"If the check-box is checked (recommended), RawTherapee calculates an optimum "
+"value, which is then used by CAT02, and also for the entire CIECAM02.\n"
 "To set the value manually, uncheck the check-box first (values above 65 are "
 "recommended)."
 msgstr ""
-"Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu, jenž následně "
+"Pokud je povoleno (doporučeno), RawTherapee vypočítá optimální hodnotu, jenž "
+"následně "
 "používá jak CAT02 tak i celý CIECAM02.\n"
 "Zakažte, pokud si přejete zadat hodnotu ručně (doporučeny jsou hodnoty nad "
 "65)."
@@ -4708,12 +4834,12 @@ msgid "Amount of CIE Chromatic Adaptation Transform 2002."
 msgstr "Míra CIE Chromatic Adaptation Transform 2002."
 
 #: TP_COLORAPP_GAMUT_TOOLTIP
-msgid "Allow gamut control in Lab mode."
-msgstr "Povolí kontrolu palety v Lab režimu."
+msgid "Allow gamut control in L*a*b* mode."
+msgstr "Povolí kontrolu palety v L*a*b* režimu."
 
 #: TP_COLORAPP_GAMUT
-msgid "Gamut control (Lab)"
-msgstr "Kontrola palety (Lab)"
+msgid "Gamut control (L*a*b*)"
+msgstr "Kontrola palety (L*a*b*)"
 
 #: TP_COLORAPP_HUE_TOOLTIP
 msgid "Hue (h) - angle between 0° and 360°."
@@ -4724,24 +4850,24 @@ msgid "Hue (h)"
 msgstr "Odstín (h)"
 
 #: TP_COLORAPP_CHROMA_M_TOOLTIP
-msgid "Colorfulness in CIECAM02 differs from Lab and RGB colorfulness."
-msgstr "Pestrobarevnost se v CIECAM02 liší od pestrobarevnosti Lab a RGB."
+msgid "Colorfulness in CIECAM02 differs from L*a*b* and RGB colorfulness."
+msgstr "Pestrobarevnost se v CIECAM02 liší od pestrobarevnosti L*a*b* a RGB."
 
 #: TP_COLORAPP_CHROMA_M
 msgid "Colorfulnes (M)"
 msgstr "Barevnost (M)"
 
 #: TP_COLORAPP_CHROMA_S_TOOLTIP
-msgid "Saturation in CIECAM02 differs from Lab and RGB saturation."
-msgstr "Nasycení se v CIECAM02 liší od nasycení Lab a RGB."
+msgid "Saturation in CIECAM02 differs from L*a*b* and RGB saturation."
+msgstr "Nasycení se v CIECAM02 liší od nasycení L*a*b* a RGB."
 
 #: TP_COLORAPP_CHROMA_S
 msgid "Saturation (S)"
 msgstr "Sytost (S)"
 
 #: TP_COLORAPP_CHROMA_TOOLTIP
-msgid "Chroma in CIECAM02 differs from Lab and RGB chroma."
-msgstr "Barevnost se v CIECAM02 liší od barevnosti Lab a RGB."
+msgid "Chroma in CIECAM02 differs from L*a*b* and RGB chroma."
+msgstr "Barevnost se v CIECAM02 liší od barevnosti L*a*b* a RGB."
 
 #: TP_COLORAPP_CHROMA
 msgid "Chroma (C)"
@@ -4759,9 +4885,13 @@ msgstr "Podmínky scény"
 msgid "Viewing Conditions"
 msgstr "Podmínky zobrazení"
 
+#: TP_COLORAPP_LABEL
+msgid "CIE Color Appearance Model 2002"
+msgstr "CIE model přizpůsobení barev 2002"
+
 #: TP_COLORAPP_LIGHT_TOOLTIP
-msgid "Lightness in CIECAM02 differs from Lab and RGB lightness."
-msgstr "Světlost v CIECAM02 se liší od Světlosti v Lab a RGB."
+msgid "Lightness in CIECAM02 differs from L*a*b* and RGB lightness."
+msgstr "Světlost v CIECAM02 se liší od světlosti v L*a*b* a RGB."
 
 #: TP_COLORAPP_LIGHT
 msgid "Lightness (J)"
@@ -4864,7 +4994,7 @@ msgstr "Jas"
 msgid "Colorfulness"
 msgstr "Pestrobarevnost"
 
-#: TP_COLORAPP_TCMODE_CHROMA
+#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC
 msgid "Chroma"
 msgstr "Barevnost"
 
@@ -4882,11 +5012,11 @@ msgstr "Mód barevné křivky"
 
 #: TP_COLORAPP_TONECIE_TOOLTIP
 msgid ""
-"If this option is disabled, tone mapping is done in Lab space.\n"
+"If this option is disabled, tone mapping is done in L*a*b* space.\n"
 "If this option is enabled, tone mapping is done using CIECAM02.\n"
 "The Tone Mapping tool must be enabled for this setting to take effect."
 msgstr ""
-"Pokud je volba zakázána, probíhá mapování tónů v prostoru Lab.\n"
+"Pokud je volba zakázána, probíhá mapování tónů v prostoru L*a*b*.\n"
 "Pokud je volba povolena. probíhá mapování tónů pomocí CIECAM02.\n"
 "Aby měla tato volba efekt, musí být povolen nástroj Mapování tónů."
 
@@ -4911,8 +5041,8 @@ msgid "Balance"
 msgstr "Vyvážené"
 
 #: TP_COLORTONING_CURVEEDITOR_CL_TOOLTIP
-msgid "Opacity Chroma according to Luminance of C=f(L)"
-msgstr "Mísení barevnost dle jasu C=f(L)"
+msgid "Chroma opacity as a function of luminance oC=f(L)"
+msgstr "Barevná neprůhlednost dle jasu oC=f(L)"
 
 #: TP_COLORTONING_HUE,TP_PFCURVE_CURVEEDITOR_CH
 msgid "Hue"
@@ -4920,32 +5050,11 @@ msgstr "Odstín"
 
 #: TP_COLORTONING_CHROMAC,TP_COLORTONING_OPACITY
 msgid "Opacity"
-msgstr "Průhlednost"
-
-#: TP_COLORTONING_LABCOL_TOOLTIP
-msgid "When you move a saturation slider, these 'direct' colors are increased."
-msgstr "\"Přímé\" barvy rostou pohnutím posuvníku saturace."
-
-#: TP_COLORTONING_LABCOL
-msgid "Direct Colors"
-msgstr "Přímé barvy"
-
-#: TP_COLORTONING_LABINT_TOOLTIP
-msgid ""
-"When the image color is blue and the blending color is red, it results in a "
-"magenta color in the function of % opacity.\n"
-"When the image color is red and the blending color is yellow, it results in "
-"an orange color in the function of % opacity."
-msgstr ""
-"Pokud je obrázek modrý a barva mísení je červená bude výsledkem purpurová"
-
-#: TP_COLORTONING_LABINT
-msgid "-"
-msgstr "-"
+msgstr "Neprůhlednost"
 
 #: TP_COLORTONING_LAB
-msgid "Lab blending"
-msgstr "Mísení Lab"
+msgid "L*a*b* blending"
+msgstr "Mísení L*a*b*"
 
 #: TP_COLORTONING_LUMAMODE_TOOLTIP
 msgid ""
@@ -4959,21 +5068,21 @@ msgstr ""
 msgid "Preserve luminance"
 msgstr "Zachování jasu"
 
-#: TP_COLORTONING_LUMA,TP_DIRPYRDENOISE_LUMA
+#: TP_COLORTONING_LUMA,TP_DIRPYRDENOISE_LUMA,TP_DIRPYRDENOISE_LUMAFR
 msgid "Luminance"
 msgstr "Jas"
 
 #: TP_COLORTONING_METHOD_TOOLTIP
 msgid ""
-"\"Lab blending\", \"RGB sliders\" and \"RGB curves\" use interpolated color "
-"blending.\n"
+"\"L*a*b* blending\", \"RGB sliders\" and \"RGB curves\" use interpolated "
+"color blending.\n"
 "\"Color balance (Shadows/Midtones/Highlights)\" and \"Saturation 2 colors\" "
 "use direct colors.\n"
 "\n"
 "The Black-and-White tool can be enabled when using any color toning method, "
 "which allows for color toning."
 msgstr ""
-"\"Mísení Lab\", \"RGB posuvníky\" a \"RGB křivky\" používají interpolované "
+"\"Mísení L*a*b*\", \"RGB posuvníky\" a \"RGB křivky\" používají interpolované "
 "mísení barev.\n"
 "\"Vyvážení barev (Stíny, střední tóny a světla)\" a \"Saturace dvou barev\" "
 "používají přímé barvy.\n"
@@ -5027,8 +5136,8 @@ msgid "Special chroma"
 msgstr "Speciální barevnost"
 
 #: TP_COLORTONING_TWOBY
-msgid "Special 'a' and 'b'"
-msgstr "Speciální 'a' a 'b'"
+msgid "Special a* and b*"
+msgstr "Speciální a* a b*"
 
 #: TP_COLORTONING_TWOCOLOR_TOOLTIP
 msgid ""
@@ -5143,13 +5252,120 @@ msgstr "Automatický výběr"
 msgid "Radius"
 msgstr "Poloměr"
 
+#: TP_DIRPYRDENOISE_ABM
+msgid "Chroma only"
+msgstr "Pouze barevnost"
+
+#: TP_DIRPYRDENOISE_AUTO_TOOLTIP
+msgid ""
+"Try to evaluate chroma noise\n"
+"Be careful, this calculation is average, and is quite subjective !"
+msgstr ""
+"Zkusí odhadnout barevný šum\n"
+"Pozor, tento výpočet je zprůměrován a zcela subjektivní!"
+
+#: TP_DIRPYRDENOISE_AUT,TP_DIRPYRDENOISE_AUTO
+msgid "Automatic global"
+msgstr "Automatická celková"
+
 #: TP_DIRPYRDENOISE_BLUE
 msgid "Chrominance - Blue-Yellow"
 msgstr "Barevnost - Modrá a žlutá"
 
+#: TP_DIRPYRDENOISE_CCCURVE
+msgid "Chrominance curve"
+msgstr "Křivka barevnosti"
+
+#: TP_DIRPYRDENOISE_CTYPE_TOOLTIP
+msgid ""
+"Manual\n"
+"Acts on the full image.\n"
+"You control the noise reduction settings manually.\n"
+"\n"
+"Automatic global\n"
+"Acts on the full image.\n"
+"9 zones are used to calculate a global chrominance noise reduction setting.\n"
+"\n"
+"Automatic multi-zones\n"
+"No preview - works only during saving, but using the \"Preview\" method by "
+"matching the tile size and center to the preview size and center you can get "
+"an idea of the expected results.\n"
+"The image is divided into tiles (about 10 to 70 depending on image size) and "
+"each tile receives its own chrominance noise reduction settings.\n"
+"\n"
+"Preview\n"
+"Acts on the whole image.\n"
+"The part of the image visible in the preview is used to calculate global "
+"chrominance noise reduction settings."
+msgstr ""
+"Ručně\n"
+"Ovlivňuje celý obrázek.\n"
+"Volby redukce šumu nastavujete ručně.\n"
+"\n"
+"Celková automazika\n"
+"Ovlivňuje celý obrázek.\n"
+"Pro výpočet parametrů celkové redukce barevného šumu je použito 9 zón.\n"
+"\n"
+"Více zónová automatika\n"
+"Bez náhledu - funguje pouze při ukládání, přesto je možné pomocí funkce "
+"\"Náhled\" získat alespoň částečnou představu o výsledku, Nastavení jsou "
+"aplikována na centrální dlaždici.\n"
+"Obrázek je rozdělen na dlaždice (V závislosti na velikosti obrázku jich bude "
+"10 až 70) a pro každou dlaždici bude vypočítáno vhodné nastavení redukce "
+"barevného šumu.\n"
+"\n"
+"Náhled\n"
+"Ovlivňuje celý obrázek.\n"
+"Pro výpočet celkového nastavení redukce barevného šumu je použita viditelná "
+"část obrázku."
+
+#: TP_DIRPYRDENOISE_CTYPE
+msgid "Auto method"
+msgstr "Metoda aut. zpracování"
+
+#: TP_DIRPYRDENOISE_CURVEEDITOR_CC_TOOLTIP
+msgid ""
+"Increase (multiply) the value of all chrominance sliders.\n"
+"This curve lets you adjust the strength of chromatic noise reduction as a "
+"function of chromaticity, for instance to increase the action in areas of "
+"low saturation and to decrease it in those of high saturation."
+msgstr ""
+"Zvýší (násobí) hodnoty všech barevných posuvníků.\n"
+"Křivka vám umožní nastavit sílu redukce barevného šumu jako funkci "
+"barvy. Například pro zvýšení účinku v oblastech s nízkou saturací a snížení "
+"v oblastech s vysokou saturací."
+
 #: TP_DIRPYRDENOISE_CURVEEDITOR_L_TOOLTIP
 msgid "Modulates action of 'Luminance' denoise"
 msgstr "Moduluje akci 'jasového' odstranění šumu"
+
+#: TP_DIRPYRDENOISE_C2TYPE_TOOLTIP
+msgid ""
+"Manual\n"
+"Acts on the full image.\n"
+"You control the noise reduction settings manually.\n"
+"\n"
+"Automatic global\n"
+"Acts on the full image.\n"
+"9 zones are used to calculate a global chrominance noise reduction setting.\n"
+"\n"
+"Preview\n"
+"Acts on the whole image.\n"
+"The part of the image visible in the preview is used to calculate global "
+"chrominance noise reduction settings."
+msgstr ""
+"Ručně\n"
+"Ovlivňuje celý obrázek.\n"
+"Volby redukce šumu nastavujete ručně.\n"
+"\n"
+"Celková automatika\n"
+"Ovlivňuje celý obrázek.\n"
+"Pro výpočet parametrů celkové redukce barevného šumu je použito 9 zón.\n"
+"\n"
+"Náhled\n"
+"Ovlivňuje celý obrázek.\n"
+"Pro výpočet celkového nastavení redukce barevného šumu je použita viditelná "
+"část obrázku."
 
 #: TP_DIRPYRDENOISE_ENABLED_TOOLTIP
 msgid ""
@@ -5190,13 +5406,17 @@ msgstr ""
 msgid "Gamma"
 msgstr "Gama"
 
+#: TP_DIRPYRDENOISE_CHROMAFR
+msgid "Chrominance"
+msgstr "Barevnost"
+
 #: TP_DIRPYRDENOISE_CHROMA
 msgid "Chrominance - Master"
 msgstr "Barevnost - Hlavní"
 
 #: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM
-msgid "Lab"
-msgstr "Lab"
+msgid "L*a*b*"
+msgstr "L*a*b*"
 
 #: TP_DIRPYRDENOISE_LCURVE
 msgid "Luminance curve"
@@ -5209,6 +5429,24 @@ msgstr "Jas - Detail"
 #: TP_DIRPYRDENOISE_LM,TP_SHARPENEDGE_THREE
 msgid "Luminance only"
 msgstr "Pouze jas"
+
+#: TP_DIRPYRDENOISE_LPLABM
+msgid "Weighted L* (little) + a*b* (normal)"
+msgstr "Vyvážená L* (trochu) + a*b* (normální)"
+
+#: TP_DIRPYRDENOISE_LTYPE
+msgid "Luminance control"
+msgstr "Ovládání jasu"
+
+#: TP_DIRPYRDENOISE_LUMAFR_TOOLTIP
+msgid "Wavelet on luminance and Fourier transform for luminance detail"
+msgstr ""
+"Vlnková transformace na svítivost a Fourierova transformace pro detail "
+"svítivosti"
+
+#: TP_DIRPYRDENOISE_MAN,TP_DIRPYRDENOISE_MANU
+msgid "Manual"
+msgstr "Ručně"
 
 #: TP_DIRPYRDENOISE_MEDMETHOD
 msgid "Median method"
@@ -5223,25 +5461,26 @@ msgid "Median type"
 msgstr "Typ mediánu"
 
 #: TP_DIRPYRDENOISE_MED
-msgid "Median"
-msgstr "Medián"
+msgid "Median Filter"
+msgstr "Filtr medián"
 
 #: TP_DIRPYRDENOISE_METHOD_TOOLTIP
 msgid ""
-"For raw images either RGB or Lab methods can be used.\n"
+"For raw images either RGB or L*a*b* methods can be used.\n"
 "\n"
-"For non-raw images the Lab method will be used, regardless of the selection."
+"For non-raw images the L*a*b* method will be used, regardless of the "
+"selection."
 msgstr ""
-"Pro raw obrázky může být použita jak RGB tak i Lab metoda.\n"
+"Pro raw obrázky může být použita jak RGB tak i L*a*b* metoda.\n"
 "\n"
-"Pro ostatní obrázky bude vždy použita metoda Lab bez ohledu na výběr."
+"Pro ostatní obrázky bude vždy použita metoda L*a*b* bez ohledu na výběr."
 
 #: TP_DIRPYRDENOISE_METHOD11_TOOLTIP
 msgid ""
 "Quality can be adapted to the noise pattern. A setting of \"high\" increases "
 "the noise reduction effect at a cost of extended processing time."
 msgstr ""
-"Kvalita může být přizpůsobena vzoru šumu. Nastavení \"Vysoký\" vylepší efekt "
+"Kvalita může být přizpůsobena vzoru šumu. Nastavení \"Vysoká\" vylepší efekt "
 "redukce šumu za cenu navýšení času zpracování."
 
 #: TP_DIRPYRDENOISE_METHOD11
@@ -5250,13 +5489,15 @@ msgstr "Kvalita"
 
 #: TP_DIRPYRDENOISE_METM_TOOLTIP
 msgid ""
-"When using the \"Luminance only\" and \"Lab\" methods, median filtering will "
-"be performed just after the wavelet step in the noise reduction pipeline.\n"
+"When using the \"Luminance only\" and \"L*a*b*\" methods, median filtering "
+"will be performed just after the wavelet step in the noise reduction "
+"pipeline.\n"
 "When using the \"RGB\" mode, it will be performed at the very end of the "
 "noise reduction pipeline."
 msgstr ""
-"Pokud je použito 'Pouze Jas' a 'Lab' metody, bude při odstranění šumu použit "
-"filtr medián hned po kroku vlnka.\n"
+"Pokud je použito 'Pouze Jas' a 'L*a*b*' metody, bude při odstranění šumu "
+"použit "
+"filtr medián hned po vlnkové transformaci.\n"
 "Pokud je použit \"RGB\" mód, bude filtr použit až na úplný závěr procesu "
 "redukce šumu."
 
@@ -5270,6 +5511,7 @@ msgid ""
 "5x5 soft: treats 13 pixels in a 2-pixel range.\n"
 "5x5: treats 25 pixels in a 2-pixel range.\n"
 "7x7: treats 49 pixels in a 3-pixel range.\n"
+"9x9: treats 81 pixels in a 4-pixel range.\n"
 "\n"
 "Sometimes it is possible to achieve higher quality running several "
 "iterations with a small range than one iteration with a large range."
@@ -5281,10 +5523,45 @@ msgstr ""
 "3×3: upraví 9 pixelů v rozsahu jednoho pixelu.\n"
 "5×5 jemný; upraví 13 pixelů v rozsahu dvou pixelů.\n"
 "5×5: upraví 25 pixelů v rozsahu dvou pixelů.\n"
-"7×7: upraví 49 pixelů v rozsahu dvou pixelů.\n"
+"7×7: upraví 49 pixelů v rozsahu tří pixelů.\n"
+"9×9: upraví 81 pixelů v rozsahu čtyř pixelů.\n"
 "\n"
-"V některých případech může být větší kvality dosaženo pomocí několika průběhů "
-"s menším rozsahem než jedním průběhem s velkým rozsahem."
+"V některých případech může být větší kvality dosaženo pomocí několika "
+"průběhů s menším rozsahem než jedním průběhem s velkým rozsahem."
+
+#: TP_DIRPYRDENOISE_NOISELABELEMPTY
+msgid "Preview noise: Mean= -   High= -"
+msgstr "Náhled šumu: Střed= -   Výšky= -"
+
+#: TP_DIRPYRDENOISE_NOISELABEL
+msgid "Preview noise: Mean=%1  High=%2"
+msgstr "Náhled šumu: Střed=%1  Výšky=%2"
+
+#: TP_DIRPYRDENOISE_NRESID_TOOLTIP
+msgid ""
+"Displays the remaining noise levels of the part of the image visible in the "
+"<b>preview</b> after wavelet.\n"
+"\n"
+">300 Very noisy\n"
+"100-300 Noisy\n"
+"50-100 A little noisy\n"
+"<50 Very low noise\n"
+"\n"
+"Beware, the values will differ between RGB and L*a*b* mode. The RGB values "
+"are less accurate because the RGB mode does not completely separate "
+"luminance and chrominance."
+msgstr ""
+"Zobrazuje zbývající úroveň zašumění části obrázku viditelného v "
+"<b>náhledu</b> po vlnkové transformaci.\n"
+"\n"
+">300 Hodně šumu\n"
+"100-300 Šum\n"
+"50-100 Málo šumu\n"
+"<50 Velmi málo šumu\n"
+"\n"
+"Upozornění:  hodnoty RGB a L*a*b* režimu se budou lišit. Protože v RGB režimu "
+"nedochází ke kompletnímu oddělení jasu a barev jsou RGB hodnoty "
+"jméně přesné"
 
 #: TP_DIRPYRDENOISE_PASSES_TOOLTIP
 msgid ""
@@ -5298,6 +5575,22 @@ msgstr ""
 msgid "Median iterations"
 msgstr "Počet průchodů mediánu"
 
+#: TP_DIRPYRDENOISE_PON
+msgid "Auto multi-zones"
+msgstr "Více zónová automatika"
+
+#: TP_DIRPYRDENOISE_PREVLABEL
+msgid "Preview size=%1, Center: Px=%2  Py=%3"
+msgstr "Velikost náhledu=%1, Střed: Px=%2  Py=%3"
+
+#: TP_DIRPYRDENOISE_PREV
+msgid "Preview"
+msgstr "Náhled"
+
+#: TP_DIRPYRDENOISE_PRE
+msgid "Preview multi-zones"
+msgstr "Více zónový náhled"
+
 #: TP_DIRPYRDENOISE_RED
 msgid "Chrominance - Red-Green"
 msgstr "Barevnost - Červená a zelená"
@@ -5306,17 +5599,17 @@ msgstr "Barevnost - Červená a zelená"
 msgid "RGB"
 msgstr "RGB"
 
-#: TP_DIRPYRDENOISE_SHALBI
-msgid "High"
-msgstr "Vysoký"
-
-#: TP_DIRPYRDENOISE_SHAL,TP_EXPOSURE_TCMODE_STANDARD
-msgid "Standard"
-msgstr "Běžný"
+#: TP_DIRPYRDENOISE_SLI
+msgid "Slider"
+msgstr "Posuvník"
 
 #: TP_DIRPYRDENOISE_SOFT
 msgid "3x3"
 msgstr "3×3"
+
+#: TP_DIRPYRDENOISE_TILELABEL
+msgid "Tile size=%1, Center: Tx=%2  Ty=%3"
+msgstr "Velikost dlaždice=%1, Střed: Tx=%2  Ty=%3"
 
 #: TP_DIRPYRDENOISE_33
 msgid "3×3 strong"
@@ -5334,13 +5627,9 @@ msgstr "5×5 silný"
 msgid "7×7 (slow)"
 msgstr "7×7 (pomalý)"
 
-#: TP_DIRPYREQUALIZER_ALGO_FI
-msgid "Fine"
-msgstr "Jemný"
-
-#: TP_DIRPYREQUALIZER_ALGO_LA
-msgid "Large"
-msgstr "Větší"
+#: TP_DIRPYRDENOISE_99
+msgid "9x9 (very slow)"
+msgstr "9x9 (velmi pomalé)"
 
 #: TP_DIRPYREQUALIZER_ALGO_TOOLTIP
 msgid ""
@@ -5926,8 +6215,8 @@ msgid "To apply B&amp;W toning, set Chromaticity to -100."
 msgstr "Pro černobílé tónování nastavte barevnost na -100."
 
 #: TP_LABCURVE_LABEL
-msgid "Lab Adjustments"
-msgstr "Lab úpravy"
+msgid "L*a*b* Adjustments"
+msgstr "L*a*b* úpravy"
 
 #: TP_LABCURVE_LCREDSK_TIP
 msgid ""
@@ -5946,8 +6235,8 @@ msgid "Red and skin-tones protection"
 msgstr "Ochrana červených a pleťových tónů"
 
 #: TP_LABCURVE_RSTPRO_TOOLTIP
-msgid "Can be used with the Chromaticity slider and the CC curve."
-msgstr "Může být použito s posuvníkem barevnosti a CC křivkou."
+msgid "Works on the Chromaticity slider and the CC curve."
+msgstr "Pracuje s posuvníkem barevnosti a CC křivkou."
 
 #: TP_LENSGEOM_AUTOCROP
 msgid "Auto-Crop"
@@ -6048,9 +6337,10 @@ msgstr "%1 demozajkování..."
 #: TP_RAW_DMETHOD_TOOLTIP
 msgid ""
 "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise "
-"reduction without leading to posterization or a washed-out look."
+"reduction without leading to maze patterns, posterization or a washed-out "
+"look."
 msgstr ""
-"Poznámka: IGV a LMMSE jsou určeny pro obrázky s vysokým ISO, kde pomůže "
+"Poznámka: IGV a LMMSE jsou určeny pro obrázky s vysokým ISO, kde pomáhají "
 "redukci šumu minimalizovat posterizaci a vyžehlený vzhled."
 
 #: TP_RAWEXPOS_BLACK_GREEN
@@ -6151,6 +6441,10 @@ msgstr "Celý obrázek"
 msgid "Height"
 msgstr "Výška"
 
+#: TP_RESIZE_H
+msgid "Height:"
+msgstr "Výška:"
+
 #: TP_RESIZE_LANCZOS
 msgid "Lanczos"
 msgstr "Lanczos"
@@ -6164,8 +6458,8 @@ msgid "Specify:"
 msgstr "Zvolte:"
 
 #: TP_RESIZE_W
-msgid "W:"
-msgstr "Š:"
+msgid "Width:"
+msgstr "Šířka:"
 
 #: TP_RGBCURVES_BLUE
 msgid "B"
@@ -6548,6 +6842,120 @@ msgstr ""
 msgid "(100%)"
 msgstr "(100%)"
 
+#~ msgid "Minima/Maxima control points"
+#~ msgstr "Min/Max kontrolní body"
+
+#~ msgid "Luminance black"
+#~ msgstr "Jas černé"
+
+#~ msgid "Luminance highlight Compr."
+#~ msgstr "Jas komprese světel"
+
+#~ msgid "Luminance shadow Compr."
+#~ msgstr "Jas komprese stínů"
+
+#~ msgid "'L' Curve"
+#~ msgstr "'L' křivka"
+
+#~ msgid "CL curve"
+#~ msgstr "CL křivka"
+
+#~ msgid "LH curve"
+#~ msgstr "LH křivka"
+
+#~ msgid "HH curve"
+#~ msgstr "HH křivka"
+
+#~ msgid "Color Toning - Color"
+#~ msgstr "Barevné tónování - Barva"
+
+#~ msgid "Color Toning - Method"
+#~ msgstr "Barevné tónování - Metoda"
+
+#~ msgid "Color Toning - Balance"
+#~ msgstr "Barevné tónování - Vyvážení"
+
+#~ msgid "Color Toning - Preserve luminance"
+#~ msgstr "Barevné tónování - Saturace jasů"
+
+#~ msgid "Color Toning - Shadows"
+#~ msgstr "Barevné tónování - Stíny"
+
+#~ msgid "Color Toning - Highlights"
+#~ msgstr "Barevné tónování - Světla"
+
+#~ msgid "Color Toning - Strength"
+#~ msgstr "Barevné tónování - síla"
+
+#~ msgid "NR - Modulate luminance"
+#~ msgstr "Redukce šumu - Modulace jasu"
+
+#~ msgid "Data specified for resize"
+#~ msgstr "Data pro změnu rozměrů"
+
+#~ msgid "'a' Curve"
+#~ msgstr "'a' křivka"
+
+#~ msgid "'b' Curve"
+#~ msgstr "'b' křivka"
+
+#~ msgid "Changes to Exif data"
+#~ msgstr "Změny Exif dat"
+
+#~ msgid "IPTC info"
+#~ msgstr "IPTC info"
+
+#~ msgid "Apply dead pixel filter"
+#~ msgstr "Aplikovat filtr na mrtvé body"
+
+#~ msgid "Apply hot pixel filter"
+#~ msgstr "Aplikovat filtr na vypálené body"
+
+#~ msgid "Multiple Editor Tabs Mode (if available on second monitor)"
+#~ msgstr "Mód více karet editoru (pokud je dostupný druhý monitor)"
+
+#~ msgid "Max number of threads for Noise Reduction"
+#~ msgstr "Maximální počet vláken pro redukci šumu"
+
+#~ msgid "Channel Mixer absolute RGB"
+#~ msgstr "Míchání kanálů - úplné RGB"
+
+#~ msgid "Channel Mixer relative RGB"
+#~ msgstr "Míchání kanálů - relativní RGB"
+
+#~ msgid "Opacity Chroma according to Luminance of C=f(L)"
+#~ msgstr "Mísení barevnost dle jasu C=f(L)"
+
+#~ msgid ""
+#~ "When you move a saturation slider, these 'direct' colors are increased."
+#~ msgstr "\"Přímé\" barvy rostou pohnutím posuvníku saturace."
+
+#~ msgid "Direct Colors"
+#~ msgstr "Přímé barvy"
+
+#~ msgid ""
+#~ "When the image color is blue and the blending color is red, it results in "
+#~ "a magenta color in the function of % opacity.\n"
+#~ "When the image color is red and the blending color is yellow, it results "
+#~ "in an orange color in the function of % opacity."
+#~ msgstr ""
+#~ "Pokud je obrázek modrý a barva mísení je červená bude výsledkem purpurová"
+
+#~ msgid "Lab"
+#~ msgstr "Lab"
+
+#~ msgid "Median"
+#~ msgstr "Medián"
+
+#~ msgid "Fine"
+#~ msgstr "Jemný"
+
+#~ msgid "Large"
+#~ msgstr "Větší"
+
+#~ msgid "W:"
+#~ msgstr "Š:"
+
 #~ msgid "Focal Length"
 #~ msgstr "Ohnisková vzdálenost"
 
@@ -6813,9 +7221,6 @@ msgstr "(100%)"
 
 #~ msgid "Raw Auto CA"
 #~ msgstr "Raw - Automatická CA"
-
-#~ msgid "Auto Distorion"
-#~ msgstr "Automatická oprava zkreslení objektivu"
 
 #~ msgid "GTK default"
 #~ msgstr "GTK výchozí"
@@ -7172,17 +7577,11 @@ msgstr "(100%)"
 #~ msgid "Normal"
 #~ msgstr "Normální"
 
-#~ msgid "Preview"
-#~ msgstr "Náhled"
-
 #~ msgid "Small"
 #~ msgstr "Malý"
 
 #~ msgid "Bypass Shadow/Highlights (High Quality)"
 #~ msgstr "Vynechat Světla/Stíny (vysoká kvalita)"
-
-#~ msgid "RGB Saturation"
-#~ msgstr "Sytost RGB"
 
 #~ msgid "Defringing"
 #~ msgstr "Odstranění lemu"

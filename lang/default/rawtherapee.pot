@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2014-12-04 05:47+0100\n"
+"POT-Creation-Date: 2015-01-28 05:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2369,6 +2369,10 @@ msgstr ""
 msgid " Filter "
 msgstr ""
 
+#: MAIN_TAB_INSPECT
+msgid " Inspect"
+msgstr ""
+
 #: MAIN_TAB_IPTC,PARTIALPASTE_IPTCINFO
 msgid "IPTC"
 msgstr ""
@@ -2689,6 +2693,10 @@ msgstr ""
 msgid "White balance"
 msgstr ""
 
+#: PREFERENCES_APPLNEXTRELOAD
+msgid "image reload required"
+msgstr ""
+
 #: PREFERENCES_APPLNEXTSTARTUP
 msgid "restart required"
 msgstr ""
@@ -2759,6 +2767,10 @@ msgstr ""
 
 #: PREFERENCES_CACHETHUMBHEIGHT
 msgid "Maximum thumbnail height"
+msgstr ""
+
+#: PREFERENCES_CIEART_FRAME
+msgid "CIECAM02-Specific Settings"
 msgstr ""
 
 #: PREFERENCES_CIEART_LABEL
@@ -3013,8 +3025,24 @@ msgstr ""
 msgid "Directory containing color profiles"
 msgstr ""
 
+#: PREFERENCES_IMG_RELOAD_NEEDED
+msgid "These changes require the image to be reloaded (or a new image to be opened) to take effect."
+msgstr ""
+
 #: PREFERENCES_IMPROCPARAMS
 msgid "Default Processing Profile"
+msgstr ""
+
+#: PREFERENCES_INSPECT_LABEL
+msgid "Inspect"
+msgstr ""
+
+#: PREFERENCES_INSPECT_MAXBUFFERS_LABEL
+msgid "Maximum number of buffers"
+msgstr ""
+
+#: PREFERENCES_INSPECT_MAXBUFFERS_TOOLTIP
+msgid "Set the maximum number of images stored in cache when hovering over them in the File Browser; systems with little RAM (2GB) should keep this value set to 1 or 2."
 msgstr ""
 
 #: PREFERENCES_INTENT_ABSOLUTE
