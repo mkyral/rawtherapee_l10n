@@ -32,6 +32,9 @@
 #31 2014-05-12 updated by mkyral
 #32 2014-10-24 updated by mkyral
 #33 2015-01-29 updated by mkyral
+#34 2015-02-03 updated by mkyral
+#35 2015-02-10 updated by mkyral
+#36 2015-02-12 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -92,6 +95,7 @@ EXPORT_BYPASS_ALL;Vybrat / Zrušit výběr všeho
 EXPORT_BYPASS_DEFRINGE;Vynechat odstranění lemu
 EXPORT_BYPASS_DIRPYRDENOISE;Vynechat redukci šumu
 EXPORT_BYPASS_DIRPYREQUALIZER;Vynechat kontrast dle detailu úrovní
+EXPORT_BYPASS_EQUALIZER;Vynechat úrovně vlnky
 EXPORT_BYPASS_RAW_CA;Vynechat [raw] korekci Chromatické aberace
 EXPORT_BYPASS_RAW_CCSTEPS;Vynechat [raw] potlačení chybných barev
 EXPORT_BYPASS_RAW_DCB_ENHANCE;Vynechat [raw] kroky vylepšení DCB
@@ -549,6 +553,40 @@ HISTORY_MSG_300;-
 HISTORY_MSG_301;Redukce šumu - Nastavení jasu
 HISTORY_MSG_302;Redukce šumu - Metoda barevnosti
 HISTORY_MSG_303;Redukce šumu - Metoda barevnosti
+HISTORY_MSG_304;Vlnka - úrověň
+HISTORY_MSG_305;Vlnka - úrověň
+HISTORY_MSG_306;Vlnka N° úroveň
+HISTORY_MSG_307;Vlnka - úroveň barevnosti
+HISTORY_MSG_308;Vlnka - směr
+HISTORY_MSG_309;Vlnka - dlaždice
+HISTORY_MSG_310;Vlnka - tóny oblohy
+HISTORY_MSG_311;Vlnka - maximální úrovně
+HISTORY_MSG_312;Vlnka - práh stínů
+HISTORY_MSG_313;Vlnka - saturované pastely
+HISTORY_MSG_314;Vlnka - artefakty modré oblohy
+HISTORY_MSG_315;Vlnka - zbytkový kontrast
+HISTORY_MSG_316;Vlnka - tóny pleti
+HISTORY_MSG_317;Vlnka - Odstín pleti
+HISTORY_MSG_318;Vlnka - úrovně světel
+HISTORY_MSG_319;Vlnka - rozsah světel
+HISTORY_MSG_320;Vlnka - rozsah stínů
+HISTORY_MSG_321;Vlnka - úrovně stínů
+HISTORY_MSG_322;Vlnka - zabránit posunu barev
+HISTORY_MSG_323;Vlnka - úroveň barevnosti
+HISTORY_MSG_324;Vlnka - úroveň pastelovosti
+HISTORY_MSG_325;Vlnka - nasycení barev
+HISTORY_MSG_326;Vlnka - metoda barevnosti
+HISTORY_MSG_327;Vlnka - metoda kontrastu
+HISTORY_MSG_328;Vlnka - propojení barev
+HISTORY_MSG_329;Vlnka - neprůhlednost Č/Z
+HISTORY_MSG_330;Vlnka - neprůhlednost M/Ž
+HISTORY_MSG_331;Vlnka - extra
+HISTORY_MSG_332;Vlnka - metoda dlaždic
+HISTORY_MSG_333;Vlnka - zbytkové stíny
+HISTORY_MSG_334;Vlnka - barevnost
+HISTORY_MSG_335;Vlnka - zbytkové světlo
+HISTORY_MSG_336;Vlnka - práh světel
+HISTORY_MSG_337;Vlnka - rozsah odstínů
 HISTORY_NEWSNAPSHOT;Přidat
 HISTORY_NEWSNAPSHOT_TOOLTIP;Zkratka: <b>Alt-s</b>
 HISTORY_SNAPSHOTS;Snímky
@@ -697,6 +735,7 @@ PARTIALPASTE_DIRPYRDENOISE;Redukce šumu
 PARTIALPASTE_DIRPYREQUALIZER;Kontrast dle detailu úrovní
 PARTIALPASTE_DISTORTION;Korekce zkreslení
 PARTIALPASTE_EPD;Mapování tónů
+PARTIALPASTE_EQUALIZER;Vlnka - korekce
 PARTIALPASTE_EVERYTHING;Vše
 PARTIALPASTE_EXIFCHANGES;Exif
 PARTIALPASTE_EXPOSURE;Expozice
@@ -889,8 +928,8 @@ PREFERENCES_PROFILESAVECACHE;Ukládat parametry zpracování do cache
 PREFERENCES_PROFILESAVEINPUT;Ukládat parametry zpracování spolu se zdrojovým souborem
 PREFERENCES_PROPERTY;Vlastnost
 PREFERENCES_PSPATH;Instalační složka Adobe Photoshop
-PREFERENCES_RGBDTL_LABEL;Maximální počet vláken
-PREFERENCES_RGBDTL_TOOLTIP;Redukce šumu potřebuje v základu 128MB RAM u 10MPix obrázku nebo 512MB pro 40MPix obrázek plus dalších 128MB RAM pro každé vlákno. Více paralelních vláken zvyšuje spotřebu paměti. Při nastavení na nulu je automaticky použit maximální možný počet vláken.
+PREFERENCES_RGBDTL_LABEL;Maximální počet vláken pro redukci šumu a vlnku (děleno 2)
+PREFERENCES_RGBDTL_TOOLTIP;Redukce šumu a Vlnka potřebuje v základu 128MB RAM u 10MPix obrázku nebo 512MB pro 40MPix obrázek plus dalších 128MB RAM pro každé vlákno. Více paralelních vláken rychle zvyšuje spotřebu paměti. Při nastavení na nulu je automaticky použit maximální možný počet vláken.
 PREFERENCES_SELECTFONT;Vybrat písmo
 PREFERENCES_SELECTLANG;Volba jazyka
 PREFERENCES_SELECTTHEME;Zvolit vzhled
@@ -1264,7 +1303,7 @@ TP_DIRPYRDENOISE_RED;Barevnost - Červená a zelená
 TP_DIRPYRDENOISE_RGBM;RGB
 TP_DIRPYRDENOISE_RGB;RGB
 TP_DIRPYRDENOISE_SHALBI;Vysoká
-TP_DIRPYRDENOISE_SHAL;Běžný
+TP_DIRPYRDENOISE_SHAL;Běžná
 TP_DIRPYRDENOISE_SLI;Posuvník
 TP_DIRPYRDENOISE_SOFT;3×3
 TP_DIRPYRDENOISE_TILELABEL;Velikost dlaždice=%1, Střed: Tx=%2  Ty=%3
@@ -1571,6 +1610,89 @@ TP_VIGNETTING_CENTER_Y;Střed Y
 TP_VIGNETTING_LABEL;Úprava vinětace
 TP_VIGNETTING_RADIUS;Poloměr
 TP_VIGNETTING_STRENGTH;Síla
+TP_WAVELET_0;úroveň 0
+TP_WAVELET_1;úroveň 1
+TP_WAVELET_2;úroveň 2
+TP_WAVELET_3;úroveň 3
+TP_WAVELET_4;úroveň 4
+TP_WAVELET_5;úroveň 5
+TP_WAVELET_6;úroveň 6
+TP_WAVELET_7;úroveň 7
+TP_WAVELET_8;úroveň 8
+TP_WAVELET_ALL;všechny úrovně a směry
+TP_WAVELET_AVOID;Zabránit posunu barev
+TP_WAVELET_CH1;Všechny barvy
+TP_WAVELET_CH2;Pastelové - Saturované
+TP_WAVELET_CH3;Propojit kontrast úrovní
+TP_WAVELET_CHRO;Saturované - Pastelové
+TP_WAVELET_CHRO_TOOLTIP;Hranice mezi pastely a nasycením\n 1 - x úroveň nasycení\n x - 9 úroveň pastelů
+TP_WAVELET_CHR;Propojení barev
+TP_WAVELET_CHR_TOOLTIP;Přizpůsobí barevnost jako funkci:\na - kontrast úrovní\nb - síla posuvníku propojení barev 
+TP_WAVELET_CLVCURVE;Barevnost - úrovně
+TP_WAVELET_COLORT;Neprůhlednost červená-zelená  Úrovně
+TP_WAVELET_CONTRAST_MINUS;Kontrast -
+TP_WAVELET_CONTRAST_PLUS;Kontrast +
+TP_WAVELET_CONTRA;Kontrast
+TP_WAVELET_CONTRA_TOOLTIP;Změní kontrast zbytkového obrázku\nFunkce maximálních úrovní
+TP_WAVELET_CONTR;Paleta - nastavení
+TP_WAVELET_CURVEEDITOR_CLV_TOOLTIP;Dává barevnost jako funkci úrovní (absciss???)\nÚrovně jsou nespojité hodnoty
+TP_WAVELET_DALL;Všechny směry
+TP_WAVELET_DISPLAYCHRO;Barevnost a tónování
+TP_WAVELET_DISPLAYGAM;Paleta a nastavení
+TP_WAVELET_DISPLAY;Úrovně a funkce
+TP_WAVELET_DISP;Zobrazené úrovně vlnky
+TP_WAVELET_DONE;Směr: svisle
+TP_WAVELET_DTHR;Směr: šikmo
+TP_WAVELET_DTWO;Směr: vodorovně
+TP_WAVELET_FINEST;Nejjemnější
+TP_WAVELET_HIGHLIGHT;Zvýraznění rozsahu jasů (0..100)
+TP_WAVELET_HIGHSHA;Projasnění stínů
+TP_WAVELET_HS1;Všechny jasy
+TP_WAVELET_HS2;Světla - Stíny
+TP_WAVELET_HUESKIN;Rozsah odstínů (pleť)
+TP_WAVELET_HUESKIN_TOOLTIP;Pyramida je pro horní část, kde je algoritmus nejvíce efektivní.\nKe spodní části, tranzitním zónám.\nPokud potřebujete posunout oblast hodně doleva nebo doprava - nebo pokud se vyskytnou artefakty = <b>vyvážení bílé není správné</b>, můžete mírně zmenšit zónu aby jste zabránili ovlivnění ostatních částí obrázku.
+TP_WAVELET_HUESKY;Rozsah odstínů (obloha)
+TP_WAVELET_HUESKY_TOOLTIP;Pyramida je pro horní část, kde je algoritmus nejvíce efektivní.\nKe spodní části, tranzitním zónám.\nPokud potřebujete posunout oblast hodně doleva nebo doprava - nebo pokud se vyskytnou artefakty = <b>vyvážení bílé není správné</b>, můžete mírně zmenšit zónu aby jste zabránili ovlivnění ostatních částí obrázku.
+TP_WAVELET_INF;méně nebo shodně s úrovní
+TP_WAVELET_LABEL;Vlnka - úrovně
+TP_WAVELET_LARGEST;Nejhrubší
+TP_WAVELET_LEVCH;Barevnost
+TP_WAVELET_LEVF;Kontrast
+TP_WAVELET_LEVLABEL;Náhled maximálně dostupné úrovně=%1
+TP_WAVELET_LOWLIGHT;Rozsah projasnění stínů (0..100)
+TP_WAVELET_MAX;max
+TP_WAVELET_MEDI;Omezení artefaktů na modré obleze
+TP_WAVELET_MIN;min
+TP_WAVELET_NEUTRAL;Neutrální
+TP_WAVELET_ONE;jedna úroveň
+TP_WAVELET_OPACITY;Neprůhlednost modrá-žlutá  Úrovně
+TP_WAVELET_PASTEL;Barevnost pastelů
+TP_WAVELET_RESCHRO;Barevnost
+TP_WAVELET_RESCONH;Světla
+TP_WAVELET_RESCON;Stíny
+TP_WAVELET_RESID;Zbytkový obrázek
+TP_WAVELET_SAT;Saturovaná barevnost
+TP_WAVELET_SKIN;Ochrana a zaměření na tóny pleti
+TP_WAVELET_SKIN_TOOLTIP;Hodnota -100:  zaměřeno na tóny pokožky.\nHodnota 0: se všemi tóny je zacházeno stejně.\nHodnota +100: tóny pokožky jsou chráněny a ovlivněny jsou všechny ostatní tóny.
+TP_WAVELET_SKY;Ochrana a zaměření na tóny oblohy
+TP_WAVELET_SKY_TOOLTIP;Zvýšení/snížení barevnosti rozsahu odstínu vstupu/výstupu\nPro eliminaci artefaktů v modré obloze - mikrokontrasr, mikrobarevnost,...
+TP_WAVELET_SUPE;Extra
+TP_WAVELET_SUP;nad úrovní + zbytek
+TP_WAVELET_THRESHOLD2;Počet použitých úrovní stínů (od nejhrubších po nejjemnější)
+TP_WAVELET_THRESHOLD2_TOOLTIP;Pokud tuto hodnotu změníte, bude na úrovně mezi úrovní 9 a 9 - hodnota použita pouze funkce projasnění stínů.\nNa ostatní úrovně budou použity všechny funkce.\nMaximální úroveň stínů je ovlivněna hodnotou světel (9 - úroveň světel)světelnost
+TP_WAVELET_THRESHOLD;Počet použitých úrovní jasů (od nejjemnějších po nejhrubší - hlavní)
+TP_WAVELET_THRESHOLD_TOOLTIP;Pokud tuto hodnotu změníte, bude funkce zvýraznění jasů použita pouze u úrovní nad touto hodnotou .\nNa ostatní úrovně budou použity všechny funkce.
+TP_WAVELET_THRES;Maximální úroveň
+TP_WAVELET_THRES_TOOLTIP;Je ovlivněno počtem aktivních úrovní. Vyšší úrovně jsou ignorovány.
+TP_WAVELET_THRH;Práh světel
+TP_WAVELET_THR;Práh stínů
+TP_WAVELET_TILESBIG;Velké dlaždice
+TP_WAVELET_TILESFULL;Celý obrázek
+TP_WAVELET_TILESLIT;Malé dlaždice
+TP_WAVELET_TILES;Velikost dlaždice (* 128)
+TP_WAVELET_TILES_TOOLTIP;Pokud vyberete "Celý obrázek", budete pro 16M obrázek a 10 úrovní potřebovat 2.G° paměti\npro 24M obrázek a 10 úrovní budete potřebovat 2.5G° paměti\npro 35M obrázek a 10 úrovní budete potřebovat 3.3G° paměti\nPři nedostatku paměti vyberte prosím dlaždice.
+TP_WAVELET_TON;Tónování
+TP_WAVELET_UTIL;Funkce
 TP_WBALANCE_AUTO;Automaticky
 TP_WBALANCE_CAMERA;Fotoaparát
 TP_WBALANCE_CLOUDY;Zataženo

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-01-28 05:20+0100\n"
+"POT-Creation-Date: 2015-02-12 17:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Curve files"
 msgstr ""
 
-#: CURVEEDITOR_HIGHLIGHTS,TP_COLORTONING_HIGHLIGHT,TP_SHADOWSHLIGHTS_HIGHLIGHTS
+#: CURVEEDITOR_HIGHLIGHTS,TP_COLORTONING_HIGHLIGHT,TP_SHADOWSHLIGHTS_HIGHLIGHTS,TP_WAVELET_RESCONH
 msgid "Highlights"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Save curve..."
 msgstr ""
 
-#: CURVEEDITOR_SHADOWS,TP_COLORTONING_SHADOWS,TP_SHADOWSHLIGHTS_SHADOWS
+#: CURVEEDITOR_SHADOWS,TP_COLORTONING_SHADOWS,TP_SHADOWSHLIGHTS_SHADOWS,TP_WAVELET_RESCON
 msgid "Shadows"
 msgstr ""
 
@@ -255,6 +255,10 @@ msgstr ""
 
 #: EXPORT_BYPASS_DIRPYREQUALIZER
 msgid "Bypass Contrast by Detail Levels"
+msgstr ""
+
+#: EXPORT_BYPASS_EQUALIZER
+msgid "Bypass Wavelet Levels"
 msgstr ""
 
 #: EXPORT_BYPASS_RAW_CA
@@ -1737,16 +1741,148 @@ msgstr ""
 msgid "NR - Chroma method"
 msgstr ""
 
+#: HISTORY_MSG_304,HISTORY_MSG_305
+msgid "Wavelet level"
+msgstr ""
+
+#: HISTORY_MSG_306
+msgid "Wavelet N° level"
+msgstr ""
+
+#: HISTORY_MSG_307
+msgid "Wavelet Ch level"
+msgstr ""
+
+#: HISTORY_MSG_308
+msgid "Wavelet direction"
+msgstr ""
+
+#: HISTORY_MSG_309
+msgid "Wavelet tiles"
+msgstr ""
+
 #: HISTORY_MSG_31
 msgid "RLD - Amount"
+msgstr ""
+
+#: HISTORY_MSG_310
+msgid "Wavelet Hue-tones sky"
+msgstr ""
+
+#: HISTORY_MSG_311
+msgid "Wavelet Max Levels"
+msgstr ""
+
+#: HISTORY_MSG_312
+msgid "Wavelet Shadow Threshold "
+msgstr ""
+
+#: HISTORY_MSG_313
+msgid "Wavelet Pastel Saturated"
+msgstr ""
+
+#: HISTORY_MSG_314
+msgid "Wavelet artifacts blue sky"
+msgstr ""
+
+#: HISTORY_MSG_315
+msgid "Wavelet Contrast Residual"
+msgstr ""
+
+#: HISTORY_MSG_316
+msgid "Wavelet Skin tones"
+msgstr ""
+
+#: HISTORY_MSG_317
+msgid "Wavelet Skin hue"
+msgstr ""
+
+#: HISTORY_MSG_318
+msgid "Wavelet highlight levels "
+msgstr ""
+
+#: HISTORY_MSG_319
+msgid "Wavelet highlight range "
 msgstr ""
 
 #: HISTORY_MSG_32
 msgid "RLD - Damping"
 msgstr ""
 
+#: HISTORY_MSG_320
+msgid "Wavelet shadow range "
+msgstr ""
+
+#: HISTORY_MSG_321
+msgid "Wavelet shadow levels "
+msgstr ""
+
+#: HISTORY_MSG_322
+msgid "Wavelet avoid color shift "
+msgstr ""
+
+#: HISTORY_MSG_323
+msgid "Wavelet Chroma level "
+msgstr ""
+
+#: HISTORY_MSG_324
+msgid "Wavelet Chroma pastel "
+msgstr ""
+
+#: HISTORY_MSG_325
+msgid "Wavelet Chroma saturated "
+msgstr ""
+
+#: HISTORY_MSG_326
+msgid "Wavelet Chroma method "
+msgstr ""
+
+#: HISTORY_MSG_327
+msgid "Wavelet Contrast method "
+msgstr ""
+
+#: HISTORY_MSG_328
+msgid "Wavelet Chroma link"
+msgstr ""
+
+#: HISTORY_MSG_329
+msgid "Wavelet Opacity RG"
+msgstr ""
+
 #: HISTORY_MSG_33
 msgid "RLD - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_330
+msgid "Wavelet Opacity BY"
+msgstr ""
+
+#: HISTORY_MSG_331
+msgid "Wavelet Extra"
+msgstr ""
+
+#: HISTORY_MSG_332
+msgid "Wavelet Tiles Method"
+msgstr ""
+
+#: HISTORY_MSG_333
+msgid "Wavelet Shadow Residual"
+msgstr ""
+
+#: HISTORY_MSG_334
+msgid "Wavelet Chroma"
+msgstr ""
+
+#: HISTORY_MSG_335
+msgid "Wavelet Highlight Residual"
+msgstr ""
+
+#: HISTORY_MSG_336
+msgid "Wavelet Highlight threshold"
+msgstr ""
+
+#: HISTORY_MSG_337
+msgid "Wavelet Hue range"
 msgstr ""
 
 #: HISTORY_MSG_34
@@ -1857,7 +1993,7 @@ msgstr ""
 msgid "Vertical flipping"
 msgstr ""
 
-#: HISTORY_MSG_6,TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST
+#: HISTORY_MSG_6,TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST,TP_WAVELET_CONTRA,TP_WAVELET_LEVF
 msgid "Contrast"
 msgstr ""
 
@@ -2577,6 +2713,10 @@ msgstr ""
 msgid "Tone mapping"
 msgstr ""
 
+#: PARTIALPASTE_EQUALIZER
+msgid "Wavelet Equalizer"
+msgstr ""
+
 #: PARTIALPASTE_EVERYTHING
 msgid "Everything"
 msgstr ""
@@ -2717,7 +2857,7 @@ msgstr ""
 msgid "Use operating system's main monitor color profile"
 msgstr ""
 
-#: PREFERENCES_AUTSTD,PREFERENCES_STDAUT,PREFERENCES_TISTD,TP_DIRPYRDENOISE_SHAL,TP_EXPOSURE_TCMODE_STANDARD
+#: PREFERENCES_AUTSTD,PREFERENCES_STDAUT,PREFERENCES_TISTD,TP_EXPOSURE_TCMODE_STANDARD
 msgid "Standard"
 msgstr ""
 
@@ -3222,11 +3362,11 @@ msgid "Adobe Photoshop installation directory"
 msgstr ""
 
 #: PREFERENCES_RGBDTL_LABEL
-msgid "Max number of threads"
+msgid "Max number of threads Denoise and Wavelet (divide by 2)"
 msgstr ""
 
 #: PREFERENCES_RGBDTL_TOOLTIP
-msgid "Noise Reduction requires a baseline of about 128MB RAM for a 10MPix image or 512MB for a 40MPix image, and additionally 128MB RAM per thread. The more threads run in parallel, the faster the computation. Leave the setting at \"0\" to automatically use as many threads as possible."
+msgid "Noise Reduction and Wavelet requires a baseline of about 128MB RAM for a 10MPix image or 512MB for a 40MPix image, and additionally 128MB RAM per thread. The more threads run in parallel, the faster the computation. Leave the setting at \"0\" to automatically use as many threads as possible."
 msgstr ""
 
 #: PREFERENCES_SELECTFONT
@@ -3413,7 +3553,7 @@ msgstr ""
 msgid "From file"
 msgstr ""
 
-#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL,TP_WAVELET_NEUTRAL
 msgid "Neutral"
 msgstr ""
 
@@ -4504,6 +4644,11 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
+#: TP_DIRPYRDENOISE_SHAL
+msgctxt "TP_DIRPYRDENOISE_SHAL"
+msgid "Standard"
+msgstr ""
+
 #: TP_DIRPYRDENOISE_SLI
 msgid "Slider"
 msgstr ""
@@ -4548,7 +4693,7 @@ msgstr ""
 msgid "Reduce artifacts"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_HUESKIN_TOOLTIP
+#: TP_DIRPYREQUALIZER_HUESKIN_TOOLTIP,TP_WAVELET_HUESKIN_TOOLTIP,TP_WAVELET_HUESKY_TOOLTIP
 msgid "This pyramid is for the upper part, so far as the algorithm at its maximum efficiency.\nTo the lower part, the transition zones.\nIf you need to move the area significantly to the left or right - or if there are artifacts: the <b>white balance is incorrect</b>\nYou can slightly reduce the zone to prevent the rest of the image is affected."
 msgstr ""
 
@@ -4556,23 +4701,23 @@ msgstr ""
 msgid "Skin hue"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMACOARSEST
+#: TP_DIRPYREQUALIZER_LUMACOARSEST,TP_WAVELET_LARGEST
 msgid "Coarsest"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMACONTRAST_MINUS
+#: TP_DIRPYREQUALIZER_LUMACONTRAST_MINUS,TP_WAVELET_CONTRAST_MINUS
 msgid "Contrast -"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMACONTRAST_PLUS
+#: TP_DIRPYREQUALIZER_LUMACONTRAST_PLUS,TP_WAVELET_CONTRAST_PLUS
 msgid "Contrast +"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_LUMAFINEST
+#: TP_DIRPYREQUALIZER_LUMAFINEST,TP_WAVELET_FINEST
 msgid "Finest"
 msgstr ""
 
-#: TP_DIRPYREQUALIZER_SKIN_TOOLTIP
+#: TP_DIRPYREQUALIZER_SKIN_TOOLTIP,TP_WAVELET_SKIN_TOOLTIP
 msgid "At -100 skin-tones are targetted.\nAt 0 all tones are treated equally.\nAt +100 skin-tones are protected while all other tones are affected."
 msgstr ""
 
@@ -4905,7 +5050,7 @@ msgstr ""
 msgid "Fit colors into gamut of the working color space and apply Munsell correction."
 msgstr ""
 
-#: TP_LABCURVE_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT
+#: TP_LABCURVE_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT,TP_WAVELET_AVOID
 msgid "Avoid color shift"
 msgstr ""
 
@@ -5009,7 +5154,7 @@ msgstr ""
 msgid "Luminance Curve"
 msgstr ""
 
-#: TP_LABCURVE_CHROMATICITY
+#: TP_LABCURVE_CHROMATICITY,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
 msgid "Chromaticity"
 msgstr ""
 
@@ -5367,6 +5512,278 @@ msgstr ""
 
 #: TP_VIGNETTING_LABEL
 msgid "Vignetting Correction"
+msgstr ""
+
+#: TP_WAVELET_ALL
+msgid "all levels-directions"
+msgstr ""
+
+#: TP_WAVELET_CLVCURVE
+msgid "Chrominance - Levels"
+msgstr ""
+
+#: TP_WAVELET_COLORT
+msgid "Opacity Red-Green  Levels"
+msgstr ""
+
+#: TP_WAVELET_CONTRA_TOOLTIP
+msgid "Change contrast residual image\nFunction of  Max Levels"
+msgstr ""
+
+#: TP_WAVELET_CONTR
+msgid "Gamut - controls"
+msgstr ""
+
+#: TP_WAVELET_CURVEEDITOR_CLV_TOOLTIP
+msgid "Give chroma in function of levels (absciss)\nLevels are discrets values"
+msgstr ""
+
+#: TP_WAVELET_DALL
+msgid "All directions"
+msgstr ""
+
+#: TP_WAVELET_DISPLAYGAM
+msgid "Gamut and Control"
+msgstr ""
+
+#: TP_WAVELET_DISPLAYCHRO
+msgid "Chromaticity and Toning"
+msgstr ""
+
+#: TP_WAVELET_DISPLAY
+msgid "Levels and Utilities"
+msgstr ""
+
+#: TP_WAVELET_DISP
+msgid "Display Wavelet levels"
+msgstr ""
+
+#: TP_WAVELET_DONE
+msgid "Direction: Vertical"
+msgstr ""
+
+#: TP_WAVELET_DTHR
+msgid "Direction: Diagonal"
+msgstr ""
+
+#: TP_WAVELET_DTWO
+msgid "Direction: Horizontal"
+msgstr ""
+
+#: TP_WAVELET_HIGHLIGHT
+msgid "Highlight Luminance Range (0..100)"
+msgstr ""
+
+#: TP_WAVELET_HIGHSHA
+msgid "Highlight Shadows"
+msgstr ""
+
+#: TP_WAVELET_HS1
+msgid "All luminance"
+msgstr ""
+
+#: TP_WAVELET_HS2
+msgid "Highlight - Shadows"
+msgstr ""
+
+#: TP_WAVELET_HUESKIN
+msgid "Hue Range (skin)"
+msgstr ""
+
+#: TP_WAVELET_HUESKY
+msgid "Hue Range (sky)"
+msgstr ""
+
+#: TP_WAVELET_CHRO_TOOLTIP
+msgid "Limit between pastel and saturated\n 1-x level saturated \n x-9 level pastel"
+msgstr ""
+
+#: TP_WAVELET_CHRO
+msgid "Saturated - Pastel"
+msgstr ""
+
+#: TP_WAVELET_CHR_TOOLTIP
+msgid "Adjust chroma in function of:\na-levels contrasts\nb-Chroma link slider strength"
+msgstr ""
+
+#: TP_WAVELET_CHR
+msgid "Chroma link"
+msgstr ""
+
+#: TP_WAVELET_CH1
+msgid "All chroma"
+msgstr ""
+
+#: TP_WAVELET_CH2
+msgid "Pastel - Saturated"
+msgstr ""
+
+#: TP_WAVELET_CH3
+msgid "Link contrast levels"
+msgstr ""
+
+#: TP_WAVELET_INF
+msgid "below or equal the level"
+msgstr ""
+
+#: TP_WAVELET_LABEL
+msgid "Wavelet levels"
+msgstr ""
+
+#: TP_WAVELET_LEVLABEL
+msgid "Preview maximum possible levels=%1"
+msgstr ""
+
+#: TP_WAVELET_LOWLIGHT
+msgid "Shadow Luminance Range (0..100)"
+msgstr ""
+
+#: TP_WAVELET_MAX
+msgid "max"
+msgstr ""
+
+#: TP_WAVELET_MEDI
+msgid "Reduce artifacts in blue sky"
+msgstr ""
+
+#: TP_WAVELET_MIN
+msgid "min"
+msgstr ""
+
+#: TP_WAVELET_ONE
+msgid "one level"
+msgstr ""
+
+#: TP_WAVELET_OPACITY
+msgid "Opacity Blue-Yellow Levels"
+msgstr ""
+
+#: TP_WAVELET_PASTEL
+msgid "Pastel chromacity"
+msgstr ""
+
+#: TP_WAVELET_RESID
+msgid "Residual image"
+msgstr ""
+
+#: TP_WAVELET_SAT
+msgid "Saturated chromacity"
+msgstr ""
+
+#: TP_WAVELET_SKIN
+msgid "Hue-tones (skin) targetting/protection"
+msgstr ""
+
+#: TP_WAVELET_SKY_TOOLTIP
+msgid "Increase/reduce chrominance in/out hue range\nAvoid artifacts in blue sky - due to micro-contrast, micro-chroma,..."
+msgstr ""
+
+#: TP_WAVELET_SKY
+msgid "Hue-tones (sky) targetting/protection"
+msgstr ""
+
+#: TP_WAVELET_SUPE
+msgid "Extra"
+msgstr ""
+
+#: TP_WAVELET_SUP
+msgid "above the level + residual"
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD_TOOLTIP
+msgid "If you change this value, only level beyond will be treated with highlight luminance levels\nOthers level will be full treated"
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD
+msgid "Highlight Levels numbers used (finest to coarsest - master)"
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD2_TOOLTIP
+msgid "If you change this value, only level between 9 and 9 minus value, will be treated with shadow luminance levels\nOthers level will be full treated\nMax level shadow is limited by value of highlight level (9-highlight level)"
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD2
+msgid "Shadows Levels numbers used(coarsest to finest)"
+msgstr ""
+
+#: TP_WAVELET_THRES_TOOLTIP
+msgid "Can act on the number of active levels. Levels higher values are not taken into account, regardless of the position of the slider."
+msgstr ""
+
+#: TP_WAVELET_THRES
+msgid "Max level"
+msgstr ""
+
+#: TP_WAVELET_THRH
+msgid "Threshold highlights"
+msgstr ""
+
+#: TP_WAVELET_THR
+msgid "Threshold shadows"
+msgstr ""
+
+#: TP_WAVELET_TILESBIG
+msgid "Big Tiles"
+msgstr ""
+
+#: TP_WAVELET_TILESFULL
+msgid "Full image"
+msgstr ""
+
+#: TP_WAVELET_TILESLIT
+msgid "Little Tiles"
+msgstr ""
+
+#: TP_WAVELET_TILES_TOOLTIP
+msgid "If you select full image process will be performed - for a 16M image and 10 levels this option needs memory 2.G°\nfor a 24M image and 10 levels  this option needs memory 2.5G°\nfor a 35M image and 10 levels  this option needs memory 3.3G°\nOtherwise select tiles or if memory is too low"
+msgstr ""
+
+#: TP_WAVELET_TILES
+msgid "Tiles size (* 128)"
+msgstr ""
+
+#: TP_WAVELET_TON
+msgid "Toning"
+msgstr ""
+
+#: TP_WAVELET_UTIL
+msgid "Utilities"
+msgstr ""
+
+#: TP_WAVELET_0
+msgid "level 0"
+msgstr ""
+
+#: TP_WAVELET_1
+msgid "level 1"
+msgstr ""
+
+#: TP_WAVELET_2
+msgid "level 2"
+msgstr ""
+
+#: TP_WAVELET_3
+msgid "level 3"
+msgstr ""
+
+#: TP_WAVELET_4
+msgid "level 4"
+msgstr ""
+
+#: TP_WAVELET_5
+msgid "level 5"
+msgstr ""
+
+#: TP_WAVELET_6
+msgid "level 6"
+msgstr ""
+
+#: TP_WAVELET_7
+msgid "level 7"
+msgstr ""
+
+#: TP_WAVELET_8
+msgid "level 8"
 msgstr ""
 
 #: TP_WBALANCE_CLOUDY
