@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-02-22 16:38+0100\n"
-"PO-Revision-Date: 2015-02-22 17:33+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2015-02-22 19:03+0100\n"
+"PO-Revision-Date: 2015-02-22 20:05+0100\n"
+"Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -423,15 +423,15 @@ msgstr ""
 
 #: FILEBROWSER_CACHECLEARFROMFULL
 msgid "Clear from cache - full"
-msgstr "Vymazat z cache - úplně"
+msgstr "Vymazat z mezipaměti - úplně"
 
 #: FILEBROWSER_CACHECLEARFROMPARTIAL
 msgid "Clear from cache - partial"
-msgstr "Vymazat z cache - částečně"
+msgstr "Vymazat z mezipaměti - částečně"
 
 #: FILEBROWSER_CACHE
 msgid "Cache"
-msgstr "Cache"
+msgstr "Metipaměť"
 
 #: FILEBROWSER_CLEARPROFILE
 msgid "Clear"
@@ -1015,7 +1015,7 @@ msgstr "Na šířku"
 msgid "n/a"
 msgstr "n/a"
 
-#: GENERAL_NONE,PREFERENCES_AUTLISVLOW,TP_CROP_GTNONE
+#: GENERAL_NONE,TP_CROP_GTNONE
 msgid "None"
 msgstr "Nic"
 
@@ -1965,7 +1965,7 @@ msgstr "Redukce šumu - Metoda barevnosti"
 
 #: HISTORY_MSG_304,HISTORY_MSG_305
 msgid "Wavelet Level"
-msgstr "Vlnka - úroveň"
+msgstr "Úrovně vlnky"
 
 #: HISTORY_MSG_306
 msgid "Wavelet N° level"
@@ -3305,25 +3305,36 @@ msgstr "vyžaduje obnovení obrázku"
 msgid "restart required"
 msgstr "vyžaduje restart aplikace"
 
-#: PREFERENCES_AUTLISLOW,PREFERENCES_AUTLOW
+#: PREFERENCES_AUTLISLOW
+msgctxt "PREFERENCES_AUTLISLOW"
 msgid "Low"
-msgstr "Nízká"
+msgstr "Nízké"
 
 #: PREFERENCES_AUTLISMAX
 msgid "Max - Average of all tiles"
 msgstr "Maximální - průměr všech dlaždic"
 
-#: PREFERENCES_AUTLISSTD,PREFERENCES_TIMAX,TP_DIRPYRDENOISE_SHALBI
+#: PREFERENCES_AUTLISSTD
+msgctxt "PREFERENCES_AUTLISSTD"
 msgid "High"
-msgstr "Vysoká"
+msgstr "Vysoké"
+
+#: PREFERENCES_AUTLISVLOW
+msgctxt "PREFERENCES_AUTLISVLOW"
+msgid "None"
+msgstr "Ne"
+
+#: PREFERENCES_AUTLOW
+msgid "Low"
+msgstr "Nízká"
 
 #: PREFERENCES_AUTOMONPROFILE
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
 
-#: PREFERENCES_AUTSTD,PREFERENCES_STDAUT,PREFERENCES_TISTD,TP_EXPOSURE_TCMODE_STANDARD
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
 msgid "Standard"
-msgstr "Běžný"
+msgstr "Běžná"
 
 #: PREFERENCES_BEHADDALLHINT
 msgid ""
@@ -3375,11 +3386,11 @@ msgstr "Vymazat náhledy"
 
 #: PREFERENCES_CACHEMAXENTRIES
 msgid "Maximum number of cache entries"
-msgstr "Maximální počet záznamů v cache"
+msgstr "Maximální počet záznamů v mezipaměti"
 
 #: PREFERENCES_CACHEOPTS
 msgid "Cache Options"
-msgstr "Vlastnosti cache"
+msgstr "Vlastnosti mezipaměti"
 
 #: PREFERENCES_CACHETHUMBHEIGHT
 msgid "Maximum thumbnail height"
@@ -3515,7 +3526,7 @@ msgstr "Formát data"
 
 #: PREFERENCES_DAUB_LABEL
 msgid "Use Daubechies D6 wavelets instead of D4"
-msgstr "Místo D4 použít Daubechiesové vlnky D6"
+msgstr "Použít D6 Daubechiesové vlnky namísto D4"
 
 #: PREFERENCES_DAUB_TOOLTIP
 msgid ""
@@ -3525,9 +3536,9 @@ msgid ""
 "scale levels. There is no memory or processing time difference between the "
 "two."
 msgstr ""
-"Nástroje Redukce šumu a Úrovně vlnky používají Daubechiesovou mateřskou "
+"Nástroje Redukce šumu a Úrovně vlnky používají Daubechiesové mateřskou "
 "vlnku. Pokud místo D4 vyberete D6 zvýší se počet ortogonálních "
-"Daubechiesových koeficientů a pravděpodobně zvýší kvalitu úrovní malého "
+"Daubechiesové koeficientů a pravděpodobně zvýší kvalitu úrovní malého "
 "měřítka. Není zde rozdíl ve spotřebě paměti nebo délce zpracování."
 
 #: PREFERENCES_DEFAULTLANG
@@ -3963,7 +3974,7 @@ msgstr "Zachytávané přípony"
 
 #: PREFERENCES_PREVDEMO_FAST
 msgid "Fast"
-msgstr "Rychlé"
+msgstr "Rychlá"
 
 #: PREFERENCES_PREVDEMO_LABEL
 msgid "Demosaicing method used for the preview at <100% zoom:"
@@ -3971,7 +3982,7 @@ msgstr "Metoda demozajkování pro náhled při přiblížení menším než 100
 
 #: PREFERENCES_PREVDEMO_SIDECAR
 msgid "As in PP3"
-msgstr "Stejně jako v PP3"
+msgstr "Stejná jako v PP3"
 
 #: PREFERENCES_PREVDEMO
 msgid "Preview Demosaic Method"
@@ -3987,7 +3998,7 @@ msgstr "Priorita nahrávání profilů zpracování"
 
 #: PREFERENCES_PROFILEPRCACHE
 msgid "Profile in cache"
-msgstr "Profil v cache"
+msgstr "Profil v mezipaměti"
 
 #: PREFERENCES_PROFILEPRFILE
 msgid "Profile next to the input file"
@@ -3995,7 +4006,7 @@ msgstr "Profil uložený se zdrojovým souborem"
 
 #: PREFERENCES_PROFILESAVECACHE
 msgid "Save processing profile to the cache"
-msgstr "Ukládat parametry zpracování do cache"
+msgstr "Ukládat parametry zpracování do mezipaměti"
 
 #: PREFERENCES_PROFILESAVEINPUT
 msgid "Save processing profile next to the input file"
@@ -4019,9 +4030,9 @@ msgid ""
 "The more threads run in parallel, the faster the computation. Refer to "
 "RawPedia for memory requirements."
 msgstr ""
-"Pro automatické nastavení maximálního možného počtu vláken ponechte nastaveno "
-"na \"0\". Čím více vláken běží paralelně, tím rychlejší je výpočet. Paměťové "
-"nároky najdete na RawPedii."
+"Pro automatické nastavení maximálního možného počtu vláken ponechte "
+"nastaveno na \"0\". Čím více vláken běží paralelně, tím rychlejší je "
+"výpočet. Paměťové nároky najdete na RawPedii."
 
 #: PREFERENCES_SELECTFONT
 msgid "Select font"
@@ -4110,6 +4121,11 @@ msgstr "Po sekundách"
 msgid "Image Directory at Startup"
 msgstr "Složka obrázků při spuštění"
 
+#: PREFERENCES_STDAUT
+msgctxt "PREFERENCES_STDAUT"
+msgid "Standard"
+msgstr "Běžný"
+
 #: PREFERENCES_TAB_COLORMGR,TP_ICM_LABEL
 msgid "Color Management"
 msgstr "Správa barev"
@@ -4130,9 +4146,19 @@ msgstr "Výkon a kvalita"
 msgid "Sounds"
 msgstr "Zvuky"
 
+#: PREFERENCES_TIMAX
+msgctxt "PREFERENCES_TIMAX"
+msgid "High"
+msgstr "Vysoký"
+
 #: PREFERENCES_TINB
 msgid "Number of tiles"
 msgstr "Počet dlaždic"
+
+#: PREFERENCES_TISTD
+msgctxt "PREFERENCES_TISTD"
+msgid "Standard"
+msgstr "Běžný"
 
 #: PREFERENCES_TP_LABEL
 msgid "Tool panel:"
@@ -5780,10 +5806,9 @@ msgstr "Barevnost - Červená a zelená"
 msgid "RGB"
 msgstr "RGB"
 
-#: TP_DIRPYRDENOISE_SHAL
-msgctxt "TP_DIRPYRDENOISE_SHAL"
-msgid "Standard"
-msgstr "Běžná"
+#: TP_DIRPYRDENOISE_SHALBI
+msgid "High"
+msgstr "Vysoká"
 
 #: TP_DIRPYRDENOISE_SLI
 msgid "Slider"
@@ -5987,6 +6012,11 @@ msgstr "Jako film"
 #: TP_EXPOSURE_TCMODE_SATANDVALBLENDING
 msgid "Saturation and Value Blending"
 msgstr "Mísení saturace a hodnoty"
+
+#: TP_EXPOSURE_TCMODE_STANDARD
+msgctxt "TP_EXPOSURE_TCMODE_STANDARD"
+msgid "Standard"
+msgstr "Běžný"
 
 #: TP_EXPOSURE_TCMODE_WEIGHTEDSTD
 msgid "Weighted Standard"
@@ -6946,7 +6976,7 @@ msgstr "Méně nebo shodně s úrovní"
 
 #: TP_WAVELET_LABEL,TP_WAVELET_LEVELS
 msgid "Wavelet levels"
-msgstr "Vlnka - úrovně"
+msgstr "Úrovně vlnky"
 
 #: TP_WAVELET_LEVELS_TOOLTIP
 msgid ""
@@ -6970,7 +7000,7 @@ msgstr "max"
 
 #: TP_WAVELET_MEDI
 msgid "Reduce artifacts in blue sky"
-msgstr "Omezení artefaktů na modré obleze"
+msgstr "Omezení artefaktů na modré obloze"
 
 #: TP_WAVELET_MIN
 msgid "min"
@@ -7344,6 +7374,14 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgctxt "PREFERENCES_AUTSTD"
+#~ msgid "Standard"
+#~ msgstr "Běžný"
+
+#~ msgctxt "TP_DIRPYRDENOISE_SHAL"
+#~ msgid "Standard"
+#~ msgstr "Běžná"
 
 #~ msgid "Maximum number of buffers"
 #~ msgstr "Maximální počet vyrovnávacích pamětí"

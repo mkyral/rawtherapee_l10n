@@ -31,11 +31,7 @@
 #30 2014-04-30 updated by mkyral
 #31 2014-05-12 updated by mkyral
 #32 2014-10-24 updated by mkyral
-#33 2015-01-29 updated by mkyral
-#34 2015-02-03 updated by mkyral
-#35 2015-02-10 updated by mkyral
-#36 2015-02-12 updated by mkyral
-#37 2015-02-22 updated by mkyral
+#33 2015-02-22 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -126,9 +122,9 @@ FILEBROWSER_AUTODARKFRAME;Automatický tmavý snímek
 FILEBROWSER_AUTOFLATFIELD;Auto Flat Field
 FILEBROWSER_BROWSEPATHBUTTONHINT;Klikněte pro výběr cesty.
 FILEBROWSER_BROWSEPATHHINT;Vložte cestu pro procházení.\n\nKlávesové zkratky:\n<b>Ctrl-o</b> pro přepnutí do adresního řádku.\n<b>Enter</b>/ <b>Ctrl-Enter</b> pro procházení ;\n<b>Esc</b> pro zrušení změn.\n<b>Shift-Esc</b> pro zrušení přepnutí.\n\nZkratky pro cesty:\n<b>~</b>\t- domácí složka uživatele.\n<b>!</b>\t- složka s obrázky uživatele.
-FILEBROWSER_CACHECLEARFROMFULL;Vymazat z cache - úplně
-FILEBROWSER_CACHECLEARFROMPARTIAL;Vymazat z cache - částečně
-FILEBROWSER_CACHE;Cache
+FILEBROWSER_CACHECLEARFROMFULL;Vymazat z mezipaměti - úplně
+FILEBROWSER_CACHECLEARFROMPARTIAL;Vymazat z mezipaměti - částečně
+FILEBROWSER_CACHE;Metipaměť
 FILEBROWSER_CLEARPROFILE;Smazat
 FILEBROWSER_COLORLABEL_TOOLTIP;Barevný štítek.\n\nPoužijte výběr ze seznamu nebo klávesové zkratky:\n<b>Shift-Ctrl-0</b> Bez barvy\n<b>Shift-Ctrl-1</b> Červený\n<b>Shift-Ctrl-2</b> Žlutý\n<b>Shift-Ctrl-3</b> Zelený\n<b>Shift-Ctrl-4</b> Modrý\n<b>Shift-Ctrl-5</b> Nachový
 FILEBROWSER_COPYPROFILE;Kopírovat
@@ -554,8 +550,8 @@ HISTORY_MSG_300;-
 HISTORY_MSG_301;Redukce šumu - Nastavení jasu
 HISTORY_MSG_302;Redukce šumu - Metoda barevnosti
 HISTORY_MSG_303;Redukce šumu - Metoda barevnosti
-HISTORY_MSG_304;Vlnka - úroveň
-HISTORY_MSG_305;Vlnka - úroveň
+HISTORY_MSG_304;Úrovně vlnky
+HISTORY_MSG_305;Úrovně vlnky
 HISTORY_MSG_306;Vlnka N° úroveň
 HISTORY_MSG_307;Vlnka - úroveň barevnosti
 HISTORY_MSG_308;Vlnka - směr
@@ -790,13 +786,13 @@ PARTIALPASTE_WHITEBALANCE;Nastavení bílé
 PREFERENCES_ADD;Přidat
 PREFERENCES_APPLNEXTRELOAD;vyžaduje obnovení obrázku
 PREFERENCES_APPLNEXTSTARTUP;vyžaduje restart aplikace
-PREFERENCES_AUTLISLOW;Nízká
+PREFERENCES_AUTLISLOW;Nízké
 PREFERENCES_AUTLISMAX;Maximální - průměr všech dlaždic
-PREFERENCES_AUTLISSTD;Vysoká
-PREFERENCES_AUTLISVLOW;Nic
+PREFERENCES_AUTLISSTD;Vysoké
+PREFERENCES_AUTLISVLOW;Ne
 PREFERENCES_AUTLOW;Nízká
 PREFERENCES_AUTOMONPROFILE;Použít barevný profil hlavního monitoru z operačního systému
-PREFERENCES_AUTSTD;Běžný
+PREFERENCES_AUTSTD;Běžná
 PREFERENCES_BATCH_PROCESSING;Dávkové zpracování
 PREFERENCES_BEHADDALLHINT;Nastaví všechny parametry do módu <b>Přidat</b>.\nZměna parametrů v panelu dávkového zpracování se aplikuje jako <b>rozdíl</b> k uloženým hodnotám.
 PREFERENCES_BEHADDALL;Vše do 'Přidat'
@@ -807,8 +803,8 @@ PREFERENCES_BLACKBODY;Wolfram
 PREFERENCES_CACHECLEARALL;Vymazat vše
 PREFERENCES_CACHECLEARPROFILES;Smazat profily zpracování
 PREFERENCES_CACHECLEARTHUMBS;Vymazat náhledy
-PREFERENCES_CACHEMAXENTRIES;Maximální počet záznamů v cache
-PREFERENCES_CACHEOPTS;Vlastnosti cache
+PREFERENCES_CACHEMAXENTRIES;Maximální počet záznamů v mezipaměti
+PREFERENCES_CACHEOPTS;Vlastnosti mezipaměti
 PREFERENCES_CACHETHUMBHEIGHT;Maximální výška náhledu
 PREFERENCES_CIEART;CIECAM02 optimalizace
 PREFERENCES_CIEART_FRAME;CIECAM0 2 -Specifická nastavení
@@ -836,8 +832,8 @@ PREFERENCES_DARKFRAMETEMPLATES;šablon
 PREFERENCES_DARKFRAME;Tmavý snímek
 PREFERENCES_DATEFORMATHINT;Lze použít následující formátovací řetězce:\n<b>%y</b>\t- rok (year)\n<b>%m</b>\t- měsíc (month)\n<b>%d</b>\t- den (day)\n\nNapříklad český formát data:\n<b>%d. %m. %y</b>
 PREFERENCES_DATEFORMAT;Formát data
-PREFERENCES_DAUB_LABEL;Místo D4 použít Daubechiesové vlnky D6
-PREFERENCES_DAUB_TOOLTIP;Nástroje Redukce šumu a Úrovně vlnky používají Daubechiesovou mateřskou vlnku. Pokud místo D4 vyberete D6 zvýší se počet ortogonálních Daubechiesových koeficientů a pravděpodobně zvýší kvalitu úrovní malého měřítka. Není zde rozdíl ve spotřebě paměti nebo délce zpracování.
+PREFERENCES_DAUB_LABEL;Použít D6 Daubechiesové vlnky namísto D4
+PREFERENCES_DAUB_TOOLTIP;Nástroje Redukce šumu a Úrovně vlnky používají Daubechiesové mateřskou vlnku. Pokud místo D4 vyberete D6 zvýší se počet ortogonálních Daubechiesové koeficientů a pravděpodobně zvýší kvalitu úrovní malého měřítka. Není zde rozdíl ve spotřebě paměti nebo délce zpracování.
 PREFERENCES_DEFAULTLANG;Výchozí jazyk
 PREFERENCES_DEFAULTTHEME;Výchozí vzhled
 PREFERENCES_DIRDARKFRAMES;Složka tmavých snímků
@@ -927,14 +923,14 @@ PREFERENCES_PARSEDEXTADD;Přidat příponu
 PREFERENCES_PARSEDEXTDELHINT;Vymazat označenou příponu ze seznamu.
 PREFERENCES_PARSEDEXT;Zachytávané přípony
 PREFERENCES_PREVDEMO;Metoda demozajkování náhledu
-PREFERENCES_PREVDEMO_FAST;Rychlé
+PREFERENCES_PREVDEMO_FAST;Rychlá
 PREFERENCES_PREVDEMO_LABEL;Metoda demozajkování pro náhled při přiblížení menším než 100%:
-PREFERENCES_PREVDEMO_SIDECAR;Stejně jako v PP3
+PREFERENCES_PREVDEMO_SIDECAR;Stejná jako v PP3
 PREFERENCES_PROFILEHANDLING;Řízení profilů zpracování
 PREFERENCES_PROFILELOADPR;Priorita nahrávání profilů zpracování
-PREFERENCES_PROFILEPRCACHE;Profil v cache
+PREFERENCES_PROFILEPRCACHE;Profil v mezipaměti
 PREFERENCES_PROFILEPRFILE;Profil uložený se zdrojovým souborem
-PREFERENCES_PROFILESAVECACHE;Ukládat parametry zpracování do cache
+PREFERENCES_PROFILESAVECACHE;Ukládat parametry zpracování do mezipaměti
 PREFERENCES_PROFILESAVEINPUT;Ukládat parametry zpracování spolu se zdrojovým souborem
 PREFERENCES_PROPERTY;Vlastnost
 PREFERENCES_PSPATH;Instalační složka Adobe Photoshop
@@ -967,7 +963,7 @@ PREFERENCES_TAB_GENERAL;Obecné
 PREFERENCES_TAB_IMPROC;Zpracování obrázku
 PREFERENCES_TAB_PERFORMANCE;Výkon a kvalita
 PREFERENCES_TAB_SOUND;Zvuky
-PREFERENCES_TIMAX;Vysoká
+PREFERENCES_TIMAX;Vysoký
 PREFERENCES_TINB;Počet dlaždic
 PREFERENCES_TISTD;Běžný
 PREFERENCES_TP_LABEL;Panel nástrojů:
@@ -1670,16 +1666,16 @@ TP_WAVELET_HUESKIN_TOOLTIP;Pyramida je pro horní část, kde je algoritmus nejv
 TP_WAVELET_HUESKY;Rozsah odstínů (obloha)
 TP_WAVELET_HUESKY_TOOLTIP;Pyramida je pro horní část, kde je algoritmus nejvíce efektivní.\nKe spodní části, tranzitním zónám.\nPokud potřebujete posunout oblast hodně doleva nebo doprava - nebo pokud se vyskytnou artefakty = <b>vyvážení bílé není správné</b>, můžete mírně zmenšit zónu aby jste zabránili ovlivnění ostatních částí obrázku.
 TP_WAVELET_INF;Méně nebo shodně s úrovní
-TP_WAVELET_LABEL;Vlnka - úrovně
+TP_WAVELET_LABEL;Úrovně vlnky
 TP_WAVELET_LARGEST;Nejhrubší
 TP_WAVELET_LEVCH;Barevnost
-TP_WAVELET_LEVELS;Vlnka - úrovně
+TP_WAVELET_LEVELS;Úrovně vlnky
 TP_WAVELET_LEVELS_TOOLTIP;Vyberte počet úrovní detailu mezi které bude obrázek rozložen. Více úrovní potřebuje více paměti a zpracování trvá déle.
 TP_WAVELET_LEVF;Kontrast
 TP_WAVELET_LEVLABEL;Náhled maximálně dostupné úrovně=%1
 TP_WAVELET_LOWLIGHT;Rozsah projasnění stínů
 TP_WAVELET_MAX;max
-TP_WAVELET_MEDI;Omezení artefaktů na modré obleze
+TP_WAVELET_MEDI;Omezení artefaktů na modré obloze
 TP_WAVELET_MIN;min
 TP_WAVELET_NEUTRAL;Neutrální
 TP_WAVELET_ONE;Jedna úroveň

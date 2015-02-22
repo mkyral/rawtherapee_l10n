@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-02-22 16:38+0100\n"
+"POT-Creation-Date: 2015-02-22 19:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -797,7 +797,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,PREFERENCES_AUTLISVLOW,TP_CROP_GTNONE
+#: GENERAL_NONE,TP_CROP_GTNONE
 msgid "None"
 msgstr ""
 
@@ -2853,7 +2853,8 @@ msgstr ""
 msgid "restart required"
 msgstr ""
 
-#: PREFERENCES_AUTLISLOW,PREFERENCES_AUTLOW
+#: PREFERENCES_AUTLISLOW
+msgctxt "PREFERENCES_AUTLISLOW"
 msgid "Low"
 msgstr ""
 
@@ -2861,15 +2862,25 @@ msgstr ""
 msgid "Max - Average of all tiles"
 msgstr ""
 
-#: PREFERENCES_AUTLISSTD,PREFERENCES_TIMAX,TP_DIRPYRDENOISE_SHALBI
+#: PREFERENCES_AUTLISSTD
+msgctxt "PREFERENCES_AUTLISSTD"
 msgid "High"
+msgstr ""
+
+#: PREFERENCES_AUTLISVLOW
+msgctxt "PREFERENCES_AUTLISVLOW"
+msgid "None"
+msgstr ""
+
+#: PREFERENCES_AUTLOW
+msgid "Low"
 msgstr ""
 
 #: PREFERENCES_AUTOMONPROFILE
 msgid "Use operating system's main monitor color profile"
 msgstr ""
 
-#: PREFERENCES_AUTSTD,PREFERENCES_STDAUT,PREFERENCES_TISTD,TP_EXPOSURE_TCMODE_STANDARD
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
 msgid "Standard"
 msgstr ""
 
@@ -3485,6 +3496,11 @@ msgstr ""
 msgid "Image Directory at Startup"
 msgstr ""
 
+#: PREFERENCES_STDAUT
+msgctxt "PREFERENCES_STDAUT"
+msgid "Standard"
+msgstr ""
+
 #: PREFERENCES_TAB_COLORMGR,TP_ICM_LABEL
 msgid "Color Management"
 msgstr ""
@@ -3505,8 +3521,18 @@ msgstr ""
 msgid "Sounds"
 msgstr ""
 
+#: PREFERENCES_TIMAX
+msgctxt "PREFERENCES_TIMAX"
+msgid "High"
+msgstr ""
+
 #: PREFERENCES_TINB
 msgid "Number of tiles"
+msgstr ""
+
+#: PREFERENCES_TISTD
+msgctxt "PREFERENCES_TISTD"
+msgid "Standard"
 msgstr ""
 
 #: PREFERENCES_TP_LABEL
@@ -4684,9 +4710,8 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_SHAL
-msgctxt "TP_DIRPYRDENOISE_SHAL"
-msgid "Standard"
+#: TP_DIRPYRDENOISE_SHALBI
+msgid "High"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_SLI
@@ -4835,6 +4860,11 @@ msgstr ""
 
 #: TP_EXPOSURE_TCMODE_SATANDVALBLENDING
 msgid "Saturation and Value Blending"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_STANDARD
+msgctxt "TP_EXPOSURE_TCMODE_STANDARD"
+msgid "Standard"
 msgstr ""
 
 #: TP_EXPOSURE_TCMODE_WEIGHTEDSTD
