@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-02-12 17:37+0100\n"
-"PO-Revision-Date: 2015-02-10 08:07+0100\n"
+"POT-Creation-Date: 2015-02-22 16:38+0100\n"
+"PO-Revision-Date: 2015-02-22 17:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1964,8 +1964,8 @@ msgid "NR - Chroma method"
 msgstr "Redukce šumu - Metoda barevnosti"
 
 #: HISTORY_MSG_304,HISTORY_MSG_305
-msgid "Wavelet level"
-msgstr "Vlnka - úrověň"
+msgid "Wavelet Level"
+msgstr "Vlnka - úroveň"
 
 #: HISTORY_MSG_306
 msgid "Wavelet N° level"
@@ -1976,12 +1976,12 @@ msgid "Wavelet Ch level"
 msgstr "Vlnka - úroveň barevnosti"
 
 #: HISTORY_MSG_308
-msgid "Wavelet direction"
+msgid "Wavelet Direction"
 msgstr "Vlnka - směr"
 
 #: HISTORY_MSG_309
-msgid "Wavelet tiles"
-msgstr "Vlnka - dlaždice"
+msgid "Wavelet Edge threshold"
+msgstr "Vlnka - práh hrany"
 
 #: HISTORY_MSG_31
 msgid "RLD - Amount"
@@ -1996,7 +1996,7 @@ msgid "Wavelet Max Levels"
 msgstr "Vlnka - maximální úrovně"
 
 #: HISTORY_MSG_312
-msgid "Wavelet Shadow Threshold "
+msgid "Wavelet Shadow Threshold"
 msgstr "Vlnka - práh stínů"
 
 #: HISTORY_MSG_313
@@ -2004,12 +2004,12 @@ msgid "Wavelet Pastel Saturated"
 msgstr "Vlnka - saturované pastely"
 
 #: HISTORY_MSG_314
-msgid "Wavelet artifacts blue sky"
+msgid "Wavelet Artifacts blue sky"
 msgstr "Vlnka - artefakty modré oblohy"
 
 #: HISTORY_MSG_315
 msgid "Wavelet Contrast Residual"
-msgstr "Vlnka - zbytkový kontrast"
+msgstr "Vlnka - kontrast zůstatku"
 
 #: HISTORY_MSG_316
 msgid "Wavelet Skin tones"
@@ -2020,11 +2020,11 @@ msgid "Wavelet Skin hue"
 msgstr "Vlnka - Odstín pleti"
 
 #: HISTORY_MSG_318
-msgid "Wavelet highlight levels "
+msgid "Wavelet Highlight levels"
 msgstr "Vlnka - úrovně světel"
 
 #: HISTORY_MSG_319
-msgid "Wavelet highlight range "
+msgid "Wavelet Highlight range"
 msgstr "Vlnka - rozsah světel"
 
 #: HISTORY_MSG_32
@@ -2032,35 +2032,35 @@ msgid "RLD - Damping"
 msgstr "RLD - Útlum"
 
 #: HISTORY_MSG_320
-msgid "Wavelet shadow range "
+msgid "Wavelet Shadow range"
 msgstr "Vlnka - rozsah stínů"
 
 #: HISTORY_MSG_321
-msgid "Wavelet shadow levels "
+msgid "Wavelet Shadow levels"
 msgstr "Vlnka - úrovně stínů"
 
 #: HISTORY_MSG_322
-msgid "Wavelet avoid color shift "
+msgid "Wavelet Avoid color shift"
 msgstr "Vlnka - zabránit posunu barev"
 
 #: HISTORY_MSG_323
-msgid "Wavelet Chroma level "
+msgid "Wavelet Chroma level"
 msgstr "Vlnka - úroveň barevnosti"
 
 #: HISTORY_MSG_324
-msgid "Wavelet Chroma pastel "
-msgstr "Vlnka - úroveň pastelovosti"
+msgid "Wavelet Chroma pastel"
+msgstr "Vlnka - pastely barevnost"
 
 #: HISTORY_MSG_325
-msgid "Wavelet Chroma saturated "
+msgid "Wavelet Chroma saturated"
 msgstr "Vlnka - nasycení barev"
 
 #: HISTORY_MSG_326
-msgid "Wavelet Chroma method "
+msgid "Wavelet Chroma method"
 msgstr "Vlnka - metoda barevnosti"
 
 #: HISTORY_MSG_327
-msgid "Wavelet Contrast method "
+msgid "Wavelet Contrast method"
 msgstr "Vlnka - metoda kontrastu"
 
 #: HISTORY_MSG_328
@@ -2089,7 +2089,7 @@ msgstr "Vlnka - metoda dlaždic"
 
 #: HISTORY_MSG_333
 msgid "Wavelet Shadow Residual"
-msgstr "Vlnka - zbytkové stíny"
+msgstr "Vlnka - stíny zůstatku"
 
 #: HISTORY_MSG_334
 msgid "Wavelet Chroma"
@@ -2097,7 +2097,7 @@ msgstr "Vlnka - barevnost"
 
 #: HISTORY_MSG_335
 msgid "Wavelet Highlight Residual"
-msgstr "Vlnka - zbytkové světlo"
+msgstr "Vlnka - světla zůstatku"
 
 #: HISTORY_MSG_336
 msgid "Wavelet Highlight threshold"
@@ -2107,9 +2107,21 @@ msgstr "Vlnka - práh světel"
 msgid "Wavelet Hue range"
 msgstr "Vlnka - rozsah odstínů"
 
+#: HISTORY_MSG_338
+msgid "Wavelet Edge Radius"
+msgstr "Vlnka - poloměr hrany"
+
+#: HISTORY_MSG_339
+msgid "Wavelet Edge Value"
+msgstr "Vlnka - hodnota hrany"
+
 #: HISTORY_MSG_34
 msgid "LCP distortion correction"
 msgstr "LCP korekce zkreslení"
+
+#: HISTORY_MSG_340
+msgid "Wavelet Strength"
+msgstr "Vlnka - síla"
 
 #: HISTORY_MSG_35
 msgid "LCP vignetting correction"
@@ -2175,7 +2187,7 @@ msgstr "DCP osvětlení"
 msgid "Lightness"
 msgstr "Světlost"
 
-#: HISTORY_MSG_50
+#: HISTORY_MSG_50,TP_WAVELET_HS2
 msgid "Shadows/Highlights"
 msgstr "Stíny/Světla"
 
@@ -3028,7 +3040,7 @@ msgstr ""
 "Zobrazit/skrýt horní panel.\n"
 "Zkratka: <b>Shift-l</b>"
 
-#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_SHARPENING_THRESHOLD
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_SHARPENING_THRESHOLD,TP_WAVELET_EDGTHRESH
 msgid "Threshold"
 msgstr "Práh"
 
@@ -3400,11 +3412,11 @@ msgid "Clipping Indication"
 msgstr "Indikace oříznutí"
 
 #: PREFERENCES_CLUTSCACHE_LABEL
-msgid "Max number of cached Cluts"
-msgstr "Maximální počet  přednačtených Cluts"
+msgid "Maximum number of cached CLUTs"
+msgstr "Maximální počet  přednačtených CLUTů"
 
 #: PREFERENCES_CLUTSCACHE
-msgid "HaldCLUT cache"
+msgid "HaldCLUT Cache"
 msgstr "Mezipaměť HaldCLUT"
 
 #: PREFERENCES_CLUTSDIR
@@ -3500,6 +3512,23 @@ msgstr ""
 #: PREFERENCES_DATEFORMAT
 msgid "Date format"
 msgstr "Formát data"
+
+#: PREFERENCES_DAUB_LABEL
+msgid "Use Daubechies D6 wavelets instead of D4"
+msgstr "Místo D4 použít Daubechiesové vlnky D6"
+
+#: PREFERENCES_DAUB_TOOLTIP
+msgid ""
+"The Noise Reduction and Wavelet Levels tools use a Debauchies mother "
+"wavelet. If you choose D6 instead of D4 you increase the number of "
+"orthogonal Daubechies coefficients and probably increase quality of small-"
+"scale levels. There is no memory or processing time difference between the "
+"two."
+msgstr ""
+"Nástroje Redukce šumu a Úrovně vlnky používají Daubechiesovou mateřskou "
+"vlnku. Pokud místo D4 vyberete D6 zvýší se počet ortogonálních "
+"Daubechiesových koeficientů a pravděpodobně zvýší kvalitu úrovní malého "
+"měřítka. Není zde rozdíl ve spotřebě paměti nebo délce zpracování."
 
 #: PREFERENCES_DEFAULTLANG
 msgid "Default Language"
@@ -3697,8 +3726,8 @@ msgid "Inspect"
 msgstr "Prohlížení"
 
 #: PREFERENCES_INSPECT_MAXBUFFERS_LABEL
-msgid "Maximum number of buffers"
-msgstr "Maximální počet vyrovnávacích pamětí"
+msgid "Maximum number of cached images"
+msgstr "Maximální počet obrázků v mezipaměti"
 
 #: PREFERENCES_INSPECT_MAXBUFFERS_TOOLTIP
 msgid ""
@@ -3932,6 +3961,22 @@ msgstr "Vymazat označenou příponu ze seznamu."
 msgid "Parsed Extensions"
 msgstr "Zachytávané přípony"
 
+#: PREFERENCES_PREVDEMO_FAST
+msgid "Fast"
+msgstr "Rychlé"
+
+#: PREFERENCES_PREVDEMO_LABEL
+msgid "Demosaicing method used for the preview at <100% zoom:"
+msgstr "Metoda demozajkování pro náhled při přiblížení menším než 100%:"
+
+#: PREFERENCES_PREVDEMO_SIDECAR
+msgid "As in PP3"
+msgstr "Stejně jako v PP3"
+
+#: PREFERENCES_PREVDEMO
+msgid "Preview Demosaic Method"
+msgstr "Metoda demozajkování náhledu"
+
 #: PREFERENCES_PROFILEHANDLING
 msgid "Processing Profile Handling"
 msgstr "Řízení profilů zpracování"
@@ -3965,20 +4010,18 @@ msgid "Adobe Photoshop installation directory"
 msgstr "Instalační složka Adobe Photoshop"
 
 #: PREFERENCES_RGBDTL_LABEL
-msgid "Max number of threads Denoise and Wavelet (divide by 2)"
-msgstr "Maximální počet vláken pro redukci šumu a vlnku (děleno 2)"
+msgid "Max number of threads for Noise Reduction and Wavelet Levels"
+msgstr "Maximální počet vláken pro redukci šumu a úrovně vlnky"
 
 #: PREFERENCES_RGBDTL_TOOLTIP
 msgid ""
-"Noise Reduction and Wavelet requires a baseline of about 128MB RAM for a "
-"10MPix image or 512MB for a 40MPix image, and additionally 128MB RAM per "
-"thread. The more threads run in parallel, the faster the computation. Leave "
-"the setting at \"0\" to automatically use as many threads as possible."
+"Leave the setting at \"0\" to automatically use as many threads as possible. "
+"The more threads run in parallel, the faster the computation. Refer to "
+"RawPedia for memory requirements."
 msgstr ""
-"Redukce šumu a Vlnka potřebuje v základu 128MB RAM u 10MPix obrázku nebo "
-"512MB pro 40MPix obrázek plus dalších 128MB RAM pro každé vlákno. Více "
-"paralelních vláken rychle zvyšuje spotřebu paměti. Při nastavení na nulu je "
-"automaticky použit maximální možný počet vláken."
+"Pro automatické nastavení maximálního možného počtu vláken ponechte nastaveno "
+"na \"0\". Čím více vláken běží paralelně, tím rychlejší je výpočet. Paměťové "
+"nároky najdete na RawPedii."
 
 #: PREFERENCES_SELECTFONT
 msgid "Select font"
@@ -4007,6 +4050,10 @@ msgstr "Zobrazovat datum a čas"
 #: PREFERENCES_SHOWEXPOSURECOMPENSATION
 msgid "Append exposure compensation"
 msgstr "Přidat kompenzaci expozice"
+
+#: PREFERENCES_SHOWFILMSTRIPTOOLBAR
+msgid "Show filmstrip toolbar"
+msgstr "Zobrazit lištu s filmovým pásem"
 
 #: PREFERENCES_SHOWPROFILESELECTOR
 msgid "Show processing profile selector"
@@ -4042,16 +4089,14 @@ msgstr "Zpracování fronty dokončeno"
 
 #: PREFERENCES_SND_HELP
 msgid ""
-"Either enter filepath or nothing (for no sound).\n"
-"On Windows use \"SystemDefault\", \"SystemAsterisk\" etc. for system "
-"sounds.\n"
-"On Linux use \"complete\", \"window-attention\" etc. for system sounds. "
+"Enter a full file path to set a sound, or leave blank for no sound.\n"
+"For system sounds on Windows use \"SystemDefault\", \"SystemAsterisk\" etc., "
+"and on Linux use \"complete\", \"window-attention\" etc."
 msgstr ""
-"Vložte cestu k souboru nebo ponechte prázdné (bez zvuku).\n"
-"Ve Windows zadejte \"SystemDefault\", \"SystemAsterisk\", atd. pro použití "
-"systémových zvuků.\n"
-"Na Linuxu pro systémové zvuky použijte \"complete\", \"window-attention\" a "
-"další. "
+"Vložte cestu k souboru pro nastavení zvuku nebo ponechte prázdné (bez "
+"zvuku).\n"
+"Ve Windows zadejte \"SystemDefault\", \"SystemAsterisk\" a podobně.\n"
+"Na Linuxu použijte \"complete\", \"window-attention\" a další."
 
 #: PREFERENCES_SND_LNGEDITPROCDONE
 msgid "Editor processing done"
@@ -4124,7 +4169,7 @@ msgstr ""
 msgid "Increase wavelet level in quality 'high'"
 msgstr "Zvýšit úroveň vlnkové transformace v nejvyšší kvalitě"
 
-#: PREFERENCES_WLONE
+#: PREFERENCES_WLONE,TP_WAVELET_ONE
 msgid "One level"
 msgstr "Jedna úroveň"
 
@@ -5248,7 +5293,7 @@ msgstr "RGB - křivky"
 msgid "RGB - Sliders"
 msgstr "RGB - Posuvníky"
 
-#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_STRENGTH
 msgid "Strength"
 msgstr "Síla"
 
@@ -5385,7 +5430,7 @@ msgstr "Y"
 msgid "Auto-selection"
 msgstr "Automatický výběr"
 
-#: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS
+#: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
 msgid "Radius"
 msgstr "Poloměr"
 
@@ -5719,7 +5764,7 @@ msgstr "Více zónová automatika"
 msgid "Preview size=%1, Center: Px=%2  Py=%3"
 msgstr "Velikost náhledu=%1, Střed: Px=%2  Py=%3"
 
-#: TP_DIRPYRDENOISE_PREV
+#: TP_DIRPYRDENOISE_PREV,TP_WAVELET_PREVIEWLEVELS
 msgid "Preview"
 msgstr "Náhled"
 
@@ -5967,7 +6012,7 @@ msgstr "Typ rozostření"
 msgid "Area"
 msgstr "Oblast"
 
-#: TP_FLATFIELD_BT_HORIZONTAL,TP_PERSPECTIVE_HORIZONTAL
+#: TP_FLATFIELD_BT_HORIZONTAL,TP_PERSPECTIVE_HORIZONTAL,TP_WAVELET_DTWO
 msgid "Horizontal"
 msgstr "Vodorovně"
 
@@ -5975,7 +6020,7 @@ msgstr "Vodorovně"
 msgid "Vertical + Horizontal"
 msgstr "Vodorovně a svisle"
 
-#: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL
+#: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL,TP_WAVELET_DONE
 msgid "Vertical"
 msgstr "Svisle"
 
@@ -6768,8 +6813,12 @@ msgid "Vignetting Correction"
 msgstr "Úprava vinětace"
 
 #: TP_WAVELET_ALL
-msgid "all levels-directions"
-msgstr "všechny úrovně a směry"
+msgid "All levels in all directions"
+msgstr "Všechny úrovně ve všech směrech"
+
+#: TP_WAVELET_APPLYTO
+msgid "Apply To"
+msgstr "Použít na"
 
 #: TP_WAVELET_CLVCURVE
 msgid "Chrominance - Levels"
@@ -6784,7 +6833,7 @@ msgid ""
 "Change contrast residual image\n"
 "Function of  Max Levels"
 msgstr ""
-"Změní kontrast zbytkového obrázku\n"
+"Změní kontrast zůstatku obrazu\n"
 "Funkce maximálních úrovní"
 
 #: TP_WAVELET_CONTR
@@ -6816,36 +6865,32 @@ msgid "Levels and Utilities"
 msgstr "Úrovně a funkce"
 
 #: TP_WAVELET_DISP
-msgid "Display Wavelet levels"
-msgstr "Zobrazené úrovně vlnky"
-
-#: TP_WAVELET_DONE
-msgid "Direction: Vertical"
-msgstr "Směr: svisle"
+msgid "Preview Settings"
+msgstr "Nastavení náhledu"
 
 #: TP_WAVELET_DTHR
-msgid "Direction: Diagonal"
-msgstr "Směr: šikmo"
+msgid "Diagonal"
+msgstr "Napříč"
 
-#: TP_WAVELET_DTWO
-msgid "Direction: Horizontal"
-msgstr "Směr: vodorovně"
+#: TP_WAVELET_EDGE
+msgid "Edge Sharpness (Luminance)"
+msgstr "Doostření hran (jas)"
+
+#: TP_WAVELET_EDVAL
+msgid "Value"
+msgstr "Hodnota"
 
 #: TP_WAVELET_HIGHLIGHT
-msgid "Highlight Luminance Range (0..100)"
-msgstr "Zvýraznění rozsahu jasů (0..100)"
+msgid "Highlight luminance range"
+msgstr "Zvýrazněný rozsah jasů"
 
 #: TP_WAVELET_HIGHSHA
 msgid "Highlight Shadows"
 msgstr "Projasnění stínů"
 
 #: TP_WAVELET_HS1
-msgid "All luminance"
-msgstr "Všechny jasy"
-
-#: TP_WAVELET_HS2
-msgid "Highlight - Shadows"
-msgstr "Světla - Stíny"
+msgid "Whole luminance range"
+msgstr "Celý rozsah jasů"
 
 #: TP_WAVELET_HUESKIN
 msgid "Hue Range (skin)"
@@ -6896,20 +6941,28 @@ msgid "Link contrast levels"
 msgstr "Propojit kontrast úrovní"
 
 #: TP_WAVELET_INF
-msgid "below or equal the level"
-msgstr "méně nebo shodně s úrovní"
+msgid "Below or equal the level"
+msgstr "Méně nebo shodně s úrovní"
 
-#: TP_WAVELET_LABEL
+#: TP_WAVELET_LABEL,TP_WAVELET_LEVELS
 msgid "Wavelet levels"
 msgstr "Vlnka - úrovně"
+
+#: TP_WAVELET_LEVELS_TOOLTIP
+msgid ""
+"Choose the number of detail levels the image is to be decomposed into. More "
+"levels require more RAM and require a longer processing time."
+msgstr ""
+"Vyberte počet úrovní detailu mezi které bude obrázek rozložen. Více úrovní "
+"potřebuje více paměti a zpracování trvá déle."
 
 #: TP_WAVELET_LEVLABEL
 msgid "Preview maximum possible levels=%1"
 msgstr "Náhled maximálně dostupné úrovně=%1"
 
 #: TP_WAVELET_LOWLIGHT
-msgid "Shadow Luminance Range (0..100)"
-msgstr "Rozsah projasnění stínů (0..100)"
+msgid "Shadow luminance range"
+msgstr "Rozsah projasnění stínů"
 
 #: TP_WAVELET_MAX
 msgid "max"
@@ -6923,10 +6976,6 @@ msgstr "Omezení artefaktů na modré obleze"
 msgid "min"
 msgstr "min"
 
-#: TP_WAVELET_ONE
-msgid "one level"
-msgstr "jedna úroveň"
-
 #: TP_WAVELET_OPACITY
 msgid "Opacity Blue-Yellow Levels"
 msgstr "Neprůhlednost modrá-žlutá  Úrovně"
@@ -6937,11 +6986,15 @@ msgstr "Barevnost pastelů"
 
 #: TP_WAVELET_RESID
 msgid "Residual image"
-msgstr "Zbytkový obrázek"
+msgstr "Zůstatek obrazu"
 
 #: TP_WAVELET_SAT
 msgid "Saturated chromacity"
 msgstr "Saturovaná barevnost"
+
+#: TP_WAVELET_SETTINGS
+msgid "Wavelet Settings"
+msgstr "Nastavení vlnky"
 
 #: TP_WAVELET_SKIN
 msgid "Hue-tones (skin) targetting/protection"
@@ -6964,8 +7017,8 @@ msgid "Extra"
 msgstr "Extra"
 
 #: TP_WAVELET_SUP
-msgid "above the level + residual"
-msgstr "nad úrovní + zbytek"
+msgid "Above the level"
+msgstr "Nad úrovní"
 
 #: TP_WAVELET_THRESHOLD_TOOLTIP
 msgid ""
@@ -6978,8 +7031,8 @@ msgstr ""
 "Na ostatní úrovně budou použity všechny funkce."
 
 #: TP_WAVELET_THRESHOLD
-msgid "Highlight Levels numbers used (finest to coarsest - master)"
-msgstr "Počet použitých úrovní jasů (od nejjemnějších po nejhrubší - hlavní)"
+msgid "Highlight levels"
+msgstr "Úrovně světel"
 
 #: TP_WAVELET_THRESHOLD2_TOOLTIP
 msgid ""
@@ -6995,18 +7048,8 @@ msgstr ""
 "světel)světelnost"
 
 #: TP_WAVELET_THRESHOLD2
-msgid "Shadows Levels numbers used(coarsest to finest)"
-msgstr "Počet použitých úrovní stínů (od nejhrubších po nejjemnější)"
-
-#: TP_WAVELET_THRES_TOOLTIP
-msgid ""
-"Can act on the number of active levels. Levels higher values are not taken "
-"into account, regardless of the position of the slider."
-msgstr "Je ovlivněno počtem aktivních úrovní. Vyšší úrovně jsou ignorovány."
-
-#: TP_WAVELET_THRES
-msgid "Max level"
-msgstr "Maximální úroveň"
+msgid "Shadow Levels"
+msgstr "Úrovně stínů"
 
 #: TP_WAVELET_THRH
 msgid "Threshold highlights"
@@ -7017,34 +7060,30 @@ msgid "Threshold shadows"
 msgstr "Práh stínů"
 
 #: TP_WAVELET_TILESBIG
-msgid "Big Tiles"
+msgid "Big tiles"
 msgstr "Velké dlaždice"
 
 #: TP_WAVELET_TILESFULL
 msgid "Full image"
 msgstr "Celý obrázek"
 
+#: TP_WAVELET_TILESIZE
+msgid "Tile size"
+msgstr "Velikost dlaždice"
+
 #: TP_WAVELET_TILESLIT
-msgid "Little Tiles"
+msgid "Little tiles"
 msgstr "Malé dlaždice"
 
 #: TP_WAVELET_TILES_TOOLTIP
 msgid ""
-"If you select full image process will be performed - for a 16M image and 10 "
-"levels this option needs memory 2.G°\n"
-"for a 24M image and 10 levels  this option needs memory 2.5G°\n"
-"for a 35M image and 10 levels  this option needs memory 3.3G°\n"
-"Otherwise select tiles or if memory is too low"
+"Processing the full image leads to better quality and is the recommended "
+"option, while using tiles is a fall-back solution for users with little RAM. "
+"Refer to RawPedia for memory requirements."
 msgstr ""
-"Pokud vyberete \"Celý obrázek\", budete pro 16M obrázek a 10 úrovní "
-"potřebovat 2.G° paměti\n"
-"pro 24M obrázek a 10 úrovní budete potřebovat 2.5G° paměti\n"
-"pro 35M obrázek a 10 úrovní budete potřebovat 3.3G° paměti\n"
-"Při nedostatku paměti vyberte prosím dlaždice."
-
-#: TP_WAVELET_TILES
-msgid "Tiles size (* 128)"
-msgstr "Velikost dlaždice (* 128)"
+"Zpracování celého obrázku vede k lepší kvalitě a je doporučováno. Naproti "
+"tomu dlaždice jsou náhradní řešení pro uživatele s nedostatkem paměti. "
+"Paměťové nároky najdete na RawPedii."
 
 #: TP_WAVELET_TON
 msgid "Toning"
@@ -7054,41 +7093,41 @@ msgstr "Tónování"
 msgid "Utilities"
 msgstr "Funkce"
 
-#: TP_WAVELET_0
-msgid "level 0"
-msgstr "úroveň 0"
-
 #: TP_WAVELET_1
-msgid "level 1"
-msgstr "úroveň 1"
+msgid "Level 1"
+msgstr "Úroveň 1"
 
 #: TP_WAVELET_2
-msgid "level 2"
-msgstr "úroveň 2"
+msgid "Level 2"
+msgstr "Úroveň 2"
 
 #: TP_WAVELET_3
-msgid "level 3"
-msgstr "úroveň 3"
+msgid "Level 3"
+msgstr "Úroveň 3"
 
 #: TP_WAVELET_4
-msgid "level 4"
-msgstr "úroveň 4"
+msgid "Level 4"
+msgstr "Úroveň 4"
 
 #: TP_WAVELET_5
-msgid "level 5"
-msgstr "úroveň 5"
+msgid "Level 5"
+msgstr "Úroveň 5"
 
 #: TP_WAVELET_6
-msgid "level 6"
-msgstr "úroveň 6"
+msgid "Level 6"
+msgstr "Úroveň 6"
 
 #: TP_WAVELET_7
-msgid "level 7"
-msgstr "úroveň 7"
+msgid "Level 7"
+msgstr "Úroveň 7"
 
 #: TP_WAVELET_8
-msgid "level 8"
-msgstr "úroveň 8"
+msgid "Level 8"
+msgstr "Úroveň 8"
+
+#: TP_WAVELET_9
+msgid "Level 9"
+msgstr "Úroveň 9"
 
 #: TP_WBALANCE_CLOUDY
 msgid "Cloudy"
@@ -7306,8 +7345,69 @@ msgstr ""
 msgid "(100%)"
 msgstr "(100%)"
 
-#~ msgid "Wavelet threshold"
-#~ msgstr "Vlnka - Práh"
+#~ msgid "Maximum number of buffers"
+#~ msgstr "Maximální počet vyrovnávacích pamětí"
+
+#~ msgid ""
+#~ "Noise Reduction and Wavelet requires a baseline of about 128MB RAM for a "
+#~ "10MPix image or 512MB for a 40MPix image, and additionally 128MB RAM per "
+#~ "thread. The more threads run in parallel, the faster the computation. "
+#~ "Leave the setting at \"0\" to automatically use as many threads as "
+#~ "possible."
+#~ msgstr ""
+#~ "Redukce šumu a Vlnka potřebuje v základu 128MB RAM u 10MPix obrázku nebo "
+#~ "512MB pro 40MPix obrázek plus dalších 128MB RAM pro každé vlákno. Více "
+#~ "paralelních vláken rychle zvyšuje spotřebu paměti. Při nastavení na nulu "
+#~ "je automaticky použit maximální možný počet vláken."
+
+#~ msgid "Display Wavelet levels"
+#~ msgstr "Zobrazené úrovně vlnky"
+
+#~ msgid "Direction: Vertical"
+#~ msgstr "Směr: svisle"
+
+#~ msgid "Direction: Diagonal"
+#~ msgstr "Směr: šikmo"
+
+#~ msgid "Direction: Horizontal"
+#~ msgstr "Směr: vodorovně"
+
+#~ msgid "Highlight - Shadows"
+#~ msgstr "Světla - Stíny"
+
+#~ msgid "one level"
+#~ msgstr "jedna úroveň"
+
+#~ msgid "Highlight Levels numbers used (finest to coarsest - master)"
+#~ msgstr ""
+#~ "Počet použitých úrovní jasů (od nejjemnějších po nejhrubší - hlavní)"
+
+#~ msgid "Shadows Levels numbers used(coarsest to finest)"
+#~ msgstr "Počet použitých úrovní stínů (od nejhrubších po nejjemnější)"
+
+#~ msgid ""
+#~ "Can act on the number of active levels. Levels higher values are not "
+#~ "taken into account, regardless of the position of the slider."
+#~ msgstr "Je ovlivněno počtem aktivních úrovní. Vyšší úrovně jsou ignorovány."
+
+#~ msgid "Max level"
+#~ msgstr "Maximální úroveň"
+
+#~ msgid ""
+#~ "If you select full image process will be performed - for a 16M image and "
+#~ "10 levels this option needs memory 2.G°\n"
+#~ "for a 24M image and 10 levels  this option needs memory 2.5G°\n"
+#~ "for a 35M image and 10 levels  this option needs memory 3.3G°\n"
+#~ "Otherwise select tiles or if memory is too low"
+#~ msgstr ""
+#~ "Pokud vyberete \"Celý obrázek\", budete pro 16M obrázek a 10 úrovní "
+#~ "potřebovat 2.G° paměti\n"
+#~ "pro 24M obrázek a 10 úrovní budete potřebovat 2.5G° paměti\n"
+#~ "pro 35M obrázek a 10 úrovní budete potřebovat 3.3G° paměti\n"
+#~ "Při nedostatku paměti vyberte prosím dlaždice."
+
+#~ msgid "Tiles size (* 128)"
+#~ msgstr "Velikost dlaždice (* 128)"
 
 #~ msgid "Wavelet Contrast uniformity"
 #~ msgstr "Vlnka - jednolitost kontrastu"
@@ -7455,9 +7555,6 @@ msgstr "(100%)"
 
 #~ msgid "Bypass Post Demosaic Artifact/Noise Reduction"
 #~ msgstr "Vynechat redukci artefaktů a šumu po demozajkování"
-
-#~ msgid "Demosaic Method"
-#~ msgstr "Metoda demozajkování"
 
 #~ msgid "Auto Dark-Frame"
 #~ msgstr "Automatický tmavý snímek"
@@ -8110,9 +8207,6 @@ msgstr "(100%)"
 #~ msgid "Edges Sharpening - Quantity"
 #~ msgstr "Doostření hran - kvalita"
 
-#~ msgid "Edges Sharpening - Luminance Only"
-#~ msgstr "Doostření hran - pouze jas"
-
 #~ msgid "Luminance Contrast"
 #~ msgstr "Jas Kontrast"
 
@@ -8289,9 +8383,6 @@ msgstr "(100%)"
 
 #~ msgid "Highlight Recovery Amount"
 #~ msgstr "Míra obnovení světel"
-
-#~ msgid "Shadow Recovery"
-#~ msgstr "Komprese stínů"
 
 #~ msgid "White Point: HL Preserving Corr. (EV)"
 #~ msgstr "Bílý bod: Kor. zachování světel (EV)"
@@ -8925,9 +9016,6 @@ msgstr "(100%)"
 
 #~ msgid "DPI="
 #~ msgstr "DPI="
-
-#~ msgid "Value"
-#~ msgstr "Hodnota"
 
 #~ msgid "Saving file..."
 #~ msgstr "Ukládání souboru..."
