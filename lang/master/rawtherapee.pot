@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-07-08 18:23+0200\n"
+"POT-Creation-Date: 2015-08-23 21:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -849,7 +849,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_TMNONE
+#: GENERAL_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE,TP_WAVELET_TMNONE
 msgid "None"
 msgstr ""
 
@@ -1970,15 +1970,15 @@ msgid "W - ES - Local contrast method"
 msgstr ""
 
 #: HISTORY_MSG_347
-msgid "W - Denoise - Level 0"
-msgstr ""
-
-#: HISTORY_MSG_348
 msgid "W - Denoise - Level 1"
 msgstr ""
 
-#: HISTORY_MSG_349
+#: HISTORY_MSG_348
 msgid "W - Denoise - Level 2"
+msgstr ""
+
+#: HISTORY_MSG_349
+msgid "W - Denoise - Level 3"
 msgstr ""
 
 #: HISTORY_MSG_35
@@ -2002,7 +2002,7 @@ msgid "W - ES - Gradient sensitivity"
 msgstr ""
 
 #: HISTORY_MSG_354
-msgid "W - ES - Enhance"
+msgid "W - ES - Enhanced"
 msgstr ""
 
 #: HISTORY_MSG_355
@@ -2165,16 +2165,32 @@ msgstr ""
 msgid "W - Residual - CB Reset"
 msgstr ""
 
-#: HISTORY_MSG_393,TP_ICM_APPLYLOOKTABLE
-msgid "Use DCP's look table"
+#: HISTORY_MSG_393
+msgid "DCP - Look table"
 msgstr ""
 
-#: HISTORY_MSG_394,TP_ICM_APPLYBASELINEEXPOSUREOFFSET
-msgid "Use DCP's baseline exposure offset"
+#: HISTORY_MSG_394
+msgid "DCP - Baseline exposure"
 msgstr ""
 
-#: HISTORY_MSG_395,TP_ICM_APPLYHUESATMAP
-msgid "Use DCP's base table"
+#: HISTORY_MSG_395
+msgid "DCP - Base table"
+msgstr ""
+
+#: HISTORY_MSG_396
+msgid "W - Contrast sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_397
+msgid "W - Chroma sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_398
+msgid "W - ES sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_399
+msgid "W - Residual sub-tool"
 msgstr ""
 
 #: HISTORY_MSG_4
@@ -2183,6 +2199,34 @@ msgstr ""
 
 #: HISTORY_MSG_40
 msgid "WB - Tint"
+msgstr ""
+
+#: HISTORY_MSG_400
+msgid "W - Final sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_401
+msgid "W - Toning sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_402
+msgid "W - Denoise sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_403
+msgid "W - ES - Edge sensitivity"
+msgstr ""
+
+#: HISTORY_MSG_404
+msgid "W - ES - Base amplification"
+msgstr ""
+
+#: HISTORY_MSG_405
+msgid "W - Denoise - Level 4"
+msgstr ""
+
+#: HISTORY_MSG_406
+msgid "W - ES - Neighboring pixels"
 msgstr ""
 
 #: HISTORY_MSG_41
@@ -2213,8 +2257,8 @@ msgstr ""
 msgid "Blend ICC highlights with matrix"
 msgstr ""
 
-#: HISTORY_MSG_48,TP_ICM_TONECURVE
-msgid "Use DCP's tone curve"
+#: HISTORY_MSG_48
+msgid "DCP - Tone curve"
 msgstr ""
 
 #: HISTORY_MSG_49
@@ -3140,7 +3184,7 @@ msgctxt "PREFERENCES_AUTLISVLOW"
 msgid "None"
 msgstr ""
 
-#: PREFERENCES_AUTLOW
+#: PREFERENCES_AUTLOW,TP_WAVELET_NPLOW
 msgid "Low"
 msgstr ""
 
@@ -3508,7 +3552,7 @@ msgstr ""
 msgid "Absolute Colorimetric"
 msgstr ""
 
-#: PREFERENCES_INTENT_PERCEPTUAL
+#: PREFERENCES_INTENT_PERCEPTUAL,TP_EXPOSURE_TCMODE_PERCEPTUAL
 msgid "Perceptual"
 msgstr ""
 
@@ -4625,7 +4669,7 @@ msgstr ""
 msgid "Colorfulness"
 msgstr ""
 
-#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC
+#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
 msgid "Chroma"
 msgstr ""
 
@@ -5014,7 +5058,7 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_SHALBI,TP_WAVELET_TMHIGH
+#: TP_DIRPYRDENOISE_SHALBI,TP_WAVELET_NPHIGH,TP_WAVELET_TMHIGH
 msgid "High"
 msgstr ""
 
@@ -5348,12 +5392,24 @@ msgstr ""
 msgid "Employ the embedded DCP baseline exposure offset. The setting is only enabled if the selected DCP has any."
 msgstr ""
 
+#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
+msgid "Baseline exposure"
+msgstr ""
+
 #: TP_ICM_APPLYHUESATMAP_TOOLTIP
 msgid "Employ the embedded DCP base table (HueSatMap). The setting is only enabled if the selected DCP has one."
 msgstr ""
 
+#: TP_ICM_APPLYHUESATMAP
+msgid "Base table"
+msgstr ""
+
 #: TP_ICM_APPLYLOOKTABLE_TOOLTIP
 msgid "Employ the embedded DCP look table. The setting is only enabled if the selected DCP has one."
+msgstr ""
+
+#: TP_ICM_APPLYLOOKTABLE
+msgid "Look table"
 msgstr ""
 
 #: TP_ICM_BLENDCMSMATRIX_TOOLTIP
@@ -5424,6 +5480,10 @@ msgstr ""
 msgid "Output Profile"
 msgstr ""
 
+#: TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP
+msgid "Generally, apply the white balance when saving images to create ICC profiles, and do not apply the white balance to create DCP profiles."
+msgstr ""
+
 #: TP_ICM_SAVEREFERENCE_APPLYWB
 msgid "Apply white balance"
 msgstr ""
@@ -5438,6 +5498,10 @@ msgstr ""
 
 #: TP_ICM_TONECURVE_TOOLTIP
 msgid "Employ the embedded DCP tone curve. The setting is only enabled if the selected DCP has a tone curve."
+msgstr ""
+
+#: TP_ICM_TONECURVE
+msgid "Tone curve"
 msgstr ""
 
 #: TP_ICM_WORKINGPROFILE
@@ -5552,7 +5616,7 @@ msgstr ""
 msgid "Luminance Curve"
 msgstr ""
 
-#: TP_LABCURVE_CHROMATICITY,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
+#: TP_LABCURVE_CHROMATICITY
 msgid "Chromaticity"
 msgstr ""
 
@@ -5913,7 +5977,7 @@ msgid "Background"
 msgstr ""
 
 #: TP_WAVELET_BALANCE_TOOLTIP
-msgid "Alters the balance between the wavelet directions: vertical-horizontal and diagonal.\nIf contrast, chromaticity or residual tone mapping are activated, the effect due to balance is amplified."
+msgid "Alters the balance between the wavelet directions: vertical-horizontal and diagonal.\nIf contrast, chroma or residual tone mapping are activated, the effect due to balance is amplified."
 msgstr ""
 
 #: TP_WAVELET_BALANCE
@@ -5921,7 +5985,7 @@ msgid "Contrast balance d/v-h"
 msgstr ""
 
 #: TP_WAVELET_BALCHRO_TOOLTIP
-msgid "If enabled, the 'Contrast balance' curve or slider also modifies chromaticity balance."
+msgid "If enabled, the 'Contrast balance' curve or slider also modifies chroma balance."
 msgstr ""
 
 #: TP_WAVELET_BALCHRO
@@ -5957,11 +6021,7 @@ msgid "Both"
 msgstr ""
 
 #: TP_WAVELET_COMPGAMMA_TOOLTIP
-msgid "Adjust gamma for residual image and compression.\nAllow to equilibrate data and histogram"
-msgstr ""
-
-#: TP_WAVELET_COMPGAMMA_TOOLTIP
-msgid "Adjusting the gamma of the residual image allow you to equilibrate the data and histogram."
+msgid "Adjusting the gamma of the residual image allows you to equilibrate the data and histogram."
 msgstr ""
 
 #: TP_WAVELET_COMPGAMMA
@@ -5970,10 +6030,6 @@ msgstr ""
 
 #: TP_WAVELET_CONTEDIT
 msgid "'After' contrast curve"
-msgstr ""
-
-#: TP_WAVELET_CONTEDIT
-msgid "'After' Contrast curve"
 msgstr ""
 
 #: TP_WAVELET_CONTRA_TOOLTIP
@@ -5994,10 +6050,6 @@ msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
 msgid "Applies a final contrast luminance curve at the end of the wavelet treatment."
-msgstr ""
-
-#: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
-msgid "Apply a contrast luminance curve at the end of wavelet level threatment"
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_HH_TOOLTIP
@@ -6052,6 +6104,10 @@ msgstr ""
 msgid "Adjusting the points to the left decreases contrast, and to the right increases it.\nBottom-left, Top-Left, Top-Right, Bottom-right represent respectively local contast for low values, mean, mean+stdev, maxima"
 msgstr ""
 
+#: TP_WAVELET_EDGEAMPLI
+msgid "Base amplification"
+msgstr ""
+
 #: TP_WAVELET_EDGEDETECTTHR_TOOLTIP
 msgid "This adjuster lets you target edge detection for example to avoid applying edge sharpness to fine details, such as noise in the sky."
 msgstr ""
@@ -6070,6 +6126,10 @@ msgstr ""
 
 #: TP_WAVELET_EDGEDETECT
 msgid "Gradient sensitivity"
+msgstr ""
+
+#: TP_WAVELET_EDGESENSI
+msgid "Edge sensitivity"
 msgstr ""
 
 #: TP_WAVELET_EDGE
@@ -6125,7 +6185,7 @@ msgid "Saturated/pastel threshold"
 msgstr ""
 
 #: TP_WAVELET_CHR_TOOLTIP
-msgid "Adjusts chromaticity as a function of \"contrast levels\" and \"chroma-contrast link strength\""
+msgid "Adjusts chroma as a function of \"contrast levels\" and \"chroma-contrast link strength\""
 msgstr ""
 
 #: TP_WAVELET_CHR
@@ -6141,7 +6201,7 @@ msgid "Chrominance method"
 msgstr ""
 
 #: TP_WAVELET_CH1
-msgid "Whole chromaticity range"
+msgid "Whole chroma range"
 msgstr ""
 
 #: TP_WAVELET_CH2
@@ -6184,6 +6244,10 @@ msgstr ""
 msgid "Level 2"
 msgstr ""
 
+#: TP_WAVELET_LEVTHRE,TP_WAVELET_4
+msgid "Level 4"
+msgstr ""
+
 #: TP_WAVELET_LEVTWO,TP_WAVELET_3
 msgid "Level 3"
 msgstr ""
@@ -6196,12 +6260,12 @@ msgstr ""
 msgid "Link with Edge Sharpness' Strength"
 msgstr ""
 
-#: TP_WAVELET_LIPST_TOOLTIP
-msgid "This algorithm uses Lipschitz regularity to increase edge detection quality at a cost of increased processing time and memory requirements."
+#: TP_WAVELET_LIPST_TOOLTIP,TP_WAVELET_NPTYPE_TOOLTIP
+msgid "This algorithm uses the proximity of a pixel and eight of its neighbors. If less difference, edges are reinforced."
 msgstr ""
 
 #: TP_WAVELET_LIPST
-msgid "Enhanced algorithm"
+msgid "Enhanced algoritm"
 msgstr ""
 
 #: TP_WAVELET_LOWLIGHT
@@ -6210,6 +6274,10 @@ msgstr ""
 
 #: TP_WAVELET_MEDGREINF
 msgid "First level"
+msgstr ""
+
+#: TP_WAVELET_MEDILEV_TOOLTIP
+msgid "When you enable Edge Detection, it is recommanded:\n- to disabled low contrast levels to avoid artifacts,\n- to use high values of gradient sensitivity.\n\nYou can modulate the strength with 'refine' from Denoise and Refine."
 msgstr ""
 
 #: TP_WAVELET_MEDILEV
@@ -6228,8 +6296,8 @@ msgstr ""
 msgid "Denoise"
 msgstr ""
 
-#: TP_WAVELET_OPACITYWL_TOOLTIP
-msgid "Modify final local contrast in function of last local contrast (absciss) for all levels decomposition\nTake into account: \na)contrast levels \nb)edge sharpness \nc)contrast balance\nd)decomposition-recomposition\nLow absciss represents small local contrast (real values about 10..20)\n50% absciss represents average of local contrast (real value about 200..1000)\n66% absciss represents standard deviation of local contrast (real value about 1000..2000)\n100% represents maximum (real value about 5000..13000)"
+#: TP_WAVELET_NPTYPE
+msgid "Neighboring pixels"
 msgstr ""
 
 #: TP_WAVELET_OPACITYWL_TOOLTIP
@@ -6249,7 +6317,7 @@ msgid "Opacity Blue-Yellow"
 msgstr ""
 
 #: TP_WAVELET_PASTEL
-msgid "Pastel chromaticity"
+msgid "Pastel chroma"
 msgstr ""
 
 #: TP_WAVELET_PROC
@@ -6273,7 +6341,7 @@ msgid "Reduced"
 msgstr ""
 
 #: TP_WAVELET_SAT
-msgid "Saturated chromaticity"
+msgid "Saturated chroma"
 msgstr ""
 
 #: TP_WAVELET_SETTINGS
@@ -6354,10 +6422,6 @@ msgstr ""
 
 #: TP_WAVELET_TON
 msgid "Toning"
-msgstr ""
-
-#: TP_WAVELET_4
-msgid "Level 4"
 msgstr ""
 
 #: TP_WAVELET_5
