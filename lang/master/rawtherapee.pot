@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-07-08 18:23+0200\n"
+"POT-Creation-Date: 2015-10-20 06:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Reset the selected tags to their original values."
 msgstr ""
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_RETINEX_NEUTRAL
 msgid "Reset"
 msgstr ""
 
@@ -346,7 +346,7 @@ msgid "Maximum width:"
 msgstr ""
 
 #: EXPORT_PUTTOQUEUEFAST
-msgid "  Put to queue for fast export  "
+msgid "  Put to queue for fast export"
 msgstr ""
 
 #: EXPORT_RAW_DMETHOD,PARTIALPASTE_RAW_DMETHOD
@@ -610,7 +610,7 @@ msgid "Type filenames to search for. Supports partial filenames. Separate the se
 msgstr ""
 
 #: FILEBROWSER_QUERYLABEL
-msgid " Find: "
+msgid " Find:"
 msgstr ""
 
 #: FILEBROWSER_RANK1_TOOLTIP
@@ -849,7 +849,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_TMNONE
+#: GENERAL_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr ""
 
@@ -989,7 +989,7 @@ msgstr ""
 msgid "L*a*b* - Avoid color shift"
 msgstr ""
 
-#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
+#: HISTORY_MSG_112,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
 msgid "--unused--"
 msgstr ""
 
@@ -1081,15 +1081,15 @@ msgstr ""
 msgid "NR - Chroma"
 msgstr ""
 
-#: HISTORY_MSG_133,PARTIALPASTE_ICMGAMMA,TP_GAMMA_OUTPUT
+#: HISTORY_MSG_133,TP_GAMMA_OUTPUT
 msgid "Output gamma"
 msgstr ""
 
-#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE
+#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE,TP_RETINEX_FREEGAMMA
 msgid "Free gamma"
 msgstr ""
 
-#: HISTORY_MSG_136
+#: HISTORY_MSG_136,TP_RETINEX_SLOPE
 msgid "Free gamma slope"
 msgstr ""
 
@@ -1223,6 +1223,10 @@ msgstr ""
 
 #: HISTORY_MSG_166
 msgid "Exposure - Neutral"
+msgstr ""
+
+#: HISTORY_MSG_167,HISTORY_MSG_98
+msgid "Demosaicing method"
 msgstr ""
 
 #: HISTORY_MSG_168
@@ -1970,15 +1974,15 @@ msgid "W - ES - Local contrast method"
 msgstr ""
 
 #: HISTORY_MSG_347
-msgid "W - Denoise - Level 0"
-msgstr ""
-
-#: HISTORY_MSG_348
 msgid "W - Denoise - Level 1"
 msgstr ""
 
-#: HISTORY_MSG_349
+#: HISTORY_MSG_348
 msgid "W - Denoise - Level 2"
+msgstr ""
+
+#: HISTORY_MSG_349
+msgid "W - Denoise - Level 3"
 msgstr ""
 
 #: HISTORY_MSG_35
@@ -2002,7 +2006,7 @@ msgid "W - ES - Gradient sensitivity"
 msgstr ""
 
 #: HISTORY_MSG_354
-msgid "W - ES - Enhance"
+msgid "W - ES - Enhanced"
 msgstr ""
 
 #: HISTORY_MSG_355
@@ -2165,16 +2169,32 @@ msgstr ""
 msgid "W - Residual - CB Reset"
 msgstr ""
 
-#: HISTORY_MSG_393,TP_ICM_APPLYLOOKTABLE
-msgid "Use DCP's look table"
+#: HISTORY_MSG_393
+msgid "DCP - Look table"
 msgstr ""
 
-#: HISTORY_MSG_394,TP_ICM_APPLYBASELINEEXPOSUREOFFSET
-msgid "Use DCP's baseline exposure offset"
+#: HISTORY_MSG_394
+msgid "DCP - Baseline exposure"
 msgstr ""
 
-#: HISTORY_MSG_395,TP_ICM_APPLYHUESATMAP
-msgid "Use DCP's base table"
+#: HISTORY_MSG_395
+msgid "DCP - Base table"
+msgstr ""
+
+#: HISTORY_MSG_396
+msgid "W - Contrast sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_397
+msgid "W - Chroma sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_398
+msgid "W - ES sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_399
+msgid "W - Residual sub-tool"
 msgstr ""
 
 #: HISTORY_MSG_4
@@ -2185,12 +2205,116 @@ msgstr ""
 msgid "WB - Tint"
 msgstr ""
 
+#: HISTORY_MSG_400
+msgid "W - Final sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_401
+msgid "W - Toning sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_402
+msgid "W - Denoise sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_403
+msgid "W - ES - Edge sensitivity"
+msgstr ""
+
+#: HISTORY_MSG_404
+msgid "W - ES - Base amplification"
+msgstr ""
+
+#: HISTORY_MSG_405
+msgid "W - Denoise - Level 4"
+msgstr ""
+
+#: HISTORY_MSG_406
+msgid "W - ES - Neighboring pixels"
+msgstr ""
+
+#: HISTORY_MSG_407
+msgid "Retinex - Method"
+msgstr ""
+
+#: HISTORY_MSG_408
+msgid "Retinex - Neighboring"
+msgstr ""
+
+#: HISTORY_MSG_409
+msgid "Retinex - Gain"
+msgstr ""
+
 #: HISTORY_MSG_41
 msgid "Exposure - Tone curve 1 mode"
 msgstr ""
 
+#: HISTORY_MSG_410
+msgid "Retinex - Offset"
+msgstr ""
+
+#: HISTORY_MSG_411
+msgid "Retinex - Strength"
+msgstr ""
+
+#: HISTORY_MSG_412
+msgid "Retinex - Scales"
+msgstr ""
+
+#: HISTORY_MSG_413
+msgid "Retinex - Variance"
+msgstr ""
+
+#: HISTORY_MSG_414
+msgid "Retinex - Histogram - Lab"
+msgstr ""
+
+#: HISTORY_MSG_415
+msgid "Retinex - Transmission"
+msgstr ""
+
+#: HISTORY_MSG_416,PARTIALPASTE_RETINEX,TP_RETINEX_LABEL
+msgid "Retinex"
+msgstr ""
+
+#: HISTORY_MSG_417
+msgid "Retinex - Transmission median"
+msgstr ""
+
+#: HISTORY_MSG_418
+msgid "Retinex - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_419
+msgid "Retinex - Color space"
+msgstr ""
+
 #: HISTORY_MSG_42
 msgid "Exposure - Tone curve 2"
+msgstr ""
+
+#: HISTORY_MSG_420
+msgid "Retinex - Histogram - HSL"
+msgstr ""
+
+#: HISTORY_MSG_421,HISTORY_MSG_422
+msgid "Retinex - Gamma"
+msgstr ""
+
+#: HISTORY_MSG_423
+msgid "Retinex - Gamma slope"
+msgstr ""
+
+#: HISTORY_MSG_424
+msgid "Retinex - HL threshold"
+msgstr ""
+
+#: HISTORY_MSG_425
+msgid "Retinex - Log base"
+msgstr ""
+
+#: HISTORY_MSG_426
+msgid "Retinex - Hue equalizer"
 msgstr ""
 
 #: HISTORY_MSG_43
@@ -2213,8 +2337,8 @@ msgstr ""
 msgid "Blend ICC highlights with matrix"
 msgstr ""
 
-#: HISTORY_MSG_48,TP_ICM_TONECURVE
-msgid "Use DCP's tone curve"
+#: HISTORY_MSG_48
+msgid "DCP - Tone curve"
 msgstr ""
 
 #: HISTORY_MSG_49
@@ -2427,10 +2551,6 @@ msgstr ""
 
 #: HISTORY_MSG_97
 msgid "L*a*b* - b* curve"
-msgstr ""
-
-#: HISTORY_MSG_98
-msgid "Demosaicing method"
 msgstr ""
 
 #: HISTORY_MSG_99,PARTIALPASTE_PREPROCESS_HOTPIXFILT,TP_PREPROCESS_HOTPIXFILT
@@ -2754,7 +2874,7 @@ msgid "Detail"
 msgstr ""
 
 #: MAIN_TAB_DEVELOP
-msgid " Develop "
+msgid " Develop"
 msgstr ""
 
 #: MAIN_TAB_EXIF,PARTIALPASTE_EXIFCHANGES
@@ -2762,7 +2882,7 @@ msgid "Exif"
 msgstr ""
 
 #: MAIN_TAB_EXPORT
-msgid " Fast Export "
+msgid " Fast Export"
 msgstr ""
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
@@ -2774,7 +2894,7 @@ msgid "Shortcut: <b>Alt-e</b>"
 msgstr ""
 
 #: MAIN_TAB_FILTER
-msgid " Filter "
+msgid " Filter"
 msgstr ""
 
 #: MAIN_TAB_INSPECT
@@ -2881,7 +3001,7 @@ msgstr ""
 msgid "Show/Hide the top panel.\nShortcut: <b>Shift-l</b>"
 msgstr ""
 
-#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_SHARPENING_THRESHOLD
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD
 msgid "Threshold"
 msgstr ""
 
@@ -3140,7 +3260,7 @@ msgctxt "PREFERENCES_AUTLISVLOW"
 msgid "None"
 msgstr ""
 
-#: PREFERENCES_AUTLOW
+#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_RETINEX_LOW,TP_WAVELET_NPLOW
 msgid "Low"
 msgstr ""
 
@@ -3148,7 +3268,7 @@ msgstr ""
 msgid "Use operating system's main monitor color profile"
 msgstr ""
 
-#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL,TP_WAVELET_TMSTD
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
 msgid "Standard"
 msgstr ""
 
@@ -3508,7 +3628,7 @@ msgstr ""
 msgid "Absolute Colorimetric"
 msgstr ""
 
-#: PREFERENCES_INTENT_PERCEPTUAL
+#: PREFERENCES_INTENT_PERCEPTUAL,TP_EXPOSURE_TCMODE_PERCEPTUAL
 msgid "Perceptual"
 msgstr ""
 
@@ -4248,7 +4368,7 @@ msgstr ""
 msgid "Luminance Equalizer"
 msgstr ""
 
-#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
+#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_CTYPE,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_RETINEX_METHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
 msgstr ""
 
@@ -4625,7 +4745,7 @@ msgstr ""
 msgid "Colorfulness"
 msgstr ""
 
-#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC
+#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
 msgid "Chroma"
 msgstr ""
 
@@ -4721,7 +4841,7 @@ msgstr ""
 msgid "RGB - Sliders"
 msgstr ""
 
-#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
 msgid "Strength"
 msgstr ""
 
@@ -4858,10 +4978,6 @@ msgstr ""
 msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nAutomatic multi-zones\nNo preview - works only during saving, but using the \"Preview\" method by matching the tile size and center to the preview size and center you can get an idea of the expected results.\nThe image is divided into tiles (about 10 to 70 depending on image size) and each tile receives its own chrominance noise reduction settings.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
 msgstr ""
 
-#: TP_DIRPYRDENOISE_CTYPE
-msgid "Auto method"
-msgstr ""
-
 #: TP_DIRPYRDENOISE_CURVEEDITOR_CC_TOOLTIP
 msgid "Increase (multiply) the value of all chrominance sliders.\nThis curve lets you adjust the strength of chromatic noise reduction as a function of chromaticity, for instance to increase the action in areas of low saturation and to decrease it in those of high saturation."
 msgstr ""
@@ -4890,7 +5006,7 @@ msgstr ""
 msgid "Gamma varies noise reduction strength across the range of tones. Smaller values will target shadows, while larger values will stretch the effect to the brighter tones."
 msgstr ""
 
-#: TP_DIRPYRDENOISE_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV
+#: TP_DIRPYRDENOISE_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV,TP_RETINEX_GAMMA
 msgid "Gamma"
 msgstr ""
 
@@ -4902,7 +5018,7 @@ msgstr ""
 msgid "Chrominance - Master"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM
+#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM,TP_RETINEX_LABSPACE
 msgid "L*a*b*"
 msgstr ""
 
@@ -5014,7 +5130,7 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_SHALBI,TP_WAVELET_TMHIGH
+#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_RETINEX_HIGH,TP_WAVELET_NPHIGH
 msgid "High"
 msgstr ""
 
@@ -5348,12 +5464,24 @@ msgstr ""
 msgid "Employ the embedded DCP baseline exposure offset. The setting is only enabled if the selected DCP has any."
 msgstr ""
 
+#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
+msgid "Baseline exposure"
+msgstr ""
+
 #: TP_ICM_APPLYHUESATMAP_TOOLTIP
 msgid "Employ the embedded DCP base table (HueSatMap). The setting is only enabled if the selected DCP has one."
 msgstr ""
 
+#: TP_ICM_APPLYHUESATMAP
+msgid "Base table"
+msgstr ""
+
 #: TP_ICM_APPLYLOOKTABLE_TOOLTIP
 msgid "Employ the embedded DCP look table. The setting is only enabled if the selected DCP has one."
+msgstr ""
+
+#: TP_ICM_APPLYLOOKTABLE
+msgid "Look table"
 msgstr ""
 
 #: TP_ICM_BLENDCMSMATRIX_TOOLTIP
@@ -5424,6 +5552,10 @@ msgstr ""
 msgid "Output Profile"
 msgstr ""
 
+#: TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP
+msgid "Generally, apply the white balance when saving images to create ICC profiles, and do not apply the white balance to create DCP profiles."
+msgstr ""
+
 #: TP_ICM_SAVEREFERENCE_APPLYWB
 msgid "Apply white balance"
 msgstr ""
@@ -5438,6 +5570,10 @@ msgstr ""
 
 #: TP_ICM_TONECURVE_TOOLTIP
 msgid "Employ the embedded DCP tone curve. The setting is only enabled if the selected DCP has a tone curve."
+msgstr ""
+
+#: TP_ICM_TONECURVE
+msgid "Tone curve"
 msgstr ""
 
 #: TP_ICM_WORKINGPROFILE
@@ -5552,7 +5688,7 @@ msgstr ""
 msgid "Luminance Curve"
 msgstr ""
 
-#: TP_LABCURVE_CHROMATICITY,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
+#: TP_LABCURVE_CHROMATICITY
 msgid "Chromaticity"
 msgstr ""
 
@@ -5752,6 +5888,142 @@ msgstr ""
 msgid "Width:"
 msgstr ""
 
+#: TP_RETINEX_CONTEDIT_HSL
+msgid "Histogram equalizer HSL"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_LAB
+msgid "Histogram equalizer L*a*b*"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_LH
+msgid "Hue equalizer"
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
+msgid "Luminance according to luminance L=f(L)\nCorrect raw data to reduce halos and artifacts."
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_CD
+msgid "L=f(L)"
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_LH_TOOLTIP
+msgid "Strength according to hue Strength=f(H)\nThis curve also acts on chroma when using the \"Highlight\" retinex method."
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_LH
+msgid "Strength=f(H)"
+msgstr ""
+
+#: TP_RETINEX_GAIN_TOOLTIP
+msgid "Acts on the transmission in combination with the offset. This is very different from the others settings. Used for black or white pixels, and to help balance the histogram."
+msgstr ""
+
+#: TP_RETINEX_GAIN
+msgid "Gain"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_FREE
+msgid "Free"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_MID
+msgid "Middle"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_TOOLTIP
+msgid "Restore tones by applying gamma before and after Retinex. Different from Retinex curves or others curves (Lab, Exposure, etc.)."
+msgstr ""
+
+#: TP_RETINEX_HIGHLIGHT_TOOLTIP
+msgid "Increase action of High algorithm.\nMay require you to re-adjust \"Neighboring pixels\" and to increase the \"White-point correction\" in the Raw tab -> Raw White Points tool."
+msgstr ""
+
+#: TP_RETINEX_HIGHLIGHT
+msgid "Highlight threshold"
+msgstr ""
+
+#: TP_RETINEX_HIGHLIG
+msgid "Highlight"
+msgstr ""
+
+#: TP_RETINEX_HSLSPACE_LIN
+msgid "HSL-Linear"
+msgstr ""
+
+#: TP_RETINEX_HSLSPACE_LOG
+msgid "HSL-Logarithmic"
+msgstr ""
+
+#: TP_RETINEX_MEDIAN
+msgid "Transmission median filter"
+msgstr ""
+
+#: TP_RETINEX_METHOD_TOOLTIP
+msgid "Low = Reinforce low light,\nUniform = Equalize action,\nHigh = Reinforce high light,\nHighlight = Remove magenta in highlights."
+msgstr ""
+
+#: TP_RETINEX_MLABEL_TOOLTIP
+msgid "Should be near min=0 max=32768\nRestored image with no mixture."
+msgstr ""
+
+#: TP_RETINEX_MLABEL
+msgid "Restored haze-free Min=%1 Max=%2"
+msgstr ""
+
+#: TP_RETINEX_NEIGHBOR,TP_WAVELET_NPTYPE
+msgid "Neighboring pixels"
+msgstr ""
+
+#: TP_RETINEX_NEUTRAL_TIP
+msgid "Reset all sliders and curves to their default values."
+msgstr ""
+
+#: TP_RETINEX_OFFSET
+msgid "Offset"
+msgstr ""
+
+#: TP_RETINEX_SETTINGS
+msgid "Settings"
+msgstr ""
+
+#: TP_RETINEX_THRESHOLD_TOOLTIP
+msgid "Limits in/out.\nIn = image source,\nOut = image gauss."
+msgstr ""
+
+#: TP_RETINEX_TLABEL_TOOLTIP
+msgid "Transmission map result.\nMin and Max are used by Variance.\nMean and Sigma\nTm=Min TM=Max of transmission map."
+msgstr ""
+
+#: TP_RETINEX_TLABEL
+msgid "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
+msgstr ""
+
+#: TP_RETINEX_TLABEL2
+msgid "TM Tm=%1 TM=%2"
+msgstr ""
+
+#: TP_RETINEX_TRANSMISSION_TOOLTIP
+msgid "Transmission according to transmission.\nAbscissa: transmission from negative values (min), mean, and positives values (max).\nOrdinate: amplification or reduction."
+msgstr ""
+
+#: TP_RETINEX_TRANSMISSION
+msgid "Transmission map"
+msgstr ""
+
+#: TP_RETINEX_UNIFORM
+msgid "Uniform"
+msgstr ""
+
+#: TP_RETINEX_VARIANCE_TOOLTIP
+msgid "Low variance increase local contrast and saturation, but can lead to artifacts."
+msgstr ""
+
+#: TP_RETINEX_VARIANCE
+msgid "Variance"
+msgstr ""
+
 #: TP_RGBCURVES_BLUE
 msgid "B"
 msgstr ""
@@ -5913,7 +6185,7 @@ msgid "Background"
 msgstr ""
 
 #: TP_WAVELET_BALANCE_TOOLTIP
-msgid "Alters the balance between the wavelet directions: vertical-horizontal and diagonal.\nIf contrast, chromaticity or residual tone mapping are activated, the effect due to balance is amplified."
+msgid "Alters the balance between the wavelet directions: vertical-horizontal and diagonal.\nIf contrast, chroma or residual tone mapping are activated, the effect due to balance is amplified."
 msgstr ""
 
 #: TP_WAVELET_BALANCE
@@ -5921,7 +6193,7 @@ msgid "Contrast balance d/v-h"
 msgstr ""
 
 #: TP_WAVELET_BALCHRO_TOOLTIP
-msgid "If enabled, the 'Contrast balance' curve or slider also modifies chromaticity balance."
+msgid "If enabled, the 'Contrast balance' curve or slider also modifies chroma balance."
 msgstr ""
 
 #: TP_WAVELET_BALCHRO
@@ -5940,7 +6212,7 @@ msgstr ""
 msgid "Residual"
 msgstr ""
 
-#: TP_WAVELET_CBENAB,TP_WAVELET_CBTYPE
+#: TP_WAVELET_CBENAB
 msgid "Toning and Color Balance"
 msgstr ""
 
@@ -5952,16 +6224,8 @@ msgstr ""
 msgid "Opacity Red-Green"
 msgstr ""
 
-#: TP_WAVELET_COMBOTH
-msgid "Both"
-msgstr ""
-
 #: TP_WAVELET_COMPGAMMA_TOOLTIP
-msgid "Adjust gamma for residual image and compression.\nAllow to equilibrate data and histogram"
-msgstr ""
-
-#: TP_WAVELET_COMPGAMMA_TOOLTIP
-msgid "Adjusting the gamma of the residual image allow you to equilibrate the data and histogram."
+msgid "Adjusting the gamma of the residual image allows you to equilibrate the data and histogram."
 msgstr ""
 
 #: TP_WAVELET_COMPGAMMA
@@ -5970,10 +6234,6 @@ msgstr ""
 
 #: TP_WAVELET_CONTEDIT
 msgid "'After' contrast curve"
-msgstr ""
-
-#: TP_WAVELET_CONTEDIT
-msgid "'After' Contrast curve"
 msgstr ""
 
 #: TP_WAVELET_CONTRA_TOOLTIP
@@ -5989,15 +6249,11 @@ msgid "Chrominance control"
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CC_TOOLTIP
-msgid "Modifies local contrast as a function of the original local contrast (absciss)\nLow absciss represents small local contrast (real values about 10..20)\n50% absciss represents average of local contrast (real value about 100..300)\n66% absciss represents standard deviation of local contrast (real value about 300..800)\n100% represents maximum (real value about 3000..8000)"
+msgid "Modifies local contrast as a function of the original local contrast (abscissa).\nLow abscissa values represent small local contrast (real values about 10..20).\n50% abscissa represents average local contrast (real value about 100..300).\n66% abscissa represents standard deviation of local contrast (real value about 300..800).\n100% abscissa represents maximum local contrast (real value about 3000..8000)."
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
 msgid "Applies a final contrast luminance curve at the end of the wavelet treatment."
-msgstr ""
-
-#: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
-msgid "Apply a contrast luminance curve at the end of wavelet level threatment"
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_HH_TOOLTIP
@@ -6005,7 +6261,7 @@ msgid "Modifies the residual image's hue as a function of hue."
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CH_TOOLTIP
-msgid "Modifies each level's contrast as a function oh hue.\nTake care not to overwrite changes made with the Gamut Hue controls.\nThe curve will only have an effect when wavelet contrast level sliders are non-zero."
+msgid "Modifies each level's contrast as a function of hue.\nTake care not to overwrite changes made with the Gamut sub-tool's hue controls.\nThe curve will only have an effect when wavelet contrast level sliders are non-zero."
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CH
@@ -6052,6 +6308,10 @@ msgstr ""
 msgid "Adjusting the points to the left decreases contrast, and to the right increases it.\nBottom-left, Top-Left, Top-Right, Bottom-right represent respectively local contast for low values, mean, mean+stdev, maxima"
 msgstr ""
 
+#: TP_WAVELET_EDGEAMPLI
+msgid "Base amplification"
+msgstr ""
+
 #: TP_WAVELET_EDGEDETECTTHR_TOOLTIP
 msgid "This adjuster lets you target edge detection for example to avoid applying edge sharpness to fine details, such as noise in the sky."
 msgstr ""
@@ -6070,6 +6330,10 @@ msgstr ""
 
 #: TP_WAVELET_EDGEDETECT
 msgid "Gradient sensitivity"
+msgstr ""
+
+#: TP_WAVELET_EDGESENSI
+msgid "Edge sensitivity"
 msgstr ""
 
 #: TP_WAVELET_EDGE
@@ -6125,7 +6389,7 @@ msgid "Saturated/pastel threshold"
 msgstr ""
 
 #: TP_WAVELET_CHR_TOOLTIP
-msgid "Adjusts chromaticity as a function of \"contrast levels\" and \"chroma-contrast link strength\""
+msgid "Adjusts chroma as a function of \"contrast levels\" and \"chroma-contrast link strength\""
 msgstr ""
 
 #: TP_WAVELET_CHR
@@ -6141,7 +6405,7 @@ msgid "Chrominance method"
 msgstr ""
 
 #: TP_WAVELET_CH1
-msgid "Whole chromaticity range"
+msgid "Whole chroma range"
 msgstr ""
 
 #: TP_WAVELET_CH2
@@ -6184,6 +6448,10 @@ msgstr ""
 msgid "Level 2"
 msgstr ""
 
+#: TP_WAVELET_LEVTHRE,TP_WAVELET_4
+msgid "Level 4"
+msgstr ""
+
 #: TP_WAVELET_LEVTWO,TP_WAVELET_3
 msgid "Level 3"
 msgstr ""
@@ -6196,12 +6464,8 @@ msgstr ""
 msgid "Link with Edge Sharpness' Strength"
 msgstr ""
 
-#: TP_WAVELET_LIPST_TOOLTIP
-msgid "This algorithm uses Lipschitz regularity to increase edge detection quality at a cost of increased processing time and memory requirements."
-msgstr ""
-
 #: TP_WAVELET_LIPST
-msgid "Enhanced algorithm"
+msgid "Enhanced algoritm"
 msgstr ""
 
 #: TP_WAVELET_LOWLIGHT
@@ -6210,6 +6474,10 @@ msgstr ""
 
 #: TP_WAVELET_MEDGREINF
 msgid "First level"
+msgstr ""
+
+#: TP_WAVELET_MEDILEV_TOOLTIP
+msgid "When you enable Edge Detection, it is recommanded:\n- to disabled low contrast levels to avoid artifacts,\n- to use high values of gradient sensitivity.\n\nYou can modulate the strength with 'refine' from Denoise and Refine."
 msgstr ""
 
 #: TP_WAVELET_MEDILEV
@@ -6228,8 +6496,8 @@ msgstr ""
 msgid "Denoise"
 msgstr ""
 
-#: TP_WAVELET_OPACITYWL_TOOLTIP
-msgid "Modify final local contrast in function of last local contrast (absciss) for all levels decomposition\nTake into account: \na)contrast levels \nb)edge sharpness \nc)contrast balance\nd)decomposition-recomposition\nLow absciss represents small local contrast (real values about 10..20)\n50% absciss represents average of local contrast (real value about 200..1000)\n66% absciss represents standard deviation of local contrast (real value about 1000..2000)\n100% represents maximum (real value about 5000..13000)"
+#: TP_WAVELET_NPTYPE_TOOLTIP
+msgid "This algorithm uses the proximity of a pixel and eight of its neighbors. If less difference, edges are reinforced."
 msgstr ""
 
 #: TP_WAVELET_OPACITYWL_TOOLTIP
@@ -6249,7 +6517,7 @@ msgid "Opacity Blue-Yellow"
 msgstr ""
 
 #: TP_WAVELET_PASTEL
-msgid "Pastel chromaticity"
+msgid "Pastel chroma"
 msgstr ""
 
 #: TP_WAVELET_PROC
@@ -6273,7 +6541,7 @@ msgid "Reduced"
 msgstr ""
 
 #: TP_WAVELET_SAT
-msgid "Saturated chromaticity"
+msgid "Saturated chroma"
 msgstr ""
 
 #: TP_WAVELET_SETTINGS
@@ -6336,10 +6604,6 @@ msgstr ""
 msgid "Processing the full image leads to better quality and is the recommended option, while using tiles is a fall-back solution for users with little RAM. Refer to RawPedia for memory requirements."
 msgstr ""
 
-#: TP_WAVELET_TMLOWHIGH
-msgid "Low+High"
-msgstr ""
-
 #: TP_WAVELET_TMSTRENGTH_TOOLTIP
 msgid "Control the strength of tone mapping or contrast compression of the residual image. When the value is different from 0, the Strength and Gamma sliders of the Tone Mapping tool in the Exposure tab will become grayed out."
 msgstr ""
@@ -6354,10 +6618,6 @@ msgstr ""
 
 #: TP_WAVELET_TON
 msgid "Toning"
-msgstr ""
-
-#: TP_WAVELET_4
-msgid "Level 4"
 msgstr ""
 
 #: TP_WAVELET_5

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-07-08 18:23+0200\n"
-"PO-Revision-Date: 2015-07-08 20:27+0200\n"
+"POT-Creation-Date: 2015-10-20 06:35+0200\n"
+"PO-Revision-Date: 2015-10-20 23:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -55,18 +55,16 @@ msgid "I:"
 msgstr "Vstup:"
 
 #: CURVEEDITOR_AXIS_LEFT_TAN
-#, fuzzy
 msgid "LT:"
-msgstr "L*:"
+msgstr "LS:"
 
 #: CURVEEDITOR_AXIS_OUT
 msgid "O:"
 msgstr "Výstup:"
 
 #: CURVEEDITOR_AXIS_RIGHT_TAN
-#, fuzzy
 msgid "RT:"
-msgstr "R:"
+msgstr "PS:"
 
 #: CURVEEDITOR_CURVES
 msgid "Curves"
@@ -269,7 +267,7 @@ msgstr "Obnovit vše"
 msgid "Reset the selected tags to their original values."
 msgstr "Obnoví původní hodnoty u vybraných štítků."
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_RETINEX_NEUTRAL
 msgid "Reset"
 msgstr "Obnovit"
 
@@ -378,8 +376,8 @@ msgid "Maximum width:"
 msgstr "Maximální šířka:"
 
 #: EXPORT_PUTTOQUEUEFAST
-msgid "  Put to queue for fast export  "
-msgstr "  Vložit do fronty pro rychlý export  "
+msgid "  Put to queue for fast export"
+msgstr "  Vložit do fronty pro rychlý export"
 
 #: EXPORT_RAW_DMETHOD,PARTIALPASTE_RAW_DMETHOD
 msgid "Demosaic method"
@@ -712,8 +710,8 @@ msgstr ""
 "<b>Shift-Esc</b> pro zrušení přepnutí."
 
 #: FILEBROWSER_QUERYLABEL
-msgid " Find: "
-msgstr " Najít: "
+msgid " Find:"
+msgstr " Najít:"
 
 #: FILEBROWSER_RANK1_TOOLTIP
 msgid ""
@@ -1089,7 +1087,7 @@ msgstr "Na šířku"
 msgid "n/a"
 msgstr "n/a"
 
-#: GENERAL_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_TMNONE
+#: GENERAL_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr "Nic"
 
@@ -1233,7 +1231,7 @@ msgstr "Změna rozměrů - aplikována na"
 msgid "L*a*b* - Avoid color shift"
 msgstr "L*a*b* - Zabránit posunu barev"
 
-#: HISTORY_MSG_112,HISTORY_MSG_167,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
+#: HISTORY_MSG_112,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
 msgid "--unused--"
 msgstr "--nepoužito--"
 
@@ -1325,15 +1323,15 @@ msgstr "Redukce šumu - Jas"
 msgid "NR - Chroma"
 msgstr "Redukce šumu - Barevnost"
 
-#: HISTORY_MSG_133,PARTIALPASTE_ICMGAMMA,TP_GAMMA_OUTPUT
+#: HISTORY_MSG_133,TP_GAMMA_OUTPUT
 msgid "Output gamma"
 msgstr "Výstupní gama"
 
-#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE
+#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE,TP_RETINEX_FREEGAMMA
 msgid "Free gamma"
 msgstr "Volná gama"
 
-#: HISTORY_MSG_136
+#: HISTORY_MSG_136,TP_RETINEX_SLOPE
 msgid "Free gamma slope"
 msgstr "Sklon volné gamy"
 
@@ -1468,6 +1466,10 @@ msgstr "RGB křivky - Modrá"
 #: HISTORY_MSG_166
 msgid "Exposure - Neutral"
 msgstr "Expozice - Neutrální"
+
+#: HISTORY_MSG_167,HISTORY_MSG_98
+msgid "Demosaicing method"
+msgstr "Metoda demozajkování"
 
 #: HISTORY_MSG_168
 msgid "L*a*b* - CC curve"
@@ -2091,7 +2093,7 @@ msgstr "Vlnka - Paleta - Odstín pleti"
 
 #: HISTORY_MSG_318
 msgid "W - Contrast - Highlight levels"
-msgstr "Vlnka  - Kontrast - Úrovně světel"
+msgstr "Vlnka - Kontrast - Úrovně světel"
 
 #: HISTORY_MSG_319
 msgid "W - Contrast - Highlight range"
@@ -2214,15 +2216,15 @@ msgid "W - ES - Local contrast method"
 msgstr "Vlnka - DH - Metoda místního kontrastu"
 
 #: HISTORY_MSG_347
-msgid "W - Denoise - Level 0"
-msgstr "Vlnka - Odšumění - Úroveň 0"
-
-#: HISTORY_MSG_348
 msgid "W - Denoise - Level 1"
 msgstr "Vlnka - Odšumění - Úroveň 1"
 
-#: HISTORY_MSG_349
+#: HISTORY_MSG_348
 msgid "W - Denoise - Level 2"
+msgstr "Vlnka - Odšumění - Úroveň 3"
+
+#: HISTORY_MSG_349
+msgid "W - Denoise - Level 3"
 msgstr "Vlnka - Odšumění - Úroveň 3"
 
 #: HISTORY_MSG_35
@@ -2246,7 +2248,7 @@ msgid "W - ES - Gradient sensitivity"
 msgstr "Vlnka - DH - Gradient citlivosti"
 
 #: HISTORY_MSG_354
-msgid "W - ES - Enhance"
+msgid "W - ES - Enhanced"
 msgstr "Vlnka - DH - Vylepšení"
 
 #: HISTORY_MSG_355
@@ -2274,9 +2276,8 @@ msgid "LCP CA correction"
 msgstr "LCP korekce CA"
 
 #: HISTORY_MSG_360
-#, fuzzy
 msgid "TM Gamma"
-msgstr "Gama"
+msgstr "MT - Gama"
 
 #: HISTORY_MSG_361
 msgid "W - Final - Chroma balance"
@@ -2319,74 +2320,60 @@ msgid "Post-Resize Sharpening"
 msgstr "Doostření po změně velikosti"
 
 #: HISTORY_MSG_372
-#, fuzzy
 msgid "PRS USM - Radius"
-msgstr "Doostření - Poloměr"
+msgstr "Doostření MR - Poloměr"
 
 #: HISTORY_MSG_373
-#, fuzzy
 msgid "PRS USM - Amount"
-msgstr "Doostření - Míra"
+msgstr "Doostření MR - Míra"
 
 #: HISTORY_MSG_374
-#, fuzzy
 msgid "PRS USM - Threshold"
-msgstr "Doostření - Práh"
+msgstr "Doostření MR - Práh"
 
 #: HISTORY_MSG_375
-#, fuzzy
 msgid "PRS USM - Sharpen only edges"
-msgstr "Doostření - Pouze okraje"
+msgstr "Doostření MR - Pouze hrany"
 
 #: HISTORY_MSG_376
-#, fuzzy
 msgid "PRS USM - Edge detection radius"
-msgstr "Doostření - Poloměr detekce okrajů"
+msgstr "Doostření  MR- Poloměr detekce hran"
 
 #: HISTORY_MSG_377
-#, fuzzy
 msgid "PRS USM - Edge tolerance"
-msgstr "Doostření - Tolerance okrajů"
+msgstr "Doostření MR - Tolerance hran"
 
 #: HISTORY_MSG_378
-#, fuzzy
 msgid "PRS USM - Halo control"
-msgstr "Doostření - Omezení haló art."
+msgstr "Doostření MR - Omezení haló art."
 
 #: HISTORY_MSG_379
-#, fuzzy
 msgid "PRS USM - Halo control amount"
-msgstr "Doostření - Míra omezení haló art."
+msgstr "Doostření MR - Míra omezení haló art."
 
 #: HISTORY_MSG_38
-#, fuzzy
 msgid "White Balance - Method"
-msgstr "Metoda vyvážení bílé"
+msgstr "Vyvážení bílé - Metoda"
 
 #: HISTORY_MSG_380
-#, fuzzy
 msgid "PRS - Method"
-msgstr "Redukce šumu - Metoda"
+msgstr "Doostření - Metoda"
 
 #: HISTORY_MSG_381
-#, fuzzy
 msgid "PRS RLD - Radius"
-msgstr "RLD - Poloměr"
+msgstr "Doostření RDL - Poloměr"
 
 #: HISTORY_MSG_382
-#, fuzzy
 msgid "PRS RLD - Amount"
-msgstr "RLD - Míra"
+msgstr "Doostření RDL  - Míra"
 
 #: HISTORY_MSG_383
-#, fuzzy
 msgid "PRS RLD - Damping"
-msgstr "RLD - Útlum"
+msgstr "Doostření RDL - Útlum"
 
 #: HISTORY_MSG_384
-#, fuzzy
 msgid "PRS RLD - Iterations"
-msgstr "RLD - Průchody"
+msgstr "Doostření RDL  - Průchody"
 
 #: HISTORY_MSG_385
 msgid "W - Residual - Color Balance"
@@ -2424,17 +2411,33 @@ msgstr "Vlnka - Zůstatek - VB stíny: modrá"
 msgid "W - Residual - CB Reset"
 msgstr "Vlnka - Zůstatek - VB vrátit"
 
-#: HISTORY_MSG_393,TP_ICM_APPLYLOOKTABLE
-msgid "Use DCP's look table"
-msgstr "Použít DCP tabulku vzhledu"
+#: HISTORY_MSG_393
+msgid "DCP - Look table"
+msgstr "DCP - tabulka vzhledu"
 
-#: HISTORY_MSG_394,TP_ICM_APPLYBASELINEEXPOSUREOFFSET
-msgid "Use DCP's baseline exposure offset"
-msgstr ""
+#: HISTORY_MSG_394
+msgid "DCP - Baseline exposure"
+msgstr "DCP - základní expozice"
 
-#: HISTORY_MSG_395,TP_ICM_APPLYHUESATMAP
-msgid "Use DCP's base table"
-msgstr "Použít základní tabulku DCP"
+#: HISTORY_MSG_395
+msgid "DCP - Base table"
+msgstr "DCP - základní tabulka"
+
+#: HISTORY_MSG_396
+msgid "W - Contrast sub-tool"
+msgstr "Vlnka - Kontrast "
+
+#: HISTORY_MSG_397
+msgid "W - Chroma sub-tool"
+msgstr "Vlnka - Barevnost "
+
+#: HISTORY_MSG_398
+msgid "W - ES sub-tool"
+msgstr "Vlnka - Doostření hran"
+
+#: HISTORY_MSG_399
+msgid "W - Residual sub-tool"
+msgstr "Vlnka - Zůstatek"
 
 #: HISTORY_MSG_4
 msgid "History browsing"
@@ -2444,13 +2447,117 @@ msgstr "Prohlížení historie"
 msgid "WB - Tint"
 msgstr "VB - Odstín"
 
+#: HISTORY_MSG_400
+msgid "W - Final sub-tool"
+msgstr "Vlnka - Dokončení "
+
+#: HISTORY_MSG_401
+msgid "W - Toning sub-tool"
+msgstr "Vlnka - Tónování"
+
+#: HISTORY_MSG_402
+msgid "W - Denoise sub-tool"
+msgstr "Vlnka - Odšumění"
+
+#: HISTORY_MSG_403
+msgid "W - ES - Edge sensitivity"
+msgstr "Vlnka - DH - Citlivost detekce hran"
+
+#: HISTORY_MSG_404
+msgid "W - ES - Base amplification"
+msgstr "Vlnka - DH - Základní zesílení"
+
+#: HISTORY_MSG_405
+msgid "W - Denoise - Level 4"
+msgstr "Vlnka - Odšumění - Úroveň 4"
+
+#: HISTORY_MSG_406
+msgid "W - ES - Neighboring pixels"
+msgstr "Vlnka - DH - Sousední pixely"
+
+#: HISTORY_MSG_407
+msgid "Retinex - Method"
+msgstr "Retinex - Metoda"
+
+#: HISTORY_MSG_408
+msgid "Retinex - Neighboring"
+msgstr "Retinex - Sousední"
+
+#: HISTORY_MSG_409
+msgid "Retinex - Gain"
+msgstr "Retinex - Zisk"
+
 #: HISTORY_MSG_41
 msgid "Exposure - Tone curve 1 mode"
 msgstr "Expozice - Tónová křivka - mód 1"
 
+#: HISTORY_MSG_410
+msgid "Retinex - Offset"
+msgstr "Retinex - Posun"
+
+#: HISTORY_MSG_411
+msgid "Retinex - Strength"
+msgstr "Retinex - Síla"
+
+#: HISTORY_MSG_412
+msgid "Retinex - Scales"
+msgstr "Retinex - Míra"
+
+#: HISTORY_MSG_413
+msgid "Retinex - Variance"
+msgstr "Retinex - odchylka"
+
+#: HISTORY_MSG_414
+msgid "Retinex - Histogram - Lab"
+msgstr "Retinex - Histogram - Lab"
+
+#: HISTORY_MSG_415
+msgid "Retinex - Transmission"
+msgstr "Retinex - přenos"
+
+#: HISTORY_MSG_416,PARTIALPASTE_RETINEX,TP_RETINEX_LABEL
+msgid "Retinex"
+msgstr "Retinex"
+
+#: HISTORY_MSG_417
+msgid "Retinex - Transmission median"
+msgstr "Retinex - Medián přenosu"
+
+#: HISTORY_MSG_418
+msgid "Retinex - Threshold"
+msgstr "Retinex - Práh"
+
+#: HISTORY_MSG_419
+msgid "Retinex - Color space"
+msgstr "Retinex - Barevný prostor"
+
 #: HISTORY_MSG_42
 msgid "Exposure - Tone curve 2"
 msgstr "Expozice - Tónová křivka 2"
+
+#: HISTORY_MSG_420
+msgid "Retinex - Histogram - HSL"
+msgstr "Retinex - Histogram - HSV"
+
+#: HISTORY_MSG_421,HISTORY_MSG_422
+msgid "Retinex - Gamma"
+msgstr "Retinex - Gama"
+
+#: HISTORY_MSG_423
+msgid "Retinex - Gamma slope"
+msgstr "Retinex - Sklon gamy"
+
+#: HISTORY_MSG_424
+msgid "Retinex - HL threshold"
+msgstr "Retinex - Práh zachování jasů"
+
+#: HISTORY_MSG_425
+msgid "Retinex - Log base"
+msgstr "Retinex - Základní log"
+
+#: HISTORY_MSG_426
+msgid "Retinex - Hue equalizer"
+msgstr "Retinex - Korekce odstínu"
 
 #: HISTORY_MSG_43
 msgid "Exposure - Tone curve 2 mode"
@@ -2472,9 +2579,9 @@ msgstr "Redukce barevného šumu"
 msgid "Blend ICC highlights with matrix"
 msgstr "Smísení ICC světel s matici"
 
-#: HISTORY_MSG_48,TP_ICM_TONECURVE
-msgid "Use DCP's tone curve"
-msgstr "Použita tónová křivka DCP"
+#: HISTORY_MSG_48
+msgid "DCP - Tone curve"
+msgstr "DCP - Tónová křivka"
 
 #: HISTORY_MSG_49
 msgid "DCP illuminant"
@@ -2501,7 +2608,6 @@ msgid "S/H - Highlights tonal width"
 msgstr "S/S - Tónový rozsah světel"
 
 #: HISTORY_MSG_54
-#, fuzzy
 msgid "S/H - Shadows tonal width"
 msgstr "S/S - Tónový rozsah stínů"
 
@@ -2527,7 +2633,7 @@ msgstr "Vertikální překlopení"
 
 #: HISTORY_MSG_6
 msgid "Exposure - Contrast"
-msgstr "Vlnka - Dokončení - "
+msgstr "Vlnka - Kontrast"
 
 #: HISTORY_MSG_60,PARTIALPASTE_ROTATION
 msgid "Rotation"
@@ -2688,10 +2794,6 @@ msgstr "L*a*b* - CC křivka"
 #: HISTORY_MSG_97
 msgid "L*a*b* - b* curve"
 msgstr "L*a*b* - CC křivka"
-
-#: HISTORY_MSG_98
-msgid "Demosaicing method"
-msgstr "Metoda demozajkování"
 
 #: HISTORY_MSG_99,PARTIALPASTE_PREPROCESS_HOTPIXFILT,TP_PREPROCESS_HOTPIXFILT
 msgid "Hot pixel filter"
@@ -3127,16 +3229,16 @@ msgid "Detail"
 msgstr "Detaily"
 
 #: MAIN_TAB_DEVELOP
-msgid " Develop "
-msgstr " Vyvolání "
+msgid " Develop"
+msgstr " Vyvolání"
 
 #: MAIN_TAB_EXIF,PARTIALPASTE_EXIFCHANGES
 msgid "Exif"
 msgstr "Exif"
 
 #: MAIN_TAB_EXPORT
-msgid " Fast Export "
-msgstr " Rychlý export "
+msgid " Fast Export"
+msgstr " Rychlý export"
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
 msgid "Exposure"
@@ -3147,8 +3249,8 @@ msgid "Shortcut: <b>Alt-e</b>"
 msgstr "Zkratka: <b>Alt-e</b>"
 
 #: MAIN_TAB_FILTER
-msgid " Filter "
-msgstr " Filtr "
+msgid " Filter"
+msgstr " Filtr"
 
 #: MAIN_TAB_INSPECT
 msgid " Inspect"
@@ -3183,14 +3285,12 @@ msgid "Transform"
 msgstr "Transformace"
 
 #: MAIN_TAB_WAVELET_TOOLTIP
-#, fuzzy
 msgid "Shortcut: <b>Alt-w</b>"
-msgstr "Zkratka: <b>Alt-s</b>"
+msgstr "Zkratka: <b>Alt-w</b>"
 
 #: MAIN_TAB_WAVELET
-#, fuzzy
 msgid "Wavelet"
-msgstr "Úrovně vlnky"
+msgstr "Vlnka"
 
 #: MAIN_TOOLTIP_BACKCOLOR0
 msgid ""
@@ -3348,7 +3448,7 @@ msgstr ""
 "Zobrazit/skrýt horní panel.\n"
 "Zkratka: <b>Shift-l</b>"
 
-#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_SHARPENING_THRESHOLD
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD
 msgid "Threshold"
 msgstr "Práh"
 
@@ -3446,7 +3546,6 @@ msgid "Chromatic aberration correction"
 msgstr "Korekce chromatické aberace"
 
 #: PARTIALPASTE_COARSETRANS
-#, fuzzy
 msgid "Coarse rotation/flipping"
 msgstr "Hrubá rotace a překlopení"
 
@@ -3455,7 +3554,6 @@ msgid "Color Related Settings"
 msgstr "Nastavení barev"
 
 #: PARTIALPASTE_COLORTONING
-#, fuzzy
 msgid "Color toning"
 msgstr "Barevné tónování"
 
@@ -3500,7 +3598,6 @@ msgid "Everything"
 msgstr "Vše"
 
 #: PARTIALPASTE_FILMSIMULATION
-#, fuzzy
 msgid "Film simulation"
 msgstr "Simulace filmu"
 
@@ -3533,7 +3630,6 @@ msgid "HSV equalizer"
 msgstr "HSV korekce"
 
 #: PARTIALPASTE_CHANNELMIXERBW
-#, fuzzy
 msgid "Black-and-white"
 msgstr "Černobílá"
 
@@ -3554,7 +3650,6 @@ msgid "L*a*b* adjustments"
 msgstr "L*a*b* úpravy"
 
 #: PARTIALPASTE_LENSGROUP
-#, fuzzy
 msgid "Lens Related Settings"
 msgstr "Nastavení související s objektivy"
 
@@ -3637,7 +3732,7 @@ msgctxt "PREFERENCES_AUTLISVLOW"
 msgid "None"
 msgstr "Ne"
 
-#: PREFERENCES_AUTLOW
+#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_RETINEX_LOW,TP_WAVELET_NPLOW
 msgid "Low"
 msgstr "Nízká"
 
@@ -3645,7 +3740,7 @@ msgstr "Nízká"
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
 
-#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL,TP_WAVELET_TMSTD
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
 msgid "Standard"
 msgstr "Běžná"
 
@@ -3764,9 +3859,8 @@ msgid "Left"
 msgstr "Vlevo"
 
 #: PREFERENCES_CURVEBBOXPOS_RIGHT
-#, fuzzy
 msgid "Right"
-msgstr "Světlé"
+msgstr "Vpravo"
 
 #: PREFERENCES_CURVEBBOXPOS
 msgid "Position of curve copypasta buttons"
@@ -4088,7 +4182,7 @@ msgstr ""
 msgid "Absolute Colorimetric"
 msgstr "Absolutní kolorimetrie"
 
-#: PREFERENCES_INTENT_PERCEPTUAL
+#: PREFERENCES_INTENT_PERCEPTUAL,TP_EXPOSURE_TCMODE_PERCEPTUAL
 msgid "Perceptual"
 msgstr "Vnímání"
 
@@ -4121,9 +4215,8 @@ msgid "Auto multi-zone smoothing"
 msgstr "Automatické více zónové vyhlazení"
 
 #: PREFERENCES_MAXRECENTFOLDERS
-#, fuzzy
 msgid "Maximum number of recent folders"
-msgstr "Maximální počet vyrovnávacích pamětí"
+msgstr "Maximální počet nedávných složek"
 
 #: PREFERENCES_MAX
 msgid "Maxi (Tile)"
@@ -4178,7 +4271,6 @@ msgid "Navigator guide color"
 msgstr "Barva vodítek navigátoru"
 
 #: PREFERENCES_NAVIGATIONFRAME
-#, fuzzy
 msgid "Navigation"
 msgstr "Navigátor"
 
@@ -4293,7 +4385,6 @@ msgid "Overwrite existing output files"
 msgstr "Přepsat existující soubory"
 
 #: PREFERENCES_PANFACTORLABEL
-#, fuzzy
 msgid "Pan rate amplification"
 msgstr "Zrychlení posunu výřezu"
 
@@ -4408,7 +4499,7 @@ msgstr "Zvolit vzhled"
 
 #: PREFERENCES_SERIALIZE_TIFF_READ_LABEL
 msgid "Serialize read of tiff files"
-msgstr ""
+msgstr "Serializovat čtení tiff souborů"
 
 #: PREFERENCES_SERIALIZE_TIFF_READ_TOOLTIP
 msgid ""
@@ -4417,9 +4508,8 @@ msgid ""
 msgstr ""
 
 #: PREFERENCES_SERIALIZE_TIFF_READ
-#, fuzzy
 msgid "Tiff Read Settings"
-msgstr "Nastavení Raw"
+msgstr "Nastavení čtení Tiff"
 
 #: PREFERENCES_SET
 msgid "Set"
@@ -5028,7 +5118,7 @@ msgstr "Odbarvení"
 msgid "Luminance Equalizer"
 msgstr "Korekce jasu"
 
-#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
+#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_CTYPE,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_RETINEX_METHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
 msgstr "Metoda"
 
@@ -5499,9 +5589,8 @@ msgid "WP Model"
 msgstr "VB - Model"
 
 #: TP_COLORAPP_RSTPRO_TOOLTIP
-#, fuzzy
 msgid "Red and skin-tones protection affects both sliders and curves."
-msgstr "Ochrana červených a pleťových tónů (posuvníky a křivky)."
+msgstr "Ochrana červených a pleťových tónů ovlivňuje posuvníky i křivky."
 
 #: TP_COLORAPP_RSTPRO
 msgid "Red & skin-tones protection"
@@ -5570,7 +5659,7 @@ msgstr "Jas"
 msgid "Colorfulness"
 msgstr "Pestrobarevnost"
 
-#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC
+#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
 msgid "Chroma"
 msgstr "Barevnost"
 
@@ -5691,7 +5780,7 @@ msgstr "RGB - křivky"
 msgid "RGB - Sliders"
 msgstr "RGB - Posuvníky"
 
-#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
 msgid "Strength"
 msgstr "Síla"
 
@@ -5776,9 +5865,8 @@ msgid "Grid"
 msgstr "Mřížka"
 
 #: TP_CROP_GTHARMMEANS
-#, fuzzy
 msgid "Harmonic Means"
-msgstr "Zlatý řez 1"
+msgstr "Harmonický průměr"
 
 #: TP_CROP_GTRULETHIRDS
 msgid "Rule of Thirds"
@@ -5896,10 +5984,6 @@ msgstr ""
 "Pro výpočet celkového nastavení redukce barevného šumu je použita viditelná "
 "část obrázku."
 
-#: TP_DIRPYRDENOISE_CTYPE
-msgid "Auto method"
-msgstr "Metoda aut. zpracování"
-
 #: TP_DIRPYRDENOISE_CURVEEDITOR_CC_TOOLTIP
 msgid ""
 "Increase (multiply) the value of all chrominance sliders.\n"
@@ -5979,7 +6063,7 @@ msgstr ""
 "Gama ovlivňuje sílu redukce šumu v rozsahu tónů. Menší hodnoty ovlivňují "
 "stíny, kdežto vysoké hodnoty zesílí efekt v jasných tónech."
 
-#: TP_DIRPYRDENOISE_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV
+#: TP_DIRPYRDENOISE_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV,TP_RETINEX_GAMMA
 msgid "Gamma"
 msgstr "Gama"
 
@@ -5991,7 +6075,7 @@ msgstr "Barevnost"
 msgid "Chrominance - Master"
 msgstr "Barevnost - Hlavní"
 
-#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM
+#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM,TP_RETINEX_LABSPACE
 msgid "L*a*b*"
 msgstr "L*a*b*"
 
@@ -6175,7 +6259,7 @@ msgstr "Barevnost - Červená a zelená"
 msgid "RGB"
 msgstr "RGB"
 
-#: TP_DIRPYRDENOISE_SHALBI,TP_WAVELET_TMHIGH
+#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_RETINEX_HIGH,TP_WAVELET_NPHIGH
 msgid "High"
 msgstr "Vysoká"
 
@@ -6310,7 +6394,7 @@ msgstr "Korekce zkreslení"
 
 #: TP_EPD_EDGESTOPPING
 msgid "Edge stopping"
-msgstr "Zachování okrajů"
+msgstr "Zachování hran"
 
 #: TP_EPD_REWEIGHTINGITERATES
 msgid "Reweighting iterates"
@@ -6334,10 +6418,11 @@ msgid ""
 msgstr ""
 "Mapování tónů je dostupné v L*a*b* (standard) a CIECAM02 módu.\n"
 "\n"
-"V L*a*b* módu může být mapování tónů použito i pro zbytkový obraz nástroje "
+"V L*a*b* módu může být mapování tónů použito i pro zůstatkový obraz nástroje "
 "Vlnka\n"
 "\n"
-"Pro zapnutí mapování tónů v CIECAM02  módu zapněte prosím následující volby:\n"
+"Pro zapnutí mapování tónů v CIECAM02  módu zapněte prosím následující "
+"volby:\n"
 "1. CIECAM02\n"
 "2. Algoritmus=\"Jas a pestrobarevnost (QM)\"\n"
 "3. \"Mapování tónů pomocí jasu CIECAM02 (Q)\""
@@ -6577,31 +6662,40 @@ msgid "Chromatic Aberration"
 msgstr "Chromatická aberace"
 
 #: TP_ICM_APPLYBASELINEEXPOSUREOFFSET_TOOLTIP
-#, fuzzy
 msgid ""
 "Employ the embedded DCP baseline exposure offset. The setting is only "
 "enabled if the selected DCP has any."
 msgstr ""
-"Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, "
-"že DCP obsahuje tónovou křivku."
+"Použije vložený DCP základní posun expozice. Toto nastavení je dostupné pouze "
+"ji pokud DCP obsahuje."
+
+#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
+msgid "Baseline exposure"
+msgstr "Základní expozice"
 
 #: TP_ICM_APPLYHUESATMAP_TOOLTIP
-#, fuzzy
 msgid ""
 "Employ the embedded DCP base table (HueSatMap). The setting is only enabled "
 "if the selected DCP has one."
 msgstr ""
-"Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, "
-"že DCP obsahuje tónovou křivku."
+"Použije vloženou DCP základní tabulku (HueSatMap). Toto nastavení je dostupné "
+"pouze pokud ji vybrané DCP obsahuje."
+
+#: TP_ICM_APPLYHUESATMAP
+msgid "Base table"
+msgstr "Základní tabulka"
 
 #: TP_ICM_APPLYLOOKTABLE_TOOLTIP
-#, fuzzy
 msgid ""
 "Employ the embedded DCP look table. The setting is only enabled if the "
 "selected DCP has one."
 msgstr ""
-"Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, "
-"že DCP obsahuje tónovou křivku."
+"Použije vloženou DCP tabulku vzhledu. Nastavení je dostupné pouze pokud ji "
+"vybrané DCP obsahuje."
+
+#: TP_ICM_APPLYLOOKTABLE
+msgid "Look table"
+msgstr "Tabulka vzhledu"
 
 #: TP_ICM_BLENDCMSMATRIX_TOOLTIP
 msgid "Enable to recover clipped highlights when using LUT-based ICC profiles."
@@ -6697,10 +6791,17 @@ msgstr "Bez ICM: sRGB výstup"
 msgid "Output Profile"
 msgstr "Výstupní barevný prostor"
 
+#: TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP
+msgid ""
+"Generally, apply the white balance when saving images to create ICC "
+"profiles, and do not apply the white balance to create DCP profiles."
+msgstr ""
+"Obecně se vyvážení bílé aplikuje při ukládání obrázku pro vytvoření ICC "
+"profilů a neaplikuje při vytváření DCP profilů."
+
 #: TP_ICM_SAVEREFERENCE_APPLYWB
-#, fuzzy
 msgid "Apply white balance"
-msgstr "Nastavení bílé"
+msgstr "Aplikovat vyvážení bílé"
 
 #: TP_ICM_SAVEREFERENCE_TOOLTIP
 msgid ""
@@ -6721,6 +6822,10 @@ msgid ""
 msgstr ""
 "Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, "
 "že DCP obsahuje tónovou křivku."
+
+#: TP_ICM_TONECURVE
+msgid "Tone curve"
+msgstr "Tónová křivka"
 
 #: TP_ICM_WORKINGPROFILE
 msgid "Working Profile"
@@ -6838,7 +6943,7 @@ msgstr "Jas dle jasu L=f(L)"
 msgid "Luminance Curve"
 msgstr "Křivka jasů"
 
-#: TP_LABCURVE_CHROMATICITY,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
+#: TP_LABCURVE_CHROMATICITY
 msgid "Chromaticity"
 msgstr "Barevnost"
 
@@ -6956,6 +7061,9 @@ msgid ""
 "method is used. It is impossible to preview the effects of this tool. See "
 "RawPedia for usage instructions."
 msgstr ""
+"Obrázek po zmenšení doostří. Funguje pouze pokud je použita \"Lanczos\" "
+"metoda zmenšení. Náhled výsledku není v tomto nástroji možný. Podívejte se do "
+"RawPedie pro návod k použití."
 
 #: TP_RAWCACORR_AUTO
 msgid "Auto-correction"
@@ -7092,6 +7200,180 @@ msgstr "Zvolte:"
 msgid "Width:"
 msgstr "Šířka:"
 
+#: TP_RETINEX_CONTEDIT_HSL
+msgid "Histogram equalizer HSL"
+msgstr "HSV korekce histogramu"
+
+#: TP_RETINEX_CONTEDIT_LAB
+msgid "Histogram equalizer L*a*b*"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_LH
+msgid "Hue equalizer"
+msgstr "Korekce odstínu"
+
+#: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
+#, fuzzy
+msgid ""
+"Luminance according to luminance L=f(L)\n"
+"Correct raw data to reduce halos and artifacts."
+msgstr ""
+"Změní jas dle odstínu L=f(H).\n"
+"Uvědomte si, že extrémní hodnoty mohou způsobovat artefakty."
+
+#: TP_RETINEX_CURVEEDITOR_CD
+msgid "L=f(L)"
+msgstr "L=f(L)"
+
+#: TP_RETINEX_CURVEEDITOR_LH_TOOLTIP
+msgid ""
+"Strength according to hue Strength=f(H)\n"
+"This curve also acts on chroma when using the \"Highlight\" retinex method."
+msgstr ""
+"Síla dle odstínu Síla=f(O)\n"
+"Pokud je použita retinex metoda \"světla\"  působí tato křivka také na "
+"barevnost."
+
+#: TP_RETINEX_CURVEEDITOR_LH
+msgid "Strength=f(H)"
+msgstr "Síla=f(O)"
+
+#: TP_RETINEX_GAIN_TOOLTIP
+msgid ""
+"Acts on the transmission in combination with the offset. This is very "
+"different from the others settings. Used for black or white pixels, and to "
+"help balance the histogram."
+msgstr ""
+
+#: TP_RETINEX_GAIN
+msgid "Gain"
+msgstr "Zisk"
+
+#: TP_RETINEX_GAMMA_FREE
+msgid "Free"
+msgstr "Volná"
+
+#: TP_RETINEX_GAMMA_MID
+msgid "Middle"
+msgstr "Střední"
+
+#: TP_RETINEX_GAMMA_TOOLTIP
+msgid ""
+"Restore tones by applying gamma before and after Retinex. Different from "
+"Retinex curves or others curves (Lab, Exposure, etc.)."
+msgstr ""
+
+#: TP_RETINEX_HIGHLIGHT_TOOLTIP
+msgid ""
+"Increase action of High algorithm.\n"
+"May require you to re-adjust \"Neighboring pixels\" and to increase the "
+"\"White-point correction\" in the Raw tab -> Raw White Points tool."
+msgstr ""
+
+#: TP_RETINEX_HIGHLIGHT
+msgid "Highlight threshold"
+msgstr "Práh světel"
+
+#: TP_RETINEX_HIGHLIG
+msgid "Highlight"
+msgstr "Světla"
+
+#: TP_RETINEX_HSLSPACE_LIN
+msgid "HSL-Linear"
+msgstr "HSV - Lineární"
+
+#: TP_RETINEX_HSLSPACE_LOG
+msgid "HSL-Logarithmic"
+msgstr "HSV - Logaritmická"
+
+#: TP_RETINEX_MEDIAN
+msgid "Transmission median filter"
+msgstr ""
+
+#: TP_RETINEX_METHOD_TOOLTIP
+msgid ""
+"Low = Reinforce low light,\n"
+"Uniform = Equalize action,\n"
+"High = Reinforce high light,\n"
+"Highlight = Remove magenta in highlights."
+msgstr ""
+
+#: TP_RETINEX_MLABEL_TOOLTIP
+msgid ""
+"Should be near min=0 max=32768\n"
+"Restored image with no mixture."
+msgstr ""
+
+#: TP_RETINEX_MLABEL
+msgid "Restored haze-free Min=%1 Max=%2"
+msgstr "Obnovený bez závoje Min=%1 Max=%2"
+
+#: TP_RETINEX_NEIGHBOR,TP_WAVELET_NPTYPE
+msgid "Neighboring pixels"
+msgstr "Sousední pixely"
+
+#: TP_RETINEX_NEUTRAL_TIP
+#, fuzzy
+msgid "Reset all sliders and curves to their default values."
+msgstr "Obnoví původní hodnoty u všech štítků."
+
+#: TP_RETINEX_OFFSET
+msgid "Offset"
+msgstr "Posun"
+
+#: TP_RETINEX_SETTINGS
+msgid "Settings"
+msgstr "Nastavení"
+
+#: TP_RETINEX_THRESHOLD_TOOLTIP
+msgid ""
+"Limits in/out.\n"
+"In = image source,\n"
+"Out = image gauss."
+msgstr ""
+
+#: TP_RETINEX_TLABEL_TOOLTIP
+msgid ""
+"Transmission map result.\n"
+"Min and Max are used by Variance.\n"
+"Mean and Sigma\n"
+"Tm=Min TM=Max of transmission map."
+msgstr ""
+
+#: TP_RETINEX_TLABEL
+msgid "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
+msgstr "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
+
+#: TP_RETINEX_TLABEL2
+msgid "TM Tm=%1 TM=%2"
+msgstr "TM Tm=%1 TM=%2"
+
+#: TP_RETINEX_TRANSMISSION_TOOLTIP
+msgid ""
+"Transmission according to transmission.\n"
+"Abscissa: transmission from negative values (min), mean, and positives "
+"values (max).\n"
+"Ordinate: amplification or reduction."
+msgstr ""
+
+#: TP_RETINEX_TRANSMISSION
+msgid "Transmission map"
+msgstr "Mapa přenosu"
+
+#: TP_RETINEX_UNIFORM
+msgid "Uniform"
+msgstr "Jednolitá"
+
+#: TP_RETINEX_VARIANCE_TOOLTIP
+msgid ""
+"Low variance increase local contrast and saturation, but can lead to "
+"artifacts."
+msgstr ""
+
+#: TP_RETINEX_VARIANCE
+msgid "Variance"
+msgstr "Odchylka"
+
 #: TP_RGBCURVES_BLUE
 msgid "B"
 msgstr "B"
@@ -7149,9 +7431,8 @@ msgid "Sharp mask"
 msgstr "Maska ostrosti"
 
 #: TP_SHADOWSHLIGHTS_SHTONALW
-#, fuzzy
 msgid "Shadows tonal width"
-msgstr "S/S - Tónový rozsah stínů"
+msgstr "Tónový rozsah stínů"
 
 #: TP_SHARPENEDGE_AMOUNT,TP_SHARPENMICRO_AMOUNT
 msgid "Quantity"
@@ -7163,7 +7444,7 @@ msgstr "Počet průchodů"
 
 #: TP_SHARPENING_EDTOLERANCE
 msgid "Edge tolerance"
-msgstr "Zachování okrajů"
+msgstr "Tolerance k hranám"
 
 #: TP_SHARPENING_HALOCONTROL
 msgid "Halo control"
@@ -7171,7 +7452,7 @@ msgstr "Omezení haló artefatů"
 
 #: TP_SHARPENING_ONLYEDGES
 msgid "Sharpen only edges"
-msgstr "Doostřit pouze okraje"
+msgstr "Doostřit pouze hrany"
 
 #: TP_SHARPENING_RLD_DAMPING
 msgid "Damping"
@@ -7263,52 +7544,46 @@ msgid "Apply To"
 msgstr "Použít na"
 
 #: TP_WAVELET_BACKGROUND
-#, fuzzy
 msgid "Background"
-msgstr "Tmavé okolí"
+msgstr "Pozadí"
 
 #: TP_WAVELET_BALANCE_TOOLTIP
 msgid ""
 "Alters the balance between the wavelet directions: vertical-horizontal and "
 "diagonal.\n"
-"If contrast, chromaticity or residual tone mapping are activated, the effect "
-"due to balance is amplified."
+"If contrast, chroma or residual tone mapping are activated, the effect due "
+"to balance is amplified."
 msgstr ""
 
 #: TP_WAVELET_BALANCE
-#, fuzzy
 msgid "Contrast balance d/v-h"
-msgstr "Úrovně kontrastu"
+msgstr "Vyvážení kontrastu d/v-h"
 
 #: TP_WAVELET_BALCHRO_TOOLTIP
 msgid ""
-"If enabled, the 'Contrast balance' curve or slider also modifies "
-"chromaticity balance."
+"If enabled, the 'Contrast balance' curve or slider also modifies chroma "
+"balance."
 msgstr ""
 
 #: TP_WAVELET_BALCHRO
-#, fuzzy
 msgid "Chroma balance"
-msgstr "Propojení barev"
+msgstr "Vyvážení barev"
 
 #: TP_WAVELET_BATYPE
-#, fuzzy
 msgid "Contrast balance method"
-msgstr "Metoda vyvážení bílé"
+msgstr "Metoda vyvážení kontrastu"
 
 #: TP_WAVELET_B1
 msgid "Grey"
-msgstr ""
+msgstr "Šedá"
 
 #: TP_WAVELET_B2
-#, fuzzy
 msgid "Residual"
-msgstr "Zůstatek obrazu"
+msgstr "Zůstatek"
 
-#: TP_WAVELET_CBENAB,TP_WAVELET_CBTYPE
-#, fuzzy
+#: TP_WAVELET_CBENAB
 msgid "Toning and Color Balance"
-msgstr "Barevné tónování - Vyvážení"
+msgstr "Tónování a vyvážení barev"
 
 #: TP_WAVELET_CB_TOOLTIP
 msgid ""
@@ -7319,37 +7594,21 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_COLORT
-#, fuzzy
 msgid "Opacity Red-Green"
-msgstr "Neprůhlednost červená-zelená  Úrovně"
-
-#: TP_WAVELET_COMBOTH
-msgid "Both"
-msgstr ""
+msgstr "Neprůhlednost červená-zelená"
 
 #: TP_WAVELET_COMPGAMMA_TOOLTIP
 msgid ""
-"Adjust gamma for residual image and compression.\n"
-"Allow to equilibrate data and histogram"
-msgstr ""
-
-#: TP_WAVELET_COMPGAMMA_TOOLTIP
-msgid ""
-"Adjusting the gamma of the residual image allow you to equilibrate the data "
+"Adjusting the gamma of the residual image allows you to equilibrate the data "
 "and histogram."
 msgstr ""
 
 #: TP_WAVELET_COMPGAMMA
-#, fuzzy
 msgid "Compression gamma"
-msgstr "PNG Komprese"
+msgstr "Komprese gamy"
 
 #: TP_WAVELET_CONTEDIT
 msgid "'After' contrast curve"
-msgstr "Křivka kontrastu 'Po'"
-
-#: TP_WAVELET_CONTEDIT
-msgid "'After' Contrast curve"
 msgstr "Křivka kontrastu 'Po'"
 
 #: TP_WAVELET_CONTRA_TOOLTIP
@@ -7358,32 +7617,28 @@ msgstr "Změní kontrast zůstatku obrazu."
 
 #: TP_WAVELET_CONTR
 msgid "Gamut"
-msgstr ""
+msgstr "Paleta"
 
 #: TP_WAVELET_CTYPE
-#, fuzzy
 msgid "Chrominance control"
-msgstr "Ovládání jasu"
+msgstr "Ovládání barevnosti"
 
 #: TP_WAVELET_CURVEEDITOR_CC_TOOLTIP
 msgid ""
 "Modifies local contrast as a function of the original local contrast "
-"(absciss)\n"
-"Low absciss represents small local contrast (real values about 10..20)\n"
-"50% absciss represents average of local contrast (real value about "
-"100..300)\n"
-"66% absciss represents standard deviation of local contrast (real value "
-"about 300..800)\n"
-"100% represents maximum (real value about 3000..8000)"
+"(abscissa).\n"
+"Low abscissa values represent small local contrast (real values about "
+"10..20).\n"
+"50% abscissa represents average local contrast (real value about 100..300).\n"
+"66% abscissa represents standard deviation of local contrast (real value "
+"about 300..800).\n"
+"100% abscissa represents maximum local contrast (real value about "
+"3000..8000)."
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
 msgid ""
 "Applies a final contrast luminance curve at the end of the wavelet treatment."
-msgstr ""
-
-#: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
-msgid "Apply a contrast luminance curve at the end of wavelet level threatment"
 msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_HH_TOOLTIP
@@ -7392,8 +7647,9 @@ msgstr ""
 
 #: TP_WAVELET_CURVEEDITOR_CH_TOOLTIP
 msgid ""
-"Modifies each level's contrast as a function oh hue.\n"
-"Take care not to overwrite changes made with the Gamut Hue controls.\n"
+"Modifies each level's contrast as a function of hue.\n"
+"Take care not to overwrite changes made with the Gamut sub-tool's hue "
+"controls.\n"
 "The curve will only have an effect when wavelet contrast level sliders are "
 "non-zero."
 msgstr ""
@@ -7418,13 +7674,12 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_DAUB
-#, fuzzy
 msgid "Edge performance"
-msgstr "Zachování okrajů"
+msgstr "Zachování hran"
 
 #: TP_WAVELET_DAUB10
 msgid "D10 - medium"
-msgstr ""
+msgstr "D10 - střední"
 
 #: TP_WAVELET_DAUB14
 msgid "D14 - high"
@@ -7432,16 +7687,15 @@ msgstr "D14 - Vysoká"
 
 #: TP_WAVELET_DAUB2
 msgid "D2 - low"
-msgstr ""
+msgstr "D2 - nízká"
 
 #: TP_WAVELET_DAUB4
-#, fuzzy
 msgid "D4 - standard"
-msgstr "Běžná"
+msgstr "D4 - standard"
 
 #: TP_WAVELET_DAUB6
 msgid "D6 - standard plus"
-msgstr ""
+msgstr "D6 - standard plus"
 
 #: TP_WAVELET_DTHR
 msgid "Diagonal"
@@ -7455,6 +7709,10 @@ msgid ""
 "contast for low values, mean, mean+stdev, maxima"
 msgstr ""
 
+#: TP_WAVELET_EDGEAMPLI
+msgid "Base amplification"
+msgstr "Základní zesílení"
+
 #: TP_WAVELET_EDGEDETECTTHR_TOOLTIP
 msgid ""
 "This adjuster lets you target edge detection for example to avoid applying "
@@ -7462,9 +7720,8 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_EDGEDETECTTHR
-#, fuzzy
 msgid "Threshold low (noise)"
-msgstr "Práh stínů"
+msgstr "Práh stínů (šum)"
 
 #: TP_WAVELET_EDGEDETECTTHR2
 msgid "Threshold high (detection)"
@@ -7477,14 +7734,16 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_EDGEDETECT
-#, fuzzy
 msgid "Gradient sensitivity"
-msgstr "Vysoká citlivost"
+msgstr "Sklon citlivosti"
+
+#: TP_WAVELET_EDGESENSI
+msgid "Edge sensitivity"
+msgstr "Citlivost detekce hran"
 
 #: TP_WAVELET_EDGE
-#, fuzzy
 msgid "Edge Sharpness"
-msgstr "Doostření hran (jas)"
+msgstr "Doostření hran"
 
 #: TP_WAVELET_EDGREINF_TOOLTIP
 msgid ""
@@ -7508,9 +7767,8 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_EDSL
-#, fuzzy
 msgid "Threshold Sliders"
-msgstr "Práh stínů"
+msgstr "Práh posuvníků"
 
 #: TP_WAVELET_EDTYPE
 msgid "Local contrast method"
@@ -7518,7 +7776,7 @@ msgstr "Metoda místního kontrastu"
 
 #: TP_WAVELET_FINAL
 msgid "Final Touchup"
-msgstr ""
+msgstr "Finální doladění"
 
 #: TP_WAVELET_HIGHLIGHT
 msgid "Highlight luminance range"
@@ -7553,15 +7811,14 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_CHRO
-#, fuzzy
 msgid "Saturated/pastel threshold"
-msgstr "Práh saturace"
+msgstr "Práh saturované/pastelové"
 
 #: TP_WAVELET_CHR_TOOLTIP
 #, fuzzy
 msgid ""
-"Adjusts chromaticity as a function of \"contrast levels\" and \"chroma-"
-"contrast link strength\""
+"Adjusts chroma as a function of \"contrast levels\" and \"chroma-contrast "
+"link strength\""
 msgstr ""
 "Přizpůsobí barevnost jako funkci:\n"
 "a - kontrast úrovní\n"
@@ -7572,24 +7829,20 @@ msgid "Chroma-contrast link strength"
 msgstr "Barevnost - kontrast síla propojení"
 
 #: TP_WAVELET_CHSL
-#, fuzzy
 msgid "Sliders"
-msgstr "Posuvník"
+msgstr "Posuvníky"
 
 #: TP_WAVELET_CHTYPE
-#, fuzzy
 msgid "Chrominance method"
-msgstr "Barevnost"
+msgstr "Metoda barevnost"
 
 #: TP_WAVELET_CH1
-#, fuzzy
-msgid "Whole chromaticity range"
-msgstr "Skrýt/Zobrazit histogram barevnosti."
+msgid "Whole chroma range"
+msgstr "Celý rozsah barevnosti"
 
 #: TP_WAVELET_CH2
-#, fuzzy
 msgid "Saturated/pastel"
-msgstr "Saturované - Pastelové"
+msgstr "Saturované/pastelové"
 
 #: TP_WAVELET_CH3
 msgid "Link contrast levels"
@@ -7602,9 +7855,8 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_ITER
-#, fuzzy
 msgid "Delta balance levels"
-msgstr "Zobrazené úrovně vlnky"
+msgstr "Rozdíl vyvážení úrovní"
 
 #: TP_WAVELET_LEVDIR_ALL
 msgid "All levels in all directions"
@@ -7635,6 +7887,10 @@ msgstr "Náhled maximálně dostupné úrovně=%1"
 msgid "Level 2"
 msgstr "Úroveň 2"
 
+#: TP_WAVELET_LEVTHRE,TP_WAVELET_4
+msgid "Level 4"
+msgstr "Úroveň 4"
+
 #: TP_WAVELET_LEVTWO,TP_WAVELET_3
 msgid "Level 3"
 msgstr "Úroveň 3"
@@ -7645,19 +7901,10 @@ msgstr "Úroveň 1"
 
 #: TP_WAVELET_LINKEDG
 msgid "Link with Edge Sharpness' Strength"
-msgstr ""
-
-#: TP_WAVELET_LIPST_TOOLTIP
-msgid ""
-"This algorithm uses Lipschitz regularity to increase edge detection quality "
-"at a cost of increased processing time and memory requirements."
-msgstr ""
-"Tento algoritmus používá Lipschitzovu pravidelnost pro zvýšení kvality "
-"detekce hran za cenu navýšení paměťových požadavků a prodloužení doby "
-"zpracování."
+msgstr "Spojit se sílou doostření hran"
 
 #: TP_WAVELET_LIPST
-msgid "Enhanced algorithm"
+msgid "Enhanced algoritm"
 msgstr "Vylepšený algoritmus"
 
 #: TP_WAVELET_LOWLIGHT
@@ -7665,14 +7912,21 @@ msgid "Shadow luminance range"
 msgstr "Rozsah projasnění stínů"
 
 #: TP_WAVELET_MEDGREINF
-#, fuzzy
 msgid "First level"
-msgstr "Úrovně kontrastu"
+msgstr "První úroveň"
+
+#: TP_WAVELET_MEDILEV_TOOLTIP
+msgid ""
+"When you enable Edge Detection, it is recommanded:\n"
+"- to disabled low contrast levels to avoid artifacts,\n"
+"- to use high values of gradient sensitivity.\n"
+"\n"
+"You can modulate the strength with 'refine' from Denoise and Refine."
+msgstr ""
 
 #: TP_WAVELET_MEDILEV
-#, fuzzy
 msgid "Edge detection"
-msgstr "Doostření - Poloměr detekce okrajů"
+msgstr "Detekce hran"
 
 #: TP_WAVELET_MEDI
 msgid "Reduce artifacts in blue sky"
@@ -7686,21 +7940,10 @@ msgstr "Odšumění a vylepšení"
 msgid "Denoise"
 msgstr "Odšumění"
 
-#: TP_WAVELET_OPACITYWL_TOOLTIP
+#: TP_WAVELET_NPTYPE_TOOLTIP
 msgid ""
-"Modify final local contrast in function of last local contrast (absciss) for "
-"all levels decomposition\n"
-"Take into account: \n"
-"a)contrast levels \n"
-"b)edge sharpness \n"
-"c)contrast balance\n"
-"d)decomposition-recomposition\n"
-"Low absciss represents small local contrast (real values about 10..20)\n"
-"50% absciss represents average of local contrast (real value about "
-"200..1000)\n"
-"66% absciss represents standard deviation of local contrast (real value "
-"about 1000..2000)\n"
-"100% represents maximum (real value about 5000..13000)"
+"This algorithm uses the proximity of a pixel and eight of its neighbors. If "
+"less difference, edges are reinforced."
 msgstr ""
 
 #: TP_WAVELET_OPACITYWL_TOOLTIP
@@ -7720,13 +7963,11 @@ msgid "Contrast balance d/v-h curve"
 msgstr "Vyrovnání kontrastu d/v-h křivka"
 
 #: TP_WAVELET_OPACITY
-#, fuzzy
 msgid "Opacity Blue-Yellow"
-msgstr "Neprůhlednost modrá-žlutá  Úrovně"
+msgstr "Neprůhlednost modrá-žlutá"
 
 #: TP_WAVELET_PASTEL
-#, fuzzy
-msgid "Pastel chromaticity"
+msgid "Pastel chroma"
 msgstr "Barevnost pastelů"
 
 #: TP_WAVELET_PROC
@@ -7734,26 +7975,23 @@ msgid "Process"
 msgstr "Zpracování"
 
 #: TP_WAVELET_RESID
-#, fuzzy
 msgid "Residual Image"
 msgstr "Zůstatek obrazu"
 
 #: TP_WAVELET_RE1
 msgid "Reinforced"
-msgstr ""
+msgstr "Zesílená"
 
 #: TP_WAVELET_RE2
-#, fuzzy
 msgid "Unchanged"
-msgstr "(Beze změny)"
+msgstr "Nezměněno"
 
 #: TP_WAVELET_RE3
 msgid "Reduced"
-msgstr ""
+msgstr "Omezená"
 
 #: TP_WAVELET_SAT
-#, fuzzy
-msgid "Saturated chromaticity"
+msgid "Saturated chroma"
 msgstr "Saturovaná barevnost"
 
 #: TP_WAVELET_SETTINGS
@@ -7805,7 +8043,6 @@ msgstr ""
 "světel)světelnost"
 
 #: TP_WAVELET_THRESHOLD2
-#, fuzzy
 msgid "Shadow levels"
 msgstr "Úrovně stínů"
 
@@ -7814,9 +8051,8 @@ msgid "Highlights threshold"
 msgstr "Práh světel"
 
 #: TP_WAVELET_THR
-#, fuzzy
 msgid "Shadows threshold"
-msgstr "Vlnka - práh stínů"
+msgstr "Práh stínů"
 
 #: TP_WAVELET_TILESBIG
 msgid "Big tiles"
@@ -7827,9 +8063,8 @@ msgid "Full image"
 msgstr "Celý obrázek"
 
 #: TP_WAVELET_TILESIZE
-#, fuzzy
 msgid "Tiling method"
-msgstr "Metoda demozajkování"
+msgstr "Metoda dlaždicování"
 
 #: TP_WAVELET_TILESLIT
 msgid "Little tiles"
@@ -7845,11 +8080,6 @@ msgstr ""
 "tomu dlaždice jsou náhradní řešení pro uživatele s nedostatkem paměti. "
 "Paměťové nároky najdete na RawPedii."
 
-#: TP_WAVELET_TMLOWHIGH
-#, fuzzy
-msgid "Low+High"
-msgstr "Vysoká"
-
 #: TP_WAVELET_TMSTRENGTH_TOOLTIP
 msgid ""
 "Control the strength of tone mapping or contrast compression of the residual "
@@ -7858,22 +8088,16 @@ msgid ""
 msgstr ""
 
 #: TP_WAVELET_TMSTRENGTH
-#, fuzzy
 msgid "Compression strength"
-msgstr "Barevné tónování - síla"
+msgstr "Síla komprese"
 
 #: TP_WAVELET_TMTYPE
-#, fuzzy
 msgid "Compression method"
-msgstr "Práh komprese světel"
+msgstr "Metoda komprese"
 
 #: TP_WAVELET_TON
 msgid "Toning"
 msgstr "Tónování"
-
-#: TP_WAVELET_4
-msgid "Level 4"
-msgstr "Úroveň 4"
 
 #: TP_WAVELET_5
 msgid "Level 5"
@@ -8076,21 +8300,19 @@ msgid "Open (new) detail window"
 msgstr "Otevřít (nové) okno detailu"
 
 #: ZOOMPANEL_ZOOMFITCROPSCREEN
-#, fuzzy
 msgid ""
 "Fit crop to screen\n"
 "Shortcut: <b>Alt</b>-<b>f</b>"
 msgstr ""
 "Přizpůsobit obrazovce\n"
-"Zkratka: <b>f</b>"
+"Zkratka: <b>Alt</b>-<b>f</b>"
 
 #: ZOOMPANEL_ZOOMFITSCREEN
-#, fuzzy
 msgid ""
 "Fit whole image to screen\n"
 "Shortcut: <b>f</b>"
 msgstr ""
-"Přizpůsobit obrazovce\n"
+"Přizpůsobit obrázek obrazovce\n"
 "Zkratka: <b>f</b>"
 
 #: ZOOMPANEL_ZOOMIN
@@ -8120,6 +8342,27 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Auto method"
+#~ msgstr "Metoda aut. zpracování"
+
+#, fuzzy
+#~ msgid "Low+High"
+#~ msgstr "Vysoká"
+
+#~ msgid "Use DCP's tone curve"
+#~ msgstr "Použita tónová křivka DCP"
+
+#~ msgid "'After' Contrast curve"
+#~ msgstr "Křivka kontrastu 'Po'"
+
+#~ msgid ""
+#~ "This algorithm uses Lipschitz regularity to increase edge detection "
+#~ "quality at a cost of increased processing time and memory requirements."
+#~ msgstr ""
+#~ "Tento algoritmus používá Lipschitzovu pravidelnost pro zvýšení kvality "
+#~ "detekce hran za cenu navýšení paměťových požadavků a prodloužení doby "
+#~ "zpracování."
 
 #~ msgid "Resize method"
 #~ msgstr "Metoda změny rozměru"
@@ -8877,9 +9120,6 @@ msgstr "(100%)"
 #~ msgid "Set the file format and output directory"
 #~ msgstr "Nastavení formátu souboru a výstupní složky"
 
-#~ msgid "Settings"
-#~ msgstr "Nastavení"
-
 #~ msgid "Show content of the processing queue"
 #~ msgstr "Ukázat obsah fronty zpracování"
 
@@ -9214,9 +9454,6 @@ msgstr "(100%)"
 
 #~ msgid "CAM02 - Model"
 #~ msgstr "CAM02 - Model"
-
-#~ msgid "CAM02 - Tone curve "
-#~ msgstr "CAM02 - Tónová křivka"
 
 #~ msgid "CAM02 - Show CIECAM02 output histograms in curves"
 #~ msgstr "CAM02 - Zobrazení CIECAM02 výstupních histogramů v křivkách"
