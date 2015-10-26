@@ -34,6 +34,7 @@
 #33 2015-02-22 updated by mkyral
 #34 2015-07-09 updated by mkyral
 #35 2015-10-20 updated by mkyral
+#36 2015-08-23 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -1015,7 +1016,7 @@ PREFERENCES_MONITORICC;Barevný profil monitoru
 PREFERENCES_MULTITABDUALMON;Mód více karet editoru ve vlastním okně
 PREFERENCES_MULTITAB;Mód více karet editoru
 PREFERENCES_NAVGUIDEBRUSH;Barva vodítek navigátoru
-PREFERENCES_NAVIGATIONFRAME;Navigátor
+PREFERENCES_NAVIGATIONFRAME;Navigace
 PREFERENCES_NOISE;Redukce šumu
 PREFERENCES_OUTDIRFOLDERHINT;Uložit obrázky do vybrané složky.
 PREFERENCES_OUTDIRFOLDER;Ulož do souboru
@@ -1797,6 +1798,7 @@ TP_WAVELET_CHR_TOOLTIP;Přizpůsobí barevnost jako funkci:\na - kontrast úrovn
 TP_WAVELET_CHSL;Posuvníky
 TP_WAVELET_CHTYPE;Metoda barevnost
 TP_WAVELET_COLORT;Neprůhlednost červená-zelená
+TP_WAVELET_COMBOTH;Obě
 TP_WAVELET_COMPCONT;Kontrast
 TP_WAVELET_COMPGAMMA;Komprese gamy
 TP_WAVELET_COMPTM;Mapování tónů
@@ -1851,7 +1853,7 @@ TP_WAVELET_LEVDIR_SUP;Nad úrovní
 TP_WAVELET_LEVELS;Úrovně vlnky
 TP_WAVELET_LEVELS_TOOLTIP;Vyberte počet úrovní detailu mezi které bude obrázek rozložen. Více úrovní potřebuje více paměti a zpracování trvá déle.
 TP_WAVELET_LEVF;Kontrast
-TP_WAVELET_LEVLABEL;Náhled maximálně dostupné úrovně=%1
+TP_WAVELET_LEVLABEL;Náhled maximálně dostupných úrovní = %1
 TP_WAVELET_LEVONE;Úroveň 2
 TP_WAVELET_LEVTHRE;Úroveň 4
 TP_WAVELET_LEVTWO;Úroveň 3

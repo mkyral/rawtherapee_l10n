@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
 "POT-Creation-Date: 2015-10-20 06:35+0200\n"
 "PO-Revision-Date: 2015-10-20 23:00+0200\n"
-"Last-Translator: \n"
+"Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -4272,7 +4272,7 @@ msgstr "Barva vodítek navigátoru"
 
 #: PREFERENCES_NAVIGATIONFRAME
 msgid "Navigation"
-msgstr "Navigátor"
+msgstr "Navigace"
 
 #: PREFERENCES_OUTDIRFOLDERHINT
 msgid "Save images to the selected folder."
@@ -5591,6 +5591,7 @@ msgstr "VB - Model"
 #: TP_COLORAPP_RSTPRO_TOOLTIP
 msgid "Red and skin-tones protection affects both sliders and curves."
 msgstr "Ochrana červených a pleťových tónů ovlivňuje posuvníky i křivky."
+"Ochrana červených a pleťových tónů ovlivňuje jak posuvníky tak i křivky."
 
 #: TP_COLORAPP_RSTPRO
 msgid "Red & skin-tones protection"
@@ -6360,7 +6361,6 @@ msgstr ""
 "ovlivněny."
 
 #: TP_DIRPYREQUALIZER_SKIN,TP_WAVELET_SKIN
-#, fuzzy
 msgid "Skin targetting/protection"
 msgstr "Ochrana a zaměření na pleťové tóny"
 
@@ -6673,6 +6673,10 @@ msgstr ""
 msgid "Baseline exposure"
 msgstr "Základní expozice"
 
+#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
+msgid "Baseline exposure"
+msgstr "Základní expozice"
+
 #: TP_ICM_APPLYHUESATMAP_TOOLTIP
 msgid ""
 "Employ the embedded DCP base table (HueSatMap). The setting is only enabled "
@@ -6685,6 +6689,10 @@ msgstr ""
 msgid "Base table"
 msgstr "Základní tabulka"
 
+#: TP_ICM_APPLYHUESATMAP
+msgid "Base table"
+msgstr "Základní tabulka"
+
 #: TP_ICM_APPLYLOOKTABLE_TOOLTIP
 msgid ""
 "Employ the embedded DCP look table. The setting is only enabled if the "
@@ -6692,6 +6700,10 @@ msgid ""
 msgstr ""
 "Použije vloženou DCP tabulku vzhledu. Nastavení je dostupné pouze pokud ji "
 "vybrané DCP obsahuje."
+
+#: TP_ICM_APPLYLOOKTABLE
+msgid "Look table"
+msgstr "Tabulka vzhledu"
 
 #: TP_ICM_APPLYLOOKTABLE
 msgid "Look table"
@@ -7879,9 +7891,8 @@ msgstr ""
 "potřebuje více paměti a zpracování trvá déle."
 
 #: TP_WAVELET_LEVLABEL
-#, fuzzy
 msgid "Preview maximum possible levels = %1"
-msgstr "Náhled maximálně dostupné úrovně=%1"
+msgstr "Náhled maximálně dostupných úrovní = %1"
 
 #: TP_WAVELET_LEVONE,TP_WAVELET_2
 msgid "Level 2"
@@ -7941,10 +7952,9 @@ msgid "Denoise"
 msgstr "Odšumění"
 
 #: TP_WAVELET_NPTYPE_TOOLTIP
-msgid ""
+msgid "Neighboring pixels"
 "This algorithm uses the proximity of a pixel and eight of its neighbors. If "
 "less difference, edges are reinforced."
-msgstr ""
 
 #: TP_WAVELET_OPACITYWL_TOOLTIP
 msgid ""
@@ -8304,7 +8314,7 @@ msgid ""
 "Fit crop to screen\n"
 "Shortcut: <b>Alt</b>-<b>f</b>"
 msgstr ""
-"Přizpůsobit obrazovce\n"
+"Přizpůsobit ořez obrazovce\n"
 "Zkratka: <b>Alt</b>-<b>f</b>"
 
 #: ZOOMPANEL_ZOOMFITSCREEN
