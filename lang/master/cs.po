@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-10-20 06:35+0200\n"
-"PO-Revision-Date: 2015-10-20 23:00+0200\n"
-"Last-Translator: Marian Kyral <mkyral@email.cz>\n"
+"POT-Creation-Date: 2015-10-26 20:46+0100\n"
+"PO-Revision-Date: 2015-10-26 20:47+0100\n"
+"Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -4272,7 +4272,7 @@ msgstr "Barva vodítek navigátoru"
 
 #: PREFERENCES_NAVIGATIONFRAME
 msgid "Navigation"
-msgstr "Navigace"
+msgstr "Navigátor"
 
 #: PREFERENCES_OUTDIRFOLDERHINT
 msgid "Save images to the selected folder."
@@ -5591,7 +5591,6 @@ msgstr "VB - Model"
 #: TP_COLORAPP_RSTPRO_TOOLTIP
 msgid "Red and skin-tones protection affects both sliders and curves."
 msgstr "Ochrana červených a pleťových tónů ovlivňuje posuvníky i křivky."
-"Ochrana červených a pleťových tónů ovlivňuje jak posuvníky tak i křivky."
 
 #: TP_COLORAPP_RSTPRO
 msgid "Red & skin-tones protection"
@@ -6362,7 +6361,7 @@ msgstr ""
 
 #: TP_DIRPYREQUALIZER_SKIN,TP_WAVELET_SKIN
 msgid "Skin targetting/protection"
-msgstr "Ochrana a zaměření na pleťové tóny"
+msgstr "Ochrana: zaměření na pleťové tóny"
 
 #: TP_DIRPYREQUALIZER_TOOLTIP
 msgid ""
@@ -6666,12 +6665,8 @@ msgid ""
 "Employ the embedded DCP baseline exposure offset. The setting is only "
 "enabled if the selected DCP has any."
 msgstr ""
-"Použije vložený DCP základní posun expozice. Toto nastavení je dostupné pouze "
-"ji pokud DCP obsahuje."
-
-#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
-msgid "Baseline exposure"
-msgstr "Základní expozice"
+"Použije vložený DCP základní posun expozice. Toto nastavení je dostupné "
+"pouze ji pokud DCP obsahuje."
 
 #: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
 msgid "Baseline exposure"
@@ -6682,12 +6677,8 @@ msgid ""
 "Employ the embedded DCP base table (HueSatMap). The setting is only enabled "
 "if the selected DCP has one."
 msgstr ""
-"Použije vloženou DCP základní tabulku (HueSatMap). Toto nastavení je dostupné "
-"pouze pokud ji vybrané DCP obsahuje."
-
-#: TP_ICM_APPLYHUESATMAP
-msgid "Base table"
-msgstr "Základní tabulka"
+"Použije vloženou DCP základní tabulku (HueSatMap). Toto nastavení je "
+"dostupné pouze pokud ji vybrané DCP obsahuje."
 
 #: TP_ICM_APPLYHUESATMAP
 msgid "Base table"
@@ -6700,10 +6691,6 @@ msgid ""
 msgstr ""
 "Použije vloženou DCP tabulku vzhledu. Nastavení je dostupné pouze pokud ji "
 "vybrané DCP obsahuje."
-
-#: TP_ICM_APPLYLOOKTABLE
-msgid "Look table"
-msgstr "Tabulka vzhledu"
 
 #: TP_ICM_APPLYLOOKTABLE
 msgid "Look table"
@@ -7074,8 +7061,8 @@ msgid ""
 "RawPedia for usage instructions."
 msgstr ""
 "Obrázek po zmenšení doostří. Funguje pouze pokud je použita \"Lanczos\" "
-"metoda zmenšení. Náhled výsledku není v tomto nástroji možný. Podívejte se do "
-"RawPedie pro návod k použití."
+"metoda zmenšení. Náhled výsledku není v tomto nástroji možný. Podívejte se "
+"do RawPedie pro návod k použití."
 
 #: TP_RAWCACORR_AUTO
 msgid "Auto-correction"
@@ -7891,8 +7878,9 @@ msgstr ""
 "potřebuje více paměti a zpracování trvá déle."
 
 #: TP_WAVELET_LEVLABEL
+#, fuzzy
 msgid "Preview maximum possible levels = %1"
-msgstr "Náhled maximálně dostupných úrovní = %1"
+msgstr "Náhled maximálně dostupné úrovně=%1"
 
 #: TP_WAVELET_LEVONE,TP_WAVELET_2
 msgid "Level 2"
@@ -7952,9 +7940,10 @@ msgid "Denoise"
 msgstr "Odšumění"
 
 #: TP_WAVELET_NPTYPE_TOOLTIP
-msgid "Neighboring pixels"
+msgid ""
 "This algorithm uses the proximity of a pixel and eight of its neighbors. If "
 "less difference, edges are reinforced."
+msgstr ""
 
 #: TP_WAVELET_OPACITYWL_TOOLTIP
 msgid ""
@@ -8314,7 +8303,7 @@ msgid ""
 "Fit crop to screen\n"
 "Shortcut: <b>Alt</b>-<b>f</b>"
 msgstr ""
-"Přizpůsobit ořez obrazovce\n"
+"Přizpůsobit obrazovce\n"
 "Zkratka: <b>Alt</b>-<b>f</b>"
 
 #: ZOOMPANEL_ZOOMFITSCREEN
