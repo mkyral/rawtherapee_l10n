@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-10-26 20:46+0100\n"
-"PO-Revision-Date: 2015-10-26 20:47+0100\n"
+"POT-Creation-Date: 2015-11-19 20:17+0100\n"
+"PO-Revision-Date: 2015-11-19 21:11+0100\n"
 "Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -1181,7 +1181,7 @@ msgstr "Expozice - Komprese stínů"
 
 #: HISTORY_MSG_100
 msgid "Exposure - Saturation"
-msgstr "Expozice - Sytost"
+msgstr "Expozice - Nasycení"
 
 #: HISTORY_MSG_101
 msgid "HSV - Hue"
@@ -1189,7 +1189,7 @@ msgstr "HSV - Odstín"
 
 #: HISTORY_MSG_102
 msgid "HSV - Saturation"
-msgstr "HSV - Sytost"
+msgstr "HSV - Nasycení"
 
 #: HISTORY_MSG_103
 msgid "HSV - Value"
@@ -1409,7 +1409,7 @@ msgstr "Živost - Pastelové tóny"
 
 #: HISTORY_MSG_153
 msgid "Vib - Saturated tones"
-msgstr "Živost - Saturované tóny"
+msgstr "Živost - Nasycené tóny"
 
 #: HISTORY_MSG_154
 msgid "Vib - Protect skin-tones"
@@ -1421,7 +1421,7 @@ msgstr "Živost - Vyvarovat se posunu barev"
 
 #: HISTORY_MSG_156
 msgid "Vib - Link pastel/saturated"
-msgstr "Živost - Propojit past. a sat. tóny"
+msgstr "Živost - Propojit past. a nas. tóny"
 
 #: HISTORY_MSG_157
 msgid "Vib - P/S threshold"
@@ -1565,7 +1565,7 @@ msgstr "L*a*b* - L* křivka"
 
 #: HISTORY_MSG_190
 msgid "CAM02 - Saturation (S)"
-msgstr "CAM02 - Sytost (S)"
+msgstr "CAM02 - Nasycení (S)"
 
 #: HISTORY_MSG_191
 msgid "CAM02 - Colorfulness (M)"
@@ -1913,11 +1913,11 @@ msgstr "Barevné tónování - Obnovení"
 
 #: HISTORY_MSG_274
 msgid "CT - Sat. Shadows"
-msgstr "Barevné tónování - Saturace stínů"
+msgstr "Barevné tónování - Nasycení stínů"
 
 #: HISTORY_MSG_275
 msgid "CT - Sat. Highlights"
-msgstr "Barevné tónování - Saturace světel"
+msgstr "Barevné tónování - Nasycení světel"
 
 #: HISTORY_MSG_276
 msgid "CT - Opacity"
@@ -1941,11 +1941,11 @@ msgstr "Barevné tónování - Světla"
 
 #: HISTORY_MSG_281
 msgid "CT - Sat. strength"
-msgstr "Barevné tónování - Síla saturace"
+msgstr "Barevné tónování - Síla nasycení"
 
 #: HISTORY_MSG_282
 msgid "CT - Sat. threshold"
-msgstr "Barevné tónování - Práh saturace"
+msgstr "Barevné tónování - Práh nasycení"
 
 #: HISTORY_MSG_283
 msgid "CT - Strength"
@@ -1953,7 +1953,7 @@ msgstr "Barevné tónování - Síla"
 
 #: HISTORY_MSG_284
 msgid "CT - Auto sat. protection"
-msgstr "Barevné tónování - Aut. ochrana saturace"
+msgstr "Barevné tónování - Aut. ochrana nasycení"
 
 #: HISTORY_MSG_285
 msgid "NR - Median - Method"
@@ -2209,7 +2209,7 @@ msgstr "Vlnka - Úrovně barevnosti"
 
 #: HISTORY_MSG_344
 msgid "W - Meth chroma sl/cur"
-msgstr ""
+msgstr "Vlnka - Met. barevnosti pos./křivka"
 
 #: HISTORY_MSG_346
 msgid "W - ES - Local contrast method"
@@ -3732,7 +3732,7 @@ msgctxt "PREFERENCES_AUTLISVLOW"
 msgid "None"
 msgstr "Ne"
 
-#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_RETINEX_LOW,TP_WAVELET_NPLOW
+#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_WAVELET_NPLOW
 msgid "Low"
 msgstr "Nízká"
 
@@ -4192,7 +4192,7 @@ msgstr "Relativní kolorimetrie"
 
 #: PREFERENCES_INTENT_SATURATION,TP_COLORAPP_TCMODE_SATUR,TP_EXPOSURE_SATURATION
 msgid "Saturation"
-msgstr "Sytost"
+msgstr "Nasycení"
 
 #: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
 msgid "Show embedded JPEG thumbnail if raw is unedited"
@@ -4506,6 +4506,8 @@ msgid ""
 "When working with folders full of uncompressed tiff files enabling this "
 "option can increase performance of thumb generation."
 msgstr ""
+"Povolení této volby může zvýšit výkon generování náhledů ve složkách "
+"obsahujících mnoho nezkomprimovaných tiff souborů."
 
 #: PREFERENCES_SERIALIZE_TIFF_READ
 msgid "Tiff Read Settings"
@@ -4864,13 +4866,35 @@ msgstr "Uschovat parametry zpracování s obrázkem"
 
 #: SAVEDLG_SUBSAMP_TOOLTIP
 msgid ""
-"Best compression: 4:1:1\n"
-"Balanced: 4:2:2\n"
-"Best quality: 4:4:4"
+"Best compression:\n"
+"J:a:b 4:2:0\n"
+"h/v 2/2\n"
+"Chroma halved horizontally and vertically.\n"
+"\n"
+"Balanced:\n"
+"J:a:b 4:2:2\n"
+"h/v 2/1\n"
+"Chroma halved horizontally.\n"
+"\n"
+"Best quality:\n"
+"J:a:b 4:4:4\n"
+"h/v 1/1\n"
+"No chroma subsampling."
 msgstr ""
-"Nejlepší komprese: 4:1:1\n"
-"Vyvážená: 4:2:2\n"
-"Nejlepší kvalita: 4:4:4"
+"Nejlepší komprese:\n"
+"J:a:b 4:2:0\n"
+"h/v 2/2\n"
+"O polovinu snížená vodorovná a svislá barevnost.\n"
+"\n"
+"Vyvážená:\n"
+"J:a:b 4:2:2\n"
+"h/v 2/1\n"
+"O polovinu snížená vodorovná barevnost.\n"
+"\n"
+"Nejlepší kvalita:\n"
+"J:a:b 4:4:4\n"
+"h/v 1/1\n"
+"Bez převzorkování barevnosti."
 
 #: SAVEDLG_SUBSAMP
 msgid "Subsampling"
@@ -5228,7 +5252,7 @@ msgstr "ČB Jako film"
 
 #: TP_BWMIX_TCMODE_SATANDVALBLENDING
 msgid "B&W Saturation and Value Blending"
-msgstr "ČB Mísení saturace a hodnoty"
+msgstr "ČB Mísení nasycení a hodnoty"
 
 #: TP_BWMIX_TCMODE_STANDARD
 msgid "B&W Standard"
@@ -5449,7 +5473,7 @@ msgid ""
 "C, s and M are not shown in the main histogram panel.\n"
 "For final output refer to the main histogram panel."
 msgstr ""
-"Upravte barevnost, saturaci nebo pestrobarevnost.\n"
+"Upravte barevnost, nasycení nebo pestrobarevnost.\n"
 "\n"
 "Zobrazí histogram barevnosti (L*a*b*) před CIECAM02.\n"
 "Pokud je volba \"Zobrazit CIECAM02 histogramy výstupu v křivkách\" povolena, "
@@ -5528,7 +5552,7 @@ msgstr "Nasycení se v CIECAM02 liší od nasycení L*a*b* a RGB."
 
 #: TP_COLORAPP_CHROMA_S
 msgid "Saturation (S)"
-msgstr "Sytost (S)"
+msgstr "Nasycení (S)"
 
 #: TP_COLORAPP_CHROMA_TOOLTIP
 msgid "Chroma in CIECAM02 differs from L*a*b* and RGB chroma."
@@ -5753,7 +5777,7 @@ msgid ""
 msgstr ""
 "\"Mísení L*a*b*\", \"RGB posuvníky\" a \"RGB křivky\" používají "
 "interpolované mísení barev.\n"
-"\"Vyvážení barev (Stíny, střední tóny a světla)\" a \"Saturace dvou barev\" "
+"\"Vyvážení barev (Stíny, střední tóny a světla)\" a \"Nasycení dvou barev\" "
 "používají přímé barvy.\n"
 "\n"
 "Nástroj Černobílá může být povolen při použití kterékoli metody barevného "
@@ -5798,7 +5822,7 @@ msgstr "Stíny, střední tóny a světla"
 
 #: TP_COLORTONING_SPLITLR
 msgid "Saturation 2 colors"
-msgstr "Sytost dvou barev"
+msgstr "Nasycení dvou barev"
 
 #: TP_COLORTONING_TWOALL
 msgid "Special chroma"
@@ -5993,8 +6017,8 @@ msgid ""
 msgstr ""
 "Zvýší (násobí) hodnoty všech barevných posuvníků.\n"
 "Křivka vám umožní nastavit sílu redukce barevného šumu jako funkci barvy. "
-"Například pro zvýšení účinku v oblastech s nízkou saturací a snížení v "
-"oblastech s vysokou saturací."
+"Například pro zvýšení účinku v oblastech s nízkým nasycení a snížení v "
+"oblastech s vysokým nasycením."
 
 #: TP_DIRPYRDENOISE_CURVEEDITOR_L_TOOLTIP
 msgid "Modulates action of 'Luminance' denoise"
@@ -6191,11 +6215,11 @@ msgstr ""
 
 #: TP_DIRPYRDENOISE_NOISELABELEMPTY
 msgid "Preview noise: Mean= -   High= -"
-msgstr "Náhled šumu: Střed= -   Výšky= -"
+msgstr "Náhled šumu: Průměr= -   Výšky= -"
 
 #: TP_DIRPYRDENOISE_NOISELABEL
 msgid "Preview noise: Mean=%1  High=%2"
-msgstr "Náhled šumu: Střed=%1  Výšky=%2"
+msgstr "Náhled šumu: Průměr=%1  Výšky=%2"
 
 #: TP_DIRPYRDENOISE_NRESID_TOOLTIP
 msgid ""
@@ -6259,7 +6283,7 @@ msgstr "Barevnost - Červená a zelená"
 msgid "RGB"
 msgstr "RGB"
 
-#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_RETINEX_HIGH,TP_WAVELET_NPHIGH
+#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_WAVELET_NPHIGH
 msgid "High"
 msgstr "Vysoká"
 
@@ -6491,7 +6515,7 @@ msgstr "Jako film"
 
 #: TP_EXPOSURE_TCMODE_SATANDVALBLENDING
 msgid "Saturation and Value Blending"
-msgstr "Mísení saturace a hodnoty"
+msgstr "Mísení nasycení  a hodnoty"
 
 #: TP_EXPOSURE_TCMODE_STANDARD
 msgctxt "TP_EXPOSURE_TCMODE_STANDARD"
@@ -6884,7 +6908,7 @@ msgstr "Pastelové"
 
 #: TP_LABCURVE_CURVEEDITOR_CC_RANGE4
 msgid "Saturated"
-msgstr "Saturované"
+msgstr "Nasycené"
 
 #: TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP
 msgid "Chromaticity according to chromaticity C=f(C)"
@@ -7128,6 +7152,10 @@ msgid ""
 "enabling the Hot/Dead Pixel Filters, gradually increase the threshold value "
 "until they disappear."
 msgstr ""
+"Nižší hodnoty učiní detekci vypálených/mrtvých bodů agresivnější, ale "
+"falešná hlášení mohou vést k artefaktům. Pokud po povolení filtru vypálených/"
+"mrtvých bodů zpozorujete výskyt artefaktů, postupně snižujte prahovou "
+"hodnotu až do jejich vymizení."
 
 #: TP_RAW_LABEL
 msgid "Demosaicing"
@@ -7205,20 +7233,19 @@ msgstr "HSV korekce histogramu"
 
 #: TP_RETINEX_CONTEDIT_LAB
 msgid "Histogram equalizer L*a*b*"
-msgstr ""
+msgstr "Histogram korekce L*a*b*"
 
 #: TP_RETINEX_CONTEDIT_LH
 msgid "Hue equalizer"
 msgstr "Korekce odstínu"
 
 #: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
-#, fuzzy
 msgid ""
 "Luminance according to luminance L=f(L)\n"
 "Correct raw data to reduce halos and artifacts."
 msgstr ""
-"Změní jas dle odstínu L=f(H).\n"
-"Uvědomte si, že extrémní hodnoty mohou způsobovat artefakty."
+"Jas dle jasu L=f(L).\n"
+"Upraví raw data pro snížení výskytu halo efektu a vzniku artefaktů."
 
 #: TP_RETINEX_CURVEEDITOR_CD
 msgid "L=f(L)"
@@ -7239,10 +7266,15 @@ msgstr "Síla=f(O)"
 
 #: TP_RETINEX_GAIN_TOOLTIP
 msgid ""
-"Acts on the transmission in combination with the offset. This is very "
-"different from the others settings. Used for black or white pixels, and to "
-"help balance the histogram."
+"Acts on the restored image.\n"
+"\n"
+"This is very different from the others settings. Used for black or white "
+"pixels, and to help balance the histogram."
 msgstr ""
+"Působí na obnovený obrázek.\n"
+"\n"
+"Toto je velmi odlišné od ostatních nastavení. Použito pro černé nebo bílé "
+"pixely a pro vyvážení histogramu."
 
 #: TP_RETINEX_GAIN
 msgid "Gain"
@@ -7261,6 +7293,8 @@ msgid ""
 "Restore tones by applying gamma before and after Retinex. Different from "
 "Retinex curves or others curves (Lab, Exposure, etc.)."
 msgstr ""
+"Obnoví tóny aplikováním gamy před a po Retinex. To je odlišné od Retinex "
+"křivek nebo ostatních křivek (Lab, Expozice, atd.)"
 
 #: TP_RETINEX_HIGHLIGHT_TOOLTIP
 msgid ""
@@ -7268,6 +7302,9 @@ msgid ""
 "May require you to re-adjust \"Neighboring pixels\" and to increase the "
 "\"White-point correction\" in the Raw tab -> Raw White Points tool."
 msgstr ""
+"Zvýší působení algoritmu Silné.\n"
+"Může vyžadovat nové přizpůsobení \"Sousedních pixelů\" a zvýšení \"Korekce "
+"bílého bodu\" v kartě Raw -> Raw bílé body."
 
 #: TP_RETINEX_HIGHLIGHT
 msgid "Highlight threshold"
@@ -7277,6 +7314,11 @@ msgstr "Práh světel"
 msgid "Highlight"
 msgstr "Světla"
 
+#: TP_RETINEX_HIGH
+msgctxt "TP_RETINEX_HIGH"
+msgid "High"
+msgstr "Silné"
+
 #: TP_RETINEX_HSLSPACE_LIN
 msgid "HSL-Linear"
 msgstr "HSV - Lineární"
@@ -7285,23 +7327,34 @@ msgstr "HSV - Lineární"
 msgid "HSL-Logarithmic"
 msgstr "HSV - Logaritmická"
 
+#: TP_RETINEX_LOW
+msgctxt "TP_RETINEX_LOW"
+msgid "Low"
+msgstr "Slabé"
+
 #: TP_RETINEX_MEDIAN
 msgid "Transmission median filter"
-msgstr ""
+msgstr "Přenos filtru mediánu"
 
 #: TP_RETINEX_METHOD_TOOLTIP
 msgid ""
 "Low = Reinforce low light,\n"
 "Uniform = Equalize action,\n"
 "High = Reinforce high light,\n"
-"Highlight = Remove magenta in highlights."
+"Highlights = Remove magenta in highlights."
 msgstr ""
+"Slabé = Posílí slabé světlo,\n"
+"Jednolité = vyvážená akce,\n"
+"Silné = Posílí silné světlo,\n"
+"Světla = Odstraní purpurovou ve světlech."
 
 #: TP_RETINEX_MLABEL_TOOLTIP
 msgid ""
 "Should be near min=0 max=32768\n"
 "Restored image with no mixture."
 msgstr ""
+"Mělo by být poblíž min=0 max=32768\n"
+"Obnovený obraz bez příměsí."
 
 #: TP_RETINEX_MLABEL
 msgid "Restored haze-free Min=%1 Max=%2"
@@ -7312,9 +7365,8 @@ msgid "Neighboring pixels"
 msgstr "Sousední pixely"
 
 #: TP_RETINEX_NEUTRAL_TIP
-#, fuzzy
 msgid "Reset all sliders and curves to their default values."
-msgstr "Obnoví původní hodnoty u všech štítků."
+msgstr "Obnoví původní hodnoty u všech posuvníků a křivek."
 
 #: TP_RETINEX_OFFSET
 msgid "Offset"
@@ -7330,6 +7382,9 @@ msgid ""
 "In = image source,\n"
 "Out = image gauss."
 msgstr ""
+"Omezuje Vstup/Výstup.\n"
+"Vstup = zdroj obrázku,\n"
+"Výstup = gauss obrázku."
 
 #: TP_RETINEX_TLABEL_TOOLTIP
 msgid ""
@@ -7338,10 +7393,14 @@ msgid ""
 "Mean and Sigma\n"
 "Tm=Min TM=Max of transmission map."
 msgstr ""
+"Výsledek Mapy přenosu .\n"
+"Min a Max jsou použity Odchylkou.\n"
+"Průměr a Sigma\n"
+"Tm=Min TM=Max Mapy přenosu."
 
 #: TP_RETINEX_TLABEL
 msgid "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
-msgstr "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
+msgstr "TM Min=%1 Max=%2 Průměr=%3 Sigma=%4"
 
 #: TP_RETINEX_TLABEL2
 msgid "TM Tm=%1 TM=%2"
@@ -7354,6 +7413,9 @@ msgid ""
 "values (max).\n"
 "Ordinate: amplification or reduction."
 msgstr ""
+"Přenos podle přenosu.\n"
+"Úsečka: přenos z negativních hodnot (min), průměru a kladných hodnot (max).\n"
+"Pořadnice: zesílení nebo zeslabení."
 
 #: TP_RETINEX_TRANSMISSION
 msgid "Transmission map"
@@ -7361,13 +7423,15 @@ msgstr "Mapa přenosu"
 
 #: TP_RETINEX_UNIFORM
 msgid "Uniform"
-msgstr "Jednolitá"
+msgstr "Jednolité"
 
 #: TP_RETINEX_VARIANCE_TOOLTIP
 msgid ""
 "Low variance increase local contrast and saturation, but can lead to "
 "artifacts."
 msgstr ""
+"Nízká odchylka zvyšuje místní kontrast a nasycení, ale může vést ke vzniku "
+"artefaktů."
 
 #: TP_RETINEX_VARIANCE
 msgid "Variance"
@@ -7503,7 +7567,7 @@ msgstr "Pastelové tóny"
 
 #: TP_VIBRANCE_PASTSATTOG
 msgid "Link pastel and saturated tones"
-msgstr "Propojit pastelové a saturované tóny"
+msgstr "Propojit pastelové a nasycené tóny"
 
 #: TP_VIBRANCE_PROTECTSKINS
 msgid "Protect skin-tones"
@@ -7511,7 +7575,7 @@ msgstr "Zachovat tóny pleti"
 
 #: TP_VIBRANCE_PSTHRESHOLD_SATTHRESH
 msgid "Saturation threshold"
-msgstr "Práh saturace"
+msgstr "Práh nasycení"
 
 #: TP_VIBRANCE_PSTHRESHOLD_TOOLTIP
 msgid ""
@@ -7519,20 +7583,20 @@ msgid ""
 "at the top.\n"
 "The horizontal axis represents the saturation range."
 msgstr ""
-"Spodní vodorovná osa představuje pastelové a horní saturované tóny..\n"
-"Svislá osa představuje rozsah saturace."
+"Spodní vodorovná osa představuje pastelové a horní nasycené tóny.\n"
+"Svislá osa představuje rozsah nasycení."
 
 #: TP_VIBRANCE_PSTHRESHOLD_WEIGTHING
 msgid "Pastel/saturated transition's weighting"
-msgstr "Váha přechodu mezi pastelovými a saturovanými tóny"
+msgstr "Váha přechodu mezi pastelovými a nasycenými tóny"
 
 #: TP_VIBRANCE_PSTHRESHOLD
 msgid "Pastel/saturated tones threshold"
-msgstr "Práh mezi pastelovými a saturovanými tóny"
+msgstr "Práh mezi pastelovými a nasycenými tóny"
 
 #: TP_VIBRANCE_SATURATED
 msgid "Saturated Tones"
-msgstr "Saturované tóny"
+msgstr "Nasycené tóny"
 
 #: TP_VIGNETTING_LABEL
 msgid "Vignetting Correction"
@@ -7553,6 +7617,9 @@ msgid ""
 "If contrast, chroma or residual tone mapping are activated, the effect due "
 "to balance is amplified."
 msgstr ""
+"Změní vyvážení mezi směry vlnky: svisle-vodorovně a uhlopříčně.\n"
+"Pokud je aktivován kontrast, barevnost nebo zbytkové tónové mapování je "
+"efekt díky vyvážení zesílen."
 
 #: TP_WAVELET_BALANCE
 msgid "Contrast balance d/v-h"
@@ -7563,6 +7630,8 @@ msgid ""
 "If enabled, the 'Contrast balance' curve or slider also modifies chroma "
 "balance."
 msgstr ""
+"Pokud je povoleno, křivka nebo posuvníky \"Vyvážení kontrastu\" ovlivňují i "
+"vyvážení barev."
 
 #: TP_WAVELET_BALCHRO
 msgid "Chroma balance"
@@ -7600,7 +7669,7 @@ msgstr "Neprůhlednost červená-zelená"
 msgid ""
 "Adjusting the gamma of the residual image allows you to equilibrate the data "
 "and histogram."
-msgstr ""
+msgstr "Úprava gamy zůstatku obrázku vám umožní vyvážit data a histogram."
 
 #: TP_WAVELET_COMPGAMMA
 msgid "Compression gamma"
@@ -7638,11 +7707,11 @@ msgstr ""
 #: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
 msgid ""
 "Applies a final contrast luminance curve at the end of the wavelet treatment."
-msgstr ""
+msgstr "Aplikuje finální křivku kontrastu jasů na konci zpracování vlnky."
 
 #: TP_WAVELET_CURVEEDITOR_HH_TOOLTIP
 msgid "Modifies the residual image's hue as a function of hue."
-msgstr ""
+msgstr "Upravuje odstín zůstatku obrázku jako funkci odstínu."
 
 #: TP_WAVELET_CURVEEDITOR_CH_TOOLTIP
 msgid ""
@@ -7671,6 +7740,13 @@ msgid ""
 "However the quality is not strictly related to this coefficient and can vary "
 "with images and uses."
 msgstr ""
+"Změní Daubechiesové koeficienty:\n"
+"D4 = Standard,\n"
+"D14 = Nejčastěji nejlepší výkon, ale o 10% delší zpracování .\n"
+"\n"
+"Ovlivňuje detekci hran a obecnou kvalitu obrázku na prvních úrovních.Ovšem "
+"kvalita není striktně vázána na koeficienty a může se lišit v závislosti na "
+"obrázku a použití."
 
 #: TP_WAVELET_DAUB
 msgid "Edge performance"
@@ -7707,6 +7783,9 @@ msgid ""
 "Bottom-left, Top-Left, Top-Right, Bottom-right represent respectively local "
 "contast for low values, mean, mean+stdev, maxima"
 msgstr ""
+"Posunutí bodů doleva snižuje kontrast a posunutí bodů doprava jej zvyšuje.\n"
+"Rohy levý spodní, levý horní, pravý horní, pravý spodní postupně představují "
+"místní kontrast pro nízké hodnoty, průměr, průměr + stdev  maximum"
 
 #: TP_WAVELET_EDGEAMPLI
 msgid "Base amplification"
@@ -7717,6 +7796,8 @@ msgid ""
 "This adjuster lets you target edge detection for example to avoid applying "
 "edge sharpness to fine details, such as noise in the sky."
 msgstr ""
+"Tento posuvník umožňuje cílené zesílení hran, například pro vynechání "
+"doostření hran u jemných detailů, jako je například šum v obloze."
 
 #: TP_WAVELET_EDGEDETECTTHR
 msgid "Threshold low (noise)"
@@ -7808,20 +7889,23 @@ msgid ""
 "If the value exceeds the amount of wavelet levels you are using then it will "
 "be ignored."
 msgstr ""
+"Nastaví úroveň vlnky, která bude prahová pro syté a pastelové barvy.\n"
+"1-x: syté\n"
+"x-9: pastelové\n"
+"\n"
+"Hodnota  bude ignorována pokud přesáhne množství úrovní vlnky."
 
 #: TP_WAVELET_CHRO
 msgid "Saturated/pastel threshold"
-msgstr "Práh saturované/pastelové"
+msgstr "Práh nasycené/pastelové"
 
 #: TP_WAVELET_CHR_TOOLTIP
-#, fuzzy
 msgid ""
 "Adjusts chroma as a function of \"contrast levels\" and \"chroma-contrast "
 "link strength\""
 msgstr ""
-"Přizpůsobí barevnost jako funkci:\n"
-"a - kontrast úrovní\n"
-"b - síla posuvníku propojení barev "
+"Upraví barevnost jako funkci \"Kontrast úrovní\" a \"Barevnost - kontrast "
+"síla propojení\""
 
 #: TP_WAVELET_CHR
 msgid "Chroma-contrast link strength"
@@ -7841,7 +7925,7 @@ msgstr "Celý rozsah barevnosti"
 
 #: TP_WAVELET_CH2
 msgid "Saturated/pastel"
-msgstr "Saturované/pastelové"
+msgstr "Nasycené/pastelové"
 
 #: TP_WAVELET_CH3
 msgid "Link contrast levels"
@@ -7878,9 +7962,8 @@ msgstr ""
 "potřebuje více paměti a zpracování trvá déle."
 
 #: TP_WAVELET_LEVLABEL
-#, fuzzy
 msgid "Preview maximum possible levels = %1"
-msgstr "Náhled maximálně dostupné úrovně=%1"
+msgstr "Náhled maximálně dostupných úrovní = %1"
 
 #: TP_WAVELET_LEVONE,TP_WAVELET_2
 msgid "Level 2"
@@ -7908,7 +7991,7 @@ msgstr "Vylepšený algoritmus"
 
 #: TP_WAVELET_LOWLIGHT
 msgid "Shadow luminance range"
-msgstr "Rozsah projasnění stínů"
+msgstr "Rozsah jasu a stínů"
 
 #: TP_WAVELET_MEDGREINF
 msgid "First level"
@@ -7991,7 +8074,7 @@ msgstr "Omezená"
 
 #: TP_WAVELET_SAT
 msgid "Saturated chroma"
-msgstr "Saturovaná barevnost"
+msgstr "Nasycená barevnost"
 
 #: TP_WAVELET_SETTINGS
 msgid "Wavelet Settings"
@@ -8022,24 +8105,24 @@ msgid ""
 "luminance range. Other levels will be fully treated. The chosen value here "
 "limits the highest possible value of the shadow levels."
 msgstr ""
+"Pouze úrovně pod vybranou hodnotou budou ovlivněny rozsahem zvýraznění jasů."
+"Ostatní úrovně budou plně zpracovány. Zde vybraná hodnota omezí nejvyšší "
+"možnou hodnotu úrovně stínů."
 
 #: TP_WAVELET_THRESHOLD
 msgid "Highlight levels"
 msgstr "Úrovně světel"
 
 #: TP_WAVELET_THRESHOLD2_TOOLTIP
-#, fuzzy
 msgid ""
 "Only levels between 9 and 9 minus the value will be affected by the shadow "
 "luminance range. Other levels will be fully treated. The highest level "
 "possible is limited by the highlight level value (9 minus highlight level "
 "value)."
 msgstr ""
-"Pokud tuto hodnotu změníte, bude na úrovně mezi úrovní 9 a 9 - hodnota "
-"použita pouze funkce projasnění stínů.\n"
-"Na ostatní úrovně budou použity všechny funkce.\n"
-"Maximální úroveň stínů je ovlivněna hodnotou světel (9 - úroveň "
-"světel)světelnost"
+"Pouze úrovně 9 a 9 mínus hodnota budou ovlivněny rozsahem stínů a jasů."
+"Ostatní úrovně budou plně zpracovány. Maximální možná úroveň je omezena na "
+"nejvyšší hodnotu úrovně (9 - nejvyšší úroveň)."
 
 #: TP_WAVELET_THRESHOLD2
 msgid "Shadow levels"
@@ -8085,6 +8168,9 @@ msgid ""
 "image. When the value is different from 0, the Strength and Gamma sliders of "
 "the Tone Mapping tool in the Exposure tab will become grayed out."
 msgstr ""
+"Ovládá sílu mapování tónů nebo kontrast komprese zůstatku obrázku. Pokud je "
+"hodnota rozdílná od nuly, budou posuvníky Síla a Gama v nástroji Mapování "
+"tónů v kartě Expozice neaktivní."
 
 #: TP_WAVELET_TMSTRENGTH
 msgid "Compression strength"
@@ -8341,6 +8427,15 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid ""
+#~ "Best compression: 4:1:1\n"
+#~ "Balanced: 4:2:2\n"
+#~ "Best quality: 4:4:4"
+#~ msgstr ""
+#~ "Nejlepší komprese: 4:1:1\n"
+#~ "Vyvážená: 4:2:2\n"
+#~ "Nejlepší kvalita: 4:4:4"
 
 #~ msgid "Auto method"
 #~ msgstr "Metoda aut. zpracování"
