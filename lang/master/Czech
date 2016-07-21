@@ -33,7 +33,7 @@
 #32 2014-10-24 updated by mkyral
 #33 2015-02-22 updated by mkyral
 #34 2015-07-09 updated by mkyral
-#35 2015-10-20 updated by mkyral
+#38 2015-11-24 updated by mkyral
 #36 2015-10-26 updated by mkyral
 #37 2015-11-21 updated by mkyral
 ABOUT_TAB_BUILD;Verze
@@ -659,11 +659,11 @@ HISTORY_MSG_392;Vlnka - Zůstatek - VB vrátit
 HISTORY_MSG_393;DCP - tabulka vzhledu
 HISTORY_MSG_394;DCP - základní expozice
 HISTORY_MSG_395;DCP - základní tabulka
-HISTORY_MSG_396;Vlnka - Kontrast 
-HISTORY_MSG_397;Vlnka - Barevnost 
+HISTORY_MSG_396;Vlnka - Kontrast
+HISTORY_MSG_397;Vlnka - Barevnost
 HISTORY_MSG_398;Vlnka - Doostření hran
 HISTORY_MSG_399;Vlnka - Zůstatek
-HISTORY_MSG_400;Vlnka - Dokončení 
+HISTORY_MSG_400;Vlnka - Dokončení
 HISTORY_MSG_401;Vlnka - Tónování
 HISTORY_MSG_402;Vlnka - Odšumění
 HISTORY_MSG_403;Vlnka - DH - Citlivost detekce hran
@@ -1084,7 +1084,7 @@ PREFERENCES_TISTD;Běžný
 PREFERENCES_TP_LABEL;Panel nástrojů:
 PREFERENCES_TP_USEICONORTEXT;V záhlaví karty zobrazit ikonu namísto textu
 PREFERENCES_TP_VSCROLLBAR;Skrýt svislou posuvnou lištu
-PREFERENCES_TUNNELMETADATA;Přenést nezměněná IPTC/XMP metadata do výstupního souboru
+PREFERENCES_TUNNELMETADATA;Zkopírovat nezměněná Exif/IPTC/XMP metadata do výstupního souboru
 PREFERENCES_USEBUNDLEDPROFILES;Použít přiložené profily
 PREFERENCES_USESYSTEMTHEME;Použít systémový motiv
 PREFERENCES_VIEW;Nastavení vyvážení bílé výstupních zařízení (monitor, TV, projektor, rámeček a jiné)
@@ -1232,7 +1232,7 @@ TP_COLORAPP_ADAPTSCENE;Svítivost scény
 TP_COLORAPP_ADAPTSCENE_TOOLTIP;Absolutní jas scény prostředí(cd/m²).\n 1) Vypočítáno z Exifu:\nRychlost závěrky - citlivost - clona - expoziční korekce fotoaparátu.\n 2) Vypočítáno z hodnoty raw bílého bodu a expoziční kompenzace Rawtherapee.
 TP_COLORAPP_ADAPTVIEWING;Svítivost prohlížení (cd/m²)
 TP_COLORAPP_ADAPTVIEWING_TOOLTIP;Absolutní jas prostředí prohlížení\n(obvykle 16cd/m²).
-TP_COLORAPP_ADAP_AUTO_TOOLTIP;Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu z Exif dat.\nPokud si přejete zadat hodnotu ručně, nejprve zrušte zatržení tohoto pole. 
+TP_COLORAPP_ADAP_AUTO_TOOLTIP;Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu z Exif dat.\nPokud si přejete zadat hodnotu ručně, nejprve zrušte zatržení tohoto pole.
 TP_COLORAPP_ALGO;Algoritmus
 TP_COLORAPP_ALGO_ALL;Vše
 TP_COLORAPP_ALGO_JC;Světlost + Barevnost (JC)
@@ -1240,7 +1240,7 @@ TP_COLORAPP_ALGO_JS;Světlost + Nasycení (JS)
 TP_COLORAPP_ALGO_QM;Jas a pestrobarevnost (QM)
 TP_COLORAPP_ALGO_TOOLTIP;Umožňuje vybrat mezi podmnožinou nebo všemi parametry.
 TP_COLORAPP_BADPIXSL;Filtr vypálených/mrtvých pixelů
-TP_COLORAPP_BADPIXSL_TOOLTIP;Potlačení vypálených/mrtvých (jasně zabarvených) pixelů.\n0 = Bez efektu\n1 = Medián\n2 = Gaussový.\nPopřípadě obrázek upravte tak, aby jste se vyhnuli velmi tmavým stínům.\n\nTyto artefakty vznikají díky omezením CIECAM02. 
+TP_COLORAPP_BADPIXSL_TOOLTIP;Potlačení vypálených/mrtvých (jasně zabarvených) pixelů.\n0 = Bez efektu\n1 = Medián\n2 = Gaussový.\nPopřípadě obrázek upravte tak, aby jste se vyhnuli velmi tmavým stínům.\n\nTyto artefakty vznikají díky omezením CIECAM02.
 TP_COLORAPP_BRIGHT;Jas (O)
 TP_COLORAPP_BRIGHT_TOOLTIP;Jas v CIECAM02 bere v potaz svítivost bílé a rozdíly jasů mezi L*a*b* a RGB.
 TP_COLORAPP_CHROMA;Barevnost (C)
@@ -1804,6 +1804,7 @@ TP_WAVELET_BANONE;Nic
 TP_WAVELET_BASLI;Posuvník
 TP_WAVELET_BATYPE;Metoda vyvážení kontrastu
 TP_WAVELET_CBENAB;Tónování a vyvážení barev
+TP_WAVELET_CB_TOOLTIP;Pro silnější hodnoty barevného tónování s kombinováním nebo bez rozkladu na vrstvy tónování\nPro menší hodnoty můžete změnit vyvážení bílé na barvu pozadí (obloha, ...) bez změny předního plánu, obecně více kontrastní.
 TP_WAVELET_CCURVE;Místní kontrast
 TP_WAVELET_CH1;Celý rozsah barevnosti
 TP_WAVELET_CH2;Nasycené/pastelové
@@ -1827,7 +1828,9 @@ TP_WAVELET_CONTRA;Kontrast
 TP_WAVELET_CONTRA_TOOLTIP;Změní kontrast zůstatku obrazu.
 TP_WAVELET_CONTR;Paleta
 TP_WAVELET_CTYPE;Ovládání barevnosti
+TP_WAVELET_CURVEEDITOR_CC_TOOLTIP;Mění lokální kontrast jako funkci originálního lokálního kontrastu(úsečka).\nNízké hodnoty na úsečce představují malý lokální kontrast (skutečné hodnoty okolo10..20).\n50% z úsečky představuje průměrný lokální kontrast (skutečné hodnoty okolo 100..300).\n66% z úsečky představuje představuje standardní odchylku lokálního kontrastu (skutečné hodnoty okolo 300..800).\n100% z úsečky představuje maximální lokální kontrast (skutečné hodnoty okolo 3000..8000).
 TP_WAVELET_CURVEEDITOR_CH;Kontrast úrovní=f(Barevnost)
+TP_WAVELET_CURVEEDITOR_CH_TOOLTIP;Mění kontrast každé úrovně jako funkci odstínu.\nDejte pozor, abyste nepřepsali změny udělané v podnástroji Paleta nástroje Odstín.\nZměny křivky se projeví pouze v případě, že posuvníky kontrastu úrovní vlnky nejsou nastaveny na nulu.
 TP_WAVELET_CURVEEDITOR_CL;L
 TP_WAVELET_CURVEEDITOR_CL_TOOLTIP;Aplikuje finální křivku kontrastu jasů na konci zpracování vlnky.
 TP_WAVELET_CURVEEDITOR_HH;HH
@@ -1851,10 +1854,14 @@ TP_WAVELET_EDGEDETECTTHR2;Maximální práh (detekce)
 TP_WAVELET_EDGEDETECTTHR;Práh stínů (šum)
 TP_WAVELET_EDGEDETECTTHR_TOOLTIP;Tento posuvník umožňuje cílené zesílení hran, například pro vynechání doostření hran u jemných detailů, jako je například šum v obloze.
 TP_WAVELET_EDGEDETECT;Sklon citlivosti
+TP_WAVELET_EDGEDETECT_TOOLTIP;Posunutím posuvníku vpravo zvýšíte citlivost na hranu. Toto ovlivňuje lokální kontrast, nastavení hrany a šum.
 TP_WAVELET_EDGESENSI;Citlivost detekce hran
 TP_WAVELET_EDGE;Doostření hran
+TP_WAVELET_EDGREINF_TOOLTIP;Zesílení nebo zeslabení vlivu první úrovně, v porovnání se druhou úrovní. Ostatní úrovně zůstanou nezměněny.
 TP_WAVELET_EDGTHRESH;Detaily
+TP_WAVELET_EDGTHRESH_TOOLTIP;Změní rozložení mezi prvními a ostatními úrovněmi. Čím větší práh, tím větší je význam prvních úrovní. Dejte si pozor na záporné hodnoty. Ty zvětšují efekt vyšších úrovní a mohou způsobit vznik artefaktů.
 TP_WAVELET_EDRAD;Poloměr
+TP_WAVELET_EDRAD_TOOLTIP;Toto nastavení poloměru se velmi liší od ostatních nástrojů doostření. Jeho hodnota je pomocí komplexní funkce porovnána s každou úrovní. To znamená, že i nastavení hodnoty na nulu má na úrovně vliv.
 TP_WAVELET_EDSL;Práh posuvníků
 TP_WAVELET_EDTYPE;Metoda místního kontrastu
 TP_WAVELET_EDVAL;Síla
@@ -1864,8 +1871,11 @@ TP_WAVELET_HIGHLIGHT;Zvýrazněný rozsah jasů
 TP_WAVELET_HS1;Celý rozsah jasů
 TP_WAVELET_HS2;Stíny/Světla
 TP_WAVELET_HUESKIN;Odstín pleti
+TP_WAVELET_HUESKIN_TOOLTIP;Spodní body nastaví začátek zóny přenosu a horní body její konec. Tam bude efekt největší.\n\nPokud potřebujete oblast výrazně změnit nebo se objevily artefakty, je nastavení <b>vyvážení bílé nesprávné</b>.
 TP_WAVELET_HUESKY;Odstín oblohy
+TP_WAVELET_HUESKY_TOOLTIP;Spodní body nastaví začátek zóny přenosu a horní body její konec. Tam bude efekt největší.\n\nPokud potřebujete oblast výrazně změnit nebo se objevily artefakty, je nastavení <b>vyvážení bílé nesprávné</b>.
 TP_WAVELET_ITER;Rozdíl vyvážení úrovní
+TP_WAVELET_ITER_TOOLTIP;Vlevo: zesílí nižší úrovně a zeslabí vyšší úrovně,\nVpravo: zeslabí nižší úrovně a zesílí vyšší úrovně.
 TP_WAVELET_LABEL;Úrovně vlnky
 TP_WAVELET_LARGEST;Nejhrubší
 TP_WAVELET_LEVCH;Barevnost
@@ -1886,6 +1896,7 @@ TP_WAVELET_LIPST;Vylepšený algoritmus
 TP_WAVELET_LOWLIGHT;Rozsah jasu a stínů
 TP_WAVELET_MEDGREINF;První úroveň
 TP_WAVELET_MEDILEV;Detekce hran
+TP_WAVELET_MEDILEV_TOOLTIP;Pro povolení Detekce hran Vám doporučujeme:\n- zakázat úrovně s nízkým kontrastem pro vyhnutí se vzniku artefaktů,\n- použít vysoké hodnoty gradientu citlivosti.\n\nSílu můžete ovlivnit pomocí 'vylepšení' z Odšumění a vylepšení.
 TP_WAVELET_MEDI;Omezení artefaktů na modré obloze
 TP_WAVELET_NEUTRAL;Neutrální
 TP_WAVELET_NOISE;Odšumění a vylepšení
@@ -1894,7 +1905,9 @@ TP_WAVELET_NPHIGH;Vysoká
 TP_WAVELET_NPLOW;Nízká
 TP_WAVELET_NPNONE;Nic
 TP_WAVELET_NPTYPE;Sousední pixely
+TP_WAVELET_NPTYPE_TOOLTIP;Tento algoritmus zkoumá blízkost pixelu a jeho osmi sousedů. V případě menšího rozdílu je hrana zesílena.
 TP_WAVELET_OPACITYWL;Finální místní kontrast
+TP_WAVELET_OPACITYWL_TOOLTIP;Změní finální lokální kontrast na konci zpracování vlnky.\n\nLevá strana představuje nejmenší lokální kontrast a pravá strana zase největší lokální kontrast.
 TP_WAVELET_OPACITYW;Vyrovnání kontrastu d/v-h křivka
 TP_WAVELET_OPACITY;Neprůhlednost modrá-žlutá
 TP_WAVELET_PASTEL;Barevnost pastelů

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-10-26 20:50+0100\n"
+"POT-Creation-Date: 2015-11-24 08:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3260,7 +3260,7 @@ msgctxt "PREFERENCES_AUTLISVLOW"
 msgid "None"
 msgstr ""
 
-#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_RETINEX_LOW,TP_WAVELET_NPLOW
+#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_WAVELET_NPLOW
 msgid "Low"
 msgstr ""
 
@@ -3976,7 +3976,7 @@ msgid "Hide vertical scrollbar"
 msgstr ""
 
 #: PREFERENCES_TUNNELMETADATA
-msgid "Copy IPTC/XMP unchanged to output file (when tagging with other program)"
+msgid "Copy Exif/IPTC/XMP unchanged to output file"
 msgstr ""
 
 #: PREFERENCES_USEBUNDLEDPROFILES
@@ -4172,7 +4172,7 @@ msgid "Save processing parameters with image"
 msgstr ""
 
 #: SAVEDLG_SUBSAMP_TOOLTIP
-msgid "Best compression: 4:1:1\nBalanced: 4:2:2\nBest quality: 4:4:4"
+msgid "Best compression:\nJ:a:b 4:2:0\nh/v 2/2\nChroma halved horizontally and vertically.\n\nBalanced:\nJ:a:b 4:2:2\nh/v 2/1\nChroma halved horizontally.\n\nBest quality:\nJ:a:b 4:4:4\nh/v 1/1\nNo chroma subsampling."
 msgstr ""
 
 #: SAVEDLG_SUBSAMP
@@ -5130,7 +5130,7 @@ msgstr ""
 msgid "RGB"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_RETINEX_HIGH,TP_WAVELET_NPHIGH
+#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_WAVELET_NPHIGH
 msgid "High"
 msgstr ""
 
@@ -5917,7 +5917,7 @@ msgid "Strength=f(H)"
 msgstr ""
 
 #: TP_RETINEX_GAIN_TOOLTIP
-msgid "Acts on the transmission in combination with the offset. This is very different from the others settings. Used for black or white pixels, and to help balance the histogram."
+msgid "Acts on the restored image.\n\nThis is very different from the others settings. Used for black or white pixels, and to help balance the histogram."
 msgstr ""
 
 #: TP_RETINEX_GAIN
@@ -5948,6 +5948,11 @@ msgstr ""
 msgid "Highlight"
 msgstr ""
 
+#: TP_RETINEX_HIGH
+msgctxt "TP_RETINEX_HIGH"
+msgid "High"
+msgstr ""
+
 #: TP_RETINEX_HSLSPACE_LIN
 msgid "HSL-Linear"
 msgstr ""
@@ -5956,12 +5961,17 @@ msgstr ""
 msgid "HSL-Logarithmic"
 msgstr ""
 
+#: TP_RETINEX_LOW
+msgctxt "TP_RETINEX_LOW"
+msgid "Low"
+msgstr ""
+
 #: TP_RETINEX_MEDIAN
 msgid "Transmission median filter"
 msgstr ""
 
 #: TP_RETINEX_METHOD_TOOLTIP
-msgid "Low = Reinforce low light,\nUniform = Equalize action,\nHigh = Reinforce high light,\nHighlight = Remove magenta in highlights."
+msgid "Low = Reinforce low light,\nUniform = Equalize action,\nHigh = Reinforce high light,\nHighlights = Remove magenta in highlights."
 msgstr ""
 
 #: TP_RETINEX_MLABEL_TOOLTIP
