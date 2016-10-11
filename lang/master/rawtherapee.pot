@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-11-24 08:18+0100\n"
+"POT-Creation-Date: 2016-07-21 21:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Load curve..."
 msgstr ""
 
-#: CURVEEDITOR_MINMAXCPOINTS
+#: CURVEEDITOR_MINMAXCPOINTS,TP_RETINEX_EQUAL
 msgid "Equalizer"
 msgstr ""
 
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Reset the selected tags to their original values."
 msgstr ""
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_RETINEX_NEUTRAL
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_NEUTRAL,TP_RETINEX_NEUTRAL
 msgid "Reset"
 msgstr ""
 
@@ -637,10 +637,6 @@ msgstr ""
 msgid "Rename file"
 msgstr ""
 
-#: FILEBROWSER_RENAMEDLGMSG
-msgid "Rename file \"%1\" to:"
-msgstr ""
-
 #: FILEBROWSER_SELECTDARKFRAME
 msgid "Select dark-frame..."
 msgstr ""
@@ -687,6 +683,10 @@ msgstr ""
 
 #: FILEBROWSER_SHOWNOTTRASHHINT
 msgid "Show only non-deleted images."
+msgstr ""
+
+#: FILEBROWSER_SHOWORIGINALHINT
+msgid "Show only original images.\n\nWhen several images exist with the same filename but different extensions, the one considered original is the one whose extension is nearest the top of the parsed extensions list in Preferences > File Browser > Parsed Extensions."
 msgstr ""
 
 #: FILEBROWSER_SHOWRANK1HINT
@@ -849,7 +849,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
+#: GENERAL_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_RETINEX_MAP_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr ""
 
@@ -1222,7 +1222,7 @@ msgid "RGB Curves - Blue"
 msgstr ""
 
 #: HISTORY_MSG_166
-msgid "Exposure - Neutral"
+msgid "Exposure - Reset"
 msgstr ""
 
 #: HISTORY_MSG_167,HISTORY_MSG_98
@@ -2062,7 +2062,7 @@ msgid "W - Residual - Compression gamma"
 msgstr ""
 
 #: HISTORY_MSG_367
-msgid "W - ES - Local contrast curve"
+msgid "W - Final - 'After' contrast curve"
 msgstr ""
 
 #: HISTORY_MSG_369
@@ -2238,11 +2238,11 @@ msgid "Retinex - Method"
 msgstr ""
 
 #: HISTORY_MSG_408
-msgid "Retinex - Neighboring"
+msgid "Retinex - Radius"
 msgstr ""
 
-#: HISTORY_MSG_409
-msgid "Retinex - Gain"
+#: HISTORY_MSG_409,HISTORY_MSG_413
+msgid "Retinex - Contrast"
 msgstr ""
 
 #: HISTORY_MSG_41
@@ -2258,11 +2258,7 @@ msgid "Retinex - Strength"
 msgstr ""
 
 #: HISTORY_MSG_412
-msgid "Retinex - Scales"
-msgstr ""
-
-#: HISTORY_MSG_413
-msgid "Retinex - Variance"
+msgid "Retinex - Gaussian Gradient"
 msgstr ""
 
 #: HISTORY_MSG_414
@@ -2278,7 +2274,7 @@ msgid "Retinex"
 msgstr ""
 
 #: HISTORY_MSG_417
-msgid "Retinex - Transmission median"
+msgid "Retinex - Transmission Median"
 msgstr ""
 
 #: HISTORY_MSG_418
@@ -2317,12 +2313,76 @@ msgstr ""
 msgid "Retinex - Hue equalizer"
 msgstr ""
 
+#: HISTORY_MSG_427
+msgid "Output rendering intent"
+msgstr ""
+
+#: HISTORY_MSG_428
+msgid "Monitor rendering intent"
+msgstr ""
+
+#: HISTORY_MSG_429
+msgid "Retinex - Iterations"
+msgstr ""
+
 #: HISTORY_MSG_43
 msgid "Exposure - Tone curve 2 mode"
 msgstr ""
 
+#: HISTORY_MSG_430
+msgid "Retinex - Transmission Gradient"
+msgstr ""
+
+#: HISTORY_MSG_431
+msgid "Retinex - Strength Gradient"
+msgstr ""
+
+#: HISTORY_MSG_432
+msgid "Retinex - M - Highlights"
+msgstr ""
+
+#: HISTORY_MSG_433
+msgid "Retinex - M - Highlights TW"
+msgstr ""
+
+#: HISTORY_MSG_434
+msgid "Retinex - M - Shadows"
+msgstr ""
+
+#: HISTORY_MSG_435
+msgid "Retinex - M - Shadows TW"
+msgstr ""
+
+#: HISTORY_MSG_436
+msgid "Retinex - M - Radius"
+msgstr ""
+
+#: HISTORY_MSG_437
+msgid "Retinex - M - Method"
+msgstr ""
+
+#: HISTORY_MSG_438
+msgid "Retinex - M - Equalizer"
+msgstr ""
+
+#: HISTORY_MSG_439
+msgid "Retinex - Process"
+msgstr ""
+
 #: HISTORY_MSG_44
 msgid "Lum. denoising radius"
+msgstr ""
+
+#: HISTORY_MSG_440
+msgid "CbDL - Method"
+msgstr ""
+
+#: HISTORY_MSG_441
+msgid "Retinex - Gain transmission"
+msgstr ""
+
+#: HISTORY_MSG_442
+msgid "Retinex - Scale"
 msgstr ""
 
 #: HISTORY_MSG_45
@@ -2765,6 +2825,10 @@ msgstr ""
 msgid "Edit current image in external editor.\nShortcut: <b>Ctrl+e</b>"
 msgstr ""
 
+#: MAIN_BUTTON_SENDTOEDITOR
+msgid "Edit image in external editor"
+msgstr ""
+
 #: MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP
 msgid "Show/hide all side panels.\nShortcut: <b>m</b>"
 msgstr ""
@@ -3009,6 +3073,10 @@ msgstr ""
 msgid "Toggle the <b>Before</b>/<b>After</b> view.\nShortcut: <b>Shift-b</b>"
 msgstr ""
 
+#: MONITOR_PROFILE_SYSTEM
+msgid "System default"
+msgstr ""
+
 #: NAVIGATOR_B
 msgid "B:"
 msgstr ""
@@ -3113,7 +3181,7 @@ msgstr ""
 msgid "Contrast by detail levels"
 msgstr ""
 
-#: PARTIALPASTE_EPD,TP_WAVELET_COMPTM
+#: PARTIALPASTE_EPD,TP_RETINEX_ITERF,TP_WAVELET_COMPTM
 msgid "Tone mapping"
 msgstr ""
 
@@ -3193,6 +3261,10 @@ msgstr ""
 msgid "Perspective"
 msgstr ""
 
+#: PARTIALPASTE_PRSHARPENING
+msgid "Post-resize sharpening"
+msgstr ""
+
 #: PARTIALPASTE_RAWCACORR_AUTO
 msgid "CA auto-correction"
 msgstr ""
@@ -3268,7 +3340,7 @@ msgstr ""
 msgid "Use operating system's main monitor color profile"
 msgstr ""
 
-#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL,TP_RETINEX_VIEW_NONE
 msgid "Standard"
 msgstr ""
 
@@ -3350,10 +3422,6 @@ msgstr ""
 
 #: PREFERENCES_CLUTSDIR
 msgid "HaldCLUT directory"
-msgstr ""
-
-#: PREFERENCES_CMETRICINTENT
-msgid "Colorimetric intent"
 msgstr ""
 
 #: PREFERENCES_CURVEBBOXPOS_ABOVE
@@ -3700,8 +3768,12 @@ msgstr ""
 msgid "Mini (100x115)"
 msgstr ""
 
-#: PREFERENCES_MONITORICC
-msgid "Monitor color profile"
+#: PREFERENCES_MONINTENT
+msgid "Default monitor intent"
+msgstr ""
+
+#: PREFERENCES_MONPROFILE
+msgid "Default monitor profile"
 msgstr ""
 
 #: PREFERENCES_MULTITABDUALMON
@@ -3766,6 +3838,14 @@ msgstr ""
 
 #: PREFERENCES_PARSEDEXTDELHINT
 msgid "Delete selected extension from the list."
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTDOWNHINT
+msgid "Move selected extension down in the list."
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTUPHINT
+msgid "Move selected extension up in the list."
 msgstr ""
 
 #: PREFERENCES_PARSEDEXT
@@ -4043,7 +4123,7 @@ msgstr ""
 msgid "From file"
 msgstr ""
 
-#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL,TP_WAVELET_NEUTRAL
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_WAVELET_NEUTRAL
 msgid "Neutral"
 msgstr ""
 
@@ -4489,6 +4569,22 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
+#: TP_CBDL_AFT
+msgid "After Black-and-White"
+msgstr ""
+
+#: TP_CBDL_BEF
+msgid "Before Black-and-White"
+msgstr ""
+
+#: TP_CBDL_METHOD_TOOLTIP
+msgid "Choose whether the Contrast by Detail Levels tool is to be positioned after the Black-and-White tool, which makes it work in L*a*b* space, or before it, which makes it work in RGB space."
+msgstr ""
+
+#: TP_CBDL_METHOD
+msgid "Process located"
+msgstr ""
+
 #: TP_COARSETRAF_TOOLTIP_HFLIP
 msgid "Flip horizontally."
 msgstr ""
@@ -4841,7 +4937,7 @@ msgstr ""
 msgid "RGB - Sliders"
 msgstr ""
 
-#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RAWCACORR_CASTR,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
 msgid "Strength"
 msgstr ""
 
@@ -4950,7 +5046,7 @@ msgstr ""
 msgid "Auto-selection"
 msgstr ""
 
-#: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
+#: TP_DEFRINGE_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
 msgid "Radius"
 msgstr ""
 
@@ -5238,7 +5334,7 @@ msgstr ""
 msgid "Reweighting iterates"
 msgstr ""
 
-#: TP_EPD_SCALE,TP_RESIZE_SCALE
+#: TP_EPD_SCALE,TP_RESIZE_SCALE,TP_RETINEX_SKAL
 msgid "Scale"
 msgstr ""
 
@@ -5282,7 +5378,7 @@ msgstr ""
 msgid "Shadow compression"
 msgstr ""
 
-#: TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST,TP_WAVELET_COMPCONT,TP_WAVELET_CONTRA,TP_WAVELET_LEVF
+#: TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST,TP_RETINEX_VARIANCE,TP_WAVELET_COMPCONT,TP_WAVELET_CONTRA,TP_WAVELET_LEVF
 msgid "Contrast"
 msgstr ""
 
@@ -5313,6 +5409,10 @@ msgstr ""
 
 #: TP_EXPOS_WHITEPOINT_LABEL
 msgid "Raw White Points"
+msgstr ""
+
+#: TP_FILMSIMULATION_SLOWPARSEDIR
+msgid "RawTherapee is configured to look for Hald CLUT images, which are used for the Film Simulation tool, in a folder which is taking too long to load.\nGo to Preferences > Image Processing > Film Simulation\nto see which folder is being used. You should either point RawTherapee to a folder which contains only Hald CLUT images and nothing more, or to an empty folder if you don't want to use the Film Simulation tool.\n\nRead the Film Simulation article in RawPedia for more information.\n\nDo you want to cancel the scan now?"
 msgstr ""
 
 #: TP_FILMSIMULATION_ZEROCLUTSFOUND
@@ -5550,6 +5650,10 @@ msgstr ""
 
 #: TP_ICM_OUTPUTPROFILE
 msgid "Output Profile"
+msgstr ""
+
+#: TP_ICM_PROFILEINTENT
+msgid "Rendering Intent"
 msgstr ""
 
 #: TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP
@@ -5900,11 +6004,15 @@ msgstr ""
 msgid "Hue equalizer"
 msgstr ""
 
+#: TP_RETINEX_CONTEDIT_MAP
+msgid "Mask equalizer"
+msgstr ""
+
 #: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
 msgid "Luminance according to luminance L=f(L)\nCorrect raw data to reduce halos and artifacts."
 msgstr ""
 
-#: TP_RETINEX_CURVEEDITOR_CD
+#: TP_RETINEX_CURVEEDITOR_CD,TP_RETINEX_CURVEEDITOR_MAP
 msgid "L=f(L)"
 msgstr ""
 
@@ -5916,8 +6024,24 @@ msgstr ""
 msgid "Strength=f(H)"
 msgstr ""
 
+#: TP_RETINEX_CURVEEDITOR_MAP_TOOLTIP
+msgid "This curve can be applied alone or with a Gaussian mask or wavelet mask.\nBeware of artifacts!"
+msgstr ""
+
+#: TP_RETINEX_GAINOFFS
+msgid "Gain and Offset (brightness)"
+msgstr ""
+
 #: TP_RETINEX_GAIN_TOOLTIP
 msgid "Acts on the restored image.\n\nThis is very different from the others settings. Used for black or white pixels, and to help balance the histogram."
+msgstr ""
+
+#: TP_RETINEX_GAINTRANSMISSION_TOOLTIP
+msgid "Amplify or reduce transmission map to achieve luminance.\nAbscissa: transmission -min from 0, mean, and values (max).\nOrdinate: gain."
+msgstr ""
+
+#: TP_RETINEX_GAINTRANSMISSION
+msgid "Gain transmission"
 msgstr ""
 
 #: TP_RETINEX_GAIN
@@ -5934,6 +6058,22 @@ msgstr ""
 
 #: TP_RETINEX_GAMMA_TOOLTIP
 msgid "Restore tones by applying gamma before and after Retinex. Different from Retinex curves or others curves (Lab, Exposure, etc.)."
+msgstr ""
+
+#: TP_RETINEX_GRADS_TOOLTIP
+msgid "If slider at 0, all iterations are identical.\nIf > 0 Strength is reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_GRADS
+msgid "Strength gradient"
+msgstr ""
+
+#: TP_RETINEX_GRAD_TOOLTIP
+msgid "If slider at 0, all iterations are identical.\nIf > 0 Variance and Threshold are reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_GRAD
+msgid "Transmission gradient"
 msgstr ""
 
 #: TP_RETINEX_HIGHLIGHT_TOOLTIP
@@ -5961,9 +6101,41 @@ msgstr ""
 msgid "HSL-Logarithmic"
 msgstr ""
 
+#: TP_RETINEX_ITER_TOOLTIP
+msgid "Simulate a tone-mapping operator.\nHigh values increase the processing time."
+msgstr ""
+
+#: TP_RETINEX_ITER
+msgid "Iterations (Tone-mapping)"
+msgstr ""
+
+#: TP_RETINEX_LABEL_MASK,TP_RETINEX_VIEW_MASK
+msgid "Mask"
+msgstr ""
+
 #: TP_RETINEX_LOW
 msgctxt "TP_RETINEX_LOW"
 msgid "Low"
+msgstr ""
+
+#: TP_RETINEX_MAP_GAUS
+msgid "Gaussian mask"
+msgstr ""
+
+#: TP_RETINEX_MAP_MAPP
+msgid "Sharp mask (wavelet partial)"
+msgstr ""
+
+#: TP_RETINEX_MAP_MAPT
+msgid "Sharp mask (wavelet total)"
+msgstr ""
+
+#: TP_RETINEX_MAP_METHOD_TOOLTIP
+msgid "Use the mask generated by the Gaussian function above (Radius, Method) to reduce halos and artifacts.\n\nCurve only: apply a diagonal contrast curve on the mask.\nBeware of artifacts!\n\nGaussian mask: generate and use a Gaussian blur of the original mask.\nQuick.\n\nSharp mask: generate and use a wavelet on the original mask.\nSlow."
+msgstr ""
+
+#: TP_RETINEX_MAP
+msgid "Mask method"
 msgstr ""
 
 #: TP_RETINEX_MEDIAN
@@ -5971,7 +6143,7 @@ msgid "Transmission median filter"
 msgstr ""
 
 #: TP_RETINEX_METHOD_TOOLTIP
-msgid "Low = Reinforce low light,\nUniform = Equalize action,\nHigh = Reinforce high light,\nHighlights = Remove magenta in highlights."
+msgid "Low = Reinforce low light.\nUniform = Equalize action.\nHigh = Reinforce high light.\nHighlights = Remove magenta in highlights."
 msgstr ""
 
 #: TP_RETINEX_MLABEL_TOOLTIP
@@ -5982,16 +6154,20 @@ msgstr ""
 msgid "Restored haze-free Min=%1 Max=%2"
 msgstr ""
 
-#: TP_RETINEX_NEIGHBOR,TP_WAVELET_NPTYPE
-msgid "Neighboring pixels"
-msgstr ""
-
 #: TP_RETINEX_NEUTRAL_TIP
 msgid "Reset all sliders and curves to their default values."
 msgstr ""
 
 #: TP_RETINEX_OFFSET
-msgid "Offset"
+msgid "Offset (brightness)"
+msgstr ""
+
+#: TP_RETINEX_SCALES_TOOLTIP
+msgid "If slider at 0, all iterations are identical.\nIf > 0 Scale and radius are reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_SCALES
+msgid "Gaussian gradient"
 msgstr ""
 
 #: TP_RETINEX_SETTINGS
@@ -6003,7 +6179,7 @@ msgid "Limits in/out.\nIn = image source,\nOut = image gauss."
 msgstr ""
 
 #: TP_RETINEX_TLABEL_TOOLTIP
-msgid "Transmission map result.\nMin and Max are used by Variance.\nMean and Sigma\nTm=Min TM=Max of transmission map."
+msgid "Transmission map result.\nMin and Max are used by Variance.\nMean and Sigma.\nTm=Min TM=Max of transmission map."
 msgstr ""
 
 #: TP_RETINEX_TLABEL
@@ -6012,6 +6188,10 @@ msgstr ""
 
 #: TP_RETINEX_TLABEL2
 msgid "TM Tm=%1 TM=%2"
+msgstr ""
+
+#: TP_RETINEX_TRANF
+msgid "Transmission"
 msgstr ""
 
 #: TP_RETINEX_TRANSMISSION_TOOLTIP
@@ -6030,8 +6210,24 @@ msgstr ""
 msgid "Low variance increase local contrast and saturation, but can lead to artifacts."
 msgstr ""
 
-#: TP_RETINEX_VARIANCE
-msgid "Variance"
+#: TP_RETINEX_VIEW_METHOD_TOOLTIP
+msgid "Standard - Normal display.\nMask -  Displays the mask.\nUnsharp mask - Displays the image with a high radius unsharp mask.\nTransmission - Auto/Fixed - Displays the file transmission-map, before any action on contrast and brightness.\n\nAttention: the mask does not correspond to reality, but is amplified to make it more visible."
+msgstr ""
+
+#: TP_RETINEX_VIEW,TP_WAVELET_PROC
+msgid "Process"
+msgstr ""
+
+#: TP_RETINEX_VIEW_TRAN
+msgid "Transmission - Auto"
+msgstr ""
+
+#: TP_RETINEX_VIEW_TRAN2
+msgid "Transmission - Fixed"
+msgstr ""
+
+#: TP_RETINEX_VIEW_UNSHARP
+msgid "Unsharp mask"
 msgstr ""
 
 #: TP_RGBCURVES_BLUE
@@ -6510,6 +6706,10 @@ msgstr ""
 msgid "This algorithm uses the proximity of a pixel and eight of its neighbors. If less difference, edges are reinforced."
 msgstr ""
 
+#: TP_WAVELET_NPTYPE
+msgid "Neighboring pixels"
+msgstr ""
+
 #: TP_WAVELET_OPACITYWL_TOOLTIP
 msgid "Modify the final local contrast at the end of the wavelet treatment.\n\nThe left side represents the smallest local contrast, progressing to the largest local contrast on the right."
 msgstr ""
@@ -6528,10 +6728,6 @@ msgstr ""
 
 #: TP_WAVELET_PASTEL
 msgid "Pastel chroma"
-msgstr ""
-
-#: TP_WAVELET_PROC
-msgid "Process"
 msgstr ""
 
 #: TP_WAVELET_RESID

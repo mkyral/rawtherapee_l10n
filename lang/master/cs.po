@@ -1,17 +1,17 @@
-# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014, 2015.
+# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2015-11-24 08:18+0100\n"
-"PO-Revision-Date: 2015-11-24 08:19+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2016-07-21 21:41+0200\n"
+"PO-Revision-Date: 2016-07-21 22:03+0100\n"
+"Last-Translator: Marián Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf8\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ABOUT_TAB_BUILD
@@ -110,7 +110,7 @@ msgstr "Lineární"
 msgid "Load curve..."
 msgstr "Načíst křivku..."
 
-#: CURVEEDITOR_MINMAXCPOINTS
+#: CURVEEDITOR_MINMAXCPOINTS,TP_RETINEX_EQUAL
 msgid "Equalizer"
 msgstr "Korekce"
 
@@ -267,7 +267,7 @@ msgstr "Obnovit vše"
 msgid "Reset the selected tags to their original values."
 msgstr "Obnoví původní hodnoty u vybraných štítků."
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_RETINEX_NEUTRAL
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_NEUTRAL,TP_RETINEX_NEUTRAL
 msgid "Reset"
 msgstr "Obnovit"
 
@@ -757,10 +757,6 @@ msgstr ""
 msgid "Rename file"
 msgstr "Přejmenování souboru"
 
-#: FILEBROWSER_RENAMEDLGMSG
-msgid "Rename file \"%1\" to:"
-msgstr "Přejmenovat soubor \"%1\" na:"
-
 #: FILEBROWSER_SELECTDARKFRAME
 msgid "Select dark-frame..."
 msgstr "Výběr tmavého snímku..."
@@ -850,6 +846,15 @@ msgstr ""
 #: FILEBROWSER_SHOWNOTTRASHHINT
 msgid "Show only non-deleted images."
 msgstr "Zobrazit pouze nesmazané obrázky."
+
+#: FILEBROWSER_SHOWORIGINALHINT
+msgid ""
+"Show only original images.\n"
+"\n"
+"When several images exist with the same filename but different extensions, "
+"the one considered original is the one whose extension is nearest the top of "
+"the parsed extensions list in Preferences > File Browser > Parsed Extensions."
+msgstr ""
 
 #: FILEBROWSER_SHOWRANK1HINT
 msgid ""
@@ -1087,7 +1092,7 @@ msgstr "Na šířku"
 msgid "n/a"
 msgstr "n/a"
 
-#: GENERAL_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
+#: GENERAL_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_RETINEX_MAP_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr "Nic"
 
@@ -1464,8 +1469,8 @@ msgid "RGB Curves - Blue"
 msgstr "RGB křivky - Modrá"
 
 #: HISTORY_MSG_166
-msgid "Exposure - Neutral"
-msgstr "Expozice - Neutrální"
+msgid "Exposure - Reset"
+msgstr "Expozice - Obnovení"
 
 #: HISTORY_MSG_167,HISTORY_MSG_98
 msgid "Demosaicing method"
@@ -2304,8 +2309,8 @@ msgid "W - Residual - Compression gamma"
 msgstr "Vlnka - Zůstatek - Gama komprese"
 
 #: HISTORY_MSG_367
-msgid "W - ES - Local contrast curve"
-msgstr "Vlnka - DH - Křivka místního kontrastu"
+msgid "W - Final - 'After' contrast curve"
+msgstr "Vlnka - Finální \"Po\" křivka kontrastu"
 
 #: HISTORY_MSG_369
 msgid "W - Final - Balance method"
@@ -2480,12 +2485,12 @@ msgid "Retinex - Method"
 msgstr "Retinex - Metoda"
 
 #: HISTORY_MSG_408
-msgid "Retinex - Neighboring"
-msgstr "Retinex - Sousední"
+msgid "Retinex - Radius"
+msgstr "Retinex - Poloměr"
 
-#: HISTORY_MSG_409
-msgid "Retinex - Gain"
-msgstr "Retinex - Zisk"
+#: HISTORY_MSG_409,HISTORY_MSG_413
+msgid "Retinex - Contrast"
+msgstr "Retinex - Kontrast"
 
 #: HISTORY_MSG_41
 msgid "Exposure - Tone curve 1 mode"
@@ -2500,12 +2505,8 @@ msgid "Retinex - Strength"
 msgstr "Retinex - Síla"
 
 #: HISTORY_MSG_412
-msgid "Retinex - Scales"
-msgstr "Retinex - Míra"
-
-#: HISTORY_MSG_413
-msgid "Retinex - Variance"
-msgstr "Retinex - odchylka"
+msgid "Retinex - Gaussian Gradient"
+msgstr "Retinex - Gausův gradient"
 
 #: HISTORY_MSG_414
 msgid "Retinex - Histogram - Lab"
@@ -2520,7 +2521,7 @@ msgid "Retinex"
 msgstr "Retinex"
 
 #: HISTORY_MSG_417
-msgid "Retinex - Transmission median"
+msgid "Retinex - Transmission Median"
 msgstr "Retinex - Medián přenosu"
 
 #: HISTORY_MSG_418
@@ -2559,13 +2560,80 @@ msgstr "Retinex - Základní log"
 msgid "Retinex - Hue equalizer"
 msgstr "Retinex - Korekce odstínu"
 
+#: HISTORY_MSG_427
+msgid "Output rendering intent"
+msgstr "Výstupní záměr reprodukce"
+
+#: HISTORY_MSG_428
+msgid "Monitor rendering intent"
+msgstr "Záměr reprodukce monitoru"
+
+#: HISTORY_MSG_429
+msgid "Retinex - Iterations"
+msgstr "Retinex - Průchody"
+
 #: HISTORY_MSG_43
 msgid "Exposure - Tone curve 2 mode"
 msgstr "Expozice - Tónová křivka - mód 2"
 
+#: HISTORY_MSG_430
+msgid "Retinex - Transmission Gradient"
+msgstr "Retinex - Přenos gradientu"
+
+#: HISTORY_MSG_431
+msgid "Retinex - Strength Gradient"
+msgstr "Retinex - Síla gradientu"
+
+#: HISTORY_MSG_432
+msgid "Retinex - M - Highlights"
+msgstr "Retinex - M - Světla"
+
+#: HISTORY_MSG_433
+#, fuzzy
+msgid "Retinex - M - Highlights TW"
+msgstr "Retinex - Sousední"
+
+#: HISTORY_MSG_434
+msgid "Retinex - M - Shadows"
+msgstr "Retinex - Stíny"
+
+#: HISTORY_MSG_435
+#, fuzzy
+msgid "Retinex - M - Shadows TW"
+msgstr "Retinex - Metoda"
+
+#: HISTORY_MSG_436
+msgid "Retinex - M - Radius"
+msgstr "Retinex - M - poloměr"
+
+#: HISTORY_MSG_437
+msgid "Retinex - M - Method"
+msgstr "Retinex - M - Metoda"
+
+#: HISTORY_MSG_438
+#, fuzzy
+msgid "Retinex - M - Equalizer"
+msgstr "Retinex - Korekce odstínu"
+
+#: HISTORY_MSG_439
+msgid "Retinex - Process"
+msgstr "Retinex - Zpracování"
+
 #: HISTORY_MSG_44
 msgid "Lum. denoising radius"
 msgstr "Poloměr redukce šumu v jasech"
+
+#: HISTORY_MSG_440
+msgid "CbDL - Method"
+msgstr "Metoda KdDÚ"
+
+#: HISTORY_MSG_441
+msgid "Retinex - Gain transmission"
+msgstr "Retinex - přenos zisku"
+
+#: HISTORY_MSG_442
+msgid "Retinex - Scale"
+msgstr "Retinex - Měřítko"
 
 #: HISTORY_MSG_45
 msgid "Lum. denoising edge tolerance"
@@ -3080,6 +3148,10 @@ msgstr ""
 "Editovat současný obrázek v externím editoru.\n"
 "Zkratka: <b>Ctrl+e</b>"
 
+#: MAIN_BUTTON_SENDTOEDITOR
+msgid "Edit image in external editor"
+msgstr "Upravit obrázek v externím editoru"
+
 #: MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP
 msgid ""
 "Show/hide all side panels.\n"
@@ -3460,6 +3532,10 @@ msgstr ""
 "Přepnout pohled <b>Před</b> a <b>Po</b>.\n"
 "Zkratka: <b>Shift-b</b>"
 
+#: MONITOR_PROFILE_SYSTEM
+msgid "System default"
+msgstr "Nastavení systému"
+
 #: NAVIGATOR_B
 msgid "B:"
 msgstr "B:"
@@ -3585,7 +3661,7 @@ msgstr "Redukce šumu"
 msgid "Contrast by detail levels"
 msgstr "Kontrast dle detailu úrovní"
 
-#: PARTIALPASTE_EPD,TP_WAVELET_COMPTM
+#: PARTIALPASTE_EPD,TP_RETINEX_ITERF,TP_WAVELET_COMPTM
 msgid "Tone mapping"
 msgstr "Mapování tónů"
 
@@ -3665,6 +3741,10 @@ msgstr "Viněta"
 msgid "Perspective"
 msgstr "Perspektiva"
 
+#: PARTIALPASTE_PRSHARPENING
+msgid "Post-resize sharpening"
+msgstr "Doostření po změně velikosti"
+
 #: PARTIALPASTE_RAWCACORR_AUTO
 msgid "CA auto-correction"
 msgstr "Automatická korekce CA"
@@ -3740,7 +3820,7 @@ msgstr "Nízká"
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
 
-#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL,TP_RETINEX_VIEW_NONE
 msgid "Standard"
 msgstr "Běžná"
 
@@ -3841,10 +3921,6 @@ msgstr "Mezipaměť HaldCLUT"
 #: PREFERENCES_CLUTSDIR
 msgid "HaldCLUT directory"
 msgstr "Složka HaldCLUT"
-
-#: PREFERENCES_CMETRICINTENT
-msgid "Colorimetric intent"
-msgstr "Kolorimetrický záměr"
 
 #: PREFERENCES_CURVEBBOXPOS_ABOVE
 msgid "Above"
@@ -4254,9 +4330,13 @@ msgstr "Volby místní nabídky"
 msgid "Mini (100x115)"
 msgstr "Velmi malá (100x115)"
 
-#: PREFERENCES_MONITORICC
-msgid "Monitor color profile"
-msgstr "Barevný profil monitoru"
+#: PREFERENCES_MONINTENT
+msgid "Default monitor intent"
+msgstr "Výchozí záměr monitoru"
+
+#: PREFERENCES_MONPROFILE
+msgid "Default monitor profile"
+msgstr "Výchozí profil monitoru"
 
 #: PREFERENCES_MULTITABDUALMON
 msgid "Multiple Editor Tabs In Own Window Mode"
@@ -4399,6 +4479,14 @@ msgstr "Přidat příponu"
 #: PREFERENCES_PARSEDEXTDELHINT
 msgid "Delete selected extension from the list."
 msgstr "Vymazat označenou příponu ze seznamu."
+
+#: PREFERENCES_PARSEDEXTDOWNHINT
+msgid "Move selected extension down in the list."
+msgstr "Vybranou příponu posunout na seznamu níže."
+
+#: PREFERENCES_PARSEDEXTUPHINT
+msgid "Move selected extension up in the list."
+msgstr "Vybranou příponu posunout na seznamu výše."
 
 #: PREFERENCES_PARSEDEXT
 msgid "Parsed Extensions"
@@ -4719,7 +4807,7 @@ msgstr "Parametry pro vložení"
 msgid "From file"
 msgstr "Ze souboru"
 
-#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_NEUTRAL,TP_WAVELET_NEUTRAL
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_WAVELET_NEUTRAL
 msgid "Neutral"
 msgstr "Neutrální"
 
@@ -5277,6 +5365,26 @@ msgstr "Korekce chromatické aberace"
 msgid "Red"
 msgstr "Červená"
 
+#: TP_CBDL_AFT
+msgid "After Black-and-White"
+msgstr "Po černobílé"
+
+#: TP_CBDL_BEF
+msgid "Before Black-and-White"
+msgstr "Před černobílou"
+
+#: TP_CBDL_METHOD_TOOLTIP
+msgid ""
+"Choose whether the Contrast by Detail Levels tool is to be positioned after "
+"the Black-and-White tool, which makes it work in L*a*b* space, or before it, "
+"which makes it work in RGB space."
+msgstr ""
+
+#: TP_CBDL_METHOD
+#, fuzzy
+msgid "Process located"
+msgstr "Zpracování"
+
 #: TP_COARSETRAF_TOOLTIP_HFLIP
 msgid "Flip horizontally."
 msgstr "Překlopit horizontálně."
@@ -5803,7 +5911,7 @@ msgstr "RGB - křivky"
 msgid "RGB - Sliders"
 msgstr "RGB - Posuvníky"
 
-#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RAWCACORR_CASTR,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
 msgid "Strength"
 msgstr "Síla"
 
@@ -5936,7 +6044,7 @@ msgstr "Y"
 msgid "Auto-selection"
 msgstr "Automatický výběr"
 
-#: TP_DEFRINGE_RADIUS,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
+#: TP_DEFRINGE_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
 msgid "Radius"
 msgstr "Poloměr"
 
@@ -6422,7 +6530,7 @@ msgstr "Zachování hran"
 msgid "Reweighting iterates"
 msgstr "Počet průchodů převážení"
 
-#: TP_EPD_SCALE,TP_RESIZE_SCALE
+#: TP_EPD_SCALE,TP_RESIZE_SCALE,TP_RETINEX_SKAL
 msgid "Scale"
 msgstr "Měřítko"
 
@@ -6491,7 +6599,7 @@ msgstr "Komprese světel"
 msgid "Shadow compression"
 msgstr "Komprese stínů"
 
-#: TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST,TP_WAVELET_COMPCONT,TP_WAVELET_CONTRA,TP_WAVELET_LEVF
+#: TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST,TP_RETINEX_VARIANCE,TP_WAVELET_COMPCONT,TP_WAVELET_CONTRA,TP_WAVELET_LEVF
 msgid "Contrast"
 msgstr "Kontrast"
 
@@ -6528,6 +6636,20 @@ msgstr "Běžný vážený"
 #: TP_EXPOS_WHITEPOINT_LABEL
 msgid "Raw White Points"
 msgstr "Raw bílé body"
+
+#: TP_FILMSIMULATION_SLOWPARSEDIR
+msgid ""
+"RawTherapee is configured to look for Hald CLUT images, which are used for "
+"the Film Simulation tool, in a folder which is taking too long to load.\n"
+"Go to Preferences > Image Processing > Film Simulation\n"
+"to see which folder is being used. You should either point RawTherapee to a "
+"folder which contains only Hald CLUT images and nothing more, or to an empty "
+"folder if you don't want to use the Film Simulation tool.\n"
+"\n"
+"Read the Film Simulation article in RawPedia for more information.\n"
+"\n"
+"Do you want to cancel the scan now?"
+msgstr ""
 
 #: TP_FILMSIMULATION_ZEROCLUTSFOUND
 msgid "Set HaldCLUT directory in Preferences"
@@ -6812,6 +6934,10 @@ msgstr "Bez ICM: sRGB výstup"
 #: TP_ICM_OUTPUTPROFILE
 msgid "Output Profile"
 msgstr "Výstupní barevný prostor"
+
+#: TP_ICM_PROFILEINTENT
+msgid "Rendering Intent"
+msgstr "Záměr reprodukce"
 
 #: TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP
 msgid ""
@@ -7238,6 +7364,10 @@ msgstr "Histogram korekce L*a*b*"
 msgid "Hue equalizer"
 msgstr "Korekce odstínu"
 
+#: TP_RETINEX_CONTEDIT_MAP
+msgid "Mask equalizer"
+msgstr "Korekce masky"
+
 #: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
 msgid ""
 "Luminance according to luminance L=f(L)\n"
@@ -7246,7 +7376,7 @@ msgstr ""
 "Jas dle jasu L=f(L).\n"
 "Upraví raw data pro snížení výskytu halo efektu a vzniku artefaktů."
 
-#: TP_RETINEX_CURVEEDITOR_CD
+#: TP_RETINEX_CURVEEDITOR_CD,TP_RETINEX_CURVEEDITOR_MAP
 msgid "L=f(L)"
 msgstr "L=f(L)"
 
@@ -7263,6 +7393,16 @@ msgstr ""
 msgid "Strength=f(H)"
 msgstr "Síla=f(O)"
 
+#: TP_RETINEX_CURVEEDITOR_MAP_TOOLTIP
+msgid ""
+"This curve can be applied alone or with a Gaussian mask or wavelet mask.\n"
+"Beware of artifacts!"
+msgstr ""
+
+#: TP_RETINEX_GAINOFFS
+msgid "Gain and Offset (brightness)"
+msgstr "Zisk a posun (jasu)"
+
 #: TP_RETINEX_GAIN_TOOLTIP
 msgid ""
 "Acts on the restored image.\n"
@@ -7274,6 +7414,21 @@ msgstr ""
 "\n"
 "Toto je velmi odlišné od ostatních nastavení. Použito pro černé nebo bílé "
 "pixely a pro vyvážení histogramu."
+
+#: TP_RETINEX_GAINTRANSMISSION_TOOLTIP
+#, fuzzy
+msgid ""
+"Amplify or reduce transmission map to achieve luminance.\n"
+"Abscissa: transmission -min from 0, mean, and values (max).\n"
+"Ordinate: gain."
+msgstr ""
+"Přenos podle přenosu.\n"
+"Úsečka: přenos z negativních hodnot (min), průměru a kladných hodnot (max).\n"
+"Pořadnice: zesílení nebo zeslabení."
+
+#: TP_RETINEX_GAINTRANSMISSION
+msgid "Gain transmission"
+msgstr "Přenos zisku"
 
 #: TP_RETINEX_GAIN
 msgid "Gain"
@@ -7294,6 +7449,27 @@ msgid ""
 msgstr ""
 "Obnoví tóny aplikováním gamy před a po Retinex. To je odlišné od Retinex "
 "křivek nebo ostatních křivek (Lab, Expozice, atd.)"
+
+#: TP_RETINEX_GRADS_TOOLTIP
+msgid ""
+"If slider at 0, all iterations are identical.\n"
+"If > 0 Strength is reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_GRADS
+msgid "Strength gradient"
+msgstr "Gradient síly"
+
+#: TP_RETINEX_GRAD_TOOLTIP
+msgid ""
+"If slider at 0, all iterations are identical.\n"
+"If > 0 Variance and Threshold are reduced when iterations increase, and "
+"conversely."
+msgstr ""
+
+#: TP_RETINEX_GRAD
+msgid "Transmission gradient"
+msgstr "Přenos gradientu"
 
 #: TP_RETINEX_HIGHLIGHT_TOOLTIP
 msgid ""
@@ -7326,20 +7502,66 @@ msgstr "HSV - Lineární"
 msgid "HSL-Logarithmic"
 msgstr "HSV - Logaritmická"
 
+#: TP_RETINEX_ITER_TOOLTIP
+msgid ""
+"Simulate a tone-mapping operator.\n"
+"High values increase the processing time."
+msgstr ""
+
+#: TP_RETINEX_ITER
+msgid "Iterations (Tone-mapping)"
+msgstr "Průchody (Mapování tónů)"
+
+#: TP_RETINEX_LABEL_MASK,TP_RETINEX_VIEW_MASK
+msgid "Mask"
+msgstr "Maska"
+
 #: TP_RETINEX_LOW
 msgctxt "TP_RETINEX_LOW"
 msgid "Low"
 msgstr "Slabé"
+
+#: TP_RETINEX_MAP_GAUS
+msgid "Gaussian mask"
+msgstr "Gausova maska"
+
+#: TP_RETINEX_MAP_MAPP
+msgid "Sharp mask (wavelet partial)"
+msgstr "Ostrá maska (částečná vlnka)"
+
+#: TP_RETINEX_MAP_MAPT
+msgid "Sharp mask (wavelet total)"
+msgstr "Ostrá maska (kompletní vlnka)"
+
+#: TP_RETINEX_MAP_METHOD_TOOLTIP
+msgid ""
+"Use the mask generated by the Gaussian function above (Radius, Method) to "
+"reduce halos and artifacts.\n"
+"\n"
+"Curve only: apply a diagonal contrast curve on the mask.\n"
+"Beware of artifacts!\n"
+"\n"
+"Gaussian mask: generate and use a Gaussian blur of the original mask.\n"
+"Quick.\n"
+"\n"
+"Sharp mask: generate and use a wavelet on the original mask.\n"
+"Slow."
+msgstr ""
+
+#: TP_RETINEX_MAP
+msgid "Mask method"
+msgstr "Metoda masky"
 
 #: TP_RETINEX_MEDIAN
 msgid "Transmission median filter"
 msgstr "Přenos filtru mediánu"
 
 #: TP_RETINEX_METHOD_TOOLTIP
+#, fuzzy
 msgid ""
-"Low = Reinforce low light,\n"
-"Uniform = Equalize action,\n"
-"High = Reinforce high light,\n"
+"Low = Reinforce low light.\n"
+"Uniform = Equalize action.\n"
+"High = Reinforce high light.\n"
 "Highlights = Remove magenta in highlights."
 msgstr ""
 "Slabé = Posílí slabé světlo,\n"
@@ -7359,17 +7581,23 @@ msgstr ""
 msgid "Restored haze-free Min=%1 Max=%2"
 msgstr "Obnovený bez závoje Min=%1 Max=%2"
 
-#: TP_RETINEX_NEIGHBOR,TP_WAVELET_NPTYPE
-msgid "Neighboring pixels"
-msgstr "Sousední pixely"
-
 #: TP_RETINEX_NEUTRAL_TIP
 msgid "Reset all sliders and curves to their default values."
 msgstr "Obnoví původní hodnoty u všech posuvníků a křivek."
 
 #: TP_RETINEX_OFFSET
-msgid "Offset"
-msgstr "Posun"
+msgid "Offset (brightness)"
+msgstr "Posun (jasu)"
+
+#: TP_RETINEX_SCALES_TOOLTIP
+msgid ""
+"If slider at 0, all iterations are identical.\n"
+"If > 0 Scale and radius are reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_SCALES
+msgid "Gaussian gradient"
+msgstr "Gausův gradient"
 
 #: TP_RETINEX_SETTINGS
 msgid "Settings"
@@ -7386,10 +7614,11 @@ msgstr ""
 "Výstup = gauss obrázku."
 
 #: TP_RETINEX_TLABEL_TOOLTIP
+#, fuzzy
 msgid ""
 "Transmission map result.\n"
 "Min and Max are used by Variance.\n"
-"Mean and Sigma\n"
+"Mean and Sigma.\n"
 "Tm=Min TM=Max of transmission map."
 msgstr ""
 "Výsledek Mapy přenosu .\n"
@@ -7404,6 +7633,10 @@ msgstr "TM Min=%1 Max=%2 Průměr=%3 Sigma=%4"
 #: TP_RETINEX_TLABEL2
 msgid "TM Tm=%1 TM=%2"
 msgstr "TM Tm=%1 TM=%2"
+
+#: TP_RETINEX_TRANF
+msgid "Transmission"
+msgstr "Přenos"
 
 #: TP_RETINEX_TRANSMISSION_TOOLTIP
 msgid ""
@@ -7432,9 +7665,33 @@ msgstr ""
 "Nízká odchylka zvyšuje místní kontrast a nasycení, ale může vést ke vzniku "
 "artefaktů."
 
-#: TP_RETINEX_VARIANCE
-msgid "Variance"
-msgstr "Odchylka"
+#: TP_RETINEX_VIEW_METHOD_TOOLTIP
+msgid ""
+"Standard - Normal display.\n"
+"Mask -  Displays the mask.\n"
+"Unsharp mask - Displays the image with a high radius unsharp mask.\n"
+"Transmission - Auto/Fixed - Displays the file transmission-map, before any "
+"action on contrast and brightness.\n"
+"\n"
+"Attention: the mask does not correspond to reality, but is amplified to make "
+"it more visible."
+msgstr ""
+
+#: TP_RETINEX_VIEW,TP_WAVELET_PROC
+msgid "Process"
+msgstr "Zpracování"
+
+#: TP_RETINEX_VIEW_TRAN
+msgid "Transmission - Auto"
+msgstr "Přenos - Automatický"
+
+#: TP_RETINEX_VIEW_TRAN2
+msgid "Transmission - Fixed"
+msgstr "Přenos - Pevný"
+
+#: TP_RETINEX_VIEW_UNSHARP
+msgid "Unsharp mask"
+msgstr "Maskování rozostření"
 
 #: TP_RGBCURVES_BLUE
 msgid "B"
@@ -8069,6 +8326,10 @@ msgstr ""
 "Tento algoritmus zkoumá blízkost pixelu a jeho osmi sousedů. V případě "
 "menšího rozdílu je hrana zesílena."
 
+#: TP_WAVELET_NPTYPE
+msgid "Neighboring pixels"
+msgstr "Sousední pixely"
+
 #: TP_WAVELET_OPACITYWL_TOOLTIP
 msgid ""
 "Modify the final local contrast at the end of the wavelet treatment.\n"
@@ -8096,10 +8357,6 @@ msgstr "Neprůhlednost modrá-žlutá"
 #: TP_WAVELET_PASTEL
 msgid "Pastel chroma"
 msgstr "Barevnost pastelů"
-
-#: TP_WAVELET_PROC
-msgid "Process"
-msgstr "Zpracování"
 
 #: TP_WAVELET_RESID
 msgid "Residual Image"
@@ -8472,6 +8729,24 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Rename file \"%1\" to:"
+#~ msgstr "Přejmenovat soubor \"%1\" na:"
+
+#~ msgid "W - ES - Local contrast curve"
+#~ msgstr "Vlnka - DH - Křivka místního kontrastu"
+
+#~ msgid "Retinex - Variance"
+#~ msgstr "Retinex - odchylka"
+
+#~ msgid "Monitor color profile"
+#~ msgstr "Barevný profil monitoru"
+
+#~ msgid "Offset"
+#~ msgstr "Posun"
+
+#~ msgid "Variance"
+#~ msgstr "Odchylka"
 
 #~ msgid ""
 #~ "Best compression: 4:1:1\n"
@@ -9096,9 +9371,6 @@ msgstr "(100%)"
 
 #~ msgid "Edge Stopping"
 #~ msgstr "Míra zachování hran"
-
-#~ msgid "Reweighting Iterates"
-#~ msgstr "Počet průchodů převážení"
 
 #~ msgid "Red and Skin Tones Protection"
 #~ msgstr "Ochrana červených a pleťových tónů"
