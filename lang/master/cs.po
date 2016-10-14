@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2016-07-21 21:41+0200\n"
-"PO-Revision-Date: 2016-07-21 22:03+0100\n"
+"POT-Creation-Date: 2016-10-11 22:52+0200\n"
+"PO-Revision-Date: 2016-10-11 23:04+0100\n"
 "Last-Translator: Marián Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -395,13 +395,13 @@ msgstr "Zpracování fronty"
 msgid "Add/Del templates..."
 msgstr "Přidat/Smazat šablony..."
 
+#: FILEBROWSER_APPLYPROFILE,GENERAL_APPLY
+msgid "Apply"
+msgstr "Použít"
+
 #: FILEBROWSER_APPLYPROFILE_PARTIAL
 msgid "Apply - partial"
 msgstr "Aplikovat - částečně"
-
-#: FILEBROWSER_APPLYPROFILE
-msgid "Apply"
-msgstr "Použít"
 
 #: FILEBROWSER_AUTODARKFRAME
 msgid "Auto dark-frame"
@@ -603,13 +603,13 @@ msgstr "Přesunout na začátek fronty"
 msgid "Move to..."
 msgstr "Přesunout do..."
 
+#: FILEBROWSER_POPUPOPEN,GENERAL_OPEN
+msgid "Open"
+msgstr "Otevřít"
+
 #: FILEBROWSER_POPUPOPENINEDITOR
 msgid "Open in Editor"
 msgstr "Otevřít v editoru"
-
-#: FILEBROWSER_POPUPOPEN
-msgid "Open"
-msgstr "Otevřít"
 
 #: FILEBROWSER_POPUPPROCESSFAST
 msgid "Put to queue (Fast export)"
@@ -1393,7 +1393,7 @@ msgid "Microcontrast"
 msgstr "Mikrokontrast"
 
 #: HISTORY_MSG_149
-msgid "Microcontrast - 3x3 matrix"
+msgid "Microcontrast - 3×3 matrix"
 msgstr "Mikrokontrast - Matice 3×3"
 
 #: HISTORY_MSG_15
@@ -4573,8 +4573,14 @@ msgstr ""
 "nastaveno na \"0\". Čím více vláken běží paralelně, tím rychlejší je "
 "výpočet. Paměťové nároky najdete na RawPedii."
 
+#: PREFERENCES_SELECTFONT_COLPICKER
+#, fuzzy
+msgid "Select Color Picker's font"
+msgstr "Vybrat složku s barevnými profily..."
+
 #: PREFERENCES_SELECTFONT
-msgid "Select font"
+#, fuzzy
+msgid "Select global font"
 msgstr "Vybrat písmo"
 
 #: PREFERENCES_SELECTLANG
@@ -5041,6 +5047,18 @@ msgstr "Nahoře vpravo"
 #: THRESHOLDSELECTOR_T
 msgid "Top"
 msgstr "Nahoře"
+
+#: TOOLBAR_TOOLTIP_COLORPICKER
+msgid ""
+"Lockable Color Picker\n"
+"\n"
+"When enabled:\n"
+"Click in the preview with left mouse button to add a color picker\n"
+"Drag it around while pressing the left mouse button\n"
+"Delete the color picker with a right mouse button click\n"
+"Delete all color pickers with Shift + Right mouse button click\n"
+"Right click away from any color picker to go back to the Hand tool"
+msgstr ""
 
 #: TOOLBAR_TOOLTIP_CROP
 msgid ""
@@ -6293,19 +6311,20 @@ msgstr ""
 "redukce šumu."
 
 #: TP_DIRPYRDENOISE_MET_TOOLTIP
+#, fuzzy
 msgid ""
-"Apply a median filter of the desired size. The larger the size, the longer "
-"it takes.\n"
+"Apply a median filter of the desired window size. The larger the window's "
+"size, the longer it takes.\n"
 "\n"
-"3x3 soft: treats 5 pixels in a 1-pixel range.\n"
-"3x3: treats 9 pixels in a 1-pixel range.\n"
-"5x5 soft: treats 13 pixels in a 2-pixel range.\n"
-"5x5: treats 25 pixels in a 2-pixel range.\n"
-"7x7: treats 49 pixels in a 3-pixel range.\n"
-"9x9: treats 81 pixels in a 4-pixel range.\n"
+"3×3 soft: treats 5 pixels in a 3×3 pixel window.\n"
+"3×3: treats 9 pixels in a 3×3 pixel window.\n"
+"5×5 soft: treats 13 pixels in a 5×5 pixel window.\n"
+"5×5: treats 25 pixels in a 5×5 pixel window.\n"
+"7×7: treats 49 pixels in a 7×7 pixel window.\n"
+"9×9: treats 81 pixels in a 9×9 pixel window.\n"
 "\n"
 "Sometimes it is possible to achieve higher quality running several "
-"iterations with a small range than one iteration with a large range."
+"iterations with a smaller window size than one iteration with a larger one."
 msgstr ""
 "Aplikuje filtr medián požadované velikosti. Čím větší velikost, tím déle to "
 "trvá.\n"
@@ -6355,9 +6374,11 @@ msgstr ""
 "přesné"
 
 #: TP_DIRPYRDENOISE_PASSES_TOOLTIP
+#, fuzzy
 msgid ""
-"Applying a 3x3 median filter with three iterations often leads to better "
-"results than applying 7x7 once."
+"Applying three median filter iterations with a 3×3 window size often leads "
+"to better results than using one median filter iteration with a 7×7 window "
+"size."
 msgstr ""
 "Aplikování medián filtru 3×3 se třemi průchody často vede k lepšímu výsledku "
 "než jednou aplikovaný filtr 7×7."
@@ -6398,33 +6419,33 @@ msgstr "Vysoká"
 msgid "Slider"
 msgstr "Posuvník"
 
-#: TP_DIRPYRDENOISE_SOFT
-msgid "3x3"
-msgstr "3×3"
-
 #: TP_DIRPYRDENOISE_TILELABEL
 msgid "Tile size=%1, Center: Tx=%2  Ty=%3"
 msgstr "Velikost dlaždice=%1, Střed: Tx=%2  Ty=%3"
 
-#: TP_DIRPYRDENOISE_33
-msgid "3×3 strong"
-msgstr "3×3 silný"
+#: TP_DIRPYRDENOISE_3X3_SOFT
+msgid "3×3 soft"
+msgstr "3×3 jemný"
 
-#: TP_DIRPYRDENOISE_55SOFT
+#: TP_DIRPYRDENOISE_3X3
+msgid "3×3"
+msgstr "3×3"
+
+#: TP_DIRPYRDENOISE_5X5_SOFT
+msgid "5×5 soft"
+msgstr "5×5 jemný"
+
+#: TP_DIRPYRDENOISE_5X5
 msgid "5×5"
 msgstr "5×5"
 
-#: TP_DIRPYRDENOISE_55
-msgid "5×5 strong"
-msgstr "5×5 silný"
+#: TP_DIRPYRDENOISE_7X7
+msgid "7×7"
+msgstr "7×7"
 
-#: TP_DIRPYRDENOISE_77
-msgid "7×7 (slow)"
-msgstr "7×7 (pomalý)"
-
-#: TP_DIRPYRDENOISE_99
-msgid "9x9 (very slow)"
-msgstr "9x9 (velmi pomalé)"
+#: TP_DIRPYRDENOISE_9X9
+msgid "9×9"
+msgstr "9×9"
 
 #: TP_DIRPYREQUALIZER_ALGO_TOOLTIP
 msgid ""
@@ -7614,7 +7635,6 @@ msgstr ""
 "Výstup = gauss obrázku."
 
 #: TP_RETINEX_TLABEL_TOOLTIP
-#, fuzzy
 msgid ""
 "Transmission map result.\n"
 "Min and Max are used by Variance.\n"
@@ -7624,7 +7644,7 @@ msgstr ""
 "Výsledek Mapy přenosu .\n"
 "Min a Max jsou použity Odchylkou.\n"
 "Průměr a Sigma\n"
-"Tm=Min TM=Max Mapy přenosu."
+"Tm=Min TM=Max mapy přenosu."
 
 #: TP_RETINEX_TLABEL
 msgid "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
@@ -8730,6 +8750,15 @@ msgstr ""
 msgid "(100%)"
 msgstr "(100%)"
 
+#~ msgid "3x3"
+#~ msgstr "3×3"
+
+#~ msgid "7×7 (slow)"
+#~ msgstr "7×7 (pomalý)"
+
+#~ msgid "9x9 (very slow)"
+#~ msgstr "9x9 (velmi pomalé)"
+
 #~ msgid "Rename file \"%1\" to:"
 #~ msgstr "Přejmenovat soubor \"%1\" na:"
 
@@ -9745,9 +9774,6 @@ msgstr "(100%)"
 #~ "Pro uložení výstupního obrázku do adresáře\"<i>/home/tom/photos/"
 #~ "converted/2010-10-31</i>\", napište:\n"
 #~ "<b>%p2/converted/%d1/%f</b>"
-
-#~ msgid "Select Color Profile Directory..."
-#~ msgstr "Vybrat složku s barevnými profily..."
 
 #~ msgid "Select Color Profile of the Display..."
 #~ msgstr "Vybrat barevný profil obrazovky..."
