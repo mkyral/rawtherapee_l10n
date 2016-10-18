@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
 "POT-Creation-Date: 2016-10-18 07:27+0200\n"
-"PO-Revision-Date: 2016-10-18 07:28+0200\n"
+"PO-Revision-Date: 2016-10-18 21:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -2519,7 +2519,7 @@ msgstr "Retinex - Histogram - Lab"
 
 #: HISTORY_MSG_415
 msgid "Retinex - Transmission"
-msgstr "Retinex - přenos"
+msgstr "Retinex - Přenos"
 
 #: HISTORY_MSG_416,PARTIALPASTE_RETINEX,TP_RETINEX_LABEL
 msgid "Retinex"
@@ -2559,7 +2559,7 @@ msgstr "Retinex - Práh zachování jasů"
 
 #: HISTORY_MSG_425
 msgid "Retinex - Log base"
-msgstr "Retinex - Základní log"
+msgstr "Retinex - Základ log."
 
 #: HISTORY_MSG_426
 msgid "Retinex - Hue equalizer"
@@ -2595,15 +2595,15 @@ msgstr "Retinex - M - Světla"
 
 #: HISTORY_MSG_433
 msgid "Retinex - M - Highlights TW"
-msgstr "Retinex - M - Světla TW"
+msgstr "Retinex - M - Světla tóny"
 
 #: HISTORY_MSG_434
 msgid "Retinex - M - Shadows"
-msgstr "Retinex - Stíny"
+msgstr "Retinex - M - Stíny"
 
 #: HISTORY_MSG_435
 msgid "Retinex - M - Shadows TW"
-msgstr "Retinex - Stíny TW"
+msgstr "Retinex - M - Stíny tóny"
 
 #: HISTORY_MSG_436
 msgid "Retinex - M - Radius"
@@ -2631,7 +2631,7 @@ msgstr "Metoda KdDÚ"
 
 #: HISTORY_MSG_441
 msgid "Retinex - Gain transmission"
-msgstr "Retinex - přenos zisku"
+msgstr "Retinex - Přenos zisku"
 
 #: HISTORY_MSG_442
 msgid "Retinex - Scale"
