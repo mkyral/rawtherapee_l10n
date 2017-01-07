@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2016-10-17 20:12+0200\n"
+"POT-Creation-Date: 2016-12-26 08:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3613,7 +3613,7 @@ msgid "Having separate thumbnail size will require more processing time each tim
 msgstr ""
 
 #: PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT
-msgid "Same thumbnail height between the Editor's panel and the File Browser"
+msgid "Same thumbnail height between the Filmstrip and the File Browser"
 msgstr ""
 
 #: PREFERENCES_GIMPPATH
@@ -5110,10 +5110,6 @@ msgstr ""
 msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
 msgstr ""
 
-#: TP_DIRPYRDENOISE_ENABLED_TOOLTIP
-msgid "Can be used on raw and non-raw images.\n\nFor non-raw images noise reduction of luminance depends on the gamma of the input color profile. An sRGB gamma is assumed, thus if the image uses an input color profile of a different gamma, the effects of luminance noise reduction will differ."
-msgstr ""
-
 #: TP_DIRPYRDENOISE_ENH_TOOLTIP
 msgid "Increases noise reduction quality at the expense of a 20% processing time increase."
 msgstr ""
@@ -5162,20 +5158,12 @@ msgstr ""
 msgid "Luminance control"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_LUMAFR_TOOLTIP
-msgid "Wavelet on luminance and Fourier transform for luminance detail"
-msgstr ""
-
 #: TP_DIRPYRDENOISE_MAN,TP_DIRPYRDENOISE_MANU
 msgid "Manual"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_MEDMETHOD
 msgid "Median method"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_MED_TOOLTIP
-msgid "Enabled median denoising"
 msgstr ""
 
 #: TP_DIRPYRDENOISE_MEDTYPE
@@ -6344,10 +6332,6 @@ msgstr ""
 
 #: TP_SHARPENING_RLD
 msgid "RL Deconvolution"
-msgstr ""
-
-#: TP_SHARPENING_TOOLTIP
-msgid "Expect a slightly different effect when using with CIECAM02. If difference is observed, adjust to taste."
 msgstr ""
 
 #: TP_SHARPENING_USM
