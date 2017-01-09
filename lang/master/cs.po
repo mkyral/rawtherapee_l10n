@@ -1,10 +1,10 @@
-# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
+# Marian Kyral <mkyral@email.cz>, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2016-12-26 08:31+0100\n"
-"PO-Revision-Date: 2016-12-28 08:54+0100\n"
+"POT-Creation-Date: 2017-01-09 19:14+0100\n"
+"PO-Revision-Date: 2017-01-09 19:18+0100\n"
 "Last-Translator: Marián Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -2889,42 +2889,9 @@ msgstr "Snímky"
 msgid "Snapshot"
 msgstr "Snímek"
 
-#: IPTCPANEL_AUTHORSPOSITIONHINT
-msgid "Title of the creator or creators of the object (By-line Title)."
-msgstr "Titul/pozice autora nebo autorů obrázku (By-line Title)."
-
-#: IPTCPANEL_AUTHORSPOSITION
-msgid "Author's position"
-msgstr "Autorova pozice"
-
-#: IPTCPANEL_AUTHOR
-msgid "Author"
-msgstr "Autor"
-
-#: IPTCPANEL_CAPTIONHINT
-msgid "A textual description of the data (Caption - Abstract)."
-msgstr "Textový popis dat (Popis - Shrnutí)"
-
-#: IPTCPANEL_CAPTIONWRITERHINT
-msgid ""
-"The name of the person involved in the writing, editing or correcting the "
-"image or caption/abstract (Writer - Editor)."
-msgstr ""
-"Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
-"(Autor - Editor)"
-
-#: IPTCPANEL_CAPTIONWRITER
-msgid "Caption writer"
-msgstr "Popisovač"
-
-#: IPTCPANEL_CAPTION
-msgid "Caption"
-msgstr "Popis"
-
 #: IPTCPANEL_CATEGORYHINT
-msgid ""
-"Identifies the subject of the image in the opinion of the provider "
-"(Category)."
+#, fuzzy
+msgid "Identifies the subject of the image in the opinion of the provider."
 msgstr "Obsah obrázku dle názoru dodavatele (Kategorie)."
 
 #: IPTCPANEL_CATEGORY
@@ -2932,8 +2899,8 @@ msgid "Category"
 msgstr "Kategorie"
 
 #: IPTCPANEL_CITYHINT
-msgid "City of image origin (City)."
-msgstr "Místo vzniku obrázku (Město)."
+msgid "Enter the name of the city pictured in this image."
+msgstr ""
 
 #: IPTCPANEL_CITY
 msgid "City"
@@ -2944,44 +2911,79 @@ msgid "Copy IPTC settings to clipboard."
 msgstr "Zkopíruj IPTC nastavení do schránky."
 
 #: IPTCPANEL_COPYRIGHTHINT
-msgid "Any necessary copyright notice (Copyright Notice)."
-msgstr "Autorská práva (Copyright Notice)."
+msgid ""
+"Enter a Notice on the current owner of the Copyright for this image, such as "
+"©2008 Jane Doe."
+msgstr ""
 
 #: IPTCPANEL_COPYRIGHT
-msgid "Copyright"
+#, fuzzy
+msgid "Copyright notice"
 msgstr "Copyright"
 
 #: IPTCPANEL_COUNTRYHINT
-msgid ""
-"The name of the country/primary location where the image was created "
-"(Country - Primary Location Name)."
-msgstr "Jméno země/lokace kde byl obrázek vytvořen (Země - Lokace)."
+msgid "Enter the name of the country pictured in this image."
+msgstr ""
 
 #: IPTCPANEL_COUNTRY
 msgid "Country"
 msgstr "Země"
 
+#: IPTCPANEL_CREATORHINT
+msgid "Enter the name of the person that created this image."
+msgstr ""
+
+#: IPTCPANEL_CREATORJOBTITLEHINT
+msgid "Enter the Job Title of the person listed in the Creator field."
+msgstr ""
+
+#: IPTCPANEL_CREATORJOBTITLE
+msgid "Creator's job title"
+msgstr ""
+
+#: IPTCPANEL_CREATOR
+msgid "Creator"
+msgstr ""
+
 #: IPTCPANEL_CREDITHINT
-msgid ""
-"Identifies the provider of the image, not necessarily the owner/creator "
-"(Credit)."
-msgstr "Dodavatel obrázku, ne nutně vlastník/autor (Credit)."
+msgid "Enter who should be credited when this image is published."
+msgstr "Komu mají být připsány zásluhy při publikaci."
 
 #: IPTCPANEL_CREDIT
-msgid "Credit"
+msgid "Credit line"
 msgstr "Zásluhy"
 
 #: IPTCPANEL_DATECREATEDHINT
-msgid ""
-"The date the intellectual content of the image was created; Format: YYYYMMDD "
-"(Date Created)."
+msgid "Enter the Date the image was taken."
 msgstr ""
-"Datum kdy byl duševní obsah obrázku vytvořen; Formát: RRRRMMDD (Datum "
-"vytvoření)."
 
 #: IPTCPANEL_DATECREATED
 msgid "Date created"
 msgstr "Datum vytvoření"
+
+#: IPTCPANEL_DESCRIPTIONHINT
+msgid ""
+"Enter a \"caption\" describing the who, what, and why of what is happening "
+"in this image, this might include names of people, and/or their role in the "
+"action that is taking place within the image."
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONWRITERHINT
+#, fuzzy
+msgid ""
+"Enter the name of the person involved in writing, editing or correcting the "
+"description of the image."
+msgstr ""
+"Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
+"(Autor - Editor)"
+
+#: IPTCPANEL_DESCRIPTIONWRITER
+msgid "Description writer"
+msgstr "Popsal"
+
+#: IPTCPANEL_DESCRIPTION
+msgid "Description"
+msgstr "Popis"
 
 #: IPTCPANEL_EMBEDDEDHINT
 msgid "Reset to IPTC data embedded in the image file."
@@ -2992,9 +2994,9 @@ msgid "Embedded"
 msgstr "Uložené"
 
 #: IPTCPANEL_HEADLINEHINT
+#, fuzzy
 msgid ""
-"A publishable entry providing a synopsis of the contents of the image "
-"(Headline)."
+"Enter a brief publishable synopsis or summary of the contents of the image."
 msgstr "Zveřejnitelný krátký popis obrázku (Nadpis)."
 
 #: IPTCPANEL_HEADLINE
@@ -3003,17 +3005,19 @@ msgstr "Nadpis"
 
 #: IPTCPANEL_INSTRUCTIONSHINT
 msgid ""
-"Other editorial instructions concerning the use of the image (Special "
-"Instructions)."
-msgstr "Další instrukce vztahující se k obrázku (Speciální instrukce)."
+"Enter information about embargoes, or other restrictions not covered by the "
+"Copyright field."
+msgstr ""
 
 #: IPTCPANEL_INSTRUCTIONS
 msgid "Instructions"
 msgstr "Instrukce"
 
 #: IPTCPANEL_KEYWORDSHINT
-msgid "Used to indicate specific information retrieval words (Keywords)."
-msgstr "Jednoslovná hesla popisující obrázek (Klíčová slova)."
+msgid ""
+"Enter any number of keywords, terms or phrases used to express the subject "
+"matter in the image."
+msgstr ""
 
 #: IPTCPANEL_KEYWORDS
 msgid "Keywords"
@@ -3024,11 +3028,12 @@ msgid "Paste IPTC settings from clipboard."
 msgstr "Vložit IPTC nastavení ze schránky."
 
 #: IPTCPANEL_PROVINCEHINT
-msgid "The Province/State where the image originates (Province-State)."
-msgstr "Kraj/stát kde byl obrázek vytvořen (Kraj-Stát)."
+msgid "Enter the name of the province or state pictured in this image."
+msgstr ""
 
 #: IPTCPANEL_PROVINCE
-msgid "Province"
+#, fuzzy
+msgid "Province or state"
 msgstr "Kraj"
 
 #: IPTCPANEL_RESETHINT
@@ -3036,40 +3041,42 @@ msgid "Reset to profile default."
 msgstr "Obnovit výchozí profil."
 
 #: IPTCPANEL_SOURCEHINT
-msgid "The original owner of the intellectual content of the image (Source)."
-msgstr "Původní vlastník intelektuálního obsahu obrázku (Zdroj)."
+msgid ""
+"Enter or edit the name of a person or party who has a role in the content "
+"supply chain, such as a person or entity from whom you received this image "
+"from."
+msgstr ""
 
 #: IPTCPANEL_SOURCE
 msgid "Source"
 msgstr "Zdroj"
 
 #: IPTCPANEL_SUPPCATEGORIESHINT
-msgid "Further refines the subject of the image (Supplemental Categories)."
-msgstr "Upřesňující popis obsahu obrázku (Dodatečné kategorie)."
+msgid "Further refines the subject of the image."
+msgstr "Upřesňující popis objektu na obrázku."
 
 #: IPTCPANEL_SUPPCATEGORIES
-msgid "Suppl. categories"
+#, fuzzy
+msgid "Supplemental categories"
 msgstr "Dodat. kategorie"
 
 #: IPTCPANEL_TITLEHINT
-msgid "A shorthand reference for the image (Object Name)."
-msgstr "Zkrácený popis obrázku (Jméno obrázku)."
+msgid ""
+"Enter a short verbal and human readable name for the image, this may be the "
+"file name."
+msgstr ""
 
 #: IPTCPANEL_TITLE
 msgid "Title"
 msgstr "Titulek"
 
 #: IPTCPANEL_TRANSREFERENCEHINT
-msgid ""
-"A code representing the location of the original transmission (Original "
-"Transmission Reference)."
+msgid "Enter a number or identifier needed for workflow control or tracking."
 msgstr ""
-"Kód místa, odkud byl převzat originální obrázek (Original Transmission "
-"Reference)."
 
 #: IPTCPANEL_TRANSREFERENCE
-msgid "Trans. reference"
-msgstr "Trans. reference"
+msgid "Job ID"
+msgstr ""
 
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
@@ -3928,6 +3935,10 @@ msgstr "Mezipaměť HaldCLUT"
 msgid "HaldCLUT directory"
 msgstr "Složka HaldCLUT"
 
+#: PREFERENCES_CMMBPC
+msgid "Black point compensation"
+msgstr "Kompenzace černého bodu"
+
 #: PREFERENCES_CURVEBBOXPOS_ABOVE
 msgid "Above"
 msgstr "Nad"
@@ -4336,17 +4347,22 @@ msgstr "Volby místní nabídky"
 msgid "Mini (100x115)"
 msgstr "Velmi malá (100x115)"
 
-#: PREFERENCES_MONBPC
-msgid "Black Point Compensation for the L*a*b*->Monitor transform"
-msgstr "Kompenzace černého bodu pro převod L*a*b*->Monitor"
-
 #: PREFERENCES_MONINTENT
-msgid "Default monitor intent"
-msgstr "Výchozí záměr monitoru"
+#, fuzzy
+msgid "Default rendering intent"
+msgstr "Výstupní záměr reprodukce"
+
+#: PREFERENCES_MONITOR
+msgid "Monitor"
+msgstr "Monitor"
+
+#: PREFERENCES_MONPROFILE_WARNOSX
+msgid "Due to MacOS limitations, only sRGB is supported."
+msgstr ""
 
 #: PREFERENCES_MONPROFILE
-msgid "Default monitor profile"
-msgstr "Výchozí profil monitoru"
+msgid "Default color profile"
+msgstr "Výchozí barevný profil"
 
 #: PREFERENCES_MULTITABDUALMON
 msgid "Multiple Editor Tabs In Own Window Mode"
@@ -4518,6 +4534,10 @@ msgstr "Stejná jako v PP3"
 msgid "Preview Demosaic Method"
 msgstr "Metoda demozajkování náhledu"
 
+#: PREFERENCES_PRINTER
+msgid "Printer (Soft-Proofing)"
+msgstr ""
+
 #: PREFERENCES_PROFILEHANDLING
 msgid "Processing Profile Handling"
 msgstr "Řízení profilů zpracování"
@@ -4545,6 +4565,15 @@ msgstr "Ukládat parametry zpracování spolu se zdrojovým souborem"
 #: PREFERENCES_PROPERTY
 msgid "Property"
 msgstr "Vlastnost"
+
+#: PREFERENCES_PRTINTENT
+#, fuzzy
+msgid "Rendering intent"
+msgstr "Záměr reprodukce"
+
+#: PREFERENCES_PRTPROFILE
+msgid "Color profile"
+msgstr "Barevný profil"
 
 #: PREFERENCES_PSPATH
 msgid "Adobe Photoshop installation directory"
@@ -5032,8 +5061,8 @@ msgid ""
 "If active, indicates in grey the pixels which have out of gamut colors from "
 "the output profile."
 msgstr ""
-"Pokud je aktivní, budou pixely mimo barevnou paletu výstupního profilu"
-" označeny šedou barvou."
+"Pokud je aktivní, budou pixely mimo barevnou paletu výstupního profilu "
+"označeny šedou barvou."
 
 #: SOFTPROOF_TOOLTIP
 msgid ""
@@ -6540,15 +6569,10 @@ msgstr "Míra"
 
 #: TP_DISTORTION_AUTO_TIP
 msgid ""
-"Correct lens distortion automatically for some cameras (Micro 4/3, some "
-"compact digital cameras, etc.)."
+"Automatically corrects lens distortion in raw files by matching it against "
+"the embedded JPEG image if one exists and has had its lens disortion auto-"
+"corrected by the camera."
 msgstr ""
-"Automatická korekce zkreslení objektivu pro některé fotoaparáty (Micro 4/3, "
-"některé kompakty a jiné)."
-
-#: TP_DISTORTION_AUTO
-msgid "Auto Distortion Correction"
-msgstr "Automatická korekce zkreslení"
 
 #: TP_DISTORTION_LABEL
 msgid "Distortion Correction"
@@ -6893,8 +6917,8 @@ msgid ""
 "Enable this to fit the Luminosity channel to the output color space with a "
 "fix White Point"
 msgstr ""
-"Pokud je povoleno, je kanál svítivosti přizpůsoben výstupnímu barevnému"
-" prostoru s pevným bílým bodem"
+"Pokud je povoleno, je kanál svítivosti přizpůsoben výstupnímu barevnému "
+"prostoru s pevným bílým bodem"
 
 #: TP_ICM_BPC
 msgid "Black Point Compensation"
@@ -7014,8 +7038,8 @@ msgstr ""
 "může být použit pro kalibraci a generování profilu fotoaparátu."
 
 #: TP_ICM_SAVEREFERENCE
-msgid "Save Reference Image for Profiling"
-msgstr "Uložit referenční obrázek pro profilování"
+msgid "Save Reference Image"
+msgstr "Uložit referenční obrázek"
 
 #: TP_ICM_TONECURVE_TOOLTIP
 msgid ""
@@ -7611,8 +7635,8 @@ msgid ""
 "Sharp mask: generate and use a wavelet on the original mask.\n"
 "Slow."
 msgstr ""
-"Použít masku výše generovanou Gaussovou funkcí (Poloměr, Metoda) k "
-"omezení halo efektu a artefaktů.\n"
+"Použít masku výše generovanou Gaussovou funkcí (Poloměr, Metoda) k omezení "
+"halo efektu a artefaktů.\n"
 "\n"
 "Pouze křivka: použije na masku diagonální křivku kontrastu .\n"
 "Pozor na vznik artefaktů!\n"
@@ -7620,8 +7644,8 @@ msgstr ""
 "Gaussova maska: vygeneruje a použije gaussově rozostřenou originální masku.\n"
 "Rychlé.\n"
 "\n"
-"Ostrá maska: vygeneruje a použije vlnkovou transformaci nad originální"
-" maskou.\n"
+"Ostrá maska: vygeneruje a použije vlnkovou transformaci nad originální "
+"maskou.\n"
 "Pomalé."
 
 #: TP_RETINEX_MAP
@@ -7756,11 +7780,11 @@ msgstr ""
 "Standard - Normální displej.\n"
 "Maska - Maska displeje.\n"
 "Neostrá maska - Zobrazí obrázek s vysokým poloměrem neostré masky.\n"
-"Přenos - Automatický/Pevný - Zobrazí mapu přenosu souboru, před jakoukoli"
-" akcí s jasem a kontrastem.\n"
+"Přenos - Automatický/Pevný - Zobrazí mapu přenosu souboru, před jakoukoli "
+"akcí s jasem a kontrastem.\n"
 "\n"
-"Upozornění: maska neodpovídá realitě, ale je, pro zvýšení názornosti,"
-" zesílena."
+"Upozornění: maska neodpovídá realitě, ale je, pro zvýšení názornosti, "
+"zesílena."
 
 #: TP_RETINEX_VIEW,TP_WAVELET_PROC
 msgid "Process"
@@ -8806,6 +8830,88 @@ msgstr ""
 #: ZOOMPANEL_100
 msgid "(100%)"
 msgstr "(100%)"
+
+#~ msgid "Title of the creator or creators of the object (By-line Title)."
+#~ msgstr "Titul/pozice autora nebo autorů obrázku (By-line Title)."
+
+#~ msgid "Author's position"
+#~ msgstr "Autorova pozice"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "A textual description of the data (Caption - Abstract)."
+#~ msgstr "Textový popis dat (Popis - Shrnutí)"
+
+#~ msgid "Caption"
+#~ msgstr "Popis"
+
+#~ msgid "City of image origin (City)."
+#~ msgstr "Místo vzniku obrázku (Město)."
+
+#~ msgid "Any necessary copyright notice (Copyright Notice)."
+#~ msgstr "Autorská práva (Copyright Notice)."
+
+#~ msgid ""
+#~ "The name of the country/primary location where the image was created "
+#~ "(Country - Primary Location Name)."
+#~ msgstr "Jméno země/lokace kde byl obrázek vytvořen (Země - Lokace)."
+
+#~ msgid ""
+#~ "Identifies the provider of the image, not necessarily the owner/creator "
+#~ "(Credit)."
+#~ msgstr "Dodavatel obrázku, ne nutně vlastník/autor (Credit)."
+
+#~ msgid ""
+#~ "The date the intellectual content of the image was created; Format: "
+#~ "YYYYMMDD (Date Created)."
+#~ msgstr ""
+#~ "Datum kdy byl duševní obsah obrázku vytvořen; Formát: RRRRMMDD (Datum "
+#~ "vytvoření)."
+
+#~ msgid ""
+#~ "Other editorial instructions concerning the use of the image (Special "
+#~ "Instructions)."
+#~ msgstr "Další instrukce vztahující se k obrázku (Speciální instrukce)."
+
+#~ msgid "Used to indicate specific information retrieval words (Keywords)."
+#~ msgstr "Jednoslovná hesla popisující obrázek (Klíčová slova)."
+
+#~ msgid "The Province/State where the image originates (Province-State)."
+#~ msgstr "Kraj/stát kde byl obrázek vytvořen (Kraj-Stát)."
+
+#~ msgid ""
+#~ "The original owner of the intellectual content of the image (Source)."
+#~ msgstr "Původní vlastník intelektuálního obsahu obrázku (Zdroj)."
+
+#~ msgid "A shorthand reference for the image (Object Name)."
+#~ msgstr "Zkrácený popis obrázku (Jméno obrázku)."
+
+#~ msgid ""
+#~ "A code representing the location of the original transmission (Original "
+#~ "Transmission Reference)."
+#~ msgstr ""
+#~ "Kód místa, odkud byl převzat originální obrázek (Original Transmission "
+#~ "Reference)."
+
+#~ msgid "Trans. reference"
+#~ msgstr "Trans. reference"
+
+#~ msgid "Black Point Compensation for the L*a*b*->Monitor transform"
+#~ msgstr "Kompenzace černého bodu pro převod L*a*b*->Monitor"
+
+#~ msgid "Default monitor intent"
+#~ msgstr "Výchozí záměr monitoru"
+
+#~ msgid ""
+#~ "Correct lens distortion automatically for some cameras (Micro 4/3, some "
+#~ "compact digital cameras, etc.)."
+#~ msgstr ""
+#~ "Automatická korekce zkreslení objektivu pro některé fotoaparáty (Micro "
+#~ "4/3, některé kompakty a jiné)."
+
+#~ msgid "Auto Distortion Correction"
+#~ msgstr "Automatická korekce zkreslení"
 
 #~ msgid ""
 #~ "Can be used on raw and non-raw images.\n"

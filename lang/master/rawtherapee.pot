@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2016-12-26 08:31+0100\n"
+"POT-Creation-Date: 2017-01-09 19:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2637,36 +2637,8 @@ msgstr ""
 msgid "Snapshot"
 msgstr ""
 
-#: IPTCPANEL_AUTHORSPOSITIONHINT
-msgid "Title of the creator or creators of the object (By-line Title)."
-msgstr ""
-
-#: IPTCPANEL_AUTHORSPOSITION
-msgid "Author's position"
-msgstr ""
-
-#: IPTCPANEL_AUTHOR
-msgid "Author"
-msgstr ""
-
-#: IPTCPANEL_CAPTIONHINT
-msgid "A textual description of the data (Caption - Abstract)."
-msgstr ""
-
-#: IPTCPANEL_CAPTIONWRITERHINT
-msgid "The name of the person involved in the writing, editing or correcting the image or caption/abstract (Writer - Editor)."
-msgstr ""
-
-#: IPTCPANEL_CAPTIONWRITER
-msgid "Caption writer"
-msgstr ""
-
-#: IPTCPANEL_CAPTION
-msgid "Caption"
-msgstr ""
-
 #: IPTCPANEL_CATEGORYHINT
-msgid "Identifies the subject of the image in the opinion of the provider (Category)."
+msgid "Identifies the subject of the image in the opinion of the provider."
 msgstr ""
 
 #: IPTCPANEL_CATEGORY
@@ -2674,7 +2646,7 @@ msgid "Category"
 msgstr ""
 
 #: IPTCPANEL_CITYHINT
-msgid "City of image origin (City)."
+msgid "Enter the name of the city pictured in this image."
 msgstr ""
 
 #: IPTCPANEL_CITY
@@ -2686,35 +2658,67 @@ msgid "Copy IPTC settings to clipboard."
 msgstr ""
 
 #: IPTCPANEL_COPYRIGHTHINT
-msgid "Any necessary copyright notice (Copyright Notice)."
+msgid "Enter a Notice on the current owner of the Copyright for this image, such as ©2008 Jane Doe."
 msgstr ""
 
 #: IPTCPANEL_COPYRIGHT
-msgid "Copyright"
+msgid "Copyright notice"
 msgstr ""
 
 #: IPTCPANEL_COUNTRYHINT
-msgid "The name of the country/primary location where the image was created (Country - Primary Location Name)."
+msgid "Enter the name of the country pictured in this image."
 msgstr ""
 
 #: IPTCPANEL_COUNTRY
 msgid "Country"
 msgstr ""
 
+#: IPTCPANEL_CREATORHINT
+msgid "Enter the name of the person that created this image."
+msgstr ""
+
+#: IPTCPANEL_CREATORJOBTITLEHINT
+msgid "Enter the Job Title of the person listed in the Creator field."
+msgstr ""
+
+#: IPTCPANEL_CREATORJOBTITLE
+msgid "Creator's job title"
+msgstr ""
+
+#: IPTCPANEL_CREATOR
+msgid "Creator"
+msgstr ""
+
 #: IPTCPANEL_CREDITHINT
-msgid "Identifies the provider of the image, not necessarily the owner/creator (Credit)."
+msgid "Enter who should be credited when this image is published."
 msgstr ""
 
 #: IPTCPANEL_CREDIT
-msgid "Credit"
+msgid "Credit line"
 msgstr ""
 
 #: IPTCPANEL_DATECREATEDHINT
-msgid "The date the intellectual content of the image was created; Format: YYYYMMDD (Date Created)."
+msgid "Enter the Date the image was taken."
 msgstr ""
 
 #: IPTCPANEL_DATECREATED
 msgid "Date created"
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONHINT
+msgid "Enter a \"caption\" describing the who, what, and why of what is happening in this image, this might include names of people, and/or their role in the action that is taking place within the image."
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONWRITERHINT
+msgid "Enter the name of the person involved in writing, editing or correcting the description of the image."
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONWRITER
+msgid "Description writer"
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTION
+msgid "Description"
 msgstr ""
 
 #: IPTCPANEL_EMBEDDEDHINT
@@ -2726,7 +2730,7 @@ msgid "Embedded"
 msgstr ""
 
 #: IPTCPANEL_HEADLINEHINT
-msgid "A publishable entry providing a synopsis of the contents of the image (Headline)."
+msgid "Enter a brief publishable synopsis or summary of the contents of the image."
 msgstr ""
 
 #: IPTCPANEL_HEADLINE
@@ -2734,7 +2738,7 @@ msgid "Headline"
 msgstr ""
 
 #: IPTCPANEL_INSTRUCTIONSHINT
-msgid "Other editorial instructions concerning the use of the image (Special Instructions)."
+msgid "Enter information about embargoes, or other restrictions not covered by the Copyright field."
 msgstr ""
 
 #: IPTCPANEL_INSTRUCTIONS
@@ -2742,7 +2746,7 @@ msgid "Instructions"
 msgstr ""
 
 #: IPTCPANEL_KEYWORDSHINT
-msgid "Used to indicate specific information retrieval words (Keywords)."
+msgid "Enter any number of keywords, terms or phrases used to express the subject matter in the image."
 msgstr ""
 
 #: IPTCPANEL_KEYWORDS
@@ -2754,11 +2758,11 @@ msgid "Paste IPTC settings from clipboard."
 msgstr ""
 
 #: IPTCPANEL_PROVINCEHINT
-msgid "The Province/State where the image originates (Province-State)."
+msgid "Enter the name of the province or state pictured in this image."
 msgstr ""
 
 #: IPTCPANEL_PROVINCE
-msgid "Province"
+msgid "Province or state"
 msgstr ""
 
 #: IPTCPANEL_RESETHINT
@@ -2766,7 +2770,7 @@ msgid "Reset to profile default."
 msgstr ""
 
 #: IPTCPANEL_SOURCEHINT
-msgid "The original owner of the intellectual content of the image (Source)."
+msgid "Enter or edit the name of a person or party who has a role in the content supply chain, such as a person or entity from whom you received this image from."
 msgstr ""
 
 #: IPTCPANEL_SOURCE
@@ -2774,15 +2778,15 @@ msgid "Source"
 msgstr ""
 
 #: IPTCPANEL_SUPPCATEGORIESHINT
-msgid "Further refines the subject of the image (Supplemental Categories)."
+msgid "Further refines the subject of the image."
 msgstr ""
 
 #: IPTCPANEL_SUPPCATEGORIES
-msgid "Suppl. categories"
+msgid "Supplemental categories"
 msgstr ""
 
 #: IPTCPANEL_TITLEHINT
-msgid "A shorthand reference for the image (Object Name)."
+msgid "Enter a short verbal and human readable name for the image, this may be the file name."
 msgstr ""
 
 #: IPTCPANEL_TITLE
@@ -2790,11 +2794,11 @@ msgid "Title"
 msgstr ""
 
 #: IPTCPANEL_TRANSREFERENCEHINT
-msgid "A code representing the location of the original transmission (Original Transmission Reference)."
+msgid "Enter a number or identifier needed for workflow control or tracking."
 msgstr ""
 
 #: IPTCPANEL_TRANSREFERENCE
-msgid "Trans. reference"
+msgid "Job ID"
 msgstr ""
 
 #: MAIN_BUTTON_FULLSCREEN
@@ -3428,6 +3432,10 @@ msgstr ""
 msgid "HaldCLUT directory"
 msgstr ""
 
+#: PREFERENCES_CMMBPC
+msgid "Black point compensation"
+msgstr ""
+
 #: PREFERENCES_CURVEBBOXPOS_ABOVE
 msgid "Above"
 msgstr ""
@@ -3772,16 +3780,20 @@ msgstr ""
 msgid "Mini (100x115)"
 msgstr ""
 
-#: PREFERENCES_MONBPC
-msgid "Black Point Compensation for the L*a*b*->Monitor transform"
+#: PREFERENCES_MONINTENT
+msgid "Default rendering intent"
 msgstr ""
 
-#: PREFERENCES_MONINTENT
-msgid "Default monitor intent"
+#: PREFERENCES_MONITOR
+msgid "Monitor"
+msgstr ""
+
+#: PREFERENCES_MONPROFILE_WARNOSX
+msgid "Due to MacOS limitations, only sRGB is supported."
 msgstr ""
 
 #: PREFERENCES_MONPROFILE
-msgid "Default monitor profile"
+msgid "Default color profile"
 msgstr ""
 
 #: PREFERENCES_MULTITABDUALMON
@@ -3876,6 +3888,10 @@ msgstr ""
 msgid "Preview Demosaic Method"
 msgstr ""
 
+#: PREFERENCES_PRINTER
+msgid "Printer (Soft-Proofing)"
+msgstr ""
+
 #: PREFERENCES_PROFILEHANDLING
 msgid "Processing Profile Handling"
 msgstr ""
@@ -3902,6 +3918,14 @@ msgstr ""
 
 #: PREFERENCES_PROPERTY
 msgid "Property"
+msgstr ""
+
+#: PREFERENCES_PRTINTENT
+msgid "Rendering intent"
+msgstr ""
+
+#: PREFERENCES_PRTPROFILE
+msgid "Color profile"
 msgstr ""
 
 #: PREFERENCES_PSPATH
@@ -5327,11 +5351,7 @@ msgid "Amount"
 msgstr ""
 
 #: TP_DISTORTION_AUTO_TIP
-msgid "Correct lens distortion automatically for some cameras (Micro 4/3, some compact digital cameras, etc.)."
-msgstr ""
-
-#: TP_DISTORTION_AUTO
-msgid "Auto Distortion Correction"
+msgid "Automatically corrects lens distortion in raw files by matching it against the embedded JPEG image if one exists and has had its lens disortion auto-corrected by the camera."
 msgstr ""
 
 #: TP_DISTORTION_LABEL
@@ -5689,7 +5709,7 @@ msgid "Save the linear TIFF image before the input profile is applied. The resul
 msgstr ""
 
 #: TP_ICM_SAVEREFERENCE
-msgid "Save Reference Image for Profiling"
+msgid "Save Reference Image"
 msgstr ""
 
 #: TP_ICM_TONECURVE_TOOLTIP
