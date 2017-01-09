@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-01-09 19:14+0100\n"
+"POT-Creation-Date: 2017-01-09 20:29+0100\n"
 "PO-Revision-Date: 2017-01-09 19:18+0100\n"
-"Last-Translator: Marián Kyral <mkyral@email.cz>\n"
+"Last-Translator: \n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf8\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ABOUT_TAB_BUILD
@@ -1097,7 +1097,7 @@ msgstr "Na šířku"
 msgid "n/a"
 msgstr "n/a"
 
-#: GENERAL_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_RETINEX_GAMMA_NONE,TP_RETINEX_MAP_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
+#: GENERAL_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr "Nic"
 
@@ -1903,7 +1903,7 @@ msgstr "Barevné tónování - Světla - červená"
 
 #: HISTORY_MSG_27
 msgid "USM - Halo control"
-msgstr "Doostření - Omezení haló art."
+msgstr "Doostření - Omezení halo efektu"
 
 #: HISTORY_MSG_270
 msgid "CT - High - Green"
@@ -1943,7 +1943,7 @@ msgstr "Barevné tónování - Stíny"
 
 #: HISTORY_MSG_28
 msgid "USM - Halo control amount"
-msgstr "Doostření - Míra omezení haló art."
+msgstr "Doostření - Míra omezení halo efektu"
 
 #: HISTORY_MSG_280
 msgid "CT - Highlights"
@@ -2355,11 +2355,11 @@ msgstr "Doostření MR - Tolerance hran"
 
 #: HISTORY_MSG_378
 msgid "PRS USM - Halo control"
-msgstr "Doostření MR - Omezení haló art."
+msgstr "Doostření MR - Omezení halo efektu"
 
 #: HISTORY_MSG_379
 msgid "PRS USM - Halo control amount"
-msgstr "Doostření MR - Míra omezení haló art."
+msgstr "Doostření MR - Míra omezení halo efektu"
 
 #: HISTORY_MSG_38
 msgid "White Balance - Method"
@@ -2519,7 +2519,7 @@ msgstr "Retinex - Histogram - Lab"
 
 #: HISTORY_MSG_415
 msgid "Retinex - Transmission"
-msgstr "Retinex - přenos"
+msgstr "Retinex - Přenos"
 
 #: HISTORY_MSG_416,PARTIALPASTE_RETINEX,TP_RETINEX_LABEL
 msgid "Retinex"
@@ -2559,7 +2559,7 @@ msgstr "Retinex - Práh zachování jasů"
 
 #: HISTORY_MSG_425
 msgid "Retinex - Log base"
-msgstr "Retinex - Základní log"
+msgstr "Retinex - Základ log."
 
 #: HISTORY_MSG_426
 msgid "Retinex - Hue equalizer"
@@ -2595,15 +2595,15 @@ msgstr "Retinex - M - Světla"
 
 #: HISTORY_MSG_433
 msgid "Retinex - M - Highlights TW"
-msgstr "Retinex - M - Světla TW"
+msgstr "Retinex - M - Světla tóny"
 
 #: HISTORY_MSG_434
 msgid "Retinex - M - Shadows"
-msgstr "Retinex - Stíny"
+msgstr "Retinex - M - Stíny"
 
 #: HISTORY_MSG_435
 msgid "Retinex - M - Shadows TW"
-msgstr "Retinex - Stíny TW"
+msgstr "Retinex - M - Stíny tóny"
 
 #: HISTORY_MSG_436
 msgid "Retinex - M - Radius"
@@ -2631,7 +2631,7 @@ msgstr "Metoda KdDÚ"
 
 #: HISTORY_MSG_441
 msgid "Retinex - Gain transmission"
-msgstr "Retinex - přenos zisku"
+msgstr "Retinex - Přenos zisku"
 
 #: HISTORY_MSG_442
 msgid "Retinex - Scale"
@@ -2639,7 +2639,7 @@ msgstr "Retinex - Měřítko"
 
 #: HISTORY_MSG_443
 msgid "Output Black Point Compensation"
-msgstr "Výstupní kompenzace černého bodu"
+msgstr "Kompenzace výstupního černého bodu"
 
 #: HISTORY_MSG_45
 msgid "Lum. denoising edge tolerance"
@@ -3833,7 +3833,7 @@ msgstr "Nízká"
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
 
-#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL,TP_RETINEX_VIEW_NONE
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
 msgid "Standard"
 msgstr "Běžná"
 
@@ -7522,6 +7522,11 @@ msgstr "Volná"
 msgid "Middle"
 msgstr "Střední"
 
+#: TP_RETINEX_GAMMA_NONE
+msgctxt "TP_RETINEX_GAMMA_NONE"
+msgid "None"
+msgstr "Žádná"
+
 #: TP_RETINEX_GAMMA_TOOLTIP
 msgid ""
 "Restore tones by applying gamma before and after Retinex. Different from "
@@ -7647,6 +7652,11 @@ msgstr ""
 "Ostrá maska: vygeneruje a použije vlnkovou transformaci nad originální "
 "maskou.\n"
 "Pomalé."
+
+#: TP_RETINEX_MAP_NONE
+msgctxt "TP_RETINEX_MAP_NONE"
+msgid "None"
+msgstr "Žádná"
 
 #: TP_RETINEX_MAP
 msgid "Mask method"
@@ -7786,6 +7796,11 @@ msgstr ""
 "Upozornění: maska neodpovídá realitě, ale je, pro zvýšení názornosti, "
 "zesílena."
 
+#: TP_RETINEX_VIEW_NONE
+msgctxt "TP_RETINEX_VIEW_NONE"
+msgid "Standard"
+msgstr "Běžné"
+
 #: TP_RETINEX_VIEW,TP_WAVELET_PROC
 msgid "Process"
 msgstr "Zpracování"
@@ -7876,7 +7891,7 @@ msgstr "Tolerance k hranám"
 
 #: TP_SHARPENING_HALOCONTROL
 msgid "Halo control"
-msgstr "Omezení haló artefatů"
+msgstr "Omezení halo efektu"
 
 #: TP_SHARPENING_ONLYEDGES
 msgid "Sharpen only edges"

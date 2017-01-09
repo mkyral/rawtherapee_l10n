@@ -138,7 +138,9 @@ then
 fi
 
 # sort the output
-LANG=C sort -Vu $tmp_rt_file >>$new_rt_file
+# LANG=C sort -Vu $tmp_rt_file >>$new_rt_file
+LANG=C sort -Vu -t ';' --key=1,1  $tmp_rt_file >>$new_rt_file
+
 
 # Cleanup
 rm $tmp_rt_file
