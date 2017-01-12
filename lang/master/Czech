@@ -35,7 +35,7 @@
 #34 2015-07-09 updated by mkyral
 #35 2015-11-24 updated by mkyral
 #36 2016-10-18 updated by mkyral
-#37 2017-01-09 updated by mkyral
+#37 2017-01-10 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -129,7 +129,7 @@ FILEBROWSER_AUTODARKFRAME;Automatický tmavý snímek
 FILEBROWSER_AUTOFLATFIELD;Auto Flat Field
 FILEBROWSER_BROWSEPATHBUTTONHINT;Klikněte pro výběr cesty.
 FILEBROWSER_BROWSEPATHHINT;Vložte cestu pro procházení.\n\nKlávesové zkratky:\n<b>Ctrl-o</b> pro přepnutí do adresního řádku.\n<b>Enter</b>/ <b>Ctrl-Enter</b> pro procházení ;\n<b>Esc</b> pro zrušení změn.\n<b>Shift-Esc</b> pro zrušení přepnutí.\n\nZkratky pro cesty:\n<b>~</b>\t- domácí složka uživatele.\n<b>!</b>\t- složka s obrázky uživatele.
-FILEBROWSER_CACHE;Metipaměť
+FILEBROWSER_CACHE;Mezipaměť
 FILEBROWSER_CACHECLEARFROMFULL;Vymazat z mezipaměti - úplně
 FILEBROWSER_CACHECLEARFROMPARTIAL;Vymazat z mezipaměti - částečně
 FILEBROWSER_CLEARPROFILE;Smazat
@@ -204,7 +204,7 @@ FILEBROWSER_SHOWEDITEDHINT;Ukázat upravené obrázky.\nZkratka: <b>7</b>
 FILEBROWSER_SHOWEDITEDNOTHINT;Ukázat neupravené obrázky.\nZkratka: <b>6</b>
 FILEBROWSER_SHOWEXIFINFO;Zobrazit Exif informace.\n\nZkratky:\n<b>i</b> - režim více karet editoru,\n<b>Alt-i</b> - režim jedné karty editoru.
 FILEBROWSER_SHOWNOTTRASHHINT;Zobrazit pouze nesmazané obrázky.
-FILEBROWSER_SHOWORIGINALHINT;Zobrazí pouze originální  obrázky.\n\nPokud existuje několik obrázků se stejným názvem, ale rozdílnými příponami, bude jako originál vybrán ten, jehož přípona je nejvýše v seznamu příponve Volby > Prohlížeč souborů > Analyzované přípony.
+FILEBROWSER_SHOWORIGINALHINT;Zobrazí pouze originální  obrázky.\n\nPokud existuje několik obrázků se stejným názvem, ale rozdílnými příponami, bude jako originál vybrán ten, jehož přípona je nejvýše v seznamu přípon veVolby > Prohlížeč souborů > Analyzované přípony.
 FILEBROWSER_SHOWRANK1HINT;Ukázat obrázky hodnocené jednou hvězdičkou.\nZkratka: <b>1</b>
 FILEBROWSER_SHOWRANK2HINT;Ukázat obrázky hodnocené dvěma hvězdičkami.\nZkratka: <b>2</b>
 FILEBROWSER_SHOWRANK3HINT;Ukázat obrázky hodnocené třemi hvězdičkami.\nZkratka: <b>3</b>
@@ -661,11 +661,11 @@ HISTORY_MSG_392;Vlnka - Zůstatek - VB vrátit
 HISTORY_MSG_393;DCP - tabulka vzhledu
 HISTORY_MSG_394;DCP - základní expozice
 HISTORY_MSG_395;DCP - základní tabulka
-HISTORY_MSG_396;Vlnka - Kontrast 
-HISTORY_MSG_397;Vlnka - Barevnost 
+HISTORY_MSG_396;Vlnka - Kontrast
+HISTORY_MSG_397;Vlnka - Barevnost
 HISTORY_MSG_398;Vlnka - Doostření hran
 HISTORY_MSG_399;Vlnka - Zůstatek
-HISTORY_MSG_400;Vlnka - Dokončení 
+HISTORY_MSG_400;Vlnka - Dokončení
 HISTORY_MSG_401;Vlnka - Tónování
 HISTORY_MSG_402;Vlnka - Odšumění
 HISTORY_MSG_403;Vlnka - DH - Citlivost detekce hran
@@ -714,31 +714,47 @@ HISTORY_NEWSNAPSHOT_TOOLTIP;Zkratka: <b>Alt-s</b>
 HISTORY_SNAPSHOT;Snímek
 HISTORY_SNAPSHOTS;Snímky
 IPTCPANEL_CATEGORY;Kategorie
-IPTCPANEL_CATEGORYHINT;Obsah obrázku dle názoru dodavatele (Kategorie).
+IPTCPANEL_CATEGORYHINT;Identifikuje předmět obrázku dle názoru dodavatele.
 IPTCPANEL_CITY;Město
+IPTCPANEL_CITYHINT;Vložte jméno města, které je na na fotografii.
 IPTCPANEL_COPYHINT;Zkopíruj IPTC nastavení do schránky.
-IPTCPANEL_COPYRIGHT;Copyright
+IPTCPANEL_COPYRIGHT;Autorská práva
+IPTCPANEL_COPYRIGHTHINT;Zadejte text upozorňující na autorská práva k obrázku, například: ©2008 Jane Doe.
 IPTCPANEL_COUNTRY;Země
+IPTCPANEL_COUNTRYHINT;Vložte jméno země, která je na na fotografii.
+IPTCPANEL_CREATOR;Vytvořil
+IPTCPANEL_CREATORHINT;Vložte jméno osoby, která tuto fotografii pořídila.
+IPTCPANEL_CREATORJOBTITLE;Pracovní pozice autora
+IPTCPANEL_CREATORJOBTITLEHINT;Vložte pracovní pozici osoby, která je zapsána v poli Vytvořil.
 IPTCPANEL_CREDIT;Zásluhy
 IPTCPANEL_CREDITHINT;Komu mají být připsány zásluhy při publikaci.
 IPTCPANEL_DATECREATED;Datum vytvoření
+IPTCPANEL_DATECREATEDHINT;Vložte datum, kdy byla fotografie pořízena.
 IPTCPANEL_DESCRIPTION;Popis
+IPTCPANEL_DESCRIPTIONHINT;Vložte "titulek" popisující kdo, co a proč je na snímku. Toto může zahrnovat jména lidí a/nebo jejich roli v ději, který je na snímku.
 IPTCPANEL_DESCRIPTIONWRITER;Popsal
-IPTCPANEL_DESCRIPTIONWRITERHINT;Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí (Autor - Editor)
+IPTCPANEL_DESCRIPTIONWRITERHINT;Vložte jméno osoby, která vložila, změnila nebo opravila popis obrázku.
 IPTCPANEL_EMBEDDED;Uložené
 IPTCPANEL_EMBEDDEDHINT;Obnov IPTC data z obrázku.
 IPTCPANEL_HEADLINE;Nadpis
-IPTCPANEL_HEADLINEHINT;Zveřejnitelný krátký popis obrázku (Nadpis).
+IPTCPANEL_HEADLINEHINT;Vložte krátký publikovatelný popis nebo shrnutí obsahu obrázku.
 IPTCPANEL_INSTRUCTIONS;Instrukce
+IPTCPANEL_INSTRUCTIONSHINT;Vložte informace o zákazech nebo jiných omezeních, které nejsou pokryty polem Autorská práva.
 IPTCPANEL_KEYWORDS;Klíčová slova
+IPTCPANEL_KEYWORDSHINT;Vložte klíčová slova, termíny nebo fráze vyjadřující předmět na obrázku.
 IPTCPANEL_PASTEHINT;Vložit IPTC nastavení ze schránky.
-IPTCPANEL_PROVINCE;Kraj
+IPTCPANEL_PROVINCE;Kraj nebo stát
+IPTCPANEL_PROVINCEHINT;Vložte jméno kraje nebo státu, která je na na fotografii.
 IPTCPANEL_RESET;Obnovit
 IPTCPANEL_RESETHINT;Obnovit výchozí profil.
 IPTCPANEL_SOURCE;Zdroj
-IPTCPANEL_SUPPCATEGORIES;Dodat. kategorie
+IPTCPANEL_SOURCEHINT;Vložte nebo změňte jméno osoby nebo společnosti která je součástí dodavatelského řetězce, například osoba nebo entita od které jste tento obrázek získali.
+IPTCPANEL_SUPPCATEGORIES;Doplňující kategorie
 IPTCPANEL_SUPPCATEGORIESHINT;Upřesňující popis objektu na obrázku.
 IPTCPANEL_TITLE;Titulek
+IPTCPANEL_TITLEHINT;Vložte krátké, popisné a lidsky čitelné jméno obrázku. Například název souboru.
+IPTCPANEL_TRANSREFERENCE;Číslo úlohy
+IPTCPANEL_TRANSREFERENCEHINT;Zadejte číslo nebo identifikátor potřebný v pracovním postupu nebo pro sledování.
 MAIN_BUTTON_FULLSCREEN;Celá obrazovka
 MAIN_BUTTON_NAVNEXT_TOOLTIP;Přejít k dalšímu obrázku relativnímu k obrázku otevřenému v editoru.\nZkratka: <b>Shift-F4</b>\n\nPřejít k dalšímu obrázku relativnímu k vybranému náhledu v prohlížeči souborů nebo na filmovém pásu:\nZkratka: <b>F4</b>
 MAIN_BUTTON_NAVPREV_TOOLTIP;Přejít k předchozímu obrázku relativnímu k obrázku otevřenému v editoru.\nZkratka: <b>Shift-F3</b>\n\nPřejít k předchozímu obrázku relativnímu k vybranému náhledu v prohlížeči souborů nebo na filmovém pásu:\nZkratka: <b>F3</b>
@@ -1021,9 +1037,10 @@ PREFERENCES_MENUGROUPRANK;Skupina "Hodnocení"
 PREFERENCES_MENUOPTIONS;Volby místní nabídky
 PREFERENCES_METADATA;Metadata
 PREFERENCES_MIN;Velmi malá (100x115)
-PREFERENCES_MONINTENT;Výstupní záměr reprodukce
+PREFERENCES_MONINTENT;Výchozí reprodukční záměr
 PREFERENCES_MONITOR;Monitor
 PREFERENCES_MONPROFILE;Výchozí barevný profil
+PREFERENCES_MONPROFILE_WARNOSX;Na MacOS je podporováno pouze sRGB.
 PREFERENCES_MULTITAB;Mód více karet editoru
 PREFERENCES_MULTITABDUALMON;Mód více karet editoru ve vlastním okně
 PREFERENCES_NAVGUIDEBRUSH;Barva vodítek navigátoru
@@ -1048,6 +1065,7 @@ PREFERENCES_PREVDEMO;Metoda demozajkování náhledu
 PREFERENCES_PREVDEMO_FAST;Rychlá
 PREFERENCES_PREVDEMO_LABEL;Metoda demozajkování pro náhled při přiblížení menším než 100%:
 PREFERENCES_PREVDEMO_SIDECAR;Stejná jako v PP3
+PREFERENCES_PRINTER;Tiskárna (obtah)
 PREFERENCES_PROFILEHANDLING;Řízení profilů zpracování
 PREFERENCES_PROFILELOADPR;Priorita nahrávání profilů zpracování
 PREFERENCES_PROFILEPRCACHE;Profil v mezipaměti
@@ -1056,7 +1074,7 @@ PREFERENCES_PROFILESAVECACHE;Ukládat parametry zpracování do mezipaměti
 PREFERENCES_PROFILESAVEINPUT;Ukládat parametry zpracování spolu se zdrojovým souborem
 PREFERENCES_PROFILE_NONE;Nic
 PREFERENCES_PROPERTY;Vlastnost
-PREFERENCES_PRTINTENT;Záměr reprodukce
+PREFERENCES_PRTINTENT;Reprodukční záměr
 PREFERENCES_PRTPROFILE;Barevný profil
 PREFERENCES_PSPATH;Instalační složka Adobe Photoshop
 PREFERENCES_REMEMBERZOOMPAN;Zapamatovat si procento přiblížení a posun obrázku
@@ -1210,7 +1228,7 @@ TP_BWMIX_MIXC;Míchání
 TP_BWMIX_NEUTRAL;Vrátit míchání
 TP_BWMIX_NEUTRAL_TIP;Vrátí všechny hodnoty (filtry, mixéry kanálů) na výchozí pozice.
 TP_BWMIX_RGBLABEL;R: %1%%   G: %2%%   B: %3%%   Celkem: %4%%
-TP_BWMIX_RGBLABEL_HINT;Výsledné RGB faktory po započtení všech mixérů\n"Celkem" zobrazí souček aktuálně aplikovaných RGB hodnot:\n- vždy 100% v relativním režimu\n- více (světlejší) nebo méně (tmavší) než 100% v absolutním režimu.
+TP_BWMIX_RGBLABEL_HINT;Výsledné RGB faktory po započtení všech mixérů\n"Celkem" zobrazí součet aktuálně aplikovaných RGB hodnot:\n- vždy 100% v relativním režimu\n- více (světlejší) nebo méně (tmavší) než 100% v absolutním režimu.
 TP_BWMIX_RGB_TOOLTIP;Mísení RGB kanálů. Jako vodítko můžete použít uložená přednastavení.\nPovšimněte si prosím, že záporné hodnoty mohou vést ke vzniku artefaktů nebo chybnému chování.
 TP_BWMIX_SETTING;Uložené předvolby
 TP_BWMIX_SETTING_TOOLTIP;Různá přednastavení (filmy, krajina, ...) nebo vlastní míchání kanálů.
@@ -1397,7 +1415,7 @@ TP_DIRPYRDENOISE_CCCURVE;Křivka barevnosti
 TP_DIRPYRDENOISE_CHROMA;Barevnost - Hlavní
 TP_DIRPYRDENOISE_CHROMAFR;Barevnost
 TP_DIRPYRDENOISE_CTYPE;Metoda
-TP_DIRPYRDENOISE_CTYPE_TOOLTIP;Ručně\nOvlivňuje celý obrázek.\nVolby redukce šumu nastavujete ručně.\n\nCelková automazika\nOvlivňuje celý obrázek.\nPro výpočet parametrů celkové redukce barevného šumu je použito 9 zón.\n\nVíce zónová automatika\nBez náhledu - funguje pouze při ukládání, přesto je možné pomocí funkce "Náhled" získat alespoň částečnou představu o výsledku, Nastavení jsou aplikována na centrální dlaždici.\nObrázek je rozdělen na dlaždice (V závislosti na velikosti obrázku jich bude 10 až 70) a pro každou dlaždici bude vypočítáno vhodné nastavení redukce barevného šumu.\n\nNáhled\nOvlivňuje celý obrázek.\nPro výpočet celkového nastavení redukce barevného šumu je použita viditelná část obrázku.
+TP_DIRPYRDENOISE_CTYPE_TOOLTIP;Ručně\nOvlivňuje celý obrázek.\nVolby redukce šumu nastavujete ručně.\n\nCelková automatika\nOvlivňuje celý obrázek.\nPro výpočet parametrů celkové redukce barevného šumu je použito 9 zón.\n\nVíce zónová automatika\nBez náhledu - funguje pouze při ukládání, přesto je možné pomocí funkce "Náhled" získat alespoň částečnou představu o výsledku, Nastavení jsou aplikována na centrální dlaždici.\nObrázek je rozdělen na dlaždice (V závislosti na velikosti obrázku jich bude 10 až 70) a pro každou dlaždici bude vypočítáno vhodné nastavení redukce barevného šumu.\n\nNáhled\nOvlivňuje celý obrázek.\nPro výpočet celkového nastavení redukce barevného šumu je použita viditelná část obrázku.
 TP_DIRPYRDENOISE_CUR;Křivka
 TP_DIRPYRDENOISE_CURVEEDITOR_CC;Barevnost
 TP_DIRPYRDENOISE_CURVEEDITOR_CC_TOOLTIP;Zvýší (násobí) hodnoty všech barevných posuvníků.\nKřivka vám umožní nastavit sílu redukce barevného šumu jako funkci barvy. Například pro zvýšení účinku v oblastech s nízkým nasycení a snížení v oblastech s vysokým nasycením.
@@ -1459,6 +1477,7 @@ TP_DIRPYREQUALIZER_SKIN_TOOLTIP;Hodnota -100:  zaměřeno na pleťové tóny.\nH
 TP_DIRPYREQUALIZER_THRESHOLD;Práh
 TP_DIRPYREQUALIZER_TOOLTIP;Počet pokusů pro redukci artefaktů vzniklých přenosem barvy (odstín, barevnost a jas) pleti na zbytek obrázku.
 TP_DISTORTION_AMOUNT;Míra
+TP_DISTORTION_AUTO_TIP;Automaticky opraví zkreslení objektivu v raw souborech podle vložených JPEG obrázků (pokud existují a byly automaticky opraveny fotoaparátem).
 TP_DISTORTION_LABEL;Korekce zkreslení
 TP_EPD_EDGESTOPPING;Zachování hran
 TP_EPD_GAMMA;Gama
@@ -1671,7 +1690,7 @@ TP_RAW_LABEL;Demozajkování
 TP_RAW_LMMSEITERATIONS;Kroky rozšíření LMMSE
 TP_RAW_LMMSE_TOOLTIP;Přidá gamu (krok 1) - přidá mediány (kroky 2, až 4) a následně přidá (kroky 5 a 6) vyčištění artefaktů a vylepšení poměru signálu a šumu.
 TP_RAW_SENSOR_BAYER_LABEL;Snímač s Bayerovou maskou
-TP_RAW_SENSOR_XTRANS_DMETHOD_TOOLTIP;Tří průchodová dává lepší výsledky (doporučeno pro fotky s níským ISO).\nJednoprůchodová je téměř k nerozeznání od tří průchodové pro vysoké ISO a je rychlejší.
+TP_RAW_SENSOR_XTRANS_DMETHOD_TOOLTIP;Tří průchodová dává lepší výsledky (doporučeno pro fotky s nízkým ISO).\nJednoprůchodová je téměř k nerozeznání od tří průchodové pro vysoké ISO a je rychlejší.
 TP_RAW_SENSOR_XTRANS_LABEL;Senzory s X-Trans maticí
 TP_RESIZE_APPLIESTO;Aplikovat na:
 TP_RESIZE_CROPPEDAREA;Oblast ořezu
@@ -1850,7 +1869,7 @@ TP_WAVELET_B2;Zůstatek
 TP_WAVELET_BACKGROUND;Pozadí
 TP_WAVELET_BACUR;Křivka
 TP_WAVELET_BALANCE;Vyvážení kontrastu d/v-h
-TP_WAVELET_BALANCE_TOOLTIP;Změní vyvážení mezi směry vlnky: svisle-vodorovně a uhlopříčně.\nPokud je aktivován kontrast, barevnost nebo zbytkové tónové mapování je efekt díky vyvážení zesílen.
+TP_WAVELET_BALANCE_TOOLTIP;Změní vyvážení mezi směry vlnky: svisle-vodorovně a úhlopříčně.\nPokud je aktivován kontrast, barevnost nebo zbytkové tónové mapování je efekt díky vyvážení zesílen.
 TP_WAVELET_BALCHRO;Vyvážení barev
 TP_WAVELET_BALCHRO_TOOLTIP;Pokud je povoleno, křivka nebo posuvníky "Vyvážení kontrastu" ovlivňují i vyvážení barev.
 TP_WAVELET_BANONE;Nic
@@ -1881,7 +1900,7 @@ TP_WAVELET_CONTRAST_MINUS;Kontrast -
 TP_WAVELET_CONTRAST_PLUS;Kontrast +
 TP_WAVELET_CONTRA_TOOLTIP;Změní kontrast zůstatku obrazu.
 TP_WAVELET_CTYPE;Ovládání barevnosti
-TP_WAVELET_CURVEEDITOR_CC_TOOLTIP;Mění lokální kontrast jako funkci originálního lokálního kontrastu(úsečka).\nNízké hodnoty na úsečce představují malý lokální kontrast (skutečné hodnoty okolo10..20).\n50% z úsečky představuje průměrný lokální kontrast (skutečné hodnoty okolo 100..300).\n66% z úsečky představuje představuje standardní odchylku lokálního kontrastu (skutečné hodnoty okolo 300..800).\n100% z úsečky představuje maximální lokální kontrast (skutečné hodnoty okolo 3000..8000).
+TP_WAVELET_CURVEEDITOR_CC_TOOLTIP;Mění lokální kontrast jako funkci originálního lokálního kontrastu(úsečka).\nNízké hodnoty na úsečce představují malý lokální kontrast (skutečné hodnoty okolo 10..20).\n50% z úsečky představuje průměrný lokální kontrast (skutečné hodnoty okolo 100..300).\n66% z úsečky představuje představuje standardní odchylku lokálního kontrastu (skutečné hodnoty okolo 300..800).\n100% z úsečky představuje maximální lokální kontrast (skutečné hodnoty okolo 3000..8000).
 TP_WAVELET_CURVEEDITOR_CH;Kontrast úrovní=f(Barevnost)
 TP_WAVELET_CURVEEDITOR_CH_TOOLTIP;Mění kontrast každé úrovně jako funkci odstínu.\nDejte pozor, abyste nepřepsali změny udělané v podnástroji Paleta nástroje Odstín.\nZměny křivky se projeví pouze v případě, že posuvníky kontrastu úrovní vlnky nejsou nastaveny na nulu.
 TP_WAVELET_CURVEEDITOR_CL;L

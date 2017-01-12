@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-01-09 20:29+0100\n"
-"PO-Revision-Date: 2017-01-09 19:18+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2017-01-12 20:05+0100\n"
+"PO-Revision-Date: 2017-01-12 20:19+0100\n"
+"Last-Translator: Marián Kyral\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -451,7 +451,7 @@ msgstr "Vymazat z mezipaměti - částečně"
 
 #: FILEBROWSER_CACHE
 msgid "Cache"
-msgstr "Metipaměť"
+msgstr "Mezipaměť"
 
 #: FILEBROWSER_CLEARPROFILE
 msgid "Clear"
@@ -858,8 +858,8 @@ msgstr ""
 "Zobrazí pouze originální  obrázky.\n"
 "\n"
 "Pokud existuje několik obrázků se stejným názvem, ale rozdílnými příponami, "
-"bude jako originál vybrán ten, jehož přípona je nejvýše v seznamu příponve "
-"Volby > Prohlížeč souborů > Analyzované přípony."
+"bude jako originál vybrán ten, jehož přípona je nejvýše v seznamu přípon "
+"veVolby > Prohlížeč souborů > Analyzované přípony."
 
 #: FILEBROWSER_SHOWRANK1HINT
 msgid ""
@@ -2435,11 +2435,11 @@ msgstr "DCP - základní tabulka"
 
 #: HISTORY_MSG_396
 msgid "W - Contrast sub-tool"
-msgstr "Vlnka - Kontrast "
+msgstr "Vlnka - Kontrast"
 
 #: HISTORY_MSG_397
 msgid "W - Chroma sub-tool"
-msgstr "Vlnka - Barevnost "
+msgstr "Vlnka - Barevnost"
 
 #: HISTORY_MSG_398
 msgid "W - ES sub-tool"
@@ -2459,7 +2459,7 @@ msgstr "VB - Odstín"
 
 #: HISTORY_MSG_400
 msgid "W - Final sub-tool"
-msgstr "Vlnka - Dokončení "
+msgstr "Vlnka - Dokončení"
 
 #: HISTORY_MSG_401
 msgid "W - Toning sub-tool"
@@ -2890,9 +2890,8 @@ msgid "Snapshot"
 msgstr "Snímek"
 
 #: IPTCPANEL_CATEGORYHINT
-#, fuzzy
 msgid "Identifies the subject of the image in the opinion of the provider."
-msgstr "Obsah obrázku dle názoru dodavatele (Kategorie)."
+msgstr "Identifikuje předmět obrázku dle názoru dodavatele."
 
 #: IPTCPANEL_CATEGORY
 msgid "Category"
@@ -2900,7 +2899,7 @@ msgstr "Kategorie"
 
 #: IPTCPANEL_CITYHINT
 msgid "Enter the name of the city pictured in this image."
-msgstr ""
+msgstr "Vložte jméno města, které je na na fotografii."
 
 #: IPTCPANEL_CITY
 msgid "City"
@@ -2915,15 +2914,16 @@ msgid ""
 "Enter a Notice on the current owner of the Copyright for this image, such as "
 "©2008 Jane Doe."
 msgstr ""
+"Zadejte text upozorňující na autorská práva k obrázku, například: ©2008 Jane "
+"Doe."
 
 #: IPTCPANEL_COPYRIGHT
-#, fuzzy
 msgid "Copyright notice"
-msgstr "Copyright"
+msgstr "Autorská práva"
 
 #: IPTCPANEL_COUNTRYHINT
 msgid "Enter the name of the country pictured in this image."
-msgstr ""
+msgstr "Vložte jméno země, která je na na fotografii."
 
 #: IPTCPANEL_COUNTRY
 msgid "Country"
@@ -2931,19 +2931,19 @@ msgstr "Země"
 
 #: IPTCPANEL_CREATORHINT
 msgid "Enter the name of the person that created this image."
-msgstr ""
+msgstr "Vložte jméno osoby, která tuto fotografii pořídila."
 
 #: IPTCPANEL_CREATORJOBTITLEHINT
 msgid "Enter the Job Title of the person listed in the Creator field."
-msgstr ""
+msgstr "Vložte pracovní pozici osoby, která je zapsána v poli Vytvořil."
 
 #: IPTCPANEL_CREATORJOBTITLE
 msgid "Creator's job title"
-msgstr ""
+msgstr "Pracovní pozice autora"
 
 #: IPTCPANEL_CREATOR
 msgid "Creator"
-msgstr ""
+msgstr "Vytvořil"
 
 #: IPTCPANEL_CREDITHINT
 msgid "Enter who should be credited when this image is published."
@@ -2955,7 +2955,7 @@ msgstr "Zásluhy"
 
 #: IPTCPANEL_DATECREATEDHINT
 msgid "Enter the Date the image was taken."
-msgstr ""
+msgstr "Vložte datum, kdy byla fotografie pořízena."
 
 #: IPTCPANEL_DATECREATED
 msgid "Date created"
@@ -2967,15 +2967,15 @@ msgid ""
 "in this image, this might include names of people, and/or their role in the "
 "action that is taking place within the image."
 msgstr ""
+"Vložte \"titulek\" popisující kdo, co a proč je na snímku. Toto může "
+"zahrnovat jména lidí a/nebo jejich roli v ději, který je na snímku."
 
 #: IPTCPANEL_DESCRIPTIONWRITERHINT
-#, fuzzy
 msgid ""
 "Enter the name of the person involved in writing, editing or correcting the "
 "description of the image."
 msgstr ""
-"Jméno osoby, která vložila, změnila nebo opravila obrázek nebo popis/shrnutí "
-"(Autor - Editor)"
+"Vložte jméno osoby, která vložila, změnila nebo opravila popis obrázku."
 
 #: IPTCPANEL_DESCRIPTIONWRITER
 msgid "Description writer"
@@ -2994,10 +2994,9 @@ msgid "Embedded"
 msgstr "Uložené"
 
 #: IPTCPANEL_HEADLINEHINT
-#, fuzzy
 msgid ""
 "Enter a brief publishable synopsis or summary of the contents of the image."
-msgstr "Zveřejnitelný krátký popis obrázku (Nadpis)."
+msgstr "Vložte krátký publikovatelný popis nebo shrnutí obsahu obrázku."
 
 #: IPTCPANEL_HEADLINE
 msgid "Headline"
@@ -3008,6 +3007,8 @@ msgid ""
 "Enter information about embargoes, or other restrictions not covered by the "
 "Copyright field."
 msgstr ""
+"Vložte informace o zákazech nebo jiných omezeních, které nejsou pokryty "
+"polem Autorská práva."
 
 #: IPTCPANEL_INSTRUCTIONS
 msgid "Instructions"
@@ -3018,6 +3019,7 @@ msgid ""
 "Enter any number of keywords, terms or phrases used to express the subject "
 "matter in the image."
 msgstr ""
+"Vložte klíčová slova, termíny nebo fráze vyjadřující předmět na obrázku."
 
 #: IPTCPANEL_KEYWORDS
 msgid "Keywords"
@@ -3029,12 +3031,11 @@ msgstr "Vložit IPTC nastavení ze schránky."
 
 #: IPTCPANEL_PROVINCEHINT
 msgid "Enter the name of the province or state pictured in this image."
-msgstr ""
+msgstr "Vložte jméno kraje nebo státu, která je na na fotografii."
 
 #: IPTCPANEL_PROVINCE
-#, fuzzy
 msgid "Province or state"
-msgstr "Kraj"
+msgstr "Kraj nebo stát"
 
 #: IPTCPANEL_RESETHINT
 msgid "Reset to profile default."
@@ -3046,6 +3047,9 @@ msgid ""
 "supply chain, such as a person or entity from whom you received this image "
 "from."
 msgstr ""
+"Vložte nebo změňte jméno osoby nebo společnosti která je součástí "
+"dodavatelského řetězce, například osoba nebo entita od které jste tento "
+"obrázek získali."
 
 #: IPTCPANEL_SOURCE
 msgid "Source"
@@ -3056,15 +3060,16 @@ msgid "Further refines the subject of the image."
 msgstr "Upřesňující popis objektu na obrázku."
 
 #: IPTCPANEL_SUPPCATEGORIES
-#, fuzzy
 msgid "Supplemental categories"
-msgstr "Dodat. kategorie"
+msgstr "Doplňující kategorie"
 
 #: IPTCPANEL_TITLEHINT
 msgid ""
 "Enter a short verbal and human readable name for the image, this may be the "
 "file name."
 msgstr ""
+"Vložte krátké, popisné a lidsky čitelné jméno obrázku. Například název "
+"souboru."
 
 #: IPTCPANEL_TITLE
 msgid "Title"
@@ -3073,10 +3078,12 @@ msgstr "Titulek"
 #: IPTCPANEL_TRANSREFERENCEHINT
 msgid "Enter a number or identifier needed for workflow control or tracking."
 msgstr ""
+"Zadejte číslo nebo identifikátor potřebný v pracovním postupu nebo pro "
+"sledování."
 
 #: IPTCPANEL_TRANSREFERENCE
 msgid "Job ID"
-msgstr ""
+msgstr "Číslo úlohy"
 
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
@@ -4348,9 +4355,8 @@ msgid "Mini (100x115)"
 msgstr "Velmi malá (100x115)"
 
 #: PREFERENCES_MONINTENT
-#, fuzzy
 msgid "Default rendering intent"
-msgstr "Výstupní záměr reprodukce"
+msgstr "Výchozí reprodukční záměr"
 
 #: PREFERENCES_MONITOR
 msgid "Monitor"
@@ -4358,7 +4364,7 @@ msgstr "Monitor"
 
 #: PREFERENCES_MONPROFILE_WARNOSX
 msgid "Due to MacOS limitations, only sRGB is supported."
-msgstr ""
+msgstr "Na MacOS je podporováno pouze sRGB."
 
 #: PREFERENCES_MONPROFILE
 msgid "Default color profile"
@@ -4536,7 +4542,7 @@ msgstr "Metoda demozajkování náhledu"
 
 #: PREFERENCES_PRINTER
 msgid "Printer (Soft-Proofing)"
-msgstr ""
+msgstr "Tiskárna (obtah)"
 
 #: PREFERENCES_PROFILEHANDLING
 msgid "Processing Profile Handling"
@@ -4567,9 +4573,8 @@ msgid "Property"
 msgstr "Vlastnost"
 
 #: PREFERENCES_PRTINTENT
-#, fuzzy
 msgid "Rendering intent"
-msgstr "Záměr reprodukce"
+msgstr "Reprodukční záměr"
 
 #: PREFERENCES_PRTPROFILE
 msgid "Color profile"
@@ -5336,7 +5341,7 @@ msgid ""
 "- higher (lighter) or lower (darker) than 100% in absolute mode."
 msgstr ""
 "Výsledné RGB faktory po započtení všech mixérů\n"
-"\"Celkem\" zobrazí souček aktuálně aplikovaných RGB hodnot:\n"
+"\"Celkem\" zobrazí součet aktuálně aplikovaných RGB hodnot:\n"
 "- vždy 100% v relativním režimu\n"
 "- více (světlejší) nebo méně (tmavší) než 100% v absolutním režimu."
 
@@ -6183,7 +6188,7 @@ msgstr ""
 "Ovlivňuje celý obrázek.\n"
 "Volby redukce šumu nastavujete ručně.\n"
 "\n"
-"Celková automazika\n"
+"Celková automatika\n"
 "Ovlivňuje celý obrázek.\n"
 "Pro výpočet parametrů celkové redukce barevného šumu je použito 9 zón.\n"
 "\n"
@@ -6573,6 +6578,8 @@ msgid ""
 "the embedded JPEG image if one exists and has had its lens disortion auto-"
 "corrected by the camera."
 msgstr ""
+"Automaticky opraví zkreslení objektivu v raw souborech podle vložených JPEG "
+"obrázků (pokud existují a byly automaticky opraveny fotoaparátem)."
 
 #: TP_DISTORTION_LABEL
 msgid "Distortion Correction"
@@ -7382,7 +7389,7 @@ msgid ""
 "1-pass is almost undistinguishable from 3-pass for high ISO images and is "
 "faster."
 msgstr ""
-"Tří průchodová dává lepší výsledky (doporučeno pro fotky s níským ISO).\n"
+"Tří průchodová dává lepší výsledky (doporučeno pro fotky s nízkým ISO).\n"
 "Jednoprůchodová je téměř k nerozeznání od tří průchodové pro vysoké ISO a je "
 "rychlejší."
 
@@ -7989,7 +7996,7 @@ msgid ""
 "If contrast, chroma or residual tone mapping are activated, the effect due "
 "to balance is amplified."
 msgstr ""
-"Změní vyvážení mezi směry vlnky: svisle-vodorovně a uhlopříčně.\n"
+"Změní vyvážení mezi směry vlnky: svisle-vodorovně a úhlopříčně.\n"
 "Pokud je aktivován kontrast, barevnost nebo zbytkové tónové mapování je "
 "efekt díky vyvážení zesílen."
 
@@ -8081,7 +8088,7 @@ msgid ""
 msgstr ""
 "Mění lokální kontrast jako funkci originálního lokálního kontrastu(úsečka).\n"
 "Nízké hodnoty na úsečce představují malý lokální kontrast (skutečné hodnoty "
-"okolo10..20).\n"
+"okolo 10..20).\n"
 "50% z úsečky představuje průměrný lokální kontrast (skutečné hodnoty okolo "
 "100..300).\n"
 "66% z úsečky představuje představuje standardní odchylku lokálního kontrastu "
