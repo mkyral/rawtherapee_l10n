@@ -1,0 +1,7531 @@
+# RawTherapee.
+# Copyright (C) 2004-2011, Gábor Horváth
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
+"POT-Creation-Date: 2017-04-25 06:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ABOUT_TAB_BUILD
+msgid "Version"
+msgstr ""
+
+#: ABOUT_TAB_CREDITS
+msgid "Credits"
+msgstr ""
+
+#: ABOUT_TAB_LICENSE
+msgid "License"
+msgstr ""
+
+#: ABOUT_TAB_RELEASENOTES
+msgid "Release Notes"
+msgstr ""
+
+#: ABOUT_TAB_SPLASH
+msgid "Splash"
+msgstr ""
+
+#: ADJUSTER_RESET_TO_DEFAULT,FILEBROWSER_RESETDEFAULTPROFILE
+msgid "Reset to default"
+msgstr ""
+
+#: BATCH_PROCESSING,PREFERENCES_BATCH_PROCESSING
+msgid "Batch Processing"
+msgstr ""
+
+#: BATCHQUEUE_AUTOSTART
+msgid "Auto-start"
+msgstr ""
+
+#: BATCHQUEUE_DESTFILENAME
+msgid "Path and file name"
+msgstr ""
+
+#: CURVEEDITOR_AXIS_IN
+msgid "I:"
+msgstr ""
+
+#: CURVEEDITOR_AXIS_LEFT_TAN
+msgid "LT:"
+msgstr ""
+
+#: CURVEEDITOR_AXIS_OUT
+msgid "O:"
+msgstr ""
+
+#: CURVEEDITOR_AXIS_RIGHT_TAN
+msgid "RT:"
+msgstr ""
+
+#: CURVEEDITOR_CURVES
+msgid "Curves"
+msgstr ""
+
+#: CURVEEDITOR_CURVE,TP_DIRPYRDENOISE_CUR,TP_WAVELET_BACUR,TP_WAVELET_EDCU,TP_WAVELET_CHCU
+msgid "Curve"
+msgstr ""
+
+#: CURVEEDITOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_RAW_PIXELSHIFTMM_CUSTOM,TP_WBALANCE_CUSTOM
+msgid "Custom"
+msgstr ""
+
+#: CURVEEDITOR_DARKS
+msgid "Darks"
+msgstr ""
+
+#: CURVEEDITOR_EDITPOINT_HINT
+msgid "Enable edition of node in/out values.\n\nRight-click on a node to select it.\nRight-click on empty space to de-select the node."
+msgstr ""
+
+#: CURVEEDITOR_HIGHLIGHTS,TP_COLORTONING_HIGHLIGHT,TP_SHADOWSHLIGHTS_HIGHLIGHTS,TP_WAVELET_RESCONH
+msgid "Highlights"
+msgstr ""
+
+#: CURVEEDITOR_LIGHTS
+msgid "Lights"
+msgstr ""
+
+#: CURVEEDITOR_LINEAR,TP_BWMIX_ALGO_LI
+msgid "Linear"
+msgstr ""
+
+#: CURVEEDITOR_LOADDLGLABEL
+msgid "Load curve..."
+msgstr ""
+
+#: CURVEEDITOR_MINMAXCPOINTS,TP_RETINEX_EQUAL
+msgid "Equalizer"
+msgstr ""
+
+#: CURVEEDITOR_NURBS
+msgid "Control cage"
+msgstr ""
+
+#: CURVEEDITOR_PARAMETRIC
+msgid "Parametric"
+msgstr ""
+
+#: CURVEEDITOR_SAVEDLGLABEL
+msgid "Save curve..."
+msgstr ""
+
+#: CURVEEDITOR_SHADOWS,TP_COLORTONING_SHADOWS,TP_SHADOWSHLIGHTS_SHADOWS,TP_WAVELET_RESCON
+msgid "Shadows"
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPCOPY
+msgid "Copy current curve to clipboard."
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPLINEAR
+msgid "Reset curve to linear."
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPLOAD
+msgid "Load a curve from file."
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPPASTE
+msgid "Paste curve from clipboard."
+msgstr ""
+
+#: CURVEEDITOR_TOOLTIPSAVE
+msgid "Save current curve."
+msgstr ""
+
+#: CURVEEDITOR_TYPE
+msgid "Type:"
+msgstr ""
+
+#: DIRBROWSER_FOLDERS
+msgid "Folders"
+msgstr ""
+
+#: DYNPROFILEEDITOR_DELETE,FILEBROWSER_POPUPREMOVE
+msgid "Delete"
+msgstr ""
+
+#: DYNPROFILEEDITOR_EDIT_RULE
+msgid "Edit Dynamic Profile Rule"
+msgstr ""
+
+#: DYNPROFILEEDITOR_EDIT
+msgid "Edit"
+msgstr ""
+
+#: DYNPROFILEEDITOR_ENTRY_TOOLTIP
+msgid "The matching is case insensitive.\nUse the \"re:\" prefix to enter\na regular expression."
+msgstr ""
+
+#: DYNPROFILEEDITOR_MOVE_DOWN
+msgid "Move Down"
+msgstr ""
+
+#: DYNPROFILEEDITOR_MOVE_UP
+msgid "Move Up"
+msgstr ""
+
+#: DYNPROFILEEDITOR_NEW_RULE
+msgid "New Dynamic Profile Rule"
+msgstr ""
+
+#: DYNPROFILEEDITOR_NEW
+msgid "New"
+msgstr ""
+
+#: DYNPROFILEEDITOR_PROFILE
+msgid "Processing Profile"
+msgstr ""
+
+#: EDIT_OBJECT_TOOLTIP
+msgid "Displays a widget on the preview window which lets you adjust this tool."
+msgstr ""
+
+#: EDIT_PIPETTE_TOOLTIP
+msgid "To add an adjustment point to the curve, hold the Ctrl key while left-clicking the desired spot in the image preview.\nTo adjust the point, hold the Ctrl key while left-clicking the corresponding area in the preview, then let go of Ctrl (unless you desire fine control) and while still holding the left mouse button move the mouse up or down to move that point up or down in the curve."
+msgstr ""
+
+#: EDITWINDOW_TITLE
+msgid "Image Edit"
+msgstr ""
+
+#: EXIFFILTER_APERTURE
+msgid "Aperture"
+msgstr ""
+
+#: EXIFFILTER_CAMERA,TP_WBALANCE_CAMERA
+msgid "Camera"
+msgstr ""
+
+#: EXIFFILTER_EXPOSURECOMPENSATION
+msgid "Exposure compensation (EV)"
+msgstr ""
+
+#: EXIFFILTER_FILETYPE
+msgid "File type"
+msgstr ""
+
+#: EXIFFILTER_FOCALLEN
+msgid "Focal length"
+msgstr ""
+
+#: EXIFFILTER_ISO,QINFO_ISO
+msgid "ISO"
+msgstr ""
+
+#: EXIFFILTER_LENS
+msgid "Lens"
+msgstr ""
+
+#: EXIFFILTER_METADATAFILTER
+msgid "Enable metadata filters"
+msgstr ""
+
+#: EXIFFILTER_SHUTTER
+msgid "Shutter"
+msgstr ""
+
+#: EXIFPANEL_ADDEDITHINT
+msgid "Add new tag or edit tag."
+msgstr ""
+
+#: EXIFPANEL_ADDEDIT
+msgid "Add/Edit"
+msgstr ""
+
+#: EXIFPANEL_ADDTAGDLG_ENTERVALUE
+msgid "Enter value"
+msgstr ""
+
+#: EXIFPANEL_ADDTAGDLG_SELECTTAG
+msgid "Select tag"
+msgstr ""
+
+#: EXIFPANEL_ADDTAGDLG_TITLE
+msgid "Add/Edit Tag"
+msgstr ""
+
+#: EXIFPANEL_KEEPHINT
+msgid "Keep the selected tags when writing output file."
+msgstr ""
+
+#: EXIFPANEL_KEEP
+msgid "Keep"
+msgstr ""
+
+#: EXIFPANEL_REMOVEHINT
+msgid "Remove the selected tags when writing output file."
+msgstr ""
+
+#: EXIFPANEL_REMOVE
+msgid "Remove"
+msgstr ""
+
+#: EXIFPANEL_RESETALLHINT
+msgid "Reset all tags to their original values."
+msgstr ""
+
+#: EXIFPANEL_RESETALL
+msgid "Reset All"
+msgstr ""
+
+#: EXIFPANEL_RESETHINT
+msgid "Reset the selected tags to their original values."
+msgstr ""
+
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_NEUTRAL,TP_RETINEX_NEUTRAL
+msgid "Reset"
+msgstr ""
+
+#: EXIFPANEL_SUBDIRECTORY
+msgid "Subdirectory"
+msgstr ""
+
+#: EXPORT_BYPASS_ALL
+msgid "Select / Unselect All"
+msgstr ""
+
+#: EXPORT_BYPASS_DEFRINGE
+msgid "Bypass Defringe"
+msgstr ""
+
+#: EXPORT_BYPASS_DIRPYRDENOISE
+msgid "Bypass Noise Reduction"
+msgstr ""
+
+#: EXPORT_BYPASS_DIRPYREQUALIZER
+msgid "Bypass Contrast by Detail Levels"
+msgstr ""
+
+#: EXPORT_BYPASS_EQUALIZER
+msgid "Bypass Wavelet Levels"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_CA
+msgid "Bypass [raw] Chromatic Aberration Correction"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_CCSTEPS
+msgid "Bypass [raw] False Color Suppression"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_DCB_ENHANCE
+msgid "Bypass [raw] DCB Enhancement Steps"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_DCB_ITERATIONS
+msgid "Bypass [raw] DCB Iterations"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_DF
+msgid "Bypass [raw] Dark-Frame"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_FF
+msgid "Bypass [raw] Flat-Field"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_GREENTHRESH
+msgid "Bypass [raw] Green Equilibration"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_LINENOISE
+msgid "Bypass [raw] Line Noise Filter"
+msgstr ""
+
+#: EXPORT_BYPASS_RAW_LMMSE_ITERATIONS
+msgid "Bypass [raw] LMMSE Enhancement Steps"
+msgstr ""
+
+#: EXPORT_BYPASS_SHARPENEDGE
+msgid "Bypass Edge Sharpening"
+msgstr ""
+
+#: EXPORT_BYPASS_SHARPENING
+msgid "Bypass Sharpening"
+msgstr ""
+
+#: EXPORT_BYPASS_SHARPENMICRO
+msgid "Bypass Microcontrast"
+msgstr ""
+
+#: EXPORT_BYPASS_SH_HQ
+msgid "Bypass Sharp Mask Shadows/Highlights"
+msgstr ""
+
+#: EXPORT_BYPASS
+msgid "Processing steps to bypass"
+msgstr ""
+
+#: EXPORT_FASTEXPORTOPTIONS
+msgid "<b>Fast Export Options</b>"
+msgstr ""
+
+#: EXPORT_INSTRUCTIONS
+msgid "Fast Export options provide overrides to bypass time and resource consuming development settings and to run queue processing using the fast export settings instead. This method is recommended for quicker generation of lower resolution images when speed is a priority or when resized output is desired for one or many images without making modifications to their saved development parameters."
+msgstr ""
+
+#: EXPORT_MAXHEIGHT
+msgid "Maximum height:"
+msgstr ""
+
+#: EXPORT_MAXWIDTH
+msgid "Maximum width:"
+msgstr ""
+
+#: EXPORT_PIPELINE
+msgid "Processing pipeline"
+msgstr ""
+
+#: EXPORT_PUTTOQUEUEFAST
+msgid "  Put to queue for fast export"
+msgstr ""
+
+#: EXPORT_RAW_DMETHOD,PARTIALPASTE_RAW_DMETHOD
+msgid "Demosaic method"
+msgstr ""
+
+#: EXPORT_USE_FAST_PIPELINE_TIP
+msgid "Use a dedicated processing pipeline for images in Fast Export mode, that trades speed for quality. Resizing of the image is done as early as possible, instead of doing it at the end like in the normal pipeline. The speedup can be significant, but be prepared to see artifacts and a general degradation of output quality."
+msgstr ""
+
+#: EXPORT_USE_FAST_PIPELINE
+msgid "Dedicated (full processing on resized image)"
+msgstr ""
+
+#: EXPORT_USE_NORMAL_PIPELINE
+msgid "Standard (bypass some steps, resize at the end)"
+msgstr ""
+
+#: EXTPROGTARGET_1
+msgid "raw"
+msgstr ""
+
+#: EXTPROGTARGET_2
+msgid "queue-processed"
+msgstr ""
+
+#: FILEBROWSER_ADDDELTEMPLATE
+msgid "Add/Del templates..."
+msgstr ""
+
+#: FILEBROWSER_APPLYPROFILE,GENERAL_APPLY
+msgid "Apply"
+msgstr ""
+
+#: FILEBROWSER_APPLYPROFILE_PARTIAL
+msgid "Apply - partial"
+msgstr ""
+
+#: FILEBROWSER_AUTODARKFRAME
+msgid "Auto dark-frame"
+msgstr ""
+
+#: FILEBROWSER_AUTOFLATFIELD
+msgid "Auto flat-field"
+msgstr ""
+
+#: FILEBROWSER_BROWSEPATHBUTTONHINT
+msgid "Click to browse to the chosen path."
+msgstr ""
+
+#: FILEBROWSER_BROWSEPATHHINT
+msgid "Type a path to navigate to.\n\nKeyboard shortcuts:\n<b>Ctrl-o</b> to focus to the path text box.\n<b>Enter</b> / <b>Ctrl-Enter</b> to browse there;\n<b>Esc</b> to clear changes.\n<b>Shift-Esc</b> to remove focus.\n\nPath shortcuts:\n<b>~</b>	- user's home directory.\n<b>!</b>	- user's pictures directory"
+msgstr ""
+
+#: FILEBROWSER_CACHECLEARFROMFULL
+msgid "Clear from cache - full"
+msgstr ""
+
+#: FILEBROWSER_CACHECLEARFROMPARTIAL
+msgid "Clear from cache - partial"
+msgstr ""
+
+#: FILEBROWSER_CACHE
+msgid "Cache"
+msgstr ""
+
+#: FILEBROWSER_CLEARPROFILE
+msgid "Clear"
+msgstr ""
+
+#: FILEBROWSER_COLORLABEL_TOOLTIP
+msgid "Color label.\n\nUse dropdown menu or shortcuts:\n<b>Shift-Ctrl-0</b> No Color\n<b>Shift-Ctrl-1</b> Red\n<b>Shift-Ctrl-2</b> Yellow\n<b>Shift-Ctrl-3</b> Green\n<b>Shift-Ctrl-4</b> Blue\n<b>Shift-Ctrl-5</b> Purple"
+msgstr ""
+
+#: FILEBROWSER_COPYPROFILE
+msgid "Copy"
+msgstr ""
+
+#: FILEBROWSER_CURRENT_NAME
+msgid "Current name:"
+msgstr ""
+
+#: FILEBROWSER_DARKFRAME
+msgid "Dark-frame"
+msgstr ""
+
+#: FILEBROWSER_DELETEDLGLABEL
+msgid "File delete confirmation"
+msgstr ""
+
+#: FILEBROWSER_DELETEDLGMSGINCLPROC
+msgid "Are you sure you want to delete the selected <b>%1</b> files <b>including</b> a queue-processed version?"
+msgstr ""
+
+#: FILEBROWSER_DELETEDLGMSG
+msgid "Are you sure you want to delete the selected <b>%1</b> files?"
+msgstr ""
+
+#: FILEBROWSER_EMPTYTRASHHINT
+msgid "Permanently delete the files from trash."
+msgstr ""
+
+#: FILEBROWSER_EMPTYTRASH
+msgid "Empty trash"
+msgstr ""
+
+#: FILEBROWSER_EXTPROGMENU
+msgid "Open with"
+msgstr ""
+
+#: FILEBROWSER_FLATFIELD,PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
+msgid "Flat-Field"
+msgstr ""
+
+#: FILEBROWSER_MOVETODARKFDIR
+msgid "Move to dark-frames directory"
+msgstr ""
+
+#: FILEBROWSER_MOVETOFLATFIELDDIR
+msgid "Move to flat-fields directory"
+msgstr ""
+
+#: FILEBROWSER_NEW_NAME
+msgid "New name:"
+msgstr ""
+
+#: FILEBROWSER_OPENDEFAULTVIEWER
+msgid "Windows default viewer (queue-processed)"
+msgstr ""
+
+#: FILEBROWSER_PARTIALPASTEPROFILE
+msgid "Paste - partial"
+msgstr ""
+
+#: FILEBROWSER_PASTEPROFILE
+msgid "Paste"
+msgstr ""
+
+#: FILEBROWSER_POPUPCANCELJOB
+msgid "Cancel job"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL
+msgid "Color label"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL0
+msgid "Label: None"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL1
+msgid "Label: Red"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL2
+msgid "Label: Yellow"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL3
+msgid "Label: Green"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL4
+msgid "Label: Blue"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOLORLABEL5
+msgid "Label: Purple"
+msgstr ""
+
+#: FILEBROWSER_POPUPCOPYTO
+msgid "Copy to..."
+msgstr ""
+
+#: FILEBROWSER_POPUPFILEOPERATIONS
+msgid "File operations"
+msgstr ""
+
+#: FILEBROWSER_POPUPMOVEEND
+msgid "Move to end of queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPMOVEHEAD
+msgid "Move to head of queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPMOVETO
+msgid "Move to..."
+msgstr ""
+
+#: FILEBROWSER_POPUPOPEN,GENERAL_OPEN
+msgid "Open"
+msgstr ""
+
+#: FILEBROWSER_POPUPOPENINEDITOR
+msgid "Open in Editor"
+msgstr ""
+
+#: FILEBROWSER_POPUPPROCESSFAST
+msgid "Put to queue (Fast export)"
+msgstr ""
+
+#: FILEBROWSER_POPUPPROCESS
+msgid "Put to queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPPROFILEOPERATIONS
+msgid "Processing profile operations"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK0,FILEBROWSER_POPUPUNRANK
+msgid "Unrank"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK
+msgid "Rank"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK1
+msgid "Rank 1 *"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK2
+msgid "Rank 2 **"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK3
+msgid "Rank 3 ***"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK4
+msgid "Rank 4 ****"
+msgstr ""
+
+#: FILEBROWSER_POPUPRANK5
+msgid "Rank 5 *****"
+msgstr ""
+
+#: FILEBROWSER_POPUPREMOVEINCLPROC
+msgid "Delete with output from queue"
+msgstr ""
+
+#: FILEBROWSER_POPUPRENAME
+msgid "Rename"
+msgstr ""
+
+#: FILEBROWSER_POPUPSELECTALL
+msgid "Select all"
+msgstr ""
+
+#: FILEBROWSER_POPUPTRASH
+msgid "Move to trash"
+msgstr ""
+
+#: FILEBROWSER_POPUPUNTRASH
+msgid "Remove from trash"
+msgstr ""
+
+#: FILEBROWSER_QUERYBUTTONHINT
+msgid "Clear the Find query"
+msgstr ""
+
+#: FILEBROWSER_QUERYHINT
+msgid "Type filenames to search for. Supports partial filenames. Separate the search terms using commas, e.g.\n<i>1001,1004,1199</i>\n\nExclude search terms by prefixing them with <i>!=</i>\ne.g.\n<i>!=1001,1004,1199</i>\n\nShortcuts:\n<b>Ctrl-f</b> - focus the Find box,\n<b>Enter</b> - search,\n<b>Esc</b> - clear the Find box,\n<b>Shift-Esc</b> - defocus the Find box."
+msgstr ""
+
+#: FILEBROWSER_QUERYLABEL
+msgid " Find:"
+msgstr ""
+
+#: FILEBROWSER_RANK1_TOOLTIP
+msgid "Rank 1 *\nShortcut: <b>Shift-1</b>"
+msgstr ""
+
+#: FILEBROWSER_RANK2_TOOLTIP
+msgid "Rank 2 *\nShortcut: <b>Shift-2</b>"
+msgstr ""
+
+#: FILEBROWSER_RANK3_TOOLTIP
+msgid "Rank 3 *\nShortcut: <b>Shift-3</b>"
+msgstr ""
+
+#: FILEBROWSER_RANK4_TOOLTIP
+msgid "Rank 4 *\nShortcut: <b>Shift-4</b>"
+msgstr ""
+
+#: FILEBROWSER_RANK5_TOOLTIP
+msgid "Rank 5 *\nShortcut: <b>Shift-5</b>"
+msgstr ""
+
+#: FILEBROWSER_RENAMEDLGLABEL
+msgid "Rename file"
+msgstr ""
+
+#: FILEBROWSER_SELECTDARKFRAME
+msgid "Select dark-frame..."
+msgstr ""
+
+#: FILEBROWSER_SELECTFLATFIELD
+msgid "Select flat-field..."
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL1HINT
+msgid "Show images labeled Red.\nShortcut: <b>Alt-1</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL2HINT
+msgid "Show images labeled Yellow.\nShortcut: <b>Alt-2</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL3HINT
+msgid "Show images labeled Green.\nShortcut: <b>Alt-3</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL4HINT
+msgid "Show images labeled Blue.\nShortcut: <b>Alt-4</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWCOLORLABEL5HINT
+msgid "Show images labeled Purple.\nShortcut: <b>Alt-5</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWDIRHINT
+msgid "Clear all filters.\nShortcut: <b>d</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWEDITEDHINT
+msgid "Show edited images.\nShortcut: <b>7</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWEDITEDNOTHINT
+msgid "Show not edited images.\nShortcut: <b>6</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWEXIFINFO
+msgid "Show Exif info.\n\nShortcuts:\n<b>i</b> - Multiple Editor Tabs Mode,\n<b>Alt-i</b> - Single Editor Tab Mode."
+msgstr ""
+
+#: FILEBROWSER_SHOWNOTTRASHHINT
+msgid "Show only non-deleted images."
+msgstr ""
+
+#: FILEBROWSER_SHOWORIGINALHINT
+msgid "Show only original images.\n\nWhen several images exist with the same filename but different extensions, the one considered original is the one whose extension is nearest the top of the parsed extensions list in Preferences > File Browser > Parsed Extensions."
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK1HINT
+msgid "Show images ranked as 1-star.\nShortcut: <b>1</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK2HINT
+msgid "Show images ranked as 2-star.\nShortcut: <b>2</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK3HINT
+msgid "Show images ranked as 3-star.\nShortcut: <b>3</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK4HINT
+msgid "Show images ranked as 4-star.\nShortcut: <b>4</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRANK5HINT
+msgid "Show images ranked as 5-star.\nShortcut: <b>5</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRECENTLYSAVEDHINT
+msgid "Show saved images.\nShortcut: <b>Alt-7</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWRECENTLYSAVEDNOTHINT
+msgid "Show unsaved images.\nShortcut: <b>Alt-6</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWTRASHHINT
+msgid "Show contents of trash.\nShortcut: <b>Ctrl-t</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWUNCOLORHINT
+msgid "Show images without a color label.\nShortcut: <b>Alt-0</b>"
+msgstr ""
+
+#: FILEBROWSER_SHOWUNRANKHINT
+msgid "Show unranked images.\nShortcut: <b>0</b>"
+msgstr ""
+
+#: FILEBROWSER_STARTPROCESSINGHINT
+msgid "Start processing the images in the queue.\n\nShortcut: <b>Ctrl</b>+<b>s</b>"
+msgstr ""
+
+#: FILEBROWSER_STARTPROCESSING
+msgid "Start processing"
+msgstr ""
+
+#: FILEBROWSER_STOPPROCESSINGHINT
+msgid "Stop processing the images in the queue.\n\nShortcut: <b>Ctrl</b>+<b>s</b>"
+msgstr ""
+
+#: FILEBROWSER_STOPPROCESSING
+msgid "Stop processing"
+msgstr ""
+
+#: FILEBROWSER_THUMBSIZE
+msgid "Thumbnail size"
+msgstr ""
+
+#: FILEBROWSER_TOOLTIP_STOPPROCESSING
+msgid "Start processing automatically when a new job arrives."
+msgstr ""
+
+#: FILEBROWSER_UNRANK_TOOLTIP
+msgid "Unrank.\nShortcut: <b>Shift-0</b>"
+msgstr ""
+
+#: FILEBROWSER_ZOOMINHINT
+msgid "Increase thumbnail size.\n\nShortcuts:\n<b>+</b> - Multiple Editor Tabs Mode,\n<b>Alt</b>-<b>+</b> - Single Editor Tab Mode."
+msgstr ""
+
+#: FILEBROWSER_ZOOMOUTHINT
+msgid "Decrease thumbnail size.\n\nShortcuts:\n<b>-</b> - Multiple Editor Tabs Mode,\n<b>Alt</b>-<b>-</b> - Single Editor Tab Mode."
+msgstr ""
+
+#: FILECHOOSER_FILTER_ANY
+msgid "All files"
+msgstr ""
+
+#: FILECHOOSER_FILTER_COLPROF
+msgid "Color profiles"
+msgstr ""
+
+#: FILECHOOSER_FILTER_CURVE
+msgid "Curve files"
+msgstr ""
+
+#: FILECHOOSER_FILTER_LCP
+msgid "Lens correction profiles"
+msgstr ""
+
+#: FILECHOOSER_FILTER_PP
+msgid "Processing profiles"
+msgstr ""
+
+#: FILECHOOSER_FILTER_SAME
+msgid "Same format as current photo"
+msgstr ""
+
+#: FILECHOOSER_FILTER_TIFF
+msgid "TIFF files"
+msgstr ""
+
+#: GENERAL_ABOUT
+msgid "About"
+msgstr ""
+
+#: GENERAL_AFTER
+msgid "After"
+msgstr ""
+
+#: GENERAL_ASIMAGE
+msgid "As Image"
+msgstr ""
+
+#: GENERAL_AUTO,PREFERENCES_GREYSCA,TP_COLORTONING_AUTOSAT,TP_RAW_PIXELSHIFTMM_AUTO
+msgid "Automatic"
+msgstr ""
+
+#: GENERAL_BEFORE
+msgid "Before"
+msgstr ""
+
+#: GENERAL_CANCEL
+msgid "Cancel"
+msgstr ""
+
+#: GENERAL_CLOSE
+msgid "Close"
+msgstr ""
+
+#: GENERAL_DISABLED
+msgid "Disabled"
+msgstr ""
+
+#: GENERAL_DISABLE
+msgid "Disable"
+msgstr ""
+
+#: GENERAL_ENABLED
+msgid "Enabled"
+msgstr ""
+
+#: GENERAL_ENABLE
+msgid "Enable"
+msgstr ""
+
+#: GENERAL_FILE
+msgid "File"
+msgstr ""
+
+#: GENERAL_LANDSCAPE,TP_BWMIX_SET_LANDSCAPE
+msgid "Landscape"
+msgstr ""
+
+#: GENERAL_NA
+msgid "n/a"
+msgstr ""
+
+#: GENERAL_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
+msgid "None"
+msgstr ""
+
+#: GENERAL_NO,PREFERENCES_WLZER
+msgid "No"
+msgstr ""
+
+#: GENERAL_OK
+msgid "OK"
+msgstr ""
+
+#: GENERAL_PORTRAIT,TP_BWMIX_SET_PORTRAIT
+msgid "Portrait"
+msgstr ""
+
+#: GENERAL_SAVE
+msgid "Save"
+msgstr ""
+
+#: GENERAL_UNCHANGED
+msgid "(Unchanged)"
+msgstr ""
+
+#: GENERAL_WARNING
+msgid "Warning"
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_BAR
+msgid "Show/Hide RGB indicator bar.\nRight-click on image preview to freeze/unfreeze."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_B
+msgid "Show/Hide blue histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_FULL
+msgid "Toggle full (off) or scaled (on) histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_G
+msgid "Show/Hide green histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_CHRO
+msgid "Show/Hide chromaticity histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_L
+msgid "Show/Hide CIELab luminance histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_RAW
+msgid "Show/Hide raw histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_R
+msgid "Show/Hide red histogram."
+msgstr ""
+
+#: HISTORY_CUSTOMCURVE
+msgid "Custom curve"
+msgstr ""
+
+#: HISTORY_DELSNAPSHOT,MAIN_FRAME_PLACES_DEL
+msgid "Del"
+msgstr ""
+
+#: HISTORY_FROMCLIPBOARD
+msgid "From clipboard"
+msgstr ""
+
+#: HISTORY_CHANGED
+msgid "Changed"
+msgstr ""
+
+#: HISTORY_LABEL
+msgid "History"
+msgstr ""
+
+#: HISTORY_MSG_1
+msgid "Photo loaded"
+msgstr ""
+
+#: HISTORY_MSG_10
+msgid "Exposure - Shadow compression"
+msgstr ""
+
+#: HISTORY_MSG_100
+msgid "Exposure - Saturation"
+msgstr ""
+
+#: HISTORY_MSG_101
+msgid "HSV - Hue"
+msgstr ""
+
+#: HISTORY_MSG_102
+msgid "HSV - Saturation"
+msgstr ""
+
+#: HISTORY_MSG_103
+msgid "HSV - Value"
+msgstr ""
+
+#: HISTORY_MSG_104,TP_HSVEQUALIZER_LABEL
+msgid "HSV Equalizer"
+msgstr ""
+
+#: HISTORY_MSG_105,PARTIALPASTE_DEFRINGE,TP_DEFRINGE_LABEL
+msgid "Defringe"
+msgstr ""
+
+#: HISTORY_MSG_106
+msgid "Defringe - Radius"
+msgstr ""
+
+#: HISTORY_MSG_107
+msgid "Defringe - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_108
+msgid "Exposure - HLC threshold"
+msgstr ""
+
+#: HISTORY_MSG_109
+msgid "Resize - Bounding box"
+msgstr ""
+
+#: HISTORY_MSG_11
+msgid "Exposure - Tone curve 1"
+msgstr ""
+
+#: HISTORY_MSG_110
+msgid "Resize - Applies to"
+msgstr ""
+
+#: HISTORY_MSG_111
+msgid "L*a*b* - Avoid color shift"
+msgstr ""
+
+#: HISTORY_MSG_112,HISTORY_MSG_236,HISTORY_MSG_277,TP_COLORAPP_SHARPCIE,TP_COLORAPP_SHARPCIE_TOOLTIP
+msgid "--unused--"
+msgstr ""
+
+#: HISTORY_MSG_113
+msgid "L*a*b* - Red/skin prot."
+msgstr ""
+
+#: HISTORY_MSG_114,PARTIALPASTE_RAW_DCBITERATIONS
+msgid "DCB iterations"
+msgstr ""
+
+#: HISTORY_MSG_115,PARTIALPASTE_RAW_FALSECOLOR
+msgid "False color suppression"
+msgstr ""
+
+#: HISTORY_MSG_116,PARTIALPASTE_RAW_DCBENHANCE,TP_RAW_DCBENHANCE
+msgid "DCB enhancement"
+msgstr ""
+
+#: HISTORY_MSG_117
+msgid "Raw CA correction - Red"
+msgstr ""
+
+#: HISTORY_MSG_118
+msgid "Raw CA correction - Blue"
+msgstr ""
+
+#: HISTORY_MSG_119,PARTIALPASTE_PREPROCESS_LINEDENOISE,TP_PREPROCESS_LINEDENOISE
+msgid "Line noise filter"
+msgstr ""
+
+#: HISTORY_MSG_12,HISTORY_MSG_37
+msgid "Exposure - Auto levels"
+msgstr ""
+
+#: HISTORY_MSG_120,PARTIALPASTE_PREPROCESS_GREENEQUIL,TP_PREPROCESS_GREENEQUIL
+msgid "Green equilibration"
+msgstr ""
+
+#: HISTORY_MSG_121
+msgid "Raw CA Correction - Auto"
+msgstr ""
+
+#: HISTORY_MSG_122
+msgid "Dark-Frame - Auto-selection"
+msgstr ""
+
+#: HISTORY_MSG_123
+msgid "Dark-Frame - File"
+msgstr ""
+
+#: HISTORY_MSG_124,PARTIALPASTE_RAWEXPOS_LINEAR
+msgid "White point correction"
+msgstr ""
+
+#: HISTORY_MSG_125,PARTIALPASTE_RAWEXPOS_PRESER,TP_RAWEXPOS_PRESER
+msgid "Highlight preservation"
+msgstr ""
+
+#: HISTORY_MSG_126
+msgid "Flat-Field - File"
+msgstr ""
+
+#: HISTORY_MSG_127
+msgid "Flat-Field - Auto-selection"
+msgstr ""
+
+#: HISTORY_MSG_128
+msgid "Flat-Field - Blur radius"
+msgstr ""
+
+#: HISTORY_MSG_129
+msgid "Flat-Field - Blur type"
+msgstr ""
+
+#: HISTORY_MSG_13
+msgid "Exposure - Clip"
+msgstr ""
+
+#: HISTORY_MSG_130
+msgid "Auto distorion correction"
+msgstr ""
+
+#: HISTORY_MSG_131
+msgid "NR - Luma"
+msgstr ""
+
+#: HISTORY_MSG_132
+msgid "NR - Chroma"
+msgstr ""
+
+#: HISTORY_MSG_133,TP_GAMMA_OUTPUT
+msgid "Output gamma"
+msgstr ""
+
+#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE,TP_RETINEX_FREEGAMMA
+msgid "Free gamma"
+msgstr ""
+
+#: HISTORY_MSG_136,TP_RETINEX_SLOPE
+msgid "Free gamma slope"
+msgstr ""
+
+#: HISTORY_MSG_137
+msgid "Black level - Green 1"
+msgstr ""
+
+#: HISTORY_MSG_138
+msgid "Black level - Red"
+msgstr ""
+
+#: HISTORY_MSG_139
+msgid "Black level - Blue"
+msgstr ""
+
+#: HISTORY_MSG_14
+msgid "L*a*b* - Lightness"
+msgstr ""
+
+#: HISTORY_MSG_140
+msgid "Black level - Green 2"
+msgstr ""
+
+#: HISTORY_MSG_141
+msgid "Black level - Link greens"
+msgstr ""
+
+#: HISTORY_MSG_142
+msgid "ES - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_143
+msgid "ES - Quantity"
+msgstr ""
+
+#: HISTORY_MSG_144
+msgid "Microcontrast - Quantity"
+msgstr ""
+
+#: HISTORY_MSG_145
+msgid "Microcontrast - Uniformity"
+msgstr ""
+
+#: HISTORY_MSG_146
+msgid "Edge sharpening"
+msgstr ""
+
+#: HISTORY_MSG_147
+msgid "ES - Luminance only"
+msgstr ""
+
+#: HISTORY_MSG_148,PARTIALPASTE_SHARPENMICRO,TP_SHARPENMICRO_LABEL
+msgid "Microcontrast"
+msgstr ""
+
+#: HISTORY_MSG_149
+msgid "Microcontrast - 3×3 matrix"
+msgstr ""
+
+#: HISTORY_MSG_15
+msgid "L*a*b* - Contrast"
+msgstr ""
+
+#: HISTORY_MSG_150
+msgid "Post-demosaic artifact/noise red."
+msgstr ""
+
+#: HISTORY_MSG_151,PARTIALPASTE_VIBRANCE,TP_VIBRANCE_LABEL
+msgid "Vibrance"
+msgstr ""
+
+#: HISTORY_MSG_152
+msgid "Vib - Pastel tones"
+msgstr ""
+
+#: HISTORY_MSG_153
+msgid "Vib - Saturated tones"
+msgstr ""
+
+#: HISTORY_MSG_154
+msgid "Vib - Protect skin-tones"
+msgstr ""
+
+#: HISTORY_MSG_155
+msgid "Vib - Avoid color shift"
+msgstr ""
+
+#: HISTORY_MSG_156
+msgid "Vib - Link pastel/saturated"
+msgstr ""
+
+#: HISTORY_MSG_157
+msgid "Vib - P/S threshold"
+msgstr ""
+
+#: HISTORY_MSG_158
+msgid "TM - Strength"
+msgstr ""
+
+#: HISTORY_MSG_159
+msgid "TM - Edge stopping"
+msgstr ""
+
+#: HISTORY_MSG_16,HISTORY_MSG_17,HISTORY_MSG_18,HISTORY_MSG_300,HISTORY_MSG_78
+msgid "-"
+msgstr ""
+
+#: HISTORY_MSG_160
+msgid "TM - Scale"
+msgstr ""
+
+#: HISTORY_MSG_161
+msgid "TM - Reweighting iterates"
+msgstr ""
+
+#: HISTORY_MSG_162,TP_EPD_LABEL
+msgid "Tone Mapping"
+msgstr ""
+
+#: HISTORY_MSG_163
+msgid "RGB Curves - Red"
+msgstr ""
+
+#: HISTORY_MSG_164
+msgid "RGB Curves - Green"
+msgstr ""
+
+#: HISTORY_MSG_165
+msgid "RGB Curves - Blue"
+msgstr ""
+
+#: HISTORY_MSG_166
+msgid "Exposure - Reset"
+msgstr ""
+
+#: HISTORY_MSG_167,HISTORY_MSG_98
+msgid "Demosaicing method"
+msgstr ""
+
+#: HISTORY_MSG_168
+msgid "L*a*b* - CC curve"
+msgstr ""
+
+#: HISTORY_MSG_169
+msgid "L*a*b* - CH curve"
+msgstr ""
+
+#: HISTORY_MSG_170
+msgid "Vibrance - HH curve"
+msgstr ""
+
+#: HISTORY_MSG_171
+msgid "L*a*b* - LC curve"
+msgstr ""
+
+#: HISTORY_MSG_172
+msgid "L*a*b* - Restrict LC"
+msgstr ""
+
+#: HISTORY_MSG_173
+msgid "NR - Luminance detail"
+msgstr ""
+
+#: HISTORY_MSG_174,PARTIALPASTE_COLORAPP
+msgid "CIECAM02"
+msgstr ""
+
+#: HISTORY_MSG_175
+msgid "CAM02 - CAT02 adaptation"
+msgstr ""
+
+#: HISTORY_MSG_176
+msgid "CAM02 - Viewing surround"
+msgstr ""
+
+#: HISTORY_MSG_177
+msgid "CAM02 - Scene luminosity"
+msgstr ""
+
+#: HISTORY_MSG_178
+msgid "CAM02 - Viewing luminosity"
+msgstr ""
+
+#: HISTORY_MSG_179
+msgid "CAM02 - White-point model"
+msgstr ""
+
+#: HISTORY_MSG_180
+msgid "CAM02 - Lightness (J)"
+msgstr ""
+
+#: HISTORY_MSG_181
+msgid "CAM02 - Chroma (C)"
+msgstr ""
+
+#: HISTORY_MSG_182
+msgid "CAM02 - Automatic CAT02"
+msgstr ""
+
+#: HISTORY_MSG_183
+msgid "CAM02 - Contrast (J)"
+msgstr ""
+
+#: HISTORY_MSG_184
+msgid "CAM02 - Scene surround"
+msgstr ""
+
+#: HISTORY_MSG_185
+msgid "CAM02 - Gamut control"
+msgstr ""
+
+#: HISTORY_MSG_186
+msgid "CAM02 - Algorithm"
+msgstr ""
+
+#: HISTORY_MSG_187
+msgid "CAM02 - Red/skin prot."
+msgstr ""
+
+#: HISTORY_MSG_188
+msgid "CAM02 - Brightness (Q)"
+msgstr ""
+
+#: HISTORY_MSG_189
+msgid "CAM02 - Contrast (Q)"
+msgstr ""
+
+#: HISTORY_MSG_19
+msgid "L*a*b* - L* curve"
+msgstr ""
+
+#: HISTORY_MSG_190
+msgid "CAM02 - Saturation (S)"
+msgstr ""
+
+#: HISTORY_MSG_191
+msgid "CAM02 - Colorfulness (M)"
+msgstr ""
+
+#: HISTORY_MSG_192
+msgid "CAM02 - Hue (h)"
+msgstr ""
+
+#: HISTORY_MSG_193,HISTORY_MSG_195
+msgid "CAM02 - Tone curve 1"
+msgstr ""
+
+#: HISTORY_MSG_194,HISTORY_MSG_196
+msgid "CAM02 - Tone curve 2"
+msgstr ""
+
+#: HISTORY_MSG_197,HISTORY_MSG_198
+msgid "CAM02 - Color curve"
+msgstr ""
+
+#: HISTORY_MSG_199
+msgid "CAM02 - Output histograms"
+msgstr ""
+
+#: HISTORY_MSG_2
+msgid "PP3 loaded"
+msgstr ""
+
+#: HISTORY_MSG_20,TP_SHARPENING_LABEL
+msgid "Sharpening"
+msgstr ""
+
+#: HISTORY_MSG_200
+msgid "CAM02 - Tone mapping"
+msgstr ""
+
+#: HISTORY_MSG_201
+msgid "NR - Chrominance - R&amp;G"
+msgstr ""
+
+#: HISTORY_MSG_202
+msgid "NR - Chrominance - B&amp;Y"
+msgstr ""
+
+#: HISTORY_MSG_203
+msgid "NR - Method"
+msgstr ""
+
+#: HISTORY_MSG_204,PARTIALPASTE_RAW_LMMSEITERATIONS,TP_RAW_LMMSEITERATIONS
+msgid "LMMSE enhancement steps"
+msgstr ""
+
+#: HISTORY_MSG_205
+msgid "CAM02 - Hot/bad pixel filter"
+msgstr ""
+
+#: HISTORY_MSG_206
+msgid "CAT02 - Auto scene luminosity"
+msgstr ""
+
+#: HISTORY_MSG_207
+msgid "Defringe - Hue curve"
+msgstr ""
+
+#: HISTORY_MSG_208
+msgid "WB - B/R equalizer"
+msgstr ""
+
+#: HISTORY_MSG_21
+msgid "USM - Radius"
+msgstr ""
+
+#: HISTORY_MSG_210
+msgid "GF - Angle"
+msgstr ""
+
+#: HISTORY_MSG_211,TP_GRADIENT_LABEL
+msgid "Graduated Filter"
+msgstr ""
+
+#: HISTORY_MSG_212
+msgid "VF - Strength"
+msgstr ""
+
+#: HISTORY_MSG_213,TP_PCVIGNETTE_LABEL
+msgid "Vignette Filter"
+msgstr ""
+
+#: HISTORY_MSG_214,TP_BWMIX_LABEL
+msgid "Black-and-White"
+msgstr ""
+
+#: HISTORY_MSG_215
+msgid "B&amp;W - CM - Red"
+msgstr ""
+
+#: HISTORY_MSG_216
+msgid "B&amp;W - CM - Green"
+msgstr ""
+
+#: HISTORY_MSG_217
+msgid "B&amp;W - CM - Blue"
+msgstr ""
+
+#: HISTORY_MSG_218
+msgid "B&amp;W - Gamma - Red"
+msgstr ""
+
+#: HISTORY_MSG_219
+msgid "B&amp;W - Gamma - Green"
+msgstr ""
+
+#: HISTORY_MSG_22
+msgid "USM - Amount"
+msgstr ""
+
+#: HISTORY_MSG_220
+msgid "B&amp;W - Gamma - Blue"
+msgstr ""
+
+#: HISTORY_MSG_221
+msgid "B&amp;W - Color filter"
+msgstr ""
+
+#: HISTORY_MSG_222
+msgid "B&amp;W - Presets"
+msgstr ""
+
+#: HISTORY_MSG_223
+msgid "B&amp;W - CM - Orange"
+msgstr ""
+
+#: HISTORY_MSG_224
+msgid "B&amp;W - CM - Yellow"
+msgstr ""
+
+#: HISTORY_MSG_225
+msgid "B&amp;W - CM - Cyan"
+msgstr ""
+
+#: HISTORY_MSG_226
+msgid "B&amp;W - CM - Magenta"
+msgstr ""
+
+#: HISTORY_MSG_227
+msgid "B&amp;W - CM - Purple"
+msgstr ""
+
+#: HISTORY_MSG_228,HISTORY_MSG_229
+msgid "B&amp;W - Luminance equalizer"
+msgstr ""
+
+#: HISTORY_MSG_23
+msgid "USM - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_230
+msgid "B&amp;W - Mode"
+msgstr ""
+
+#: HISTORY_MSG_231
+msgid "B&amp;W - 'Before' curve"
+msgstr ""
+
+#: HISTORY_MSG_232
+msgid "B&amp;W - 'Before' curve type"
+msgstr ""
+
+#: HISTORY_MSG_233
+msgid "B&amp;W - 'After' curve"
+msgstr ""
+
+#: HISTORY_MSG_234
+msgid "B&amp;W - 'After' curve type"
+msgstr ""
+
+#: HISTORY_MSG_235
+msgid "B&amp;W - Auto channel mixer"
+msgstr ""
+
+#: HISTORY_MSG_237
+msgid "B&amp;W - Mixer"
+msgstr ""
+
+#: HISTORY_MSG_238
+msgid "GF - Feather"
+msgstr ""
+
+#: HISTORY_MSG_239
+msgid "GF - Strength"
+msgstr ""
+
+#: HISTORY_MSG_24
+msgid "USM - Sharpen only edges"
+msgstr ""
+
+#: HISTORY_MSG_240
+msgid "GF - Center"
+msgstr ""
+
+#: HISTORY_MSG_241
+msgid "VF - Feather"
+msgstr ""
+
+#: HISTORY_MSG_242
+msgid "VF - Roundness"
+msgstr ""
+
+#: HISTORY_MSG_243
+msgid "VC - Radius"
+msgstr ""
+
+#: HISTORY_MSG_244
+msgid "VC - Strength"
+msgstr ""
+
+#: HISTORY_MSG_245
+msgid "VC - Center"
+msgstr ""
+
+#: HISTORY_MSG_246
+msgid "L*a*b* - CL curve"
+msgstr ""
+
+#: HISTORY_MSG_247
+msgid "L*a*b* - LH curve"
+msgstr ""
+
+#: HISTORY_MSG_248
+msgid "L*a*b* - HH curve"
+msgstr ""
+
+#: HISTORY_MSG_249
+msgid "CbDL - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_25
+msgid "USM - Edge detection radius"
+msgstr ""
+
+#: HISTORY_MSG_250
+msgid "NR - Enhanced"
+msgstr ""
+
+#: HISTORY_MSG_251
+msgid "B&amp;W - Algorithm"
+msgstr ""
+
+#: HISTORY_MSG_252
+msgid "CbDL - Skin tar/prot"
+msgstr ""
+
+#: HISTORY_MSG_253
+msgid "CbDL - Reduce artifacts"
+msgstr ""
+
+#: HISTORY_MSG_254
+msgid "CbDL - Skin hue"
+msgstr ""
+
+#: HISTORY_MSG_255
+msgid "NR - Median filter"
+msgstr ""
+
+#: HISTORY_MSG_256
+msgid "NR - Median type"
+msgstr ""
+
+#: HISTORY_MSG_257,TP_COLORTONING_LABEL
+msgid "Color Toning"
+msgstr ""
+
+#: HISTORY_MSG_258
+msgid "CT - Color curve"
+msgstr ""
+
+#: HISTORY_MSG_259
+msgid "CT - Opacity curve"
+msgstr ""
+
+#: HISTORY_MSG_26
+msgid "USM - Edge tolerance"
+msgstr ""
+
+#: HISTORY_MSG_260
+msgid "CT - a*[b*] opacity"
+msgstr ""
+
+#: HISTORY_MSG_261
+msgid "CT - Method"
+msgstr ""
+
+#: HISTORY_MSG_262
+msgid "CT - b* opacity"
+msgstr ""
+
+#: HISTORY_MSG_263
+msgid "CT - Shadows - Red"
+msgstr ""
+
+#: HISTORY_MSG_264
+msgid "CT - Shadows - Green"
+msgstr ""
+
+#: HISTORY_MSG_265
+msgid "CT - Shadows - Blue"
+msgstr ""
+
+#: HISTORY_MSG_266
+msgid "CT - Mid - Red"
+msgstr ""
+
+#: HISTORY_MSG_267
+msgid "CT - Mid - Green"
+msgstr ""
+
+#: HISTORY_MSG_268
+msgid "CT - Mid - Blue"
+msgstr ""
+
+#: HISTORY_MSG_269
+msgid "CT - High - Red"
+msgstr ""
+
+#: HISTORY_MSG_27
+msgid "USM - Halo control"
+msgstr ""
+
+#: HISTORY_MSG_270
+msgid "CT - High - Green"
+msgstr ""
+
+#: HISTORY_MSG_271
+msgid "CT - High - Blue"
+msgstr ""
+
+#: HISTORY_MSG_272
+msgid "CT - Balance"
+msgstr ""
+
+#: HISTORY_MSG_273
+msgid "CT - Reset"
+msgstr ""
+
+#: HISTORY_MSG_274
+msgid "CT - Sat. Shadows"
+msgstr ""
+
+#: HISTORY_MSG_275
+msgid "CT - Sat. Highlights"
+msgstr ""
+
+#: HISTORY_MSG_276
+msgid "CT - Opacity"
+msgstr ""
+
+#: HISTORY_MSG_278
+msgid "CT - Preserve luminance"
+msgstr ""
+
+#: HISTORY_MSG_279
+msgid "CT - Shadows"
+msgstr ""
+
+#: HISTORY_MSG_28
+msgid "USM - Halo control amount"
+msgstr ""
+
+#: HISTORY_MSG_280
+msgid "CT - Highlights"
+msgstr ""
+
+#: HISTORY_MSG_281
+msgid "CT - Sat. strength"
+msgstr ""
+
+#: HISTORY_MSG_282
+msgid "CT - Sat. threshold"
+msgstr ""
+
+#: HISTORY_MSG_283
+msgid "CT - Strength"
+msgstr ""
+
+#: HISTORY_MSG_284
+msgid "CT - Auto sat. protection"
+msgstr ""
+
+#: HISTORY_MSG_285
+msgid "NR - Median - Method"
+msgstr ""
+
+#: HISTORY_MSG_286
+msgid "NR - Median - Type"
+msgstr ""
+
+#: HISTORY_MSG_287
+msgid "NR - Median - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_288
+msgid "Flat Field - Clip control"
+msgstr ""
+
+#: HISTORY_MSG_289
+msgid "Flat Field - Clip control - Auto"
+msgstr ""
+
+#: HISTORY_MSG_29
+msgid "Sharpening - Method"
+msgstr ""
+
+#: HISTORY_MSG_290
+msgid "Black Level - Red"
+msgstr ""
+
+#: HISTORY_MSG_291
+msgid "Black Level - Green"
+msgstr ""
+
+#: HISTORY_MSG_292
+msgid "Black Level - Blue"
+msgstr ""
+
+#: HISTORY_MSG_293,PREFERENCES_FILMSIMULATION,TP_FILMSIMULATION_LABEL
+msgid "Film Simulation"
+msgstr ""
+
+#: HISTORY_MSG_294
+msgid "Film Simulation - Strength"
+msgstr ""
+
+#: HISTORY_MSG_295
+msgid "Film Simulation - Film"
+msgstr ""
+
+#: HISTORY_MSG_296
+msgid "NR - Luminance curve"
+msgstr ""
+
+#: HISTORY_MSG_297
+msgid "NR - Quality"
+msgstr ""
+
+#: HISTORY_MSG_298,PARTIALPASTE_PREPROCESS_DEADPIXFILT,TP_PREPROCESS_DEADPIXFILT
+msgid "Dead pixel filter"
+msgstr ""
+
+#: HISTORY_MSG_299
+msgid "NR - Chrominance curve"
+msgstr ""
+
+#: HISTORY_MSG_3
+msgid "PP3 changed"
+msgstr ""
+
+#: HISTORY_MSG_30
+msgid "RLD - Radius"
+msgstr ""
+
+#: HISTORY_MSG_301
+msgid "NR - Luma control"
+msgstr ""
+
+#: HISTORY_MSG_302,HISTORY_MSG_303
+msgid "NR - Chroma method"
+msgstr ""
+
+#: HISTORY_MSG_304
+msgid "W - Contrast levels"
+msgstr ""
+
+#: HISTORY_MSG_305,PARTIALPASTE_WAVELETGROUP,TP_WAVELET_LABEL
+msgid "Wavelet Levels"
+msgstr ""
+
+#: HISTORY_MSG_306,HISTORY_MSG_307
+msgid "W - Process"
+msgstr ""
+
+#: HISTORY_MSG_308
+msgid "W - Process direction"
+msgstr ""
+
+#: HISTORY_MSG_309
+msgid "W - ES - Detail"
+msgstr ""
+
+#: HISTORY_MSG_31
+msgid "RLD - Amount"
+msgstr ""
+
+#: HISTORY_MSG_310
+msgid "W - Residual - Sky tar/prot"
+msgstr ""
+
+#: HISTORY_MSG_311
+msgid "W - Wavelet levels"
+msgstr ""
+
+#: HISTORY_MSG_312
+msgid "W - Residual - Shadows threshold"
+msgstr ""
+
+#: HISTORY_MSG_313
+msgid "W - Chroma - Sat/past"
+msgstr ""
+
+#: HISTORY_MSG_314
+msgid "W - Gamut - Reduce artifacts"
+msgstr ""
+
+#: HISTORY_MSG_315
+msgid "W - Residual - Contrast"
+msgstr ""
+
+#: HISTORY_MSG_316
+msgid "W - Gamut - Skin tar/prot"
+msgstr ""
+
+#: HISTORY_MSG_317
+msgid "W - Gamut - Skin hue"
+msgstr ""
+
+#: HISTORY_MSG_318
+msgid "W - Contrast - Highlight levels"
+msgstr ""
+
+#: HISTORY_MSG_319
+msgid "W - Contrast - Highlight range"
+msgstr ""
+
+#: HISTORY_MSG_32
+msgid "RLD - Damping"
+msgstr ""
+
+#: HISTORY_MSG_320
+msgid "W - Contrast - Shadow range"
+msgstr ""
+
+#: HISTORY_MSG_321
+msgid "W - Contrast - Shadow levels"
+msgstr ""
+
+#: HISTORY_MSG_322
+msgid "W - Gamut - Avoid color shift"
+msgstr ""
+
+#: HISTORY_MSG_323,HISTORY_MSG_345
+msgid "W - ES - Local contrast"
+msgstr ""
+
+#: HISTORY_MSG_324
+msgid "W - Chroma - Pastel"
+msgstr ""
+
+#: HISTORY_MSG_325
+msgid "W - Chroma - Saturated"
+msgstr ""
+
+#: HISTORY_MSG_326
+msgid "W - Chroma - Method"
+msgstr ""
+
+#: HISTORY_MSG_327
+msgid "W - Contrast - Apply to"
+msgstr ""
+
+#: HISTORY_MSG_328
+msgid "W - Chroma - Link strength"
+msgstr ""
+
+#: HISTORY_MSG_329
+msgid "W - Toning - Opacity RG"
+msgstr ""
+
+#: HISTORY_MSG_33
+msgid "RLD - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_330
+msgid "W - Toning - Opacity BY"
+msgstr ""
+
+#: HISTORY_MSG_331
+msgid "W - Contrast levels - Extra"
+msgstr ""
+
+#: HISTORY_MSG_332
+msgid "W - Tiling method"
+msgstr ""
+
+#: HISTORY_MSG_333
+msgid "W - Residual - Shadows"
+msgstr ""
+
+#: HISTORY_MSG_334
+msgid "W - Residual - Chroma"
+msgstr ""
+
+#: HISTORY_MSG_335
+msgid "W - Residual - Highlights"
+msgstr ""
+
+#: HISTORY_MSG_336
+msgid "W - Residual - Highlights threshold"
+msgstr ""
+
+#: HISTORY_MSG_337
+msgid "W - Residual - Sky hue"
+msgstr ""
+
+#: HISTORY_MSG_338
+msgid "W - ES - Radius"
+msgstr ""
+
+#: HISTORY_MSG_339
+msgid "W - ES - Strength"
+msgstr ""
+
+#: HISTORY_MSG_34
+msgid "LCP distortion correction"
+msgstr ""
+
+#: HISTORY_MSG_340
+msgid "W - Strength"
+msgstr ""
+
+#: HISTORY_MSG_341
+msgid "W - Edge performance"
+msgstr ""
+
+#: HISTORY_MSG_342
+msgid "W - ES - First level"
+msgstr ""
+
+#: HISTORY_MSG_343
+msgid "W - Chroma levels"
+msgstr ""
+
+#: HISTORY_MSG_344
+msgid "W - Meth chroma sl/cur"
+msgstr ""
+
+#: HISTORY_MSG_346
+msgid "W - ES - Local contrast method"
+msgstr ""
+
+#: HISTORY_MSG_347
+msgid "W - Denoise - Level 1"
+msgstr ""
+
+#: HISTORY_MSG_348
+msgid "W - Denoise - Level 2"
+msgstr ""
+
+#: HISTORY_MSG_349
+msgid "W - Denoise - Level 3"
+msgstr ""
+
+#: HISTORY_MSG_35
+msgid "LCP vignetting correction"
+msgstr ""
+
+#: HISTORY_MSG_350
+msgid "W - ES - Edge detection"
+msgstr ""
+
+#: HISTORY_MSG_351
+msgid "W - Residual - HH curve"
+msgstr ""
+
+#: HISTORY_MSG_352
+msgid "W - Background"
+msgstr ""
+
+#: HISTORY_MSG_353
+msgid "W - ES - Gradient sensitivity"
+msgstr ""
+
+#: HISTORY_MSG_354
+msgid "W - ES - Enhanced"
+msgstr ""
+
+#: HISTORY_MSG_355
+msgid "W - ES - Threshold low"
+msgstr ""
+
+#: HISTORY_MSG_356
+msgid "W - ES - Threshold high"
+msgstr ""
+
+#: HISTORY_MSG_357
+msgid "W - Denoise - Link with ES"
+msgstr ""
+
+#: HISTORY_MSG_358
+msgid "W - Gamut - CH"
+msgstr ""
+
+#: HISTORY_MSG_359
+msgid "Hot/Dead - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_36
+msgid "LCP CA correction"
+msgstr ""
+
+#: HISTORY_MSG_360
+msgid "TM Gamma"
+msgstr ""
+
+#: HISTORY_MSG_361
+msgid "W - Final - Chroma balance"
+msgstr ""
+
+#: HISTORY_MSG_362
+msgid "W - Residual - Compression method"
+msgstr ""
+
+#: HISTORY_MSG_363
+msgid "W - Residual - Compression strength"
+msgstr ""
+
+#: HISTORY_MSG_364,HISTORY_MSG_368
+msgid "W - Final - Contrast balance"
+msgstr ""
+
+#: HISTORY_MSG_365
+msgid "W - Final - Delta balance"
+msgstr ""
+
+#: HISTORY_MSG_366
+msgid "W - Residual - Compression gamma"
+msgstr ""
+
+#: HISTORY_MSG_367
+msgid "W - Final - 'After' contrast curve"
+msgstr ""
+
+#: HISTORY_MSG_369
+msgid "W - Final - Balance method"
+msgstr ""
+
+#: HISTORY_MSG_370
+msgid "W - Final - Local contrast curve"
+msgstr ""
+
+#: HISTORY_MSG_371,TP_PRSHARPENING_LABEL
+msgid "Post-Resize Sharpening"
+msgstr ""
+
+#: HISTORY_MSG_372
+msgid "PRS USM - Radius"
+msgstr ""
+
+#: HISTORY_MSG_373
+msgid "PRS USM - Amount"
+msgstr ""
+
+#: HISTORY_MSG_374
+msgid "PRS USM - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_375
+msgid "PRS USM - Sharpen only edges"
+msgstr ""
+
+#: HISTORY_MSG_376
+msgid "PRS USM - Edge detection radius"
+msgstr ""
+
+#: HISTORY_MSG_377
+msgid "PRS USM - Edge tolerance"
+msgstr ""
+
+#: HISTORY_MSG_378
+msgid "PRS USM - Halo control"
+msgstr ""
+
+#: HISTORY_MSG_379
+msgid "PRS USM - Halo control amount"
+msgstr ""
+
+#: HISTORY_MSG_38
+msgid "White Balance - Method"
+msgstr ""
+
+#: HISTORY_MSG_380
+msgid "PRS - Method"
+msgstr ""
+
+#: HISTORY_MSG_381
+msgid "PRS RLD - Radius"
+msgstr ""
+
+#: HISTORY_MSG_382
+msgid "PRS RLD - Amount"
+msgstr ""
+
+#: HISTORY_MSG_383
+msgid "PRS RLD - Damping"
+msgstr ""
+
+#: HISTORY_MSG_384
+msgid "PRS RLD - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_385
+msgid "W - Residual - Color Balance"
+msgstr ""
+
+#: HISTORY_MSG_386
+msgid "W - Residual - CB green high"
+msgstr ""
+
+#: HISTORY_MSG_387
+msgid "W - Residual - CB blue high"
+msgstr ""
+
+#: HISTORY_MSG_388
+msgid "W - Residual - CB green mid"
+msgstr ""
+
+#: HISTORY_MSG_389
+msgid "W - Residual - CB blue mid"
+msgstr ""
+
+#: HISTORY_MSG_39
+msgid "WB - Temperature"
+msgstr ""
+
+#: HISTORY_MSG_390
+msgid "W - Residual - CB green low"
+msgstr ""
+
+#: HISTORY_MSG_391
+msgid "W - Residual - CB blue low"
+msgstr ""
+
+#: HISTORY_MSG_392
+msgid "W - Residual - CB Reset"
+msgstr ""
+
+#: HISTORY_MSG_393
+msgid "DCP - Look table"
+msgstr ""
+
+#: HISTORY_MSG_394
+msgid "DCP - Baseline exposure"
+msgstr ""
+
+#: HISTORY_MSG_395
+msgid "DCP - Base table"
+msgstr ""
+
+#: HISTORY_MSG_396
+msgid "W - Contrast sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_397
+msgid "W - Chroma sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_398
+msgid "W - ES sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_399
+msgid "W - Residual sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_4
+msgid "History browsing"
+msgstr ""
+
+#: HISTORY_MSG_40
+msgid "WB - Tint"
+msgstr ""
+
+#: HISTORY_MSG_400
+msgid "W - Final sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_401
+msgid "W - Toning sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_402
+msgid "W - Denoise sub-tool"
+msgstr ""
+
+#: HISTORY_MSG_403
+msgid "W - ES - Edge sensitivity"
+msgstr ""
+
+#: HISTORY_MSG_404
+msgid "W - ES - Base amplification"
+msgstr ""
+
+#: HISTORY_MSG_405
+msgid "W - Denoise - Level 4"
+msgstr ""
+
+#: HISTORY_MSG_406
+msgid "W - ES - Neighboring pixels"
+msgstr ""
+
+#: HISTORY_MSG_407
+msgid "Retinex - Method"
+msgstr ""
+
+#: HISTORY_MSG_408
+msgid "Retinex - Radius"
+msgstr ""
+
+#: HISTORY_MSG_409,HISTORY_MSG_413
+msgid "Retinex - Contrast"
+msgstr ""
+
+#: HISTORY_MSG_41
+msgid "Exposure - Tone curve 1 mode"
+msgstr ""
+
+#: HISTORY_MSG_410
+msgid "Retinex - Offset"
+msgstr ""
+
+#: HISTORY_MSG_411
+msgid "Retinex - Strength"
+msgstr ""
+
+#: HISTORY_MSG_412
+msgid "Retinex - Gaussian Gradient"
+msgstr ""
+
+#: HISTORY_MSG_414
+msgid "Retinex - Histogram - Lab"
+msgstr ""
+
+#: HISTORY_MSG_415
+msgid "Retinex - Transmission"
+msgstr ""
+
+#: HISTORY_MSG_416,PARTIALPASTE_RETINEX,TP_RETINEX_LABEL
+msgid "Retinex"
+msgstr ""
+
+#: HISTORY_MSG_417
+msgid "Retinex - Transmission Median"
+msgstr ""
+
+#: HISTORY_MSG_418
+msgid "Retinex - Threshold"
+msgstr ""
+
+#: HISTORY_MSG_419
+msgid "Retinex - Color space"
+msgstr ""
+
+#: HISTORY_MSG_42
+msgid "Exposure - Tone curve 2"
+msgstr ""
+
+#: HISTORY_MSG_420
+msgid "Retinex - Histogram - HSL"
+msgstr ""
+
+#: HISTORY_MSG_421,HISTORY_MSG_422
+msgid "Retinex - Gamma"
+msgstr ""
+
+#: HISTORY_MSG_423
+msgid "Retinex - Gamma slope"
+msgstr ""
+
+#: HISTORY_MSG_424
+msgid "Retinex - HL threshold"
+msgstr ""
+
+#: HISTORY_MSG_425
+msgid "Retinex - Log base"
+msgstr ""
+
+#: HISTORY_MSG_426
+msgid "Retinex - Hue equalizer"
+msgstr ""
+
+#: HISTORY_MSG_427
+msgid "Output rendering intent"
+msgstr ""
+
+#: HISTORY_MSG_428
+msgid "Monitor rendering intent"
+msgstr ""
+
+#: HISTORY_MSG_429
+msgid "Retinex - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_43
+msgid "Exposure - Tone curve 2 mode"
+msgstr ""
+
+#: HISTORY_MSG_430
+msgid "Retinex - Transmission Gradient"
+msgstr ""
+
+#: HISTORY_MSG_431
+msgid "Retinex - Strength Gradient"
+msgstr ""
+
+#: HISTORY_MSG_432
+msgid "Retinex - M - Highlights"
+msgstr ""
+
+#: HISTORY_MSG_433
+msgid "Retinex - M - Highlights TW"
+msgstr ""
+
+#: HISTORY_MSG_434
+msgid "Retinex - M - Shadows"
+msgstr ""
+
+#: HISTORY_MSG_435
+msgid "Retinex - M - Shadows TW"
+msgstr ""
+
+#: HISTORY_MSG_436
+msgid "Retinex - M - Radius"
+msgstr ""
+
+#: HISTORY_MSG_437
+msgid "Retinex - M - Method"
+msgstr ""
+
+#: HISTORY_MSG_438
+msgid "Retinex - M - Equalizer"
+msgstr ""
+
+#: HISTORY_MSG_439
+msgid "Retinex - Process"
+msgstr ""
+
+#: HISTORY_MSG_44
+msgid "Lum. denoising radius"
+msgstr ""
+
+#: HISTORY_MSG_440
+msgid "CbDL - Method"
+msgstr ""
+
+#: HISTORY_MSG_441
+msgid "Retinex - Gain transmission"
+msgstr ""
+
+#: HISTORY_MSG_442
+msgid "Retinex - Scale"
+msgstr ""
+
+#: HISTORY_MSG_443
+msgid "Output Black Point Compensation"
+msgstr ""
+
+#: HISTORY_MSG_444
+msgid "WB - Temp bias"
+msgstr ""
+
+#: HISTORY_MSG_445
+msgid "Raw Sub-Image"
+msgstr ""
+
+#: HISTORY_MSG_446
+msgid "EvPixelShiftMotion"
+msgstr ""
+
+#: HISTORY_MSG_447
+msgid "EvPixelShiftMotionCorrection"
+msgstr ""
+
+#: HISTORY_MSG_448
+msgid "EvPixelShiftStddevFactorGreen"
+msgstr ""
+
+#: HISTORY_MSG_449
+msgid "PS ISO adaption"
+msgstr ""
+
+#: HISTORY_MSG_45
+msgid "Lum. denoising edge tolerance"
+msgstr ""
+
+#: HISTORY_MSG_450
+msgid "EvPixelShiftNreadIso"
+msgstr ""
+
+#: HISTORY_MSG_451
+msgid "EvPixelShiftPrnu"
+msgstr ""
+
+#: HISTORY_MSG_452
+msgid "PS Show motion"
+msgstr ""
+
+#: HISTORY_MSG_453
+msgid "PS Show mask only"
+msgstr ""
+
+#: HISTORY_MSG_454
+msgid "EvPixelShiftAutomatic"
+msgstr ""
+
+#: HISTORY_MSG_455
+msgid "EvPixelShiftNonGreenHorizontal"
+msgstr ""
+
+#: HISTORY_MSG_456
+msgid "EvPixelShiftNonGreenVertical"
+msgstr ""
+
+#: HISTORY_MSG_457
+msgid "PS Check red/blue"
+msgstr ""
+
+#: HISTORY_MSG_458
+msgid "EvPixelShiftStddevFactorRed"
+msgstr ""
+
+#: HISTORY_MSG_459
+msgid "EvPixelShiftStddevFactorBlue"
+msgstr ""
+
+#: HISTORY_MSG_46
+msgid "Color denoising"
+msgstr ""
+
+#: HISTORY_MSG_460
+msgid "EvPixelShiftGreenAmaze"
+msgstr ""
+
+#: HISTORY_MSG_461
+msgid "EvPixelShiftNonGreenAmaze"
+msgstr ""
+
+#: HISTORY_MSG_462
+msgid "PS Check green"
+msgstr ""
+
+#: HISTORY_MSG_463
+msgid "EvPixelShiftRedBlueWeight"
+msgstr ""
+
+#: HISTORY_MSG_464
+msgid "PS Blur motion mask"
+msgstr ""
+
+#: HISTORY_MSG_465
+msgid "PS Blur radius"
+msgstr ""
+
+#: HISTORY_MSG_466
+msgid "EvPixelShiftSum"
+msgstr ""
+
+#: HISTORY_MSG_467
+msgid "EvPixelShiftExp0"
+msgstr ""
+
+#: HISTORY_MSG_468
+msgid "PS Fill holes"
+msgstr ""
+
+#: HISTORY_MSG_469
+msgid "PS Median"
+msgstr ""
+
+#: HISTORY_MSG_47,TP_ICM_BLENDCMSMATRIX
+msgid "Blend ICC highlights with matrix"
+msgstr ""
+
+#: HISTORY_MSG_470
+msgid "EvPixelShiftMedian3"
+msgstr ""
+
+#: HISTORY_MSG_471
+msgid "PS Motion correction"
+msgstr ""
+
+#: HISTORY_MSG_472
+msgid "PS Smooth transitions"
+msgstr ""
+
+#: HISTORY_MSG_473
+msgid "PS Use lmmse"
+msgstr ""
+
+#: HISTORY_MSG_474
+msgid "PS Equalize"
+msgstr ""
+
+#: HISTORY_MSG_475
+msgid "PS Equalize channel"
+msgstr ""
+
+#: HISTORY_MSG_48
+msgid "DCP - Tone curve"
+msgstr ""
+
+#: HISTORY_MSG_49
+msgid "DCP illuminant"
+msgstr ""
+
+#: HISTORY_MSG_5
+msgid "Exposure - Lightness"
+msgstr ""
+
+#: HISTORY_MSG_50,TP_SHADOWSHLIGHTS_LABEL,TP_WAVELET_HS2
+msgid "Shadows/Highlights"
+msgstr ""
+
+#: HISTORY_MSG_51
+msgid "S/H - Highlights"
+msgstr ""
+
+#: HISTORY_MSG_52
+msgid "S/H - Shadows"
+msgstr ""
+
+#: HISTORY_MSG_53
+msgid "S/H - Highlights tonal width"
+msgstr ""
+
+#: HISTORY_MSG_54
+msgid "S/H - Shadows tonal width"
+msgstr ""
+
+#: HISTORY_MSG_55
+msgid "S/H - Local contrast"
+msgstr ""
+
+#: HISTORY_MSG_56
+msgid "S/H - Radius"
+msgstr ""
+
+#: HISTORY_MSG_57
+msgid "Coarse rotation"
+msgstr ""
+
+#: HISTORY_MSG_58
+msgid "Horizontal flipping"
+msgstr ""
+
+#: HISTORY_MSG_59
+msgid "Vertical flipping"
+msgstr ""
+
+#: HISTORY_MSG_6
+msgid "Exposure - Contrast"
+msgstr ""
+
+#: HISTORY_MSG_60,PARTIALPASTE_ROTATION
+msgid "Rotation"
+msgstr ""
+
+#: HISTORY_MSG_61,PARTIALPASTE_COMMONTRANSFORMPARAMS,TP_LENSGEOM_FILL
+msgid "Auto-fill"
+msgstr ""
+
+#: HISTORY_MSG_62,PARTIALPASTE_DISTORTION,TP_LENSPROFILE_USEDIST
+msgid "Distortion correction"
+msgstr ""
+
+#: HISTORY_MSG_63
+msgid "Snapshot selected"
+msgstr ""
+
+#: HISTORY_MSG_64,PARTIALPASTE_CROP,TP_CROP_LABEL
+msgid "Crop"
+msgstr ""
+
+#: HISTORY_MSG_65
+msgid "CA correction"
+msgstr ""
+
+#: HISTORY_MSG_66
+msgid "Exposure - Highlight reconstruction"
+msgstr ""
+
+#: HISTORY_MSG_67
+msgid "Exposure - HLR amount"
+msgstr ""
+
+#: HISTORY_MSG_68
+msgid "Exposure - HLR method"
+msgstr ""
+
+#: HISTORY_MSG_69
+msgid "Working color space"
+msgstr ""
+
+#: HISTORY_MSG_7
+msgid "Exposure - Black"
+msgstr ""
+
+#: HISTORY_MSG_70
+msgid "Output color space"
+msgstr ""
+
+#: HISTORY_MSG_71
+msgid "Input color space"
+msgstr ""
+
+#: HISTORY_MSG_72
+msgid "VC - Amount"
+msgstr ""
+
+#: HISTORY_MSG_73,TP_BWMIX_MET_CHANMIX,TP_CHMIXER_LABEL
+msgid "Channel Mixer"
+msgstr ""
+
+#: HISTORY_MSG_74
+msgid "Resize - Scale"
+msgstr ""
+
+#: HISTORY_MSG_75
+msgid "Resize - Method"
+msgstr ""
+
+#: HISTORY_MSG_76
+msgid "Exif metadata"
+msgstr ""
+
+#: HISTORY_MSG_77
+msgid "IPTC metadata"
+msgstr ""
+
+#: HISTORY_MSG_79
+msgid "Resize - Width"
+msgstr ""
+
+#: HISTORY_MSG_8
+msgid "Exposure - Compensation"
+msgstr ""
+
+#: HISTORY_MSG_80
+msgid "Resize - Height"
+msgstr ""
+
+#: HISTORY_MSG_81,PARTIALPASTE_RESIZE,TP_RESIZE_LABEL
+msgid "Resize"
+msgstr ""
+
+#: HISTORY_MSG_82
+msgid "Profile changed"
+msgstr ""
+
+#: HISTORY_MSG_83
+msgid "S/H - Sharp mask"
+msgstr ""
+
+#: HISTORY_MSG_84
+msgid "Perspective correction"
+msgstr ""
+
+#: HISTORY_MSG_85
+msgid "LCP"
+msgstr ""
+
+#: HISTORY_MSG_86
+msgid "RGB Curves - Luminosity mode"
+msgstr ""
+
+#: HISTORY_MSG_87,TP_IMPULSEDENOISE_LABEL
+msgid "Impulse Noise Reduction"
+msgstr ""
+
+#: HISTORY_MSG_88
+msgid "Impulse NR threshold"
+msgstr ""
+
+#: HISTORY_MSG_89,PREFERENCES_NOISE,TP_DIRPYRDENOISE_LABEL
+msgid "Noise Reduction"
+msgstr ""
+
+#: HISTORY_MSG_9
+msgid "Exposure - Highlight compression"
+msgstr ""
+
+#: HISTORY_MSG_90
+msgid "NR - Luminance"
+msgstr ""
+
+#: HISTORY_MSG_91
+msgid "NR - Chrominance master"
+msgstr ""
+
+#: HISTORY_MSG_92
+msgid "NR - Gamma"
+msgstr ""
+
+#: HISTORY_MSG_93
+msgid "CbDL - Value"
+msgstr ""
+
+#: HISTORY_MSG_94,TP_DIRPYREQUALIZER_LABEL
+msgid "Contrast by Detail Levels"
+msgstr ""
+
+#: HISTORY_MSG_95
+msgid "L*a*b* - Chromaticity"
+msgstr ""
+
+#: HISTORY_MSG_96
+msgid "L*a*b* - a* curve"
+msgstr ""
+
+#: HISTORY_MSG_97
+msgid "L*a*b* - b* curve"
+msgstr ""
+
+#: HISTORY_MSG_99,PARTIALPASTE_PREPROCESS_HOTPIXFILT,TP_PREPROCESS_HOTPIXFILT
+msgid "Hot pixel filter"
+msgstr ""
+
+#: HISTORY_NEWSNAPSHOT,MAIN_FRAME_PLACES_ADD,PREFERENCES_ADD
+msgid "Add"
+msgstr ""
+
+#: HISTORY_NEWSNAPSHOT_TOOLTIP
+msgid "Shortcut: <b>Alt-s</b>"
+msgstr ""
+
+#: HISTORY_SNAPSHOTS
+msgid "Snapshots"
+msgstr ""
+
+#: HISTORY_SNAPSHOT
+msgid "Snapshot"
+msgstr ""
+
+#: IPTCPANEL_CATEGORYHINT
+msgid "Identifies the subject of the image in the opinion of the provider."
+msgstr ""
+
+#: IPTCPANEL_CATEGORY
+msgid "Category"
+msgstr ""
+
+#: IPTCPANEL_CITYHINT
+msgid "Enter the name of the city pictured in this image."
+msgstr ""
+
+#: IPTCPANEL_CITY
+msgid "City"
+msgstr ""
+
+#: IPTCPANEL_COPYHINT
+msgid "Copy IPTC settings to clipboard."
+msgstr ""
+
+#: IPTCPANEL_COPYRIGHTHINT
+msgid "Enter a Notice on the current owner of the Copyright for this image, such as ©2008 Jane Doe."
+msgstr ""
+
+#: IPTCPANEL_COPYRIGHT
+msgid "Copyright notice"
+msgstr ""
+
+#: IPTCPANEL_COUNTRYHINT
+msgid "Enter the name of the country pictured in this image."
+msgstr ""
+
+#: IPTCPANEL_COUNTRY
+msgid "Country"
+msgstr ""
+
+#: IPTCPANEL_CREATORHINT
+msgid "Enter the name of the person that created this image."
+msgstr ""
+
+#: IPTCPANEL_CREATORJOBTITLEHINT
+msgid "Enter the Job Title of the person listed in the Creator field."
+msgstr ""
+
+#: IPTCPANEL_CREATORJOBTITLE
+msgid "Creator's job title"
+msgstr ""
+
+#: IPTCPANEL_CREATOR
+msgid "Creator"
+msgstr ""
+
+#: IPTCPANEL_CREDITHINT
+msgid "Enter who should be credited when this image is published."
+msgstr ""
+
+#: IPTCPANEL_CREDIT
+msgid "Credit line"
+msgstr ""
+
+#: IPTCPANEL_DATECREATEDHINT
+msgid "Enter the Date the image was taken."
+msgstr ""
+
+#: IPTCPANEL_DATECREATED
+msgid "Date created"
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONHINT
+msgid "Enter a \"caption\" describing the who, what, and why of what is happening in this image, this might include names of people, and/or their role in the action that is taking place within the image."
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONWRITERHINT
+msgid "Enter the name of the person involved in writing, editing or correcting the description of the image."
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTIONWRITER
+msgid "Description writer"
+msgstr ""
+
+#: IPTCPANEL_DESCRIPTION
+msgid "Description"
+msgstr ""
+
+#: IPTCPANEL_EMBEDDEDHINT
+msgid "Reset to IPTC data embedded in the image file."
+msgstr ""
+
+#: IPTCPANEL_EMBEDDED
+msgid "Embedded"
+msgstr ""
+
+#: IPTCPANEL_HEADLINEHINT
+msgid "Enter a brief publishable synopsis or summary of the contents of the image."
+msgstr ""
+
+#: IPTCPANEL_HEADLINE
+msgid "Headline"
+msgstr ""
+
+#: IPTCPANEL_INSTRUCTIONSHINT
+msgid "Enter information about embargoes, or other restrictions not covered by the Copyright field."
+msgstr ""
+
+#: IPTCPANEL_INSTRUCTIONS
+msgid "Instructions"
+msgstr ""
+
+#: IPTCPANEL_KEYWORDSHINT
+msgid "Enter any number of keywords, terms or phrases used to express the subject matter in the image."
+msgstr ""
+
+#: IPTCPANEL_KEYWORDS
+msgid "Keywords"
+msgstr ""
+
+#: IPTCPANEL_PASTEHINT
+msgid "Paste IPTC settings from clipboard."
+msgstr ""
+
+#: IPTCPANEL_PROVINCEHINT
+msgid "Enter the name of the province or state pictured in this image."
+msgstr ""
+
+#: IPTCPANEL_PROVINCE
+msgid "Province or state"
+msgstr ""
+
+#: IPTCPANEL_RESETHINT
+msgid "Reset to profile default."
+msgstr ""
+
+#: IPTCPANEL_SOURCEHINT
+msgid "Enter or edit the name of a person or party who has a role in the content supply chain, such as a person or entity from whom you received this image from."
+msgstr ""
+
+#: IPTCPANEL_SOURCE
+msgid "Source"
+msgstr ""
+
+#: IPTCPANEL_SUPPCATEGORIESHINT
+msgid "Further refines the subject of the image."
+msgstr ""
+
+#: IPTCPANEL_SUPPCATEGORIES
+msgid "Supplemental categories"
+msgstr ""
+
+#: IPTCPANEL_TITLEHINT
+msgid "Enter a short verbal and human readable name for the image, this may be the file name."
+msgstr ""
+
+#: IPTCPANEL_TITLE
+msgid "Title"
+msgstr ""
+
+#: IPTCPANEL_TRANSREFERENCEHINT
+msgid "Enter a number or identifier needed for workflow control or tracking."
+msgstr ""
+
+#: IPTCPANEL_TRANSREFERENCE
+msgid "Job ID"
+msgstr ""
+
+#: MAIN_BUTTON_FULLSCREEN
+msgid "Fullscreen"
+msgstr ""
+
+#: MAIN_BUTTON_NAVNEXT_TOOLTIP
+msgid "Navigate to the next image relative to image opened in the Editor.\nShortcut: <b>Shift-F4</b>\n\nTo navigate to the next image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F4</b>"
+msgstr ""
+
+#: MAIN_BUTTON_NAVPREV_TOOLTIP
+msgid "Navigate to the previous image relative to image opened in the Editor.\nShortcut: <b>Shift-F3</b>\n\nTo navigate to the previous image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F3</b>"
+msgstr ""
+
+#: MAIN_BUTTON_NAVSYNC_TOOLTIP
+msgid "Synchronize the File Browser or Filmstrip with the Editor to reveal the thumbnail of the currently opened image, and clear any active filters.\nShortcut: <b>x</b>\n\nAs above, but without clearing active filters:\nShortcut: <b>y</b>\n(Note that the thumbnail of the opened image will not be shown if filtered out)."
+msgstr ""
+
+#: MAIN_BUTTON_PREFERENCES
+msgid "Preferences"
+msgstr ""
+
+#: MAIN_BUTTON_PUTTOQUEUE_TOOLTIP
+msgid "Put current image to processing queue.\nShortcut: <b>Ctrl+b</b>"
+msgstr ""
+
+#: MAIN_BUTTON_SAVE_TOOLTIP
+msgid "Save current image.\nShortcut: <b>Ctrl+s</b>"
+msgstr ""
+
+#: MAIN_BUTTON_SENDTOEDITOR_TOOLTIP
+msgid "Edit current image in external editor.\nShortcut: <b>Ctrl+e</b>"
+msgstr ""
+
+#: MAIN_BUTTON_SENDTOEDITOR
+msgid "Edit image in external editor"
+msgstr ""
+
+#: MAIN_BUTTON_SHOWHIDESIDEPANELS_TOOLTIP
+msgid "Show/hide all side panels.\nShortcut: <b>m</b>"
+msgstr ""
+
+#: MAIN_BUTTON_UNFULLSCREEN
+msgid "Exit fullscreen"
+msgstr ""
+
+#: MAIN_FRAME_BATCHQUEUE_TOOLTIP
+msgid "Processing queue.\nShortcut: <b>Ctrl-F3</b>"
+msgstr ""
+
+#: MAIN_FRAME_BATCHQUEUE
+msgid "Queue"
+msgstr ""
+
+#: MAIN_FRAME_EDITOR_TOOLTIP
+msgid "Editor.\nShortcut: <b>Ctrl-F4</b>"
+msgstr ""
+
+#: MAIN_FRAME_EDITOR
+msgid "Editor"
+msgstr ""
+
+#: MAIN_FRAME_FILEBROWSER,PREFERENCES_TAB_BROWSER
+msgid "File Browser"
+msgstr ""
+
+#: MAIN_FRAME_FILEBROWSER_TOOLTIP
+msgid "File browser.\nShortcut: <b>Ctrl-F2</b>"
+msgstr ""
+
+#: MAIN_FRAME_PLACES
+msgid "Places"
+msgstr ""
+
+#: MAIN_FRAME_RECENT
+msgid "Recent Folders"
+msgstr ""
+
+#: MAIN_MSG_ALREADYEXISTS
+msgid "File already exists."
+msgstr ""
+
+#: MAIN_MSG_CANNOTLOAD
+msgid "Cannot load image"
+msgstr ""
+
+#: MAIN_MSG_CANNOTSAVE
+msgid "File saving error"
+msgstr ""
+
+#: MAIN_MSG_CANNOTSTARTEDITOR_SECONDARY
+msgid "Please set the correct path in Preferences."
+msgstr ""
+
+#: MAIN_MSG_CANNOTSTARTEDITOR
+msgid "Cannot start editor."
+msgstr ""
+
+#: MAIN_MSG_EMPTYFILENAME
+msgid "Filename unspecified!"
+msgstr ""
+
+#: MAIN_MSG_IMAGEUNPROCESSED
+msgid "This command requires all selected images to be queue-processed first."
+msgstr ""
+
+#: MAIN_MSG_NAVIGATOR
+msgid "Navigator"
+msgstr ""
+
+#: MAIN_MSG_OPERATIONCANCELLED
+msgid "Operation cancelled"
+msgstr ""
+
+#: MAIN_MSG_PATHDOESNTEXIST
+msgid "The path\n\n<b>%1</b>\n\ndoes not exist. Please set a correct path in Preferences."
+msgstr ""
+
+#: MAIN_MSG_QOVERWRITE
+msgid "Do you want to overwrite it?"
+msgstr ""
+
+#: MAIN_MSG_SETPATHFIRST
+msgid "You first have to set a target path in Preferences in order to use this function!"
+msgstr ""
+
+#: MAIN_MSG_WRITEFAILED
+msgid "Failed to write\n<b>\"%1\"</b>\n\nMake sure that the folder exists and that you have write permission to it."
+msgstr ""
+
+#: MAIN_TAB_COLOR_TOOLTIP
+msgid "Shortcut: <b>Alt-c</b>"
+msgstr ""
+
+#: MAIN_TAB_COLOR,TP_COLORTONING_COLOR
+msgid "Color"
+msgstr ""
+
+#: MAIN_TAB_DETAIL_TOOLTIP
+msgid "Shortcut: <b>Alt-d</b>"
+msgstr ""
+
+#: MAIN_TAB_DETAIL,TP_WAVELET_EDGTHRESH
+msgid "Detail"
+msgstr ""
+
+#: MAIN_TAB_DEVELOP
+msgid " Develop"
+msgstr ""
+
+#: MAIN_TAB_EXIF,PARTIALPASTE_EXIFCHANGES
+msgid "Exif"
+msgstr ""
+
+#: MAIN_TAB_EXPORT
+msgid " Fast Export"
+msgstr ""
+
+#: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
+msgid "Exposure"
+msgstr ""
+
+#: MAIN_TAB_EXPOSURE_TOOLTIP
+msgid "Shortcut: <b>Alt-e</b>"
+msgstr ""
+
+#: MAIN_TAB_FILTER
+msgid " Filter"
+msgstr ""
+
+#: MAIN_TAB_INSPECT
+msgid " Inspect"
+msgstr ""
+
+#: MAIN_TAB_IPTC,PARTIALPASTE_IPTCINFO
+msgid "IPTC"
+msgstr ""
+
+#: MAIN_TAB_METADATA,PARTIALPASTE_METAGROUP,PREFERENCES_METADATA
+msgid "Metadata"
+msgstr ""
+
+#: MAIN_TAB_METADATA_TOOLTIP
+msgid "Shortcut: <b>Alt-m</b>"
+msgstr ""
+
+#: MAIN_TAB_RAW_TOOLTIP
+msgid "Shortcut: <b>Alt-r</b>"
+msgstr ""
+
+#: MAIN_TAB_RAW
+msgid "Raw"
+msgstr ""
+
+#: MAIN_TAB_TRANSFORM_TOOLTIP
+msgid "Shortcut: <b>Alt-t</b>"
+msgstr ""
+
+#: MAIN_TAB_TRANSFORM
+msgid "Transform"
+msgstr ""
+
+#: MAIN_TAB_WAVELET_TOOLTIP
+msgid "Shortcut: <b>Alt-w</b>"
+msgstr ""
+
+#: MAIN_TAB_WAVELET
+msgid "Wavelet"
+msgstr ""
+
+#: MAIN_TOOLTIP_BACKCOLOR0
+msgid "Background color of the preview: <b>Theme-based</b>\nShortcut: <b>9</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_BACKCOLOR1
+msgid "Background color of the preview: <b>Black</b>\nShortcut: <b>9</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_BACKCOLOR2
+msgid "Background color of the preview: <b>White</b>\nShortcut: <b>9</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_BEFOREAFTERLOCK
+msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged.\nUseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparisons can be made to any state in the History.\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view one step behind, showing the image before the effect of the currently used tool."
+msgstr ""
+
+#: MAIN_TOOLTIP_HIDEHP
+msgid "Show/Hide the left panel (including the history).\nShortcut: <b>l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_INDCLIPPEDH
+msgid "Clipped highlight indication.\nShortcut: <b>&lt;</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_INDCLIPPEDS
+msgid "Clipped shadow indication.\nShortcut: <b>&gt;</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWB
+msgid "Preview the <b>Blue channel</b>.\nShortcut: <b>b</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWFOCUSMASK
+msgid "Preview the <b>Focus Mask</b>.\nShortcut: <b>Shift-f</b>\n\nMore accurate on images with shallow depth of field, low noise and at higher zoom levels.\n\nTo improve detection accuracy for noisy images evaluate at smaller zoom, about 10-30%."
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWG
+msgid "Preview the <b>Green channel</b>.\nShortcut: <b>g</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWL
+msgid "Preview the <b>Luminosity</b>.\nShortcut: <b>v</b>\n\n0.299*R + 0.587*G + 0.114*B"
+msgstr ""
+
+#: MAIN_TOOLTIP_PREVIEWR
+msgid "Preview the <b>Red channel</b>.\nShortcut: <b>r</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_QINFO
+msgid "Quick info on the image.\nShortcut: <b>i</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_SHOWHIDELP1
+msgid "Show/Hide the left panel.\nShortcut: <b>l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_SHOWHIDERP1
+msgid "Show/Hide the right panel.\nShortcut: <b>Alt-l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_SHOWHIDETP1
+msgid "Show/Hide the top panel.\nShortcut: <b>Shift-l</b>"
+msgstr ""
+
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD
+msgid "Threshold"
+msgstr ""
+
+#: MAIN_TOOLTIP_TOGGLE
+msgid "Toggle the <b>Before</b>/<b>After</b> view.\nShortcut: <b>Shift-b</b>"
+msgstr ""
+
+#: MONITOR_PROFILE_SYSTEM
+msgid "System default"
+msgstr ""
+
+#: NAVIGATOR_B
+msgid "B:"
+msgstr ""
+
+#: NAVIGATOR_G
+msgid "G:"
+msgstr ""
+
+#: NAVIGATOR_H
+msgid "H:"
+msgstr ""
+
+#: NAVIGATOR_LAB_A
+msgid "a*:"
+msgstr ""
+
+#: NAVIGATOR_LAB_B
+msgid "b*:"
+msgstr ""
+
+#: NAVIGATOR_LAB_L
+msgid "L*:"
+msgstr ""
+
+#: NAVIGATOR_NA
+msgid " --"
+msgstr ""
+
+#: NAVIGATOR_R
+msgid "R:"
+msgstr ""
+
+#: NAVIGATOR_S
+msgid "S:"
+msgstr ""
+
+#: NAVIGATOR_V
+msgid "V:"
+msgstr ""
+
+#: NAVIGATOR_XY_FULL
+msgid "Width: %1, Height: %2"
+msgstr ""
+
+#: NAVIGATOR_XY_NA
+msgid "x: --, y: --"
+msgstr ""
+
+#: OPTIONS_DEFIMG_MISSING
+msgid "The default profile for <b>non-raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used."
+msgstr ""
+
+#: OPTIONS_DEFRAW_MISSING
+msgid "The default profile for <b>raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used."
+msgstr ""
+
+#: PARTIALPASTE_BASICGROUP
+msgid "Basic Settings"
+msgstr ""
+
+#: PARTIALPASTE_CACORRECTION,TP_LENSPROFILE_USECA
+msgid "Chromatic aberration correction"
+msgstr ""
+
+#: PARTIALPASTE_COARSETRANS
+msgid "Coarse rotation/flipping"
+msgstr ""
+
+#: PARTIALPASTE_COLORGROUP
+msgid "Color Related Settings"
+msgstr ""
+
+#: PARTIALPASTE_COLORTONING
+msgid "Color toning"
+msgstr ""
+
+#: PARTIALPASTE_COMPOSITIONGROUP
+msgid "Composition Settings"
+msgstr ""
+
+#: PARTIALPASTE_DARKFRAMEAUTOSELECT
+msgid "Dark-frame auto-selection"
+msgstr ""
+
+#: PARTIALPASTE_DARKFRAMEFILE
+msgid "Dark-frame file"
+msgstr ""
+
+#: PARTIALPASTE_DETAILGROUP
+msgid "Detail Settings"
+msgstr ""
+
+#: PARTIALPASTE_DIALOGLABEL
+msgid "Partial paste processing profile"
+msgstr ""
+
+#: PARTIALPASTE_DIRPYRDENOISE
+msgid "Noise reduction"
+msgstr ""
+
+#: PARTIALPASTE_DIRPYREQUALIZER
+msgid "Contrast by detail levels"
+msgstr ""
+
+#: PARTIALPASTE_EPD,TP_RETINEX_ITERF,TP_WAVELET_COMPTM
+msgid "Tone mapping"
+msgstr ""
+
+#: PARTIALPASTE_EQUALIZER,TP_WAVELET_LEVELS
+msgid "Wavelet levels"
+msgstr ""
+
+#: PARTIALPASTE_EVERYTHING
+msgid "Everything"
+msgstr ""
+
+#: PARTIALPASTE_FILMSIMULATION
+msgid "Film simulation"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDAUTOSELECT
+msgid "Flat-field auto-selection"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDBLURRADIUS
+msgid "Flat-field blur radius"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDBLURTYPE
+msgid "Flat-field blur type"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDCLIPCONTROL
+msgid "Flat-field clip control"
+msgstr ""
+
+#: PARTIALPASTE_FLATFIELDFILE
+msgid "Flat-field file"
+msgstr ""
+
+#: PARTIALPASTE_GRADIENT
+msgid "Graduated filter"
+msgstr ""
+
+#: PARTIALPASTE_HSVEQUALIZER
+msgid "HSV equalizer"
+msgstr ""
+
+#: PARTIALPASTE_CHANNELMIXERBW
+msgid "Black-and-white"
+msgstr ""
+
+#: PARTIALPASTE_CHANNELMIXER
+msgid "Channel mixer"
+msgstr ""
+
+#: PARTIALPASTE_ICMSETTINGS
+msgid "Color management settings"
+msgstr ""
+
+#: PARTIALPASTE_IMPULSEDENOISE
+msgid "Impulse noise reduction"
+msgstr ""
+
+#: PARTIALPASTE_LABCURVE
+msgid "L*a*b* adjustments"
+msgstr ""
+
+#: PARTIALPASTE_LENSGROUP
+msgid "Lens Related Settings"
+msgstr ""
+
+#: PARTIALPASTE_LENSPROFILE
+msgid "Lens correction profile"
+msgstr ""
+
+#: PARTIALPASTE_PCVIGNETTE
+msgid "Vignette filter"
+msgstr ""
+
+#: PARTIALPASTE_PERSPECTIVE,TP_PERSPECTIVE_LABEL
+msgid "Perspective"
+msgstr ""
+
+#: PARTIALPASTE_PRSHARPENING
+msgid "Post-resize sharpening"
+msgstr ""
+
+#: PARTIALPASTE_RAWCACORR_AUTO
+msgid "CA auto-correction"
+msgstr ""
+
+#: PARTIALPASTE_RAWCACORR_CAAUTOSTRENGTH
+msgid "CA auto-correction strength"
+msgstr ""
+
+#: PARTIALPASTE_RAWCACORR_CAREDBLUE
+msgid "CA red & blue"
+msgstr ""
+
+#: PARTIALPASTE_RAWEXPOS_BLACK
+msgid "Black levels"
+msgstr ""
+
+#: PARTIALPASTE_RAWGROUP
+msgid "Raw Settings"
+msgstr ""
+
+#: PARTIALPASTE_RAW_IMAGENUM,TP_RAW_IMAGENUM
+msgid "Sub-image"
+msgstr ""
+
+#: PARTIALPASTE_RAW_PIXELSHIFT
+msgid "PixelShift"
+msgstr ""
+
+#: PARTIALPASTE_RGBCURVES
+msgid "RGB curves"
+msgstr ""
+
+#: PARTIALPASTE_SHADOWSHIGHLIGHTS
+msgid "Shadows/highlights"
+msgstr ""
+
+#: PARTIALPASTE_SHARPENEDGE,TP_SHARPENEDGE_LABEL
+msgid "Edges"
+msgstr ""
+
+#: PARTIALPASTE_SHARPENING
+msgid "Sharpening (USM/RL)"
+msgstr ""
+
+#: PARTIALPASTE_VIGNETTING,TP_LENSPROFILE_USEVIGN
+msgid "Vignetting correction"
+msgstr ""
+
+#: PARTIALPASTE_WHITEBALANCE
+msgid "White balance"
+msgstr ""
+
+#: PREFERENCES_APPLNEXTSTARTUP
+msgid "restart required"
+msgstr ""
+
+#: PREFERENCES_AUTLISLOW
+msgctxt "PREFERENCES_AUTLISLOW"
+msgid "Low"
+msgstr ""
+
+#: PREFERENCES_AUTLISMAX
+msgid "Max - Average of all tiles"
+msgstr ""
+
+#: PREFERENCES_AUTLISSTD
+msgctxt "PREFERENCES_AUTLISSTD"
+msgid "High"
+msgstr ""
+
+#: PREFERENCES_AUTLISVLOW
+msgctxt "PREFERENCES_AUTLISVLOW"
+msgid "None"
+msgstr ""
+
+#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_WAVELET_NPLOW
+msgid "Low"
+msgstr ""
+
+#: PREFERENCES_AUTOMONPROFILE
+msgid "Use operating system's main monitor color profile"
+msgstr ""
+
+#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
+msgid "Standard"
+msgstr ""
+
+#: PREFERENCES_BEHADDALLHINT
+msgid "Set all parameters to the <b>Add</b> mode.\nAdjustments of parameters in the batch tool panel will be <b>deltas</b> to the stored values."
+msgstr ""
+
+#: PREFERENCES_BEHADDALL
+msgid "All to 'Add'"
+msgstr ""
+
+#: PREFERENCES_BEHAVIOR
+msgid "Behavior"
+msgstr ""
+
+#: PREFERENCES_BEHSETALLHINT
+msgid "Set all parameters to the <b>Set</b> mode.\nAdjustments of parameters in the batch tool panel will be <b>absolute</b>, the actual values will be displayed."
+msgstr ""
+
+#: PREFERENCES_BEHSETALL
+msgid "All to 'Set'"
+msgstr ""
+
+#: PREFERENCES_BLACKBODY,TP_WBALANCE_TUNGSTEN
+msgid "Tungsten"
+msgstr ""
+
+#: PREFERENCES_CACHECLEARALL
+msgid "Clear All"
+msgstr ""
+
+#: PREFERENCES_CACHECLEARPROFILES
+msgid "Clear Processing Profiles"
+msgstr ""
+
+#: PREFERENCES_CACHECLEARTHUMBS
+msgid "Clear Thumbnails"
+msgstr ""
+
+#: PREFERENCES_CACHEMAXENTRIES
+msgid "Maximum number of cache entries"
+msgstr ""
+
+#: PREFERENCES_CACHEOPTS
+msgid "Cache Options"
+msgstr ""
+
+#: PREFERENCES_CACHETHUMBHEIGHT
+msgid "Maximum thumbnail height"
+msgstr ""
+
+#: PREFERENCES_CIEART_FRAME
+msgid "CIECAM02-Specific Settings"
+msgstr ""
+
+#: PREFERENCES_CIEART_LABEL
+msgid "Use float precision instead of double"
+msgstr ""
+
+#: PREFERENCES_CIEART_TOOLTIP
+msgid "If enabled, CIECAM02 calculations are performed in the single-precision floating-point format instead of the double-precision one. This provides a small increase in speed at the expense of a negligible loss of quality."
+msgstr ""
+
+#: PREFERENCES_CIEART
+msgid "CIECAM02 optimization"
+msgstr ""
+
+#: PREFERENCES_CLIPPINGIND
+msgid "Clipping Indication"
+msgstr ""
+
+#: PREFERENCES_CLUTSCACHE_LABEL
+msgid "Maximum number of cached CLUTs"
+msgstr ""
+
+#: PREFERENCES_CLUTSCACHE
+msgid "HaldCLUT Cache"
+msgstr ""
+
+#: PREFERENCES_CLUTSDIR
+msgid "HaldCLUT directory"
+msgstr ""
+
+#: PREFERENCES_CMMBPC
+msgid "Black point compensation"
+msgstr ""
+
+#: PREFERENCES_CURVEBBOXPOS_ABOVE
+msgid "Above"
+msgstr ""
+
+#: PREFERENCES_CURVEBBOXPOS_BELOW
+msgid "Below"
+msgstr ""
+
+#: PREFERENCES_CURVEBBOXPOS_LEFT
+msgid "Left"
+msgstr ""
+
+#: PREFERENCES_CURVEBBOXPOS_RIGHT
+msgid "Right"
+msgstr ""
+
+#: PREFERENCES_CURVEBBOXPOS
+msgid "Position of curve copypasta buttons"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILDHINT
+msgid "Executable (or script) file called when a new initial processing profile should be generated for an image.\n\nThe path of the communication file (*.ini style, a.k.a. \"Keyfile\") is added as a command line parameter. It contains various parameters required for the scripts and image Exif to allow a rules-based processing profile generation.\n\n<b>WARNING:</b> You are responsible for using double quotes where necessary if you're using paths containing spaces."
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILDKEYFORMAT_NAME
+msgid "Name"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILDKEYFORMAT_TID
+msgid "TagID"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILDKEYFORMAT
+msgid "Keys format"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILDPATH
+msgid "Executable path"
+msgstr ""
+
+#: PREFERENCES_CUSTPROFBUILD
+msgid "Custom Processing Profile Builder"
+msgstr ""
+
+#: PREFERENCES_CUTOVERLAYBRUSH
+msgid "Crop mask color/transparency"
+msgstr ""
+
+#: PREFERENCES_DARKFRAMEFOUND,PREFERENCES_FLATFIELDFOUND
+msgid "Found"
+msgstr ""
+
+#: PREFERENCES_DARKFRAMESHOTS,PREFERENCES_FLATFIELDSHOTS
+msgid "shots"
+msgstr ""
+
+#: PREFERENCES_DARKFRAMETEMPLATES,PREFERENCES_FLATFIELDTEMPLATES
+msgid "templates"
+msgstr ""
+
+#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
+msgid "Dark-Frame"
+msgstr ""
+
+#: PREFERENCES_DATEFORMATHINT
+msgid "You can use the following formatting strings:\n<b>%y</b>	- year\n<b>%m</b>	- month\n<b>%d</b>	- day\n\nFor example, the ISO 8601 standard dictates the date format as follows:\n<b>%y-%m-%d</b>"
+msgstr ""
+
+#: PREFERENCES_DATEFORMAT
+msgid "Date format"
+msgstr ""
+
+#: PREFERENCES_DAUB_LABEL
+msgid "Use Daubechies D6 wavelets instead of D4"
+msgstr ""
+
+#: PREFERENCES_DAUB_TOOLTIP
+msgid "The Noise Reduction and Wavelet Levels tools use a Debauchies mother wavelet. If you choose D6 instead of D4 you increase the number of orthogonal Daubechies coefficients and probably increase quality of small-scale levels. There is no memory or processing time difference between the two."
+msgstr ""
+
+#: PREFERENCES_DEFAULTLANG
+msgid "Default Language"
+msgstr ""
+
+#: PREFERENCES_DEFAULTTHEME
+msgid "Default Theme"
+msgstr ""
+
+#: PREFERENCES_DIRDARKFRAMES
+msgid "Dark-frames directory"
+msgstr ""
+
+#: PREFERENCES_DIRHOME
+msgid "Home directory"
+msgstr ""
+
+#: PREFERENCES_DIRLAST
+msgid "Last visited directory"
+msgstr ""
+
+#: PREFERENCES_DIROTHER
+msgid "Other"
+msgstr ""
+
+#: PREFERENCES_DIRSELECTDLG
+msgid "Select Image Directory at Startup..."
+msgstr ""
+
+#: PREFERENCES_DIRSOFTWARE
+msgid "Installation directory"
+msgstr ""
+
+#: PREFERENCES_D50
+msgid "5000K"
+msgstr ""
+
+#: PREFERENCES_D55
+msgid "5500K"
+msgstr ""
+
+#: PREFERENCES_D60
+msgid "6000K"
+msgstr ""
+
+#: PREFERENCES_D65
+msgid "6500K"
+msgstr ""
+
+#: PREFERENCES_EDITORCMDLINE
+msgid "Other command line"
+msgstr ""
+
+#: PREFERENCES_EDITORLAYOUT
+msgid "Editor Layout"
+msgstr ""
+
+#: PREFERENCES_EXPAUT
+msgid "Expert"
+msgstr ""
+
+#: PREFERENCES_EXTENDEDZOOMLEVELS_TOOLTIP
+msgid "This allows to better fill the editor window when using one of the \"fit to screen\" zoom modes. However, the preview quality might be slightly degraded, depending on the actual zoom factor computed."
+msgstr ""
+
+#: PREFERENCES_EXTENDEDZOOMLEVELS
+msgid "Use finer-grained zoom levels for \"fit to screen\" zooming"
+msgstr ""
+
+#: PREFERENCES_EXTERNALEDITOR
+msgid "External Editor"
+msgstr ""
+
+#: PREFERENCES_FBROWSEROPTS
+msgid "File Browser / Thumbnail Options"
+msgstr ""
+
+#: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
+msgid "Single row file browser toolbar\n(de-select for low resolution display)"
+msgstr ""
+
+#: PREFERENCES_FILEFORMAT,SAVEDLG_FILEFORMAT
+msgid "File format"
+msgstr ""
+
+#: PREFERENCES_FLATFIELDSDIR
+msgid "Flat-fields directory"
+msgstr ""
+
+#: PREFERENCES_FLUOF11
+msgid "Fluorescent F11"
+msgstr ""
+
+#: PREFERENCES_FLUOF2
+msgid "Fluorescent F2"
+msgstr ""
+
+#: PREFERENCES_FLUOF7
+msgid "Fluorescent F7"
+msgstr ""
+
+#: PREFERENCES_FORIMAGE
+msgid "For non-raw photos"
+msgstr ""
+
+#: PREFERENCES_FORRAW
+msgid "For raw photos"
+msgstr ""
+
+#: PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT_HINT
+msgid "Having separate thumbnail size will require more processing time each time you'll switch between the single Editor tab and the File Browser."
+msgstr ""
+
+#: PREFERENCES_FSTRIP_SAME_THUMB_HEIGHT
+msgid "Same thumbnail height between the Filmstrip and the File Browser"
+msgstr ""
+
+#: PREFERENCES_GIMPPATH
+msgid "GIMP installation directory"
+msgstr ""
+
+#: PREFERENCES_GREYSC
+msgid "Scene Yb luminance (%)"
+msgstr ""
+
+#: PREFERENCES_GREYSC18,PREFERENCES_GREY18
+msgid "Yb=18 CIE L#50"
+msgstr ""
+
+#: PREFERENCES_GREY
+msgid "Output device's Yb luminance (%)"
+msgstr ""
+
+#: PREFERENCES_GREY05
+msgid "Yb=05 CIE L#30"
+msgstr ""
+
+#: PREFERENCES_GREY10
+msgid "Yb=10 CIE L#40"
+msgstr ""
+
+#: PREFERENCES_GREY15
+msgid "Yb=15 CIE L#45"
+msgstr ""
+
+#: PREFERENCES_GREY23
+msgid "Yb=23 CIE L#55"
+msgstr ""
+
+#: PREFERENCES_GREY30
+msgid "Yb=30 CIE L#60"
+msgstr ""
+
+#: PREFERENCES_GREY40
+msgid "Yb=40 CIE L#70"
+msgstr ""
+
+#: PREFERENCES_HISTOGRAMPOSITIONLEFT
+msgid "Histogram in left panel"
+msgstr ""
+
+#: PREFERENCES_HISTOGRAM_TOOLTIP
+msgid "If enabled, the working profile is used for rendering the main histogram and the Navigator panel, otherwise the gamma-corrected output profile is used."
+msgstr ""
+
+#: PREFERENCES_HISTOGRAMWORKING
+msgid "Use working profile for main histogram and Navigator"
+msgstr ""
+
+#: PREFERENCES_HLTHRESHOLD
+msgid "Threshold for clipped highlights"
+msgstr ""
+
+#: PREFERENCES_ICCDIR
+msgid "Directory containing color profiles"
+msgstr ""
+
+#: PREFERENCES_IMG_RELOAD_NEEDED
+msgid "These changes require the image to be reloaded (or a new image to be opened) to take effect."
+msgstr ""
+
+#: PREFERENCES_IMPROCPARAMS
+msgid "Default Processing Profile"
+msgstr ""
+
+#: PREFERENCES_INSPECT_LABEL
+msgid "Inspect"
+msgstr ""
+
+#: PREFERENCES_INSPECT_MAXBUFFERS_LABEL
+msgid "Maximum number of cached images"
+msgstr ""
+
+#: PREFERENCES_INSPECT_MAXBUFFERS_TOOLTIP
+msgid "Set the maximum number of images stored in cache when hovering over them in the File Browser; systems with little RAM (2GB) should keep this value set to 1 or 2."
+msgstr ""
+
+#: PREFERENCES_INTENT_ABSOLUTE
+msgid "Absolute Colorimetric"
+msgstr ""
+
+#: PREFERENCES_INTENT_PERCEPTUAL,TP_EXPOSURE_TCMODE_PERCEPTUAL
+msgid "Perceptual"
+msgstr ""
+
+#: PREFERENCES_INTENT_RELATIVE
+msgid "Relative Colorimetric"
+msgstr ""
+
+#: PREFERENCES_INTENT_SATURATION,TP_COLORAPP_TCMODE_SATUR,TP_EXPOSURE_SATURATION
+msgid "Saturation"
+msgstr ""
+
+#: PREFERENCES_INTERNALTHUMBIFUNTOUCHED
+msgid "Show embedded JPEG thumbnail if raw is unedited"
+msgstr ""
+
+#: PREFERENCES_LANGAUTODETECT
+msgid "Use system language"
+msgstr ""
+
+#: PREFERENCES_LEVAUTDN
+msgid "Denoising level"
+msgstr ""
+
+#: PREFERENCES_LEVDN
+msgid "Cell size"
+msgstr ""
+
+#: PREFERENCES_LISS
+msgid "Auto multi-zone smoothing"
+msgstr ""
+
+#: PREFERENCES_MAXRECENTFOLDERS
+msgid "Maximum number of recent folders"
+msgstr ""
+
+#: PREFERENCES_MAX
+msgid "Maxi (Tile)"
+msgstr ""
+
+#: PREFERENCES_MED
+msgid "Medium (Tile/2)"
+msgstr ""
+
+#: PREFERENCES_MENUGROUPEXTPROGS
+msgid "Group \"Open with\""
+msgstr ""
+
+#: PREFERENCES_MENUGROUPFILEOPERATIONS
+msgid "Group \"File operations\""
+msgstr ""
+
+#: PREFERENCES_MENUGROUPLABEL
+msgid "Group \"Color label\""
+msgstr ""
+
+#: PREFERENCES_MENUGROUPPROFILEOPERATIONS
+msgid "Group \"Processing profile operations\""
+msgstr ""
+
+#: PREFERENCES_MENUGROUPRANK
+msgid "Group \"Rank\""
+msgstr ""
+
+#: PREFERENCES_MENUOPTIONS
+msgid "Context Menu Options"
+msgstr ""
+
+#: PREFERENCES_MIN
+msgid "Mini (100x115)"
+msgstr ""
+
+#: PREFERENCES_MONINTENT
+msgid "Default rendering intent"
+msgstr ""
+
+#: PREFERENCES_MONITOR
+msgid "Monitor"
+msgstr ""
+
+#: PREFERENCES_MONPROFILE_WARNOSX
+msgid "Due to MacOS limitations, only sRGB is supported."
+msgstr ""
+
+#: PREFERENCES_MONPROFILE
+msgid "Default color profile"
+msgstr ""
+
+#: PREFERENCES_MULTITABDUALMON
+msgid "Multiple Editor Tabs In Own Window Mode"
+msgstr ""
+
+#: PREFERENCES_MULTITAB
+msgid "Multiple Editor Tabs Mode"
+msgstr ""
+
+#: PREFERENCES_NAVGUIDEBRUSH
+msgid "Navigator guide color"
+msgstr ""
+
+#: PREFERENCES_NAVIGATIONFRAME
+msgid "Navigation"
+msgstr ""
+
+#: PREFERENCES_OUTDIRFOLDERHINT
+msgid "Save images to the selected folder."
+msgstr ""
+
+#: PREFERENCES_OUTDIRFOLDER
+msgid "Save to folder"
+msgstr ""
+
+#: PREFERENCES_OUTDIRTEMPLATEHINT
+msgid "You can use the following formatting strings:\n<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</b>, <b>%s1</b>, <b>%s2</b>, ...\n\nThese formatting strings refer to the different parts of the photo's pathname, some attributes of the photo or an arbitrary sequence index in the batch job.\n\nFor example, if the photo being processed has the following pathname:\n<b><i>/home/tom/photos/2010-10-31/dsc0042.nef</i></b>\nthe meaning of the formatting strings are:\n<b>%d4</b> = <i>home</i>\n<b>%d3</b> = <i>tom</i>\n<b>%d2</b> = <i>photos</i>\n<b>%d1</b> = <i>2010-10-31</i>\n<b>%f</b> = <i>dsc0042</i>\n<b>%p1</b> = <i>/home/tom/photos/2010-10-31/</i>\n<b>%p2</b> = <i>/home/tom/photos/</i>\n<b>%p3</b> = <i>/home/tom/</i>\n<b>%p4</b> = <i>/home/</i>\n\n<b>%r</b> will be replaced by the rank of the photo. If the photo is unranked, %r will be replaced by '0'. If the photo is in the trash bin, %r will be replaced by 'x'.\n\n<b>%s1</b>, <b>%s2</b>, etc. will be replaced by a sequence index which is padded to between 1 and 9 digits. The sequence index will start at one each time the queue processing is started and is incremented by one for each image processed.\n\nIf you want to save the output image where the original is, write:\n<b>%p1/%f</b>\n\nIf you want to save the output image in a directory named \"<i>converted</i>\" located in the directory of the opened image, write:\n<b>%p1/converted/%f</b>\n\nIf you want to save the output image in a directory named\n\"<i>/home/tom/photos/converted/2010-10-31</i>\", write:\n<b>%p2/converted/%d1/%f</b>"
+msgstr ""
+
+#: PREFERENCES_OUTDIRTEMPLATE
+msgid "Use template"
+msgstr ""
+
+#: PREFERENCES_OUTDIR
+msgid "Output Directory"
+msgstr ""
+
+#: PREFERENCES_OVERLAY_FILENAMES_FILMSTRIP
+msgid "Overlay filenames on thumbnails in the editor pannel"
+msgstr ""
+
+#: PREFERENCES_OVERLAY_FILENAMES
+msgid "Overlay filenames on thumbnails in the file browser"
+msgstr ""
+
+#: PREFERENCES_OVERWRITEOUTPUTFILE
+msgid "Overwrite existing output files"
+msgstr ""
+
+#: PREFERENCES_PANFACTORLABEL
+msgid "Pan rate amplification"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTADDHINT
+msgid "Add entered extension to the list."
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTADD
+msgid "Add extension"
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTDELHINT
+msgid "Delete selected extension from the list."
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTDOWNHINT
+msgid "Move selected extension down in the list."
+msgstr ""
+
+#: PREFERENCES_PARSEDEXTUPHINT
+msgid "Move selected extension up in the list."
+msgstr ""
+
+#: PREFERENCES_PARSEDEXT
+msgid "Parsed Extensions"
+msgstr ""
+
+#: PREFERENCES_PREVDEMO_FAST,TP_RAW_FAST
+msgid "Fast"
+msgstr ""
+
+#: PREFERENCES_PREVDEMO_LABEL
+msgid "Demosaicing method used for the preview at <100% zoom:"
+msgstr ""
+
+#: PREFERENCES_PREVDEMO_SIDECAR
+msgid "As in PP3"
+msgstr ""
+
+#: PREFERENCES_PREVDEMO
+msgid "Preview Demosaic Method"
+msgstr ""
+
+#: PREFERENCES_PRINTER
+msgid "Printer (Soft-Proofing)"
+msgstr ""
+
+#: PREFERENCES_PROFILEHANDLING
+msgid "Processing Profile Handling"
+msgstr ""
+
+#: PREFERENCES_PROFILELOADPR
+msgid "Processing profile loading priority"
+msgstr ""
+
+#: PREFERENCES_PROFILEPRCACHE
+msgid "Profile in cache"
+msgstr ""
+
+#: PREFERENCES_PROFILEPRFILE
+msgid "Profile next to the input file"
+msgstr ""
+
+#: PREFERENCES_PROFILESAVEBOTH
+msgid "Save processing profile both to the cache and next to the input file"
+msgstr ""
+
+#: PREFERENCES_PROFILESAVECACHE
+msgid "Save processing profile to the cache"
+msgstr ""
+
+#: PREFERENCES_PROFILESAVEINPUT
+msgid "Save processing profile next to the input file"
+msgstr ""
+
+#: PREFERENCES_PROFILESAVELOCATION
+msgid "Processing profile saving location"
+msgstr ""
+
+#: PREFERENCES_PROPERTY
+msgid "Property"
+msgstr ""
+
+#: PREFERENCES_PRTINTENT
+msgid "Rendering intent"
+msgstr ""
+
+#: PREFERENCES_PRTPROFILE
+msgid "Color profile"
+msgstr ""
+
+#: PREFERENCES_PSPATH
+msgid "Adobe Photoshop installation directory"
+msgstr ""
+
+#: PREFERENCES_REMEMBERZOOMPAN_TOOLTIP
+msgid "Remember the zoom % and pan offset of the current image when opening a new image.\n\nThis option only works in \"Single Editor Tab Mode\" and when \"Demosaicing method used for the preview at <100% zoom\" is set to \"As in PP3\"."
+msgstr ""
+
+#: PREFERENCES_REMEMBERZOOMPAN
+msgid "Remember zoom % and pan offset"
+msgstr ""
+
+#: PREFERENCES_RGBDTL_LABEL
+msgid "Max number of threads for Noise Reduction and Wavelet Levels"
+msgstr ""
+
+#: PREFERENCES_RGBDTL_TOOLTIP
+msgid "Leave the setting at \"0\" to automatically use as many threads as possible. The more threads run in parallel, the faster the computation. Refer to RawPedia for memory requirements."
+msgstr ""
+
+#: PREFERENCES_SELECTFONT_COLPICKER
+msgid "Select Color Picker's font"
+msgstr ""
+
+#: PREFERENCES_SELECTFONT
+msgid "Select main font"
+msgstr ""
+
+#: PREFERENCES_SELECTLANG
+msgid "Select language"
+msgstr ""
+
+#: PREFERENCES_SELECTTHEME
+msgid "Select theme"
+msgstr ""
+
+#: PREFERENCES_SERIALIZE_TIFF_READ_LABEL
+msgid "Serialize read of tiff files"
+msgstr ""
+
+#: PREFERENCES_SERIALIZE_TIFF_READ_TOOLTIP
+msgid "When working with folders full of uncompressed tiff files enabling this option can increase performance of thumb generation."
+msgstr ""
+
+#: PREFERENCES_SERIALIZE_TIFF_READ
+msgid "Tiff Read Settings"
+msgstr ""
+
+#: PREFERENCES_SET
+msgid "Set"
+msgstr ""
+
+#: PREFERENCES_SHOWBASICEXIF
+msgid "Show basic Exif info"
+msgstr ""
+
+#: PREFERENCES_SHOWDATETIME
+msgid "Show date and time"
+msgstr ""
+
+#: PREFERENCES_SHOWEXPOSURECOMPENSATION
+msgid "Append exposure compensation"
+msgstr ""
+
+#: PREFERENCES_SHOWFILMSTRIPTOOLBAR
+msgid "Show filmstrip toolbar"
+msgstr ""
+
+#: PREFERENCES_SHTHRESHOLD
+msgid "Threshold for clipped shadows"
+msgstr ""
+
+#: PREFERENCES_SIMPLAUT
+msgid "Tool mode"
+msgstr ""
+
+#: PREFERENCES_SINGLETABVERTAB
+msgid "Single Editor Tab Mode, Vertical Tabs"
+msgstr ""
+
+#: PREFERENCES_SINGLETAB
+msgid "Single Editor Tab Mode"
+msgstr ""
+
+#: PREFERENCES_SLIMUI
+msgid "Slim interface"
+msgstr ""
+
+#: PREFERENCES_SMA
+msgid "Small (250x287)"
+msgstr ""
+
+#: PREFERENCES_SND_BATCHQUEUEDONE
+msgid "Queue processing done"
+msgstr ""
+
+#: PREFERENCES_SND_HELP
+msgid "Enter a full file path to set a sound, or leave blank for no sound.\nFor system sounds on Windows use \"SystemDefault\", \"SystemAsterisk\" etc., and on Linux use \"complete\", \"window-attention\" etc."
+msgstr ""
+
+#: PREFERENCES_SND_LNGEDITPROCDONE
+msgid "Editor processing done"
+msgstr ""
+
+#: PREFERENCES_SND_TRESHOLDSECS
+msgid "After seconds"
+msgstr ""
+
+#: PREFERENCES_STARTUPIMDIR
+msgid "Image Directory at Startup"
+msgstr ""
+
+#: PREFERENCES_STDAUT
+msgctxt "PREFERENCES_STDAUT"
+msgid "Standard"
+msgstr ""
+
+#: PREFERENCES_TAB_COLORMGR,TP_ICM_LABEL
+msgid "Color Management"
+msgstr ""
+
+#: PREFERENCES_TAB_DYNAMICPROFILE
+msgid "Dynamic Profile Rules"
+msgstr ""
+
+#: PREFERENCES_TAB_GENERAL
+msgid "General"
+msgstr ""
+
+#: PREFERENCES_TAB_IMPROC
+msgid "Image Processing"
+msgstr ""
+
+#: PREFERENCES_TAB_PERFORMANCE
+msgid "Performance & Quality"
+msgstr ""
+
+#: PREFERENCES_TAB_SOUND
+msgid "Sounds"
+msgstr ""
+
+#: PREFERENCES_TIMAX
+msgctxt "PREFERENCES_TIMAX"
+msgid "High"
+msgstr ""
+
+#: PREFERENCES_TINB
+msgid "Number of tiles"
+msgstr ""
+
+#: PREFERENCES_TISTD
+msgctxt "PREFERENCES_TISTD"
+msgid "Standard"
+msgstr ""
+
+#: PREFERENCES_TP_LABEL
+msgid "Tool panel:"
+msgstr ""
+
+#: PREFERENCES_TP_USEICONORTEXT
+msgid "Use tab icons instead of text"
+msgstr ""
+
+#: PREFERENCES_TP_VSCROLLBAR
+msgid "Hide vertical scrollbar"
+msgstr ""
+
+#: PREFERENCES_TUNNELMETADATA
+msgid "Copy Exif/IPTC/XMP unchanged to output file"
+msgstr ""
+
+#: PREFERENCES_USEBUNDLEDPROFILES
+msgid "Use bundled profiles"
+msgstr ""
+
+#: PREFERENCES_USESYSTEMTHEME
+msgid "Use system theme"
+msgstr ""
+
+#: PREFERENCES_VIEW
+msgid "Output device's white balance (monitor, TV, projector, viewing, etc.)"
+msgstr ""
+
+#: PREFERENCES_WAVLEV
+msgid "Increase wavelet level in quality 'high'"
+msgstr ""
+
+#: PREFERENCES_WLONE,TP_WAVELET_LEVDIR_ONE
+msgid "One level"
+msgstr ""
+
+#: PREFERENCES_WLTWO
+msgid "Two levels"
+msgstr ""
+
+#: PREFERENCES_WORKFLOW
+msgid "Layout"
+msgstr ""
+
+#: PROFILEPANEL_COPYPPASTE
+msgid "Parameters to copy"
+msgstr ""
+
+#: PROFILEPANEL_GLOBALPROFILES
+msgid "Bundled profiles"
+msgstr ""
+
+#: PROFILEPANEL_LABEL
+msgid "Processing Profiles"
+msgstr ""
+
+#: PROFILEPANEL_LOADDLGLABEL
+msgid "Load Processing Parameters..."
+msgstr ""
+
+#: PROFILEPANEL_LOADPPASTE
+msgid "Parameters to load"
+msgstr ""
+
+#: PROFILEPANEL_MODE_TIP
+msgid "Processing profile fill mode.\n\nButton pressed: partial profiles will be converted to full profiles; the missing values will be replaced with hard-coded defaults.\n\nButton released: profiles will be applied as they are, altering only those values which they contain."
+msgstr ""
+
+#: PROFILEPANEL_MYPROFILES
+msgid "My profiles"
+msgstr ""
+
+#: PROFILEPANEL_PASTEPPASTE
+msgid "Parameters to paste"
+msgstr ""
+
+#: PROFILEPANEL_PDYNAMIC
+msgid "Dynamic"
+msgstr ""
+
+#: PROFILEPANEL_PFILE
+msgid "From file"
+msgstr ""
+
+#: PROFILEPANEL_PINTERNAL,TP_DIRPYREQUALIZER_LUMANEUTRAL,TP_LABCURVE_CURVEEDITOR_CC_RANGE1,TP_WAVELET_NEUTRAL
+msgid "Neutral"
+msgstr ""
+
+#: PROFILEPANEL_PLASTSAVED
+msgid "Last Saved"
+msgstr ""
+
+#: PROFILEPANEL_SAVEDLGLABEL
+msgid "Save Processing Parameters..."
+msgstr ""
+
+#: PROFILEPANEL_SAVEPPASTE
+msgid "Parameters to save"
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPCOPY
+msgid "Copy current processing profile to clipboard.\n<b>Ctrl-click</b> to select the parameters to copy."
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPLOAD
+msgid "Load a profile from file.\n<b>Ctrl-click</b> to select the parameters to load."
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPPASTE
+msgid "Paste profile from clipboard.\n<b>Ctrl-click</b> to select the parameters to paste."
+msgstr ""
+
+#: PROFILEPANEL_TOOLTIPSAVE
+msgid "Save current profile.\n<b>Ctrl-click</b> to select the parameters to save."
+msgstr ""
+
+#: PROGRESSBAR_LOADINGTHUMBS
+msgid "Loading thumbnails..."
+msgstr ""
+
+#: PROGRESSBAR_LOADING
+msgid "Loading image..."
+msgstr ""
+
+#: PROGRESSBAR_LOADJPEG
+msgid "Loading JPEG file..."
+msgstr ""
+
+#: PROGRESSBAR_LOADPNG
+msgid "Loading PNG file..."
+msgstr ""
+
+#: PROGRESSBAR_LOADTIFF
+msgid "Loading TIFF file..."
+msgstr ""
+
+#: PROGRESSBAR_NOIMAGES
+msgid "No images found"
+msgstr ""
+
+#: PROGRESSBAR_PROCESSING_PROFILESAVED
+msgid "Processing profile saved"
+msgstr ""
+
+#: PROGRESSBAR_PROCESSING
+msgid "Processing image..."
+msgstr ""
+
+#: PROGRESSBAR_READY
+msgid "Ready"
+msgstr ""
+
+#: PROGRESSBAR_SAVEJPEG
+msgid "Saving JPEG file..."
+msgstr ""
+
+#: PROGRESSBAR_SAVEPNG
+msgid "Saving PNG file..."
+msgstr ""
+
+#: PROGRESSBAR_SAVETIFF
+msgid "Saving TIFF file..."
+msgstr ""
+
+#: PROGRESSBAR_SNAPSHOT_ADDED
+msgid "Snapshot added"
+msgstr ""
+
+#: PROGRESSDLG_PROFILECHANGEDINBROWSER
+msgid "Processing profile changed in browser"
+msgstr ""
+
+#: QINFO_NOEXIF
+msgid "Exif data not available."
+msgstr ""
+
+#: SAVEDLG_AUTOSUFFIX
+msgid "Automatically add a suffix if the file already exists"
+msgstr ""
+
+#: SAVEDLG_FORCEFORMATOPTS
+msgid "Force saving options"
+msgstr ""
+
+#: SAVEDLG_JPEGQUAL
+msgid "JPEG quality"
+msgstr ""
+
+#: SAVEDLG_PNGCOMPR
+msgid "PNG compression"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUEHEAD
+msgid "Put to the head of the processing queue"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUETAIL
+msgid "Put to the end of the processing queue"
+msgstr ""
+
+#: SAVEDLG_PUTTOQUEUE
+msgid "Put into processing queue"
+msgstr ""
+
+#: SAVEDLG_SAVEIMMEDIATELY
+msgid "Save immediately"
+msgstr ""
+
+#: SAVEDLG_SAVESPP
+msgid "Save processing parameters with image"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_TOOLTIP
+msgid "Best compression:\nJ:a:b 4:2:0\nh/v 2/2\nChroma halved horizontally and vertically.\n\nBalanced:\nJ:a:b 4:2:2\nh/v 2/1\nChroma halved horizontally.\n\nBest quality:\nJ:a:b 4:4:4\nh/v 1/1\nNo chroma subsampling."
+msgstr ""
+
+#: SAVEDLG_SUBSAMP
+msgid "Subsampling"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_1
+msgid "Best compression"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_2
+msgid "Balanced"
+msgstr ""
+
+#: SAVEDLG_SUBSAMP_3
+msgid "Best quality"
+msgstr ""
+
+#: SAVEDLG_TIFFUNCOMPRESSED
+msgid "Uncompressed TIFF"
+msgstr ""
+
+#: SAVEDLG_WARNFILENAME
+msgid "File will be named"
+msgstr ""
+
+#: SHCSELECTOR_TOOLTIP
+msgid "Click right mouse button to reset the position of those 3 sliders."
+msgstr ""
+
+#: SOFTPROOF_GAMUTCHECK_TOOLTIP
+msgid "If active, indicates in grey the pixels which have out of gamut colors from the output profile."
+msgstr ""
+
+#: SOFTPROOF_TOOLTIP
+msgid "Soft-proofing\nIf active, let you simulate de rendering generated by the output profile of the ICM tool. Most useful for simulating printing outputs."
+msgstr ""
+
+#: THRESHOLDSELECTOR_BL
+msgid "Bottom-left"
+msgstr ""
+
+#: THRESHOLDSELECTOR_BR
+msgid "Bottom-right"
+msgstr ""
+
+#: THRESHOLDSELECTOR_B
+msgid "Bottom"
+msgstr ""
+
+#: THRESHOLDSELECTOR_HINT
+msgid "Hold the <b>Shift</b> key to move individual control points."
+msgstr ""
+
+#: THRESHOLDSELECTOR_TL
+msgid "Top-left"
+msgstr ""
+
+#: THRESHOLDSELECTOR_TR
+msgid "Top-right"
+msgstr ""
+
+#: THRESHOLDSELECTOR_T
+msgid "Top"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_COLORPICKER
+msgid "Lockable Color Picker\n\nWhen enabled:\nClick in the preview with left mouse button to add a color picker\nDrag it around while pressing the left mouse button\nDelete the color picker with a right mouse button click\nDelete all color pickers with Shift + Right mouse button click\nRight click away from any color picker to go back to the Hand tool"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_CROP
+msgid "<b>Crop</b> selection.\nShortcut: <b>c</b>\nMove the crop area using <b>Shift-mouse drag</b>"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_HAND
+msgid "Hand tool.\nShortcut: <b>h</b>"
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_STRAIGHTEN
+msgid "<b>Straighten</b> / <b>fine rotation</b>.\nShortcut: <b>s</b>\n\nIndicate the vertical or horizontal by drawing a guide line over the image preview. Angle of rotation will be shown next to the guide line. Center of rotation is the geometrical center of the image."
+msgstr ""
+
+#: TOOLBAR_TOOLTIP_WB
+msgid "Spot white balance.\nShortcut: <b>w</b>"
+msgstr ""
+
+#: TP_BWMIX_ALGO_SP
+msgid "Special effects"
+msgstr ""
+
+#: TP_BWMIX_ALGO_TOOLTIP
+msgid "Linear: will produce a normal <b>linear</b> response.\nSpecial effects: will produce special effects by mixing channels <b>non-linearly</b>."
+msgstr ""
+
+#: TP_BWMIX_ALGO
+msgid "Algorithm OYCPM"
+msgstr ""
+
+#: TP_BWMIX_AUTOCH_TIP
+msgid "Calculate values optimizing Channel Mixer."
+msgstr ""
+
+#: TP_BWMIX_AUTOCH,TP_WBALANCE_AUTO
+msgid "Auto"
+msgstr ""
+
+#: TP_BWMIX_CC_ENABLED
+msgid "Adjust complementary color"
+msgstr ""
+
+#: TP_BWMIX_CC_TOOLTIP
+msgid "Enable to allow automatic adjustment of complementary colors in ROYGCBPM mode."
+msgstr ""
+
+#: TP_BWMIX_CURVEEDITOR_AFTER_TOOLTIP
+msgid "Tone curve, after B&amp;W conversion, at the end of treatment."
+msgstr ""
+
+#: TP_BWMIX_CURVEEDITOR_BEFORE_TOOLTIP
+msgid "Tone curve, just before B&amp;W conversion.\nMay take into account the color components."
+msgstr ""
+
+#: TP_BWMIX_CURVEEDITOR_LH_TOOLTIP
+msgid "Luminance according to hue L=f(H).\nPay attention to extreme values as they may cause artifacts."
+msgstr ""
+
+#: TP_BWMIX_CURVEEDITOR1
+msgid "'Before' curve"
+msgstr ""
+
+#: TP_BWMIX_CURVEEDITOR2
+msgid "'After' curve"
+msgstr ""
+
+#: TP_BWMIX_FILTER_BLUEGREEN
+msgctxt "TP_BWMIX_FILTER_BLUEGREEN"
+msgid "Blue-Green"
+msgstr ""
+
+#: TP_BWMIX_FILTER_BLUE
+msgctxt "TP_BWMIX_FILTER_BLUE"
+msgid "Blue"
+msgstr ""
+
+#: TP_BWMIX_FILTER_GREENYELLOW
+msgctxt "TP_BWMIX_FILTER_GREENYELLOW"
+msgid "Green-Yellow"
+msgstr ""
+
+#: TP_BWMIX_FILTER_GREEN
+msgctxt "TP_BWMIX_FILTER_GREEN"
+msgid "Green"
+msgstr ""
+
+#: TP_BWMIX_FILTER_NONE
+msgctxt "TP_BWMIX_FILTER_NONE"
+msgid "None"
+msgstr ""
+
+#: TP_BWMIX_FILTER_PURPLE
+msgctxt "TP_BWMIX_FILTER_PURPLE"
+msgid "Purple"
+msgstr ""
+
+#: TP_BWMIX_FILTER_REDYELLOW
+msgctxt "TP_BWMIX_FILTER_REDYELLOW"
+msgid "Red-Yellow"
+msgstr ""
+
+#: TP_BWMIX_FILTER_RED
+msgctxt "TP_BWMIX_FILTER_RED"
+msgid "Red"
+msgstr ""
+
+#: TP_BWMIX_FILTER_TOOLTIP
+msgid "The color filter simulates shots taken with a colored filter placed in front of the lens. Colored filters reduce the transmission of specific color ranges and therefore affect their lightness. E.g. a red filter darkens blue skies."
+msgstr ""
+
+#: TP_BWMIX_FILTER_YELLOW
+msgctxt "TP_BWMIX_FILTER_YELLOW"
+msgid "Yellow"
+msgstr ""
+
+#: TP_BWMIX_FILTER
+msgid "Color Filter"
+msgstr ""
+
+#: TP_BWMIX_GAMMA
+msgid "Gamma Correction"
+msgstr ""
+
+#: TP_BWMIX_GAM_TOOLTIP
+msgid "Correct gamma for each RGB channel."
+msgstr ""
+
+#: TP_BWMIX_CHANNEL
+msgid "Luminance equalizer"
+msgstr ""
+
+#: TP_BWMIX_MET_DESAT
+msgid "Desaturation"
+msgstr ""
+
+#: TP_BWMIX_MET_LUMEQUAL
+msgid "Luminance Equalizer"
+msgstr ""
+
+#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_CTYPE,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_RETINEX_METHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
+msgid "Method"
+msgstr ""
+
+#: TP_BWMIX_MIXC
+msgid "Mixer"
+msgstr ""
+
+#: TP_BWMIX_NEUTRAL_TIP
+msgid "Reset all values (Color Filter, Channel Mixer) to default."
+msgstr ""
+
+#: TP_BWMIX_NEUTRAL
+msgid "Reset mixer"
+msgstr ""
+
+#: TP_BWMIX_RGBLABEL_HINT
+msgid "Final RGB factors that take care of all the mixer options.\n\"Total\" displays the sum of the RGB values:\n- always 100% in relative mode\n- higher (lighter) or lower (darker) than 100% in absolute mode."
+msgstr ""
+
+#: TP_BWMIX_RGBLABEL
+msgid "R: %1%%   G: %2%%   B: %3%%   Total: %4%%"
+msgstr ""
+
+#: TP_BWMIX_RGB_TOOLTIP
+msgid "Mix the RGB channels. Use presets for guidance.\nPay attention to negative values that may cause artifacts or erratic behavior."
+msgstr ""
+
+#: TP_BWMIX_SET_HIGHCONTAST
+msgid "High contrast"
+msgstr ""
+
+#: TP_BWMIX_SET_HIGHSENSIT
+msgid "High Sensitivity"
+msgstr ""
+
+#: TP_BWMIX_SET_HYPERPANCHRO
+msgid "Hyper Panchromatic"
+msgstr ""
+
+#: TP_BWMIX_SET_INFRARED
+msgid "Infrared"
+msgstr ""
+
+#: TP_BWMIX_SET_LOWSENSIT
+msgid "Low Sensitivity"
+msgstr ""
+
+#: TP_BWMIX_SET_LUMINANCE
+msgctxt "TP_BWMIX_SET_LUMINANCE"
+msgid "Luminance"
+msgstr ""
+
+#: TP_BWMIX_SET_NORMCONTAST
+msgid "Normal Contrast"
+msgstr ""
+
+#: TP_BWMIX_SET_ORTHOCHRO
+msgid "Orthochromatic"
+msgstr ""
+
+#: TP_BWMIX_SET_PANCHRO
+msgid "Panchromatic"
+msgstr ""
+
+#: TP_BWMIX_SET_RGBABS
+msgid "Absolute RGB"
+msgstr ""
+
+#: TP_BWMIX_SET_RGBREL
+msgid "Relative RGB"
+msgstr ""
+
+#: TP_BWMIX_SET_ROYGCBPMABS
+msgid "Absolute ROYGCBPM"
+msgstr ""
+
+#: TP_BWMIX_SET_ROYGCBPMREL
+msgid "Relative ROYGCBPM"
+msgstr ""
+
+#: TP_BWMIX_SETTING_TOOLTIP
+msgid "Different presets (film, landscape, etc.) or manual Channel Mixer settings."
+msgstr ""
+
+#: TP_BWMIX_SETTING
+msgid "Presets"
+msgstr ""
+
+#: TP_BWMIX_TCMODE_FILMLIKE
+msgid "B&W Film-like"
+msgstr ""
+
+#: TP_BWMIX_TCMODE_SATANDVALBLENDING
+msgid "B&W Saturation and Value Blending"
+msgstr ""
+
+#: TP_BWMIX_TCMODE_STANDARD
+msgid "B&W Standard"
+msgstr ""
+
+#: TP_BWMIX_TCMODE_WEIGHTEDSTD
+msgid "B&W Weighted Standard"
+msgstr ""
+
+#: TP_BWMIX_VAL,TP_WAVELET_CURVEEDITOR_CL
+msgid "L"
+msgstr ""
+
+#: TP_CACORRECTION_BLUE,TP_RAWCACORR_CABLUE,TP_RAWEXPOS_BLACK_BLUE,TP_RAWEXPOS_BLACK_2
+msgid "Blue"
+msgstr ""
+
+#: TP_CACORRECTION_LABEL
+msgid "Chromatic Aberration Correction"
+msgstr ""
+
+#: TP_CACORRECTION_RED,TP_RAWCACORR_CARED,TP_RAWEXPOS_BLACK_RED,TP_RAWEXPOS_BLACK_1,TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE2
+msgid "Red"
+msgstr ""
+
+#: TP_CBDL_AFT
+msgid "After Black-and-White"
+msgstr ""
+
+#: TP_CBDL_BEF
+msgid "Before Black-and-White"
+msgstr ""
+
+#: TP_CBDL_METHOD_TOOLTIP
+msgid "Choose whether the Contrast by Detail Levels tool is to be positioned after the Black-and-White tool, which makes it work in L*a*b* space, or before it, which makes it work in RGB space."
+msgstr ""
+
+#: TP_CBDL_METHOD
+msgid "Process located"
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_HFLIP
+msgid "Flip horizontally."
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_ROTLEFT
+msgid "Rotate left.\n\nShortcuts:\n<b>[</b> - Multiple Editor Tabs Mode,\n<b>Alt-[</b> - Single Editor Tab Mode."
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_ROTRIGHT
+msgid "Rotate right.\n\nShortcuts:\n<b>]</b> - Multiple Editor Tabs Mode,\n<b>Alt-]</b> - Single Editor Tab Mode."
+msgstr ""
+
+#: TP_COARSETRAF_TOOLTIP_VFLIP
+msgid "Flip vertically."
+msgstr ""
+
+#: TP_COLORAPP_ADAP_AUTO_TOOLTIP
+msgid "If the checkbox is checked (recommended) RawTherapee calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first."
+msgstr ""
+
+#: TP_COLORAPP_ADAPTSCENE_TOOLTIP
+msgid "Absolute luminance of the scene environement (cd/m²).\n1) Calculated from the Exif data:\nShutter speed - ISO speed - F number - camera exposure correction.\n2) Calculated from the raw white point and RT's Exposure Compensation slider."
+msgstr ""
+
+#: TP_COLORAPP_ADAPTSCENE
+msgid "Scene luminosity"
+msgstr ""
+
+#: TP_COLORAPP_ADAPTVIEWING_TOOLTIP
+msgid "Absolute luminance of the viewing environnement\n(usually 16cd/m²)."
+msgstr ""
+
+#: TP_COLORAPP_ADAPTVIEWING
+msgid "Viewing luminosity (cd/m²)"
+msgstr ""
+
+#: TP_COLORAPP_ALGO_ALL
+msgid "All"
+msgstr ""
+
+#: TP_COLORAPP_ALGO_JC
+msgid "Lightness + Chroma (JC)"
+msgstr ""
+
+#: TP_COLORAPP_ALGO_JS
+msgid "Lightness + Saturation (JS)"
+msgstr ""
+
+#: TP_COLORAPP_ALGO_QM
+msgid "Brightness + Colorfulness (QM)"
+msgstr ""
+
+#: TP_COLORAPP_ALGO_TOOLTIP
+msgid "Lets you choose between parameter subsets or all parameters."
+msgstr ""
+
+#: TP_COLORAPP_ALGO
+msgid "Algorithm"
+msgstr ""
+
+#: TP_COLORAPP_BADPIXSL_TOOLTIP
+msgid "Suppression of hot/bad (brightly colored) pixels.\n0 = No effect\n1 = Median\n2 = Gaussian.\nAlternatively, adjust the image to avoid very dark shadows.\n\nThese artifacts are due to limitations of CIECAM02."
+msgstr ""
+
+#: TP_COLORAPP_BADPIXSL
+msgid "Hot/bad pixel filter"
+msgstr ""
+
+#: TP_COLORAPP_BRIGHT_TOOLTIP
+msgid "Brightness in CIECAM02 takes into account the white's luminosity and differs from L*a*b* and RGB brightness."
+msgstr ""
+
+#: TP_COLORAPP_BRIGHT
+msgid "Brightness (Q)"
+msgstr ""
+
+#: TP_COLORAPP_CIECAT_DEGREE
+msgid "CAT02 adaptation"
+msgstr ""
+
+#: TP_COLORAPP_CONTRAST_Q_TOOLTIP
+msgid "Contrast in CIECAM02 for the Q slider; it differs from L*a*b* and RGB contrast."
+msgstr ""
+
+#: TP_COLORAPP_CONTRAST_Q
+msgid "Contrast (Q)"
+msgstr ""
+
+#: TP_COLORAPP_CONTRAST_TOOLTIP
+msgid "Contrast in CIECAM02 for the J slider; it differs from L*a*b* and RGB contrast."
+msgstr ""
+
+#: TP_COLORAPP_CONTRAST
+msgid "Contrast (J)"
+msgstr ""
+
+#: TP_COLORAPP_CURVEEDITOR1_TOOLTIP
+msgid "Shows the histogram of L* (L*a*b*) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of J or Q after CIECAM02.\n\nJ and Q are not shown in the main histogram panel.\n\nFor final output refer to the main histogram panel."
+msgstr ""
+
+#: TP_COLORAPP_CURVEEDITOR1,TP_EXPOSURE_CURVEEDITOR1
+msgid "Tone curve 1"
+msgstr ""
+
+#: TP_COLORAPP_CURVEEDITOR2_TOOLTIP
+msgid "Same usage as with the second exposure tone curve."
+msgstr ""
+
+#: TP_COLORAPP_CURVEEDITOR2,TP_EXPOSURE_CURVEEDITOR2
+msgid "Tone curve 2"
+msgstr ""
+
+#: TP_COLORAPP_CURVEEDITOR3_TOOLTIP
+msgid "Adjust either chroma, saturation or colorfulness.\n\nShows the histogram of chromaticity (L*a*b*) before CIECAM02.\nIf the \"Show CIECAM02 output histograms in curves\" checkbox is enabled, shows the histogram of C, s or M after CIECAM02.\n\nC, s and M are not shown in the main histogram panel.\nFor final output refer to the main histogram panel."
+msgstr ""
+
+#: TP_COLORAPP_CURVEEDITOR3
+msgid "Color curve"
+msgstr ""
+
+#: TP_COLORAPP_DATACIE_TOOLTIP
+msgid "When enabled, histograms in CIECAM02 curves show approximate values/ranges for J or Q, and C, s or M after the CIECAM02 adjustments.\nThis selection does not impact the main histogram panel.\n\nWhen disabled, histograms in CIECAM02 curves show L*a*b* values before CIECAM02 adjustments."
+msgstr ""
+
+#: TP_COLORAPP_DATACIE
+msgid "CIECAM02 output histograms in curves"
+msgstr ""
+
+#: TP_COLORAPP_DEGREE_AUTO_TOOLTIP
+msgid "If the check-box is checked (recommended), RawTherapee calculates an optimum value, which is then used by CAT02, and also for the entire CIECAM02.\nTo set the value manually, uncheck the check-box first (values above 65 are recommended)."
+msgstr ""
+
+#: TP_COLORAPP_DEGREE_TOOLTIP
+msgid "Amount of CIE Chromatic Adaptation Transform 2002."
+msgstr ""
+
+#: TP_COLORAPP_GAMUT_TOOLTIP
+msgid "Allow gamut control in L*a*b* mode."
+msgstr ""
+
+#: TP_COLORAPP_GAMUT
+msgid "Gamut control (L*a*b*)"
+msgstr ""
+
+#: TP_COLORAPP_HUE_TOOLTIP
+msgid "Hue (h) - angle between 0° and 360°."
+msgstr ""
+
+#: TP_COLORAPP_HUE
+msgid "Hue (h)"
+msgstr ""
+
+#: TP_COLORAPP_CHROMA_M_TOOLTIP
+msgid "Colorfulness in CIECAM02 differs from L*a*b* and RGB colorfulness."
+msgstr ""
+
+#: TP_COLORAPP_CHROMA_M
+msgid "Colorfulnes (M)"
+msgstr ""
+
+#: TP_COLORAPP_CHROMA_S_TOOLTIP
+msgid "Saturation in CIECAM02 differs from L*a*b* and RGB saturation."
+msgstr ""
+
+#: TP_COLORAPP_CHROMA_S
+msgid "Saturation (S)"
+msgstr ""
+
+#: TP_COLORAPP_CHROMA_TOOLTIP
+msgid "Chroma in CIECAM02 differs from L*a*b* and RGB chroma."
+msgstr ""
+
+#: TP_COLORAPP_CHROMA
+msgid "Chroma (C)"
+msgstr ""
+
+#: TP_COLORAPP_LABEL_CAM02
+msgid "Image Adjustments"
+msgstr ""
+
+#: TP_COLORAPP_LABEL_SCENE
+msgid "Scene Conditions"
+msgstr ""
+
+#: TP_COLORAPP_LABEL_VIEWING
+msgid "Viewing Conditions"
+msgstr ""
+
+#: TP_COLORAPP_LABEL
+msgid "CIE Color Appearance Model 2002"
+msgstr ""
+
+#: TP_COLORAPP_LIGHT_TOOLTIP
+msgid "Lightness in CIECAM02 differs from L*a*b* and RGB lightness."
+msgstr ""
+
+#: TP_COLORAPP_LIGHT
+msgid "Lightness (J)"
+msgstr ""
+
+#: TP_COLORAPP_MODEL_TOOLTIP
+msgid "White-Point Model.\n\n<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, CIECAM02 is set to D50, and the output device's white balance is set in <i>Preferences > Color Management</i>.\n\n<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by CAT02 and the output device's white balance is set in <i>Preferences - Color Management</i>."
+msgstr ""
+
+#: TP_COLORAPP_MODEL
+msgid "WP Model"
+msgstr ""
+
+#: TP_COLORAPP_RSTPRO_TOOLTIP
+msgid "Red and skin-tones protection affects both sliders and curves."
+msgstr ""
+
+#: TP_COLORAPP_RSTPRO
+msgid "Red & skin-tones protection"
+msgstr ""
+
+#: TP_COLORAPP_SURROUND_AVER
+msgid "Average"
+msgstr ""
+
+#: TP_COLORAPP_SURROUND_DARK
+msgid "Dark"
+msgstr ""
+
+#: TP_COLORAPP_SURROUND_DIM
+msgid "Dim"
+msgstr ""
+
+#: TP_COLORAPP_SURROUND_EXDARK
+msgid "Extremly Dark (Cutsheet)"
+msgstr ""
+
+#: TP_COLORAPP_SURROUND_TOOLTIP
+msgid "Changes tones and colors to take into account the viewing conditions of the output device.\n\n<b>Average</b>: Average light environment (standard). The image will not change.\n\n<b>Dim</b>: Dim environment (TV). The image will become slighty dark.\n\n<b>Dark</b>: Dark environment (projector). The image will become more dark.\n\n<b>Extremly Dark</b>: Extremly dark environment (cutsheet). The image will become very dark."
+msgstr ""
+
+#: TP_COLORAPP_SURROUND
+msgid "Surround"
+msgstr ""
+
+#: TP_COLORAPP_SURSOURCE_TOOLTIP
+msgid "Can be used if image has a dark border."
+msgstr ""
+
+#: TP_COLORAPP_SURSOURCE
+msgid "Dark surround"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_BRIGHTNESS
+msgid "Brightness"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_COLORF
+msgid "Colorfulness"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
+msgid "Chroma"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_LABEL1,TP_EXPOSURE_TCMODE_LABEL1
+msgid "Curve mode 1"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_LABEL2,TP_EXPOSURE_TCMODE_LABEL2
+msgid "Curve mode 2"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_LABEL3
+msgid "Curve chroma mode"
+msgstr ""
+
+#: TP_COLORAPP_TCMODE_LIGHTNESS,TP_EXPOSURE_BRIGHTNESS,TP_LABCURVE_BRIGHTNESS
+msgid "Lightness"
+msgstr ""
+
+#: TP_COLORAPP_TONECIE_TOOLTIP
+msgid "If this option is disabled, tone mapping is done in L*a*b* space.\nIf this option is enabled, tone mapping is done using CIECAM02.\nThe Tone Mapping tool must be enabled for this setting to take effect."
+msgstr ""
+
+#: TP_COLORAPP_TONECIE
+msgid "Tone mapping using CIECAM02"
+msgstr ""
+
+#: TP_COLORAPP_WBCAM
+msgid "WB [RT+CAT02] + [output]"
+msgstr ""
+
+#: TP_COLORAPP_WBRT
+msgid "WB [RT] + [output]"
+msgstr ""
+
+#: TP_COLORTONING_AB,TP_COLORTONING_BY
+msgid "o C/L"
+msgstr ""
+
+#: TP_COLORTONING_BALANCE
+msgid "Balance"
+msgstr ""
+
+#: TP_COLORTONING_CURVEEDITOR_CL_TOOLTIP
+msgid "Chroma opacity as a function of luminance oC=f(L)"
+msgstr ""
+
+#: TP_COLORTONING_HUE,TP_PFCURVE_CURVEEDITOR_CH
+msgid "Hue"
+msgstr ""
+
+#: TP_COLORTONING_CHROMAC,TP_COLORTONING_OPACITY
+msgid "Opacity"
+msgstr ""
+
+#: TP_COLORTONING_LAB
+msgid "L*a*b* blending"
+msgstr ""
+
+#: TP_COLORTONING_LUMAMODE_TOOLTIP
+msgid "If enabled, when you change color (red, green, cyan, blue, etc.) the luminance of each pixel is preserved."
+msgstr ""
+
+#: TP_COLORTONING_LUMAMODE
+msgid "Preserve luminance"
+msgstr ""
+
+#: TP_COLORTONING_LUMA,TP_DIRPYRDENOISE_LUMA,TP_DIRPYRDENOISE_LUMAFR,TP_EXPOSURE_TCMODE_LUMINANCE
+msgid "Luminance"
+msgstr ""
+
+#: TP_COLORTONING_METHOD_TOOLTIP
+msgid "\"L*a*b* blending\", \"RGB sliders\" and \"RGB curves\" use interpolated color blending.\n\"Color balance (Shadows/Midtones/Highlights)\" and \"Saturation 2 colors\" use direct colors.\n\nThe Black-and-White tool can be enabled when using any color toning method, which allows for color toning."
+msgstr ""
+
+#: TP_COLORTONING_MIDTONES
+msgid "Midtones"
+msgstr ""
+
+#: TP_COLORTONING_NEUTRAL_TIP
+msgid "Reset all values (Shadows, Midtones, Highlights) to default."
+msgstr ""
+
+#: TP_COLORTONING_NEUTRAL
+msgid "Reset sliders"
+msgstr ""
+
+#: TP_COLORTONING_RGBCURVES
+msgid "RGB - Curves"
+msgstr ""
+
+#: TP_COLORTONING_RGBSLIDERS
+msgid "RGB - Sliders"
+msgstr ""
+
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RAWCACORR_CASTR,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
+msgid "Strength"
+msgstr ""
+
+#: TP_COLORTONING_SA
+msgid "Saturation Protection"
+msgstr ""
+
+#: TP_COLORTONING_SPLITCOCO
+msgid "Color Balance Shadows/Midtones/Highlights"
+msgstr ""
+
+#: TP_COLORTONING_SPLITCO
+msgid "Shadows/Midtones/Highlights"
+msgstr ""
+
+#: TP_COLORTONING_SPLITLR
+msgid "Saturation 2 colors"
+msgstr ""
+
+#: TP_COLORTONING_TWOALL
+msgid "Special chroma"
+msgstr ""
+
+#: TP_COLORTONING_TWOBY
+msgid "Special a* and b*"
+msgstr ""
+
+#: TP_COLORTONING_TWOCOLOR_TOOLTIP
+msgid "Standard chroma:\nLinear response, a* = b*.\n\nSpecial chroma:\nLinear response, a* = b*, but unbound - try under the diagonal.\n\nSpecial a* and b*:\nLinear response unbound with separate curves for a* and b*. Intended for special effects.\n\nSpecial chroma 2 colors:\nMore predictable."
+msgstr ""
+
+#: TP_COLORTONING_TWOSTD
+msgid "Standard chroma"
+msgstr ""
+
+#: TP_COLORTONING_TWO2
+msgid "Special chroma '2 colors'"
+msgstr ""
+
+#: TP_CROP_FIXRATIO
+msgid "Lock ratio"
+msgstr ""
+
+#: TP_CROP_GTDIAGONALS
+msgid "Rule of Diagonals"
+msgstr ""
+
+#: TP_CROP_GTEPASSPORT
+msgid "Biometric Passport"
+msgstr ""
+
+#: TP_CROP_GTFRAME
+msgid "Frame"
+msgstr ""
+
+#: TP_CROP_GTGRID
+msgid "Grid"
+msgstr ""
+
+#: TP_CROP_GTHARMMEANS
+msgid "Harmonic Means"
+msgstr ""
+
+#: TP_CROP_GTRULETHIRDS
+msgid "Rule of Thirds"
+msgstr ""
+
+#: TP_CROP_GTTRIANGLE1
+msgid "Golden Triangles 1"
+msgstr ""
+
+#: TP_CROP_GTTRIANGLE2
+msgid "Golden Triangles 2"
+msgstr ""
+
+#: TP_CROP_GUIDETYPE
+msgid "Guide type:"
+msgstr ""
+
+#: TP_CROP_H
+msgctxt "TP_CROP_H"
+msgid "Height"
+msgstr ""
+
+#: TP_CROP_PPI
+msgid "PPI="
+msgstr ""
+
+#: TP_CROP_SELECTCROP
+msgid "Select Crop"
+msgstr ""
+
+#: TP_CROP_W,TP_RESIZE_WIDTH
+msgid "Width"
+msgstr ""
+
+#: TP_CROP_X
+msgid "X"
+msgstr ""
+
+#: TP_CROP_Y
+msgid "Y"
+msgstr ""
+
+#: TP_DARKFRAME_AUTOSELECT,TP_FLATFIELD_AUTOSELECT
+msgid "Auto-selection"
+msgstr ""
+
+#: TP_DEFRINGE_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
+msgid "Radius"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_ABM
+msgid "Chroma only"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_AUTO_TOOLTIP
+msgid "Try to evaluate chroma noise\nBe careful, this calculation is average, and is quite subjective !"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_AUT,TP_DIRPYRDENOISE_AUTO
+msgid "Automatic global"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_BLUE
+msgid "Chrominance - Blue-Yellow"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CCCURVE
+msgid "Chrominance curve"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CTYPE_TOOLTIP
+msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nAutomatic multi-zones\nNo preview - works only during saving, but using the \"Preview\" method by matching the tile size and center to the preview size and center you can get an idea of the expected results.\nThe image is divided into tiles (about 10 to 70 depending on image size) and each tile receives its own chrominance noise reduction settings.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CURVEEDITOR_CC_TOOLTIP
+msgid "Increase (multiply) the value of all chrominance sliders.\nThis curve lets you adjust the strength of chromatic noise reduction as a function of chromaticity, for instance to increase the action in areas of low saturation and to decrease it in those of high saturation."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CURVEEDITOR_L_TOOLTIP
+msgid "Modulates action of 'Luminance' denoise"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_C2TYPE_TOOLTIP
+msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_ENH_TOOLTIP
+msgid "Increases noise reduction quality at the expense of a 20% processing time increase."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_ENH
+msgid "Enhanced mode"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_GAMMA_TOOLTIP
+msgid "Gamma varies noise reduction strength across the range of tones. Smaller values will target shadows, while larger values will stretch the effect to the brighter tones."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV,TP_RETINEX_GAMMA
+msgid "Gamma"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMAFR
+msgid "Chrominance"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMA
+msgid "Chrominance - Master"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM,TP_RETINEX_LABSPACE
+msgid "L*a*b*"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LCURVE
+msgid "Luminance curve"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LDETAIL
+msgid "Luminance - Detail"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LM,TP_SHARPENEDGE_THREE
+msgid "Luminance only"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LPLABM
+msgid "Weighted L* (little) + a*b* (normal)"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LTYPE
+msgid "Luminance control"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAN,TP_DIRPYRDENOISE_MANU
+msgid "Manual"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDMETHOD
+msgid "Median method"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDTYPE
+msgid "Median type"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MED
+msgid "Median Filter"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_METHOD_TOOLTIP
+msgid "For raw images either RGB or L*a*b* methods can be used.\n\nFor non-raw images the L*a*b* method will be used, regardless of the selection."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_METHOD11_TOOLTIP
+msgid "Quality can be adapted to the noise pattern. A setting of \"high\" increases the noise reduction effect at a cost of extended processing time."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_METHOD11
+msgid "Quality"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_METM_TOOLTIP
+msgid "When using the \"Luminance only\" and \"L*a*b*\" methods, median filtering will be performed just after the wavelet step in the noise reduction pipeline.\nWhen using the \"RGB\" mode, it will be performed at the very end of the noise reduction pipeline."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MET_TOOLTIP
+msgid "Apply a median filter of the desired window size. The larger the window's size, the longer it takes.\n\n3×3 soft: treats 5 pixels in a 3×3 pixel window.\n3×3: treats 9 pixels in a 3×3 pixel window.\n5×5 soft: treats 13 pixels in a 5×5 pixel window.\n5×5: treats 25 pixels in a 5×5 pixel window.\n7×7: treats 49 pixels in a 7×7 pixel window.\n9×9: treats 81 pixels in a 9×9 pixel window.\n\nSometimes it is possible to achieve higher quality running several iterations with a smaller window size than one iteration with a larger one."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_NOISELABELEMPTY
+msgid "Preview noise: Mean= -   High= -"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_NOISELABEL
+msgid "Preview noise: Mean=%1  High=%2"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_NRESID_TOOLTIP
+msgid "Displays the remaining noise levels of the part of the image visible in the <b>preview</b> after wavelet.\n\n>300 Very noisy\n100-300 Noisy\n50-100 A little noisy\n<50 Very low noise\n\nBeware, the values will differ between RGB and L*a*b* mode. The RGB values are less accurate because the RGB mode does not completely separate luminance and chrominance."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PASSES_TOOLTIP
+msgid "Applying three median filter iterations with a 3×3 window size often leads to better results than using one median filter iteration with a 7×7 window size."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PASSES
+msgid "Median iterations"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PON
+msgid "Auto multi-zones"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PREVLABEL
+msgid "Preview size=%1, Center: Px=%2  Py=%3"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PREV
+msgid "Preview"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_PRE
+msgid "Preview multi-zones"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_RED
+msgid "Chrominance - Red-Green"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_RGB,TP_DIRPYRDENOISE_RGBM
+msgid "RGB"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_WAVELET_NPHIGH
+msgid "High"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_SLI,TP_WAVELET_BASLI
+msgid "Slider"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_TILELABEL
+msgid "Tile size=%1, Center: Tx=%2  Ty=%3"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_3X3_SOFT
+msgid "3×3 soft"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_3X3
+msgid "3×3"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_5X5_SOFT
+msgid "5×5 soft"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_5X5
+msgid "5×5"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_7X7
+msgid "7×7"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_9X9
+msgid "9×9"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_ALGO_TOOLTIP
+msgid "Fine: closer to the colors of the skin, minimizing the action on other colors\nLarge: avoid more artifacts."
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_ALGO
+msgid "Skin Color Range"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_ARTIF
+msgid "Reduce artifacts"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_HUESKIN_TOOLTIP
+msgid "This pyramid is for the upper part, so far as the algorithm at its maximum efficiency.\nTo the lower part, the transition zones.\nIf you need to move the area significantly to the left or right - or if there are artifacts: the <b>white balance is incorrect</b>\nYou can slightly reduce the zone to prevent the rest of the image is affected."
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_HUESKIN,TP_WAVELET_HUESKIN
+msgid "Skin hue"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMACOARSEST,TP_WAVELET_LARGEST
+msgid "Coarsest"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMACONTRAST_MINUS,TP_WAVELET_CONTRAST_MINUS
+msgid "Contrast -"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMACONTRAST_PLUS,TP_WAVELET_CONTRAST_PLUS
+msgid "Contrast +"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_LUMAFINEST,TP_WAVELET_FINEST
+msgid "Finest"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_SKIN_TOOLTIP,TP_WAVELET_SKIN_TOOLTIP
+msgid "At -100 skin-tones are targetted.\nAt 0 all tones are treated equally.\nAt +100 skin-tones are protected while all other tones are affected."
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_SKIN,TP_WAVELET_SKIN
+msgid "Skin targetting/protection"
+msgstr ""
+
+#: TP_DIRPYREQUALIZER_TOOLTIP
+msgid "Attempts to reduce artifacts in the transitions between skin colors (hue, chroma, luma) and the rest of the image."
+msgstr ""
+
+#: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
+msgid "Amount"
+msgstr ""
+
+#: TP_DISTORTION_AUTO_TIP
+msgid "Automatically corrects lens distortion in raw files by matching it against the embedded JPEG image if one exists and has had its lens disortion auto-corrected by the camera."
+msgstr ""
+
+#: TP_DISTORTION_LABEL
+msgid "Distortion Correction"
+msgstr ""
+
+#: TP_EPD_EDGESTOPPING
+msgid "Edge stopping"
+msgstr ""
+
+#: TP_EPD_REWEIGHTINGITERATES
+msgid "Reweighting iterates"
+msgstr ""
+
+#: TP_EPD_SCALE,TP_RESIZE_SCALE,TP_RETINEX_SKAL
+msgid "Scale"
+msgstr ""
+
+#: TP_EPD_TOOLTIP
+msgid "Tone mapping is possible in L*a*b* mode (standard) and CIECAM02 mode.\n\nWhen in L*a*b* mode, tone mapping can also be used on the residual image of the Wavelet Levels tool.\n\nTo engage CIECAM02 tone mapping mode enable the following settings:\n1. CIECAM02\n2. Algorithm=\"Brightness + Colorfulness (QM)\"\n3. \"Tone mapping using CIECAM02 brightness (Q)\""
+msgstr ""
+
+#: TP_EXPOS_BLACKPOINT_LABEL
+msgid "Raw Black Points"
+msgstr ""
+
+#: TP_EXPOSURE_AUTOLEVELS_TIP
+msgid "Toggles execution of Auto Levels to automatically set Exposure slider values based on an image analysis.\nEnables Highlight Reconstruction if necessary."
+msgstr ""
+
+#: TP_EXPOSURE_AUTOLEVELS
+msgid "Auto Levels"
+msgstr ""
+
+#: TP_EXPOSURE_BLACKLEVEL,TP_WAVELET_B0
+msgid "Black"
+msgstr ""
+
+#: TP_EXPOSURE_CLIP_TIP
+msgid "The fraction of pixels to be clipped in Auto Levels operation."
+msgstr ""
+
+#: TP_EXPOSURE_CLIP
+msgid "Clip %"
+msgstr ""
+
+#: TP_EXPOSURE_COMPRHIGHLIGHTSTHRESHOLD
+msgid "Highlight compression threshold"
+msgstr ""
+
+#: TP_EXPOSURE_COMPRHIGHLIGHTS
+msgid "Highlight compression"
+msgstr ""
+
+#: TP_EXPOSURE_COMPRSHADOWS
+msgid "Shadow compression"
+msgstr ""
+
+#: TP_EXPOSURE_CONTRAST,TP_LABCURVE_CONTRAST,TP_RETINEX_VARIANCE,TP_WAVELET_COMPCONT,TP_WAVELET_CONTRA,TP_WAVELET_LEVF
+msgid "Contrast"
+msgstr ""
+
+#: TP_EXPOSURE_CURVEEDITOR2_TOOLTIP
+msgid "Please refer to the \"Exposure > Tone Curves\" RawPedia article to learn how to achieve the best results by using two tone curves."
+msgstr ""
+
+#: TP_EXPOSURE_EXPCOMP
+msgid "Exposure compensation"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_FILMLIKE
+msgid "Film-like"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_SATANDVALBLENDING
+msgid "Saturation and Value Blending"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_STANDARD
+msgctxt "TP_EXPOSURE_TCMODE_STANDARD"
+msgid "Standard"
+msgstr ""
+
+#: TP_EXPOSURE_TCMODE_WEIGHTEDSTD
+msgid "Weighted Standard"
+msgstr ""
+
+#: TP_EXPOS_WHITEPOINT_LABEL
+msgid "Raw White Points"
+msgstr ""
+
+#: TP_FILMSIMULATION_SLOWPARSEDIR
+msgid "RawTherapee is configured to look for Hald CLUT images, which are used for the Film Simulation tool, in a folder which is taking too long to load.\nGo to Preferences > Image Processing > Film Simulation\nto see which folder is being used. You should either point RawTherapee to a folder which contains only Hald CLUT images and nothing more, or to an empty folder if you don't want to use the Film Simulation tool.\n\nRead the Film Simulation article in RawPedia for more information.\n\nDo you want to cancel the scan now?"
+msgstr ""
+
+#: TP_FILMSIMULATION_ZEROCLUTSFOUND
+msgid "Set HaldCLUT directory in Preferences"
+msgstr ""
+
+#: TP_FLATFIELD_BLURRADIUS,TP_RAW_PIXELSHIFTSIGMA
+msgid "Blur radius"
+msgstr ""
+
+#: TP_FLATFIELD_BLURTYPE
+msgid "Blur type"
+msgstr ""
+
+#: TP_FLATFIELD_BT_AREA
+msgid "Area"
+msgstr ""
+
+#: TP_FLATFIELD_BT_HORIZONTAL,TP_PERSPECTIVE_HORIZONTAL,TP_WAVELET_DTWO
+msgid "Horizontal"
+msgstr ""
+
+#: TP_FLATFIELD_BT_VERTHORIZ
+msgid "Vertical + Horizontal"
+msgstr ""
+
+#: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL,TP_WAVELET_DONE
+msgid "Vertical"
+msgstr ""
+
+#: TP_FLATFIELD_CLIPCONTROL_TOOLTIP
+msgid "Clip control avoids clipped highlights caused by applying the flat field. If there are already clipped highlights before applying the flat field, clip control can lead to color cast."
+msgstr ""
+
+#: TP_FLATFIELD_CLIPCONTROL
+msgid "Clip control"
+msgstr ""
+
+#: TP_GAMMA_SLOP
+msgid "Slope (linear)"
+msgstr ""
+
+#: TP_GENERAL_11SCALE_TOOLTIP
+msgid "The effects of this tool are only visible or only accurate at a preview scale of 1:1."
+msgstr ""
+
+#: TP_GRADIENT_CENTER,TP_VIGNETTING_CENTER
+msgid "Center"
+msgstr ""
+
+#: TP_GRADIENT_CENTER_X_TOOLTIP
+msgid "Shift gradient to the left (negative values) or right (positive values)."
+msgstr ""
+
+#: TP_GRADIENT_CENTER_X,TP_VIGNETTING_CENTER_X
+msgid "Center X"
+msgstr ""
+
+#: TP_GRADIENT_CENTER_Y_TOOLTIP
+msgid "Shift gradient up (negative values) or down (positive values)."
+msgstr ""
+
+#: TP_GRADIENT_CENTER_Y,TP_VIGNETTING_CENTER_Y
+msgid "Center Y"
+msgstr ""
+
+#: TP_GRADIENT_DEGREE_TOOLTIP
+msgid "Rotation angle in degrees."
+msgstr ""
+
+#: TP_GRADIENT_DEGREE
+msgid "Angle"
+msgstr ""
+
+#: TP_GRADIENT_FEATHER_TOOLTIP
+msgid "Gradient width in percent of the image diagonal."
+msgstr ""
+
+#: TP_GRADIENT_FEATHER,TP_PCVIGNETTE_FEATHER
+msgid "Feather"
+msgstr ""
+
+#: TP_GRADIENT_STRENGTH_TOOLTIP
+msgid "Filter strength in stops."
+msgstr ""
+
+#: TP_HLREC_BLEND
+msgid "Blend"
+msgstr ""
+
+#: TP_HLREC_CIELAB
+msgid "CIELab Blending"
+msgstr ""
+
+#: TP_HLREC_COLOR
+msgid "Color Propagation"
+msgstr ""
+
+#: TP_HLREC_ENA_TOOLTIP
+msgid "Could be activated by Auto Levels."
+msgstr ""
+
+#: TP_HLREC_LABEL
+msgid "Highlight reconstruction"
+msgstr ""
+
+#: TP_HLREC_LUMINANCE
+msgid "Luminance Recovery"
+msgstr ""
+
+#: TP_HLREC_METHOD,TP_RESIZE_METHOD
+msgid "Method:"
+msgstr ""
+
+#: TP_HSVEQUALIZER_HUE
+msgctxt "TP_HSVEQUALIZER_HUE"
+msgid "H"
+msgstr ""
+
+#: TP_HSVEQUALIZER_CHANNEL,TP_RGBCURVES_CHANNEL
+msgid "Channel"
+msgstr ""
+
+#: TP_HSVEQUALIZER_SAT
+msgid "S"
+msgstr ""
+
+#: TP_HSVEQUALIZER_VAL
+msgid "V"
+msgstr ""
+
+#: TP_CHMIXER_BLUE
+msgid "Blue channel"
+msgstr ""
+
+#: TP_CHMIXER_GREEN
+msgid "Green channel"
+msgstr ""
+
+#: TP_CHMIXER_RED
+msgid "Red channel"
+msgstr ""
+
+#: TP_CHROMATABERR_LABEL
+msgid "Chromatic Aberration"
+msgstr ""
+
+#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET_TOOLTIP
+msgid "Employ the embedded DCP baseline exposure offset. The setting is only enabled if the selected DCP has any."
+msgstr ""
+
+#: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
+msgid "Baseline exposure"
+msgstr ""
+
+#: TP_ICM_APPLYHUESATMAP_TOOLTIP
+msgid "Employ the embedded DCP base table (HueSatMap). The setting is only enabled if the selected DCP has one."
+msgstr ""
+
+#: TP_ICM_APPLYHUESATMAP
+msgid "Base table"
+msgstr ""
+
+#: TP_ICM_APPLYLOOKTABLE_TOOLTIP
+msgid "Employ the embedded DCP look table. The setting is only enabled if the selected DCP has one."
+msgstr ""
+
+#: TP_ICM_APPLYLOOKTABLE
+msgid "Look table"
+msgstr ""
+
+#: TP_ICM_BLENDCMSMATRIX_TOOLTIP
+msgid "Enable to recover clipped highlights when using LUT-based ICC profiles."
+msgstr ""
+
+#: TP_ICM_BPC_TOOLTIP
+msgid "Enable this to fit the Luminosity channel to the output color space with a fix White Point"
+msgstr ""
+
+#: TP_ICM_BPC
+msgid "Black Point Compensation"
+msgstr ""
+
+#: TP_ICM_DCPILLUMINANT_INTERPOLATED
+msgid "Interpolated"
+msgstr ""
+
+#: TP_ICM_DCPILLUMINANT_TOOLTIP
+msgid "Select which embedded DCP illuminant to employ. Default is \"interpolated\" which is a mix between the two based on white balance. The setting is only enabled if a Dual-Illuminant DCP with interpolation support is selected."
+msgstr ""
+
+#: TP_ICM_DCPILLUMINANT
+msgid "Illuminant"
+msgstr ""
+
+#: TP_ICM_INPUTCAMERAICC_TOOLTIP
+msgid "Use RawTherapee's camera-specific DCP or ICC input color profiles. These profiles are more precise than simpler matrix ones. They are not available for all cameras. These profiles are stored in the /iccprofiles/input and /dcpprofiles folders and are automatically retrieved based on a file name matching to the exact model name of the camera."
+msgstr ""
+
+#: TP_ICM_INPUTCAMERAICC
+msgid "Auto-matched camera profile"
+msgstr ""
+
+#: TP_ICM_INPUTCAMERA_TOOLTIP
+msgid "Use a simple color matrix from dcraw, an enhanced RawTherapee version (whichever is available based on camera model) or one embedded in the DNG."
+msgstr ""
+
+#: TP_ICM_INPUTCAMERA
+msgid "Camera standard"
+msgstr ""
+
+#: TP_ICM_INPUTCUSTOM_TOOLTIP
+msgid "Select your own DCP/ICC color profile file for the camera."
+msgstr ""
+
+#: TP_ICM_INPUTDLGLABEL
+msgid "Select Input DCP/ICC Profile..."
+msgstr ""
+
+#: TP_ICM_INPUTEMBEDDED_TOOLTIP
+msgid "Use color profile embedded in non-raw files."
+msgstr ""
+
+#: TP_ICM_INPUTEMBEDDED
+msgid "Use embedded, if possible"
+msgstr ""
+
+#: TP_ICM_INPUTNONE_TOOLTIP
+msgid "Use no input color profile at all.\nUse only in special cases."
+msgstr ""
+
+#: TP_ICM_INPUTNONE
+msgid "No profile"
+msgstr ""
+
+#: TP_ICM_INPUTPROFILE
+msgid "Input Profile"
+msgstr ""
+
+#: TP_ICM_NOICM
+msgid "No ICM: sRGB Output"
+msgstr ""
+
+#: TP_ICM_OUTPUTPROFILE
+msgid "Output Profile"
+msgstr ""
+
+#: TP_ICM_PROFILEINTENT
+msgid "Rendering Intent"
+msgstr ""
+
+#: TP_ICM_SAVEREFERENCE_APPLYWB_TOOLTIP
+msgid "Generally, apply the white balance when saving images to create ICC profiles, and do not apply the white balance to create DCP profiles."
+msgstr ""
+
+#: TP_ICM_SAVEREFERENCE_APPLYWB
+msgid "Apply white balance"
+msgstr ""
+
+#: TP_ICM_SAVEREFERENCE_TOOLTIP
+msgid "Save the linear TIFF image before the input profile is applied. The result can be used for calibration purposes and generation of a camera profile."
+msgstr ""
+
+#: TP_ICM_SAVEREFERENCE
+msgid "Save Reference Image"
+msgstr ""
+
+#: TP_ICM_TONECURVE_TOOLTIP
+msgid "Employ the embedded DCP tone curve. The setting is only enabled if the selected DCP has a tone curve."
+msgstr ""
+
+#: TP_ICM_TONECURVE
+msgid "Tone curve"
+msgstr ""
+
+#: TP_ICM_WORKINGPROFILE
+msgid "Working Profile"
+msgstr ""
+
+#: TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP
+msgid "Fit colors into gamut of the working color space and apply Munsell correction."
+msgstr ""
+
+#: TP_LABCURVE_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT,TP_WAVELET_AVOID
+msgid "Avoid color shift"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE1
+msgid "Green Saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE2
+msgid "Green Pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE3
+msgid "Red Pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_A_RANGE4
+msgid "Red Saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE1
+msgid "Blue Saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE2
+msgid "Blue Pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE3
+msgid "Yellow Pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_B_RANGE4
+msgid "Yellow Saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE2
+msgid "Dull"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE3
+msgid "Pastel"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_RANGE4
+msgid "Saturated"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC_TOOLTIP
+msgid "Chromaticity according to chromaticity C=f(C)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CC
+msgid "CC"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CL_TOOLTIP
+msgid "Chromaticity according to luminance C=f(L)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CL
+msgid "CL"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_HH_TOOLTIP,TP_VIBRANCE_CURVEEDITOR_SKINTONES_TOOLTIP
+msgid "Hue according to hue H=f(H)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_HH,TP_VIBRANCE_CURVEEDITOR_SKINTONES,TP_WAVELET_CURVEEDITOR_HH
+msgid "HH"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CH_TOOLTIP
+msgid "Chromaticity according to hue C=f(H)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_CH
+msgid "CH"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LC_TOOLTIP
+msgid "Luminance according to chromaticity L=f(C)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LC
+msgid "LC"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LH_TOOLTIP
+msgid "Luminance according to hue L=f(H)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LH
+msgid "LH"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR_LL_TOOLTIP
+msgid "Luminance according to luminance L=f(L)"
+msgstr ""
+
+#: TP_LABCURVE_CURVEEDITOR
+msgid "Luminance Curve"
+msgstr ""
+
+#: TP_LABCURVE_CHROMATICITY
+msgid "Chromaticity"
+msgstr ""
+
+#: TP_LABCURVE_CHROMA_TOOLTIP
+msgid "To apply B&amp;W toning, set Chromaticity to -100."
+msgstr ""
+
+#: TP_LABCURVE_LABEL
+msgid "L*a*b* Adjustments"
+msgstr ""
+
+#: TP_LABCURVE_LCREDSK_TIP
+msgid "If enabled, the LC Curve affects only red and skin-tones.\nIf disabled, it applies to all tones."
+msgstr ""
+
+#: TP_LABCURVE_LCREDSK
+msgid "Restrict LC to red and skin-tones"
+msgstr ""
+
+#: TP_LABCURVE_RSTPROTECTION
+msgid "Red and skin-tones protection"
+msgstr ""
+
+#: TP_LABCURVE_RSTPRO_TOOLTIP
+msgid "Works on the Chromaticity slider and the CC curve."
+msgstr ""
+
+#: TP_LENSGEOM_AUTOCROP
+msgid "Auto-Crop"
+msgstr ""
+
+#: TP_LENSGEOM_LABEL
+msgid "Lens / Geometry"
+msgstr ""
+
+#: TP_LENSPROFILE_LABEL
+msgid "Lens Correction Profile"
+msgstr ""
+
+#: TP_NEUTRAL_TIP
+msgid "Resets exposure sliders to neutral values.\nApplies to the same controls that Auto Levels applies to, regardless of whether you used Auto Levels or not."
+msgstr ""
+
+#: TP_PCVIGNETTE_FEATHER_TOOLTIP
+msgid "Feathering:\n0 = corners only,\n50 = halfway to center,\n100 = to center."
+msgstr ""
+
+#: TP_PCVIGNETTE_ROUNDNESS_TOOLTIP
+msgid "Roundness:\n0 = rectangle,\n50 = fitted ellipse,\n100 = circle."
+msgstr ""
+
+#: TP_PCVIGNETTE_ROUNDNESS
+msgid "Roundness"
+msgstr ""
+
+#: TP_PCVIGNETTE_STRENGTH_TOOLTIP
+msgid "Filter strength in stops (reached in corners)."
+msgstr ""
+
+#: TP_PFCURVE_CURVEEDITOR_CH_TOOLTIP
+msgid "Controls defringe strength by color.\nHigher = more,\nLower = less."
+msgstr ""
+
+#: TP_PREPROCESS_DEADPIXFILT_TOOLTIP
+msgid "Tries to suppress dead pixels."
+msgstr ""
+
+#: TP_PREPROCESS_HOTPIXFILT_TOOLTIP
+msgid "Tries to suppress hot pixels."
+msgstr ""
+
+#: TP_PREPROCESS_LABEL
+msgid "Preprocessing"
+msgstr ""
+
+#: TP_PREPROCESS_NO_FOUND
+msgid "None found"
+msgstr ""
+
+#: TP_PRSHARPENING_TOOLTIP
+msgid "Sharpens the image after resizing. Only works when the \"Lanczos\" resizing method is used. It is impossible to preview the effects of this tool. See RawPedia for usage instructions."
+msgstr ""
+
+#: TP_RAW_AHD
+msgid "AHD"
+msgstr ""
+
+#: TP_RAW_AMAZE
+msgid "AMaZE"
+msgstr ""
+
+#: TP_RAWCACORR_AUTO
+msgid "Auto-correction"
+msgstr ""
+
+#: TP_RAW_DCBITERATIONS
+msgid "Number of DCB iterations"
+msgstr ""
+
+#: TP_RAW_DCB
+msgid "DCB"
+msgstr ""
+
+#: TP_RAW_DMETHOD_PROGRESSBAR_REFINE
+msgid "Demosaicing refinement..."
+msgstr ""
+
+#: TP_RAW_DMETHOD_PROGRESSBAR
+msgid "%1 demosaicing..."
+msgstr ""
+
+#: TP_RAW_DMETHOD_TOOLTIP
+msgid "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise reduction without leading to maze patterns, posterization or a washed-out look.\nPixel Shift is for Pentax Pixel Shift files. It falls back to AMaZE for non-Pixel Shift files."
+msgstr ""
+
+#: TP_RAW_EAHD
+msgid "EAHD"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACK_GREEN
+msgid "Green"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACKS
+msgid "Black Levels"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACK_0
+msgid "Green 1 (lead)"
+msgstr ""
+
+#: TP_RAWEXPOS_BLACK_3
+msgid "Green 2"
+msgstr ""
+
+#: TP_RAWEXPOS_LINEAR
+msgid "White-point correction"
+msgstr ""
+
+#: TP_RAWEXPOS_RGB
+msgid "Red, Green, Blue"
+msgstr ""
+
+#: TP_RAWEXPOS_TWOGREEN
+msgid "Link greens"
+msgstr ""
+
+#: TP_RAW_FALSECOLOR
+msgid "False color suppression steps"
+msgstr ""
+
+#: TP_RAW_HD_TOOLTIP
+msgid "Lower values make hot/dead pixel detection more aggressive, but false positives may lead to artifacts. If you notice any artifacts appearing when enabling the Hot/Dead Pixel Filters, gradually increase the threshold value until they disappear."
+msgstr ""
+
+#: TP_RAW_HPHD
+msgid "HPHD"
+msgstr ""
+
+#: TP_RAW_IGV
+msgid "IGV"
+msgstr ""
+
+#: TP_RAW_IMAGENUM_TOOLTIP
+msgid "Some raw files might embed several sub-images (HDR, Pixel Shift, Dual Pixel, Dual Sensitivity). Use this button to select the sub-image."
+msgstr ""
+
+#: TP_RAW_LABEL
+msgid "Demosaicing"
+msgstr ""
+
+#: TP_RAW_LMMSE_TOOLTIP
+msgid "Adds gamma (step 1), median (steps 2-4) and refinement (steps 5-6) to reduce artifacts and improve the signal-to-noise ratio."
+msgstr ""
+
+#: TP_RAW_LMMSE
+msgid "LMMSE"
+msgstr ""
+
+#: TP_RAW_MONO
+msgid "Mono"
+msgstr ""
+
+#: TP_RAW_NONE
+msgid "None (Shows sensor pattern)"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTADAPTIVE
+msgid "Adaptive detection"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTBLUR,TP_RAW_PIXELSHIFTBLUR_TOOLTIP
+msgid "Blur motion mask"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEPERISO_TOOLTIP
+msgid "The default value (0.0) should work fine for base ISO.\nIncrease the value to improve motion detection for higher ISO.\nIncrease in small steps and watch the motion mask while increasing."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEPERISO
+msgid "ISO adaption"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL_TOOLTIP
+msgid "Enabled: Equalize the channels (RGB) individually.\nDisabled: Use same equalization factor for all channels."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL
+msgid "Equalize per channel"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEQUALBRIGHT_TOOLTIP
+msgid "Equalize the brightness of the frames to the brightness of the selected frame.\nIf there are overexposed areas in the frames select the brightest frame to avoid magenta colour cast in overexposed areas or enable motion correction."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEQUALBRIGHT
+msgid "Equalize brightness of frames"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTEXP0
+msgid "Experimental"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTGREEN
+msgid "Check green channel for motion"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTHOLEFILL,TP_RAW_PIXELSHIFTHOLEFILL_TOOLTIP
+msgid "Fill holes in motion mask"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTLMMSE_TOOLTIP
+msgid "Use lmmse instead of amaze for motion areas.\nUseful for High ISO images."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTLMMSE
+msgid "Use lmmse for motion parts"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMASKTHRESHOLD
+msgid "3x3 new threshold"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMEDIAN_TOOLTIP
+msgid "Use median of all frames instead of selected frame for regions with motion.\nRemoves objects which are at different places in all frames.\nGives motion effect on slow moving (overlapping) objects."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMEDIAN
+msgid "Median"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMEDIAN3_TOOLTIP
+msgid "Excludes selected frame from median.\nUseful if moving objects overlap in frame 2 and 3"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMEDIAN3
+msgid "Exclude selected frame from median"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMM_OFF
+msgid "Off"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMOTIONCORRECTION_TOOLTIP
+msgid "1 = 2 pixels\n3 = 3x3 grid\n5 = 5x5 grid"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMOTIONCORRECTION
+msgid "Green motion correction size"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMOTIONMETHOD
+msgid "Motion Correction"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMOTION_TOOLTIP
+msgid "0 means no motion detection\n1 - 99 means motion will be detected according to this value. Increase value to increase detection rate\n100 means the Amaze demosaiced frame will be used"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMOTION
+msgid "Motion detection level (deprecated)"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTNONGREENAMAZE
+msgid "Check red/blue amaze"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTNONGREENCROSS
+msgid "Check red/blue channels for motion"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTNONGREENCROSS2
+msgid "Check green amaze"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTNONGREENHORIZONTAL
+msgid "Check red/blue horizontal"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTNONGREENVERTICAL
+msgid "Check red/blue vertical"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTNREADISO
+msgid "nRead"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTPRNU
+msgid "PRNU (%)"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTREDBLUEWEIGHT
+msgid "Red&Blue weight"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY_TOOLTIP
+msgid "Shows the motion mask without the image"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY
+msgid "Show mask only"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSHOWMOTION_TOOLTIP
+msgid "Overlays the image with a mask showing the regions with motion"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSHOWMOTION
+msgid "Show motion"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSIGMA_TOOLTIP
+msgid "Default radius of 1.0 usually fits good for base ISO. Increase value for high ISO shots,\n5.0 is a good starting point for high ISO shots.\nWatch motion mask while changing the value."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSMOOTH_TOOLTIP
+msgid "Smooth transitions between areas with and without motion.\nSet to 0 to disable smooth transitions\nSet to 1 to get Amaze/lmmse or Median"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSMOOTH
+msgid "Smooth transitions"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSTDDEVFACTORBLUE
+msgid "StdDev factor Blue"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSTDDEVFACTORGREEN
+msgid "StdDev factor Green"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTSTDDEVFACTORRED
+msgid "StdDev factor Red"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFT
+msgid "Pixel Shift"
+msgstr ""
+
+#: TP_RAW_SENSOR_BAYER_LABEL
+msgid "Sensor with Bayer Matrix"
+msgstr ""
+
+#: TP_RAW_SENSOR_XTRANS_DMETHOD_TOOLTIP
+msgid "3-pass gives best results (recommended for low ISO images).\n1-pass is almost undistinguishable from 3-pass for high ISO images and is faster."
+msgstr ""
+
+#: TP_RAW_SENSOR_XTRANS_LABEL
+msgid "Sensor with X-Trans Matrix"
+msgstr ""
+
+#: TP_RAW_VNG4
+msgid "VNG4"
+msgstr ""
+
+#: TP_RAW_1PASSMEDIUM
+msgid "1-Pass (Medium)"
+msgstr ""
+
+#: TP_RAW_3PASSBEST
+msgid "3-Pass (Best)"
+msgstr ""
+
+#: TP_RESIZE_APPLIESTO
+msgid "Applies to:"
+msgstr ""
+
+#: TP_RESIZE_CROPPEDAREA
+msgid "Cropped Area"
+msgstr ""
+
+#: TP_RESIZE_FITBOX
+msgid "Bounding Box"
+msgstr ""
+
+#: TP_RESIZE_FULLIMAGE
+msgid "Full Image"
+msgstr ""
+
+#: TP_RESIZE_HEIGHT
+msgid "Height"
+msgstr ""
+
+#: TP_RESIZE_H
+msgid "Height:"
+msgstr ""
+
+#: TP_RESIZE_LANCZOS
+msgid "Lanczos"
+msgstr ""
+
+#: TP_RESIZE_NEAREST
+msgid "Nearest"
+msgstr ""
+
+#: TP_RESIZE_SPECIFY
+msgid "Specify:"
+msgstr ""
+
+#: TP_RESIZE_W
+msgid "Width:"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_HSL
+msgid "Histogram equalizer HSL"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_LAB
+msgid "Histogram equalizer L*a*b*"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_LH
+msgid "Hue equalizer"
+msgstr ""
+
+#: TP_RETINEX_CONTEDIT_MAP
+msgid "Mask equalizer"
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
+msgid "Luminance according to luminance L=f(L)\nCorrect raw data to reduce halos and artifacts."
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_CD,TP_RETINEX_CURVEEDITOR_MAP
+msgid "L=f(L)"
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_LH_TOOLTIP
+msgid "Strength according to hue Strength=f(H)\nThis curve also acts on chroma when using the \"Highlight\" retinex method."
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_LH
+msgid "Strength=f(H)"
+msgstr ""
+
+#: TP_RETINEX_CURVEEDITOR_MAP_TOOLTIP
+msgid "This curve can be applied alone or with a Gaussian mask or wavelet mask.\nBeware of artifacts!"
+msgstr ""
+
+#: TP_RETINEX_GAINOFFS
+msgid "Gain and Offset (brightness)"
+msgstr ""
+
+#: TP_RETINEX_GAIN_TOOLTIP
+msgid "Acts on the restored image.\n\nThis is very different from the others settings. Used for black or white pixels, and to help balance the histogram."
+msgstr ""
+
+#: TP_RETINEX_GAINTRANSMISSION_TOOLTIP
+msgid "Amplify or reduce transmission map to achieve luminance.\nAbscissa: transmission -min from 0, mean, and values (max).\nOrdinate: gain."
+msgstr ""
+
+#: TP_RETINEX_GAINTRANSMISSION
+msgid "Gain transmission"
+msgstr ""
+
+#: TP_RETINEX_GAIN
+msgid "Gain"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_FREE
+msgid "Free"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_MID
+msgid "Middle"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_NONE
+msgctxt "TP_RETINEX_GAMMA_NONE"
+msgid "None"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_TOOLTIP
+msgid "Restore tones by applying gamma before and after Retinex. Different from Retinex curves or others curves (Lab, Exposure, etc.)."
+msgstr ""
+
+#: TP_RETINEX_GRADS_TOOLTIP
+msgid "If slider at 0, all iterations are identical.\nIf > 0 Strength is reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_GRADS
+msgid "Strength gradient"
+msgstr ""
+
+#: TP_RETINEX_GRAD_TOOLTIP
+msgid "If slider at 0, all iterations are identical.\nIf > 0 Variance and Threshold are reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_GRAD
+msgid "Transmission gradient"
+msgstr ""
+
+#: TP_RETINEX_HIGHLIGHT_TOOLTIP
+msgid "Increase action of High algorithm.\nMay require you to re-adjust \"Neighboring pixels\" and to increase the \"White-point correction\" in the Raw tab -> Raw White Points tool."
+msgstr ""
+
+#: TP_RETINEX_HIGHLIGHT
+msgid "Highlight threshold"
+msgstr ""
+
+#: TP_RETINEX_HIGHLIG
+msgid "Highlight"
+msgstr ""
+
+#: TP_RETINEX_HIGH
+msgctxt "TP_RETINEX_HIGH"
+msgid "High"
+msgstr ""
+
+#: TP_RETINEX_HSLSPACE_LIN
+msgid "HSL-Linear"
+msgstr ""
+
+#: TP_RETINEX_HSLSPACE_LOG
+msgid "HSL-Logarithmic"
+msgstr ""
+
+#: TP_RETINEX_ITER_TOOLTIP
+msgid "Simulate a tone-mapping operator.\nHigh values increase the processing time."
+msgstr ""
+
+#: TP_RETINEX_ITER
+msgid "Iterations (Tone-mapping)"
+msgstr ""
+
+#: TP_RETINEX_LABEL_MASK,TP_RETINEX_VIEW_MASK
+msgid "Mask"
+msgstr ""
+
+#: TP_RETINEX_LOW
+msgctxt "TP_RETINEX_LOW"
+msgid "Low"
+msgstr ""
+
+#: TP_RETINEX_MAP_GAUS
+msgid "Gaussian mask"
+msgstr ""
+
+#: TP_RETINEX_MAP_MAPP
+msgid "Sharp mask (wavelet partial)"
+msgstr ""
+
+#: TP_RETINEX_MAP_MAPT
+msgid "Sharp mask (wavelet total)"
+msgstr ""
+
+#: TP_RETINEX_MAP_METHOD_TOOLTIP
+msgid "Use the mask generated by the Gaussian function above (Radius, Method) to reduce halos and artifacts.\n\nCurve only: apply a diagonal contrast curve on the mask.\nBeware of artifacts!\n\nGaussian mask: generate and use a Gaussian blur of the original mask.\nQuick.\n\nSharp mask: generate and use a wavelet on the original mask.\nSlow."
+msgstr ""
+
+#: TP_RETINEX_MAP_NONE
+msgctxt "TP_RETINEX_MAP_NONE"
+msgid "None"
+msgstr ""
+
+#: TP_RETINEX_MAP
+msgid "Mask method"
+msgstr ""
+
+#: TP_RETINEX_MEDIAN
+msgid "Transmission median filter"
+msgstr ""
+
+#: TP_RETINEX_METHOD_TOOLTIP
+msgid "Low = Reinforce low light.\nUniform = Equalize action.\nHigh = Reinforce high light.\nHighlights = Remove magenta in highlights."
+msgstr ""
+
+#: TP_RETINEX_MLABEL_TOOLTIP
+msgid "Should be near min=0 max=32768\nRestored image with no mixture."
+msgstr ""
+
+#: TP_RETINEX_MLABEL
+msgid "Restored haze-free Min=%1 Max=%2"
+msgstr ""
+
+#: TP_RETINEX_NEUTRAL_TIP
+msgid "Reset all sliders and curves to their default values."
+msgstr ""
+
+#: TP_RETINEX_OFFSET
+msgid "Offset (brightness)"
+msgstr ""
+
+#: TP_RETINEX_SCALES_TOOLTIP
+msgid "If slider at 0, all iterations are identical.\nIf > 0 Scale and radius are reduced when iterations increase, and conversely."
+msgstr ""
+
+#: TP_RETINEX_SCALES
+msgid "Gaussian gradient"
+msgstr ""
+
+#: TP_RETINEX_SETTINGS
+msgid "Settings"
+msgstr ""
+
+#: TP_RETINEX_THRESHOLD_TOOLTIP
+msgid "Limits in/out.\nIn = image source,\nOut = image gauss."
+msgstr ""
+
+#: TP_RETINEX_TLABEL_TOOLTIP
+msgid "Transmission map result.\nMin and Max are used by Variance.\nMean and Sigma.\nTm=Min TM=Max of transmission map."
+msgstr ""
+
+#: TP_RETINEX_TLABEL
+msgid "TM Min=%1 Max=%2 Mean=%3 Sigma=%4"
+msgstr ""
+
+#: TP_RETINEX_TLABEL2
+msgid "TM Tm=%1 TM=%2"
+msgstr ""
+
+#: TP_RETINEX_TRANF
+msgid "Transmission"
+msgstr ""
+
+#: TP_RETINEX_TRANSMISSION_TOOLTIP
+msgid "Transmission according to transmission.\nAbscissa: transmission from negative values (min), mean, and positives values (max).\nOrdinate: amplification or reduction."
+msgstr ""
+
+#: TP_RETINEX_TRANSMISSION
+msgid "Transmission map"
+msgstr ""
+
+#: TP_RETINEX_UNIFORM
+msgid "Uniform"
+msgstr ""
+
+#: TP_RETINEX_VARIANCE_TOOLTIP
+msgid "Low variance increase local contrast and saturation, but can lead to artifacts."
+msgstr ""
+
+#: TP_RETINEX_VIEW_METHOD_TOOLTIP
+msgid "Standard - Normal display.\nMask -  Displays the mask.\nUnsharp mask - Displays the image with a high radius unsharp mask.\nTransmission - Auto/Fixed - Displays the file transmission-map, before any action on contrast and brightness.\n\nAttention: the mask does not correspond to reality, but is amplified to make it more visible."
+msgstr ""
+
+#: TP_RETINEX_VIEW_NONE
+msgctxt "TP_RETINEX_VIEW_NONE"
+msgid "Standard"
+msgstr ""
+
+#: TP_RETINEX_VIEW,TP_WAVELET_PROC
+msgid "Process"
+msgstr ""
+
+#: TP_RETINEX_VIEW_TRAN
+msgid "Transmission - Auto"
+msgstr ""
+
+#: TP_RETINEX_VIEW_TRAN2
+msgid "Transmission - Fixed"
+msgstr ""
+
+#: TP_RETINEX_VIEW_UNSHARP
+msgid "Unsharp mask"
+msgstr ""
+
+#: TP_RGBCURVES_BLUE
+msgid "B"
+msgstr ""
+
+#: TP_RGBCURVES_GREEN
+msgid "G"
+msgstr ""
+
+#: TP_RGBCURVES_LABEL
+msgid "RGB Curves"
+msgstr ""
+
+#: TP_RGBCURVES_LUMAMODE_TOOLTIP
+msgid "<b>Luminosity mode</b> allows to vary the contribution of R, G and B channels to the luminosity of the image, without altering image color."
+msgstr ""
+
+#: TP_RGBCURVES_LUMAMODE
+msgid "Luminosity mode"
+msgstr ""
+
+#: TP_RGBCURVES_RED
+msgid "R"
+msgstr ""
+
+#: TP_ROTATE_DEGREE
+msgid "Degree"
+msgstr ""
+
+#: TP_ROTATE_LABEL
+msgid "Rotate"
+msgstr ""
+
+#: TP_ROTATE_SELECTLINE
+msgid "Select Straight Line"
+msgstr ""
+
+#: TP_SAVEDIALOG_OK_TIP
+msgid "Shortcut: <b>Ctrl-Enter</b>"
+msgstr ""
+
+#: TP_SHADOWSHLIGHTS_HLTONALW
+msgid "Highlights tonal width"
+msgstr ""
+
+#: TP_SHADOWSHLIGHTS_LOCALCONTR,TP_WAVELET_CCURVE,TP_WAVELET_EDGCONT
+msgid "Local contrast"
+msgstr ""
+
+#: TP_SHADOWSHLIGHTS_SHARPMASK
+msgid "Sharp mask"
+msgstr ""
+
+#: TP_SHADOWSHLIGHTS_SHTONALW
+msgid "Shadows tonal width"
+msgstr ""
+
+#: TP_SHARPENEDGE_AMOUNT,TP_SHARPENMICRO_AMOUNT
+msgid "Quantity"
+msgstr ""
+
+#: TP_SHARPENEDGE_PASSES,TP_SHARPENING_RLD_ITERATIONS
+msgid "Iterations"
+msgstr ""
+
+#: TP_SHARPENING_EDTOLERANCE
+msgid "Edge tolerance"
+msgstr ""
+
+#: TP_SHARPENING_HALOCONTROL
+msgid "Halo control"
+msgstr ""
+
+#: TP_SHARPENING_ONLYEDGES
+msgid "Sharpen only edges"
+msgstr ""
+
+#: TP_SHARPENING_RLD_DAMPING
+msgid "Damping"
+msgstr ""
+
+#: TP_SHARPENING_RLD
+msgid "RL Deconvolution"
+msgstr ""
+
+#: TP_SHARPENING_USM
+msgid "Unsharp Mask"
+msgstr ""
+
+#: TP_SHARPENMICRO_MATRIX
+msgid "3×3 matrix instead of 5×5"
+msgstr ""
+
+#: TP_SHARPENMICRO_UNIFORMITY
+msgid "Uniformity"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL
+msgid "Skin-tones"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE1
+msgid "Red/Purple"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE3
+msgid "Red/Yellow"
+msgstr ""
+
+#: TP_VIBRANCE_CURVEEDITOR_SKINTONES_RANGE4
+msgid "Yellow"
+msgstr ""
+
+#: TP_VIBRANCE_PASTELS
+msgid "Pastel Tones"
+msgstr ""
+
+#: TP_VIBRANCE_PASTSATTOG
+msgid "Link pastel and saturated tones"
+msgstr ""
+
+#: TP_VIBRANCE_PROTECTSKINS
+msgid "Protect skin-tones"
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD_SATTHRESH
+msgid "Saturation threshold"
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD_TOOLTIP
+msgid "The vertical axis represents pastel tones at the bottom and saturated tones at the top.\nThe horizontal axis represents the saturation range."
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD_WEIGTHING
+msgid "Pastel/saturated transition's weighting"
+msgstr ""
+
+#: TP_VIBRANCE_PSTHRESHOLD
+msgid "Pastel/saturated tones threshold"
+msgstr ""
+
+#: TP_VIBRANCE_SATURATED
+msgid "Saturated Tones"
+msgstr ""
+
+#: TP_VIGNETTING_LABEL
+msgid "Vignetting Correction"
+msgstr ""
+
+#: TP_WAVELET_APPLYTO
+msgid "Apply To"
+msgstr ""
+
+#: TP_WAVELET_BACKGROUND
+msgid "Background"
+msgstr ""
+
+#: TP_WAVELET_BALANCE_TOOLTIP
+msgid "Alters the balance between the wavelet directions: vertical-horizontal and diagonal.\nIf contrast, chroma or residual tone mapping are activated, the effect due to balance is amplified."
+msgstr ""
+
+#: TP_WAVELET_BALANCE
+msgid "Contrast balance d/v-h"
+msgstr ""
+
+#: TP_WAVELET_BALCHRO_TOOLTIP
+msgid "If enabled, the 'Contrast balance' curve or slider also modifies chroma balance."
+msgstr ""
+
+#: TP_WAVELET_BALCHRO
+msgid "Chroma balance"
+msgstr ""
+
+#: TP_WAVELET_BATYPE
+msgid "Contrast balance method"
+msgstr ""
+
+#: TP_WAVELET_B1
+msgid "Grey"
+msgstr ""
+
+#: TP_WAVELET_B2
+msgid "Residual"
+msgstr ""
+
+#: TP_WAVELET_CBENAB
+msgid "Toning and Color Balance"
+msgstr ""
+
+#: TP_WAVELET_CB_TOOLTIP
+msgid "For strong values product color-toning by combining it or not with levels decomposition 'toning'\nFor low values you can change the white balance of the background (sky, ...) without changing that of the front plane, generally more contrasted"
+msgstr ""
+
+#: TP_WAVELET_COLORT
+msgid "Opacity Red-Green"
+msgstr ""
+
+#: TP_WAVELET_COMPGAMMA_TOOLTIP
+msgid "Adjusting the gamma of the residual image allows you to equilibrate the data and histogram."
+msgstr ""
+
+#: TP_WAVELET_COMPGAMMA
+msgid "Compression gamma"
+msgstr ""
+
+#: TP_WAVELET_CONTEDIT
+msgid "'After' contrast curve"
+msgstr ""
+
+#: TP_WAVELET_CONTRA_TOOLTIP
+msgid "Changes contrast of the residual image."
+msgstr ""
+
+#: TP_WAVELET_CONTR
+msgid "Gamut"
+msgstr ""
+
+#: TP_WAVELET_CTYPE
+msgid "Chrominance control"
+msgstr ""
+
+#: TP_WAVELET_CURVEEDITOR_CC_TOOLTIP
+msgid "Modifies local contrast as a function of the original local contrast (abscissa).\nLow abscissa values represent small local contrast (real values about 10..20).\n50% abscissa represents average local contrast (real value about 100..300).\n66% abscissa represents standard deviation of local contrast (real value about 300..800).\n100% abscissa represents maximum local contrast (real value about 3000..8000)."
+msgstr ""
+
+#: TP_WAVELET_CURVEEDITOR_CL_TOOLTIP
+msgid "Applies a final contrast luminance curve at the end of the wavelet treatment."
+msgstr ""
+
+#: TP_WAVELET_CURVEEDITOR_HH_TOOLTIP
+msgid "Modifies the residual image's hue as a function of hue."
+msgstr ""
+
+#: TP_WAVELET_CURVEEDITOR_CH_TOOLTIP
+msgid "Modifies each level's contrast as a function of hue.\nTake care not to overwrite changes made with the Gamut sub-tool's hue controls.\nThe curve will only have an effect when wavelet contrast level sliders are non-zero."
+msgstr ""
+
+#: TP_WAVELET_CURVEEDITOR_CH
+msgid "Contrast levels=f(Hue)"
+msgstr ""
+
+#: TP_WAVELET_DALL
+msgid "All directions"
+msgstr ""
+
+#: TP_WAVELET_DAUB_TOOLTIP
+msgid "Changes Daubechies coefficients:\nD4 = Standard,\nD14 = Often best performance, 10% more time-intensive.\n\nAffects edge detection as well as the general quality of the firsts levels. However the quality is not strictly related to this coefficient and can vary with images and uses."
+msgstr ""
+
+#: TP_WAVELET_DAUB
+msgid "Edge performance"
+msgstr ""
+
+#: TP_WAVELET_DAUB10
+msgid "D10 - medium"
+msgstr ""
+
+#: TP_WAVELET_DAUB14
+msgid "D14 - high"
+msgstr ""
+
+#: TP_WAVELET_DAUB2
+msgid "D2 - low"
+msgstr ""
+
+#: TP_WAVELET_DAUB4
+msgid "D4 - standard"
+msgstr ""
+
+#: TP_WAVELET_DAUB6
+msgid "D6 - standard plus"
+msgstr ""
+
+#: TP_WAVELET_DTHR
+msgid "Diagonal"
+msgstr ""
+
+#: TP_WAVELET_EDGCONT_TOOLTIP
+msgid "Adjusting the points to the left decreases contrast, and to the right increases it.\nBottom-left, Top-Left, Top-Right, Bottom-right represent respectively local contast for low values, mean, mean+stdev, maxima"
+msgstr ""
+
+#: TP_WAVELET_EDGEAMPLI
+msgid "Base amplification"
+msgstr ""
+
+#: TP_WAVELET_EDGEDETECTTHR_TOOLTIP
+msgid "This adjuster lets you target edge detection for example to avoid applying edge sharpness to fine details, such as noise in the sky."
+msgstr ""
+
+#: TP_WAVELET_EDGEDETECTTHR
+msgid "Threshold low (noise)"
+msgstr ""
+
+#: TP_WAVELET_EDGEDETECTTHR2
+msgid "Threshold high (detection)"
+msgstr ""
+
+#: TP_WAVELET_EDGEDETECT_TOOLTIP
+msgid "Moving the slider to the right increases edge sensitivity. This affects local contrast, edge settings and noise."
+msgstr ""
+
+#: TP_WAVELET_EDGEDETECT
+msgid "Gradient sensitivity"
+msgstr ""
+
+#: TP_WAVELET_EDGESENSI
+msgid "Edge sensitivity"
+msgstr ""
+
+#: TP_WAVELET_EDGE
+msgid "Edge Sharpness"
+msgstr ""
+
+#: TP_WAVELET_EDGREINF_TOOLTIP
+msgid "Reinforce or reduce the action of the first level, do the opposite to the second level, and leave the rest unchanged."
+msgstr ""
+
+#: TP_WAVELET_EDGTHRESH_TOOLTIP
+msgid "Change the repartition between the first levels and the others. The higher the threshold the more the action is centred on the first levels. Be careful with negative values, they increase the action of high levels and can introduce artifacts."
+msgstr ""
+
+#: TP_WAVELET_EDRAD_TOOLTIP
+msgid "This radius adjustment is very different from those in other sharpening tools. Its value is compared to each level through a complex function. In this sense, a value of zero still has an effect."
+msgstr ""
+
+#: TP_WAVELET_EDSL
+msgid "Threshold Sliders"
+msgstr ""
+
+#: TP_WAVELET_EDTYPE
+msgid "Local contrast method"
+msgstr ""
+
+#: TP_WAVELET_FINAL
+msgid "Final Touchup"
+msgstr ""
+
+#: TP_WAVELET_HIGHLIGHT
+msgid "Highlight luminance range"
+msgstr ""
+
+#: TP_WAVELET_HS1
+msgid "Whole luminance range"
+msgstr ""
+
+#: TP_WAVELET_HUESKIN_TOOLTIP,TP_WAVELET_HUESKY_TOOLTIP
+msgid "The bottom points set the beginning of the transition zone, and the upper points the end of it, where the effect is at its maximum.\n\nIf you need to move the area significantly, or if there are artifacts, then the <b>white balance is incorrect</b>."
+msgstr ""
+
+#: TP_WAVELET_HUESKY
+msgid "Sky hue"
+msgstr ""
+
+#: TP_WAVELET_CHRO_TOOLTIP
+msgid "Sets the wavelet level which will be the threshold between saturated and pastel colors.\n1-x: saturated\nx-9: pastel\n\nIf the value exceeds the amount of wavelet levels you are using then it will be ignored."
+msgstr ""
+
+#: TP_WAVELET_CHRO
+msgid "Saturated/pastel threshold"
+msgstr ""
+
+#: TP_WAVELET_CHR_TOOLTIP
+msgid "Adjusts chroma as a function of \"contrast levels\" and \"chroma-contrast link strength\""
+msgstr ""
+
+#: TP_WAVELET_CHR
+msgid "Chroma-contrast link strength"
+msgstr ""
+
+#: TP_WAVELET_CHSL
+msgid "Sliders"
+msgstr ""
+
+#: TP_WAVELET_CHTYPE
+msgid "Chrominance method"
+msgstr ""
+
+#: TP_WAVELET_CH1
+msgid "Whole chroma range"
+msgstr ""
+
+#: TP_WAVELET_CH2
+msgid "Saturated/pastel"
+msgstr ""
+
+#: TP_WAVELET_CH3
+msgid "Link contrast levels"
+msgstr ""
+
+#: TP_WAVELET_ITER_TOOLTIP
+msgid "Left: increase low levels and reduce high levels,\nRight: reduce low levels and increase high levels."
+msgstr ""
+
+#: TP_WAVELET_ITER
+msgid "Delta balance levels"
+msgstr ""
+
+#: TP_WAVELET_LEVDIR_ALL
+msgid "All levels in all directions"
+msgstr ""
+
+#: TP_WAVELET_LEVDIR_INF
+msgid "Below or equal the level"
+msgstr ""
+
+#: TP_WAVELET_LEVDIR_SUP
+msgid "Above the level"
+msgstr ""
+
+#: TP_WAVELET_LEVELS_TOOLTIP
+msgid "Choose the number of detail levels the image is to be decomposed into. More levels require more RAM and require a longer processing time."
+msgstr ""
+
+#: TP_WAVELET_LEVLABEL
+msgid "Preview maximum possible levels = %1"
+msgstr ""
+
+#: TP_WAVELET_LEVONE,TP_WAVELET_2
+msgid "Level 2"
+msgstr ""
+
+#: TP_WAVELET_LEVTHRE,TP_WAVELET_4
+msgid "Level 4"
+msgstr ""
+
+#: TP_WAVELET_LEVTWO,TP_WAVELET_3
+msgid "Level 3"
+msgstr ""
+
+#: TP_WAVELET_LEVZERO,TP_WAVELET_1
+msgid "Level 1"
+msgstr ""
+
+#: TP_WAVELET_LINKEDG
+msgid "Link with Edge Sharpness' Strength"
+msgstr ""
+
+#: TP_WAVELET_LIPST
+msgid "Enhanced algoritm"
+msgstr ""
+
+#: TP_WAVELET_LOWLIGHT
+msgid "Shadow luminance range"
+msgstr ""
+
+#: TP_WAVELET_MEDGREINF
+msgid "First level"
+msgstr ""
+
+#: TP_WAVELET_MEDILEV_TOOLTIP
+msgid "When you enable Edge Detection, it is recommanded:\n- to disabled low contrast levels to avoid artifacts,\n- to use high values of gradient sensitivity.\n\nYou can modulate the strength with 'refine' from Denoise and Refine."
+msgstr ""
+
+#: TP_WAVELET_MEDILEV
+msgid "Edge detection"
+msgstr ""
+
+#: TP_WAVELET_MEDI
+msgid "Reduce artifacts in blue sky"
+msgstr ""
+
+#: TP_WAVELET_NOISE
+msgid "Denoise and Refine"
+msgstr ""
+
+#: TP_WAVELET_NOIS
+msgid "Denoise"
+msgstr ""
+
+#: TP_WAVELET_NPTYPE_TOOLTIP
+msgid "This algorithm uses the proximity of a pixel and eight of its neighbors. If less difference, edges are reinforced."
+msgstr ""
+
+#: TP_WAVELET_NPTYPE
+msgid "Neighboring pixels"
+msgstr ""
+
+#: TP_WAVELET_OPACITYWL_TOOLTIP
+msgid "Modify the final local contrast at the end of the wavelet treatment.\n\nThe left side represents the smallest local contrast, progressing to the largest local contrast on the right."
+msgstr ""
+
+#: TP_WAVELET_OPACITYWL
+msgid "Final local contrast"
+msgstr ""
+
+#: TP_WAVELET_OPACITYW
+msgid "Contrast balance d/v-h curve"
+msgstr ""
+
+#: TP_WAVELET_OPACITY
+msgid "Opacity Blue-Yellow"
+msgstr ""
+
+#: TP_WAVELET_PASTEL
+msgid "Pastel chroma"
+msgstr ""
+
+#: TP_WAVELET_RESID
+msgid "Residual Image"
+msgstr ""
+
+#: TP_WAVELET_RE1
+msgid "Reinforced"
+msgstr ""
+
+#: TP_WAVELET_RE2
+msgid "Unchanged"
+msgstr ""
+
+#: TP_WAVELET_RE3
+msgid "Reduced"
+msgstr ""
+
+#: TP_WAVELET_SAT
+msgid "Saturated chroma"
+msgstr ""
+
+#: TP_WAVELET_SETTINGS
+msgid "Wavelet Settings"
+msgstr ""
+
+#: TP_WAVELET_SKY_TOOLTIP
+msgid "At -100 sky-tones are targetted.\nAt 0 all tones are treated equally.\nAt +100 sky-tones are protected while all other tones are affected."
+msgstr ""
+
+#: TP_WAVELET_SKY
+msgid "Sky targetting/protection"
+msgstr ""
+
+#: TP_WAVELET_SUPE
+msgid "Extra"
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD_TOOLTIP
+msgid "Only levels beyond the chosen value will be affected by the highlight luminance range. Other levels will be fully treated. The chosen value here limits the highest possible value of the shadow levels."
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD
+msgid "Highlight levels"
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD2_TOOLTIP
+msgid "Only levels between 9 and 9 minus the value will be affected by the shadow luminance range. Other levels will be fully treated. The highest level possible is limited by the highlight level value (9 minus highlight level value)."
+msgstr ""
+
+#: TP_WAVELET_THRESHOLD2
+msgid "Shadow levels"
+msgstr ""
+
+#: TP_WAVELET_THRH
+msgid "Highlights threshold"
+msgstr ""
+
+#: TP_WAVELET_THR
+msgid "Shadows threshold"
+msgstr ""
+
+#: TP_WAVELET_TILESBIG
+msgid "Big tiles"
+msgstr ""
+
+#: TP_WAVELET_TILESFULL
+msgid "Full image"
+msgstr ""
+
+#: TP_WAVELET_TILESIZE
+msgid "Tiling method"
+msgstr ""
+
+#: TP_WAVELET_TILESLIT
+msgid "Little tiles"
+msgstr ""
+
+#: TP_WAVELET_TILES_TOOLTIP
+msgid "Processing the full image leads to better quality and is the recommended option, while using tiles is a fall-back solution for users with little RAM. Refer to RawPedia for memory requirements."
+msgstr ""
+
+#: TP_WAVELET_TMSTRENGTH_TOOLTIP
+msgid "Control the strength of tone mapping or contrast compression of the residual image. When the value is different from 0, the Strength and Gamma sliders of the Tone Mapping tool in the Exposure tab will become grayed out."
+msgstr ""
+
+#: TP_WAVELET_TMSTRENGTH
+msgid "Compression strength"
+msgstr ""
+
+#: TP_WAVELET_TMTYPE
+msgid "Compression method"
+msgstr ""
+
+#: TP_WAVELET_TON
+msgid "Toning"
+msgstr ""
+
+#: TP_WAVELET_5
+msgid "Level 5"
+msgstr ""
+
+#: TP_WAVELET_6
+msgid "Level 6"
+msgstr ""
+
+#: TP_WAVELET_7
+msgid "Level 7"
+msgstr ""
+
+#: TP_WAVELET_8
+msgid "Level 8"
+msgstr ""
+
+#: TP_WAVELET_9
+msgid "Level 9"
+msgstr ""
+
+#: TP_WBALANCE_CLOUDY
+msgid "Cloudy"
+msgstr ""
+
+#: TP_WBALANCE_DAYLIGHT
+msgid "Daylight (sunny)"
+msgstr ""
+
+#: TP_WBALANCE_EQBLUERED_TOOLTIP
+msgid "Allows to deviate from the normal behavior of \"white balance\" by modulating the blue/red balance.\nThis can be useful when shooting conditions:\na) are far from the standard illuminant (e.g. underwater),\nb) are far from conditions where calibrations were performed,\nc) where the matrices or ICC profiles are unsuitable."
+msgstr ""
+
+#: TP_WBALANCE_EQBLUERED
+msgid "Blue/Red equalizer"
+msgstr ""
+
+#: TP_WBALANCE_FLASH_HEADER
+msgid "Flash"
+msgstr ""
+
+#: TP_WBALANCE_FLASH55
+msgid "Leica"
+msgstr ""
+
+#: TP_WBALANCE_FLASH60
+msgid "Standard, Canon, Pentax, Olympus"
+msgstr ""
+
+#: TP_WBALANCE_FLASH65
+msgid "Nikon, Panasonic, Sony, Minolta"
+msgstr ""
+
+#: TP_WBALANCE_FLUO_HEADER
+msgid "Fluorescent"
+msgstr ""
+
+#: TP_WBALANCE_FLUO1
+msgid "F1 - Daylight"
+msgstr ""
+
+#: TP_WBALANCE_FLUO10
+msgid "F10 - Philips TL85"
+msgstr ""
+
+#: TP_WBALANCE_FLUO11
+msgid "F11 - Philips TL84"
+msgstr ""
+
+#: TP_WBALANCE_FLUO12
+msgid "F12 - Philips TL83"
+msgstr ""
+
+#: TP_WBALANCE_FLUO2
+msgid "F2 - Cool White"
+msgstr ""
+
+#: TP_WBALANCE_FLUO3
+msgid "F3 - White"
+msgstr ""
+
+#: TP_WBALANCE_FLUO4
+msgid "F4 - Warm White"
+msgstr ""
+
+#: TP_WBALANCE_FLUO5
+msgid "F5 - Daylight"
+msgstr ""
+
+#: TP_WBALANCE_FLUO6
+msgid "F6 - Lite White"
+msgstr ""
+
+#: TP_WBALANCE_FLUO7
+msgid "F7 - D65 Daylight Simulator"
+msgstr ""
+
+#: TP_WBALANCE_FLUO8
+msgid "F8 - D50 / Sylvania F40 Design"
+msgstr ""
+
+#: TP_WBALANCE_FLUO9
+msgid "F9 - Cool White Deluxe"
+msgstr ""
+
+#: TP_WBALANCE_GREEN
+msgid "Tint"
+msgstr ""
+
+#: TP_WBALANCE_GTI
+msgid "GTI"
+msgstr ""
+
+#: TP_WBALANCE_HMI
+msgid "HMI"
+msgstr ""
+
+#: TP_WBALANCE_JUDGEIII
+msgid "JudgeIII"
+msgstr ""
+
+#: TP_WBALANCE_LABEL
+msgid "White Balance"
+msgstr ""
+
+#: TP_WBALANCE_LAMP_HEADER
+msgid "Lamp"
+msgstr ""
+
+#: TP_WBALANCE_LED_CRS
+msgid "CRS SP12 WWMR16"
+msgstr ""
+
+#: TP_WBALANCE_LED_HEADER
+msgid "LED"
+msgstr ""
+
+#: TP_WBALANCE_LED_LSI
+msgid "LSI Lumelex 2040"
+msgstr ""
+
+#: TP_WBALANCE_SHADE
+msgid "Shade"
+msgstr ""
+
+#: TP_WBALANCE_SIZE
+msgid "Size:"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX35
+msgid "Solux 3500K"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX41
+msgid "Solux 4100K"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX47_NG
+msgid "Solux 4700K (Nat. Gallery)"
+msgstr ""
+
+#: TP_WBALANCE_SOLUX47
+msgid "Solux 4700K (vendor)"
+msgstr ""
+
+#: TP_WBALANCE_SPOTWB
+msgid "Spot WB"
+msgstr ""
+
+#: TP_WBALANCE_TEMPBIAS_TOOLTIP
+msgid "Allows to alter the computation of the \"auto white balance\"\nby biasing it towards warmer or cooler temperatures. The bias\nis expressed as a percentage of the computed temperature,\nso that the result is given by \"computedTemp + computedTemp * bias\"."
+msgstr ""
+
+#: TP_WBALANCE_TEMPBIAS
+msgid "AWB temperature bias"
+msgstr ""
+
+#: TP_WBALANCE_TEMPERATURE
+msgid "Temperature"
+msgstr ""
+
+#: TP_WBALANCE_WATER_HEADER
+msgid "UnderWater"
+msgstr ""
+
+#: TP_WBALANCE_WATER1
+msgid "UnderWater 1"
+msgstr ""
+
+#: TP_WBALANCE_WATER2
+msgid "UnderWater 2"
+msgstr ""
+
+#: ZOOMPANEL_NEWCROPWINDOW
+msgid "Open (new) detail window"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMFITCROPSCREEN
+msgid "Fit crop to screen\nShortcut: <b>Alt</b>-<b>f</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMFITSCREEN
+msgid "Fit whole image to screen\nShortcut: <b>f</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMIN
+msgid "Zoom In\nShortcut: <b>+</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOMOUT
+msgid "Zoom Out\nShortcut: <b>-</b>"
+msgstr ""
+
+#: ZOOMPANEL_ZOOM100
+msgid "Zoom to 100%\nShortcut: <b>z</b>"
+msgstr ""
+
+#: ZOOMPANEL_100
+msgid "(100%)"
+msgstr ""
+
