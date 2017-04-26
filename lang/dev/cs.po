@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-04-25 06:45+0200\n"
-"PO-Revision-Date: 2017-01-12 20:19+0100\n"
-"Last-Translator: Marián Kyral\n"
+"POT-Creation-Date: 2017-04-26 07:03+0200\n"
+"PO-Revision-Date: 2017-04-26 07:31+0100\n"
+"Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: utf8\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ABOUT_TAB_BUILD
@@ -164,12 +164,11 @@ msgstr "Smazat"
 
 #: DYNPROFILEEDITOR_EDIT_RULE
 msgid "Edit Dynamic Profile Rule"
-msgstr ""
+msgstr "Upravit pravidlo dynamického profilu"
 
 #: DYNPROFILEEDITOR_EDIT
-#, fuzzy
 msgid "Edit"
-msgstr "Editor"
+msgstr "Upravit"
 
 #: DYNPROFILEEDITOR_ENTRY_TOOLTIP
 msgid ""
@@ -177,28 +176,29 @@ msgid ""
 "Use the \"re:\" prefix to enter\n"
 "a regular expression."
 msgstr ""
+"Porovnávání rozlišuje velikost písmen.\n"
+"Pro vložení regulárního výrazu přidejte\n"
+"prefix \"re:\"."
 
 #: DYNPROFILEEDITOR_MOVE_DOWN
-#, fuzzy
 msgid "Move Down"
-msgstr "Přesunout do..."
+msgstr "Posunout dolů"
 
 #: DYNPROFILEEDITOR_MOVE_UP
 msgid "Move Up"
-msgstr ""
+msgstr "Posunout nahoru"
 
 #: DYNPROFILEEDITOR_NEW_RULE
 msgid "New Dynamic Profile Rule"
-msgstr ""
+msgstr "Nové pravidlo dynamického profilu"
 
 #: DYNPROFILEEDITOR_NEW
 msgid "New"
-msgstr ""
+msgstr "Nový"
 
 #: DYNPROFILEEDITOR_PROFILE
-#, fuzzy
 msgid "Processing Profile"
-msgstr "Profily zpracování"
+msgstr "Profil zpracování"
 
 #: EDIT_OBJECT_TOOLTIP
 msgid ""
@@ -390,9 +390,8 @@ msgid "Bypass Sharp Mask Shadows/Highlights"
 msgstr "Vynechat masku ostrosti stínů a světel"
 
 #: EXPORT_BYPASS
-#, fuzzy
 msgid "Processing steps to bypass"
-msgstr "Profily zpracování"
+msgstr "Kroky zpracování pro přeskočení"
 
 #: EXPORT_FASTEXPORTOPTIONS
 msgid "<b>Fast Export Options</b>"
@@ -423,9 +422,8 @@ msgid "Maximum width:"
 msgstr "Maximální šířka:"
 
 #: EXPORT_PIPELINE
-#, fuzzy
 msgid "Processing pipeline"
-msgstr "Profily zpracování"
+msgstr "Fronta zpracování"
 
 #: EXPORT_PUTTOQUEUEFAST
 msgid "  Put to queue for fast export"
@@ -443,14 +441,19 @@ msgid ""
 "speedup can be significant, but be prepared to see artifacts and a general "
 "degradation of output quality."
 msgstr ""
+"Použije vyhrazenou frontu zpracování v režimu rychlého exportu a vymění tak "
+"kvalitu za rychlost. Zmenšení obrázku se provede co nejdříve po zahájení "
+"zpracování, na rozdíl od standardního zpracování, kde se provádí až na "
+"závěr. Zrychlení může být velmi významné, ale připravte se na artefakty a "
+"celkové zhoršení kvality výstupu."
 
 #: EXPORT_USE_FAST_PIPELINE
 msgid "Dedicated (full processing on resized image)"
-msgstr ""
+msgstr "Vyhrazený (kompletní zpracování zmenšeného obrázku)"
 
 #: EXPORT_USE_NORMAL_PIPELINE
 msgid "Standard (bypass some steps, resize at the end)"
-msgstr ""
+msgstr "Standardní (přeskočí některé kroky, zmenší až na konci)"
 
 #: EXTPROGTARGET_1
 msgid "raw"
@@ -1114,7 +1117,7 @@ msgstr "Poté"
 msgid "As Image"
 msgstr "Jako obrázek"
 
-#: GENERAL_AUTO,PREFERENCES_GREYSCA,TP_COLORTONING_AUTOSAT,TP_RAW_PIXELSHIFTMM_AUTO
+#: GENERAL_AUTO,PREFERENCES_GREYSCA,TP_COLORTONING_AUTOSAT
 msgid "Automatic"
 msgstr "Automaticky"
 
@@ -2703,30 +2706,28 @@ msgid "Output Black Point Compensation"
 msgstr "Kompenzace výstupního černého bodu"
 
 #: HISTORY_MSG_444
-#, fuzzy
 msgid "WB - Temp bias"
-msgstr "VB - Teplota"
+msgstr "VB - Zdůraznění teploty"
 
 #: HISTORY_MSG_445
 msgid "Raw Sub-Image"
-msgstr ""
+msgstr "Raw Dílčí snímek"
 
 #: HISTORY_MSG_446
 msgid "EvPixelShiftMotion"
-msgstr ""
+msgstr "EvPixelShiftMotion"
 
 #: HISTORY_MSG_447
-#, fuzzy
 msgid "EvPixelShiftMotionCorrection"
-msgstr "Korekce zkreslení"
+msgstr "EvPixelShiftMotionCorrection"
 
 #: HISTORY_MSG_448
 msgid "EvPixelShiftStddevFactorGreen"
-msgstr ""
+msgstr "EvPixelShiftStddevFactorGreen"
 
 #: HISTORY_MSG_449
 msgid "PS ISO adaption"
-msgstr ""
+msgstr "PS přizpůsobení ISO"
 
 #: HISTORY_MSG_45
 msgid "Lum. denoising edge tolerance"
@@ -2734,45 +2735,43 @@ msgstr "Okrajová tolerance redukce šumu v jasech"
 
 #: HISTORY_MSG_450
 msgid "EvPixelShiftNreadIso"
-msgstr ""
+msgstr "EvPixelShiftNreadIso"
 
 #: HISTORY_MSG_451
 msgid "EvPixelShiftPrnu"
-msgstr ""
+msgstr "EvPixelShiftPrnu"
 
 #: HISTORY_MSG_452
 msgid "PS Show motion"
-msgstr ""
+msgstr "PS Ukázat pohyb"
 
 #: HISTORY_MSG_453
-#, fuzzy
 msgid "PS Show mask only"
-msgstr "Pouze barevnost"
+msgstr "PS Zobrazit jen masku"
 
 #: HISTORY_MSG_454
-#, fuzzy
 msgid "EvPixelShiftAutomatic"
-msgstr "Automaticky"
+msgstr "EvPixelShiftAutomatic"
 
 #: HISTORY_MSG_455
 msgid "EvPixelShiftNonGreenHorizontal"
-msgstr ""
+msgstr "EvPixelShiftNonGreenHorizontal"
 
 #: HISTORY_MSG_456
 msgid "EvPixelShiftNonGreenVertical"
-msgstr ""
+msgstr "EvPixelShiftNonGreenVertical"
 
 #: HISTORY_MSG_457
 msgid "PS Check red/blue"
-msgstr ""
+msgstr "PS Kontrola červená/modrá"
 
 #: HISTORY_MSG_458
 msgid "EvPixelShiftStddevFactorRed"
-msgstr ""
+msgstr "EvPixelShiftStddevFactorRed"
 
 #: HISTORY_MSG_459
 msgid "EvPixelShiftStddevFactorBlue"
-msgstr ""
+msgstr "EvPixelShiftStddevFactorBlue"
 
 #: HISTORY_MSG_46
 msgid "Color denoising"
@@ -2780,45 +2779,43 @@ msgstr "Redukce barevného šumu"
 
 #: HISTORY_MSG_460
 msgid "EvPixelShiftGreenAmaze"
-msgstr ""
+msgstr "EvPixelShiftGreenAmaze"
 
 #: HISTORY_MSG_461
 msgid "EvPixelShiftNonGreenAmaze"
-msgstr ""
+msgstr "EvPixelShiftNonGreenAmaze"
 
 #: HISTORY_MSG_462
 msgid "PS Check green"
-msgstr ""
+msgstr "PS Kontrola zelená"
 
 #: HISTORY_MSG_463
 msgid "EvPixelShiftRedBlueWeight"
-msgstr ""
+msgstr "EvPixelShiftRedBlueWeight"
 
 #: HISTORY_MSG_464
 msgid "PS Blur motion mask"
-msgstr ""
+msgstr "PS Maska pohybové neostrosti"
 
 #: HISTORY_MSG_465
-#, fuzzy
 msgid "PS Blur radius"
-msgstr "Poloměr rozostření"
+msgstr "PS Poloměr rozostření"
 
 #: HISTORY_MSG_466
 msgid "EvPixelShiftSum"
-msgstr ""
+msgstr "EvPixelShiftSum"
 
 #: HISTORY_MSG_467
 msgid "EvPixelShiftExp0"
-msgstr ""
+msgstr "EvPixelShiftExp0"
 
 #: HISTORY_MSG_468
 msgid "PS Fill holes"
-msgstr ""
+msgstr "PS Vyplnit díry"
 
 #: HISTORY_MSG_469
-#, fuzzy
 msgid "PS Median"
-msgstr "Medián"
+msgstr "PS Medián"
 
 #: HISTORY_MSG_47,TP_ICM_BLENDCMSMATRIX
 msgid "Blend ICC highlights with matrix"
@@ -2826,31 +2823,27 @@ msgstr "Smísení ICC světel s matici"
 
 #: HISTORY_MSG_470
 msgid "EvPixelShiftMedian3"
-msgstr ""
+msgstr "EvPixelShiftMedian3"
 
 #: HISTORY_MSG_471
-#, fuzzy
 msgid "PS Motion correction"
-msgstr "LCP korekce zkreslení"
+msgstr "PS korekce pohybu"
 
 #: HISTORY_MSG_472
-#, fuzzy
 msgid "PS Smooth transitions"
-msgstr "DH - Průchody"
+msgstr "PS plynulé přechody"
 
 #: HISTORY_MSG_473
 msgid "PS Use lmmse"
-msgstr ""
+msgstr "PS Použít LMMSE"
 
 #: HISTORY_MSG_474
-#, fuzzy
 msgid "PS Equalize"
-msgstr "HSV korekce"
+msgstr "PS korekce"
 
 #: HISTORY_MSG_475
-#, fuzzy
 msgid "PS Equalize channel"
-msgstr "Modrý kanál"
+msgstr "PS korekce kanálu"
 
 #: HISTORY_MSG_48
 msgid "DCP - Tone curve"
@@ -3381,7 +3374,7 @@ msgstr ""
 
 #: MAIN_BUTTON_UNFULLSCREEN
 msgid "Exit fullscreen"
-msgstr "Ukončit mód celé obrazovky"
+msgstr "Ukončit režim celé obrazovky"
 
 #: MAIN_FRAME_BATCHQUEUE_TOOLTIP
 msgid ""
@@ -3969,14 +3962,12 @@ msgid "CA auto-correction"
 msgstr "Automatická korekce CA"
 
 #: PARTIALPASTE_RAWCACORR_CAAUTOSTRENGTH
-#, fuzzy
 msgid "CA auto-correction strength"
-msgstr "Automatická korekce CA"
+msgstr "CA Síla automatická korekce"
 
 #: PARTIALPASTE_RAWCACORR_CAREDBLUE
-#, fuzzy
 msgid "CA red & blue"
-msgstr "CA modrá"
+msgstr "CA červená a modrá"
 
 #: PARTIALPASTE_RAWEXPOS_BLACK
 msgid "Black levels"
@@ -3987,13 +3978,12 @@ msgid "Raw Settings"
 msgstr "Nastavení Raw"
 
 #: PARTIALPASTE_RAW_IMAGENUM,TP_RAW_IMAGENUM
-#, fuzzy
 msgid "Sub-image"
-msgstr "Celý obrázek"
+msgstr "Dílčí snímek"
 
 #: PARTIALPASTE_RAW_PIXELSHIFT
 msgid "PixelShift"
-msgstr ""
+msgstr "PixelShift"
 
 #: PARTIALPASTE_RGBCURVES
 msgid "RGB curves"
@@ -4345,10 +4335,13 @@ msgid ""
 "screen\" zoom modes. However, the preview quality might be slightly "
 "degraded, depending on the actual zoom factor computed."
 msgstr ""
+"Dovolí lépe vyplnit okno editoru ve všech režimech \"přizpůsobit obrazovce"
+"\". Ovšem kvalita náhledu může být mírně zhoršená v závislosti na vypočteném "
+"faktoru zvětšení."
 
 #: PREFERENCES_EXTENDEDZOOMLEVELS
 msgid "Use finer-grained zoom levels for \"fit to screen\" zooming"
-msgstr ""
+msgstr "Použít jemné úrovně zvětšení v režimu \"Přizpůsobení obrazovce\""
 
 #: PREFERENCES_EXTERNALEDITOR
 msgid "External Editor"
@@ -4359,13 +4352,12 @@ msgid "File Browser / Thumbnail Options"
 msgstr "Volby prohlížeče souborů / náhledů"
 
 #: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
-#, fuzzy
 msgid ""
 "Single row file browser toolbar\n"
 "(de-select for low resolution display)"
 msgstr ""
-"Jednořádková lišta nástrojů v prohlížeči souborů (vypněte na nízkých "
-"rozlišeních)"
+"Jednořádková lišta nástrojů v prohlížeči souborů\n"
+"(vypněte na nízkých rozlišeních)"
 
 #: PREFERENCES_FILEFORMAT,SAVEDLG_FILEFORMAT
 msgid "File format"
@@ -4619,7 +4611,6 @@ msgid "Save to folder"
 msgstr "Ulož do souboru"
 
 #: PREFERENCES_OUTDIRTEMPLATEHINT
-#, fuzzy
 msgid ""
 "You can use the following formatting strings:\n"
 "<b>%f</b>, <b>%d1</b>, <b>%d2</b>, ..., <b>%p1</b>, <b>%p2</b>, ..., <b>%r</"
@@ -4697,8 +4688,8 @@ msgstr ""
 "adresáři jako otevřený obrázek, napište:\n"
 "<b>%p1/zpracovano/%f</b>\n"
 "\n"
-"Pro uložení výstupního obrázku do adresáře \"<i>/home/tom/fotky/"
-"zpracovano/2010-10-31</i>\", napište:\n"
+"Pro uložení výstupního obrázku do adresáře\n"
+"\"<i>/home/tom/fotky/zpracovano/2010-10-31</i>\", napište:\n"
 "<b>%p2/zpracovano/%d1/%f</b>"
 
 #: PREFERENCES_OUTDIRTEMPLATE
@@ -4783,25 +4774,24 @@ msgstr "Profil v mezipaměti"
 
 #: PREFERENCES_PROFILEPRFILE
 msgid "Profile next to the input file"
-msgstr "Profil uložený se zdrojovým souborem"
+msgstr "Profil uložený se vstupním souborem"
 
 #: PREFERENCES_PROFILESAVEBOTH
-#, fuzzy
 msgid "Save processing profile both to the cache and next to the input file"
-msgstr "Ukládat parametry zpracování spolu se zdrojovým souborem"
+msgstr ""
+"Ukládat profil zpracování do mezipaměti a zároveň i se vstupním souborem"
 
 #: PREFERENCES_PROFILESAVECACHE
 msgid "Save processing profile to the cache"
-msgstr "Ukládat parametry zpracování do mezipaměti"
+msgstr "Ukládat profil zpracování do mezipaměti"
 
 #: PREFERENCES_PROFILESAVEINPUT
 msgid "Save processing profile next to the input file"
-msgstr "Ukládat parametry zpracování spolu se zdrojovým souborem"
+msgstr "Ukládat profil zpracování spolu se vstupním souborem"
 
 #: PREFERENCES_PROFILESAVELOCATION
-#, fuzzy
 msgid "Processing profile saving location"
-msgstr "Operace profilů zpracování"
+msgstr "Místo uložení profilů zpracování"
 
 #: PREFERENCES_PROPERTY
 msgid "Property"
@@ -4857,9 +4847,8 @@ msgid "Select Color Picker's font"
 msgstr "Vybrat písmo pro Průzkumníka barev"
 
 #: PREFERENCES_SELECTFONT
-#, fuzzy
 msgid "Select main font"
-msgstr "Vyberte globální písmo"
+msgstr "Vyberte hlavní písmo"
 
 #: PREFERENCES_SELECTLANG
 msgid "Select language"
@@ -4966,9 +4955,8 @@ msgid "Color Management"
 msgstr "Správa barev"
 
 #: PREFERENCES_TAB_DYNAMICPROFILE
-#, fuzzy
 msgid "Dynamic Profile Rules"
-msgstr "Soubory ICC profilů"
+msgstr "Pravidla dynamických profilů"
 
 #: PREFERENCES_TAB_GENERAL
 msgid "General"
@@ -5094,7 +5082,7 @@ msgstr "Parametry pro vložení"
 
 #: PROFILEPANEL_PDYNAMIC
 msgid "Dynamic"
-msgstr ""
+msgstr "Dynamiký"
 
 #: PROFILEPANEL_PFILE
 msgid "From file"
@@ -6111,7 +6099,7 @@ msgstr "Okolí"
 
 #: TP_COLORAPP_SURSOURCE_TOOLTIP
 msgid "Can be used if image has a dark border."
-msgstr "Může být použito pokud má zdrojový obrázek tmavý okraj."
+msgstr "Může být použito, pokud má vstupní obrázek tmavý okraj."
 
 #: TP_COLORAPP_SURSOURCE
 msgid "Dark surround"
@@ -7544,13 +7532,12 @@ msgstr ""
 "do RawPedie pro návod k použití."
 
 #: TP_RAW_AHD
-#, fuzzy
 msgid "AHD"
-msgstr "Přidat"
+msgstr "AHD"
 
 #: TP_RAW_AMAZE
 msgid "AMaZE"
-msgstr ""
+msgstr "AMaZE"
 
 #: TP_RAWCACORR_AUTO
 msgid "Auto-correction"
@@ -7562,7 +7549,7 @@ msgstr "Počet průchodů DCB"
 
 #: TP_RAW_DCB
 msgid "DCB"
-msgstr ""
+msgstr "DCB"
 
 #: TP_RAW_DMETHOD_PROGRESSBAR_REFINE
 msgid "Demosaicing refinement..."
@@ -7573,7 +7560,6 @@ msgid "%1 demosaicing..."
 msgstr "%1 demozajkování..."
 
 #: TP_RAW_DMETHOD_TOOLTIP
-#, fuzzy
 msgid ""
 "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise "
 "reduction without leading to maze patterns, posterization or a washed-out "
@@ -7582,11 +7568,14 @@ msgid ""
 "Pixel Shift files."
 msgstr ""
 "Poznámka: IGV a LMMSE jsou určeny pro obrázky s vysokým ISO, kde pomáhají "
-"redukci šumu minimalizovat posterizaci a vyžehlený vzhled."
+"redukci šumu minimalizovat posterizaci a vyžehlený vzhled.\n"
+"\n"
+"Pixel Shift je určen pro soubory Pentax Pixel Shift.\n"
+"Pro soubory neobsahující Pixel Shift data je použita metoda AMaZE."
 
 #: TP_RAW_EAHD
 msgid "EAHD"
-msgstr ""
+msgstr "EAHD"
 
 #: TP_RAWEXPOS_BLACK_GREEN
 msgid "Green"
@@ -7634,17 +7623,20 @@ msgstr ""
 
 #: TP_RAW_HPHD
 msgid "HPHD"
-msgstr ""
+msgstr "HPHD"
 
 #: TP_RAW_IGV
 msgid "IGV"
-msgstr ""
+msgstr "IGV"
 
 #: TP_RAW_IMAGENUM_TOOLTIP
 msgid ""
 "Some raw files might embed several sub-images (HDR, Pixel Shift, Dual Pixel, "
 "Dual Sensitivity). Use this button to select the sub-image."
 msgstr ""
+"Některé Raw soubory mohou obsahovat několik dílčích snímků (HDR, Pixel "
+"Shift, Dual Pixel, Dual Sensitivity). Tímto tlačítkem vyberete konkrétní "
+"dílčí snímek."
 
 #: TP_RAW_LABEL
 msgid "Demosaicing"
@@ -7660,24 +7652,23 @@ msgstr ""
 
 #: TP_RAW_LMMSE
 msgid "LMMSE"
-msgstr ""
+msgstr "LMMSE"
 
 #: TP_RAW_MONO
 msgid "Mono"
-msgstr ""
+msgstr "Mono"
 
 #: TP_RAW_NONE
 msgid "None (Shows sensor pattern)"
-msgstr ""
+msgstr "Žádná (zobrazí strukturu senzoru)"
 
 #: TP_RAW_PIXELSHIFTADAPTIVE
-#, fuzzy
 msgid "Adaptive detection"
-msgstr "Detekce hran"
+msgstr "Přizpůsobivá detekce"
 
 #: TP_RAW_PIXELSHIFTBLUR,TP_RAW_PIXELSHIFTBLUR_TOOLTIP
 msgid "Blur motion mask"
-msgstr ""
+msgstr "Maska pohybové neostrosti"
 
 #: TP_RAW_PIXELSHIFTEPERISO_TOOLTIP
 msgid ""
@@ -7685,22 +7676,25 @@ msgid ""
 "Increase the value to improve motion detection for higher ISO.\n"
 "Increase in small steps and watch the motion mask while increasing."
 msgstr ""
+"Výchozí hodnota (0,0) by měla dostačovat pro základní hodnoty ISO.\n"
+"Detekci pohybu na vyšších hodnotách ISO vylepšíte navýšením této hodnoty.\n"
+"Zvyšujte po malých krocích a sledujte přitom masku pohybu."
 
 #: TP_RAW_PIXELSHIFTEPERISO
-#, fuzzy
 msgid "ISO adaption"
-msgstr "CAT02 přizpůsobení"
+msgstr "Přizpůsobení ISO"
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL_TOOLTIP
 msgid ""
 "Enabled: Equalize the channels (RGB) individually.\n"
 "Disabled: Use same equalization factor for all channels."
 msgstr ""
+"Zapnuto: Nezávislá korekce jednotlivých RGB kanálů.\n"
+"Vypnuto: Použije se stejná hodnota pro všechny kanály."
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL
-#, fuzzy
 msgid "Equalize per channel"
-msgstr "Modrý kanál"
+msgstr "Korekce po kanálech"
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHT_TOOLTIP
 msgid ""
@@ -7709,39 +7703,42 @@ msgid ""
 "If there are overexposed areas in the frames select the brightest frame to "
 "avoid magenta colour cast in overexposed areas or enable motion correction."
 msgstr ""
+"Vyrovná jas ostatních snímků podle jasu vybraného snímku.\n"
+"Pokud jsou ve snímku přeexponované oblasti, vyberte jasnější snímek abyste "
+"zamezili výskytu purpurové barvy v přeexponovaných oblastech nebo povolte "
+"korekci pohybu."
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHT
 msgid "Equalize brightness of frames"
-msgstr ""
+msgstr "Vyrovnat jas snímků"
 
 #: TP_RAW_PIXELSHIFTEXP0
-#, fuzzy
 msgid "Experimental"
-msgstr "Expert"
+msgstr "Testovací"
 
 #: TP_RAW_PIXELSHIFTGREEN
-#, fuzzy
 msgid "Check green channel for motion"
-msgstr "Gama korekce zeleného kanálu"
+msgstr "Kontrolovat zelený kanál na pohyb"
 
 #: TP_RAW_PIXELSHIFTHOLEFILL,TP_RAW_PIXELSHIFTHOLEFILL_TOOLTIP
 msgid "Fill holes in motion mask"
-msgstr ""
+msgstr "Vyplnit díry v masce pohybu"
 
 #: TP_RAW_PIXELSHIFTLMMSE_TOOLTIP
 msgid ""
 "Use lmmse instead of amaze for motion areas.\n"
 "Useful for High ISO images."
 msgstr ""
+"Pro oblasti s pohybem použít LMMSE namísto AMaZE.\n"
+"Užitečné pro fotografie s vysokým ISO."
 
 #: TP_RAW_PIXELSHIFTLMMSE
 msgid "Use lmmse for motion parts"
-msgstr ""
+msgstr "Použít LMMSE pro části s pohybem"
 
 #: TP_RAW_PIXELSHIFTMASKTHRESHOLD
-#, fuzzy
 msgid "3x3 new threshold"
-msgstr "Práh stínů"
+msgstr "3x3 nový práh"
 
 #: TP_RAW_PIXELSHIFTMEDIAN_TOOLTIP
 msgid ""
@@ -7749,6 +7746,9 @@ msgid ""
 "Removes objects which are at different places in all frames.\n"
 "Gives motion effect on slow moving (overlapping) objects."
 msgstr ""
+"Pro oblasti s pohybem použijte medián všech snímků namísto vybraného.\n"
+"Odstraní objekty, které jsou na všech snímcích na různých místech.\n"
+"Vytvoří efekt pohybu pro pomalu se pohybující (překrývající se) objekty."
 
 #: TP_RAW_PIXELSHIFTMEDIAN
 msgid "Median"
@@ -7759,15 +7759,21 @@ msgid ""
 "Excludes selected frame from median.\n"
 "Useful if moving objects overlap in frame 2 and 3"
 msgstr ""
+"Vyjme vybraný snímek z mediánu.\n"
+"Užitečné, pokud se pohybující se objekty překrývají jen ve druhém a třetím."
 
 #: TP_RAW_PIXELSHIFTMEDIAN3
 msgid "Exclude selected frame from median"
-msgstr ""
+msgstr "Vyjmout vybraný snímek z mediánu"
+
+#: TP_RAW_PIXELSHIFTMM_AUTO
+msgctxt "TP_RAW_PIXELSHIFTMM_AUTO"
+msgid "Automatic"
+msgstr "Automatická"
 
 #: TP_RAW_PIXELSHIFTMM_OFF
-#, fuzzy
 msgid "Off"
-msgstr "Posun"
+msgstr "Vypnuto"
 
 #: TP_RAW_PIXELSHIFTMOTIONCORRECTION_TOOLTIP
 msgid ""
@@ -7775,16 +7781,17 @@ msgid ""
 "3 = 3x3 grid\n"
 "5 = 5x5 grid"
 msgstr ""
+"1 = 2 pixely\n"
+"3 = mřížka 3x3\n"
+"5 = mřížka 5x5"
 
 #: TP_RAW_PIXELSHIFTMOTIONCORRECTION
-#, fuzzy
 msgid "Green motion correction size"
-msgstr "Úprava zkreslení objektivu"
+msgstr "Míra korekce pohybu v zelené"
 
 #: TP_RAW_PIXELSHIFTMOTIONMETHOD
-#, fuzzy
 msgid "Motion Correction"
-msgstr "Korekce zkreslení"
+msgstr "Korekce pohybu"
 
 #: TP_RAW_PIXELSHIFTMOTION_TOOLTIP
 msgid ""
@@ -7793,61 +7800,62 @@ msgid ""
 "to increase detection rate\n"
 "100 means the Amaze demosaiced frame will be used"
 msgstr ""
+"0 znamená bez detekce pohybu\n"
+"1 - 99 znamená, že pohybu bude detekován dle této hodnoty. Pro zvýšení míry "
+"detekce použijte vyšší hodnotu\n"
+"100 znamená, že bude použito AMaZE demozajkování snímku"
 
 #: TP_RAW_PIXELSHIFTMOTION
 msgid "Motion detection level (deprecated)"
-msgstr ""
+msgstr "Úroveň kontroly pohybu (zastaralé)"
 
 #: TP_RAW_PIXELSHIFTNONGREENAMAZE
 msgid "Check red/blue amaze"
-msgstr ""
+msgstr "Kontrolovat červené/modré AMaZE"
 
 #: TP_RAW_PIXELSHIFTNONGREENCROSS
 msgid "Check red/blue channels for motion"
-msgstr ""
+msgstr "Kontrolovat pohyb v červeném a modrém kanálu"
 
 #: TP_RAW_PIXELSHIFTNONGREENCROSS2
 msgid "Check green amaze"
-msgstr ""
+msgstr "Kontrolovat zelené amaze"
 
 #: TP_RAW_PIXELSHIFTNONGREENHORIZONTAL
 msgid "Check red/blue horizontal"
-msgstr ""
+msgstr "Kontrolovat červenou/modrou vodorovně"
 
 #: TP_RAW_PIXELSHIFTNONGREENVERTICAL
 msgid "Check red/blue vertical"
-msgstr ""
+msgstr "Kontrolovat červenou/modrou svisle"
 
 #: TP_RAW_PIXELSHIFTNREADISO
-#, fuzzy
 msgid "nRead"
-msgstr "Připraven"
+msgstr "nRead"
 
 #: TP_RAW_PIXELSHIFTPRNU
 msgid "PRNU (%)"
-msgstr ""
+msgstr "PRNU (%)"
 
 #: TP_RAW_PIXELSHIFTREDBLUEWEIGHT
-#, fuzzy
 msgid "Red&Blue weight"
-msgstr "Změna velikosti - délka"
+msgstr "Váha červené a modré"
 
 #: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY_TOOLTIP
 msgid "Shows the motion mask without the image"
-msgstr ""
+msgstr "Ukázat masku pohybu bez obrázku"
 
 #: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY
-#, fuzzy
 msgid "Show mask only"
-msgstr "Pouze barevnost"
+msgstr "Zobrazit pouze masku"
 
 #: TP_RAW_PIXELSHIFTSHOWMOTION_TOOLTIP
 msgid "Overlays the image with a mask showing the regions with motion"
-msgstr ""
+msgstr "Překryje obrázek maskou, která ukazuje oblasti s pohybem"
 
 #: TP_RAW_PIXELSHIFTSHOWMOTION
 msgid "Show motion"
-msgstr ""
+msgstr "Ukázat pohyb"
 
 #: TP_RAW_PIXELSHIFTSIGMA_TOOLTIP
 msgid ""
@@ -7856,6 +7864,10 @@ msgid ""
 "5.0 is a good starting point for high ISO shots.\n"
 "Watch motion mask while changing the value."
 msgstr ""
+"Výchozí poloměr 1,0 většinou dobře funguje pro základní ISO. U snímků s "
+"vyšším ISO poloměr zvětšete.\n"
+"Hodnota 5,0 je dobrým výchozím bodem pro snímky pořízené na vysoké ISO.\n"
+"Během změny hodnoty poloměru sledujte masku pohybu."
 
 #: TP_RAW_PIXELSHIFTSMOOTH_TOOLTIP
 msgid ""
@@ -7863,28 +7875,29 @@ msgid ""
 "Set to 0 to disable smooth transitions\n"
 "Set to 1 to get Amaze/lmmse or Median"
 msgstr ""
+"Plynulé přechody mezi místy s pohybem a bez něj.\n"
+"Nastavte 0 pro zakázání plynulých přechodů\n"
+"Nastavte 1 pro použití AMaZE/LMMSE nebo Median"
 
 #: TP_RAW_PIXELSHIFTSMOOTH
-#, fuzzy
 msgid "Smooth transitions"
-msgstr "DH - Průchody"
+msgstr "Hladké přechody"
 
 #: TP_RAW_PIXELSHIFTSTDDEVFACTORBLUE
 msgid "StdDev factor Blue"
-msgstr ""
+msgstr "StdDev faktor modrý"
 
 #: TP_RAW_PIXELSHIFTSTDDEVFACTORGREEN
 msgid "StdDev factor Green"
-msgstr ""
+msgstr "StdDev faktor zelený"
 
 #: TP_RAW_PIXELSHIFTSTDDEVFACTORRED
 msgid "StdDev factor Red"
-msgstr ""
+msgstr "StdDev faktor červený"
 
 #: TP_RAW_PIXELSHIFT
-#, fuzzy
 msgid "Pixel Shift"
-msgstr "Barevný posun"
+msgstr "Pixel Shift"
 
 #: TP_RAW_SENSOR_BAYER_LABEL
 msgid "Sensor with Bayer Matrix"
@@ -7906,15 +7919,15 @@ msgstr "Senzory s X-Trans maticí"
 
 #: TP_RAW_VNG4
 msgid "VNG4"
-msgstr ""
+msgstr "VNG4"
 
 #: TP_RAW_1PASSMEDIUM
 msgid "1-Pass (Medium)"
-msgstr ""
+msgstr "Jeden průchod (střední)"
 
 #: TP_RAW_3PASSBEST
 msgid "3-Pass (Best)"
-msgstr ""
+msgstr "Tři průchody (nejlepší)"
 
 #: TP_RESIZE_APPLIESTO
 msgid "Applies to:"
@@ -9315,11 +9328,14 @@ msgid ""
 "is expressed as a percentage of the computed temperature,\n"
 "so that the result is given by \"computedTemp + computedTemp * bias\"."
 msgstr ""
+"Dovolí ovlivnit výpočet \"automatického vyvážení bílé\"\n"
+"zdůrazněním teplejší nebo chladnější teploty. Toto zdůraznění\n"
+"je vyjádřeno v procentech vypočtené teploty a výsledek\n"
+"lze vyjádřit vzorcem \"vypočtenáTeplota + vypočtenáTeplota * zdůraznění\"."
 
 #: TP_WBALANCE_TEMPBIAS
-#, fuzzy
 msgid "AWB temperature bias"
-msgstr "VB - Teplota"
+msgstr "AVB - Zdůraznění teploty"
 
 #: TP_WBALANCE_TEMPERATURE
 msgid "Temperature"

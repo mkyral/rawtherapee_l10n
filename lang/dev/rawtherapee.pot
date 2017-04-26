@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-04-25 06:45+0200\n"
+"POT-Creation-Date: 2017-04-26 07:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -853,7 +853,7 @@ msgstr ""
 msgid "As Image"
 msgstr ""
 
-#: GENERAL_AUTO,PREFERENCES_GREYSCA,TP_COLORTONING_AUTOSAT,TP_RAW_PIXELSHIFTMM_AUTO
+#: GENERAL_AUTO,PREFERENCES_GREYSCA,TP_COLORTONING_AUTOSAT
 msgid "Automatic"
 msgstr ""
 
@@ -6298,6 +6298,11 @@ msgstr ""
 
 #: TP_RAW_PIXELSHIFTMEDIAN3
 msgid "Exclude selected frame from median"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTMM_AUTO
+msgctxt "TP_RAW_PIXELSHIFTMM_AUTO"
+msgid "Automatic"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMM_OFF
