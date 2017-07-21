@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-04-26 07:03+0200\n"
+"POT-Creation-Date: 2017-07-21 10:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -959,10 +959,6 @@ msgstr ""
 
 #: HISTORY_CUSTOMCURVE
 msgid "Custom curve"
-msgstr ""
-
-#: HISTORY_DELSNAPSHOT,MAIN_FRAME_PLACES_DEL
-msgid "Del"
 msgstr ""
 
 #: HISTORY_FROMCLIPBOARD
@@ -2082,7 +2078,7 @@ msgid "LCP CA correction"
 msgstr ""
 
 #: HISTORY_MSG_360
-msgid "TM Gamma"
+msgid "TM - Gamma"
 msgstr ""
 
 #: HISTORY_MSG_361
@@ -2306,7 +2302,7 @@ msgid "Retinex - Strength"
 msgstr ""
 
 #: HISTORY_MSG_412
-msgid "Retinex - Gaussian Gradient"
+msgid "Retinex - Gaussian gradient"
 msgstr ""
 
 #: HISTORY_MSG_414
@@ -2322,7 +2318,7 @@ msgid "Retinex"
 msgstr ""
 
 #: HISTORY_MSG_417
-msgid "Retinex - Transmission Median"
+msgid "Retinex - Transmission median"
 msgstr ""
 
 #: HISTORY_MSG_418
@@ -2378,11 +2374,11 @@ msgid "Exposure - Tone curve 2 mode"
 msgstr ""
 
 #: HISTORY_MSG_430
-msgid "Retinex - Transmission Gradient"
+msgid "Retinex - Transmission gradient"
 msgstr ""
 
 #: HISTORY_MSG_431
-msgid "Retinex - Strength Gradient"
+msgid "Retinex - Strength gradient"
 msgstr ""
 
 #: HISTORY_MSG_432
@@ -2434,7 +2430,7 @@ msgid "Retinex - Scale"
 msgstr ""
 
 #: HISTORY_MSG_443
-msgid "Output Black Point Compensation"
+msgid "Output black point compensation"
 msgstr ""
 
 #: HISTORY_MSG_444
@@ -2442,139 +2438,75 @@ msgid "WB - Temp bias"
 msgstr ""
 
 #: HISTORY_MSG_445
-msgid "Raw Sub-Image"
-msgstr ""
-
-#: HISTORY_MSG_446
-msgid "EvPixelShiftMotion"
-msgstr ""
-
-#: HISTORY_MSG_447
-msgid "EvPixelShiftMotionCorrection"
-msgstr ""
-
-#: HISTORY_MSG_448
-msgid "EvPixelShiftStddevFactorGreen"
+msgid "Raw sub-image"
 msgstr ""
 
 #: HISTORY_MSG_449
-msgid "PS ISO adaption"
+msgid "PS - ISO adaption"
 msgstr ""
 
 #: HISTORY_MSG_45
 msgid "Lum. denoising edge tolerance"
 msgstr ""
 
-#: HISTORY_MSG_450
-msgid "EvPixelShiftNreadIso"
-msgstr ""
-
-#: HISTORY_MSG_451
-msgid "EvPixelShiftPrnu"
-msgstr ""
-
 #: HISTORY_MSG_452
-msgid "PS Show motion"
+msgid "PS - Show motion"
 msgstr ""
 
 #: HISTORY_MSG_453
-msgid "PS Show mask only"
-msgstr ""
-
-#: HISTORY_MSG_454
-msgid "EvPixelShiftAutomatic"
-msgstr ""
-
-#: HISTORY_MSG_455
-msgid "EvPixelShiftNonGreenHorizontal"
-msgstr ""
-
-#: HISTORY_MSG_456
-msgid "EvPixelShiftNonGreenVertical"
+msgid "PS - Show mask only"
 msgstr ""
 
 #: HISTORY_MSG_457
-msgid "PS Check red/blue"
-msgstr ""
-
-#: HISTORY_MSG_458
-msgid "EvPixelShiftStddevFactorRed"
-msgstr ""
-
-#: HISTORY_MSG_459
-msgid "EvPixelShiftStddevFactorBlue"
+msgid "PS - Check red/blue"
 msgstr ""
 
 #: HISTORY_MSG_46
 msgid "Color denoising"
 msgstr ""
 
-#: HISTORY_MSG_460
-msgid "EvPixelShiftGreenAmaze"
-msgstr ""
-
-#: HISTORY_MSG_461
-msgid "EvPixelShiftNonGreenAmaze"
-msgstr ""
-
 #: HISTORY_MSG_462
-msgid "PS Check green"
-msgstr ""
-
-#: HISTORY_MSG_463
-msgid "EvPixelShiftRedBlueWeight"
+msgid "PS - Check green"
 msgstr ""
 
 #: HISTORY_MSG_464
-msgid "PS Blur motion mask"
+msgid "PS - Blur motion mask"
 msgstr ""
 
 #: HISTORY_MSG_465
-msgid "PS Blur radius"
-msgstr ""
-
-#: HISTORY_MSG_466
-msgid "EvPixelShiftSum"
-msgstr ""
-
-#: HISTORY_MSG_467
-msgid "EvPixelShiftExp0"
+msgid "PS - Blur radius"
 msgstr ""
 
 #: HISTORY_MSG_468
-msgid "PS Fill holes"
+msgid "PS - Fill holes"
 msgstr ""
 
 #: HISTORY_MSG_469
-msgid "PS Median"
+msgid "PS - Median"
 msgstr ""
 
 #: HISTORY_MSG_47,TP_ICM_BLENDCMSMATRIX
 msgid "Blend ICC highlights with matrix"
 msgstr ""
 
-#: HISTORY_MSG_470
-msgid "EvPixelShiftMedian3"
-msgstr ""
-
 #: HISTORY_MSG_471
-msgid "PS Motion correction"
+msgid "PS - Motion correction"
 msgstr ""
 
 #: HISTORY_MSG_472
-msgid "PS Smooth transitions"
+msgid "PS - Smooth transitions"
 msgstr ""
 
 #: HISTORY_MSG_473
-msgid "PS Use lmmse"
+msgid "PS - Use LMMSE"
 msgstr ""
 
 #: HISTORY_MSG_474
-msgid "PS Equalize"
+msgid "PS - Equalize"
 msgstr ""
 
 #: HISTORY_MSG_475
-msgid "PS Equalize channel"
+msgid "PS - Equalize channel"
 msgstr ""
 
 #: HISTORY_MSG_48
@@ -3045,6 +2977,10 @@ msgstr ""
 msgid "File browser.\nShortcut: <b>Ctrl-F2</b>"
 msgstr ""
 
+#: MAIN_FRAME_PLACES_DEL
+msgid "Del"
+msgstr ""
+
 #: MAIN_FRAME_PLACES
 msgid "Places"
 msgstr ""
@@ -3101,6 +3037,10 @@ msgstr ""
 msgid "You first have to set a target path in Preferences in order to use this function!"
 msgstr ""
 
+#: MAIN_MSG_TOOMANYOPENEDITORS
+msgid "Too many open editors.\nPlease close an editor to continue."
+msgstr ""
+
 #: MAIN_MSG_WRITEFAILED
 msgid "Failed to write\n<b>\"%1\"</b>\n\nMake sure that the folder exists and that you have write permission to it."
 msgstr ""
@@ -3122,7 +3062,7 @@ msgid "Detail"
 msgstr ""
 
 #: MAIN_TAB_DEVELOP
-msgid " Develop"
+msgid " Batch Edit "
 msgstr ""
 
 #: MAIN_TAB_EXIF,PARTIALPASTE_EXIFCHANGES
@@ -3130,7 +3070,7 @@ msgid "Exif"
 msgstr ""
 
 #: MAIN_TAB_EXPORT
-msgid " Fast Export"
+msgid " Fast Export "
 msgstr ""
 
 #: MAIN_TAB_EXPOSURE,PARTIALPASTE_EXPOSURE,TP_EXPOSURE_LABEL
@@ -3142,11 +3082,11 @@ msgid "Shortcut: <b>Alt-e</b>"
 msgstr ""
 
 #: MAIN_TAB_FILTER
-msgid " Filter"
+msgid " Filter "
 msgstr ""
 
 #: MAIN_TAB_INSPECT
-msgid " Inspect"
+msgid " Inspect "
 msgstr ""
 
 #: MAIN_TAB_IPTC,PARTIALPASTE_IPTCINFO
@@ -3453,10 +3393,6 @@ msgstr ""
 msgid "CA auto-correction"
 msgstr ""
 
-#: PARTIALPASTE_RAWCACORR_CAAUTOSTRENGTH
-msgid "CA auto-correction strength"
-msgstr ""
-
 #: PARTIALPASTE_RAWCACORR_CAREDBLUE
 msgid "CA red & blue"
 msgstr ""
@@ -3758,14 +3694,6 @@ msgstr ""
 
 #: PREFERENCES_EXPAUT
 msgid "Expert"
-msgstr ""
-
-#: PREFERENCES_EXTENDEDZOOMLEVELS_TOOLTIP
-msgid "This allows to better fill the editor window when using one of the \"fit to screen\" zoom modes. However, the preview quality might be slightly degraded, depending on the actual zoom factor computed."
-msgstr ""
-
-#: PREFERENCES_EXTENDEDZOOMLEVELS
-msgid "Use finer-grained zoom levels for \"fit to screen\" zooming"
 msgstr ""
 
 #: PREFERENCES_EXTERNALEDITOR
@@ -4212,10 +4140,6 @@ msgstr ""
 msgid "Single Editor Tab Mode"
 msgstr ""
 
-#: PREFERENCES_SLIMUI
-msgid "Slim interface"
-msgstr ""
-
 #: PREFERENCES_SMA
 msgid "Small (250x287)"
 msgstr ""
@@ -4301,10 +4225,6 @@ msgstr ""
 
 #: PREFERENCES_USEBUNDLEDPROFILES
 msgid "Use bundled profiles"
-msgstr ""
-
-#: PREFERENCES_USESYSTEMTHEME
-msgid "Use system theme"
 msgstr ""
 
 #: PREFERENCES_VIEW
@@ -5828,10 +5748,6 @@ msgstr ""
 msgid "Enable to recover clipped highlights when using LUT-based ICC profiles."
 msgstr ""
 
-#: TP_ICM_BPC_TOOLTIP
-msgid "Enable this to fit the Luminosity channel to the output color space with a fix White Point"
-msgstr ""
-
 #: TP_ICM_BPC
 msgid "Black Point Compensation"
 msgstr ""
@@ -6205,7 +6121,7 @@ msgid "IGV"
 msgstr ""
 
 #: TP_RAW_IMAGENUM_TOOLTIP
-msgid "Some raw files might embed several sub-images (HDR, Pixel Shift, Dual Pixel, Dual Sensitivity). Use this button to select the sub-image."
+msgid "Some raw files consist of several sub-images (Pentax Pixel Shift, Pentax 3-in-1 HDR, Canon Dual Pixel).\n\nWhen using any demosaicing method other than Pixel Shift, this selects which sub-image is used.\n\nWhen using the Pixel Shift demosaicing method on a Pixel Shift raw, all sub-images are used, and this selects which sub-image should be used for moving parts."
 msgstr ""
 
 #: TP_RAW_LABEL
@@ -6232,12 +6148,12 @@ msgstr ""
 msgid "Adaptive detection"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTBLUR,TP_RAW_PIXELSHIFTBLUR_TOOLTIP
+#: TP_RAW_PIXELSHIFTBLUR
 msgid "Blur motion mask"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEPERISO_TOOLTIP
-msgid "The default value (0.0) should work fine for base ISO.\nIncrease the value to improve motion detection for higher ISO.\nIncrease in small steps and watch the motion mask while increasing."
+msgid "The default value of 0 should work fine for base ISO.\nIncrease the value to improve motion detection for higher ISO.\nIncrease in small steps and watch the motion mask while increasing."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEPERISO
@@ -6245,7 +6161,7 @@ msgid "ISO adaption"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL_TOOLTIP
-msgid "Enabled: Equalize the channels (RGB) individually.\nDisabled: Use same equalization factor for all channels."
+msgid "Enabled: Equalize the RGB channels individually.\nDisabled: Use same equalization factor for all channels."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL
@@ -6273,11 +6189,11 @@ msgid "Fill holes in motion mask"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTLMMSE_TOOLTIP
-msgid "Use lmmse instead of amaze for motion areas.\nUseful for High ISO images."
+msgid "Use LMMSE instead of AMaZE for areas of motion.\nUseful for high ISO images."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTLMMSE
-msgid "Use lmmse for motion parts"
+msgid "Use LMMSE for moving parts"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMASKTHRESHOLD
@@ -6289,7 +6205,7 @@ msgid "Use median of all frames instead of selected frame for regions with motio
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMEDIAN
-msgid "Median"
+msgid "Use median for moving parts"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMEDIAN3_TOOLTIP
@@ -6309,10 +6225,6 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTMOTIONCORRECTION_TOOLTIP
-msgid "1 = 2 pixels\n3 = 3x3 grid\n5 = 5x5 grid"
-msgstr ""
-
 #: TP_RAW_PIXELSHIFTMOTIONCORRECTION
 msgid "Green motion correction size"
 msgstr ""
@@ -6322,7 +6234,7 @@ msgid "Motion Correction"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMOTION_TOOLTIP
-msgid "0 means no motion detection\n1 - 99 means motion will be detected according to this value. Increase value to increase detection rate\n100 means the Amaze demosaiced frame will be used"
+msgid "0 means no motion detection.\n1 - 99 means motion will be detected according to this value. Increase value to increase detection rate.\n100 means the AMaZE-demosaiced frame will be used."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMOTION
@@ -6330,7 +6242,7 @@ msgid "Motion detection level (deprecated)"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTNONGREENAMAZE
-msgid "Check red/blue amaze"
+msgid "Check red/blue AMaZE"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTNONGREENCROSS
@@ -6338,7 +6250,7 @@ msgid "Check red/blue channels for motion"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTNONGREENCROSS2
-msgid "Check green amaze"
+msgid "Check green AMaZE"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTNONGREENHORIZONTAL
@@ -6362,27 +6274,27 @@ msgid "Red&Blue weight"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY_TOOLTIP
-msgid "Shows the motion mask without the image"
+msgid "Shows the motion mask without the image."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY
-msgid "Show mask only"
+msgid "Show only motion mask"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTION_TOOLTIP
-msgid "Overlays the image with a mask showing the regions with motion"
+msgid "Overlays the image with a mask showing the regions with motion."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTION
-msgid "Show motion"
+msgid "Show motion mask"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSIGMA_TOOLTIP
-msgid "Default radius of 1.0 usually fits good for base ISO. Increase value for high ISO shots,\n5.0 is a good starting point for high ISO shots.\nWatch motion mask while changing the value."
+msgid "The default radius of 1.0 usually fits well for base ISO.\nIncrease the value for high ISO shots, 5.0 is a good starting point.\nWatch the motion mask while changing the value."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSMOOTH_TOOLTIP
-msgid "Smooth transitions between areas with and without motion.\nSet to 0 to disable smooth transitions\nSet to 1 to get Amaze/lmmse or Median"
+msgid "Smooth transitions between areas with motion and areas without.\nSet to 0 to disable transition smoothing.\nSet to 1 to either get the AMaZE/LMMSE result of the selected frame (depending on whether \"Use LMMSE\" is selected), or the median of all four frames if \"Use median\" is selected."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSMOOTH
