@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-07-21 10:13+0200\n"
+"POT-Creation-Date: 2017-12-13 20:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,6 +153,10 @@ msgstr ""
 msgid "Folders"
 msgstr ""
 
+#: DONT_SHOW_AGAIN
+msgid "Don't show this message again."
+msgstr ""
+
 #: DYNPROFILEEDITOR_DELETE,FILEBROWSER_POPUPREMOVE
 msgid "Delete"
 msgstr ""
@@ -285,8 +289,12 @@ msgstr ""
 msgid "Reset the selected tags to their original values."
 msgstr ""
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_NEUTRAL,TP_RETINEX_NEUTRAL
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_COLORAPP_NEUTRAL,TP_NEUTRAL,TP_RETINEX_NEUTRAL
 msgid "Reset"
+msgstr ""
+
+#: EXIFPANEL_SHOWALL
+msgid "Show all"
 msgstr ""
 
 #: EXIFPANEL_SUBDIRECTORY
@@ -501,7 +509,7 @@ msgstr ""
 msgid "Open with"
 msgstr ""
 
-#: FILEBROWSER_FLATFIELD,PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
+#: FILEBROWSER_FLATFIELD,TP_FLATFIELD_LABEL
 msgid "Flat-Field"
 msgstr ""
 
@@ -923,6 +931,10 @@ msgstr ""
 
 #: GENERAL_WARNING
 msgid "Warning"
+msgstr ""
+
+#: GIMP_PLUGIN_INFO
+msgid "Welcome to the RawTherapee GIMP plugin!\nOnce you are done editing, simply close the main RawTherapee window and the image will be automatically imported in GIMP."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_BAR
@@ -1793,7 +1805,7 @@ msgstr ""
 msgid "Black Level - Blue"
 msgstr ""
 
-#: HISTORY_MSG_293,PREFERENCES_FILMSIMULATION,TP_FILMSIMULATION_LABEL
+#: HISTORY_MSG_293,TP_FILMSIMULATION_LABEL
 msgid "Film Simulation"
 msgstr ""
 
@@ -1990,7 +2002,7 @@ msgid "W - ES - Strength"
 msgstr ""
 
 #: HISTORY_MSG_34
-msgid "LCP distortion correction"
+msgid "Lens Correction - Distortion"
 msgstr ""
 
 #: HISTORY_MSG_340
@@ -2030,7 +2042,7 @@ msgid "W - Denoise - Level 3"
 msgstr ""
 
 #: HISTORY_MSG_35
-msgid "LCP vignetting correction"
+msgid "Lens Correction - Vignetting"
 msgstr ""
 
 #: HISTORY_MSG_350
@@ -2074,7 +2086,7 @@ msgid "Hot/Dead - Threshold"
 msgstr ""
 
 #: HISTORY_MSG_36
-msgid "LCP CA correction"
+msgid "Lens Correction - CA"
 msgstr ""
 
 #: HISTORY_MSG_360
@@ -2509,12 +2521,80 @@ msgstr ""
 msgid "PS - Equalize channel"
 msgstr ""
 
+#: HISTORY_MSG_476
+msgid "CAM02 - Temp out"
+msgstr ""
+
+#: HISTORY_MSG_477
+msgid "CAM02 - Green out"
+msgstr ""
+
+#: HISTORY_MSG_478
+msgid "CAM02 - Yb out"
+msgstr ""
+
+#: HISTORY_MSG_479
+msgid "CAM02 - CAT02 adaptation out"
+msgstr ""
+
 #: HISTORY_MSG_48
 msgid "DCP - Tone curve"
 msgstr ""
 
+#: HISTORY_MSG_480
+msgid "CAM02 - Automatic CAT02 out"
+msgstr ""
+
+#: HISTORY_MSG_481
+msgid "CAM02 - Temp scene"
+msgstr ""
+
+#: HISTORY_MSG_482
+msgid "CAM02 - Green scene"
+msgstr ""
+
+#: HISTORY_MSG_483
+msgid "CAM02 - Yb scene"
+msgstr ""
+
+#: HISTORY_MSG_484
+msgid "CAM02 - Auto Yb scene"
+msgstr ""
+
+#: HISTORY_MSG_485
+msgid "Lens Correction"
+msgstr ""
+
+#: HISTORY_MSG_486
+msgid "Lens Correction - Camera"
+msgstr ""
+
+#: HISTORY_MSG_487
+msgid "Lens Correction - Lens"
+msgstr ""
+
+#: HISTORY_MSG_488,TP_TM_FATTAL_LABEL
+msgid "HDR Tone Mapping"
+msgstr ""
+
+#: HISTORY_MSG_489
+msgid "HDR TM - Threshold"
+msgstr ""
+
 #: HISTORY_MSG_49
 msgid "DCP illuminant"
+msgstr ""
+
+#: HISTORY_MSG_490
+msgid "HDR TM - Amount"
+msgstr ""
+
+#: HISTORY_MSG_491,TP_WBALANCE_LABEL
+msgid "White Balance"
+msgstr ""
+
+#: HISTORY_MSG_492,TP_RGBCURVES_LABEL
+msgid "RGB Curves"
 msgstr ""
 
 #: HISTORY_MSG_5
@@ -2670,7 +2750,7 @@ msgid "Perspective correction"
 msgstr ""
 
 #: HISTORY_MSG_85
-msgid "LCP"
+msgid "Lens Correction - LCP file"
 msgstr ""
 
 #: HISTORY_MSG_86
@@ -2909,6 +2989,22 @@ msgstr ""
 msgid "Job ID"
 msgstr ""
 
+#: LENSPROFILE_CORRECTION_AUTOMATCH
+msgid "Auto-matched correction parameters"
+msgstr ""
+
+#: LENSPROFILE_CORRECTION_LCPFILE
+msgid "LCP File"
+msgstr ""
+
+#: LENSPROFILE_CORRECTION_MANUAL
+msgid "Manual correction parameters"
+msgstr ""
+
+#: LENSPROFILE_LENS_WARNING
+msgid "Warning: the crop factor used for lens profiling is larger than the crop factor of the camera, the results might be wrong."
+msgstr ""
+
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
 msgstr ""
@@ -3137,6 +3233,10 @@ msgstr ""
 msgid "Background color of the preview: <b>White</b>\nShortcut: <b>9</b>"
 msgstr ""
 
+#: MAIN_TOOLTIP_BACKCOLOR3
+msgid "Background color of the preview: <b>Middle grey</b>\nShortcut: <b>9</b>"
+msgstr ""
+
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
 msgid "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n\n<b>Lock</b>: keep the <b>Before</b> view unchanged.\nUseful to evaluate the cumulative effect of multiple tools.\nAdditionally, comparisons can be made to any state in the History.\n\n<b>Unlock</b>: the <b>Before</b> view will follow the <b>After</b> view one step behind, showing the image before the effect of the currently used tool."
 msgstr ""
@@ -3189,7 +3289,7 @@ msgstr ""
 msgid "Show/Hide the top panel.\nShortcut: <b>Shift-l</b>"
 msgstr ""
 
-#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD,TP_TM_FATTAL_THRESHOLD
 msgid "Threshold"
 msgstr ""
 
@@ -3374,7 +3474,7 @@ msgid "Lens Related Settings"
 msgstr ""
 
 #: PARTIALPASTE_LENSPROFILE
-msgid "Lens correction profile"
+msgid "Profiled lens correction"
 msgstr ""
 
 #: PARTIALPASTE_PCVIGNETTE
@@ -3409,8 +3509,8 @@ msgstr ""
 msgid "Sub-image"
 msgstr ""
 
-#: PARTIALPASTE_RAW_PIXELSHIFT
-msgid "PixelShift"
+#: PARTIALPASTE_RAW_PIXELSHIFT,TP_RAW_PIXELSHIFT
+msgid "Pixel Shift"
 msgstr ""
 
 #: PARTIALPASTE_RGBCURVES
@@ -3427,6 +3527,10 @@ msgstr ""
 
 #: PARTIALPASTE_SHARPENING
 msgid "Sharpening (USM/RL)"
+msgstr ""
+
+#: PARTIALPASTE_TM_FATTAL
+msgid "HDR Tone mapping"
 msgstr ""
 
 #: PARTIALPASTE_VIGNETTING,TP_LENSPROFILE_USEVIGN
@@ -3466,6 +3570,10 @@ msgstr ""
 
 #: PREFERENCES_AUTOMONPROFILE
 msgid "Use operating system's main monitor color profile"
+msgstr ""
+
+#: PREFERENCES_AUTOSAVE_TP_OPEN
+msgid "Automatically save tools collapsed/expanded\nstate before exiting"
 msgstr ""
 
 #: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
@@ -3573,7 +3681,7 @@ msgid "Right"
 msgstr ""
 
 #: PREFERENCES_CURVEBBOXPOS
-msgid "Position of curve copypasta buttons"
+msgid "Position of curve copy & paste buttons"
 msgstr ""
 
 #: PREFERENCES_CUSTPROFBUILDHINT
@@ -3616,10 +3724,6 @@ msgstr ""
 msgid "templates"
 msgstr ""
 
-#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
-msgid "Dark-Frame"
-msgstr ""
-
 #: PREFERENCES_DATEFORMATHINT
 msgid "You can use the following formatting strings:\n<b>%y</b>	- year\n<b>%m</b>	- month\n<b>%d</b>	- day\n\nFor example, the ISO 8601 standard dictates the date format as follows:\n<b>%y-%m-%d</b>"
 msgstr ""
@@ -3636,16 +3740,12 @@ msgstr ""
 msgid "The Noise Reduction and Wavelet Levels tools use a Debauchies mother wavelet. If you choose D6 instead of D4 you increase the number of orthogonal Daubechies coefficients and probably increase quality of small-scale levels. There is no memory or processing time difference between the two."
 msgstr ""
 
-#: PREFERENCES_DEFAULTLANG
-msgid "Default Language"
-msgstr ""
-
-#: PREFERENCES_DEFAULTTHEME
-msgid "Default Theme"
-msgstr ""
-
 #: PREFERENCES_DIRDARKFRAMES
 msgid "Dark-frames directory"
+msgstr ""
+
+#: PREFERENCES_DIRECTORIES
+msgid "Directories"
 msgstr ""
 
 #: PREFERENCES_DIRHOME
@@ -3668,8 +3768,12 @@ msgstr ""
 msgid "Installation directory"
 msgstr ""
 
-#: PREFERENCES_D50
+#: PREFERENCES_D50_OLD
 msgid "5000K"
+msgstr ""
+
+#: PREFERENCES_D50,PREFERENCES_GREY18
+msgid "Settings in main menu"
 msgstr ""
 
 #: PREFERENCES_D55
@@ -3752,7 +3856,7 @@ msgstr ""
 msgid "Scene Yb luminance (%)"
 msgstr ""
 
-#: PREFERENCES_GREYSC18,PREFERENCES_GREY18
+#: PREFERENCES_GREYSC18,PREFERENCES_GREY18_OLD
 msgid "Yb=18 CIE L#50"
 msgstr ""
 
@@ -3846,6 +3950,10 @@ msgstr ""
 
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use system language"
+msgstr ""
+
+#: PREFERENCES_LANG
+msgid "Language"
 msgstr ""
 
 #: PREFERENCES_LEVAUTDN
@@ -4076,6 +4184,10 @@ msgstr ""
 msgid "Leave the setting at \"0\" to automatically use as many threads as possible. The more threads run in parallel, the faster the computation. Refer to RawPedia for memory requirements."
 msgstr ""
 
+#: PREFERENCES_SAVE_TP_OPEN_NOW
+msgid "Save tools collapsed/expanded state now"
+msgstr ""
+
 #: PREFERENCES_SELECTFONT_COLPICKER
 msgid "Select Color Picker's font"
 msgstr ""
@@ -4191,6 +4303,10 @@ msgstr ""
 
 #: PREFERENCES_TAB_SOUND
 msgid "Sounds"
+msgstr ""
+
+#: PREFERENCES_THEME
+msgid "Theme"
 msgstr ""
 
 #: PREFERENCES_TIMAX
@@ -4375,8 +4491,44 @@ msgstr ""
 msgid "Processing profile changed in browser"
 msgstr ""
 
+#: QINFO_FRAMECOUNT
+msgid "%2 frames"
+msgstr ""
+
+#: QINFO_HDR
+msgid "HDR / %2 frame(s)"
+msgstr ""
+
 #: QINFO_NOEXIF
 msgid "Exif data not available."
+msgstr ""
+
+#: QINFO_PIXELSHIFT
+msgid "Pixel Shift / %2 frame(s)"
+msgstr ""
+
+#: SAMPLEFORMAT_0
+msgid "Unknown data format"
+msgstr ""
+
+#: SAMPLEFORMAT_1
+msgid "Unsigned 8 bits"
+msgstr ""
+
+#: SAMPLEFORMAT_16
+msgid "32 bits floating point"
+msgstr ""
+
+#: SAMPLEFORMAT_2
+msgid "Unsigned 16 bits"
+msgstr ""
+
+#: SAMPLEFORMAT_4
+msgid "LogLuv 24 bits"
+msgstr ""
+
+#: SAMPLEFORMAT_8
+msgid "LogLuv 32 bits"
 msgstr ""
 
 #: SAVEDLG_AUTOSUFFIX
@@ -4389,10 +4541,6 @@ msgstr ""
 
 #: SAVEDLG_JPEGQUAL
 msgid "JPEG quality"
-msgstr ""
-
-#: SAVEDLG_PNGCOMPR
-msgid "PNG compression"
 msgstr ""
 
 #: SAVEDLG_PUTTOQUEUEHEAD
@@ -4448,11 +4596,11 @@ msgid "Click right mouse button to reset the position of those 3 sliders."
 msgstr ""
 
 #: SOFTPROOF_GAMUTCHECK_TOOLTIP
-msgid "If active, indicates in grey the pixels which have out of gamut colors from the output profile."
+msgid "If active, indicates in grey the pixels which have out of gamut colors from the Printer profile."
 msgstr ""
 
 #: SOFTPROOF_TOOLTIP
-msgid "Soft-proofing\nIf active, let you simulate de rendering generated by the output profile of the ICM tool. Most useful for simulating printing outputs."
+msgid "Soft-proofing\nIf active, let you simulate the printer's output by using the Printer profile set in Preferences > Color Management."
 msgstr ""
 
 #: THRESHOLDSELECTOR_BL
@@ -4778,23 +4926,23 @@ msgid "Flip vertically."
 msgstr ""
 
 #: TP_COLORAPP_ADAP_AUTO_TOOLTIP
-msgid "If the checkbox is checked (recommended) RawTherapee calculates an optimum value from Exif data.\nTo set the value manually, uncheck the checkbox first."
+msgid "If the checkbox is checked (recommended) RawTherapee calculates an optimum value from the Exif data.\nTo set the value manually, uncheck the checkbox first."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
-msgid "Absolute luminance of the scene environement (cd/m²).\n1) Calculated from the Exif data:\nShutter speed - ISO speed - F number - camera exposure correction.\n2) Calculated from the raw white point and RT's Exposure Compensation slider."
+msgid "Absolute luminance of the scene environment (cd/m²).\n1) Calculated from the Exif data:\nShutter speed - ISO speed - F number - camera exposure correction.\n2) Calculated from the raw white point and RT's Exposure Compensation slider."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTSCENE
-msgid "Scene luminosity"
+msgid "Scene absolute luminance"
 msgstr ""
 
 #: TP_COLORAPP_ADAPTVIEWING_TOOLTIP
-msgid "Absolute luminance of the viewing environnement\n(usually 16cd/m²)."
+msgid "Absolute luminance of the viewing environment\n(usually 16cd/m²)."
 msgstr ""
 
 #: TP_COLORAPP_ADAPTVIEWING
-msgid "Viewing luminosity (cd/m²)"
+msgid "Viewing absolute luminance (cd/m²)"
 msgstr ""
 
 #: TP_COLORAPP_ALGO_ALL
@@ -4841,16 +4989,12 @@ msgstr ""
 msgid "CAT02 adaptation"
 msgstr ""
 
-#: TP_COLORAPP_CONTRAST_Q_TOOLTIP
-msgid "Contrast in CIECAM02 for the Q slider; it differs from L*a*b* and RGB contrast."
+#: TP_COLORAPP_CONTRAST_Q_TOOLTIP,TP_COLORAPP_CONTRAST_TOOLTIP
+msgid "Differs from L*a*b* and RGB contrast."
 msgstr ""
 
 #: TP_COLORAPP_CONTRAST_Q
 msgid "Contrast (Q)"
-msgstr ""
-
-#: TP_COLORAPP_CONTRAST_TOOLTIP
-msgid "Contrast in CIECAM02 for the J slider; it differs from L*a*b* and RGB contrast."
 msgstr ""
 
 #: TP_COLORAPP_CONTRAST
@@ -4895,6 +5039,10 @@ msgstr ""
 
 #: TP_COLORAPP_DEGREE_TOOLTIP
 msgid "Amount of CIE Chromatic Adaptation Transform 2002."
+msgstr ""
+
+#: TP_COLORAPP_FREE
+msgid "Free temp+green + CAT02 + [output]"
 msgstr ""
 
 #: TP_COLORAPP_GAMUT_TOOLTIP
@@ -4962,15 +5110,19 @@ msgid "Lightness (J)"
 msgstr ""
 
 #: TP_COLORAPP_MODEL_TOOLTIP
-msgid "White-Point Model.\n\n<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, CIECAM02 is set to D50, and the output device's white balance is set in <i>Preferences > Color Management</i>.\n\n<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by CAT02 and the output device's white balance is set in <i>Preferences - Color Management</i>."
+msgid "White-Point Model.\n\n<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, CIECAM02 is set to D50, and the output device's white balance is set in Viewing Conditions.\n\n<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by CAT02 and the output device's white balance is set in Viewing Conditions.\n\n<b>Free temp+green + CAT02 + [output]:</b> temp and green are selected bu user, output device's white balance is set in Viewing Conditions."
 msgstr ""
 
 #: TP_COLORAPP_MODEL
 msgid "WP Model"
 msgstr ""
 
+#: TP_COLORAPP_NEUTRAL_TIP
+msgid "Reset all sliders checkbox and curves to their default values"
+msgstr ""
+
 #: TP_COLORAPP_RSTPRO_TOOLTIP
-msgid "Red and skin-tones protection affects both sliders and curves."
+msgid "Red &amp; skin-tones protection affects both sliders and curves."
 msgstr ""
 
 #: TP_COLORAPP_RSTPRO
@@ -5037,6 +5189,10 @@ msgstr ""
 msgid "Lightness"
 msgstr ""
 
+#: TP_COLORAPP_TEMP_TOOLTIP
+msgid "To select an illuminant, always set Tint=1.\n\nA temp=2856\nD50 temp=5003\nD55 temp=5503\nD65 temp=6504\nD75 temp=7504"
+msgstr ""
+
 #: TP_COLORAPP_TONECIE_TOOLTIP
 msgid "If this option is disabled, tone mapping is done in L*a*b* space.\nIf this option is enabled, tone mapping is done using CIECAM02.\nThe Tone Mapping tool must be enabled for this setting to take effect."
 msgstr ""
@@ -5051,6 +5207,14 @@ msgstr ""
 
 #: TP_COLORAPP_WBRT
 msgid "WB [RT] + [output]"
+msgstr ""
+
+#: TP_COLORAPP_YBSCENE_TOOLTIP
+msgid "if auto is enabled, Yb is calculated from the mean value of the actual image's luminance "
+msgstr ""
+
+#: TP_COLORAPP_YB,TP_COLORAPP_YBSCENE
+msgid "Yb% (mean luminance)"
 msgstr ""
 
 #: TP_COLORTONING_AB,TP_COLORTONING_BY
@@ -5220,6 +5384,10 @@ msgstr ""
 
 #: TP_DARKFRAME_AUTOSELECT,TP_FLATFIELD_AUTOSELECT
 msgid "Auto-selection"
+msgstr ""
+
+#: TP_DARKFRAME_LABEL
+msgid "Dark-Frame"
 msgstr ""
 
 #: TP_DEFRINGE_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
@@ -5474,7 +5642,7 @@ msgstr ""
 msgid "Attempts to reduce artifacts in the transitions between skin colors (hue, chroma, luma) and the rest of the image."
 msgstr ""
 
-#: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
+#: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_TM_FATTAL_AMOUNT,TP_VIGNETTING_AMOUNT
 msgid "Amount"
 msgstr ""
 
@@ -5721,7 +5889,7 @@ msgid "Chromatic Aberration"
 msgstr ""
 
 #: TP_ICM_APPLYBASELINEEXPOSUREOFFSET_TOOLTIP
-msgid "Employ the embedded DCP baseline exposure offset. The setting is only enabled if the selected DCP has any."
+msgid "Employ the embedded DCP baseline exposure offset. The setting is only available if the selected DCP has one."
 msgstr ""
 
 #: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
@@ -5729,7 +5897,7 @@ msgid "Baseline exposure"
 msgstr ""
 
 #: TP_ICM_APPLYHUESATMAP_TOOLTIP
-msgid "Employ the embedded DCP base table (HueSatMap). The setting is only enabled if the selected DCP has one."
+msgid "Employ the embedded DCP base table (HueSatMap). The setting is only available if the selected DCP has one."
 msgstr ""
 
 #: TP_ICM_APPLYHUESATMAP
@@ -5737,7 +5905,7 @@ msgid "Base table"
 msgstr ""
 
 #: TP_ICM_APPLYLOOKTABLE_TOOLTIP
-msgid "Employ the embedded DCP look table. The setting is only enabled if the selected DCP has one."
+msgid "Employ the embedded DCP look table. The setting is only available if the selected DCP has one."
 msgstr ""
 
 #: TP_ICM_APPLYLOOKTABLE
@@ -5757,7 +5925,7 @@ msgid "Interpolated"
 msgstr ""
 
 #: TP_ICM_DCPILLUMINANT_TOOLTIP
-msgid "Select which embedded DCP illuminant to employ. Default is \"interpolated\" which is a mix between the two based on white balance. The setting is only enabled if a Dual-Illuminant DCP with interpolation support is selected."
+msgid "Select which embedded DCP illuminant to employ. Default is \"interpolated\" which is a mix between the two based on white balance. The setting is only available if a dual-illuminant DCP with interpolation support is selected."
 msgstr ""
 
 #: TP_ICM_DCPILLUMINANT
@@ -5837,7 +6005,7 @@ msgid "Save Reference Image"
 msgstr ""
 
 #: TP_ICM_TONECURVE_TOOLTIP
-msgid "Employ the embedded DCP tone curve. The setting is only enabled if the selected DCP has a tone curve."
+msgid "Employ the embedded DCP tone curve. The setting is only available if the selected DCP has a tone curve."
 msgstr ""
 
 #: TP_ICM_TONECURVE
@@ -5993,7 +6161,7 @@ msgid "Lens / Geometry"
 msgstr ""
 
 #: TP_LENSPROFILE_LABEL
-msgid "Lens Correction Profile"
+msgid "Profiled Lens Correction"
 msgstr ""
 
 #: TP_NEUTRAL_TIP
@@ -6313,8 +6481,8 @@ msgstr ""
 msgid "StdDev factor Red"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFT
-msgid "Pixel Shift"
+#: TP_RAW_RCD
+msgid "RCD"
 msgstr ""
 
 #: TP_RAW_SENSOR_BAYER_LABEL
@@ -6640,10 +6808,6 @@ msgstr ""
 
 #: TP_RGBCURVES_GREEN
 msgid "G"
-msgstr ""
-
-#: TP_RGBCURVES_LABEL
-msgid "RGB Curves"
 msgstr ""
 
 #: TP_RGBCURVES_LUMAMODE_TOOLTIP
@@ -7344,10 +7508,6 @@ msgstr ""
 
 #: TP_WBALANCE_JUDGEIII
 msgid "JudgeIII"
-msgstr ""
-
-#: TP_WBALANCE_LABEL
-msgid "White Balance"
 msgstr ""
 
 #: TP_WBALANCE_LAMP_HEADER

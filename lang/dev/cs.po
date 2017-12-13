@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-07-21 10:13+0200\n"
-"PO-Revision-Date: 2017-07-21 10:15+0100\n"
+"POT-Creation-Date: 2017-12-13 20:55+0100\n"
+"PO-Revision-Date: 2017-12-14 19:37+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -158,6 +158,10 @@ msgstr "Typ"
 msgid "Folders"
 msgstr "Složky"
 
+#: DONT_SHOW_AGAIN
+msgid "Don't show this message again."
+msgstr "Zprávu znova nezobrazovat."
+
 #: DYNPROFILEEDITOR_DELETE,FILEBROWSER_POPUPREMOVE
 msgid "Delete"
 msgstr "Smazat"
@@ -309,9 +313,13 @@ msgstr "Obnovit vše"
 msgid "Reset the selected tags to their original values."
 msgstr "Obnoví původní hodnoty u vybraných štítků."
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_NEUTRAL,TP_RETINEX_NEUTRAL
+#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_COLORAPP_NEUTRAL,TP_NEUTRAL,TP_RETINEX_NEUTRAL
 msgid "Reset"
 msgstr "Obnovit"
+
+#: EXIFPANEL_SHOWALL
+msgid "Show all"
+msgstr "Zobrazit vše"
 
 #: EXIFPANEL_SUBDIRECTORY
 msgid "Subdirectory"
@@ -591,7 +599,7 @@ msgstr "Vysypat koš"
 msgid "Open with"
 msgstr "Otevřít pomocí"
 
-#: FILEBROWSER_FLATFIELD,PREFERENCES_FLATFIELD,TP_FLATFIELD_LABEL
+#: FILEBROWSER_FLATFIELD,TP_FLATFIELD_LABEL
 msgid "Flat-Field"
 msgstr "Flat Field"
 
@@ -1188,6 +1196,16 @@ msgstr "(Beze změny)"
 #: GENERAL_WARNING
 msgid "Warning"
 msgstr "Varování"
+
+#: GIMP_PLUGIN_INFO
+msgid ""
+"Welcome to the RawTherapee GIMP plugin!\n"
+"Once you are done editing, simply close the main RawTherapee window and the "
+"image will be automatically imported in GIMP."
+msgstr ""
+"Vítejte v RawTherapee doplňku pro GIMP!\n"
+"Po dokončení úprav prostě zavřete hlavní okno RawTherapee a obrázek bude"
+" automaticky načten GIMPem."
 
 #: HISTOGRAM_TOOLTIP_BAR
 msgid ""
@@ -2061,7 +2079,7 @@ msgstr "Úroveň černé - Zelená 1"
 msgid "Black Level - Blue"
 msgstr "Úroveň černé - Modrá"
 
-#: HISTORY_MSG_293,PREFERENCES_FILMSIMULATION,TP_FILMSIMULATION_LABEL
+#: HISTORY_MSG_293,TP_FILMSIMULATION_LABEL
 msgid "Film Simulation"
 msgstr "Simulace filmu"
 
@@ -2258,8 +2276,8 @@ msgid "W - ES - Strength"
 msgstr "Vlnka - DH - Síla"
 
 #: HISTORY_MSG_34
-msgid "LCP distortion correction"
-msgstr "LCP korekce zkreslení"
+msgid "Lens Correction - Distortion"
+msgstr "Korekce objektivu - Zkreslení"
 
 #: HISTORY_MSG_340
 msgid "W - Strength"
@@ -2298,8 +2316,8 @@ msgid "W - Denoise - Level 3"
 msgstr "Vlnka - Odšumění - Úroveň 3"
 
 #: HISTORY_MSG_35
-msgid "LCP vignetting correction"
-msgstr "LCP korekce vinětace"
+msgid "Lens Correction - Vignetting"
+msgstr "Korekce objektivu - Vinětace"
 
 #: HISTORY_MSG_350
 msgid "W - ES - Edge detection"
@@ -2342,8 +2360,8 @@ msgid "Hot/Dead - Threshold"
 msgstr "Vypálené/Mrtvé - Práh"
 
 #: HISTORY_MSG_36
-msgid "LCP CA correction"
-msgstr "LCP korekce CA"
+msgid "Lens Correction - CA"
+msgstr "Korekce objektivu - ChA"
 
 #: HISTORY_MSG_360
 msgid "TM - Gamma"
@@ -2777,13 +2795,81 @@ msgstr "PS - korekce"
 msgid "PS - Equalize channel"
 msgstr "PS - korekce kanálu"
 
+#: HISTORY_MSG_476
+msgid "CAM02 - Temp out"
+msgstr "CAM02 - Teplota (výstup)"
+
+#: HISTORY_MSG_477
+msgid "CAM02 - Green out"
+msgstr "CAM02 - Zelená (výstup)"
+
+#: HISTORY_MSG_478
+msgid "CAM02 - Yb out"
+msgstr "CAM02 - Yb (výstup)"
+
+#: HISTORY_MSG_479
+msgid "CAM02 - CAT02 adaptation out"
+msgstr "CAM02 - CAT02 přizpůsobení (výstup)"
+
 #: HISTORY_MSG_48
 msgid "DCP - Tone curve"
 msgstr "DCP - Tónová křivka"
 
+#: HISTORY_MSG_480
+msgid "CAM02 - Automatic CAT02 out"
+msgstr "CAM02 - Automatická CAT02 (výstup)"
+
+#: HISTORY_MSG_481
+msgid "CAM02 - Temp scene"
+msgstr "CAM02 - Teplota scény"
+
+#: HISTORY_MSG_482
+msgid "CAM02 - Green scene"
+msgstr "CAM02 - Zelená scény"
+
+#: HISTORY_MSG_483
+msgid "CAM02 - Yb scene"
+msgstr "CAM02 - Yb scény"
+
+#: HISTORY_MSG_484
+msgid "CAM02 - Auto Yb scene"
+msgstr "CAT02 - Automatická Yb scény"
+
+#: HISTORY_MSG_485
+msgid "Lens Correction"
+msgstr "Korekce objektivu"
+
+#: HISTORY_MSG_486
+msgid "Lens Correction - Camera"
+msgstr "Korekce objektivu - Fotoaparát"
+
+#: HISTORY_MSG_487
+msgid "Lens Correction - Lens"
+msgstr "Korekce objektivu - Objektiv"
+
+#: HISTORY_MSG_488,TP_TM_FATTAL_LABEL
+msgid "HDR Tone Mapping"
+msgstr "HDR Mapování tónů"
+
+#: HISTORY_MSG_489
+msgid "HDR TM - Threshold"
+msgstr "HDR TM - Práh"
+
 #: HISTORY_MSG_49
 msgid "DCP illuminant"
 msgstr "DCP osvětlení"
+
+#: HISTORY_MSG_490
+msgid "HDR TM - Amount"
+msgstr "HDR TM - Míra"
+
+#: HISTORY_MSG_491,TP_WBALANCE_LABEL
+msgid "White Balance"
+msgstr "Vyvážení bílé"
+
+#: HISTORY_MSG_492,TP_RGBCURVES_LABEL
+msgid "RGB Curves"
+msgstr "RGB křivky"
 
 #: HISTORY_MSG_5
 msgid "Exposure - Lightness"
@@ -2938,8 +3024,8 @@ msgid "Perspective correction"
 msgstr "Korekce perspektivy"
 
 #: HISTORY_MSG_85
-msgid "LCP"
-msgstr "LCP"
+msgid "Lens Correction - LCP file"
+msgstr "Korekce objektivu - LCP soubor"
 
 #: HISTORY_MSG_86
 msgid "RGB Curves - Luminosity mode"
@@ -3208,6 +3294,26 @@ msgstr ""
 #: IPTCPANEL_TRANSREFERENCE
 msgid "Job ID"
 msgstr "Číslo úlohy"
+
+#: LENSPROFILE_CORRECTION_AUTOMATCH
+msgid "Auto-matched correction parameters"
+msgstr "Automatický dohledané korekční parametry"
+
+#: LENSPROFILE_CORRECTION_LCPFILE
+msgid "LCP File"
+msgstr "LCP Soubor"
+
+#: LENSPROFILE_CORRECTION_MANUAL
+msgid "Manual correction parameters"
+msgstr "Ruční korekční parametry"
+
+#: LENSPROFILE_LENS_WARNING
+msgid ""
+"Warning: the crop factor used for lens profiling is larger than the crop "
+"factor of the camera, the results might be wrong."
+msgstr ""
+"Varování: crop factor použitý pro profilování objektivu je větší než crop"
+" factor fotoaparátu. Výsledek může být nesprávný."
 
 #: MAIN_BUTTON_FULLSCREEN
 msgid "Fullscreen"
@@ -3544,6 +3650,14 @@ msgstr ""
 "Barva pozadí náhledu: <b>Bílá</b>\n"
 "Zkratka: <b>9</b>"
 
+#: MAIN_TOOLTIP_BACKCOLOR3
+msgid ""
+"Background color of the preview: <b>Middle grey</b>\n"
+"Shortcut: <b>9</b>"
+msgstr ""
+"Barva pozadí náhledu: <b>Středně šedá</b>\n"
+"Zkratka: <b>9</b>"
+
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
 msgid ""
 "<b>Lock</b> / <b>Unlock</b> the <b>Before</b> view\n"
@@ -3676,7 +3790,7 @@ msgstr ""
 "Zobrazit/skrýt horní panel.\n"
 "Zkratka: <b>Shift-l</b>"
 
-#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD
+#: MAIN_TOOLTIP_THRESHOLD,TP_COLORTONING_SATURATIONTHRESHOLD,TP_DEFRINGE_THRESHOLD,TP_DIRPYREQUALIZER_THRESHOLD,TP_IMPULSEDENOISE_THRESH,TP_RAW_HD,TP_RETINEX_THRESHOLD,TP_SHARPENING_THRESHOLD,TP_TM_FATTAL_THRESHOLD
 msgid "Threshold"
 msgstr "Práh"
 
@@ -3886,8 +4000,8 @@ msgid "Lens Related Settings"
 msgstr "Nastavení související s objektivy"
 
 #: PARTIALPASTE_LENSPROFILE
-msgid "Lens correction profile"
-msgstr "Korekční profil objektivu"
+msgid "Profiled lens correction"
+msgstr "Korekční profily objektivů"
 
 #: PARTIALPASTE_PCVIGNETTE
 msgid "Vignette filter"
@@ -3921,9 +4035,9 @@ msgstr "Nastavení Raw"
 msgid "Sub-image"
 msgstr "Dílčí snímek"
 
-#: PARTIALPASTE_RAW_PIXELSHIFT
-msgid "PixelShift"
-msgstr "PixelShift"
+#: PARTIALPASTE_RAW_PIXELSHIFT,TP_RAW_PIXELSHIFT
+msgid "Pixel Shift"
+msgstr "Pixel Shift"
 
 #: PARTIALPASTE_RGBCURVES
 msgid "RGB curves"
@@ -3940,6 +4054,10 @@ msgstr "Hrany"
 #: PARTIALPASTE_SHARPENING
 msgid "Sharpening (USM/RL)"
 msgstr "Doostření (USM/RL)"
+
+#: PARTIALPASTE_TM_FATTAL
+msgid "HDR Tone mapping"
+msgstr "HDR mapování tónů"
 
 #: PARTIALPASTE_VIGNETTING,TP_LENSPROFILE_USEVIGN
 msgid "Vignetting correction"
@@ -3979,6 +4097,14 @@ msgstr "Nízká"
 #: PREFERENCES_AUTOMONPROFILE
 msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
+
+#: PREFERENCES_AUTOSAVE_TP_OPEN
+msgid ""
+"Automatically save tools collapsed/expanded\n"
+"state before exiting"
+msgstr ""
+"Před ukončením automaticky uložit\n"
+"stav sbalení/rozbalení nástrojů."
 
 #: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
 msgid "Standard"
@@ -4103,7 +4229,7 @@ msgid "Right"
 msgstr "Vpravo"
 
 #: PREFERENCES_CURVEBBOXPOS
-msgid "Position of curve copypasta buttons"
+msgid "Position of curve copy & paste buttons"
 msgstr "Pozice tlačítek pro kopírování a vložení křivky"
 
 #: PREFERENCES_CUSTPROFBUILDHINT
@@ -4164,11 +4290,7 @@ msgstr "snímků"
 
 #: PREFERENCES_DARKFRAMETEMPLATES,PREFERENCES_FLATFIELDTEMPLATES
 msgid "templates"
-msgstr "šablon"
-
-#: PREFERENCES_DARKFRAME,TP_DARKFRAME_LABEL
-msgid "Dark-Frame"
-msgstr "Tmavý snímek"
+msgstr "šablony"
 
 #: PREFERENCES_DATEFORMATHINT
 msgid ""
@@ -4209,17 +4331,13 @@ msgstr ""
 "koeficientů a pravděpodobně zvýší kvalitu úrovní malého měřítka. Není zde "
 "rozdíl ve spotřebě paměti nebo délce zpracování."
 
-#: PREFERENCES_DEFAULTLANG
-msgid "Default Language"
-msgstr "Výchozí jazyk"
-
-#: PREFERENCES_DEFAULTTHEME
-msgid "Default Theme"
-msgstr "Výchozí vzhled"
-
 #: PREFERENCES_DIRDARKFRAMES
 msgid "Dark-frames directory"
 msgstr "Složka tmavých snímků"
+
+#: PREFERENCES_DIRECTORIES
+msgid "Directories"
+msgstr "Složky"
 
 #: PREFERENCES_DIRHOME
 msgid "Home directory"
@@ -4241,9 +4359,13 @@ msgstr "Zvolte složku s obrázky při spuštění..."
 msgid "Installation directory"
 msgstr "Instalační složka"
 
-#: PREFERENCES_D50
+#: PREFERENCES_D50_OLD
 msgid "5000K"
 msgstr "5000K"
+
+#: PREFERENCES_D50,PREFERENCES_GREY18
+msgid "Settings in main menu"
+msgstr "Nastavení v hlavní nabídce"
 
 #: PREFERENCES_D55
 msgid "5500K"
@@ -4333,7 +4455,7 @@ msgstr "GIMP instalační složka"
 msgid "Scene Yb luminance (%)"
 msgstr "Yb svítivost scény (%)"
 
-#: PREFERENCES_GREYSC18,PREFERENCES_GREY18
+#: PREFERENCES_GREYSC18,PREFERENCES_GREY18_OLD
 msgid "Yb=18 CIE L#50"
 msgstr "Yb=18 CIE L#50"
 
@@ -4443,6 +4565,10 @@ msgstr "Ukázat vložené JPEG náhledy u needitovaných snímků"
 #: PREFERENCES_LANGAUTODETECT
 msgid "Use system language"
 msgstr "Použít systémový jazyk"
+
+#: PREFERENCES_LANG
+msgid "Language"
+msgstr "Jazyk"
 
 #: PREFERENCES_LEVAUTDN
 msgid "Denoising level"
@@ -4768,6 +4894,10 @@ msgstr ""
 "nastaveno na \"0\". Čím více vláken běží paralelně, tím rychlejší je "
 "výpočet. Paměťové nároky najdete na RawPedii."
 
+#: PREFERENCES_SAVE_TP_OPEN_NOW
+msgid "Save tools collapsed/expanded state now"
+msgstr "Uložit stav sbalení/rozbalení nástrojů hned"
+
 #: PREFERENCES_SELECTFONT_COLPICKER
 msgid "Select Color Picker's font"
 msgstr "Vybrat písmo pro Průzkumníka barev"
@@ -4896,6 +5026,10 @@ msgstr "Výkon a kvalita"
 msgid "Sounds"
 msgstr "Zvuky"
 
+#: PREFERENCES_THEME
+msgid "Theme"
+msgstr "Vzhled"
+
 #: PREFERENCES_TIMAX
 msgctxt "PREFERENCES_TIMAX"
 msgid "High"
@@ -5000,7 +5134,7 @@ msgstr "Parametry pro vložení"
 
 #: PROFILEPANEL_PDYNAMIC
 msgid "Dynamic"
-msgstr "Dynamiký"
+msgstr "Dynamický"
 
 #: PROFILEPANEL_PFILE
 msgid "From file"
@@ -5110,9 +5244,45 @@ msgstr "Snímek přidán"
 msgid "Processing profile changed in browser"
 msgstr "Profil upracování změněn v prohlížeči"
 
+#: QINFO_FRAMECOUNT
+msgid "%2 frames"
+msgstr "%2 snímků"
+
+#: QINFO_HDR
+msgid "HDR / %2 frame(s)"
+msgstr "HDR / %2 snímků"
+
 #: QINFO_NOEXIF
 msgid "Exif data not available."
 msgstr "Exif údaje nejsou k dispozici."
+
+#: QINFO_PIXELSHIFT
+msgid "Pixel Shift / %2 frame(s)"
+msgstr "Pixel Shift / %2 snímků"
+
+#: SAMPLEFORMAT_0
+msgid "Unknown data format"
+msgstr "Neznámý datový formát"
+
+#: SAMPLEFORMAT_1
+msgid "Unsigned 8 bits"
+msgstr "Neznaménkový, 8 bitů"
+
+#: SAMPLEFORMAT_16
+msgid "32 bits floating point"
+msgstr "S pohyblivou čárkou, 32 bitů"
+
+#: SAMPLEFORMAT_2
+msgid "Unsigned 16 bits"
+msgstr "Neznaménkový, 16 bitů"
+
+#: SAMPLEFORMAT_4
+msgid "LogLuv 24 bits"
+msgstr "LogLuv, 24 bitů"
+
+#: SAMPLEFORMAT_8
+msgid "LogLuv 32 bits"
+msgstr "LogLuv, 32 bitů"
 
 #: SAVEDLG_AUTOSUFFIX
 msgid "Automatically add a suffix if the file already exists"
@@ -5125,10 +5295,6 @@ msgstr "Vynutit volby uložení"
 #: SAVEDLG_JPEGQUAL
 msgid "JPEG quality"
 msgstr "Kvalita JPEG"
-
-#: SAVEDLG_PNGCOMPR
-msgid "PNG compression"
-msgstr "PNG Komprese"
 
 #: SAVEDLG_PUTTOQUEUEHEAD
 msgid "Put to the head of the processing queue"
@@ -5215,20 +5381,20 @@ msgstr ""
 #: SOFTPROOF_GAMUTCHECK_TOOLTIP
 msgid ""
 "If active, indicates in grey the pixels which have out of gamut colors from "
-"the output profile."
+"the Printer profile."
 msgstr ""
-"Pokud je aktivní, budou pixely mimo barevnou paletu výstupního profilu "
+"Pokud je aktivní, budou pixely mimo barevnou paletu profilu tiskárny"
 "označeny šedou barvou."
 
 #: SOFTPROOF_TOOLTIP
 msgid ""
 "Soft-proofing\n"
-"If active, let you simulate de rendering generated by the output profile of "
-"the ICM tool. Most useful for simulating printing outputs."
+"If active, let you simulate the printer's output by using the Printer "
+"profile set in Preferences > Color Management."
 msgstr ""
 "Jemně korekční\n"
-"Pokud je aktivní, umožní vám simulovat vykreslení dle výstupního profilu "
-"ICM. Nejužitečnější pro simulaci tiskového výstupu."
+"Pokud je aktivní, umožní vám simulovat výstup tiskárny pomocí profilu"
+" tiskárny nastaveného v Volby > Správa barev."
 
 #: THRESHOLDSELECTOR_BL
 msgid "Bottom-left"
@@ -5665,39 +5831,40 @@ msgstr "Překlopit vertikálně."
 #: TP_COLORAPP_ADAP_AUTO_TOOLTIP
 msgid ""
 "If the checkbox is checked (recommended) RawTherapee calculates an optimum "
-"value from Exif data.\n"
+"value from the Exif data.\n"
 "To set the value manually, uncheck the checkbox first."
 msgstr ""
-"Pokud je povoleno (doporučeno), RT vypočítá optimální hodnotu z Exif dat.\n"
+"Pokud je povoleno (doporučeno), RawTherapee vypočítá optimální hodnotu z Exif"
+" dat.\n"
 "Pokud si přejete zadat hodnotu ručně, nejprve zrušte zatržení tohoto pole. "
 
 #: TP_COLORAPP_ADAPTSCENE_TOOLTIP
 msgid ""
-"Absolute luminance of the scene environement (cd/m²).\n"
+"Absolute luminance of the scene environment (cd/m²).\n"
 "1) Calculated from the Exif data:\n"
 "Shutter speed - ISO speed - F number - camera exposure correction.\n"
 "2) Calculated from the raw white point and RT's Exposure Compensation slider."
 msgstr ""
-"Absolutní jas scény prostředí(cd/m²).\n"
+"Absolutní jas scény prostředí (cd/m²).\n"
 " 1) Vypočítáno z Exifu:\n"
 "Rychlost závěrky - citlivost - clona - expoziční korekce fotoaparátu.\n"
 " 2) Vypočítáno z hodnoty raw bílého bodu a expoziční kompenzace Rawtherapee."
 
 #: TP_COLORAPP_ADAPTSCENE
-msgid "Scene luminosity"
-msgstr "Svítivost scény"
+msgid "Scene absolute luminance"
+msgstr "Absolutní jas scény"
 
 #: TP_COLORAPP_ADAPTVIEWING_TOOLTIP
 msgid ""
-"Absolute luminance of the viewing environnement\n"
+"Absolute luminance of the viewing environment\n"
 "(usually 16cd/m²)."
 msgstr ""
 "Absolutní jas prostředí prohlížení\n"
 "(obvykle 16cd/m²)."
 
 #: TP_COLORAPP_ADAPTVIEWING
-msgid "Viewing luminosity (cd/m²)"
-msgstr "Svítivost prohlížení (cd/m²)"
+msgid "Viewing absolute luminance (cd/m²)"
+msgstr "Absolutní jas prohlížení (cd/m²)"
 
 #: TP_COLORAPP_ALGO_ALL
 msgid "All"
@@ -5760,21 +5927,13 @@ msgstr "Jas (O)"
 msgid "CAT02 adaptation"
 msgstr "CAT02 přizpůsobení"
 
-#: TP_COLORAPP_CONTRAST_Q_TOOLTIP
-msgid ""
-"Contrast in CIECAM02 for the Q slider; it differs from L*a*b* and RGB "
-"contrast."
-msgstr "Kontrast pro posuvník Q se v CIECAM02 liší od kontrastu L*a*b* a RGB."
+#: TP_COLORAPP_CONTRAST_Q_TOOLTIP,TP_COLORAPP_CONTRAST_TOOLTIP
+msgid "Differs from L*a*b* and RGB contrast."
+msgstr "Liší se od kontrastu L*a*b* a RGB."
 
 #: TP_COLORAPP_CONTRAST_Q
 msgid "Contrast (Q)"
 msgstr "Kontrast (O)"
-
-#: TP_COLORAPP_CONTRAST_TOOLTIP
-msgid ""
-"Contrast in CIECAM02 for the J slider; it differs from L*a*b* and RGB "
-"contrast."
-msgstr "Kontrast pro posuvník J se v CIECAM02 liší od kontrastu L*a*b* a RGB."
 
 #: TP_COLORAPP_CONTRAST
 msgid "Contrast (J)"
@@ -5870,6 +6029,10 @@ msgstr ""
 msgid "Amount of CIE Chromatic Adaptation Transform 2002."
 msgstr "Míra CIE Chromatic Adaptation Transform 2002."
 
+#: TP_COLORAPP_FREE
+msgid "Free temp+green + CAT02 + [output]"
+msgstr "Volná teplota + zelená + CAT02 + [výstup]"
+
 #: TP_COLORAPP_GAMUT_TOOLTIP
 msgid "Allow gamut control in L*a*b* mode."
 msgstr "Povolí kontrolu palety v L*a*b* režimu."
@@ -5940,28 +6103,39 @@ msgid ""
 "\n"
 "<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, "
 "CIECAM02 is set to D50, and the output device's white balance is set in "
-"<i>Preferences > Color Management</i>.\n"
+"Viewing Conditions.\n"
 "\n"
 "<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by "
-"CAT02 and the output device's white balance is set in <i>Preferences - Color "
-"Management</i>."
+"CAT02 and the output device's white balance is set in Viewing Conditions.\n"
+"\n"
+"<b>Free temp+green + CAT02 + [output]:</b> temp and green are selected bu "
+"user, output device's white balance is set in Viewing Conditions."
 msgstr ""
 "Model bílého bodu.\n"
 "\n"
-"<b>WB [RT] + [výstup]</b>: Pro scénu je použito vyvážení bílé RT , CIECAM02 "
-"je nastaven na D50 a vyvážení bílé výstupního zařízení je nastaveno ve "
-"<i>Volby > Správa barev</i>.\n"
+"<b>WB [RT] + [výstup]</b>: Pro scénu je použito vyvážení bílé RawTherapee ,"
+" CIECAM02 "
+"je nastaven na D50 a vyvážení bílé výstupního zařízení je nastaveno v "
+"Podmínkách prohlížení.\n"
 "\n"
-"<b>WB [RT+CAT02] + [výstup]</b>: CAT02 používá RT nastavení vyvážení bílé a "
-"vyvážení bílé výstupního zařízení je nastaveno ve <i>Volby > Správa barev</"
-"i>."
+"<b>WB [RT+CAT02] + [výstup]</b>: CAT02 používá RawTherapee nastavení vyvážení"
+" bílé a "
+"vyvážení bílé výstupního zařízení je nastaveno v Podmínkách prohlížení.\n"
+"\n"
+"<b>Volná teplota+zelená + CAT02 + [výstup]:</b> teplota a zelená je vybrána"
+" uživatelem, vyvážení bílé výstupního zařízení je nastaveno v Podmínkách"
+" prohlížení."
 
 #: TP_COLORAPP_MODEL
 msgid "WP Model"
 msgstr "VB - Model"
 
+#: TP_COLORAPP_NEUTRAL_TIP
+msgid "Reset all sliders checkbox and curves to their default values"
+msgstr "Obnoví původní hodnoty u všech posuvníků a křivek."
+
 #: TP_COLORAPP_RSTPRO_TOOLTIP
-msgid "Red and skin-tones protection affects both sliders and curves."
+msgid "Red &amp; skin-tones protection affects both sliders and curves."
 msgstr "Ochrana červených a pleťových tónů ovlivňuje posuvníky i křivky."
 
 #: TP_COLORAPP_RSTPRO
@@ -6051,6 +6225,24 @@ msgstr "Mód barevné křivky"
 msgid "Lightness"
 msgstr "Světlost"
 
+#: TP_COLORAPP_TEMP_TOOLTIP
+msgid ""
+"To select an illuminant, always set Tint=1.\n"
+"\n"
+"A temp=2856\n"
+"D50 temp=5003\n"
+"D55 temp=5503\n"
+"D65 temp=6504\n"
+"D75 temp=7504"
+msgstr ""
+"Pro výběr osvětlení vždy nastavte Tint=1.\n"
+"\n"
+"A barva=2856\n"
+"D50 barva=5003\n"
+"D55 barva=5503\n"
+"D65 barva=6504\n"
+"D75 barva=7504"
+
 #: TP_COLORAPP_TONECIE_TOOLTIP
 msgid ""
 "If this option is disabled, tone mapping is done in L*a*b* space.\n"
@@ -6072,6 +6264,18 @@ msgstr "WB [RT+CAT02] + [výstup]"
 #: TP_COLORAPP_WBRT
 msgid "WB [RT] + [output]"
 msgstr "WB [RT] + [výstup]"
+
+#: TP_COLORAPP_YBSCENE_TOOLTIP
+msgid ""
+"if auto is enabled, Yb is calculated from the mean value of the actual "
+"image's luminance "
+msgstr ""
+"Pokud je povolena automatika, Yb je vypočteno ze střední hodnoty jasu"
+" aktuálního obrázku "
+
+#: TP_COLORAPP_YB,TP_COLORAPP_YBSCENE
+msgid "Yb% (mean luminance)"
+msgstr "Yb% (střední jas)"
 
 #: TP_COLORTONING_AB,TP_COLORTONING_BY
 msgid "o C/L"
@@ -6284,6 +6488,10 @@ msgstr "Y"
 #: TP_DARKFRAME_AUTOSELECT,TP_FLATFIELD_AUTOSELECT
 msgid "Auto-selection"
 msgstr "Automatický výběr"
+
+#: TP_DARKFRAME_LABEL
+msgid "Dark-Frame"
+msgstr "Tmavý snímek"
 
 #: TP_DEFRINGE_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
 msgid "Radius"
@@ -6719,7 +6927,7 @@ msgstr ""
 "Počet pokusů pro redukci artefaktů vzniklých přenosem barvy (odstín, "
 "barevnost a jas) pleti na zbytek obrázku."
 
-#: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_VIGNETTING_AMOUNT
+#: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_TM_FATTAL_AMOUNT,TP_VIGNETTING_AMOUNT
 msgid "Amount"
 msgstr "Míra"
 
@@ -7032,10 +7240,10 @@ msgstr "Chromatická aberace"
 #: TP_ICM_APPLYBASELINEEXPOSUREOFFSET_TOOLTIP
 msgid ""
 "Employ the embedded DCP baseline exposure offset. The setting is only "
-"enabled if the selected DCP has any."
+"available if the selected DCP has one."
 msgstr ""
 "Použije vložený DCP základní posun expozice. Toto nastavení je dostupné "
-"pouze ji pokud DCP obsahuje."
+"pouze pokud ji vybrané DCP obsahuje."
 
 #: TP_ICM_APPLYBASELINEEXPOSUREOFFSET
 msgid "Baseline exposure"
@@ -7043,8 +7251,8 @@ msgstr "Základní expozice"
 
 #: TP_ICM_APPLYHUESATMAP_TOOLTIP
 msgid ""
-"Employ the embedded DCP base table (HueSatMap). The setting is only enabled "
-"if the selected DCP has one."
+"Employ the embedded DCP base table (HueSatMap). The setting is only "
+"available if the selected DCP has one."
 msgstr ""
 "Použije vloženou DCP základní tabulku (HueSatMap). Toto nastavení je "
 "dostupné pouze pokud ji vybrané DCP obsahuje."
@@ -7055,7 +7263,7 @@ msgstr "Základní tabulka"
 
 #: TP_ICM_APPLYLOOKTABLE_TOOLTIP
 msgid ""
-"Employ the embedded DCP look table. The setting is only enabled if the "
+"Employ the embedded DCP look table. The setting is only available if the "
 "selected DCP has one."
 msgstr ""
 "Použije vloženou DCP tabulku vzhledu. Nastavení je dostupné pouze pokud ji "
@@ -7082,11 +7290,11 @@ msgstr "Interpolované"
 msgid ""
 "Select which embedded DCP illuminant to employ. Default is \"interpolated\" "
 "which is a mix between the two based on white balance. The setting is only "
-"enabled if a Dual-Illuminant DCP with interpolation support is selected."
+"available if a dual-illuminant DCP with interpolation support is selected."
 msgstr ""
 "Vyberte které vložené DCP osvětlení se má použít. Ve výchozím stavu se "
 "použije \"interpolované\", což je mix mezi dvěma osvětleními založenými na "
-"vyvážení bílé. Nastavené je dostupné pouze v případě, že je povoleno dvojité "
+"vyvážení bílé. Nastavené je povoleno pouze v případě, že je vybráno\t dvojité "
 "DCP osvětlení s podporou interpolace."
 
 #: TP_ICM_DCPILLUMINANT
@@ -7193,11 +7401,11 @@ msgstr "Uložit referenční obrázek"
 
 #: TP_ICM_TONECURVE_TOOLTIP
 msgid ""
-"Employ the embedded DCP tone curve. The setting is only enabled if the "
+"Employ the embedded DCP tone curve. The setting is only available if the "
 "selected DCP has a tone curve."
 msgstr ""
 "Použije vloženou DCP tónovou křivku. Nastavení je dostupné pouze v případě, "
-"že DCP obsahuje tónovou křivku."
+"že vybrané DCP obsahuje tónovou křivku."
 
 #: TP_ICM_TONECURVE
 msgid "Tone curve"
@@ -7360,8 +7568,8 @@ msgid "Lens / Geometry"
 msgstr "Objektiv / Geometrie"
 
 #: TP_LENSPROFILE_LABEL
-msgid "Lens Correction Profile"
-msgstr "Korekční profil objektivu"
+msgid "Profiled Lens Correction"
+msgstr "Korekční profily objektivů"
 
 #: TP_NEUTRAL_TIP
 msgid ""
@@ -7811,9 +8019,9 @@ msgstr "StdDev faktor zelený"
 msgid "StdDev factor Red"
 msgstr "StdDev faktor červený"
 
-#: TP_RAW_PIXELSHIFT
-msgid "Pixel Shift"
-msgstr "Pixel Shift"
+#: TP_RAW_RCD
+msgid "RCD"
+msgstr "RCD"
 
 #: TP_RAW_SENSOR_BAYER_LABEL
 msgid "Sensor with Bayer Matrix"
@@ -8279,10 +8487,6 @@ msgstr "B"
 #: TP_RGBCURVES_GREEN
 msgid "G"
 msgstr "G"
-
-#: TP_RGBCURVES_LABEL
-msgid "RGB Curves"
-msgstr "RGB křivky"
 
 #: TP_RGBCURVES_LUMAMODE_TOOLTIP
 msgid ""
@@ -9097,7 +9301,7 @@ msgstr ""
 "Umožňuje odchýlení se od normálního chování \"vyvážení bílé\" pomocí změny "
 "vyvážení modré a červené.\n"
 "Toto může být užitečné v těchto případech:\n"
-"a) podmínky jsou velmi odlišné od standardních (například pod vodou),\n"
+"a) podmínky jsou velmi odlišné od běžného osvětlení (například pod vodou),\n"
 "b) podmínky se velmi liší od podmínek za kterých probíhala kalibrace,\n"
 "c) nevhodné snímače nebo ICC profily."
 
@@ -9188,10 +9392,6 @@ msgstr "HMI"
 #: TP_WBALANCE_JUDGEIII
 msgid "JudgeIII"
 msgstr "JudgeIII"
-
-#: TP_WBALANCE_LABEL
-msgid "White Balance"
-msgstr "Vyvážení bílé"
 
 #: TP_WBALANCE_LAMP_HEADER
 msgid "Lamp"
@@ -9317,6 +9517,45 @@ msgstr ""
 msgid "(100%)"
 msgstr "(100%)"
 
+#~ msgid "LCP distortion correction"
+#~ msgstr "LCP korekce zkreslení"
+
+#~ msgid "LCP vignetting correction"
+#~ msgstr "LCP korekce vinětace"
+
+#~ msgid "LCP CA correction"
+#~ msgstr "LCP korekce CA"
+
+#~ msgid "LCP"
+#~ msgstr "LCP"
+
+#~ msgid "Lens correction profile"
+#~ msgstr "Korekční profil objektivu"
+
+#~ msgid "PixelShift"
+#~ msgstr "PixelShift"
+
+#~ msgid "Default Theme"
+#~ msgstr "Výchozí vzhled"
+
+#~ msgid "PNG compression"
+#~ msgstr "PNG Komprese"
+
+#~ msgid "Scene luminosity"
+#~ msgstr "Svítivost scény"
+
+#~ msgid ""
+#~ "Contrast in CIECAM02 for the Q slider; it differs from L*a*b* and RGB "
+#~ "contrast."
+#~ msgstr ""
+#~ "Kontrast pro posuvník Q se v CIECAM02 liší od kontrastu L*a*b* a RGB."
+
+#~ msgid ""
+#~ "Contrast in CIECAM02 for the J slider; it differs from L*a*b* and RGB "
+#~ "contrast."
+#~ msgstr ""
+#~ "Kontrast pro posuvník J se v CIECAM02 liší od kontrastu L*a*b* a RGB."
+
 #~ msgid "EvPixelShiftMotion"
 #~ msgstr "EvPixelShiftMotion"
 
@@ -9418,9 +9657,6 @@ msgstr "(100%)"
 #~ "1 = 2 pixely\n"
 #~ "3 = mřížka 3x3\n"
 #~ "5 = mřížka 5x5"
-
-#~ msgid "Show mask only"
-#~ msgstr "Zobrazit pouze masku"
 
 #~ msgid ""
 #~ "Smooth transitions between areas with and without motion.\n"
@@ -9731,9 +9967,6 @@ msgstr "(100%)"
 #~ msgid "Color profiles + DNG"
 #~ msgstr "Barevné profily + DNG"
 
-#~ msgid "Lens correction files"
-#~ msgstr "Soubory korekcí objektivu"
-
 #~ msgid "Bicubic (softer)"
 #~ msgstr "Bikubická (měkčí)"
 
@@ -10003,9 +10236,6 @@ msgstr "(100%)"
 #~ msgid ""
 #~ "When you move a saturation slider, these 'direct' colors are increased."
 #~ msgstr "\"Přímé\" barvy rostou pohnutím posuvníku saturace."
-
-#~ msgid "Direct Colors"
-#~ msgstr "Přímé barvy"
 
 #~ msgid ""
 #~ "When the image color is blue and the blending color is red, it results in "
@@ -10678,9 +10908,6 @@ msgstr "(100%)"
 #~ msgid "CAM02 - Chrom. adaptation amount"
 #~ msgstr "CAM02 - Míra chromatického přizpůsobení"
 
-#~ msgid "CAM02 - Model"
-#~ msgstr "CAM02 - Model"
-
 #~ msgid "CAM02 - Show CIECAM02 output histograms in curves"
 #~ msgstr "CAM02 - Zobrazení CIECAM02 výstupních histogramů v křivkách"
 
@@ -11214,9 +11441,6 @@ msgstr "(100%)"
 
 #~ msgid "Partial paste"
 #~ msgstr "Vložit částečně"
-
-#~ msgid "Profile Operations"
-#~ msgstr "Operace s profily"
 
 #~ msgid "Stop processing of images"
 #~ msgstr "Zastavit zpracovávaní obrázků"
