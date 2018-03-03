@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2017-12-13 20:55+0100\n"
+"POT-Creation-Date: 2018-03-03 21:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,12 +45,20 @@ msgstr ""
 msgid "Batch Processing"
 msgstr ""
 
+#: BATCHQUEUE_AUTOSTARTHINT
+msgid "Start processing automatically when a new job arrives."
+msgstr ""
+
 #: BATCHQUEUE_AUTOSTART
 msgid "Auto-start"
 msgstr ""
 
 #: BATCHQUEUE_DESTFILENAME
 msgid "Path and file name"
+msgstr ""
+
+#: BATCHQUEUE_STARTSTOPHINT
+msgid "Start or stop processing the images in the queue.\n\nShortcut: <b>Ctrl</b>+<b>s</b>"
 msgstr ""
 
 #: CURVEEDITOR_AXIS_IN
@@ -73,7 +81,7 @@ msgstr ""
 msgid "Curves"
 msgstr ""
 
-#: CURVEEDITOR_CURVE,TP_DIRPYRDENOISE_CUR,TP_WAVELET_BACUR,TP_WAVELET_EDCU,TP_WAVELET_CHCU
+#: CURVEEDITOR_CURVE,TP_WAVELET_BACUR,TP_WAVELET_EDCU,TP_WAVELET_CHCU
 msgid "Curve"
 msgstr ""
 
@@ -785,28 +793,8 @@ msgstr ""
 msgid "Show unranked images.\nShortcut: <b>0</b>"
 msgstr ""
 
-#: FILEBROWSER_STARTPROCESSINGHINT
-msgid "Start processing the images in the queue.\n\nShortcut: <b>Ctrl</b>+<b>s</b>"
-msgstr ""
-
-#: FILEBROWSER_STARTPROCESSING
-msgid "Start processing"
-msgstr ""
-
-#: FILEBROWSER_STOPPROCESSINGHINT
-msgid "Stop processing the images in the queue.\n\nShortcut: <b>Ctrl</b>+<b>s</b>"
-msgstr ""
-
-#: FILEBROWSER_STOPPROCESSING
-msgid "Stop processing"
-msgstr ""
-
 #: FILEBROWSER_THUMBSIZE
 msgid "Thumbnail size"
-msgstr ""
-
-#: FILEBROWSER_TOOLTIP_STOPPROCESSING
-msgid "Start processing automatically when a new job arrives."
 msgstr ""
 
 #: FILEBROWSER_UNRANK_TOOLTIP
@@ -905,7 +893,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
+#: GENERAL_NONE,PREFERENCES_CROP_GUIDES_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr ""
 
@@ -923,6 +911,10 @@ msgstr ""
 
 #: GENERAL_SAVE
 msgid "Save"
+msgstr ""
+
+#: GENERAL_SLIDER,TP_DIRPYRDENOISE_SLI,TP_WAVELET_BASLI
+msgid "Slider"
 msgstr ""
 
 #: GENERAL_UNCHANGED
@@ -983,6 +975,42 @@ msgstr ""
 
 #: HISTORY_LABEL
 msgid "History"
+msgstr ""
+
+#: HISTORY_MSG_COLORTONING_LABGRID_VALUE
+msgid "CT - Color correction"
+msgstr ""
+
+#: HISTORY_MSG_HISTMATCHING,TP_EXPOSURE_HISTMATCHING
+msgid "Auto-matched Tone Curve"
+msgstr ""
+
+#: HISTORY_MSG_LOCALCONTRAST_AMOUNT
+msgid "Local Contrast - Amount"
+msgstr ""
+
+#: HISTORY_MSG_LOCALCONTRAST_DARKNESS
+msgid "Local Contrast - Darkness"
+msgstr ""
+
+#: HISTORY_MSG_LOCALCONTRAST_ENABLED,TP_LOCALCONTRAST_LABEL
+msgid "Local Contrast"
+msgstr ""
+
+#: HISTORY_MSG_LOCALCONTRAST_LIGHTNESS
+msgid "Local Contrast - Lightness"
+msgstr ""
+
+#: HISTORY_MSG_LOCALCONTRAST_RADIUS
+msgid "Local Contrast - Radius"
+msgstr ""
+
+#: HISTORY_MSG_METADATA_MODE,TP_METADATA_MODE
+msgid "Metadata copy mode"
+msgstr ""
+
+#: HISTORY_MSG_TM_FATTAL_ANCHOR
+msgid "HDR TM - Anchor"
 msgstr ""
 
 #: HISTORY_MSG_1
@@ -1306,7 +1334,7 @@ msgid "L*a*b* - Restrict LC"
 msgstr ""
 
 #: HISTORY_MSG_173
-msgid "NR - Luminance detail"
+msgid "NR - Detail recovery"
 msgstr ""
 
 #: HISTORY_MSG_174,PARTIALPASTE_COLORAPP
@@ -1426,7 +1454,7 @@ msgid "NR - Chrominance - B&amp;Y"
 msgstr ""
 
 #: HISTORY_MSG_203
-msgid "NR - Method"
+msgid "NR - Color space"
 msgstr ""
 
 #: HISTORY_MSG_204,PARTIALPASTE_RAW_LMMSEITERATIONS,TP_RAW_LMMSEITERATIONS
@@ -1645,8 +1673,8 @@ msgstr ""
 msgid "NR - Median filter"
 msgstr ""
 
-#: HISTORY_MSG_256
-msgid "NR - Median type"
+#: HISTORY_MSG_256,HISTORY_MSG_286
+msgid "NR - Median - Type"
 msgstr ""
 
 #: HISTORY_MSG_257,TP_COLORTONING_LABEL
@@ -1773,10 +1801,6 @@ msgstr ""
 msgid "NR - Median - Method"
 msgstr ""
 
-#: HISTORY_MSG_286
-msgid "NR - Median - Type"
-msgstr ""
-
 #: HISTORY_MSG_287
 msgid "NR - Median - Iterations"
 msgstr ""
@@ -1822,7 +1846,7 @@ msgid "NR - Luminance curve"
 msgstr ""
 
 #: HISTORY_MSG_297
-msgid "NR - Quality"
+msgid "NR - Mode"
 msgstr ""
 
 #: HISTORY_MSG_298,PARTIALPASTE_PREPROCESS_DEADPIXFILT,TP_PREPROCESS_DEADPIXFILT
@@ -1853,7 +1877,7 @@ msgstr ""
 msgid "W - Contrast levels"
 msgstr ""
 
-#: HISTORY_MSG_305,PARTIALPASTE_WAVELETGROUP,TP_WAVELET_LABEL
+#: HISTORY_MSG_305,TP_WAVELET_LABEL
 msgid "Wavelet Levels"
 msgstr ""
 
@@ -2597,6 +2621,10 @@ msgstr ""
 msgid "RGB Curves"
 msgstr ""
 
+#: HISTORY_MSG_493,TP_LABCURVE_LABEL
+msgid "L*a*b* Adjustments"
+msgstr ""
+
 #: HISTORY_MSG_5
 msgid "Exposure - Lightness"
 msgstr ""
@@ -3141,6 +3169,14 @@ msgstr ""
 msgid "Failed to write\n<b>\"%1\"</b>\n\nMake sure that the folder exists and that you have write permission to it."
 msgstr ""
 
+#: MAIN_TAB_ADVANCED_TOOLTIP
+msgid "Shortcut: <b>Alt-w</b>"
+msgstr ""
+
+#: MAIN_TAB_ADVANCED
+msgid "Advanced"
+msgstr ""
+
 #: MAIN_TAB_COLOR_TOOLTIP
 msgid "Shortcut: <b>Alt-c</b>"
 msgstr ""
@@ -3189,7 +3225,7 @@ msgstr ""
 msgid "IPTC"
 msgstr ""
 
-#: MAIN_TAB_METADATA,PARTIALPASTE_METAGROUP,PREFERENCES_METADATA
+#: MAIN_TAB_METADATA,PREFERENCES_METADATA
 msgid "Metadata"
 msgstr ""
 
@@ -3211,14 +3247,6 @@ msgstr ""
 
 #: MAIN_TAB_TRANSFORM
 msgid "Transform"
-msgstr ""
-
-#: MAIN_TAB_WAVELET_TOOLTIP
-msgid "Shortcut: <b>Alt-w</b>"
-msgstr ""
-
-#: MAIN_TAB_WAVELET
-msgid "Wavelet"
 msgstr ""
 
 #: MAIN_TOOLTIP_BACKCOLOR0
@@ -3349,12 +3377,20 @@ msgstr ""
 msgid "x: --, y: --"
 msgstr ""
 
+#: OPTIONS_BUNDLED_MISSING
+msgid "The bundled profile \"<b>%1</b>\" could not be found!\n\nYour installation could be damaged.\n\nDefault internal values will be used instead."
+msgstr ""
+
 #: OPTIONS_DEFIMG_MISSING
-msgid "The default profile for <b>non-raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used."
+msgid "The default profile for <b>non-raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\n\"<b>%1</b>\" will be used instead."
 msgstr ""
 
 #: OPTIONS_DEFRAW_MISSING
-msgid "The default profile for <b>raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\nDefault internal values will be used."
+msgid "The default profile for <b>raw photos</b> could not be found or is not set.\n\nPlease check your profiles' directory, it may be missing or damaged.\n\n\"<b>%1</b>\" will be used instead."
+msgstr ""
+
+#: PARTIALPASTE_ADVANCEDGROUP
+msgid "Advanced Settings"
 msgstr ""
 
 #: PARTIALPASTE_BASICGROUP
@@ -3477,6 +3513,18 @@ msgstr ""
 msgid "Profiled lens correction"
 msgstr ""
 
+#: PARTIALPASTE_LOCALCONTRAST,TP_SHADOWSHLIGHTS_LOCALCONTR,TP_WAVELET_CCURVE,TP_WAVELET_EDGCONT
+msgid "Local contrast"
+msgstr ""
+
+#: PARTIALPASTE_METADATA
+msgid "Metadata mode"
+msgstr ""
+
+#: PARTIALPASTE_METAGROUP
+msgid "Metadata settings"
+msgstr ""
+
 #: PARTIALPASTE_PCVIGNETTE
 msgid "Vignette filter"
 msgstr ""
@@ -3576,7 +3624,7 @@ msgstr ""
 msgid "Automatically save tools collapsed/expanded\nstate before exiting"
 msgstr ""
 
-#: PREFERENCES_AUTSTD,TP_DIRPYRDENOISE_SHAL
+#: PREFERENCES_AUTSTD
 msgid "Standard"
 msgstr ""
 
@@ -3662,6 +3710,26 @@ msgstr ""
 
 #: PREFERENCES_CMMBPC
 msgid "Black point compensation"
+msgstr ""
+
+#: PREFERENCES_CROP_AUTO_FIT
+msgid "Automatically zoom to fit the crop area"
+msgstr ""
+
+#: PREFERENCES_CROP_GUIDES_FRAME,TP_CROP_GTFRAME
+msgid "Frame"
+msgstr ""
+
+#: PREFERENCES_CROP_GUIDES_FULL
+msgid "Original"
+msgstr ""
+
+#: PREFERENCES_CROP_GUIDES
+msgid "Guides shown when not editing the crop"
+msgstr ""
+
+#: PREFERENCES_CROP
+msgid "Crop editing"
 msgstr ""
 
 #: PREFERENCES_CURVEBBOXPOS_ABOVE
@@ -3789,7 +3857,7 @@ msgid "6500K"
 msgstr ""
 
 #: PREFERENCES_EDITORCMDLINE
-msgid "Other command line"
+msgid "Custom command line"
 msgstr ""
 
 #: PREFERENCES_EDITORLAYOUT
@@ -4596,11 +4664,11 @@ msgid "Click right mouse button to reset the position of those 3 sliders."
 msgstr ""
 
 #: SOFTPROOF_GAMUTCHECK_TOOLTIP
-msgid "If active, indicates in grey the pixels which have out of gamut colors from the Printer profile."
+msgid "Highlight pixels with out-of-gamut colors with respect to:\n- the printer profile, if one is set and soft-proofing is enabled,\n- the output profile, if a printer profile is not set and soft-proofing is enabled,\n- the monitor profile, if soft-proofing is disabled."
 msgstr ""
 
 #: SOFTPROOF_TOOLTIP
-msgid "Soft-proofing\nIf active, let you simulate the printer's output by using the Printer profile set in Preferences > Color Management."
+msgid "Soft-proofing simulates the appearance of the image:\n- when printed, if a printer profile is set in Preferences > Color Management,\n- when viewed on a display that uses the current output profile, if a printer profile is not set."
 msgstr ""
 
 #: THRESHOLDSELECTOR_BL
@@ -4772,7 +4840,7 @@ msgstr ""
 msgid "Luminance Equalizer"
 msgstr ""
 
-#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_CTYPE,TP_DIRPYRDENOISE_METHOD,TP_RAW_DMETHOD,TP_RETINEX_METHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
+#: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_CHROMINANCE_METHOD,TP_RAW_DMETHOD,TP_RETINEX_METHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
 msgstr ""
 
@@ -5169,7 +5237,7 @@ msgstr ""
 msgid "Colorfulness"
 msgstr ""
 
-#: TP_COLORAPP_TCMODE_CHROMA,TP_DIRPYRDENOISE_CURVEEDITOR_CC,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
+#: TP_COLORAPP_TCMODE_CHROMA,TP_WAVELET_LEVCH,TP_WAVELET_RESCHRO
 msgid "Chroma"
 msgstr ""
 
@@ -5237,6 +5305,14 @@ msgstr ""
 msgid "Opacity"
 msgstr ""
 
+#: TP_COLORTONING_LABGRID_VALUES
+msgid "HL: a=%1 b=%2\nS: a=%3 b=%4"
+msgstr ""
+
+#: TP_COLORTONING_LABGRID
+msgid "L*a*b* color correction grid"
+msgstr ""
+
 #: TP_COLORTONING_LAB
 msgid "L*a*b* blending"
 msgstr ""
@@ -5249,7 +5325,7 @@ msgstr ""
 msgid "Preserve luminance"
 msgstr ""
 
-#: TP_COLORTONING_LUMA,TP_DIRPYRDENOISE_LUMA,TP_DIRPYRDENOISE_LUMAFR,TP_EXPOSURE_TCMODE_LUMINANCE
+#: TP_COLORTONING_LUMA,TP_DIRPYRDENOISE_LUMINANCE_FRAME,TP_DIRPYRDENOISE_LUMINANCE_SMOOTHING,TP_EXPOSURE_TCMODE_LUMINANCE
 msgid "Luminance"
 msgstr ""
 
@@ -5329,10 +5405,6 @@ msgstr ""
 msgid "Biometric Passport"
 msgstr ""
 
-#: TP_CROP_GTFRAME
-msgid "Frame"
-msgstr ""
-
 #: TP_CROP_GTGRID
 msgid "Grid"
 msgstr ""
@@ -5390,44 +5462,8 @@ msgstr ""
 msgid "Dark-Frame"
 msgstr ""
 
-#: TP_DEFRINGE_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
+#: TP_DEFRINGE_RADIUS,TP_LOCALCONTRAST_RADIUS,TP_RETINEX_NEIGHBOR,TP_SHADOWSHLIGHTS_RADIUS,TP_SHARPENING_EDRADIUS,TP_SHARPENING_RADIUS,TP_VIGNETTING_RADIUS,TP_WAVELET_EDRAD
 msgid "Radius"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_ABM
-msgid "Chroma only"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_AUTO_TOOLTIP
-msgid "Try to evaluate chroma noise\nBe careful, this calculation is average, and is quite subjective !"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_AUT,TP_DIRPYRDENOISE_AUTO
-msgid "Automatic global"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_BLUE
-msgid "Chrominance - Blue-Yellow"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_CCCURVE
-msgid "Chrominance curve"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_CTYPE_TOOLTIP
-msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nAutomatic multi-zones\nNo preview - works only during saving, but using the \"Preview\" method by matching the tile size and center to the preview size and center you can get an idea of the expected results.\nThe image is divided into tiles (about 10 to 70 depending on image size) and each tile receives its own chrominance noise reduction settings.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_CURVEEDITOR_CC_TOOLTIP
-msgid "Increase (multiply) the value of all chrominance sliders.\nThis curve lets you adjust the strength of chromatic noise reduction as a function of chromaticity, for instance to increase the action in areas of low saturation and to decrease it in those of high saturation."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_CURVEEDITOR_L_TOOLTIP
-msgid "Modulates action of 'Luminance' denoise"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_C2TYPE_TOOLTIP
-msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
 msgstr ""
 
 #: TP_DIRPYRDENOISE_ENH_TOOLTIP
@@ -5438,159 +5474,195 @@ msgstr ""
 msgid "Enhanced mode"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_GAMMA_TOOLTIP
-msgid "Gamma varies noise reduction strength across the range of tones. Smaller values will target shadows, while larger values will stretch the effect to the brighter tones."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV,TP_RETINEX_GAMMA
-msgid "Gamma"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_CHROMAFR
-msgid "Chrominance"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_CHROMA
-msgid "Chrominance - Master"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_LAB,TP_DIRPYRDENOISE_LABM,TP_RETINEX_LABSPACE
-msgid "L*a*b*"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_LCURVE
-msgid "Luminance curve"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_LDETAIL
-msgid "Luminance - Detail"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_LM,TP_SHARPENEDGE_THREE
-msgid "Luminance only"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_LPLABM
-msgid "Weighted L* (little) + a*b* (normal)"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_LTYPE
-msgid "Luminance control"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_MAN,TP_DIRPYRDENOISE_MANU
-msgid "Manual"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_MEDMETHOD
-msgid "Median method"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_MEDTYPE
-msgid "Median type"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_MED
-msgid "Median Filter"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_METHOD_TOOLTIP
-msgid "For raw images either RGB or L*a*b* methods can be used.\n\nFor non-raw images the L*a*b* method will be used, regardless of the selection."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_METHOD11_TOOLTIP
-msgid "Quality can be adapted to the noise pattern. A setting of \"high\" increases the noise reduction effect at a cost of extended processing time."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_METHOD11
-msgid "Quality"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_METM_TOOLTIP
-msgid "When using the \"Luminance only\" and \"L*a*b*\" methods, median filtering will be performed just after the wavelet step in the noise reduction pipeline.\nWhen using the \"RGB\" mode, it will be performed at the very end of the noise reduction pipeline."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_MET_TOOLTIP
-msgid "Apply a median filter of the desired window size. The larger the window's size, the longer it takes.\n\n3×3 soft: treats 5 pixels in a 3×3 pixel window.\n3×3: treats 9 pixels in a 3×3 pixel window.\n5×5 soft: treats 13 pixels in a 5×5 pixel window.\n5×5: treats 25 pixels in a 5×5 pixel window.\n7×7: treats 49 pixels in a 7×7 pixel window.\n9×9: treats 81 pixels in a 9×9 pixel window.\n\nSometimes it is possible to achieve higher quality running several iterations with a smaller window size than one iteration with a larger one."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_NOISELABELEMPTY
-msgid "Preview noise: Mean= -   High= -"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_NOISELABEL
-msgid "Preview noise: Mean=%1  High=%2"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_NRESID_TOOLTIP
-msgid "Displays the remaining noise levels of the part of the image visible in the <b>preview</b> after wavelet.\n\n>300 Very noisy\n100-300 Noisy\n50-100 A little noisy\n<50 Very low noise\n\nBeware, the values will differ between RGB and L*a*b* mode. The RGB values are less accurate because the RGB mode does not completely separate luminance and chrominance."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_PASSES_TOOLTIP
-msgid "Applying three median filter iterations with a 3×3 window size often leads to better results than using one median filter iteration with a 7×7 window size."
-msgstr ""
-
-#: TP_DIRPYRDENOISE_PASSES
-msgid "Median iterations"
-msgstr ""
-
-#: TP_DIRPYRDENOISE_PON
+#: TP_DIRPYRDENOISE_CHROMINANCE_AMZ
 msgid "Auto multi-zones"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_PREVLABEL
-msgid "Preview size=%1, Center: Px=%2  Py=%3"
+#: TP_DIRPYRDENOISE_CHROMINANCE_AUTOGLOBAL_TOOLTIP
+msgid "Try to evaluate chroma noise\nBe careful, this calculation is average, and is quite subjective !"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_PREV
-msgid "Preview"
+#: TP_DIRPYRDENOISE_CHROMINANCE_AUTOGLOBAL
+msgid "Automatic global"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_PRE
+#: TP_DIRPYRDENOISE_CHROMINANCE_BLUEYELLOW
+msgid "Chrominance - Blue-Yellow"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_CURVE_TOOLTIP
+msgid "Increase (multiply) the value of all chrominance sliders.\nThis curve lets you adjust the strength of chromatic noise reduction as a function of chromaticity, for instance to increase the action in areas of low saturation and to decrease it in those of high saturation."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_CURVE
+msgid "Chrominance curve"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_FRAME
+msgid "Chrominance"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_MANUAL
+msgid "Manual"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_MASTER
+msgid "Chrominance - Master"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_METHODADVANCED_TOOLTIP
+msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_METHOD_TOOLTIP
+msgid "Manual\nActs on the full image.\nYou control the noise reduction settings manually.\n\nAutomatic global\nActs on the full image.\n9 zones are used to calculate a global chrominance noise reduction setting.\n\nAutomatic multi-zones\nNo preview - works only during saving, but using the \"Preview\" method by matching the tile size and center to the preview size and center you can get an idea of the expected results.\nThe image is divided into tiles (about 10 to 70 depending on image size) and each tile receives its own chrominance noise reduction settings.\n\nPreview\nActs on the whole image.\nThe part of the image visible in the preview is used to calculate global chrominance noise reduction settings."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_PMZ
 msgid "Preview multi-zones"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_RED
-msgid "Chrominance - Red-Green"
+#: TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_INFO
+msgid "Preview size=%1, Center: Px=%2  Py=%3"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_RGB,TP_DIRPYRDENOISE_RGBM
-msgid "RGB"
+#: TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_NOISEINFO_EMPTY
+msgid "Preview noise: Mean= -   High= -"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_SHALBI,TP_RETINEX_GAMMA_HIGH,TP_WAVELET_NPHIGH
-msgid "High"
+#: TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_NOISEINFO
+msgid "Preview noise: Mean=%1  High=%2"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_SLI,TP_WAVELET_BASLI
-msgid "Slider"
+#: TP_DIRPYRDENOISE_CHROMINANCE_PREVIEWRESIDUAL_INFO_TOOLTIP
+msgid "Displays the remaining noise levels of the part of the image visible in the preview after wavelet.\n\n>300 Very noisy\n100-300 Noisy\n50-100 A little noisy\n<50 Very low noise\n\nBeware, the values will differ between RGB and L*a*b* mode. The RGB values are less accurate because the RGB mode does not completely separate luminance and chrominance."
 msgstr ""
 
-#: TP_DIRPYRDENOISE_TILELABEL
+#: TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW_TILEINFO
 msgid "Tile size=%1, Center: Tx=%2  Ty=%3"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_3X3_SOFT
+#: TP_DIRPYRDENOISE_CHROMINANCE_PREVIEW
+msgid "Preview"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_CHROMINANCE_REDGREEN
+msgid "Chrominance - Red-Green"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LUMINANCE_CONTROL
+msgid "Luminance control"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LUMINANCE_CURVE
+msgid "Luminance curve"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_LUMINANCE_DETAIL
+msgid "Detail recovery"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_COLORSPACE_LAB,TP_DIRPYRDENOISE_MEDIAN_METHOD_LAB,TP_RETINEX_LABSPACE
+msgid "L*a*b*"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_COLORSPACE_RGB,TP_DIRPYRDENOISE_MEDIAN_METHOD_RGB
+msgid "RGB"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_COLORSPACE_TOOLTIP
+msgid "For raw images either RGB or L*a*b* methods can be used.\n\nFor non-raw images the L*a*b* method will be used, regardless of the selection."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_COLORSPACE
+msgid "Color space"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_GAMMA_TOOLTIP
+msgid "Gamma varies noise reduction strength across the range of tones. Smaller values will target shadows, while larger values will stretch the effect to the brighter tones."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV,TP_RETINEX_GAMMA
+msgid "Gamma"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_MODE_AGGRESSIVE
+msgid "Aggressive"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_MODE_CONSERVATIVE
+msgid "Conservative"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_MODE_TOOLTIP
+msgid "\"Conservative\" preserves low frequency chroma patterns, while \"aggressive\" obliterates them."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MAIN_MODE
+msgid "Mode"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_METHOD_CHROMINANCE
+msgid "Chroma only"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_METHOD_LABEL
+msgid "Median Filter"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_METHOD_LUMINANCE,TP_SHARPENEDGE_THREE
+msgid "Luminance only"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_METHOD_TOOLTIP
+msgid "When using the \"Luminance only\" and \"L*a*b*\" methods, median filtering will be performed just after the wavelet step in the noise reduction pipeline.\nWhen using the \"RGB\" mode, it will be performed at the very end of the noise reduction pipeline."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_METHOD_WEIGHTED
+msgid "Weighted L* (little) + a*b* (normal)"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_METHOD
+msgid "Median method"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_PASSES_TOOLTIP
+msgid "Applying three median filter iterations with a 3×3 window size often leads to better results than using one median filter iteration with a 7×7 window size."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_PASSES
+msgid "Median iterations"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_TYPE_TOOLTIP
+msgid "Apply a median filter of the desired window size. The larger the window's size, the longer it takes.\n\n3×3 soft: treats 5 pixels in a 3×3 pixel window.\n3×3: treats 9 pixels in a 3×3 pixel window.\n5×5 soft: treats 13 pixels in a 5×5 pixel window.\n5×5: treats 25 pixels in a 5×5 pixel window.\n7×7: treats 49 pixels in a 7×7 pixel window.\n9×9: treats 81 pixels in a 9×9 pixel window.\n\nSometimes it is possible to achieve higher quality running several iterations with a smaller window size than one iteration with a larger one."
+msgstr ""
+
+#: TP_DIRPYRDENOISE_MEDIAN_TYPE
+msgid "Median type"
+msgstr ""
+
+#: TP_DIRPYRDENOISE_TYPE_3X3SOFT
 msgid "3×3 soft"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_3X3
+#: TP_DIRPYRDENOISE_TYPE_3X3
 msgid "3×3"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_5X5_SOFT
+#: TP_DIRPYRDENOISE_TYPE_5X5SOFT
 msgid "5×5 soft"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_5X5
+#: TP_DIRPYRDENOISE_TYPE_5X5
 msgid "5×5"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_7X7
+#: TP_DIRPYRDENOISE_TYPE_7X7
 msgid "7×7"
 msgstr ""
 
-#: TP_DIRPYRDENOISE_9X9
+#: TP_DIRPYRDENOISE_TYPE_9X9
 msgid "9×9"
 msgstr ""
 
@@ -5642,7 +5714,7 @@ msgstr ""
 msgid "Attempts to reduce artifacts in the transitions between skin colors (hue, chroma, luma) and the rest of the image."
 msgstr ""
 
-#: TP_DISTORTION_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_TM_FATTAL_AMOUNT,TP_VIGNETTING_AMOUNT
+#: TP_DISTORTION_AMOUNT,TP_LOCALCONTRAST_AMOUNT,TP_SHARPENING_AMOUNT,TP_SHARPENING_HCAMOUNT,TP_SHARPENING_RLD_AMOUNT,TP_TM_FATTAL_AMOUNT,TP_VIGNETTING_AMOUNT
 msgid "Amount"
 msgstr ""
 
@@ -5716,6 +5788,10 @@ msgstr ""
 
 #: TP_EXPOSURE_EXPCOMP
 msgid "Exposure compensation"
+msgstr ""
+
+#: TP_EXPOSURE_HISTMATCHING_TOOLTIP
+msgid "Automatically adjust sliders and curves (except exposure compensation) to match the look of the embedded JPEG thumbnail."
 msgstr ""
 
 #: TP_EXPOSURE_TCMODE_FILMLIKE
@@ -6132,10 +6208,6 @@ msgstr ""
 msgid "To apply B&amp;W toning, set Chromaticity to -100."
 msgstr ""
 
-#: TP_LABCURVE_LABEL
-msgid "L*a*b* Adjustments"
-msgstr ""
-
 #: TP_LABCURVE_LCREDSK_TIP
 msgid "If enabled, the LC Curve affects only red and skin-tones.\nIf disabled, it applies to all tones."
 msgstr ""
@@ -6162,6 +6234,26 @@ msgstr ""
 
 #: TP_LENSPROFILE_LABEL
 msgid "Profiled Lens Correction"
+msgstr ""
+
+#: TP_LOCALCONTRAST_DARKNESS
+msgid "Darkness level"
+msgstr ""
+
+#: TP_LOCALCONTRAST_LIGHTNESS
+msgid "Lightness level"
+msgstr ""
+
+#: TP_METADATA_EDIT
+msgid "Apply modifications"
+msgstr ""
+
+#: TP_METADATA_STRIP
+msgid "Strip all metadata"
+msgstr ""
+
+#: TP_METADATA_TUNNEL
+msgid "Copy unchanged"
 msgstr ""
 
 #: TP_NEUTRAL_TIP
@@ -6237,7 +6329,7 @@ msgid "%1 demosaicing..."
 msgstr ""
 
 #: TP_RAW_DMETHOD_TOOLTIP
-msgid "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise reduction without leading to maze patterns, posterization or a washed-out look.\nPixel Shift is for Pentax Pixel Shift files. It falls back to AMaZE for non-Pixel Shift files."
+msgid "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise reduction without leading to maze patterns, posterization or a washed-out look.\nPixel Shift is for Pentax/Sony Pixel Shift files. It falls back to AMaZE for non-Pixel Shift files."
 msgstr ""
 
 #: TP_RAW_EAHD
@@ -6289,7 +6381,7 @@ msgid "IGV"
 msgstr ""
 
 #: TP_RAW_IMAGENUM_TOOLTIP
-msgid "Some raw files consist of several sub-images (Pentax Pixel Shift, Pentax 3-in-1 HDR, Canon Dual Pixel).\n\nWhen using any demosaicing method other than Pixel Shift, this selects which sub-image is used.\n\nWhen using the Pixel Shift demosaicing method on a Pixel Shift raw, all sub-images are used, and this selects which sub-image should be used for moving parts."
+msgid "Some raw files consist of several sub-images (Pentax/Sony Pixel Shift, Pentax 3-in-1 HDR, Canon Dual Pixel).\n\nWhen using any demosaicing method other than Pixel Shift, this selects which sub-image is used.\n\nWhen using the Pixel Shift demosaicing method on a Pixel Shift raw, all sub-images are used, and this selects which sub-image should be used for moving parts."
 msgstr ""
 
 #: TP_RAW_LABEL
@@ -6431,6 +6523,14 @@ msgstr ""
 
 #: TP_RAW_PIXELSHIFTNREADISO
 msgid "nRead"
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTONEGREEN_TOOLTIP
+msgid "Use one green instead of averaging two greens for regions without motion."
+msgstr ""
+
+#: TP_RAW_PIXELSHIFTONEGREEN
+msgid "Use one green instead of average"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTPRNU
@@ -6607,6 +6707,10 @@ msgstr ""
 
 #: TP_RETINEX_GAMMA_FREE
 msgid "Free"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_HIGH,TP_WAVELET_NPHIGH
+msgid "High"
 msgstr ""
 
 #: TP_RETINEX_GAMMA_MID
@@ -6842,10 +6946,6 @@ msgstr ""
 msgid "Highlights tonal width"
 msgstr ""
 
-#: TP_SHADOWSHLIGHTS_LOCALCONTR,TP_WAVELET_CCURVE,TP_WAVELET_EDGCONT
-msgid "Local contrast"
-msgstr ""
-
 #: TP_SHADOWSHLIGHTS_SHARPMASK
 msgid "Sharp mask"
 msgstr ""
@@ -6892,6 +6992,10 @@ msgstr ""
 
 #: TP_SHARPENMICRO_UNIFORMITY
 msgid "Uniformity"
+msgstr ""
+
+#: TP_TM_FATTAL_ANCHOR
+msgid "Anchor"
 msgstr ""
 
 #: TP_VIBRANCE_CURVEEDITOR_SKINTONES_LABEL
@@ -7583,11 +7687,11 @@ msgid "Open (new) detail window"
 msgstr ""
 
 #: ZOOMPANEL_ZOOMFITCROPSCREEN
-msgid "Fit crop to screen\nShortcut: <b>Alt</b>-<b>f</b>"
+msgid "Fit crop to screen\nShortcut: <b>f</b>"
 msgstr ""
 
 #: ZOOMPANEL_ZOOMFITSCREEN
-msgid "Fit whole image to screen\nShortcut: <b>f</b>"
+msgid "Fit whole image to screen\nShortcut: <b>Alt</b>-<b>f</b>"
 msgstr ""
 
 #: ZOOMPANEL_ZOOMIN
