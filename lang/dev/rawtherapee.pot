@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2018-03-03 21:17+0100\n"
+"POT-Creation-Date: 2018-10-22 20:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,8 +37,8 @@ msgstr ""
 msgid "Splash"
 msgstr ""
 
-#: ADJUSTER_RESET_TO_DEFAULT,FILEBROWSER_RESETDEFAULTPROFILE
-msgid "Reset to default"
+#: ADJUSTER_RESET_TO_DEFAULT
+msgid "<b>Click</b> - reset to default value.\n<b>Ctrl</b>+<b>click</b> - reset to initial value."
 msgstr ""
 
 #: BATCH_PROCESSING,PREFERENCES_BATCH_PROCESSING
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Curve"
 msgstr ""
 
-#: CURVEEDITOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_RAW_PIXELSHIFTMM_CUSTOM,TP_WBALANCE_CUSTOM
+#: CURVEEDITOR_CUSTOM,ICCPROFCREATOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_ICM_WORKING_TRC_CUSTOM,TP_RAW_PIXELSHIFTMM_CUSTOM,TP_WBALANCE_CUSTOM
 msgid "Custom"
 msgstr ""
 
@@ -233,6 +233,10 @@ msgstr ""
 msgid "Focal length"
 msgstr ""
 
+#: EXIFFILTER_IMAGETYPE
+msgid "Image type"
+msgstr ""
+
 #: EXIFFILTER_ISO,QINFO_ISO
 msgid "ISO"
 msgstr ""
@@ -293,12 +297,12 @@ msgstr ""
 msgid "Reset All"
 msgstr ""
 
-#: EXIFPANEL_RESETHINT
-msgid "Reset the selected tags to their original values."
+#: EXIFPANEL_RESET,GENERAL_RESET,IPTCPANEL_RESET,TP_BWMIX_NEUTRAL,TP_COLORAPP_NEUTRAL,TP_NEUTRAL,TP_RETINEX_NEUTRAL
+msgid "Reset"
 msgstr ""
 
-#: EXIFPANEL_RESET,IPTCPANEL_RESET,TP_COLORAPP_NEUTRAL,TP_NEUTRAL,TP_RETINEX_NEUTRAL
-msgid "Reset"
+#: EXIFPANEL_RESETHINT
+msgid "Reset the selected tags to their original values."
 msgstr ""
 
 #: EXIFPANEL_SHOWALL
@@ -701,6 +705,10 @@ msgstr ""
 msgid "Rename file"
 msgstr ""
 
+#: FILEBROWSER_RESETDEFAULTPROFILE
+msgid "Reset to default"
+msgstr ""
+
 #: FILEBROWSER_SELECTDARKFRAME
 msgid "Select dark-frame..."
 msgstr ""
@@ -814,7 +822,7 @@ msgid "All files"
 msgstr ""
 
 #: FILECHOOSER_FILTER_COLPROF
-msgid "Color profiles"
+msgid "Color profiles (*.icc)"
 msgstr ""
 
 #: FILECHOOSER_FILTER_CURVE
@@ -893,11 +901,11 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: GENERAL_NONE,PREFERENCES_CROP_GUIDES_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
+#: GENERAL_NONE,PREFERENCES_CROP_GUIDES_NONE,PREFERENCES_PROFILE_NONE,TP_CROP_GTNONE,TP_ICM_WORKING_TRC_NONE,TP_WAVELET_BANONE,TP_WAVELET_NPNONE
 msgid "None"
 msgstr ""
 
-#: GENERAL_NO,PREFERENCES_WLZER
+#: GENERAL_NO
 msgid "No"
 msgstr ""
 
@@ -907,6 +915,10 @@ msgstr ""
 
 #: GENERAL_PORTRAIT,TP_BWMIX_SET_PORTRAIT
 msgid "Portrait"
+msgstr ""
+
+#: GENERAL_SAVE_AS
+msgid "Save as..."
 msgstr ""
 
 #: GENERAL_SAVE
@@ -930,15 +942,11 @@ msgid "Welcome to the RawTherapee GIMP plugin!\nOnce you are done editing, simpl
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_BAR
-msgid "Show/Hide RGB indicator bar.\nRight-click on image preview to freeze/unfreeze."
+msgid "Show/Hide RGB indicator bar."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_B
 msgid "Show/Hide blue histogram."
-msgstr ""
-
-#: HISTOGRAM_TOOLTIP_FULL
-msgid "Toggle full (off) or scaled (on) histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_G
@@ -951,6 +959,10 @@ msgstr ""
 
 #: HISTOGRAM_TOOLTIP_L
 msgid "Show/Hide CIELab luminance histogram."
+msgstr ""
+
+#: HISTOGRAM_TOOLTIP_MODE
+msgid "Toggle between linear, log-linear and log-log scaling of the histogram."
 msgstr ""
 
 #: HISTOGRAM_TOOLTIP_RAW
@@ -977,12 +989,44 @@ msgstr ""
 msgid "History"
 msgstr ""
 
+#: HISTORY_MSG_CLAMPOOG,TP_EXPOSURE_CLAMPOOG
+msgid "Clip out-of-gamut colors"
+msgstr ""
+
 #: HISTORY_MSG_COLORTONING_LABGRID_VALUE
 msgid "CT - Color correction"
 msgstr ""
 
-#: HISTORY_MSG_HISTMATCHING,TP_EXPOSURE_HISTMATCHING
-msgid "Auto-matched Tone Curve"
+#: HISTORY_MSG_DUALDEMOSAIC_CONTRAST
+msgid "AMaZE+VNG4 - Contrast threshold"
+msgstr ""
+
+#: HISTORY_MSG_HISTMATCHING
+msgid "Auto-matched tone curve"
+msgstr ""
+
+#: HISTORY_MSG_ICM_OUTPUT_PRIMARIES
+msgid "Output - Primaries"
+msgstr ""
+
+#: HISTORY_MSG_ICM_OUTPUT_TEMP
+msgid "Output - ICC-v4 illuminant D"
+msgstr ""
+
+#: HISTORY_MSG_ICM_OUTPUT_TYPE
+msgid "Output - Type"
+msgstr ""
+
+#: HISTORY_MSG_ICM_WORKING_GAMMA
+msgid "Working - Gamma"
+msgstr ""
+
+#: HISTORY_MSG_ICM_WORKING_SLOPE
+msgid "Working - Slope"
+msgstr ""
+
+#: HISTORY_MSG_ICM_WORKING_TRC_METHOD
+msgid "Working - TRC method"
 msgstr ""
 
 #: HISTORY_MSG_LOCALCONTRAST_AMOUNT
@@ -1009,8 +1053,60 @@ msgstr ""
 msgid "Metadata copy mode"
 msgstr ""
 
+#: HISTORY_MSG_MICROCONTRAST_CONTRAST
+msgid "Microcontrast - Contrast threshold"
+msgstr ""
+
+#: HISTORY_MSG_PIXELSHIFT_DEMOSAIC
+msgid "PS - Demosaic method for motion"
+msgstr ""
+
+#: HISTORY_MSG_PREPROCESS_LINEDENOISE_DIRECTION
+msgid "Line noise filter direction"
+msgstr ""
+
+#: HISTORY_MSG_PREPROCESS_PDAFLINESFILTER,PARTIALPASTE_PREPROCESS_PDAFLINESFILTER,TP_PREPROCESS_PDAFLINESFILTER
+msgid "PDAF lines filter"
+msgstr ""
+
+#: HISTORY_MSG_PRSHARPEN_CONTRAST
+msgid "PRS - Contrast threshold"
+msgstr ""
+
+#: HISTORY_MSG_RAW_BORDER,PARTIALPASTE_RAW_BORDER
+msgid "Raw border"
+msgstr ""
+
+#: HISTORY_MSG_RAWCACORR_AUTOIT
+msgid "Raw CA Correction - Iterations"
+msgstr ""
+
+#: HISTORY_MSG_RAWCACORR_COLORSHIFT
+msgid "Raw CA Correction - Avoid color shift"
+msgstr ""
+
+#: HISTORY_MSG_RESIZE_ALLOWUPSCALING
+msgid "Resize - Allow upscaling"
+msgstr ""
+
+#: HISTORY_MSG_SHARPENING_CONTRAST
+msgid "Sharpening - Contrast threshold"
+msgstr ""
+
+#: HISTORY_MSG_SH_COLORSPACE
+msgid "S/H - Colorspace"
+msgstr ""
+
+#: HISTORY_MSG_SOFTLIGHT_ENABLED,PARTIALPASTE_SOFTLIGHT
+msgid "Soft light"
+msgstr ""
+
+#: HISTORY_MSG_SOFTLIGHT_STRENGTH
+msgid "Soft light - Strength"
+msgstr ""
+
 #: HISTORY_MSG_TM_FATTAL_ANCHOR
-msgid "HDR TM - Anchor"
+msgid "DRC - Anchor"
 msgstr ""
 
 #: HISTORY_MSG_1
@@ -1154,7 +1250,7 @@ msgid "Exposure - Clip"
 msgstr ""
 
 #: HISTORY_MSG_130
-msgid "Auto distorion correction"
+msgid "Auto distortion correction"
 msgstr ""
 
 #: HISTORY_MSG_131
@@ -1165,11 +1261,11 @@ msgstr ""
 msgid "NR - Chroma"
 msgstr ""
 
-#: HISTORY_MSG_133,TP_GAMMA_OUTPUT
+#: HISTORY_MSG_133
 msgid "Output gamma"
 msgstr ""
 
-#: HISTORY_MSG_134,HISTORY_MSG_135,TP_GAMMA_FREE,TP_RETINEX_FREEGAMMA
+#: HISTORY_MSG_134,HISTORY_MSG_135,TP_RETINEX_FREEGAMMA
 msgid "Free gamma"
 msgstr ""
 
@@ -1586,11 +1682,11 @@ msgid "B&amp;W - 'After' curve type"
 msgstr ""
 
 #: HISTORY_MSG_235
-msgid "B&amp;W - Auto channel mixer"
+msgid "B&amp;W - CM - Auto"
 msgstr ""
 
 #: HISTORY_MSG_237
-msgid "B&amp;W - Mixer"
+msgid "B&amp;W - CM"
 msgstr ""
 
 #: HISTORY_MSG_238
@@ -1750,7 +1846,7 @@ msgid "CT - Balance"
 msgstr ""
 
 #: HISTORY_MSG_273
-msgid "CT - Reset"
+msgid "CT - Color Balance SMH"
 msgstr ""
 
 #: HISTORY_MSG_274
@@ -1806,11 +1902,11 @@ msgid "NR - Median - Iterations"
 msgstr ""
 
 #: HISTORY_MSG_288
-msgid "Flat Field - Clip control"
+msgid "Flat-Field - Clip control"
 msgstr ""
 
 #: HISTORY_MSG_289
-msgid "Flat Field - Clip control - Auto"
+msgid "Flat-Field - Clip control - Auto"
 msgstr ""
 
 #: HISTORY_MSG_29
@@ -2213,7 +2309,7 @@ msgstr ""
 msgid "PRS RLD - Iterations"
 msgstr ""
 
-#: HISTORY_MSG_385
+#: HISTORY_MSG_385,HISTORY_MSG_392
 msgid "W - Residual - Color Balance"
 msgstr ""
 
@@ -2243,10 +2339,6 @@ msgstr ""
 
 #: HISTORY_MSG_391
 msgid "W - Residual - CB blue low"
-msgstr ""
-
-#: HISTORY_MSG_392
-msgid "W - Residual - CB Reset"
 msgstr ""
 
 #: HISTORY_MSG_393
@@ -2598,11 +2690,11 @@ msgid "Lens Correction - Lens"
 msgstr ""
 
 #: HISTORY_MSG_488,TP_TM_FATTAL_LABEL
-msgid "HDR Tone Mapping"
+msgid "Dynamic Range Compression"
 msgstr ""
 
 #: HISTORY_MSG_489
-msgid "HDR TM - Threshold"
+msgid "DRC - Threshold"
 msgstr ""
 
 #: HISTORY_MSG_49
@@ -2610,7 +2702,7 @@ msgid "DCP illuminant"
 msgstr ""
 
 #: HISTORY_MSG_490
-msgid "HDR TM - Amount"
+msgid "DRC - Amount"
 msgstr ""
 
 #: HISTORY_MSG_491,TP_WBALANCE_LABEL
@@ -2729,7 +2821,7 @@ msgstr ""
 msgid "VC - Amount"
 msgstr ""
 
-#: HISTORY_MSG_73,TP_BWMIX_MET_CHANMIX,TP_CHMIXER_LABEL
+#: HISTORY_MSG_73,TP_BWMIX_MET_CHANMIX,TP_BWMIX_MIXC,TP_CHMIXER_LABEL
 msgid "Channel Mixer"
 msgstr ""
 
@@ -2793,7 +2885,7 @@ msgstr ""
 msgid "Impulse NR threshold"
 msgstr ""
 
-#: HISTORY_MSG_89,PREFERENCES_NOISE,TP_DIRPYRDENOISE_LABEL
+#: HISTORY_MSG_89,TP_DIRPYRDENOISE_LABEL
 msgid "Noise Reduction"
 msgstr ""
 
@@ -2851,6 +2943,166 @@ msgstr ""
 
 #: HISTORY_SNAPSHOT
 msgid "Snapshot"
+msgstr ""
+
+#: ICCPROFCREATOR_COPYRIGHT_RESET_TOOLTIP
+msgid "Reset to the default copyright, granted to \"RawTherapee, CC0\""
+msgstr ""
+
+#: ICCPROFCREATOR_COPYRIGHT
+msgid "Copyright:"
+msgstr ""
+
+#: ICCPROFCREATOR_DESCRIPTION_ADDPARAM
+msgid "Append gamma and slope values to the description"
+msgstr ""
+
+#: ICCPROFCREATOR_DESCRIPTION_TOOLTIP
+msgid "Leave empty to set the default description."
+msgstr ""
+
+#: ICCPROFCREATOR_DESCRIPTION
+msgid "Description:"
+msgstr ""
+
+#: ICCPROFCREATOR_GAMMA,TP_DIRPYRDENOISE_MAIN_GAMMA,TP_EPD_GAMMA,TP_ICM_WORKING_TRC_GAMMA,TP_RETINEX_GAMMA
+msgid "Gamma"
+msgstr ""
+
+#: ICCPROFCREATOR_ICCVERSION
+msgid "ICC version:"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_DEF
+msgid "Default"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_INC
+msgid "StdA 2856K"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_TOOLTIP
+msgid "You can only set the illuminant for ICC v4 profiles."
+msgstr ""
+
+#: ICCPROFCREATOR_ILL
+msgid "Illuminant:"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_41
+msgid "D41"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_50
+msgid "D50"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_55
+msgid "D55"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_60
+msgid "D60"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_65
+msgid "D65"
+msgstr ""
+
+#: ICCPROFCREATOR_ILL_80
+msgid "D80"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_ACESP0
+msgid "ACES AP0"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_ACESP1
+msgid "ACES AP1"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_ADOBE
+msgid "Adobe RGB (1998)"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIMARIES
+msgid "Primaries:"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_BEST
+msgid "BestRGB"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_BETA
+msgid "BetaRGB"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_BLUX
+msgid "Blue X"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_BLUY
+msgid "Blue Y"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_BRUCE
+msgid "BruceRGB"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_GREX
+msgid "Green X"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_GREY
+msgid "Green Y"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_PROPH
+msgid "Prophoto"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_REC2020
+msgid "Rec2020"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_REDX
+msgid "Red X"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_REDY
+msgid "Red Y"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_SRGB
+msgid "sRGB"
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_TOOLTIP
+msgid "You can only set custom primaries for ICC v4 profiles."
+msgstr ""
+
+#: ICCPROFCREATOR_PRIM_WIDEG
+msgid "Widegamut"
+msgstr ""
+
+#: ICCPROFCREATOR_PROF_V2
+msgid "ICC v2"
+msgstr ""
+
+#: ICCPROFCREATOR_PROF_V4
+msgid "ICC v4"
+msgstr ""
+
+#: ICCPROFCREATOR_SAVEDIALOG_TITLE
+msgid "Save ICC profile as..."
+msgstr ""
+
+#: ICCPROFCREATOR_SLOPE,TP_ICM_WORKING_TRC_SLOPE
+msgid "Slope"
+msgstr ""
+
+#: ICCPROFCREATOR_TRC_PRESET,TP_ICM_WORKING_TRC
+msgid "Tone response curve:"
 msgstr ""
 
 #: IPTCPANEL_CATEGORYHINT
@@ -3037,6 +3289,10 @@ msgstr ""
 msgid "Fullscreen"
 msgstr ""
 
+#: MAIN_BUTTON_ICCPROFCREATOR
+msgid "ICC Profile Creator"
+msgstr ""
+
 #: MAIN_BUTTON_NAVNEXT_TOOLTIP
 msgid "Navigate to the next image relative to image opened in the Editor.\nShortcut: <b>Shift-F4</b>\n\nTo navigate to the next image relative to the currently selected thumbnail in the File Browser or Filmstrip:\nShortcut: <b>F4</b>"
 msgstr ""
@@ -3058,7 +3314,7 @@ msgid "Put current image to processing queue.\nShortcut: <b>Ctrl+b</b>"
 msgstr ""
 
 #: MAIN_BUTTON_SAVE_TOOLTIP
-msgid "Save current image.\nShortcut: <b>Ctrl+s</b>"
+msgid "Save current image.\nShortcut: <b>Ctrl+s</b>\nSave current profile (.pp3).\nShortcut: <b>Ctrl+Shift+s</b>"
 msgstr ""
 
 #: MAIN_BUTTON_SENDTOEDITOR_TOOLTIP
@@ -3301,6 +3557,10 @@ msgstr ""
 msgid "Preview the <b>Red channel</b>.\nShortcut: <b>r</b>"
 msgstr ""
 
+#: MAIN_TOOLTIP_PREVIEWSHARPMASK
+msgid "Preview the <b>Sharpening Contrast Mask</b>.\nShortcut: <b>None</b>\n\nOnly works when sharpening is enabled and zoom >= 100%."
+msgstr ""
+
 #: MAIN_TOOLTIP_QINFO
 msgid "Quick info on the image.\nShortcut: <b>i</b>"
 msgstr ""
@@ -3541,6 +3801,10 @@ msgstr ""
 msgid "CA auto-correction"
 msgstr ""
 
+#: PARTIALPASTE_RAWCACORR_AVOIDCOLORSHIFT
+msgid "CA avoid color shift"
+msgstr ""
+
 #: PARTIALPASTE_RAWCACORR_CAREDBLUE
 msgid "CA red & blue"
 msgstr ""
@@ -3578,7 +3842,7 @@ msgid "Sharpening (USM/RL)"
 msgstr ""
 
 #: PARTIALPASTE_TM_FATTAL
-msgid "HDR Tone mapping"
+msgid "Dynamic range compression"
 msgstr ""
 
 #: PARTIALPASTE_VIGNETTING,TP_LENSPROFILE_USEVIGN
@@ -3593,39 +3857,12 @@ msgstr ""
 msgid "restart required"
 msgstr ""
 
-#: PREFERENCES_AUTLISLOW
-msgctxt "PREFERENCES_AUTLISLOW"
-msgid "Low"
-msgstr ""
-
-#: PREFERENCES_AUTLISMAX
-msgid "Max - Average of all tiles"
-msgstr ""
-
-#: PREFERENCES_AUTLISSTD
-msgctxt "PREFERENCES_AUTLISSTD"
-msgid "High"
-msgstr ""
-
-#: PREFERENCES_AUTLISVLOW
-msgctxt "PREFERENCES_AUTLISVLOW"
-msgid "None"
-msgstr ""
-
-#: PREFERENCES_AUTLOW,TP_RETINEX_GAMMA_LOW,TP_WAVELET_NPLOW
-msgid "Low"
-msgstr ""
-
 #: PREFERENCES_AUTOMONPROFILE
 msgid "Use operating system's main monitor color profile"
 msgstr ""
 
 #: PREFERENCES_AUTOSAVE_TP_OPEN
 msgid "Automatically save tools collapsed/expanded\nstate before exiting"
-msgstr ""
-
-#: PREFERENCES_AUTSTD
-msgid "Standard"
 msgstr ""
 
 #: PREFERENCES_BEHADDALLHINT
@@ -3674,22 +3911,6 @@ msgstr ""
 
 #: PREFERENCES_CACHETHUMBHEIGHT
 msgid "Maximum thumbnail height"
-msgstr ""
-
-#: PREFERENCES_CIEART_FRAME
-msgid "CIECAM02-Specific Settings"
-msgstr ""
-
-#: PREFERENCES_CIEART_LABEL
-msgid "Use float precision instead of double"
-msgstr ""
-
-#: PREFERENCES_CIEART_TOOLTIP
-msgid "If enabled, CIECAM02 calculations are performed in the single-precision floating-point format instead of the double-precision one. This provides a small increase in speed at the expense of a negligible loss of quality."
-msgstr ""
-
-#: PREFERENCES_CIEART
-msgid "CIECAM02 optimization"
 msgstr ""
 
 #: PREFERENCES_CLIPPINGIND
@@ -3800,14 +4021,6 @@ msgstr ""
 msgid "Date format"
 msgstr ""
 
-#: PREFERENCES_DAUB_LABEL
-msgid "Use Daubechies D6 wavelets instead of D4"
-msgstr ""
-
-#: PREFERENCES_DAUB_TOOLTIP
-msgid "The Noise Reduction and Wavelet Levels tools use a Debauchies mother wavelet. If you choose D6 instead of D4 you increase the number of orthogonal Daubechies coefficients and probably increase quality of small-scale levels. There is no memory or processing time difference between the two."
-msgstr ""
-
 #: PREFERENCES_DIRDARKFRAMES
 msgid "Dark-frames directory"
 msgstr ""
@@ -3862,10 +4075,6 @@ msgstr ""
 
 #: PREFERENCES_EDITORLAYOUT
 msgid "Editor Layout"
-msgstr ""
-
-#: PREFERENCES_EXPAUT
-msgid "Expert"
 msgstr ""
 
 #: PREFERENCES_EXTERNALEDITOR
@@ -4024,28 +4233,8 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: PREFERENCES_LEVAUTDN
-msgid "Denoising level"
-msgstr ""
-
-#: PREFERENCES_LEVDN
-msgid "Cell size"
-msgstr ""
-
-#: PREFERENCES_LISS
-msgid "Auto multi-zone smoothing"
-msgstr ""
-
 #: PREFERENCES_MAXRECENTFOLDERS
 msgid "Maximum number of recent folders"
-msgstr ""
-
-#: PREFERENCES_MAX
-msgid "Maxi (Tile)"
-msgstr ""
-
-#: PREFERENCES_MED
-msgid "Medium (Tile/2)"
 msgstr ""
 
 #: PREFERENCES_MENUGROUPEXTPROGS
@@ -4070,10 +4259,6 @@ msgstr ""
 
 #: PREFERENCES_MENUOPTIONS
 msgid "Context Menu Options"
-msgstr ""
-
-#: PREFERENCES_MIN
-msgid "Mini (100x115)"
 msgstr ""
 
 #: PREFERENCES_MONINTENT
@@ -4168,6 +4353,14 @@ msgstr ""
 msgid "Parsed Extensions"
 msgstr ""
 
+#: PREFERENCES_PERFORMANCE_THREADS_LABEL
+msgid "Maximum number of threads for Noise Reduction and Wavelet Levels (0 = Automatic)"
+msgstr ""
+
+#: PREFERENCES_PERFORMANCE_THREADS
+msgid "Threads"
+msgstr ""
+
 #: PREFERENCES_PREVDEMO_FAST,TP_RAW_FAST
 msgid "Fast"
 msgstr ""
@@ -4244,14 +4437,6 @@ msgstr ""
 msgid "Remember zoom % and pan offset"
 msgstr ""
 
-#: PREFERENCES_RGBDTL_LABEL
-msgid "Max number of threads for Noise Reduction and Wavelet Levels"
-msgstr ""
-
-#: PREFERENCES_RGBDTL_TOOLTIP
-msgid "Leave the setting at \"0\" to automatically use as many threads as possible. The more threads run in parallel, the faster the computation. Refer to RawPedia for memory requirements."
-msgstr ""
-
 #: PREFERENCES_SAVE_TP_OPEN_NOW
 msgid "Save tools collapsed/expanded state now"
 msgstr ""
@@ -4308,20 +4493,12 @@ msgstr ""
 msgid "Threshold for clipped shadows"
 msgstr ""
 
-#: PREFERENCES_SIMPLAUT
-msgid "Tool mode"
-msgstr ""
-
 #: PREFERENCES_SINGLETABVERTAB
 msgid "Single Editor Tab Mode, Vertical Tabs"
 msgstr ""
 
 #: PREFERENCES_SINGLETAB
 msgid "Single Editor Tab Mode"
-msgstr ""
-
-#: PREFERENCES_SMA
-msgid "Small (250x287)"
 msgstr ""
 
 #: PREFERENCES_SND_BATCHQUEUEDONE
@@ -4336,17 +4513,12 @@ msgstr ""
 msgid "Editor processing done"
 msgstr ""
 
-#: PREFERENCES_SND_TRESHOLDSECS
+#: PREFERENCES_SND_THRESHOLDSECS
 msgid "After seconds"
 msgstr ""
 
 #: PREFERENCES_STARTUPIMDIR
 msgid "Image Directory at Startup"
-msgstr ""
-
-#: PREFERENCES_STDAUT
-msgctxt "PREFERENCES_STDAUT"
-msgid "Standard"
 msgstr ""
 
 #: PREFERENCES_TAB_COLORMGR,TP_ICM_LABEL
@@ -4366,7 +4538,7 @@ msgid "Image Processing"
 msgstr ""
 
 #: PREFERENCES_TAB_PERFORMANCE
-msgid "Performance & Quality"
+msgid "Performance"
 msgstr ""
 
 #: PREFERENCES_TAB_SOUND
@@ -4377,26 +4549,24 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: PREFERENCES_TIMAX
-msgctxt "PREFERENCES_TIMAX"
-msgid "High"
+#: PREFERENCES_THUMBNAIL_INSPECTOR_JPEG
+msgid "Embedded JPEG preview"
 msgstr ""
 
-#: PREFERENCES_TINB
-msgid "Number of tiles"
+#: PREFERENCES_THUMBNAIL_INSPECTOR_MODE
+msgid "Image to show"
 msgstr ""
 
-#: PREFERENCES_TISTD
-msgctxt "PREFERENCES_TISTD"
-msgid "Standard"
+#: PREFERENCES_THUMBNAIL_INSPECTOR_RAW_IF_NO_JPEG_FULLSIZE
+msgid "Embedded JPEG if fullsize, neutral raw otherwise"
+msgstr ""
+
+#: PREFERENCES_THUMBNAIL_INSPECTOR_RAW
+msgid "Neutral raw rendering"
 msgstr ""
 
 #: PREFERENCES_TP_LABEL
 msgid "Tool panel:"
-msgstr ""
-
-#: PREFERENCES_TP_USEICONORTEXT
-msgid "Use tab icons instead of text"
 msgstr ""
 
 #: PREFERENCES_TP_VSCROLLBAR
@@ -4413,18 +4583,6 @@ msgstr ""
 
 #: PREFERENCES_VIEW
 msgid "Output device's white balance (monitor, TV, projector, viewing, etc.)"
-msgstr ""
-
-#: PREFERENCES_WAVLEV
-msgid "Increase wavelet level in quality 'high'"
-msgstr ""
-
-#: PREFERENCES_WLONE,TP_WAVELET_LEVDIR_ONE
-msgid "One level"
-msgstr ""
-
-#: PREFERENCES_WLTWO
-msgid "Two levels"
 msgstr ""
 
 #: PREFERENCES_WORKFLOW
@@ -4580,27 +4738,39 @@ msgid "Unknown data format"
 msgstr ""
 
 #: SAMPLEFORMAT_1
-msgid "Unsigned 8 bits"
+msgid "8-bit unsigned"
 msgstr ""
 
 #: SAMPLEFORMAT_16
-msgid "32 bits floating point"
+msgid "16-bit floating-point"
 msgstr ""
 
 #: SAMPLEFORMAT_2
-msgid "Unsigned 16 bits"
+msgid "16-bit unsigned"
+msgstr ""
+
+#: SAMPLEFORMAT_32
+msgid "24-bit floating-point"
 msgstr ""
 
 #: SAMPLEFORMAT_4
-msgid "LogLuv 24 bits"
+msgid "24-bit LogLuv"
+msgstr ""
+
+#: SAMPLEFORMAT_64
+msgid "32-bit floating-point"
 msgstr ""
 
 #: SAMPLEFORMAT_8
-msgid "LogLuv 32 bits"
+msgid "32-bit LogLuv"
 msgstr ""
 
 #: SAVEDLG_AUTOSUFFIX
 msgid "Automatically add a suffix if the file already exists"
+msgstr ""
+
+#: SAVEDLG_FILEFORMAT_FLOAT
+msgid " floating-point"
 msgstr ""
 
 #: SAVEDLG_FORCEFORMATOPTS
@@ -4731,10 +4901,6 @@ msgstr ""
 msgid "Algorithm OYCPM"
 msgstr ""
 
-#: TP_BWMIX_AUTOCH_TIP
-msgid "Calculate values optimizing Channel Mixer."
-msgstr ""
-
 #: TP_BWMIX_AUTOCH,TP_WBALANCE_AUTO
 msgid "Auto"
 msgstr ""
@@ -4842,18 +5008,6 @@ msgstr ""
 
 #: TP_BWMIX_MET,TP_COLORTONING_METHOD,TP_DIRPYRDENOISE_CHROMINANCE_METHOD,TP_RAW_DMETHOD,TP_RETINEX_METHOD,TP_SHARPENING_METHOD,TP_WBALANCE_METHOD
 msgid "Method"
-msgstr ""
-
-#: TP_BWMIX_MIXC
-msgid "Mixer"
-msgstr ""
-
-#: TP_BWMIX_NEUTRAL_TIP
-msgid "Reset all values (Color Filter, Channel Mixer) to default."
-msgstr ""
-
-#: TP_BWMIX_NEUTRAL
-msgid "Reset mixer"
 msgstr ""
 
 #: TP_BWMIX_RGBLABEL_HINT
@@ -5134,7 +5288,7 @@ msgid "Colorfulness in CIECAM02 differs from L*a*b* and RGB colorfulness."
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_M
-msgid "Colorfulnes (M)"
+msgid "Colorfulness (M)"
 msgstr ""
 
 #: TP_COLORAPP_CHROMA_S_TOOLTIP
@@ -5178,7 +5332,7 @@ msgid "Lightness (J)"
 msgstr ""
 
 #: TP_COLORAPP_MODEL_TOOLTIP
-msgid "White-Point Model.\n\n<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, CIECAM02 is set to D50, and the output device's white balance is set in Viewing Conditions.\n\n<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by CAT02 and the output device's white balance is set in Viewing Conditions.\n\n<b>Free temp+green + CAT02 + [output]:</b> temp and green are selected bu user, output device's white balance is set in Viewing Conditions."
+msgid "White-Point Model.\n\n<b>WB [RT] + [output]</b>: RT's white balance is used for the scene, CIECAM02 is set to D50, and the output device's white balance is set in Viewing Conditions.\n\n<b>WB [RT+CAT02] + [output]</b>: RT's white balance settings are used by CAT02 and the output device's white balance is set in Viewing Conditions.\n\n<b>Free temp+green + CAT02 + [output]:</b> temp and green are selected by the user, the output device's white balance is set in Viewing Conditions."
 msgstr ""
 
 #: TP_COLORAPP_MODEL
@@ -5278,7 +5432,7 @@ msgid "WB [RT] + [output]"
 msgstr ""
 
 #: TP_COLORAPP_YBSCENE_TOOLTIP
-msgid "if auto is enabled, Yb is calculated from the mean value of the actual image's luminance "
+msgid "If \"auto\" is enabled, Yb is calculated from the mean value of the actual image's luminance"
 msgstr ""
 
 #: TP_COLORAPP_YB,TP_COLORAPP_YBSCENE
@@ -5353,7 +5507,7 @@ msgstr ""
 msgid "RGB - Sliders"
 msgstr ""
 
-#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RAWCACORR_CASTR,TP_RETINEX_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
+#: TP_COLORTONING_SATURATEDOPACITY,TP_COLORTONING_STR,TP_COLORTONING_STRENGTH,TP_EPD_STRENGTH,TP_FILMSIMULATION_STRENGTH,TP_GRADIENT_STRENGTH,TP_PCVIGNETTE_STRENGTH,TP_RAWCACORR_CASTR,TP_RETINEX_STRENGTH,TP_SOFTLIGHT_STRENGTH,TP_VIGNETTING_STRENGTH,TP_WAVELET_EDVAL,TP_WAVELET_STREN,TP_WAVELET_STRENGTH
 msgid "Strength"
 msgstr ""
 
@@ -5582,10 +5736,6 @@ msgstr ""
 msgid "Gamma varies noise reduction strength across the range of tones. Smaller values will target shadows, while larger values will stretch the effect to the brighter tones."
 msgstr ""
 
-#: TP_DIRPYRDENOISE_MAIN_GAMMA,TP_EPD_GAMMA,TP_GAMMA_CURV,TP_RETINEX_GAMMA
-msgid "Gamma"
-msgstr ""
-
 #: TP_DIRPYRDENOISE_MAIN_MODE_AGGRESSIVE
 msgid "Aggressive"
 msgstr ""
@@ -5794,6 +5944,10 @@ msgstr ""
 msgid "Automatically adjust sliders and curves (except exposure compensation) to match the look of the embedded JPEG thumbnail."
 msgstr ""
 
+#: TP_EXPOSURE_HISTMATCHING
+msgid "Auto-Matched Tone Curve"
+msgstr ""
+
 #: TP_EXPOSURE_TCMODE_FILMLIKE
 msgid "Film-like"
 msgstr ""
@@ -5835,7 +5989,7 @@ msgstr ""
 msgid "Area"
 msgstr ""
 
-#: TP_FLATFIELD_BT_HORIZONTAL,TP_PERSPECTIVE_HORIZONTAL,TP_WAVELET_DTWO
+#: TP_FLATFIELD_BT_HORIZONTAL,TP_PERSPECTIVE_HORIZONTAL,TP_PREPROCESS_LINEDENOISE_DIRECTION_HORIZONTAL,TP_WAVELET_DTWO
 msgid "Horizontal"
 msgstr ""
 
@@ -5843,7 +5997,7 @@ msgstr ""
 msgid "Vertical + Horizontal"
 msgstr ""
 
-#: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL,TP_WAVELET_DONE
+#: TP_FLATFIELD_BT_VERTICAL,TP_PERSPECTIVE_VERTICAL,TP_PREPROCESS_LINEDENOISE_DIRECTION_VERTICAL,TP_WAVELET_DONE
 msgid "Vertical"
 msgstr ""
 
@@ -5853,10 +6007,6 @@ msgstr ""
 
 #: TP_FLATFIELD_CLIPCONTROL
 msgid "Clip control"
-msgstr ""
-
-#: TP_GAMMA_SLOP
-msgid "Slope (linear)"
 msgstr ""
 
 #: TP_GENERAL_11SCALE_TOOLTIP
@@ -6092,11 +6242,15 @@ msgstr ""
 msgid "Working Profile"
 msgstr ""
 
+#: TP_ICM_WORKING_TRC_TOOLTIP
+msgid "Only for built-in profiles."
+msgstr ""
+
 #: TP_LABCURVE_AVOIDCOLORSHIFT_TOOLTIP
 msgid "Fit colors into gamut of the working color space and apply Munsell correction."
 msgstr ""
 
-#: TP_LABCURVE_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT,TP_WAVELET_AVOID
+#: TP_LABCURVE_AVOIDCOLORSHIFT,TP_RAWCACORR_AVOIDCOLORSHIFT,TP_VIBRANCE_AVOIDCOLORSHIFT,TP_WAVELET_AVOID
 msgid "Avoid color shift"
 msgstr ""
 
@@ -6292,8 +6446,24 @@ msgstr ""
 msgid "Preprocessing"
 msgstr ""
 
+#: TP_PREPROCESS_LINEDENOISE_DIRECTION_BOTH
+msgid "Both"
+msgstr ""
+
+#: TP_PREPROCESS_LINEDENOISE_DIRECTION_PDAF_LINES
+msgid "Horizontal only on PDAF rows"
+msgstr ""
+
+#: TP_PREPROCESS_LINEDENOISE_DIRECTION
+msgid "Direction"
+msgstr ""
+
 #: TP_PREPROCESS_NO_FOUND
 msgid "None found"
+msgstr ""
+
+#: TP_PREPROCESS_PDAFLINESFILTER_TOOLTIP
+msgid "Tries to suppress stripe noise caused by on-sensor PDAF pixels, occurring with some Sony mirrorless cameras on some backlit scenes with visible flare."
 msgstr ""
 
 #: TP_PRSHARPENING_TOOLTIP
@@ -6304,8 +6474,20 @@ msgstr ""
 msgid "AHD"
 msgstr ""
 
+#: TP_RAW_AMAZEVNG4
+msgid "AMaZE+VNG4"
+msgstr ""
+
 #: TP_RAW_AMAZE
 msgid "AMaZE"
+msgstr ""
+
+#: TP_RAW_BORDER
+msgid "Border"
+msgstr ""
+
+#: TP_RAWCACORR_AUTOIT,TP_SHARPENEDGE_PASSES,TP_SHARPENING_RLD_ITERATIONS
+msgid "Iterations"
 msgstr ""
 
 #: TP_RAWCACORR_AUTO
@@ -6314,6 +6496,10 @@ msgstr ""
 
 #: TP_RAW_DCBITERATIONS
 msgid "Number of DCB iterations"
+msgstr ""
+
+#: TP_RAW_DCBVNG4
+msgid "DCB+VNG4"
 msgstr ""
 
 #: TP_RAW_DCB
@@ -6330,6 +6516,10 @@ msgstr ""
 
 #: TP_RAW_DMETHOD_TOOLTIP
 msgid "Note: IGV and LMMSE are dedicated to high ISO images to aid in noise reduction without leading to maze patterns, posterization or a washed-out look.\nPixel Shift is for Pentax/Sony Pixel Shift files. It falls back to AMaZE for non-Pixel Shift files."
+msgstr ""
+
+#: TP_RAW_DUALDEMOSAICCONTRAST,TP_SHARPENING_CONTRAST,TP_SHARPENMICRO_CONTRAST
+msgid "Contrast threshold"
 msgstr ""
 
 #: TP_RAW_EAHD
@@ -6404,20 +6594,20 @@ msgstr ""
 msgid "None (Shows sensor pattern)"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTADAPTIVE
-msgid "Adaptive detection"
-msgstr ""
-
 #: TP_RAW_PIXELSHIFTBLUR
 msgid "Blur motion mask"
 msgstr ""
 
+#: TP_RAW_PIXELSHIFTDMETHOD
+msgid "Demosaic method for motion"
+msgstr ""
+
 #: TP_RAW_PIXELSHIFTEPERISO_TOOLTIP
-msgid "The default value of 0 should work fine for base ISO.\nIncrease the value to improve motion detection for higher ISO.\nIncrease in small steps and watch the motion mask while increasing."
+msgid "The default value of 0 should work fine for base ISO.\nHigher values increase sensitivity of motion detection.\nChange in small steps and watch the motion mask while changing.\nIncrease sensitivity for underexposed or high ISO images."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEPERISO
-msgid "ISO adaption"
+msgid "Sensitivity"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHTCHANNEL_TOOLTIP
@@ -6429,15 +6619,11 @@ msgid "Equalize per channel"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHT_TOOLTIP
-msgid "Equalize the brightness of the frames to the brightness of the selected frame.\nIf there are overexposed areas in the frames select the brightest frame to avoid magenta colour cast in overexposed areas or enable motion correction."
+msgid "Equalize the brightness of the frames to the brightness of the selected frame.\nIf there are overexposed areas in the frames select the brightest frame to avoid magenta color cast in overexposed areas or enable motion correction."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTEQUALBRIGHT
 msgid "Equalize brightness of frames"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTEXP0
-msgid "Experimental"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTGREEN
@@ -6456,24 +6642,12 @@ msgstr ""
 msgid "Use LMMSE for moving parts"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTMASKTHRESHOLD
-msgid "3x3 new threshold"
-msgstr ""
-
 #: TP_RAW_PIXELSHIFTMEDIAN_TOOLTIP
 msgid "Use median of all frames instead of selected frame for regions with motion.\nRemoves objects which are at different places in all frames.\nGives motion effect on slow moving (overlapping) objects."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMEDIAN
 msgid "Use median for moving parts"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTMEDIAN3_TOOLTIP
-msgid "Excludes selected frame from median.\nUseful if moving objects overlap in frame 2 and 3"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTMEDIAN3
-msgid "Exclude selected frame from median"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTMM_AUTO
@@ -6485,10 +6659,6 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTMOTIONCORRECTION
-msgid "Green motion correction size"
-msgstr ""
-
 #: TP_RAW_PIXELSHIFTMOTIONMETHOD
 msgid "Motion Correction"
 msgstr ""
@@ -6497,48 +6667,8 @@ msgstr ""
 msgid "0 means no motion detection.\n1 - 99 means motion will be detected according to this value. Increase value to increase detection rate.\n100 means the AMaZE-demosaiced frame will be used."
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTMOTION
-msgid "Motion detection level (deprecated)"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTNONGREENAMAZE
-msgid "Check red/blue AMaZE"
-msgstr ""
-
 #: TP_RAW_PIXELSHIFTNONGREENCROSS
 msgid "Check red/blue channels for motion"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTNONGREENCROSS2
-msgid "Check green AMaZE"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTNONGREENHORIZONTAL
-msgid "Check red/blue horizontal"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTNONGREENVERTICAL
-msgid "Check red/blue vertical"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTNREADISO
-msgid "nRead"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTONEGREEN_TOOLTIP
-msgid "Use one green instead of averaging two greens for regions without motion."
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTONEGREEN
-msgid "Use one green instead of average"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTPRNU
-msgid "PRNU (%)"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTREDBLUEWEIGHT
-msgid "Red&Blue weight"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTIONMASKONLY_TOOLTIP
@@ -6550,7 +6680,7 @@ msgid "Show only motion mask"
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTION_TOOLTIP
-msgid "Overlays the image with a mask showing the regions with motion."
+msgid "Overlays the image with a green mask showing the regions with motion."
 msgstr ""
 
 #: TP_RAW_PIXELSHIFTSHOWMOTION
@@ -6569,16 +6699,8 @@ msgstr ""
 msgid "Smooth transitions"
 msgstr ""
 
-#: TP_RAW_PIXELSHIFTSTDDEVFACTORBLUE
-msgid "StdDev factor Blue"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTSTDDEVFACTORGREEN
-msgid "StdDev factor Green"
-msgstr ""
-
-#: TP_RAW_PIXELSHIFTSTDDEVFACTORRED
-msgid "StdDev factor Red"
+#: TP_RAW_RCDVNG4
+msgid "RCD+VNG4"
 msgstr ""
 
 #: TP_RAW_RCD
@@ -6590,7 +6712,7 @@ msgid "Sensor with Bayer Matrix"
 msgstr ""
 
 #: TP_RAW_SENSOR_XTRANS_DMETHOD_TOOLTIP
-msgid "3-pass gives best results (recommended for low ISO images).\n1-pass is almost undistinguishable from 3-pass for high ISO images and is faster."
+msgid "3-pass gives best results (recommended for low ISO images).\n1-pass is almost undistinguishable from 3-pass for high ISO images and is faster.\n+fast gives less artifacts in flat areas"
 msgstr ""
 
 #: TP_RAW_SENSOR_XTRANS_LABEL
@@ -6602,11 +6724,23 @@ msgid "VNG4"
 msgstr ""
 
 #: TP_RAW_1PASSMEDIUM
-msgid "1-Pass (Medium)"
+msgid "1-pass (Markesteijn)"
+msgstr ""
+
+#: TP_RAW_2PASS
+msgid "1-pass+fast"
 msgstr ""
 
 #: TP_RAW_3PASSBEST
-msgid "3-Pass (Best)"
+msgid "3-pass (Markesteijn)"
+msgstr ""
+
+#: TP_RAW_4PASS
+msgid "3-pass+fast"
+msgstr ""
+
+#: TP_RESIZE_ALLOW_UPSCALING
+msgid "Allow Upscaling"
 msgstr ""
 
 #: TP_RESIZE_APPLIESTO
@@ -6694,7 +6828,7 @@ msgid "Acts on the restored image.\n\nThis is very different from the others set
 msgstr ""
 
 #: TP_RETINEX_GAINTRANSMISSION_TOOLTIP
-msgid "Amplify or reduce transmission map to achieve luminance.\nAbscissa: transmission -min from 0, mean, and values (max).\nOrdinate: gain."
+msgid "Amplify or reduce the transmission map to achieve the desired luminance.\nThe x-axis is the transmission.\nThe y-axis is the gain."
 msgstr ""
 
 #: TP_RETINEX_GAINTRANSMISSION
@@ -6711,6 +6845,10 @@ msgstr ""
 
 #: TP_RETINEX_GAMMA_HIGH,TP_WAVELET_NPHIGH
 msgid "High"
+msgstr ""
+
+#: TP_RETINEX_GAMMA_LOW,TP_WAVELET_NPLOW
+msgid "Low"
 msgstr ""
 
 #: TP_RETINEX_GAMMA_MID
@@ -6958,10 +7096,6 @@ msgstr ""
 msgid "Quantity"
 msgstr ""
 
-#: TP_SHARPENEDGE_PASSES,TP_SHARPENING_RLD_ITERATIONS
-msgid "Iterations"
-msgstr ""
-
 #: TP_SHARPENING_EDTOLERANCE
 msgid "Edge tolerance"
 msgstr ""
@@ -6992,6 +7126,10 @@ msgstr ""
 
 #: TP_SHARPENMICRO_UNIFORMITY
 msgid "Uniformity"
+msgstr ""
+
+#: TP_SOFTLIGHT_LABEL
+msgid "Soft Light"
 msgstr ""
 
 #: TP_TM_FATTAL_ANCHOR
@@ -7179,7 +7317,7 @@ msgid "Diagonal"
 msgstr ""
 
 #: TP_WAVELET_EDGCONT_TOOLTIP
-msgid "Adjusting the points to the left decreases contrast, and to the right increases it.\nBottom-left, Top-Left, Top-Right, Bottom-right represent respectively local contast for low values, mean, mean+stdev, maxima"
+msgid "Adjusting the points to the left decreases contrast, and to the right increases it.\nBottom-left, top-left, top-right and bottom-right represent respectively local contrast for low values, mean, mean+stdev and maxima."
 msgstr ""
 
 #: TP_WAVELET_EDGEAMPLI
@@ -7219,7 +7357,7 @@ msgid "Reinforce or reduce the action of the first level, do the opposite to the
 msgstr ""
 
 #: TP_WAVELET_EDGTHRESH_TOOLTIP
-msgid "Change the repartition between the first levels and the others. The higher the threshold the more the action is centred on the first levels. Be careful with negative values, they increase the action of high levels and can introduce artifacts."
+msgid "Change the repartition between the first levels and the others. The higher the threshold the more the action is centered on the first levels. Be careful with negative values, they increase the action of high levels and can introduce artifacts."
 msgstr ""
 
 #: TP_WAVELET_EDRAD_TOOLTIP
@@ -7304,6 +7442,10 @@ msgstr ""
 
 #: TP_WAVELET_LEVDIR_INF
 msgid "Below or equal the level"
+msgstr ""
+
+#: TP_WAVELET_LEVDIR_ONE
+msgid "One level"
 msgstr ""
 
 #: TP_WAVELET_LEVDIR_SUP
@@ -7655,7 +7797,7 @@ msgid "Solux 4700K (vendor)"
 msgstr ""
 
 #: TP_WBALANCE_SPOTWB
-msgid "Spot WB"
+msgid "Use the pipette to pick the white balance from a neutral patch in the preview."
 msgstr ""
 
 #: TP_WBALANCE_TEMPBIAS_TOOLTIP
