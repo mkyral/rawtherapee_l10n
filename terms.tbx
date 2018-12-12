@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE martif PUBLIC 'ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN' 'TBXcdv04.dtd'>
+<martif type="TBX" xml:lang="en_US">
+    <text>
+        <body>
+        <termEntry id="-0">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>luminance</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>jas</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="-2">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>gamut</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>paleta</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="-4">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>Chroma</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>Barevnost</term>
+          </tig>
+        </langSet>
+      </termEntry>
+    <termEntry id="-1">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>edge</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>hrana</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="-5">
+        <descrip type="definition"> Doostření hran</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>ES</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>DH</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="-8">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>hue</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>Odstín</term>
+          </tig>
+        </langSet>
+      </termEntry>
+    <termEntry id="-3">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>chrominance</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>barevnost</term>
+          </tig>
+        </langSet>
+      </termEntry>
+    <termEntry id="-6">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>equalizer</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term>korekce</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="-7">
+        <langSet xml:lang="en-US">
+          <tig>
+            <term></term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="cs">
+          <tig>
+            <term></term>
+          </tig>
+        </langSet>
+      </termEntry>
+    </body>
+    </text>
+</martif>
