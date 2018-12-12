@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version:\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
 "POT-Creation-Date: 2018-12-04 06:27+0100\n"
-"PO-Revision-Date: 2018-12-04 08:02+0100\n"
+"PO-Revision-Date: 2018-10-24 23:01+0100\n"
 "Last-Translator: Marian Kyral <mkyral@email.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -204,11 +204,12 @@ msgstr ""
 
 #: DYNPROFILEEDITOR_IMGTYPE_ANY
 msgid "Any"
-msgstr "Jakýkoli"
+msgstr ""
 
 #: DYNPROFILEEDITOR_IMGTYPE_HDR
+#, fuzzy
 msgid "HDR"
-msgstr "HDR"
+msgstr "AHD"
 
 #: DYNPROFILEEDITOR_IMGTYPE_PS,PARTIALPASTE_RAW_PIXELSHIFT,TP_RAW_PIXELSHIFT
 msgid "Pixel Shift"
@@ -560,12 +561,13 @@ msgstr ""
 "<b>!</b>\t- složka s obrázky uživatele."
 
 #: FILEBROWSER_CACHECLEARFROMFULL
+#, fuzzy
 msgid "Clear all including cached profiles"
-msgstr "Smazat vše včetně profilů zpracování v mezipaměti"
+msgstr "Smazat profily zpracování"
 
 #: FILEBROWSER_CACHECLEARFROMPARTIAL
 msgid "Clear all except cached profiles"
-msgstr "Smazat všechny profily mimo těch v mezipaměti"
+msgstr ""
 
 #: FILEBROWSER_CACHE
 msgid "Cache"
@@ -1152,8 +1154,9 @@ msgid "Close"
 msgstr "Zavřít"
 
 #: GENERAL_CURRENT
+#, fuzzy
 msgid "Current"
-msgstr "Současný"
+msgstr "Současné jméno:"
 
 #: GENERAL_DISABLED
 msgid "Disabled"
@@ -1286,76 +1289,87 @@ msgid "CT - Color correction"
 msgstr "Barevné tónování - Korekce barev"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_HUEMASK
+#, fuzzy
 msgid "CT - H mask"
-msgstr "Barevné tónování - H maska"
+msgstr "Barevné tónování - Stíny"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_CHANNEL
+#, fuzzy
 msgid "CT - Channel"
-msgstr "BT - Kanál"
+msgstr "Kanál"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_CHROMATICITYMASK
+#, fuzzy
 msgid "CT - region C mask"
-msgstr "BT -oblast C masky"
+msgstr "PS - Maska pohybové neostrosti"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_LIGHTNESSMASK
+#, fuzzy
 msgid "CT - L mask"
-msgstr "BT - L maska"
+msgstr "Barevné tónování - Stíny"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_LIGHTNESS
+#, fuzzy
 msgid "CT - Lightness"
-msgstr "BT - Světlost"
+msgstr "Světlost"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_LIST
+#, fuzzy
 msgid "CT - List"
-msgstr "BT - "
+msgstr "Barevné tónování - Obnovení"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_MASKBLUR
 msgid "CT - region mask blur"
-msgstr "BT - oblast masky rozostření"
+msgstr ""
 
 #: HISTORY_MSG_COLORTONING_LABREGION_OFFSET
+#, fuzzy
 msgid "CT - region offset"
-msgstr "BT - oblast posunu"
+msgstr "Barevné tónování - Obnovení"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_POWER
 msgid "CT - region power"
-msgstr "BT - oblast síly"
+msgstr ""
 
 #: HISTORY_MSG_COLORTONING_LABREGION_SATURATION
+#, fuzzy
 msgid "CT - Saturation"
-msgstr "BT- Nasycení"
+msgstr "HSV - Nasycení"
 
 #: HISTORY_MSG_COLORTONING_LABREGION_SHOWMASK
 msgid "CT - region show mask"
-msgstr "BT - oblast zobrazené masky"
+msgstr ""
 
 #: HISTORY_MSG_COLORTONING_LABREGION_SLOPE
 msgid "CT - region slope"
-msgstr "BT - oblast sklonu"
+msgstr ""
 
 #: HISTORY_MSG_DEHAZE_DEPTH
+#, fuzzy
 msgid "Dehaze - Depth"
-msgstr "Závoj  - Hloubka"
+msgstr "Změna rozměrů - Metoda"
 
 #: HISTORY_MSG_DEHAZE_ENABLED,TP_DEHAZE_LABEL
 msgid "Haze Removal"
-msgstr "Odstranění závoje"
+msgstr ""
 
 #: HISTORY_MSG_DEHAZE_SHOW_DEPTH_MAP
 msgid "Dehaze - Show depth map"
-msgstr "Závoj - Ukázat hloubkovou mapu"
+msgstr ""
 
 #: HISTORY_MSG_DEHAZE_STRENGTH
+#, fuzzy
 msgid "Dehaze - Strength"
-msgstr "Závoj - Síla"
+msgstr "Vlnka - Síla"
 
 #: HISTORY_MSG_DUALDEMOSAIC_AUTO_CONTRAST
 msgid "Dual demosaic - Auto threshold"
-msgstr "Dvojité demozajkování  - automatický práh"
+msgstr ""
 
 #: HISTORY_MSG_DUALDEMOSAIC_CONTRAST
+#, fuzzy
 msgid "Dual demosaic - Contrast threshold"
-msgstr "Dvojité demozajkování  - Práh kontrastu"
+msgstr "Doostření - Práh kontrastu"
 
 #: HISTORY_MSG_HISTMATCHING
 msgid "Auto-matched tone curve"
@@ -3050,8 +3064,9 @@ msgid "Dynamic Range Compression"
 msgstr "Komprese dynamického rozsahu"
 
 #: HISTORY_MSG_489
+#, fuzzy
 msgid "DRC - Detail"
-msgstr "DRC - Detail"
+msgstr "Vlnka - DH - Detaily"
 
 #: HISTORY_MSG_49
 msgid "DCP illuminant"
@@ -3978,35 +3993,39 @@ msgid "Transform"
 msgstr "Transformace"
 
 #: MAIN_TOOLTIP_BACKCOLOR0
+#, fuzzy
 msgid ""
 "Background color of the preview: <b>theme-based</b>\n"
 "Shortcut: <b>9</b>"
 msgstr ""
-"Barva pozadí náhledu: <b>dle motivu</b>\n"
+"Barva pozadí náhledu: <b>Dle motivu</b>\n"
 "Zkratka: <b>9</b>"
 
 #: MAIN_TOOLTIP_BACKCOLOR1
+#, fuzzy
 msgid ""
 "Background color of the preview: <b>black</b>\n"
 "Shortcut: <b>9</b>"
 msgstr ""
-"Barva pozadí náhledu: <b>černá</b>\n"
+"Barva pozadí náhledu: <b>Černá</b>\n"
 "Zkratka: <b>9</b>"
 
 #: MAIN_TOOLTIP_BACKCOLOR2
+#, fuzzy
 msgid ""
 "Background color of the preview: <b>white</b>\n"
 "Shortcut: <b>9</b>"
 msgstr ""
-"Barva pozadí náhledu: <b>bílá</b>\n"
+"Barva pozadí náhledu: <b>Bílá</b>\n"
 "Zkratka: <b>9</b>"
 
 #: MAIN_TOOLTIP_BACKCOLOR3
+#, fuzzy
 msgid ""
 "Background color of the preview: <b>middle grey</b>\n"
 "Shortcut: <b>9</b>"
 msgstr ""
-"Barva pozadí náhledu: <b>středně šedá</b>\n"
+"Barva pozadí náhledu: <b>Středně šedá</b>\n"
 "Zkratka: <b>9</b>"
 
 #: MAIN_TOOLTIP_BEFOREAFTERLOCK
@@ -4054,6 +4073,7 @@ msgstr ""
 "Zkratka: <b>&gt;</b>"
 
 #: MAIN_TOOLTIP_PREVIEWB
+#, fuzzy
 msgid ""
 "Preview the <b>blue channel</b>.\n"
 "Shortcut: <b>b</b>"
@@ -4062,6 +4082,7 @@ msgstr ""
 "Zkratka: <b>b</b>"
 
 #: MAIN_TOOLTIP_PREVIEWFOCUSMASK
+#, fuzzy
 msgid ""
 "Preview the <b>focus mask</b>.\n"
 "Shortcut: <b>Shift-f</b>\n"
@@ -4070,16 +4091,17 @@ msgid ""
 "zoom levels.\n"
 "Zoom out to 10-30% to improve detection accuracy on noisy images."
 msgstr ""
-"Náhled <b>masky zaostření</b>.\n"
+"Náhled <b>Masky zaostření</b>.\n"
 "Zkratka: <b>Shift-f</b>\n"
 "\n"
 "Více přesné u snímků s nízkou hloubkou ostrosti, nízkým šumem a na vyšších "
 "úrovních zvětšení.\n"
 "\n"
-"Použijte přiblížení v rozsahu 10 až 30% pro zlepšení přesnosti detekce u"
-" zašuměných snímků."
+"Pro zlepšení přesnosti detekce u zašuměných snímků použijte menší zvětšení, "
+"mezi 10 až 30%."
 
 #: MAIN_TOOLTIP_PREVIEWG
+#, fuzzy
 msgid ""
 "Preview the <b>green channel</b>.\n"
 "Shortcut: <b>g</b>"
@@ -4088,18 +4110,20 @@ msgstr ""
 "Zkratka: <b>g</b>"
 
 #: MAIN_TOOLTIP_PREVIEWL
+#, fuzzy
 msgid ""
 "Preview the <b>luminosity</b>.\n"
 "Shortcut: <b>v</b>\n"
 "\n"
 "0.299*R + 0.587*G + 0.114*B"
 msgstr ""
-"Náhled <b>svítivost</b>.\n"
+"Náhled <b>Svítivost</b>.\n"
 "Zkratka: <b>v</b>\n"
 "\n"
 "0.299*R + 0.587*G + 0.114*B"
 
 #: MAIN_TOOLTIP_PREVIEWR
+#, fuzzy
 msgid ""
 "Preview the <b>red channel</b>.\n"
 "Shortcut: <b>r</b>"
@@ -4108,14 +4132,15 @@ msgstr ""
 "Zkratka: <b>r</b>"
 
 #: MAIN_TOOLTIP_PREVIEWSHARPMASK
+#, fuzzy
 msgid ""
 "Preview the <b>sharpening contrast mask</b>.\n"
 "Shortcut: <b>p</b>\n"
 "\n"
 "Only works when sharpening is enabled and zoom >= 100%."
 msgstr ""
-"Náhled <b>masky kontrastu doostření</b>.\n"
-"Zkratka: <b>p</b>\n"
+"Náhled <b>Masky Kontrastu Doostření</b>.\n"
+"Zkratka: <b>Žádná</b>\n"
 "\n"
 "Funguje pouze pokud doostření zapnuto a přiblížení je >=100%."
 
@@ -4296,7 +4321,7 @@ msgstr "Soubor tmavého snímku"
 
 #: PARTIALPASTE_DEHAZE
 msgid "Haze removal"
-msgstr "Odstranění závoje"
+msgstr ""
 
 #: PARTIALPASTE_DETAILGROUP
 msgid "Detail Settings"
@@ -4463,16 +4488,19 @@ msgid "White balance"
 msgstr "Nastavení bílé"
 
 #: PREFERENCES_APPEARANCE_COLORPICKERFONT
+#, fuzzy
 msgid "Color picker font"
-msgstr "Písmo Průzkumníka barev"
+msgstr "Vybrat písmo pro Průzkumníka barev"
 
 #: PREFERENCES_APPEARANCE_CROPMASKCOLOR
+#, fuzzy
 msgid "Crop mask color"
-msgstr "Barva masky ořezu"
+msgstr "Barva masky ořezu/průhlednosti"
 
 #: PREFERENCES_APPEARANCE_MAINFONT
+#, fuzzy
 msgid "Main font"
-msgstr "Hlavní písmo"
+msgstr "Vyberte hlavní písmo"
 
 #: PREFERENCES_APPEARANCE_NAVGUIDECOLOR
 msgid "Navigator guide color"
@@ -4480,11 +4508,12 @@ msgstr "Barva vodítek navigátoru"
 
 #: PREFERENCES_APPEARANCE_THEME
 msgid "Theme"
-msgstr "Motiv"
+msgstr "Vzhled"
 
 #: PREFERENCES_APPEARANCE
+#, fuzzy
 msgid "Appearance"
-msgstr "Vzhled"
+msgstr "Odchylka"
 
 #: PREFERENCES_APPLNEXTSTARTUP
 msgid "restart required"
@@ -4495,8 +4524,9 @@ msgid "Use operating system's main monitor color profile"
 msgstr "Použít barevný profil hlavního monitoru z operačního systému"
 
 #: PREFERENCES_AUTOSAVE_TP_OPEN
+#, fuzzy
 msgid "Save tool collapsed/expanded state on exit"
-msgstr "Uložit stav sbalení/rozbalení nástrojů při ukončení"
+msgstr "Uložit stav sbalení/rozbalení nástrojů hned"
 
 #: PREFERENCES_BEHADDALLHINT
 msgid ""
@@ -4535,24 +4565,25 @@ msgid "Tungsten"
 msgstr "Wolfram"
 
 #: PREFERENCES_CACHECLEAR_ALLBUTPROFILES
+#, fuzzy
 msgid "Clear all cached files except for cached processing profiles:"
-msgstr "Smazat z mezipaměti všechny soubory mimo profilů zpracování:"
+msgstr "Částečné vložení profilu zpracování"
 
 #: PREFERENCES_CACHECLEAR_ALL
+#, fuzzy
 msgid "Clear all cached files:"
-msgstr "Smazat z mezipaměti všechny soubory :"
+msgstr "Vymazat z mezipaměti - úplně"
 
 #: PREFERENCES_CACHECLEAR_ONLYPROFILES
+#, fuzzy
 msgid "Clear only cached processing profiles:"
-msgstr "Smazat z mezipaměti pouze profily zpracování:"
+msgstr "Smazat profily zpracování"
 
 #: PREFERENCES_CACHECLEAR_SAFETY
 msgid ""
 "Only files in the cache are cleared. Processing profiles stored alongside "
 "the source images are not touched."
 msgstr ""
-"Jsou smazány pouze soubory ve vyrovnávací paměti. Profily zpracování uložené"
-" u zdrojových obrázků zůstávají nedotčeny."
 
 #: PREFERENCES_CACHEMAXENTRIES
 msgid "Maximum number of cache entries"
@@ -4587,8 +4618,9 @@ msgid "Black point compensation"
 msgstr "Kompenzace černého bodu"
 
 #: PREFERENCES_CROP_AUTO_FIT
+#, fuzzy
 msgid "Automatically zoom to fit the crop"
-msgstr "Automaticky přizpůsobit přiblížení ořezu"
+msgstr "Automaticky přizpůsobit přiblížení oblasti ořezu"
 
 #: PREFERENCES_CROP_GUIDES_FRAME,TP_CROP_GTFRAME
 msgid "Frame"
@@ -4603,6 +4635,7 @@ msgid "Guides shown when not editing the crop"
 msgstr "Zobrazovat vodítka i když neprobíhá ořez"
 
 #: PREFERENCES_CROP
+#, fuzzy
 msgid "Crop Editing"
 msgstr "Úprava ořezu"
 
@@ -4757,6 +4790,7 @@ msgid "Custom command line"
 msgstr "Vlastní příkazová řádka"
 
 #: PREFERENCES_EDITORLAYOUT
+#, fuzzy
 msgid "Editor layout"
 msgstr "Rozvržení editoru"
 
@@ -4770,7 +4804,7 @@ msgstr "Volby prohlížeče souborů / náhledů"
 
 #: PREFERENCES_FILEBROWSERTOOLBARSINGLEROW
 msgid "Compact toolbars in File Browser"
-msgstr "Kompaktní nástroje v Prohlížeči souborů"
+msgstr ""
 
 #: PREFERENCES_FILEFORMAT,SAVEDLG_FILEFORMAT
 msgid "File format"
@@ -5229,28 +5263,32 @@ msgid "Remember zoom % and pan offset"
 msgstr "Zapamatovat si procento přiblížení a posun obrázku"
 
 #: PREFERENCES_SAVE_TP_OPEN_NOW
+#, fuzzy
 msgid "Save tool collapsed/expanded state now"
-msgstr "Uložit současný stav sbalení/rozbalení nástrojů"
+msgstr "Uložit stav sbalení/rozbalení nástrojů hned"
 
 #: PREFERENCES_SELECTLANG
 msgid "Select language"
 msgstr "Volba jazyka"
 
 #: PREFERENCES_SERIALIZE_TIFF_READ_LABEL
+#, fuzzy
 msgid "Serialize reading of TIFF files"
-msgstr "Serializovat čtení TIFF souborů"
+msgstr "Serializovat čtení tiff souborů"
 
 #: PREFERENCES_SERIALIZE_TIFF_READ_TOOLTIP
+#, fuzzy
 msgid ""
 "Enabling this option when working with folders containing uncompressed TIFF "
 "files can increase performance of thumbnail generation."
 msgstr ""
-"Povolení této volby může zvýšit výkon generování náhledů ve složkách "
-"obsahujících mnoho nezkomprimovaných TIFF souborů."
+"thPovolení této volby může zvýšit výkon generování náhledů ve složkách "
+"obsahujících mnoho nezkomprimovaných tiff souborů."
 
 #: PREFERENCES_SERIALIZE_TIFF_READ
+#, fuzzy
 msgid "TIFF Read Settings"
-msgstr "Nastavení čtení TIFF"
+msgstr "Nastavení čtení Tiff"
 
 #: PREFERENCES_SET
 msgid "Set"
@@ -5748,16 +5786,9 @@ msgid ""
 "- Delete all pickers: <b>shift</b>+<b>right-click</b>.\n"
 "- Revert to hand tool: <b>right-click</b>."
 msgstr ""
-"Uzamykatelný Průzkumník barev\n"
-"\n"
-"Pokud je nástroj aktivní:\n"
-"- Přidání sondy: <b>levý-klik</b>.\n"
-"- Posunutí sondy: <b>levý-klik a posunutí</b>.\n"
-"- Smazání sondy: <b>pravý-klik</b>.\n"
-"- Smazání všech sond: <b>shift</b>+<b>pravý-klik</b>.\n"
-"- Návrat k nástroji posunu: <b>pravý-klik</b>."
 
 #: TOOLBAR_TOOLTIP_CROP
+#, fuzzy
 msgid ""
 "<b>Crop</b> selection.\n"
 "Shortcut: <b>c</b>\n"
@@ -5765,7 +5796,7 @@ msgid ""
 msgstr ""
 "<b>Oříznutí</b> výběru.\n"
 "Zkratka: <b>c</b>\n"
-"Výřez posunete pomocí <b>Shift + tažení myši</b>"
+"Oblast výřezu posunete pomocí <b>Shift + tažení myši</b>"
 
 #: TOOLBAR_TOOLTIP_HAND
 msgid ""
@@ -6123,8 +6154,9 @@ msgid "Flip vertically."
 msgstr "Překlopit vertikálně."
 
 #: TP_COLORAPP_ABSOLUTELUMINANCE
+#, fuzzy
 msgid "Absolute luminance"
-msgstr "Absolutní jas"
+msgstr "Absolutní jas scény"
 
 #: TP_COLORAPP_ALGO_ALL,TP_COLORTONING_LABREGION_CHANNEL_ALL
 msgid "All"
@@ -6185,7 +6217,7 @@ msgstr "Jas (O)"
 
 #: TP_COLORAPP_CAT02ADAPTATION_TOOLTIP
 msgid "When setting manually, values above 65 are recommended."
-msgstr "U ručního nastavení jsou doporučeny hodnoty nad 65."
+msgstr ""
 
 #: TP_COLORAPP_CIECAT_DEGREE
 msgid "CAT02 adaptation"
@@ -6346,8 +6378,9 @@ msgid "Lightness (J)"
 msgstr "Světlost (I)"
 
 #: TP_COLORAPP_MEANLUMINANCE
+#, fuzzy
 msgid "Mean luminance (Yb%)"
-msgstr "Střední jas (Yb%)"
+msgstr "Yb svítivost scény (%)"
 
 #: TP_COLORAPP_MODEL_TOOLTIP
 msgid ""
@@ -6509,12 +6542,13 @@ msgid "Tone mapping using CIECAM02"
 msgstr "Mapování tónů pomocí CIECAM02"
 
 #: TP_COLORAPP_VIEWING_ABSOLUTELUMINANCE_TOOLTIP
+#, fuzzy
 msgid ""
 "Absolute luminance of the viewing environment\n"
 "(usually 16 cd/m²)."
 msgstr ""
 "Absolutní jas prostředí prohlížení\n"
-"(obvykle 16 cd/m²)."
+"(obvykle 16cd/m²)."
 
 #: TP_COLORAPP_WBCAM
 msgid "WB [RT+CAT02] + [output]"
@@ -6557,12 +6591,14 @@ msgid "L*a*b* color correction grid"
 msgstr "Korekční mřížka L*a*b* barev"
 
 #: TP_COLORTONING_LABREGION_ABVALUES
+#, fuzzy
 msgid "a=%1 b=%2"
-msgstr "a=%1 b=%2"
+msgstr "TM Tm=%1 TM=%2"
 
 #: TP_COLORTONING_LABREGION_HUEMASK
+#, fuzzy
 msgid "H"
-msgstr "H "
+msgstr "H"
 
 #: TP_COLORTONING_LABREGION_CHANNEL_G,TP_RAWEXPOS_BLACK_GREEN
 msgid "Green"
@@ -6573,16 +6609,19 @@ msgid "Channel"
 msgstr "Kanál"
 
 #: TP_COLORTONING_LABREGION_CHROMATICITYMASK
+#, fuzzy
 msgid "C"
-msgstr "C"
+msgstr "CC"
 
 #: TP_COLORTONING_LABREGION_LIST_TITLE
+#, fuzzy
 msgid "Correction"
-msgstr "Oprava"
+msgstr "Úprava chromatické vady"
 
 #: TP_COLORTONING_LABREGION_MASKBLUR
+#, fuzzy
 msgid "Mask Blur"
-msgstr "Maska neostrosti"
+msgstr "Maska"
 
 #: TP_COLORTONING_LABREGION_MASK,TP_RETINEX_LABEL_MASK,TP_RETINEX_VIEW_MASK
 msgid "Mask"
@@ -6590,19 +6629,21 @@ msgstr "Maska"
 
 #: TP_COLORTONING_LABREGION_OFFSET
 msgid "Offset"
-msgstr "Posun"
+msgstr ""
 
 #: TP_COLORTONING_LABREGION_POWER
 msgid "Power"
-msgstr "Síla"
+msgstr ""
 
 #: TP_COLORTONING_LABREGION_SHOWMASK
+#, fuzzy
 msgid "Show mask"
-msgstr "Ukázat masku"
+msgstr "Maska ostrosti"
 
 #: TP_COLORTONING_LABREGIONS
+#, fuzzy
 msgid "Color correction regions"
-msgstr "Oblasti oprav barvy"
+msgstr "Barevné tónování - Korekce barev"
 
 #: TP_COLORTONING_LAB
 msgid "L*a*b* blending"
@@ -6773,8 +6814,9 @@ msgid "PPI="
 msgstr "PPI="
 
 #: TP_CROP_SELECTCROP
+#, fuzzy
 msgid "Select"
-msgstr "Vybrat"
+msgstr "Vybrat štítek"
 
 #: TP_CROP_W,TP_RESIZE_WIDTH
 msgid "Width"
@@ -6794,11 +6836,11 @@ msgstr "Poloměr"
 
 #: TP_DEHAZE_DEPTH
 msgid "Depth"
-msgstr "Hloubka"
+msgstr ""
 
 #: TP_DEHAZE_SHOW_DEPTH_MAP
 msgid "Show Depth Map"
-msgstr "Ukázat hloubkovou mapu"
+msgstr ""
 
 #: TP_DIRPYRDENOISE_ENH_TOOLTIP
 msgid ""
@@ -7870,14 +7912,17 @@ msgid "Lens / Geometry"
 msgstr "Objektiv / Geometrie"
 
 #: TP_LENSPROFILE_CORRECTION_AUTOMATCH
+#, fuzzy
 msgid "Automatically"
 msgstr "Automaticky"
 
 #: TP_LENSPROFILE_CORRECTION_LCPFILE
+#, fuzzy
 msgid "LCP file"
-msgstr "LCP soubor"
+msgstr "LCP Soubor"
 
 #: TP_LENSPROFILE_CORRECTION_MANUAL
+#, fuzzy
 msgid "Manually"
 msgstr "Ručně"
 
@@ -7894,24 +7939,29 @@ msgstr ""
 "factor fotoaparátu. Výsledek může být nesprávný."
 
 #: TP_LENSPROFILE_MODE_HEADER
+#, fuzzy
 msgid "Select the lens profile:"
-msgstr "Výběr profilu objektivu:"
+msgstr "Vybrat vstupní barevný profil..."
 
 #: TP_LENSPROFILE_USE_CA
+#, fuzzy
 msgid "Chromatic aberration"
 msgstr "Chromatická aberace"
 
 #: TP_LENSPROFILE_USE_GEOMETRIC
+#, fuzzy
 msgid "Geometric"
-msgstr "Geometrická"
+msgstr "Parametrická"
 
 #: TP_LENSPROFILE_USE_HEADER
+#, fuzzy
 msgid "Select distortions to correct:"
-msgstr "Vyberte zkreslení na opravu:"
+msgstr "Automatická korekce zkreslení"
 
 #: TP_LENSPROFILE_USE_VIGNETTING
+#, fuzzy
 msgid "Vignetting"
-msgstr "Vinětace"
+msgstr "Vinětace - oblast"
 
 #: TP_LOCALCONTRAST_DARKNESS
 msgid "Darkness level"
@@ -8057,13 +8107,6 @@ msgid ""
 "Each iteration will reduce the remaining chromatic aberration from the last "
 "iteration at the cost of additional processing time."
 msgstr ""
-"Toto nastavení je dostupné po zatržení volby \"Automatická korekce\".\n"
-"Automatická korekce  je konzervativní, což znamená, že často neodstraní úplně"
-" veškerou chromatickou aberaci..\n"
-"Pro korekci zbývající chromatické aberace můžete použít až pěti opakování"
-" automatické korekce..\n"
-"Každé opakování sníží zbývající chromatickou aberaci z předchozího běhu za"
-" cenu prodloužení celkového času zpracování."
 
 #: TP_RAWCACORR_AUTOIT,TP_SHARPENEDGE_PASSES,TP_SHARPENING_RLD_ITERATIONS
 msgid "Iterations"
@@ -8108,6 +8151,7 @@ msgstr ""
 "Pro soubory neobsahující Pixel Shift data je použita metoda AMaZE."
 
 #: TP_RAW_DUALDEMOSAICAUTOCONTRAST_TOOLTIP
+#, fuzzy
 msgid ""
 "If the checkbox is checked (recommended), RawTherapee calculates an optimum "
 "value based on flat regions in the image.\n"
@@ -8116,16 +8160,15 @@ msgid ""
 "To set the value manually, uncheck the checkbox first (reasonable values "
 "depend on the image)."
 msgstr ""
-"Pokud je zatrženo (doporučeno), RawTherapee vypočítá optimální hodnotu, jenž "
-"následně používá na ploché oblasti snímku.\n"
-"Pokud není na snímku plochý region nebo je snímek příliš zašuměný bude"
-" hodnota nastavena na 0.\n"
-"Pro ruční nastavení této hodnoty nejprve zrušte zatržení této volby (vhodné"
-" hodnoty závisí na hloubce ostrosti snímku)."
+"Pokud je povoleno (doporučeno), RawTherapee vypočítá optimální hodnotu, jenž "
+"následně používá jak CAT02 tak i celý CIECAM02.\n"
+"Zakažte, pokud si přejete zadat hodnotu ručně (doporučeny jsou hodnoty nad "
+"65)."
 
 #: TP_RAW_DUALDEMOSAICAUTOCONTRAST
+#, fuzzy
 msgid "Auto threshold"
-msgstr "Automatický práh"
+msgstr "Práh nasycení"
 
 #: TP_RAW_DUALDEMOSAICCONTRAST,TP_SHARPENING_CONTRAST,TP_SHARPENMICRO_CONTRAST
 msgid "Contrast threshold"
@@ -8482,12 +8525,14 @@ msgid "Width:"
 msgstr "Šířka:"
 
 #: TP_RETINEX_CONTEDIT_HSL
+#, fuzzy
 msgid "HSL histogram"
-msgstr "HSL histogram"
+msgstr "Histogram"
 
 #: TP_RETINEX_CONTEDIT_LAB
+#, fuzzy
 msgid "L*a*b* histogram"
-msgstr "L*a*b* histogram"
+msgstr "Histogram"
 
 #: TP_RETINEX_CURVEEDITOR_CD_TOOLTIP
 msgid ""
@@ -9795,7 +9840,7 @@ msgstr "LSI Lumelex 2040"
 
 #: TP_WBALANCE_PICKER
 msgid "Pick"
-msgstr "Nabrat"
+msgstr ""
 
 #: TP_WBALANCE_SHADE
 msgid "Shade"
