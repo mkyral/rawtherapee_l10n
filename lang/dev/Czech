@@ -42,6 +42,7 @@
 #41 2018-03-03 updated by mkyral
 #42 2018-10-24 updated by mkyral
 #43 2018-12-04 updated by mkyral
+#44 2018-12-13 updated by mkyral
 ABOUT_TAB_BUILD;Verze
 ABOUT_TAB_CREDITS;Zásluhy
 ABOUT_TAB_LICENSE;Licence
@@ -57,9 +58,10 @@ CURVEEDITOR_AXIS_IN;Vstup:
 CURVEEDITOR_AXIS_LEFT_TAN;LS:
 CURVEEDITOR_AXIS_OUT;Výstup:
 CURVEEDITOR_AXIS_RIGHT_TAN;RT:
+CURVEEDITOR_CATMULLROM;Elastická
 CURVEEDITOR_CURVE;Křivka
 CURVEEDITOR_CURVES;Křivky
-CURVEEDITOR_CUSTOM;Vlastní
+CURVEEDITOR_CUSTOM;Běžná
 CURVEEDITOR_DARKS;Tmavé
 CURVEEDITOR_EDITPOINT_HINT;Povolit úpravu hodnoty vstupně výstupního uzlu.\n\nKliknutím pravým tlačítkem na uzel jej vyberete. \nKliknutím pravým tlačítkem do prázdného místa zrušíte výběr.
 CURVEEDITOR_HIGHLIGHTS;Světla
@@ -1083,7 +1085,7 @@ PREFERENCES_APPEARANCE_COLORPICKERFONT;Písmo Průzkumníka barev
 PREFERENCES_APPEARANCE_CROPMASKCOLOR;Barva masky ořezu
 PREFERENCES_APPEARANCE_MAINFONT;Hlavní písmo
 PREFERENCES_APPEARANCE_NAVGUIDECOLOR;Barva vodítek navigátoru
-PREFERENCES_APPEARANCE_THEME;Vzhled
+PREFERENCES_APPEARANCE_THEME;Motiv
 PREFERENCES_APPLNEXTSTARTUP;vyžaduje restart aplikace
 PREFERENCES_AUTOMONPROFILE;Použít barevný profil hlavního monitoru z operačního systému
 PREFERENCES_AUTOSAVE_TP_OPEN;Uložit stav sbalení/rozbalení nástrojů při ukončení
@@ -1249,7 +1251,7 @@ PREFERENCES_SET;Nastavit
 PREFERENCES_SHOWBASICEXIF;Zobrazovat základní Exif informace
 PREFERENCES_SHOWDATETIME;Zobrazovat datum a čas
 PREFERENCES_SHOWEXPOSURECOMPENSATION;Přidat kompenzaci expozice
-PREFERENCES_SHOWFILMSTRIPTOOLBAR;Zobrazit lištu s filmovým pásem
+PREFERENCES_SHOWFILMSTRIPTOOLBAR;Lišta s filmovým pásem
 PREFERENCES_SHTHRESHOLD;Práh oříznutých stínů
 PREFERENCES_SINGLETAB;Mód jedné karty editoru
 PREFERENCES_SINGLETABVERTAB;Mód jedné karty editoru, svislé karty
@@ -1863,7 +1865,6 @@ TP_PREPROCESS_LINEDENOISE_DIRECTION_PDAF_LINES;Vodorovně pouze u PDAF řádků
 TP_PREPROCESS_LINEDENOISE_DIRECTION_VERTICAL;Svisle
 TP_PREPROCESS_NO_FOUND;Nic nenalezeno
 TP_PREPROCESS_PDAFLINESFILTER;Filtr PDAF linek
-TP_PREPROCESS_PDAFLINESFILTER_TOOLTIP;Pokouší se potlačit proužkový šum způsobený PDAF pixely na sensorech některých bezzrcadlovek Sony ve scénách s protisvětlem a viditelnými odlesky.
 TP_PRSHARPENING_LABEL;Doostření po změně velikosti
 TP_PRSHARPENING_TOOLTIP;Obrázek po zmenšení doostří. Funguje pouze pokud je použita "Lanczos" metoda zmenšení. Náhled výsledku není v tomto nástroji možný. Podívejte se do RawPedie pro návod k použití.
 TP_RAWCACORR_AUTO;Automatická korekce

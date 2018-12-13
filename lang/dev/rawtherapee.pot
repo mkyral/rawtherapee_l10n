@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://code.google.com/p/rawtherapee/issues/list\n"
-"POT-Creation-Date: 2018-12-04 06:27+0100\n"
+"POT-Creation-Date: 2018-12-13 20:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,6 +77,10 @@ msgstr ""
 msgid "RT:"
 msgstr ""
 
+#: CURVEEDITOR_CATMULLROM
+msgid "Flexible"
+msgstr ""
+
 #: CURVEEDITOR_CURVES
 msgid "Curves"
 msgstr ""
@@ -85,8 +89,8 @@ msgstr ""
 msgid "Curve"
 msgstr ""
 
-#: CURVEEDITOR_CUSTOM,ICCPROFCREATOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_ICM_WORKING_TRC_CUSTOM,TP_RAW_PIXELSHIFTMM_CUSTOM,TP_WBALANCE_CUSTOM
-msgid "Custom"
+#: CURVEEDITOR_CUSTOM,DYNPROFILEEDITOR_IMGTYPE_STD
+msgid "Standard"
 msgstr ""
 
 #: CURVEEDITOR_DARKS
@@ -191,10 +195,6 @@ msgstr ""
 
 #: DYNPROFILEEDITOR_IMGTYPE_PS,PARTIALPASTE_RAW_PIXELSHIFT,TP_RAW_PIXELSHIFT
 msgid "Pixel Shift"
-msgstr ""
-
-#: DYNPROFILEEDITOR_IMGTYPE_STD
-msgid "Standard"
 msgstr ""
 
 #: DYNPROFILEEDITOR_MOVE_DOWN
@@ -3041,6 +3041,10 @@ msgstr ""
 msgid "Copyright:"
 msgstr ""
 
+#: ICCPROFCREATOR_CUSTOM,PROFILEPANEL_PCUSTOM,TP_ICM_INPUTCUSTOM,TP_ICM_WORKING_TRC_CUSTOM,TP_RAW_PIXELSHIFTMM_CUSTOM,TP_WBALANCE_CUSTOM
+msgid "Custom"
+msgstr ""
+
 #: ICCPROFCREATOR_DESCRIPTION_ADDPARAM
 msgid "Append gamma and slope values to the description"
 msgstr ""
@@ -4566,7 +4570,7 @@ msgid "Append exposure compensation"
 msgstr ""
 
 #: PREFERENCES_SHOWFILMSTRIPTOOLBAR
-msgid "Show filmstrip toolbar"
+msgid "Show Filmstrip toolbar"
 msgstr ""
 
 #: PREFERENCES_SHTHRESHOLD
@@ -6596,10 +6600,6 @@ msgstr ""
 
 #: TP_PREPROCESS_NO_FOUND
 msgid "None found"
-msgstr ""
-
-#: TP_PREPROCESS_PDAFLINESFILTER_TOOLTIP
-msgid "Tries to suppress stripe noise caused by on-sensor PDAF pixels, occurring with some Sony mirrorless cameras on some backlit scenes with visible flare."
 msgstr ""
 
 #: TP_PRSHARPENING_TOOLTIP
